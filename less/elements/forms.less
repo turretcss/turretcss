@@ -1,0 +1,383 @@
+/* Forms */
+
+form {
+	.required-field {
+		margin-left: 2px;
+		color: @input_error_color;
+	}
+
+	.form-title {
+
+	}
+
+	.form-input-group {
+
+		label {
+			display: block;
+			margin: @label_margin;
+			color: @label_color;
+			font-size: @label_font_size;
+			font-size: 12px;
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			margin: 15px 0px;
+			margin-right: 10px;
+			display: inline-block;
+
+			& + p {
+				margin: 0;
+				display: inline-block;
+			}
+
+			& + label {
+				display: inline-block;
+			}
+		}
+
+		input[type="text"],
+		textarea {
+			display: block;
+			width: 100%;
+			padding: @input_padding;
+			font-size: @input_font_size;
+			line-height: @line_height;
+			color: @input_colour;
+			line-height: 100%;
+			border: @input_border;
+			background-color: @input_background;
+			background-image: none;
+			border: 1px solid @light_grey;
+
+			border: 1px solid @light_grey;
+		}
+
+		input[type="text"] {
+			height: @input_height;
+		}
+
+		select {
+			display: block;
+			width: 100%;
+			margin: 10px 0px;
+		}
+
+		fieldset {
+			margin: 0;
+			padding: 0;
+			border: none;
+
+			.all-select {
+				display: inline-block;
+
+				input[type="checkbox"] {
+					margin: 5px 0px;
+					margin-right: 2px;
+					display: inline-block;
+				}
+			}
+
+			legend {
+				display: inline-block;
+				font-size: @label_font_size;
+
+				color: @primary;
+				font-size: 12px;
+			}
+
+			.checkbox {
+				input[type="checkbox"] {
+					margin: 5px 0px;
+					margin-right: 2px;
+					display: inline-block;
+				}
+
+				label {
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+}
+
+/* Form Input */
+
+input[type="text"].form-input,
+input[type="search"].form-input,
+.form-input {
+	display: block;
+	width: 100%;
+	height: @input_height;
+	padding: @input_padding;
+	font-size: @input_font_size;
+	line-height: @line_height;
+	color: @input_colour;
+	line-height: 100%;
+	border: @input_border;
+	background-color: @input_background;
+	background-image: none;
+
+	//Override Normalise for Input Types
+	.border-box-sizing();
+
+
+	// Placeholder
+	.placeholder(@input_placeholder_color, @input_placeholder_font_size);
+
+	//Disabled
+	&:disabled {
+		background: @light_grey;
+	}
+
+	//Error
+	&.error {
+		color: @input_error_color;
+		border-color: @input_error_color;
+	}
+
+	// Reset height for `textarea`s
+	textarea& {
+		height: auto;
+	}
+
+	//Input Sizes
+	&.input-small {
+		font-size: @label_small_font_size;
+		height: @input_small_height;
+		padding: @input_small_padding;
+		.placeholder(@input_placeholder_color, @label_small_font_size);
+	}
+
+	&.input-medium {
+		font-size: @label_medium_font_size;
+		height: @input_medium_height;
+		padding: @input_medium_padding;
+		.placeholder(@input_placeholder_color, @label_medium_font_size);
+	}
+
+	&.input-large {
+		font-size: @label_large_font_size;
+		height: @input_large_height;
+		padding: @input_large_padding;
+		.placeholder(@input_placeholder_color, @label_large_font_size);
+
+		@media @medium {
+			font-size: @label_medium_font_size;
+			height: @input_medium_height;
+			padding: @input_medium_padding;
+			.placeholder(@input_placeholder_color, @label_medium_font_size);
+		}
+	}
+
+	&.input-extra-large {
+		font-size: @label_extra_large_font_size;
+		height: @input_extra_large_height;
+		padding: @input_extra_large_padding;
+		.placeholder(@input_placeholder_color, @label_extra_large_font_size);
+
+		@media @medium {
+			font-size: @label_large_font_size;
+			height: @input_large_height;
+			padding: @input_large_padding;
+			.placeholder(@input_placeholder_color, @label_large_font_size);
+		}
+	}
+}
+
+/* Input Group */
+
+.input-group {
+	position: relative; // For dropdowns
+	display: table;
+	border-collapse: separate; // prevent input groups from inheriting border styles from table cells when placed within a table
+
+	&.input-inline {
+		float: left;
+	}
+
+	//Undo Column Padding and Float
+	&[class*="column-"] {
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.form-input {
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.input-group-button,
+	.input-group .form-input {
+		display: table-cell;
+	}
+
+	//Input Group Button
+	.input-group-button {
+		position: relative;
+		font-size: 0;
+		width: 1%;
+
+		white-space: nowrap;
+		vertical-align: middle;
+
+		// Negative margin for spacing, position for bringing hovered/focused/actived
+		// element above the siblings.
+		> .button {
+			position: relative;
+			height: @input_medium_height;
+			min-width: @input_medium_height;
+
+			+ .button {
+				margin-left: -1px;
+			}
+
+			// Bring the "active" button to the front
+			&:hover,
+			&:focus,
+			&:active {
+				z-index: 2;
+			}
+		}
+
+		// Negative margin to only have a 1px border between the two
+		&:first-child > .button {
+			margin-right: -1px;
+		}
+
+		&:last-child > .button {
+			margin-left: -1px;
+		}
+
+		//Button Sizes
+		&.input-group-button-small > .button {
+			font-size: @label_small_font_size;
+			height: @input_small_height;
+			min-width: @input_small_height;
+		}
+
+		&.input-group-button-medium > .button {
+			font-size: @label_medium_font_size;
+			height: @input_medium_height;
+			min-width: @input_medium_height;
+		}
+
+		&.input-group-button-large > .button {
+			font-size: @label_large_font_size;
+			height: @input_large_height;
+			min-width: @input_large_height;
+
+			@media @medium {
+				font-size: @label_medium_font_size;
+				height: @input_medium_height;
+				min-width: @input_medium_height;
+			}
+		}
+
+		&.input-group-button-extra-large > .button {
+			font-size: @label_extra_large_font_size;
+			height: @input_extra_large_height;
+			min-width: @input_extra_large_height;
+
+			@media @medium {
+				font-size: @label_large_font_size;
+				height: @input_large_height;
+				min-width: @input_large_height;
+			}
+		}
+	}
+
+}
+
+
+/* Checkbox */
+
+/*
+.input-checkbox {
+	&:not(:checked),
+	&:checked {
+		position: absolute;
+		left: -9999px;
+	}
+
+	&:not(:checked) + label,
+	&:checked + label {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		min-height: @input_checkbox_size;
+		padding-left: (@input_checkbox_size + (@gutter * 2));
+		padding-right: (@gutter * 2);
+		cursor: pointer;
+		margin-right: 30px;
+		font-size: 14px;
+		color: @blue;
+
+		@media @small {
+			padding-right: 0px;
+		}
+	}
+
+	&:not(:checked) + label:before,
+	&:checked + label:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		.square(@input_checkbox_size + (@input_checkbox_border_width * 2));
+		border: @input_checkbox_border;
+		border-width: @input_checkbox_border_width;
+		.gradient(@primary, 50%, #0D5FB1, 50%);
+		.border-radius(@input_checkbox_border_radius);
+		.box-shadow(0px 0px 0px 1px #AAAAAA);
+	}
+
+	&.input-checkbox-light {
+		&:not(:checked) + label:before,
+		&:checked + label:before {
+			.gradient(#199CD3, 50%, #137DC0, 50%);
+		}
+	}
+
+	//Checked
+	&:not(:checked) + label:after,
+	&:checked + label:after {
+		position: absolute;
+		top: (@input_checkbox_size + (@input_checkbox_border_width * 2) - @input_checkbox_check_size)/2;
+		left: (@input_checkbox_size + (@input_checkbox_border_width * 2)- @input_checkbox_check_size)/2;
+		color: @white;
+		line-height: 1;
+		font-size: @input_checkbox_check_size;
+		content: @icon_tick;
+		font-family: @icon_font_family;
+		.transition(all @transition_fast ease-in-out);
+	}
+
+	&:not(:checked) + label:after {
+		.opacity(0);
+		.scale(0);
+	}
+
+	&:checked + label:after {
+		.opacity(1);
+		.scale(1);
+	}
+
+	//Disabled
+	&:disabled:not(:checked),
+	&:disabled:checked {
+		+ label:before {
+			border: @input_disabled_border;
+			background-color: @input_disabled_background;
+		}
+	}
+
+	&:disabled + label,
+	&:disabled:checked + label:after {
+		color: @input_disabled_color;
+	}
+}
+*/

@@ -1,0 +1,229 @@
+/* Buttons */
+
+.button {
+	.button();
+
+	//Structure
+	&.block {
+		.button-block();
+	}
+
+	//Sizes
+	&.small {
+		.button-small();
+	}
+
+	&.medium {
+		.button-medium();
+	}
+
+	&.large {
+		.button-large();
+	}
+
+	//Styles
+	&.line {
+		color: @primary;
+		border: solid @light_grey;
+		border-width: 1px 0px;
+
+		&:hover,
+		&:focus {
+
+		}
+
+		&.action {
+			&:after {
+				color: @dark_grey;
+			}
+
+			&:hover,
+			&:focus {
+				padding-left: 20px;
+				color: @grey;
+
+				&:after {
+					color: @primary;
+				}
+			}
+		}
+	}
+
+	&.grey {
+		.button-grey();
+	}
+
+	&.primary {
+		.button-primary();
+	}
+
+	&.dark {
+		color: @white;
+		background: @dark;
+
+		&:hover,
+		&:focus {
+
+		}
+	}
+
+	&.text {
+		color: @primary;
+		background: transparent;
+
+		&:hover,
+		&:focus {
+
+		}
+	}
+
+	&.action {
+		.button-action();
+	}
+
+	&.overview {
+
+		&.action {
+			&:after {
+				color: @dark_grey;
+			}
+
+			&:hover,
+			&:focus {
+				.transition(color @transition_fast ease-in-out);
+
+				&:after {
+					color: @white;
+				}
+			}
+		}
+	}
+
+	&.clear {
+		position: relative;
+		color: @primary;
+		font-size: 12px;
+		height: 40px;
+		padding-right: 50px;
+		text-transform: uppercase;
+
+
+		&:after {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -20px;
+			content: @icon_close;
+			color: @white;
+			padding: 14px;
+			font-family: @icon_font_family;
+			margin-left: 15px;
+			background: @primary;
+		}
+
+		&:hover,
+		&:focus {
+
+			&:after {
+
+			}
+		}
+	}
+
+	&.close {
+		position: relative;
+		background: @primary;
+
+		&:after {
+			content: @icon_close;
+			color: @white;
+			font-size: 15px;
+			width: 15px;
+			height: 15px;
+			text-align: center;
+			font-family: @icon_font_family;
+			vertical-align: middle;
+		}
+
+		&:hover,
+		&:focus {
+
+			&:after {
+
+			}
+		}
+	}
+
+	&.map {
+		position: relative;
+		color: @primary;
+
+		&:after {
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin-top: -16px;
+			color: @primary;
+			content: @icon_map;
+			font-size: 32px;
+			font-family: @icon_font_family;
+			margin-left: 15px;
+		}
+
+		&:hover,
+		&:focus {
+			padding-left: 20px;
+			color: @dark_grey;
+
+			&:after {
+				color: @dark_grey;
+			}
+		}
+	}
+
+	&:disabled {
+		color: @white;
+		background: @light_grey;
+	}
+
+}
+
+&.play {
+	display: block;
+	position: relative;
+	.square(@button_play_size);
+
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-family: @icon_font_family;
+		content: @icon_play;
+		color: @white;
+		font-size: @button_play_icon_size;
+		//padding: (100px - 40px)/2;
+		@offset: (@button_play_size/2) - (@button_play_icon_size/2);
+		padding: @offset (@offset - 2px) @offset (@offset + 2px); //Align Play Icon in Centre
+		.gradient(#0F6BBB, 50%, #0D5FB1, 50%);
+		.border-radius(50%);
+	}
+
+	&:hover,
+	&:focus {
+
+		&:after {
+
+		}
+	}
+
+	@media @small {
+		.square(@button_play_size/2);
+		margin: 5px auto;
+
+		&:after {
+			font-size: (@button_play_icon_size/2);
+			@offset: (@button_play_size/4) - (@button_play_icon_size/4);
+			padding: @offset (@offset - 2px) @offset (@offset + 2px);
+		}
+	}
+}

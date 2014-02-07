@@ -1,0 +1,130 @@
+/* Tools */
+
+.tools {
+	margin: 10px 0px;
+	padding: 0;
+	color: @tools_color;
+	list-style: none;
+	display: block;
+	position: relative;
+
+	li {
+		display: inline-block;
+
+		a {
+			margin-right: @tools_margin_right;
+			.transition(all @transition_fast ease-in-out);
+
+			.icon {
+				margin-right: 2px;
+				font-size: @tools_icon_size;
+				vertical-align: middle;
+
+				&.icon-print {
+					font-size: (@tools_icon_size + 6px);
+				}
+
+				&.icon-share {
+					font-size: (@tools_icon_size - 4px);
+				}
+			}
+
+			.text {
+				font-size: @tools_font_size;
+
+				text-transform: uppercase;
+				vertical-align: middle;
+			}
+
+			&.share	{
+				margin-right: 5px;
+				outline: none;
+
+				&:after {
+					float: right;
+					font-size: 8px;
+					margin: 5px 0px;
+					color: @dark_grey;
+					content: @icon_angle_down;
+					font-family: @icon_font_family;
+				}
+			}
+
+			&:hover,
+			&:focus {
+				color: @primary;
+			}
+		}
+
+		&.open {
+
+			.share:after {
+				content: @icon_angle_up;
+			}
+
+			.share-dropdown {
+				visibility: visible;
+				margin-top: 20px;
+				.opacity(1);
+			}
+		}
+
+		.share-dropdown {
+			z-index: @dropdown_z_index;
+			right: 0;
+			left: 30%;
+			margin: 0;
+			padding: 10px 0px;
+			margin-top: 0px;
+			position: absolute;
+			visibility: hidden;
+			background: @primary;
+			.opacity(0);
+			.transition(all @transition_fast ease-in-out);
+
+			//Arrow
+			&:before {
+				position: absolute;
+				top: -12px;
+				right: 20px;
+				width: 0;
+				height: 0;
+				border-right: 12px solid transparent;
+				border-bottom: 12px solid @primary;
+				border-left: 12px solid transparent;
+				content: ' ';
+			}
+
+			li {
+
+				a {
+					margin: 0;
+					padding: 10px 15px;
+					display: block;
+					font-size: 11px;
+					line-height: 16px;
+					text-transform: uppercase;
+					color: @white;
+
+					.transition(all @transition_fast ease-in-out);
+
+					.icon {
+						font-size: 16px;
+						margin-right: 5px;
+					}
+
+					&:hover,
+					&:focus {
+						color: darken(@white, 20%);
+
+						.icon {
+
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+}

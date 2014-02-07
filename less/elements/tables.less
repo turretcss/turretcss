@@ -1,0 +1,123 @@
+/* Tables */
+
+table {
+	&.table {
+
+		thead {
+
+			tr {
+
+				th {
+					padding: 15px 20px;
+					min-width: 200px;
+					font-size: @tables_head_font_size;
+					color: @primary;
+					text-align: left;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		tbody {
+
+			tr {
+
+				td {
+					padding: 25px 20px 15px 20px;
+					color: @grey;
+					font-size: @tables_body_font_size;
+					line-height: @tables_body_line_height;
+					vertical-align: text-top;
+				}
+			}
+		}
+
+		&.table-bordered {
+			border: @tables_border;
+
+			td {
+				padding: @tables_cell_padding;
+				border: @tables_border;
+			}
+		}
+
+		&.table-block {
+
+			th {
+				color: @white;
+				background: @primary;
+
+			}
+
+			td {
+
+			}
+		}
+
+		&.table-responsive {
+			@media @medium {
+
+				//Force table to not be like tables anymore
+				table, thead, tbody, th, td, tr {
+					display: block;
+				}
+
+				//Hide table headers (but not display: none;, for accessibility)
+				thead tr {
+					position: absolute;
+					top: -9999px;
+					left: -9999px;
+				}
+
+				tr {
+					margin-bottom: @gutter;
+					border: 1px solid @light_grey;
+				}
+
+				td {
+					//Behave  like a "row"
+					border: none;
+					padding: @gutter;
+					padding-top: (@gutter * 3.5);
+					position: relative;
+
+					//Display Title
+					&:first-child {
+						padding-top: @gutter;
+						color: @white;
+						background: @primary;
+
+						text-transform: uppercase;
+					}
+				}
+
+				td:before {
+					//Now like a table header
+					position: absolute;
+					//Top/left values mimic padding
+					top: @gutter;
+					left: @gutter;
+					width: 100%;
+					white-space: nowrap;
+					color: @primary;
+
+					//Display Title
+					&:first-child {
+						display: none;
+					}
+				}
+
+				/// Label the data
+				//td:nth-of-type(1):before { content: attr(data-label); }
+				td:nth-of-type(2):before { content: attr(data-label); }
+				td:nth-of-type(3):before { content: attr(data-label); }
+				td:nth-of-type(4):before { content: attr(data-label); }
+				td:nth-of-type(5):before { content: attr(data-label); }
+				td:nth-of-type(6):before { content: attr(data-label); }
+				td:nth-of-type(7):before { content: attr(data-label); }
+				td:nth-of-type(8):before { content: attr(data-label); }
+				td:nth-of-type(9):before { content: attr(data-label); }
+			}
+		}
+	}
+}

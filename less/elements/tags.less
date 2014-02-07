@@ -1,0 +1,25 @@
+/* Tags */
+
+.tag {
+	float: left;
+	margin: @tags_margin;
+	padding: @tags_padding;
+	font-size: @tags_font_size;
+	border: none;
+	color: @tags_color;
+	background: @tags_background;
+	.border-radius(@tags_border_radius);
+
+	&:hover,
+	&:focus {
+		color: @tags_hover_color;
+		background: @tags_hover_background;
+	}
+
+	&.active,
+	&:active {
+		color: @tags_active_color;
+		background: @tags_active_background;
+	}
+
+}

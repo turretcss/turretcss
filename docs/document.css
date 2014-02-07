@@ -1,0 +1,108 @@
+body {
+
+}
+
+.navbar .logo {
+	font-family: 'Ziggurat A', 'Ziggurat B';
+	font-weight: 800;
+	font-style: italic;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.navbar .nav a {
+	font-weight: 600;
+}
+
+.page-header .page-title {
+	font-family: 'Ziggurat A', 'Ziggurat B';
+	font-weight: 800;
+	font-style: italic;
+	font-size: 64px;
+	color: #FFFFFF;
+}
+
+p {
+	font-weight: 300;
+	color: #444444;
+}
+
+.content {
+	padding: 35px 0px;
+}
+
+code {
+	padding: 2px 3px;
+	font-size: 0.9em;
+	color: #DD1648;
+	background: #F8F8F8;
+}
+
+.section-title {
+	margin: 20px 0px 15px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.section-sub-title {
+	margin: 20px 0px 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1B2A3C;
+	text-transform: uppercase;
+}
+
+.grid {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+}
+
+.grid .swatch {
+	padding: 10px;
+}
+
+.color {
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.color .swatch {
+	padding: 5px;
+	border: 1px solid #eee;
+	height: 120px;
+	margin-bottom: 5px;
+}
+
+td.is-clear,
+td.is-float {
+	text-transform: capitalize;
+}
+
+td.is-clear {
+	font-weight: 600;
+}
+
+td.is-float {
+	color: #CCCCCC !important;
+	background: #EEEEEE;
+}
+
+td.is-visible {
+	font-weight: 600;
+}
+
+td.is-hidden {
+	color: #CCCCCC !important;
+	background: #EEEEEE;
+}
+
+.icon {
+	text-align: center;
+}
+
+.icon span {
+	line-height: 50px;
+	font-size: 40px;
+}

@@ -1,0 +1,101 @@
+/* Fonts */
+
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: @headings_color;
+	font-weight: @headings_font_weight;
+	font-family: @headings_font_family;
+	line-height: @headings_line_height;
+
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	color: @headings_small_color;
+	font-size: @headings_small_size;
+}
+
+
+h1 {
+	font-size: @font_size_h1;
+	@media @small { font-size: @font_size_h1_small; }
+	@media @only_medium { font-size: @font_size_h1_medium; }
+}
+
+h2 {
+	font-size: @font_size_h2;
+	@media @small { font-size: @font_size_h2_small; }
+	@media @only_medium { font-size: @font_size_h2_medium; }
+}
+
+h3 {
+	font-size: @font_size_h3;
+	@media @small { font-size: @font_size_h3_small; }
+	@media @only_medium { font-size: @font_size_h3_medium; }
+}
+
+h4 {
+	font-size: @font_size_h4;
+	@media @small { font-size: @font_size_h4_small; }
+	@media @only_medium { font-size: @font_size_h4_medium; }
+}
+
+h5 {
+	font-size: @font_size_h5;
+	@media @small { font-size: @font_size_h5_small; }
+	@media @only_medium { font-size: @font_size_h5_medium; }
+}
+
+h6 {
+	font-size: @font_size_h6;
+	@media @small { font-size: @font_size_h6_small; }
+	@media @only_medium { font-size: @font_size_h6_medium; }
+}
+
+p {
+	font-size: @font_size_p;
+	line-height: @line_height;
+
+	@media @small { font-size: @font_size_p_small; }
+	@media @only_medium { font-size: @font_size_p_medium; }
+}
+
+ul li,
+ol, li {
+	font-size: @font_size_p;
+	line-height: @line_height;
+
+
+	@media @small {
+		font-size: @font_size_p_small;
+	}
+
+	@media @only_medium {
+		font-size: @font_size_p_medium;
+	}
+}
+
+.lead {
+	color: @primary;
+	font-size: @font_size_lead;
+
+	@media @small {
+		font-size: @font_size_lead_small;
+	}
+
+	@media @only_medium {
+		font-size: @font_size_lead_medium;
+	}
+}
+
+blockquote {
+
+}
+
+pre {
+
+}

@@ -1,0 +1,62 @@
+/* Side Nav */
+
+.side-nav {
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: block;
+			list-style: none;
+
+
+			a {
+				position: relative;
+				display: block;
+				padding: @sidenav_padding;
+				border-bottom: @sidenav_border_bottom;
+				height: @sidenav_height;
+				color: @sidenav_color;
+				vertical-align: middle;
+				font-size: @sidenav_font_size;
+				line-height: @sidenav_height;
+				overflow: hidden;
+
+				@media @medium {
+					font-size: @sidenav_font_size - 3;
+				}
+
+				.icon {
+					margin-right: 15px;
+					color: @sidenav_divider_color;
+					vertical-align: middle;
+					font-size: @sidenav_divider_size;
+				}
+
+				&:hover,
+				&:focus {
+					color: @primary;
+					margin-left: 3px;
+					.transition(all @transition_fast ease-in-out);
+				}
+
+				&.active {
+					background: @primary;
+					color: @white;
+					border-bottom: none;
+
+					.icon {
+						color: @sidenav_hover_divider_color;
+					}
+
+					&:hover,
+					&:focus {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+

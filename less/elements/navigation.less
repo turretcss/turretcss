@@ -1,0 +1,155 @@
+/* Navbar */
+
+
+.navbar {
+	padding: @navbar_padding;
+	background: @navbar_background;
+	min-height: @navbar_min_height;
+	font-style: @navbar_font_size;
+	overflow: hidden;
+
+	.logo {
+
+		color: @nav_color;
+		line-height: @navbar_min_height;
+		text-decoration: none;
+		margin-left: 10px;
+
+		img {
+			height: @navbar_min_height;
+			width: auto;
+		}
+	}
+
+	.nav-header {
+
+
+		.nav-toggle {
+			z-index: 99;
+			display: none;
+			float: right;
+			margin: 10px;
+			padding: 4px;
+			border: none;
+			background: transparent;
+
+			.icon-bar {
+				display: block;
+				margin-top: 4px;
+				width: 22px;
+				height: 2px;
+				background: @dark;
+				&:last-child {
+					margin-bottom: 4px;
+				}
+			}
+		}
+	}
+
+	.nav-collapse {
+
+	}
+
+	.nav {
+		padding: 0;
+		margin: 0;
+		margin-right: 10px;
+
+		li {
+			list-style: none;
+			display: inline-block;
+
+			a {
+				margin-left: 10px;
+				font-size: @nav_font_size;
+				font-style: @nav_font_style;
+				color: @nav_color;
+				line-height: @navbar_min_height;
+				text-decoration: @nav_text_decoration;
+				text-transform: @nav_text_transform;
+
+				&:hover,
+				&:focus {
+					color: @nav_hover_color;
+				}
+
+				&.active,
+				&:active {
+					color: @nav_active_color;
+					text-decoration: @nav_active_text_decoration;
+				}
+			}
+		}
+	}
+
+	&.dark {
+		background: @navbar_dark_background;
+
+		.logo {
+			color: @nav_dark_color;
+		}
+
+		.nav-toggle {
+
+			.icon-bar {
+				background: @white;
+			}
+
+		}
+
+		.nav {
+
+			li {
+
+				a {
+					color: @nav_dark_color;
+					&:hover,
+					&:focus {
+						color: @nav_dark_hover_color;
+					}
+				}
+			}
+		}
+
+	}
+
+	&.fixed {
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	@media @small {
+		.nav-toggle {
+			display: block !important;
+		}
+
+		.nav-header {
+			overflow: hidden;
+		}
+
+		.nav-collapse {
+			display: none;
+		}
+
+		.nav {
+			width: 100%;
+			text-align: center;
+
+			li {
+				display: block;
+
+				a {
+
+					&:hover,
+					&:focus {
+						color: @nav_color;
+					}
+				}
+			}
+		}
+
+	}
+}

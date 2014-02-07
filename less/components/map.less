@@ -1,0 +1,130 @@
+/* Map */
+
+#map {
+	width: 100%;
+
+	//Bug Fix for Infowindow
+	img {
+		max-width:none
+	}
+
+	@media @small {
+		height: 300px;
+	}
+
+	@media @only_medium {
+		height: 380px;
+	}
+
+	@media @large {
+		height: 500px;
+
+		&.project-detail-map {
+			height: 256px;
+		}
+	}
+
+	@media @extra_large {
+		height: 600px;
+
+		&.project-detail-map {
+			height: 320px;
+		}
+	}
+}
+
+
+//Marker Label
+.marker-label {
+	z-index: @map_marker_label_z_index;
+	position: absolute;
+	display: block;
+	margin-top: -55px;
+	margin-left: -50px;
+	width: 100px;
+	height: 50px;
+	font-size: 32px !important;
+	text-align: center;
+	color: @white;
+	white-space: nowrap;
+
+	.project {
+		margin-top: 14px;
+		display: block;
+	}
+
+	.contact {
+
+	}
+}
+
+
+//Infobox
+.infobox {
+	z-index: 99;
+	margin: 0;
+	padding: 10px 20px;
+	width: 250px;
+	height: 140px;
+	font-size: 14px;
+	color: @grey;
+	background: @white;
+
+	.infobox-inner {
+		padding: 10px 0px;
+		height: 120px;
+		overflow: scroll;
+		.box-shadow(inset 0px -15px 10px -8px @white);
+
+		p {
+			font-size: 12px;
+		}
+
+		.infobox-title {
+			color: @primary;
+			text-transform: uppercase;
+
+		}
+	}
+
+	&:after {
+		z-index: 99;
+		position: absolute;
+		width: 0;
+		height: 0;
+		content: ' ';
+		left: 50%;
+		bottom: -20px;
+		margin-left: -20px;
+		border-left: 20px solid transparent;
+		border-top: 20px solid @white;
+		border-right: 20px solid transparent;
+	}
+}
+
+
+//Controls
+.map-controls {
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 15px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: @white;
+	background: @dark;
+	.transition(all @transition_fast ease-in-out);
+
+	&:hover,
+	&:focus {
+		background: @dark_grey;
+	}
+
+	&.map-controls-zoom-in {
+		margin-top: 10px;
+	}
+
+	&.map-controls-zoom-out {
+
+	}
+}

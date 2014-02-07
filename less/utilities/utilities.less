@@ -1,0 +1,246 @@
+/* Utilities */
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	.border-box-sizing();
+}
+
+a {
+	text-decoration: none;
+	color: @link_color;
+}
+
+hr {
+	margin: 10px 0px;
+	border: 0;
+    height: 1px;
+    background: @light_grey;
+}
+
+.clearfix {
+	.clearfix();
+}
+
+.center-block {
+	.center-block();
+}
+
+.right {
+	float: right !important;
+
+	&.extra-large-clear-right {
+		@media @extra_large {
+			float: none !important;
+		}
+	}
+
+	&.large-clear-right {
+		@media @only_large {
+			float: none !important;
+		}
+	}
+
+	&.medium-clear-right {
+		@media @only_medium {
+			float: none !important;
+		}
+	}
+
+	&.small-clear-right {
+		@media @small {
+			float: none !important;
+		}
+	}
+}
+
+.left {
+	float: left !important;
+
+	&.extra-large-clear-left {
+		@media @extra_large {
+			float: none !important;
+		}
+	}
+
+	&.large-clear-left {
+		@media @only_large {
+			float: none !important;
+		}
+	}
+
+	&.medium-clear-left {
+		@media @only_medium {
+			float: none !important;
+		}
+	}
+
+	&.small-clear-left {
+		@media @small {
+			float: none !important;
+		}
+	}
+}
+
+.hide {
+	.hide();
+}
+
+.show {
+	.show();
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.text-hide {
+	.text-hide();
+}
+
+.affix {
+	position: fixed;
+}
+
+/* List Columns */
+
+.columns-2 {
+	.column-count(2);
+	.column-gap(@gutter * 2);
+}
+
+.columns-3 {
+	.column-count(3);
+	.column-gap(@gutter * 2);
+}
+
+.columns-4 {
+	.column-count(4);
+	.column-gap(@gutter * 2);
+}
+
+//Fallback for no Column Count Support
+.no-csscolumns {
+	.columns-2 li {
+		float: left;
+		width: 50%;
+	}
+
+	.columns-3 li {
+		float: left;
+		width: 33%;
+	}
+
+	.columns-4 li {
+		float: left;
+		width: 33%;
+	}
+}
+
+/* removes the dotted border */
+:focus{
+    outline:0;
+}
+
+/* Remove border radius from mobile safari */
+input[type="text"],
+input[type="search"], {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+/* Remove webkit glow */
+textarea, input {
+	outline: none;
+}
+
+/* Hidden Classes */
+
+.hidden-extra-large {
+	@media @extra_large {
+		.hide();
+	}
+}
+
+.hidden-large {
+	@media @only_large {
+		.hide();
+	}
+}
+
+.hidden-medium {
+	@media @only_medium {
+		.hide();
+	}
+}
+
+.hidden-medium-landscape {
+	@media @medium_landscape {
+		.hide();
+	}
+}
+
+.hidden-small {
+	@media @small {
+		.hide();
+	}
+}
+
+.hidden-print {
+	@media print {
+		.hide();
+	}
+}
+
+.hidden-screen {
+	@media screen {
+		.hide();
+	}
+}
+
+/* Visible Classes */
+
+.visible-extra-large {
+	@media @extra_large {
+		.show();
+	}
+}
+
+.visible-large {
+	@media @only_large {
+		.show();
+	}
+}
+
+.visible-medium {
+	@media @only_medium {
+		.show();
+	}
+}
+
+.visible-medium-landscape {
+	@media @medium_landscape {
+		.show();
+	}
+}
+
+.visible-small {
+	@media @small {
+		.show();
+	}
+}
+
+.visible-print {
+	@media print {
+		.show();
+	}
+}
+
+.visible-screen {
+	@media screen {
+		.show();
+	}
+}
