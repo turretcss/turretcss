@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Turret</title>
+	<title>Turret Docs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 	<script src="../lib/modernizr-2.6.2.min.js"></script>
@@ -11,7 +11,7 @@
 	<!-- <link rel="stylesheet" type="text/less" href="less/main.less" /> -->
 	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6120872/680164/css/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="../css/main.css" />
-	<link rel="stylesheet" type="text/css" href="document.css" />
+	<link rel="stylesheet" type="text/css" href="css/document.css" />
 
 	<!-- Syntax Higlighting -->
 	<link rel="stylesheet" href="highlight/styles/github.css">
