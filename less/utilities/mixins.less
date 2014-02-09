@@ -129,10 +129,7 @@
 	color: @dark;
 	.border-radius(@buttons_border_radius);
 	.transition(all @transition_fast ease-in-out);
-
-	&:after {
-		.transition(all @transition_fast ease-in-out);
-	}
+	.transition-property(~"background, color");
 }
 
 //Button Grey
@@ -143,6 +140,7 @@
 	&:hover {
 		background: @grey;
 		.transition(all @transition_fast ease-in-out);
+		.transition-property(~"background, color");
 	}
 }
 
@@ -153,7 +151,8 @@
 
 	&:hover {
 		background: @grey;
-		.transition(all @transition_fast ease-in-out);
+		.transition(background @transition_fast ease-in-out);
+		.transition-property(~"background, color");
 	}
 }
 
@@ -204,13 +203,14 @@
 		font-size: 12px;
 		font-family: @icon_font_family;
 		margin-left: 15px;
+		.transition(all @transition_fast ease-in-out);
+		.transition-property(~"background, color");
 	}
 
 	&:hover,
 	&:focus {
 		&:after {
 			color: @white;
-			.transition(color @transition_fast ease-in-out);
 		}
 	}
 }

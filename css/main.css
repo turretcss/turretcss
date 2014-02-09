@@ -2513,13 +2513,11 @@ input {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-  }
-  .button:after {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition-property: background, color;
+    -moz-transition-property: background, color;
+    -ms-transition-property: background, color;
+    -o-transition-property: background, color;
+    transition-property: background, color;
   }
   .button.block {
     width: 100%;
@@ -2566,6 +2564,11 @@ input {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    -webkit-transition-property: background, color;
+    -moz-transition-property: background, color;
+    -ms-transition-property: background, color;
+    -o-transition-property: background, color;
+    transition-property: background, color;
   }
   .button.primary {
     color: #ffffff;
@@ -2573,11 +2576,16 @@ input {
   }
   .button.primary:hover {
     background: #485364;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+    -webkit-transition-property: background, color;
+    -moz-transition-property: background, color;
+    -ms-transition-property: background, color;
+    -o-transition-property: background, color;
+    transition-property: background, color;
   }
   .button.dark {
     color: #ffffff;
@@ -2603,15 +2611,20 @@ input {
     font-size: 12px;
     font-family: icons;
     margin-left: 15px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition-property: background, color;
+    -moz-transition-property: background, color;
+    -ms-transition-property: background, color;
+    -o-transition-property: background, color;
+    transition-property: background, color;
   }
   .button.action:hover:after,
   .button.action:focus:after {
     color: #ffffff;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
   }
   .button.overview.action:after {
     color: #1b2a3c;
