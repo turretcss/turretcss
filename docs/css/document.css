@@ -84,12 +84,14 @@ td.is-clear {
 	font-weight: 600;
 }
 
-td.is-float {
+td.is-float,
+td.is-unsupported {
 	color: #CCCCCC !important;
 	background: #EEEEEE;
 }
 
-td.is-visible {
+td.is-visible,
+td.is-supported {
 	font-weight: 600;
 }
 
