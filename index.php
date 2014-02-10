@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Turret</title>
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<script src="../lib/modernizr-2.6.2.min.js"></script>
 	<script src="../lib/less-1.5.0.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6120872/680164/css/fonts.css" />
@@ -34,7 +34,7 @@
 			<div class="column-1">
 				<h1 class="title">turret</h1>
 				<a href="/docs" class="button large dark">Docs</a>
-				<a href="#" class="button large dark">Demo</a>
+				<a href="/demo/demo.html" class="button large dark">Demo</a>
 			</div>
 		</div>
 	</div>
