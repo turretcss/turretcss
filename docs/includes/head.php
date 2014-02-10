@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Turret Docs</title>
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<script src="../lib/modernizr-2.6.2.min.js"></script>
 	<script src="../lib/less-1.5.0.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/less" href="less/main.less" /> -->

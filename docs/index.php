@@ -1,4 +1,4 @@
-<?php include('head.php'); ?>
+<?php include('includes/head.php'); ?>
 
 <div class="page-header" style="height:200px;">
 	<div class="container">
@@ -258,4 +258,4 @@
 
 </div>
 
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>

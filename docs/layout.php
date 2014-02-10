@@ -1,4 +1,4 @@
-<?php include('head.php'); ?>
+<?php include('includes/head.php'); ?>
 
 <div class="page-header" style="height:200px;">
 	<div class="container">
@@ -28,7 +28,7 @@
 <!-- Grid -->
 <h2 class="section-title">Grid</h2>
 
-<?php include('grid.php'); ?>
+<?php include('includes/grid.php'); ?>
 
 <h3 class="section-sub-title">Grid</h3>
 <pre><code class="hljs html">
@@ -76,4 +76,4 @@
 
 </div>
 
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>
