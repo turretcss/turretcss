@@ -18,12 +18,25 @@
 		}
 
 		.title {
-			margin: 50px 0px;
+			margin-top: 200px;
 			font-family: 'Ziggurat A', 'Ziggurat B';
 			font-weight: 800;
 			font-style: italic;
 			font-size: 64px;
 			color: #FFFFFF;
+		}
+
+		.version {
+			color: #FFFFFF;
+		}
+
+		a {
+			margin: 0px 10px;
+			color: #1B2A3C;
+			font-size: 16px;
+			font-family: 'Ziggurat A', 'Ziggurat B';
+			font-weight: 800;
+			font-style: italic;
 		}
 	</style>
 
@@ -33,8 +46,8 @@
 		<div class="row">
 			<div class="column-1">
 				<h1 class="title">turret</h1>
-				<a href="/docs" class="button large dark">Docs</a>
-				<a href="/demo/demo.html" class="button large dark">Demo</a>
+				<p class="version">Version 1.01</p>
+				<p><a href="/docs">Docs</a><a href="/demo/demo.html">Demo</a></p>
 			</div>
 		</div>
 	</div>
