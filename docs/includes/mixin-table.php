@@ -59,6 +59,10 @@
 	<td><code>truncate();</code></td>
 </tr>
 <tr>
+	<td>Overlay</td>
+	<td><code>overlay();</code></td>
+</tr>
+<tr>
 	<td>Hide Visually</td>
 	<td><code>hide-visually();</code></td>
 </tr>
