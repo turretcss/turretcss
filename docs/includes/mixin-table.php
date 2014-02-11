@@ -127,6 +127,10 @@
 	<td><code>border-box-sizing();</code></td>
 </tr>
 <tr>
+	<td>Content Box Sizing</td>
+	<td><code>content-box-sizing();</code></td>
+</tr>
+<tr>
 	<td>Background Clip</td>
 	<td><code>background-clip(@argument: padding-box);</code></td>
 </tr>
