@@ -6,28 +6,22 @@ ul.breadcrumbs {
 
 	li {
 		display: inline-block;
-		margin-left: 15px;
+		margin: @breadcrumbs_margin;
 		list-style: none;
 		font-size: @breadcrumbs_font_size;
-		line-height: 16px;
+		line-height: @breadcrumbs_font_size;
 
 		a {
 			color: @breadcrumbs_color;
+			.transition(color @transition_fast ease-in-out);
 
 			&:hover {
 				color: @breadcrumbs_hover_color;
-				.transition(color @transition_fast ease-in-out);
 			}
 		}
 
 		&:first-child {
-
 			margin: 0;
-			text-transform: uppercase;
-
-			a {
-				color: @primary;
-			}
 
 			&:before {
 				display: none;
@@ -35,13 +29,17 @@ ul.breadcrumbs {
 		}
 
 		&:before {
-		    float: left;
-			margin-right: 15px;
-		    color: @breadcrumbs_divider_color;
-		    content: @icon_angle_right;
-		    font-size: @breadcrumbs_divider_size;
+			float: left;
+			margin: @breadcrumbs_divider_margin;
+			color: @breadcrumbs_divider_color;
+			content: @breadcrumbs_divider_icon;
+			font-size: @breadcrumbs_divider_size;
 			font-family: @icon_font_family;
-		    line-height: 16px;
+			line-height: @breadcrumbs_font_size;
+		}
+
+		&.active {
+			color: @breadcrumbs_active_color;
 		}
 	}
 
