@@ -17,7 +17,6 @@
 			<li><a href="#support">Browser Support</a></li>
 			<li><a href="#media-queries">Media Queries</a></li>
 			<li><a href="#typography">Typography</a></li>
-			<li><a href="#icons">Icons</a></li>
 		</ul>
 	</div>
 </div>
@@ -174,6 +173,7 @@
 	<h3 class="section-sub-title">Paragraph Styles</h3>
 	<p>Lorem ipsum dolor sit amet, consectetur <strong>strong</strong> adipisicing elit, sed do eiusmod tempor <em>italicized</em> incididunt ut labore et dolore magna aliqua.</p>
 	<pre><code class="hljs html"><?php echo htmlentities('<p>Lorem ipsum dolor sit amet, consectetur <strong>strong</strong> adipisicing elit, sed do eiusmod tempor <em>italicized</em> incididunt ut labore et dolore magna aliqua.</p>'); ?></code></pre>
+	<h3 class="section-sub-title">Paragraph Lead Style</h3>
 	<p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 	<pre><code class="hljs html"><?php echo htmlentities('<p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>'); ?></code></pre>
 	<h3 class="section-sub-title">Blockquote</h2>

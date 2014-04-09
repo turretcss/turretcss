@@ -26,77 +26,83 @@
 
 <div class="column-3-4">
 
-
-<h2 id="tags" class="section-title">Tags</h2>
-<span class="tag">Tag</span>
-<span class="tag active">Tag</span>
-
-<div class="clearfix"></div>
-
+<!-- Tags -->
+<div class="panel">
+	<h2 id="tags" class="section-title">Tags</h2>
+	<span class="tag">Tag</span>
+	<span class="tag active">Tag</span>
+	<div class="clearfix"></div>
 <pre><code class="hljs html"><?php echo htmlentities('<span class="tag">Tag</span>
 <span class="tag active">Tag</span>'); ?></code></pre>
+</div>
 
 <!-- Buttons -->
+<div class="panel">
 <h2 id="buttons" class="section-title">Buttons</h2>
 <h3 class="section-sub-title">Button Styles</h3>
-<button class="button grey">Button</button>
-<button class="button primary">Primary</button>
-<button class="button dark">Dark</button>
-<button class="button text">Text</button>
+<button class="button">Button</button>
+<button class="button button-primary">Primary</button>
+<button class="button button-inverse">Inverse</button>
+<button class="button button-text">Text</button>
 <button class="button" disabled>disabled</button>
 
-<pre><code class="hljs html"><?php echo htmlentities('<button class="button grey">Button</button>
-<button class="button primary">Primary</button>
-<button class="button dark">Dark</button>
-<button class="button text">Text</button>
+<pre><code class="hljs html"><?php echo htmlentities('<button class="button">Button</button>
+<button class="button button-primary">Primary</button>
+<button class="button button-inverse">Dark</button>
+<button class="button button-text">Text</button>
 <button class="button" disabled>disabled</button>'); ?></code></pre>
 
 <h3 class="section-sub-title">Button Sizes</h3>
-<button class="button small primary">Small</button>
-<button class="button medium primary">Medium</button>
-<button class="button large primary">Large</button>
+<button class="button button-small button-primary">Small</button>
+<button class="button button-medium button-primary">Medium</button>
+<button class="button button-large button-primary">Large</button>
 
-<pre><code class="hljs html"><?php echo htmlentities('<button class="button small primary">Small</button>
-<button class="button medium primary">Medium</button>
-<button class="button large primary">Large</button>'); ?></code></pre>
+<pre><code class="hljs html"><?php echo htmlentities('<button class="button button-small primary">Small</button>
+<button class="button button-medium button-primary">Medium</button>
+<button class="button button-large button-primary">Large</button>'); ?></code></pre>
 
 <h3 class="section-sub-title">Button Block</h3>
-<div class="column-1-2">
-	<button class="button block primary">Button Block Primary</button>
+<div class="row">
+	<div class="column-1">
+		<button class="button button-block button-primary">Button Block Primary</button>
+	</div>
 </div>
 
-<div class="clearfix"></div>
-
-<pre><code class="hljs html"><?php echo htmlentities('<div class="column-1-2">
-	<button class="button block primary">Button Block Primary</button>
-</div>'); ?></code></pre>
+<pre><code class="hljs html"><?php echo htmlentities('<button class="button button-block button-primary">Button Block Primary</button>'); ?></code></pre>
 
 <h3 class="section-sub-title">Button Action</h3>
-<div class="column-1-2">
-	<button class="button block primary action">Button Block Primary Action</button>
+<div class="row">
+	<div class="column-1">
+		<button class="button button-block button-primary button-action">Button Block Primary Action</button>
+	</div>
 </div>
 
-<div class="clearfix"></div>
-
-<pre><code class="hljs html"><?php echo htmlentities('<div class="column-1-2">
-	<button class="button block primary action">Button Block Primary Action</button>
-</div>'); ?></code></pre>
+<pre><code class="hljs html"><?php echo htmlentities('<button class="button button-block button-primary button-action">Button Block Primary Action</button>'); ?></code></pre>
+</div>
 
 <!-- Images -->
-
+<div class="panel">
 <h2 id="images" class="section-title">Images</h2>
-<div class="column-1-4"><img src="http://placehold.it/200x200" class="responsive" /></div>
-<img src="http://placehold.it/200x200" class="thumbnail" />
-<img src="http://placehold.it/200x200" class="rounded" />
-<img src="http://placehold.it/200x200" class="circle" />
+<h3 class="section-sub-title">Responsive Images</h3>
+<div class="row">
+	<div class="column-1"><img src="http://placehold.it/800x200" class="responsive" /></div>
+</div>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="column-1"><img src="..." class="responsive" /></div>'); ?></code></pre>
 
-<pre><code class="hljs html"><?php echo htmlentities('<div class="column-1-4"><img src="..." class="responsive" /></div>
-<img src="..." class="thumbnail" />
+<h3 class="section-sub-title">Image Styles</h3>
+<div class="row">
+	<div class="column-1-3"><img src="http://placehold.it/200x200" class="thumbnail" style="display:block; margin: auto;" /></div>
+	<div class="column-1-3"><img src="http://placehold.it/200x200" class="rounded" style="display:block; margin: auto;" /></div>
+	<div class="column-1-3"><img src="http://placehold.it/200x200" class="circle" style="display:block; margin: auto;" /></div>
+</div>
+
+<pre><code class="hljs html"><?php echo htmlentities('<img src="..." class="thumbnail" />
 <img src="..." class="rounded" />
 <img src=".." class="circle" />'); ?></code></pre>
+</div>
 
 <!-- Forms -->
-
+<div class="panel">
 <h2 id="forms" class="section-title">Forms</h2>
 <h3 class="section-sub-title">Form Inputs</h3>
 <form role="form">
@@ -203,9 +209,10 @@
 		<button class="button primary" type="submit">Submit</button>
 	</span>
 </div>'); ?></code></pre>
+</div>
 
 <!-- Search -->
-
+<div class="panel">
 <h3 id="search" class="section-title">Search</h3>
 <form role="form">
 	<div class="input-group">
@@ -222,28 +229,32 @@
 		<button class="button primary" type="submit"><span class="icon-search"></span></button>
 	</span>
 </div>'); ?></code></pre>
-
-<!-- Breadcrumbs -->
-
-<h2 id="breadcrumbs" class="section-title">Breadcrumbs</h2>
-<div class="breadcrumbs">
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-	<a href="#" class="active">Link</a>
 </div>
 
-<pre><code class="hljs html"><?php echo htmlentities('<div class="breadcrumbs">
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-	<a href="#" class="active">Link</a>
-</div>'); ?></code></pre>
+<!-- Breadcrumbs -->
+<div class="panel">
+<h2 id="breadcrumbs" class="section-title">Breadcrumbs</h2>
+<ul class="breadcrumbs">
+	<li><a href="#">Link</a></li>
+	<li><a href="#">Link</a></li>
+	<li class="active">Link</li>
+</ul>
+
+<pre><code class="hljs html"><?php echo htmlentities('<ul class="breadcrumbs">
+	<li><a href="#">Link</a></li>
+	<li><a href="#">Link</a></li>
+	<li class="active">Link</li>
+</ul>'); ?></code></pre>
+</div>
 
 <!-- Video -->
-
+<div class="panel">
 <h2 id="video" class="section-title">Video</h2>
-<div class="column-1">
-	<div class="video-wrapper frame" data-video-wrapper>
-		<iframe id="player" src="http://player.vimeo.com/video/32881691?title=0&amp;byline=0&amp;portrait=0&amp;color=FF444E" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-video-player></iframe>
+<div class="row">
+	<div class="column-1">
+		<div class="video-wrapper frame" data-video-wrapper>
+			<iframe id="player" src="http://player.vimeo.com/video/32881691?title=0&amp;byline=0&amp;portrait=0&amp;color=FF444E" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-video-player></iframe>
+		</div>
 	</div>
 </div>
 
@@ -252,9 +263,10 @@
 <pre><code class="hljs html"><?php echo htmlentities('<div class="video-wrapper frame" data-video-wrapper>
 	<iframe id="player" src="http://player.vimeo.com/video/32881691?title=0&amp;byline=0&amp;portrait=0&amp;color=FF444E" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-video-player></iframe>
 </div>'); ?></code></pre>
+</div>
 
 <!-- Tables -->
-
+<div class="panel">
 <h2 id="tables" class="section-title">Tables</h2>
 <h3 class="section-sub-title">Table Bordered</h2>
 <table class="table table-bordered">
@@ -385,6 +397,7 @@
 		</tr>
 	</tbody>
 </table>'); ?></code></pre>
+</div>
 
 </div>
 

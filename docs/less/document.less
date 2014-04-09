@@ -26,11 +26,11 @@ body {
 	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
 
 	.logo {
-		font-family: 'Ziggurat A', 'Ziggurat B';
-		font-weight: 800;
-		font-style: italic;
 		font-size: 18px;
-		color: #FFFFFF;
+		font-weight: 600;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: @document_mint;
 	}
 
 	.nav a {
@@ -39,7 +39,7 @@ body {
 }
 
 .section-title {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	line-height: 2;
 	color: @document_dark;
 	border-bottom: 1px solid @document_mid_grey;
@@ -170,9 +170,25 @@ table {
 				background: #FAFAFA;
 			}
 
+			&.is-hidden,
+			&.is-unsupported {
+
+				&:before {
+					margin-right: 5px;
+					content: @icon_close;
+					font-family: @icon_font_family;
+				}
+			}
+
 			&.is-visible,
 			&.is-supported {
 
+				&:before {
+					margin-right: 5px;
+					content: @icon_tick;
+					font-family: @icon_font_family;
+					color: @primary;
+				}
 			}
 		}
 	}
@@ -191,6 +207,7 @@ table {
 	margin: 5px;
 	//width: 35px;
 	//height: 35px;
+	color: @document_dark;
 	text-align: center;
 	background: @document_white;
 	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
