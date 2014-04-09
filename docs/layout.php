@@ -11,8 +11,9 @@
 -->
 </div>
 
-<div id="grid" class="content" class="row">
+<div id="grid" class="content">
 <div class="container">
+<div class="row">
 
 <div class="column-1">
 <div class="panel">
@@ -76,6 +77,8 @@
 	</div>
 </div>'); ?>
 </code></pre>
+</div>
+
 </div>
 </div>
 

@@ -7,8 +7,9 @@
 </div>
 
 
-<div id="utilities" class="content" class="row">
+<div id="utilities" class="content">
 <div class="container">
+<div class="row">
 
 <div class="column-1-4">
 	<div class="side-nav">
@@ -288,6 +289,7 @@
 </table>
 </div>
 
+</div>
 </div>
 
 <?php include('includes/footer.php'); ?>
