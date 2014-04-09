@@ -95,11 +95,20 @@ code {
 }
 
 //Panels
-.panel {
-	padding: 30px;
+.panel,
+.side-nav {
 	margin-bottom: 30px;
 	background: @document_white;
 	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
+}
+
+.panel {
+	padding: 30px;
+
+}
+
+.side-nav {
+
 }
 
 //Grid
@@ -111,8 +120,13 @@ code {
 
 	.swatch {
 		padding: 10px;
-		background: @document_white;
-		.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
+		color: @document_white;
+
+		&.light {
+			color: @document_dark;
+			background: @document_white;
+			.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
+		}
 	}
 }
 
