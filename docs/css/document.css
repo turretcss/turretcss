@@ -387,14 +387,17 @@ code {
   text-transform: uppercase;
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
 }
-.panel {
-  padding: 30px;
+.panel,
+.side-nav {
   margin-bottom: 30px;
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   -o-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.panel {
+  padding: 30px;
 }
 .grid {
   color: #ffffff;
@@ -404,6 +407,10 @@ code {
 }
 .grid .swatch {
   padding: 10px;
+  color: #ffffff;
+}
+.grid .swatch.light {
+  color: #333333;
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);

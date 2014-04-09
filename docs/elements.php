@@ -128,10 +128,13 @@
 <img src=".." class="circle" />'); ?></code></pre>
 
 <h3 class="section-sub-title">Image Placeholder</h3>
+<p>Available Ratios: 1-2, 9-16, 9-14, 2-3, 3-4, 1-1, 4-3, 3-2, 16-9, 2-1</p>
 <div class="row">
-	<div class="image-placeholder image-ratio-1-1"></div>
+	<div class="column-1">
+		<div class="image-placeholder 16-9"></div>
+	</div>
 </div>
-<pre><code class="hljs html"><?php echo htmlentities('<div class="image-placeholder image-ratio-16-9"><img src="..." /></div>'); ?></code></pre>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="image-placeholder 16-9"><img src="..." /></div>'); ?></code></pre>
 </div>
 
 <!-- Figure -->

@@ -13,6 +13,8 @@
 <div class="column-1-4">
 	<div class="side-nav">
 		<ul>
+			<li><a href="#fonts">Fonts</a></li>
+			<li><a href="#video">Video</a></li>
 			<li><a href="#resolutions">Screen Resolutions</a></li>
 			<li><a href="#retina">Retina</a></li>
 			<li><a href="#touch">Touch</a></li>
@@ -21,6 +23,96 @@
 </div>
 
 <div class="column-3-4">
+
+	<!-- Video -->
+	<div class="panel">
+		<h2 id="video" class="section-title">Video</h2>
+		<h3 class="section-sub-title">Browser Support for Video</h2>
+		<table class="table table-bordered table-block table-responsive">
+			<tbody>
+				<tr>
+					<th>&nbsp;</th>
+					<th>Android</th>
+					<th>Chrome</th>
+					<th>Firefox</th>
+					<th>Internet Explorer</th>
+					<th>iOS</th>
+					<th>Opera</th>
+					<th>Safari</th>
+				</tr>
+				<!--
+<tr>
+					<th>Codec</th>
+					<th>&nbsp;</th>
+					<th>Win</th>
+					<th>Mac</th>
+					<th>Win</th>
+					<th>Mac</th>
+					<th>Win</th>
+					<th>&nbsp;</th>
+					<th>Win</th>
+					<th>Mac</th>
+					<th>Win</th>
+					<th>Mac</th>
+				</tr>
+-->
+				<tr>
+					<th>MP4<br><small>H.264</small></th>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-unsupported">Not supported</td>
+					<td class="is-supported">Supported<br/><small>Since IE9</a></td>
+					<td class="is-supported">Supported</td>
+					<td class="is-unsupported">Not supported</td>
+					<td class="is-supported">Supported</td>
+				</tr>
+				<tr>
+					<th>ogg<br><small>Theora</small></th>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-unsupported">Not supported</td>
+					<td class="is-unsupported">Not supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-unsupported">Not supported</td>
+				</tr>
+				<tr>
+					<th>WebM</th>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-supported">Supported<br/><small><a href="http://tools.google.com/dlpage/webmmf" zt="-o1/XL" target="_blank">(with components)</a></small></td>
+					<td class="is-unsupported">Not supported</td>
+					<td class="is-supported">Supported</td>
+					<td class="is-unsupported">Not supported</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- Fonts -->
+	<div class="panel">
+		<h2 id="fonts" class="section-title">Fonts</h2>
+		<!--
+<h3 class="section-sub-title">Resources</h2>
+		<table class="table table-block table-responsive">
+			<tbody>
+				<tr>
+					<td>Designing for Touch</td>
+					<td align="center"><a class="button button-text" href="http://brianthurston.com/2014/04/designing-for-touch-part-1-josh-clarks-workshop-at-an-event-apart/">Link</a></td>
+				</tr>
+				<tr>
+					<td>iOS Human Interface Guidelines</td>
+					<td align="center"><a class="button button-text" href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1">Link</a></td>
+				</tr>
+				<tr>
+					<td>Android Design Guidelines</td>
+					<td align="center"><a class="button button-text" href="https://developer.android.com/design/style/metrics-grids.html">Link</a></td>
+				</tr>
+			</tbody>
+		</table>
+-->
+	</div>
 
 	<!-- Screen Resolutions -->
 	<div class="panel">

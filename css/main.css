@@ -4059,7 +4059,7 @@ img.responsive {
 .image-placeholder {
   display: block;
   position: relative;
-  background: #ececed url('/img/loading.gif') no-repeat center center;
+  background: #ececed;
   background-size: 32px 32px;
 }
 .image-placeholder > img {

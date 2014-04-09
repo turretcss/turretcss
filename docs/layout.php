@@ -1,14 +1,12 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="min-height:200px; padding: 50px 0px 30px;">
-	<?php include('includes/grid.php'); ?>
-	<!--
-<div class="container">
+<div class="page-header" style="height:200px;">
+
+	<div class="container">
 		<div class="page-header-content column-1">
 			<h1 class="page-title">layout</h1>
 		</div>
 	</div>
--->
 </div>
 
 <div id="grid" class="content">
@@ -16,6 +14,7 @@
 <div class="row">
 
 <div class="column-1">
+
 <div class="panel">
 	<h2 class="section-title">Container and Rows</h2>
 
@@ -29,6 +28,8 @@
 	<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
 	<pre><code class="hljs html"><?php echo htmlentities('<div class="row">...</div>'); ?></code></pre>
 </div>
+
+<?php include('includes/grid.php'); ?>
 
 <!-- Grid -->
 <div class="panel">
@@ -48,8 +49,8 @@
 <h3 class="section-sub-title">Responsive Breakpoint Grid</h3>
 <div class="grid">
 	<div class="row">
-		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch light">Responsive Breakpoints</div></div>
-		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch light">Responsive Breakpoints</div></div>
+		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch primary">Responsive Breakpoints</div></div>
+		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch primary">Responsive Breakpoints</div></div>
 	</div>
 </div>
 <pre><code class="hljs html"><?php echo htmlentities('<div class="container">
@@ -63,9 +64,9 @@
 <h3 class="section-sub-title">Gutters</h3>
 <div class="grid">
 	<div class="row">
-		<div class="column-1-3 no-gutter"><div class="swatch light">No Gutter</div></div>
-		<div class="column-1-3 bottom-gutter"><div class="swatch light">Bottom Gutter</div></div>
-		<div class="column-1-3 top-gutter"><div class="swatch light">Top Gutter</div></div>
+		<div class="column-1-3 no-gutter"><div class="swatch primary">No Gutter</div></div>
+		<div class="column-1-3 bottom-gutter"><div class="swatch primary">Bottom Gutter</div></div>
+		<div class="column-1-3 top-gutter"><div class="swatch primary">Top Gutter</div></div>
 	</div>
 </div>
 <pre><code class="hljs html">
