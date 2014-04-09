@@ -154,7 +154,7 @@
 //Palette
 @light: @light_grey;
 @dark: @dark_grey;
-@primary: #FF444E;
+@primary: #3BC0C3;
 @secondary: #E3EE21;
 
 //Images
@@ -171,13 +171,17 @@
 
 
 //Buttons
+@buttons_color: @grey;
+@buttons_hover_color: @white;
+@buttons_background: @light_grey;
+@buttons_hover_background: @dark;
 @buttons_small_padding:  6px 8px;
 @buttons_small_font_size: 10px;
 @buttons_padding: 12px 16px;
 @buttons_font_size: 13px;
 @buttons_large_padding: 15px 20px;
 @buttons_large_font_size: 16px;
-@buttons_border_radius: 0;
+@buttons_border_radius: 4px;
 @button_play_size: 100px;
 @button_play_icon_size: 40px;
 @buttons_action_icon: @icon_angle_right;
@@ -186,11 +190,11 @@
 
 //Tags
 @tags_margin: 0px 4px 0px 0px;
-@tags_padding: 12px 16px;
-@tags_font_size: 14px;
+@tags_padding: 6px 12px;
+@tags_font_size: 10px;
 @tags_color: @white;
 @tags_background: @primary;
-@tags_border_radius: 0;
+@tags_border_radius: 4px;
 @tags_hover_color: @white;
 @tags_hover_background: @dark;
 @tags_active_color: @white;
@@ -198,12 +202,16 @@
 
 
 //Breadcrumbs
+@breadcrumbs_margin: 0px 0px 0px 10px;
 @breadcrumbs_padding: 10px 0px;
-@breadcrumbs_font_size: 13px;
+@breadcrumbs_font_size: 14px;
 @breadcrumbs_color: @primary;
-@breadcrumbs_hover_color: @secondary;
+@breadcrumbs_active_color: @dark;
+@breadcrumbs_hover_color: @dark;
 @breadcrumbs_divider_size: 8px;
+@breadcrumbs_divider_margin: 0px 10px 0px 0px;
 @breadcrumbs_divider_color: @dark;
+@breadcrumbs_divider_icon: @icon_angle_right;
 
 
 //Side Nav
@@ -227,7 +235,7 @@
 @input_font_size: 12px;
 @input_background: @white;
 @input_border: 1px solid @light_grey;
-@input_border_radius: 0;
+@input_border_radius: 4px;
 @input_error_color: @error;
 @input_warning_color: @warning;
 @input_success_color: @success;
@@ -380,55 +388,78 @@
 @icon_font_path: '/fonts';
 @icon_li_width: (30em / 14);
 @icon_font_family: icons;
-@icon_volume_mute: "\e602";
-@icon_volume_med: "\e603";
-@icon_volume_low: "\e604";
-@icon_volume_high: "\e605";
-@icon_twitter: "\e606";
-@icon_subtitles: "\e609";
-@icon_search: "\e60b";
-@icon_refresh: "\e60d";
-@icon_question: "\e60e";
-@icon_print: "\e60f";
-@icon_play: "\e610";
-@icon_play_alt: "\e611";
-@icon_pinterest: "\e612";
-@icon_people: "\e613";
-@icon_pause: "\e614";
-@icon_marker: "\e615";
-@icon_map: "\e616";
-@icon_lock: "\e617";
-@icon_loading: "\e618";
-@icon_innovation: "\e61a";
-@icon_fullscreen: "\e61b";
-@icon_fullscreen_close: "\e61c";
-@icon_environment: "\e61e";
-@icon_community: "\e61f";
-@icon_close: "\e620";
-@icon_clock: "\e621";
-@icon_circle: "\e622";
-@icon_circle_full: "\e623";
-@icon_captions: "\e624";
-@icon_angle_down: "\e625";
-@icon_angle_left: "\e626";
-@icon_angle_right: "\e627";
-@icon_angle_up: "\e628";
-@icon_bookmark_alt: "\e629";
-@icon_bookmark: "\e62a";
-@icon_calendar: "\e62b";
-@icon_linkedin: "\e600";
-@icon_facebook: "\e601";
-@icon_instagram: "\e60a";
-@icon_share: "\e619";
-@icon_youtube_alt: "\e61d";
-@icon_youtube: "\e62c";
-@icon_minus: "\e632";
-@icon_plus: "\e633";
-@icon_grid: "\e634";
-@icon_list: "\e635";
-@icon_google_plus: "\e62f";
-@icon_email: "\e630";
-@icon_tick: "\e631";
+@icon_youtube:"\e600";
+@icon_youtube_alt:"\e601";
+@icon_volume_mute:"\e602";
+@icon_volume_med:"\e603";
+@icon_volume_low:"\e604";
+@icon_volume_high:"\e605";
+@icon_twitter:"\e606";
+@icon_tick:"\e607";
+@icon_star_thin:"\e608";
+@icon_star_thin_full:"\e609";
+@icon_single_angle_thin_up:"\e60a";
+@icon_single_angle_thin_right:"\e60b";
+@icon_single_angle_thin_left:"\e60c";
+@icon_single_angle_thin_down:"\e60d";
+@icon_share:"\e60e";
+@icon_search:"\e60f";
+@icon_refresh:"\e610";
+@icon_question:"\e611";
+@icon_print:"\e612";
+@icon_plus:"\e613";
+@icon_plus_thin:"\e614";
+@icon_plus_thick:"\e615";
+@icon_play:"\e616";
+@icon_play_alt:"\e617";
+@icon_pinterest:"\e618";
+@icon_people:"\e619";
+@icon_pause:"\e61a";
+@icon_minus:"\e61b";
+@icon_minus_thick:"\e61c";
+@icon_map:"\e61d";
+@icon_lock:"\e61e";
+@icon_loading:"\e61f";
+@icon_list:"\e620";
+@icon_linkedin:"\e621";
+@icon_instagram:"\e622";
+@icon_info:"\e623";
+@icon_grid:"\e624";
+@icon_fullscreen:"\e625";
+@icon_fullscreen_close:"\e626";
+@icon_facebook:"\e627";
+@icon_edit:"\e628";
+@icon_double_angle_thin_up:"\e629";
+@icon_double_angle_thin_right:"\e62a";
+@icon_double_angle_thin_left:"\e62b";
+@icon_double_angle_thin_down:"\e62c";
+@icon_close:"\e62d";
+@icon_close_thin:"\e62e";
+@icon_close_thick:"\e62f";
+@icon_clock:"\e630";
+@icon_circle:"\e631";
+@icon_circle_full:"\e632";
+@icon_captions:"\e633";
+@icon_camera:"\e634";
+@icon_calendar:"\e635";
+@icon_bookmark:"\e636";
+@icon_bookmark_alt:"\e637";
+@icon_arrow_up:"\e638";
+@icon_arrow_thin_up:"\e639";
+@icon_arrow_thin_right:"\e63a";
+@icon_arrow_thin_left:"\e63b";
+@icon_arrow_thin_down:"\e63c";
+@icon_arrow_right:"\e63d";
+@icon_arrow_left:"\e63e";
+@icon_arrow_down:"\e63f";
+@icon_angle_up:"\e640";
+@icon_angle_thin_up:"\e641";
+@icon_angle_thin_right:"\e642";
+@icon_angle_thin_left:"\e643";
+@icon_angle_thin_down:"\e644";
+@icon_angle_right:"\e645";
+@icon_angle_left:"\e646";
+@icon_angle_down:"\e647";
 
 
 //Social

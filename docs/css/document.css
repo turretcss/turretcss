@@ -21,7 +21,7 @@ html * {
 }
 a {
   text-decoration: none;
-  color: #ff444e;
+  color: #3bc0c3;
 }
 hr {
   margin: 10px 0px;
@@ -325,17 +325,17 @@ body {
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
 }
 .navbar .logo {
-  font-family: 'Ziggurat A', 'Ziggurat B';
-  font-weight: 800;
-  font-style: italic;
   font-size: 18px;
-  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #3bc0c3;
 }
 .navbar .nav a {
   font-weight: 600;
 }
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   line-height: 2;
   color: #333333;
   border-bottom: 1px solid #edf1f2;
@@ -436,6 +436,19 @@ table tr td.is-unsupported {
   color: #CCCCCC !important;
   background: #FAFAFA;
 }
+table tr td.is-hidden:before,
+table tr td.is-unsupported:before {
+  margin-right: 5px;
+  content: "\e62d";
+  font-family: icons;
+}
+table tr td.is-visible:before,
+table tr td.is-supported:before {
+  margin-right: 5px;
+  content: "\e607";
+  font-family: icons;
+  color: #3bc0c3;
+}
 .icons {
   margin-bottom: 30px;
 }
@@ -444,6 +457,7 @@ table tr td.is-unsupported {
   float: left;
   padding: 10px;
   margin: 5px;
+  color: #333333;
   text-align: center;
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
