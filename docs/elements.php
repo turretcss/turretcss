@@ -16,6 +16,7 @@
 			<li><a href="#tags">Tags</a></li>
 			<li><a href="#buttons">Buttons</a></li>
 			<li><a href="#images">Images</a></li>
+			<li><a href="#figure">Figure</a></li>
 			<li><a href="#forms">Forms</a></li>
 			<li><a href="#search">Search</a></li>
 			<li><a href="#breadcrumbs">Breadcrumbs</a></li>
@@ -107,6 +108,24 @@
 </div>
 <pre><code class="hljs html"><?php echo htmlentities('<div class="image-placeholder image-ratio-16-9"><img src="..." /></div>'); ?></code></pre>
 </div>
+
+<!-- Figure -->
+<div class="panel">
+<h2 id="images" class="section-title">Figure</h2>
+<div class="row">
+	<div class="column-1-3 column-offset-1-3">
+		<figure>
+			<img src="http://placehold.it/200" class="responsive"/>
+			<figcaption>Caption</figcaption>
+		</figure>
+	</div>
+</div>
+<pre><code class="hljs html"><?php echo htmlentities('<figure>
+	<img src="http://placehold.it/200"/>
+	<figcaption>Caption</figcaption>
+</figure>'); ?></code></pre>
+</div>
+
 
 <!-- Forms -->
 <div class="panel">
