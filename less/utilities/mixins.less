@@ -57,6 +57,14 @@
 	margin-top: -(@length / 2);
 }
 
+.absolute-center(@width, @height) {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -(@height / 2);
+	margin-left: -(@width / 2);
+}
+
 //Sizing
 .size(@width; @height) {
 	width: @width;
