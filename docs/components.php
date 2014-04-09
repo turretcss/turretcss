@@ -6,8 +6,9 @@
 	</div>
 </div>
 
-<div id="components" class="content" class="row">
+<div id="components" class="content">
 <div class="container">
+<div class="row">
 
 <div class="column-1-4">
 	<div class="side-nav">
@@ -22,7 +23,7 @@
 <div class="column-3-4">
 
 <!-- Slides -->
-
+<div class="panel">
 <h2 id="slides" class="section-title">Slides</h2>
 <p>Slides are a responsive carousel with touch controls. Slide navigation, pagination and controls can be toggled in the plugin options.</p>
 <div class="slides" data-slides>
@@ -99,10 +100,10 @@
 		complete: function() {}
 	}
 };"); ?></code></pre>
-
+</div>
 
 <!-- Map -->
-
+<div class="panel">
 <h2 id="google-map" class="section-title">Map</h2>
 <p>Slides are a responsive carousel with touch controls. Slide navigation, pagination and controls can be toggled in the plugin options.</p>
 
@@ -245,16 +246,19 @@ $(document).ready(function() {
 	zoomInControl: true,
 	zoomOutControl: true,
 };"); ?></code></pre>
+</div>
 
 <!-- Scroll Top -->
-
+<div class="panel">
 <h2 id="scroll-top" class="section-title">Scroll Top</h2>
 <p>Scroll Top is an anchor that animates to the top when clicked. It can be <code>absolute</code> or <code>fixed</code> and aligned to the <code>right</code> or <code>centered</code>.</p>
 
 <pre><code class="hljs html"><?php echo htmlentities('<div class="scroll-top fixed right" data-scroll-top>Top</div>'); ?></code></pre>
 
 <pre><code class="hljs javascript"><?php echo htmlentities("$('[data-scroll-top]').scrolltop();"); ?></code></pre>
+</div>
 
+</div>
 </div>
 
 <?php include('includes/footer.php'); ?>
