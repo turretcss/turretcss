@@ -40,22 +40,6 @@
 					<th>Opera</th>
 					<th>Safari</th>
 				</tr>
-				<!--
-<tr>
-					<th>Codec</th>
-					<th>&nbsp;</th>
-					<th>Win</th>
-					<th>Mac</th>
-					<th>Win</th>
-					<th>Mac</th>
-					<th>Win</th>
-					<th>&nbsp;</th>
-					<th>Win</th>
-					<th>Mac</th>
-					<th>Win</th>
-					<th>Mac</th>
-				</tr>
--->
 				<tr>
 					<th>MP4<br><small>H.264</small></th>
 					<td class="is-supported">Supported</td>
