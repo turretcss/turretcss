@@ -6,8 +6,9 @@
 	</div>
 </div>
 
-<div id="elements" class="content" class="row">
+<div id="elements" class="content">
 <div class="container">
+<div class="row">
 
 <div class="column-1-4">
 	<div class="side-nav">
@@ -99,6 +100,12 @@
 <pre><code class="hljs html"><?php echo htmlentities('<img src="..." class="thumbnail" />
 <img src="..." class="rounded" />
 <img src=".." class="circle" />'); ?></code></pre>
+
+<h3 class="section-sub-title">Image Placeholder</h3>
+<div class="row">
+	<div class="image-placeholder image-ratio-1-1"></div>
+</div>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="image-placeholder image-ratio-16-9"><img src="..." /></div>'); ?></code></pre>
 </div>
 
 <!-- Forms -->
@@ -167,14 +174,14 @@
 
 <h3 class="section-sub-title">Input Sizes</h3>
 <form role="form">
-	<input class="search form-input input-large" type="search" placeholder="Input Large" style="margin-bottom:10px;">
-	<input class="search form-input input-medium" type="search" placeholder="Input Medium" style="margin-bottom:10px;">
-	<input class="search form-input input-small" type="search" placeholder="Input Small">
+	<input class="form-input input-large" type="search" placeholder="Input Large" style="margin-bottom:10px;">
+	<input class="form-input input-medium" type="search" placeholder="Input Medium" style="margin-bottom:10px;">
+	<input class="form-input input-small" type="search" placeholder="Input Small">
 </form>
 
-<pre><code class="hljs html"><?php echo htmlentities('<input class="search form-input input-large" type="search" placeholder="Input Large">
-<input class="search form-input input-medium" type="search" placeholder="Input Medium">
-<input class="search form-input input-small" type="search" placeholder="Input Small">'); ?></code></pre>
+<pre><code class="hljs html"><?php echo htmlentities('<input class="form-input input-large" type="search" placeholder="Input Large">
+<input class="form-input input-medium" type="search" placeholder="Input Medium">
+<input class="form-input input-small" type="search" placeholder="Input Small">'); ?></code></pre>
 
 <h3 class="section-sub-title">Input Group</h3>
 <form role="form">
@@ -399,6 +406,7 @@
 </table>'); ?></code></pre>
 </div>
 
+</div>
 </div>
 
 <?php include('includes/footer.php'); ?>
