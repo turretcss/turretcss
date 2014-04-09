@@ -23,6 +23,7 @@ body {
 }
 
 .navbar {
+	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
 
 	.logo {
 		font-family: 'Ziggurat A', 'Ziggurat B';
@@ -52,7 +53,8 @@ body {
 	text-transform: uppercase;
 }
 
-p {
+p,
+ul li {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -87,6 +89,7 @@ code {
 			color: @document_white;
 			letter-spacing: 4px;
 			text-transform: uppercase;
+			text-shadow: 0px 2px 0px rgba(0,0,0,0.05);
 		}
 	}
 }
@@ -176,14 +179,47 @@ table {
 }
 
 //Icons
+
+.icons {
+	margin-bottom: 30px;
+}
+
 .icon {
+	position: relative;
 	float: left;
-	width: 35px;
-	height: 35px;
+	padding: 10px;
+	margin: 5px;
+	//width: 35px;
+	//height: 35px;
 	text-align: center;
+	background: @document_white;
+	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
+
+	&:hover {
+		.icon-name {
+			display: block;
+		}
+	}
 
 	span {
-		line-height: 24px;
-		font-size: 24px;
+		display: block;
+		line-height: 1;
+		font-size: 40px;
+	}
+
+	.icon-name {
+		z-index: 9999;
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+		padding: 5px;
+		height: 20px;
+		min-width: 180px;
+		text-align: left;
+		line-height: 1;
+		background: @document_dark;
+		color: @document_white;
+		display: none;
+		font-size: 12px;
 	}
 }
