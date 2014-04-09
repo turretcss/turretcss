@@ -363,23 +363,50 @@
 }
 
 //Placeholder
-.placeholder(@color, @font_size) {
+.placeholder(@color, @font_size, @font_family, @letter_spacing, @text_transform) {
 	&:-moz-placeholder {
 		color: @color;
 		font-size: @font_size;
+		font-family: @font_family;
+		letter-spacing: @letter_spacing;
+		text-transform: @text_transform;
+		.transition(color 0.2s ease-in-out);
+	}
+	&:focus:-moz-placeholder {
+		color: fade(@color, 25%);
 	}
 	&::-moz-placeholder {
 		color: @color;
-		opacity: 1;
 		font-size: @font_size;
+		font-family: @font_family;
+		letter-spacing: @letter_spacing;
+		text-transform: @text_transform;
+		.transition(color 0.2s ease-in-out);
+	}
+	&:focus::-moz-placeholder {
+		color: fade(@color, 25%);
 	}
 	&:-ms-input-placeholder {
 		color: @color;
 		font-size: @font_size;
+		font-family: @font_family;
+		letter-spacing: @letter_spacing;
+		text-transform: @text_transform;
+		.transition(color 0.2s ease-in-out);
+	}
+	&:focus:-ms-input-placeholder {
+		color: fade(@color, 25%);
 	}
 	&::-webkit-input-placeholder {
 		color: @color;
 		font-size: @font_size;
+		font-family: @font_family;
+		letter-spacing: @letter_spacing;
+		text-transform: @text_transform;
+		.transition(color 0.2s ease-in-out);
+	}
+	&:focus::-webkit-input-placeholder {
+		color: fade(@color, 25%);
 	}
 }
 
