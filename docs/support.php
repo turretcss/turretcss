@@ -146,9 +146,9 @@
 						<th>iOS 5</th>
 						<td class="is-unsupported">Not supported</td>
 						<td class="is-unsupported">Not supported</td>
-						<td class="is-unsupported">Not supported</td>
-						<td class="is-unsupported">Not supported</td>
-						<td class="is-unsupported">Not supported</td>
+						<td>N/A</td>
+						<td>N/A</td>
+						<td>N/A</td>
 					</tr>
 					<tr>
 						<th>iOS 6</th>
