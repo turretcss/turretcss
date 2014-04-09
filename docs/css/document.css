@@ -328,6 +328,19 @@ body {
 .navbar .nav a {
   font-weight: 600;
 }
+.section-title {
+  margin-bottom: 10px;
+  line-height: 2;
+  color: #333333;
+  border-bottom: 1px solid #edf1f2;
+}
+.section-sub-title {
+  margin: 20px 0px 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666666;
+  text-transform: uppercase;
+}
 p {
   font-size: 14px;
   font-weight: 400;
@@ -367,25 +380,13 @@ code {
   text-transform: uppercase;
 }
 .panel {
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 30px;
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   -o-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
-}
-.section-title {
-  margin-bottom: 10px;
-  line-height: 2;
-  border-bottom: 1px solid #f8fafb;
-}
-.section-sub-title {
-  margin: 20px 0px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #1B2A3C;
-  text-transform: uppercase;
 }
 .grid {
   color: #ffffff;
@@ -428,9 +429,12 @@ table tr td.is-unsupported {
   background: #FAFAFA;
 }
 .icon {
+  float: left;
+  width: 35px;
+  height: 35px;
   text-align: center;
 }
 .icon span {
-  line-height: 50px;
-  font-size: 40px;
+  line-height: 24px;
+  font-size: 24px;
 }

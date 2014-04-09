@@ -14,6 +14,8 @@
 @document_mid_grey: #EDF1F2;
 @document_grey: #84898F;
 @document_mint: #3BC0C3;
+@document_mid: #666666;
+@document_dark: #333333;
 
 
 body {
@@ -33,6 +35,21 @@ body {
 	.nav a {
 		font-weight: 600;
 	}
+}
+
+.section-title {
+	margin-bottom: 10px;
+	line-height: 2;
+	color: @document_dark;
+	border-bottom: 1px solid @document_mid_grey;
+}
+
+.section-sub-title {
+	margin: 20px 0px 15px;
+	font-size: 12px;
+	font-weight: 600;
+	color: @document_mid;
+	text-transform: uppercase;
 }
 
 p {
@@ -76,25 +93,10 @@ code {
 
 //Panels
 .panel {
-	padding: 20px;
+	padding: 30px;
 	margin-bottom: 30px;
 	background: @document_white;
 	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
-}
-
-//Sections
-.section-title {
-	margin-bottom: 10px;
-	line-height: 2;
-	border-bottom: 1px solid @document_light_grey;
-}
-
-.section-sub-title {
-	margin: 20px 0px 15px;
-	font-size: 14px;
-	font-weight: 600;
-	color: #1B2A3C;
-	text-transform: uppercase;
 }
 
 //Grid
@@ -175,10 +177,13 @@ table {
 
 //Icons
 .icon {
+	float: left;
+	width: 35px;
+	height: 35px;
 	text-align: center;
 
 	span {
-		line-height: 50px;
-		font-size: 40px;
+		line-height: 24px;
+		font-size: 24px;
 	}
 }
