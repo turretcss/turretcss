@@ -1,7 +1,7 @@
 /* Images */
 
 img {
-	vertical-align:bottom;
+	vertical-align: bottom;
 
 	&.thumbnail {
 		.border-radius(@images_border_radius);
@@ -84,3 +84,32 @@ img {
 
 	}
 }
+
+//Image Placeholder
+.image-placeholder {
+	display: block;
+	position: relative;
+	background: @images_placeholder_background url('/img/loading.gif') no-repeat center center;
+	background-size: 32px 32px;
+
+	> img {
+		//z-index: @image_placeholder_z_index + 2;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+//Image Ratios
+.image-ratio-1-2 { padding-top: 200%; }
+.image-ratio-9-16 { padding-top: 177.777%; }
+.image-ratio-9-14 { padding-top: 163.333%; }
+.image-ratio-2-3 { padding-top: 150%; }
+.image-ratio-3-4 { padding-top: 133.333%; }
+.image-ratio-1-1 { padding-top: 100%; }
+.image-ratio-4-3 { padding-top: 75%; }
+.image-ratio-3-2 { padding-top: 66.66%; }
+.image-ratio-16-9 { padding-top: 56.25%; }
+.image-ratio-2-1 { padding-top: 50%; }
