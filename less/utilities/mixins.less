@@ -140,101 +140,6 @@
 	column-gap: @gap;
 }
 
-//Button
-.button() {
-	padding: @buttons_padding;
-	font-size: @buttons_font_size;
-	border: none;
-	color: @dark;
-	.border-radius(@buttons_border_radius);
-	.transition(all @transition_fast ease-in-out);
-	.transition-property(~"background, color");
-}
-
-//Button Grey
-.button-grey() {
-	color: @primary;
-	background: @light_grey;
-
-	&:hover {
-		background: @grey;
-		.transition(all @transition_fast ease-in-out);
-		.transition-property(~"background, color");
-	}
-}
-
-//Button Primary
-.button-primary() {
-	color: @white;
-	background: @primary;
-
-	&:hover {
-		background: @grey;
-		.transition(background @transition_fast ease-in-out);
-		.transition-property(~"background, color");
-	}
-}
-
-//Button Small
-.button-small() {
-	padding: @buttons_small_padding;
-	font-size: @buttons_small_font_size;
-}
-
-//Button Medium
-.button-medium() {
-	padding: @buttons_padding;
-	font-size: @buttons_font_size;
-}
-
-//Button Large
-.button-large() {
-	padding: @buttons_large_padding;
-	font-size: @buttons_large_font_size;
-
-	@media @medium {
-		padding: @buttons_padding;
-		font-size: @buttons_font_size;
-	}
-}
-
-//Button Block
-.button-block() {
-	width: 100%;
-	text-align: center;
-	display: block;
-}
-
-//Button Action
-.button-action() {
-	position: relative;
-	text-align: left;
-	clear: both;
-
-	&:after {
-		float: right;
-		position: absolute;
-		right: 15px;
-		top: 50%;
-		margin-top: -6px;
-		content: @icon_angle_right;
-		color: @white;
-		font-size: 12px;
-		font-family: @icon_font_family;
-		margin-left: 15px;
-		.transition(all @transition_fast ease-in-out);
-		.transition-property(~"background, color");
-	}
-
-	&:hover,
-	&:focus {
-		&:after {
-			color: @white;
-		}
-	}
-}
-
-
 //Background Opacity
 .background-color-with-alpha(@color, @alpha) {
 	@rgba: rgba(red(@color), green(@color), blue(@color), @alpha);
@@ -272,8 +177,6 @@
 	-webkit-opacity: @opacity !important;
 	opacity: @opacity !important;
 	@opperc: @opacity * 100;
-	-ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
-	filter: ~"alpha(opacity=@{opperc})";
 }
 
 //Border Box Sizing
@@ -306,7 +209,6 @@
 	background: -o-linear-gradient(top, @start @start_origin, @stop @stop_origin);
 	background: -ms-linear-gradient(top, @start @start_origin, @stop @stop_origin);
 	background: linear-gradient(to bottom, @start @start_origin, @stop @stop_origin);
-	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)", @stop, @start));
 }
 
 //Horizontal Gradient
@@ -318,7 +220,6 @@
 	background: -o-linear-gradient(left, @start @start_origin, @stop @stop_origin);
 	background: -ms-linear-gradient(left, @start @start_origin, @stop @stop_origin);
 	background: linear-gradient(to right, @start @start_origin, @stop @stop_origin);
-	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)", @stop, @start));
 }
 
 //Radial Gradient
@@ -329,7 +230,6 @@
 	background: -o-radial-gradient(center, ellipse cover, @start @start_origin, @stop @stop_origin);
 	background: -ms-radial-gradient(center, ellipse cover, @start @start_origin, @stop @stop_origin);
 	background: radial-gradient(ellipse at center, @start @start_origin, @stop @stop_origin);
-	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)", @stop, @start));
 }
 
 //Text Overflow
