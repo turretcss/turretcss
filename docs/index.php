@@ -24,31 +24,27 @@
 
 <div class="column-3-4">
 
-<h2 id="general" class="section-title">General</h2>
+
 <!-- Structure -->
+<div class="panel">
+	<h2 id="general" class="section-title">General</h2>
+	<h3 class="section-sub-title">Structure</h3>
+	<pre><code class="hljs html"><?php echo htmlentities('<div class="[element] [behaviour] [style]">...</div>'); ?></code></pre>
 
-<h3 class="section-sub-title">Structure</h3>
-<pre><code class="hljs html"><?php echo htmlentities('<div class="[element] [behaviour] [style]">...</div>'); ?></code></pre>
+	<h3 class="section-sub-title">Viewport</h3>
+	<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <code>&lt;head&gt;</code>.</p>
+	<pre><code class="hljs html"><?php echo htmlentities('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?></code></pre>
 
-<!-- Viewport -->
-
-<h3 class="section-sub-title">Viewport</h3>
-<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <code>&lt;head&gt;</code>.</p>
-<pre><code class="hljs html"><?php echo htmlentities('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?></code></pre>
-
-
-<!-- Responsive Images -->
-
-<h3 class="section-sub-title">Responsive Images</h3>
-<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
-<pre><code class="hljs html"><?php echo htmlentities('<img src="..." class="responsive" />'); ?></code></pre>
-
+	<h3 class="section-sub-title">Responsive Images</h3>
+	<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
+	<pre><code class="hljs html"><?php echo htmlentities('<img src="..." class="responsive" />'); ?></code></pre>
+</div>
 
 <!-- Media Queries -->
-
-<h2 id="media-queries" class="section-title">Media Queries</h2>
-<p>We use the following media queries in LESS files to create the key breakpoints.</p>
-<pre><code class="hljs css">
+<div class="panel">
+	<h2 id="media-queries" class="section-title">Media Queries</h2>
+	<p>We use the following media queries in LESS files to create the key breakpoints.</p>
+	<pre><code class="hljs css">
 <?php echo htmlentities('@small: ~"(max-width: 767px)";
 @medium: ~"(max-width: 1024px)";
 @only_medium: ~"(min-width: 768px) and (max-width: 1024px) and (orientation: portrait)";
@@ -62,6 +58,7 @@
 ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
 ~"only screen and (min-device-pixel-ratio: 1.5)";'); ?>
 </code></pre>
+</div>
 
 <!-- Basic Template -->
 

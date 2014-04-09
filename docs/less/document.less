@@ -1,0 +1,163 @@
+//Definitions
+
+@import '../../less/definitions.less';
+
+//Utilities
+
+@import '../../less/utilities/utilities.less';
+@import '../../less/utilities/mixins.less';
+
+
+@white: #FFFFFF;
+@light_grey: #F2F5F7;
+@mid_grey: #EDF1F2;
+@grey: #DADDDF;
+@mint: #3BC0C3;
+
+
+body {
+	background: @mid_grey;
+}
+
+.navbar {
+
+	.logo {
+		font-family: 'Ziggurat A', 'Ziggurat B';
+		font-weight: 800;
+		font-style: italic;
+		font-size: 18px;
+		color: #FFFFFF;
+	}
+
+	.nav a {
+		font-weight: 600;
+	}
+}
+
+p {
+	font-weight: 300;
+	color: #444444;
+}
+
+.content {
+	padding: 35px 0px;
+}
+
+code {
+	padding: 2px 3px;
+	font-size: 0.9em;
+	color: #DD1648;
+	background: @light_grey !important;
+}
+
+//Page Header
+.page-header {
+	background: @mint;
+
+	.page-header-content {
+		display: table;
+
+		.page-title {
+			font-size: 42px;
+			color: @white;
+			letter-spacing: 4px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+//Panels
+.panel {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: @white;
+}
+
+//Sections
+.section-title {
+	margin-bottom: 10px;
+	line-height: 2;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.section-sub-title {
+	margin: 20px 0px 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1B2A3C;
+	text-transform: uppercase;
+}
+
+//Grid
+.grid {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+
+	.swatch {
+		padding: 10px;
+	}
+}
+
+//Colors
+.color {
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+
+	.swatch {
+		padding: 5px;
+		border: 1px solid #eee;
+		height: 120px;
+		margin-bottom: 5px;
+	}
+}
+
+
+//Tables
+table {
+
+	tr {
+
+
+		td {
+
+			&.is-clear,
+			&.is-float {
+				text-transform: capitalize;
+			}
+
+			&.is-clear {
+				font-weight: 600;
+			}
+
+			&.is-float,
+			&.is-unsupported {
+				color: #CCCCCC !important;
+				background: #EEEEEE;
+			}
+
+			&.is-visible,
+			&.is-supported {
+				font-weight: 600;
+			}
+
+			&.is-hidden {
+				color: #CCCCCC !important;
+				background: #EEEEEE;
+			}
+
+		}
+	}
+}
+
+//Icons
+.icon {
+	text-align: center;
+
+	span {
+		line-height: 50px;
+		font-size: 40px;
+	}
+}
