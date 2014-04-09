@@ -1,72 +1,99 @@
 /* Buttons */
 
 .button {
-	.button();
+	padding: @buttons_padding;
+	font-size: @buttons_font_size;
+	border: none;
+	color: @dark;
+	.border-radius(@buttons_border_radius);
+	.transition(all @transition_fast ease-in-out);
+	.transition-property(~"background, color");
 
-	//Structure
-	&.block {
-		.button-block();
-	}
-
-	//Sizes
-	&.small {
-		.button-small();
-	}
-
-	&.medium {
-		.button-medium();
-	}
-
-	&.large {
-		.button-large();
-	}
-
-	//Styles
-	&.line {
+	//Button Grey
+	&.button-grey {
 		color: @primary;
-		border: solid @light_grey;
-		border-width: 1px 0px;
+		background: @light_grey;
 
-		&:hover,
-		&:focus {
-
-		}
-
-		&.action {
-			&:after {
-				color: @dark_grey;
-			}
-
-			&:hover,
-			&:focus {
-				padding-left: 20px;
-				color: @grey;
-
-				&:after {
-					color: @primary;
-				}
-			}
+		&:hover {
+			background: @grey;
 		}
 	}
 
-	&.grey {
-		.button-grey();
-	}
-
-	&.primary {
-		.button-primary();
-	}
-
-	&.dark {
+	//Button Primary
+	&.button-primary {
 		color: @white;
-		background: @dark;
+		background: @primary;
 
 		&:hover,
 		&:focus {
-
+			background: @grey;
 		}
 	}
 
+	//Button Small
+	&.button-small {
+		padding: @buttons_small_padding;
+		font-size: @buttons_small_font_size;
+	}
+
+	//Button Medium
+	&.button-medium {
+		padding: @buttons_padding;
+		font-size: @buttons_font_size;
+	}
+
+	//Button Large
+	&.button-large {
+		padding: @buttons_large_padding;
+		font-size: @buttons_large_font_size;
+
+		@media @medium {
+			padding: @buttons_padding;
+			font-size: @buttons_font_size;
+		}
+	}
+
+	//Button Block
+	&.button-block {
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+
+
+	//Button Border
+	&.button-border {
+		color: @white;
+		background: transparent;
+		border: 2px solid @white;
+	}
+
+	//Button Action
+	&.button-action {
+		position: relative;
+		text-align: left;
+		clear: both;
+		color: @white;
+		background: @primary;
+
+		&:after {
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			margin-top: -10px;
+			content: @buttons_action_icon;
+			color: @white;
+			font-size: 16px;
+			font-family: @icon_font_family;
+		}
+
+		&:hover,
+		&:focus {
+			background: @dark;
+		}
+	}
+
+	//Text Button
 	&.text {
 		color: @primary;
 		background: transparent;
@@ -77,70 +104,17 @@
 		}
 	}
 
-	&.action {
-		.button-action();
-	}
-
-	&.overview {
-
-		&.action {
-			&:after {
-				color: @dark_grey;
-			}
-
-			&:hover,
-			&:focus {
-				.transition(color @transition_fast ease-in-out);
-
-				&:after {
-					color: @white;
-				}
-			}
-		}
-	}
-
-	&.clear {
-		position: relative;
-		color: @primary;
-		font-size: 12px;
-		height: 40px;
-		padding-right: 50px;
-		text-transform: uppercase;
-
-
-		&:after {
-			position: absolute;
-			right: 0;
-			top: 50%;
-			margin-top: -20px;
-			content: @icon_close;
-			color: @white;
-			padding: 14px;
-			font-family: @icon_font_family;
-			margin-left: 15px;
-			background: @primary;
-		}
-
-		&:hover,
-		&:focus {
-
-			&:after {
-
-			}
-		}
-	}
-
+	//Close Button
 	&.close {
 		position: relative;
 		background: @primary;
 
 		&:after {
-			content: @icon_close;
 			color: @white;
 			font-size: 15px;
-			width: 15px;
-			height: 15px;
+			.square(15px);
 			text-align: center;
+			content: @buttons_close_icon;
 			font-family: @icon_font_family;
 			vertical-align: middle;
 		}
@@ -154,76 +128,51 @@
 		}
 	}
 
-	&.map {
+	/*
+&.play {
+		display: block;
 		position: relative;
-		color: @primary;
+		.square(@button_play_size);
 
 		&:after {
 			position: absolute;
-			right: 10px;
-			top: 50%;
-			margin-top: -16px;
-			color: @primary;
-			content: @icon_map;
-			font-size: 32px;
+			top: 0;
+			left: 0;
 			font-family: @icon_font_family;
-			margin-left: 15px;
+			content: @icon_play;
+			color: @white;
+			font-size: @button_play_icon_size;
+			//padding: (100px - 40px)/2;
+			@offset: (@button_play_size/2) - (@button_play_icon_size/2);
+			padding: @offset (@offset - 2px) @offset (@offset + 2px); //Align Play Icon in Centre
+			.gradient(#0F6BBB, 50%, #0D5FB1, 50%);
+			.border-radius(50%);
 		}
 
 		&:hover,
 		&:focus {
-			padding-left: 20px;
-			color: @dark_grey;
 
 			&:after {
-				color: @dark_grey;
+
+			}
+		}
+
+		@media @small {
+			.square(@button_play_size/2);
+			margin: 5px auto;
+
+			&:after {
+				font-size: (@button_play_icon_size/2);
+				@offset: (@button_play_size/4) - (@button_play_icon_size/4);
+				padding: @offset (@offset - 2px) @offset (@offset + 2px);
 			}
 		}
 	}
+*/
 
+	//Button Disabled
 	&:disabled {
 		color: @white;
 		background: @light_grey;
-	}
-
-}
-
-&.play {
-	display: block;
-	position: relative;
-	.square(@button_play_size);
-
-	&:after {
-		position: absolute;
-		top: 0;
-		left: 0;
-		font-family: @icon_font_family;
-		content: @icon_play;
-		color: @white;
-		font-size: @button_play_icon_size;
-		//padding: (100px - 40px)/2;
-		@offset: (@button_play_size/2) - (@button_play_icon_size/2);
-		padding: @offset (@offset - 2px) @offset (@offset + 2px); //Align Play Icon in Centre
-		.gradient(#0F6BBB, 50%, #0D5FB1, 50%);
-		.border-radius(50%);
-	}
-
-	&:hover,
-	&:focus {
-
-		&:after {
-
-		}
-	}
-
-	@media @small {
-		.square(@button_play_size/2);
-		margin: 5px auto;
-
-		&:after {
-			font-size: (@button_play_icon_size/2);
-			@offset: (@button_play_size/4) - (@button_play_icon_size/4);
-			padding: @offset (@offset - 2px) @offset (@offset + 2px);
-		}
 	}
 }
