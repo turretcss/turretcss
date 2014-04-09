@@ -40,7 +40,7 @@
 <body>
 
 <!-- Navbar -->
-<div id="navbar" class="navbar dark fixed">
+<div id="navbar" class="navbar fixed">
 	<div class="container">
 		<div class="nav-header">
 			<a class="logo left" href="/docs/">turret</a>

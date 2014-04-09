@@ -318,6 +318,12 @@ input {
 body {
   background: #edf1f2;
 }
+.navbar {
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
 .navbar .logo {
   font-family: 'Ziggurat A', 'Ziggurat B';
   font-weight: 800;
