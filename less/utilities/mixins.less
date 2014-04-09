@@ -581,6 +581,14 @@
 	animation-duration: @duration;
 }
 
+.animation-fill-mode(@mode) {
+	-webkit-animation-fill-mode: @mode;
+	-moz-animation-fill-mode: @mode;
+	-ms-animation-fill-mode: @mode;
+	-o-animation-fill-mode: @mode;
+	animation-fill-mode: @mode;
+}
+
 .animation-timing-function(@timing_function) {
 	-webkit-animation-timing-function: @timing_function;
 	-moz-animation-timing-function: @timing_function;
