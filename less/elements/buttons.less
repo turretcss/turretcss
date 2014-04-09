@@ -4,18 +4,27 @@
 	padding: @buttons_padding;
 	font-size: @buttons_font_size;
 	border: none;
-	color: @dark;
+	color: @buttons_color;
+	background: @buttons_background;
 	.border-radius(@buttons_border_radius);
 	.transition(all @transition_fast ease-in-out);
 	.transition-property(~"background, color");
 
-	//Button Grey
-	&.button-grey {
-		color: @primary;
-		background: @light_grey;
+	&:hover,
+	&:focus {
+		color: @buttons_hover_color;
+		background: @buttons_hover_background;
+	}
 
-		&:hover {
-			background: @grey;
+	//Button Primary
+	&.button-inverse {
+		color: @buttons_hover_color;
+		background: @buttons_hover_background;
+
+		&:hover,
+		&:focus {
+			color: @buttons_color;
+			background: @buttons_background;
 		}
 	}
 
@@ -63,9 +72,9 @@
 
 	//Button Border
 	&.button-border {
-		color: @white;
+		color: @buttons_color;
 		background: transparent;
-		border: 2px solid @white;
+		border: 2px solid @buttons_color;
 	}
 
 	//Button Action
@@ -73,8 +82,6 @@
 		position: relative;
 		text-align: left;
 		clear: both;
-		color: @white;
-		background: @primary;
 
 		&:after {
 			position: absolute;
@@ -82,19 +89,22 @@
 			right: 10px;
 			margin-top: -10px;
 			content: @buttons_action_icon;
-			color: @white;
+			color: @buttons_color;
 			font-size: 16px;
 			font-family: @icon_font_family;
 		}
 
 		&:hover,
 		&:focus {
-			background: @dark;
+
+			&:after {
+				color: @buttons_hover_color;
+			}
 		}
 	}
 
 	//Text Button
-	&.text {
+	&.button-text {
 		color: @primary;
 		background: transparent;
 
@@ -105,12 +115,12 @@
 	}
 
 	//Close Button
-	&.close {
+	&.button-close {
 		position: relative;
-		background: @primary;
+		background: @buttons_background;
 
 		&:after {
-			color: @white;
+			color: @buttons_color;
 			font-size: 15px;
 			.square(15px);
 			text-align: center;
@@ -129,7 +139,7 @@
 	}
 
 	/*
-&.play {
+&.button-play {
 		display: block;
 		position: relative;
 		.square(@button_play_size);
