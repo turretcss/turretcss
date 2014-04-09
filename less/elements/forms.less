@@ -121,6 +121,7 @@
 		float: left;
 		width: 100%;
 		margin-bottom: 0;
+		.border-radiuses (@input_border_radius, 0, @input_border_radius, 0);
 	}
 
 	.input-group-button,
@@ -143,6 +144,7 @@
 			position: relative;
 			height: @input_medium_height;
 			min-width: @input_medium_height;
+			.border-radiuses (0, @buttons_border_radius, 0, @buttons_border_radius);
 
 			+ .button {
 				margin-left: -1px;
