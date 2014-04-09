@@ -2,18 +2,18 @@
 
 table {
 	&.table {
+		background: @tables_background;
 
 		thead {
 
 			tr {
 
 				th {
-					padding: 15px 20px;
-					min-width: 200px;
+					padding: @tables_head_padding;
 					font-size: @tables_head_font_size;
-					color: @primary;
-					text-align: left;
-					text-transform: uppercase;
+					color: @tables_head_color;
+					text-align: @tables_head_text_align;
+					text-transform: @tables_head_text_transform;
 				}
 			}
 		}
@@ -23,7 +23,7 @@ table {
 			tr {
 
 				td {
-					padding: 25px 20px 15px 20px;
+					padding: @tables_cell_padding;
 					color: @grey;
 					font-size: @tables_body_font_size;
 					line-height: @tables_body_line_height;
@@ -42,11 +42,11 @@ table {
 		}
 
 		&.table-block {
+			width: 100%;
 
 			th {
-				color: @white;
-				background: @primary;
-
+				color: @tables_head_color;
+				background: @tables_head_background;
 			}
 
 			td {
