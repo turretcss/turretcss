@@ -8,15 +8,16 @@
 @import '../../less/utilities/mixins.less';
 
 
-@white: #FFFFFF;
-@light_grey: #F2F5F7;
-@mid_grey: #EDF1F2;
-@grey: #DADDDF;
-@mint: #3BC0C3;
+@document_white: #FFFFFF;
+@document_light_grey: #F8FAFB;
+@document_grey_border: #D2DADE;
+@document_mid_grey: #EDF1F2;
+@document_grey: #84898F;
+@document_mint: #3BC0C3;
 
 
 body {
-	background: @mid_grey;
+	background: @document_mid_grey;
 }
 
 .navbar {
@@ -35,8 +36,10 @@ body {
 }
 
 p {
-	font-weight: 300;
-	color: #444444;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	color: @document_grey;
 }
 
 .content {
@@ -47,19 +50,24 @@ code {
 	padding: 2px 3px;
 	font-size: 0.9em;
 	color: #DD1648;
-	background: @light_grey !important;
+	background: #FAFAFA !important;
+	border: 1px solid #F3F3F3;
 }
 
 //Page Header
 .page-header {
-	background: @mint;
+	background: @document_mint;
 
 	.page-header-content {
+		.overlay();
 		display: table;
+		height: 200px;
 
 		.page-title {
+			display: table-cell;
+			vertical-align: middle;
 			font-size: 42px;
-			color: @white;
+			color: @document_white;
 			letter-spacing: 4px;
 			text-transform: uppercase;
 		}
@@ -69,15 +77,16 @@ code {
 //Panels
 .panel {
 	padding: 20px;
-	margin-bottom: 20px;
-	background: @white;
+	margin-bottom: 30px;
+	background: @document_white;
+	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
 }
 
 //Sections
 .section-title {
 	margin-bottom: 10px;
 	line-height: 2;
-	border-bottom: 1px solid #EEEEEE;
+	border-bottom: 1px solid @document_light_grey;
 }
 
 .section-sub-title {
@@ -90,7 +99,7 @@ code {
 
 //Grid
 .grid {
-	color: #FFFFFF;
+	color: @document_white;
 	font-size: 12px;
 	text-align: center;
 	color: black;
@@ -117,6 +126,27 @@ code {
 
 //Tables
 table {
+	color: #888888;
+
+	&.table-bordered {
+		border: 1px solid @document_grey_border;
+	}
+
+	&.table-block {
+
+		th {
+			color: @document_grey !important;
+			background: @document_mid_grey !important;
+		}
+
+		td {
+
+		}
+	}
+
+	th {
+		//background: @light_grey;
+	}
 
 	tr {
 
@@ -128,26 +158,17 @@ table {
 				text-transform: capitalize;
 			}
 
-			&.is-clear {
-				font-weight: 600;
-			}
-
+			&.is-hidden,
 			&.is-float,
 			&.is-unsupported {
 				color: #CCCCCC !important;
-				background: #EEEEEE;
+				background: #FAFAFA;
 			}
 
 			&.is-visible,
 			&.is-supported {
-				font-weight: 600;
-			}
 
-			&.is-hidden {
-				color: #CCCCCC !important;
-				background: #EEEEEE;
 			}
-
 		}
 	}
 }

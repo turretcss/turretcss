@@ -26,7 +26,7 @@
 <div class="column-3-4">
 
 <!-- Clearfix -->
-
+<div class="panel">
 <h2 id="clearfix" class="section-title">Clearfix</h2>
 <p>Clearfix for Elements with Floating Inner Elements.</p>
 <h3 class="section-sub-title">Class</h3>
@@ -49,9 +49,10 @@
 
 	*zoom: 1;
 }'); ?></code></pre>
+</div>
 
 <!-- Center Block -->
-
+<div class="panel">
 <h2 id="center-block" class="section-title">Center Block</h2>
 <p>Set any element to be <code>display: block;</code> and centered <code>margin-left: auto;</code> and <code>margin-right: auto;</code>.</p>
 <h3 class="section-sub-title">Class</h3>
@@ -65,9 +66,10 @@
 	margin-left: auto;
 	margin-right: auto;
 }'); ?></code></pre>
+</div>
 
 <!-- Floats -->
-
+<div class="panel">
 <h2 id="floats" class="section-title">Floats</h2>
 <p>Utility Classes to Float Elements Left or Right.</p>
 
@@ -159,9 +161,10 @@
 		</tr>
 	</tbody>
 </table>
+</div>
 
 <!-- Hide and Show -->
-
+<div class="panel">
 <h3 id="hide-and-show" class="section-title">Hide and Show</h3>
 <p>Mixins and Utility Classes to Hide and Show Elements. Includes Responsive Breakpoints for Clearing Floats.</p>
 
@@ -189,9 +192,10 @@
 	.opacity(1);
 }'); ?>
 </code></pre>
+</div>
 
 <!-- Responsive Utilities -->
-
+<div class="panel">
 <h3 id="responsive-utilities" class="section-title">Responsive Utilities</h3>
 <p>Define content to be <code>visible</code> or <code>hidden</code> on different devices. <code>!important</code> is included to avoid specificity issues.</p>
 <table class="table table-bordered table-block table-responsive">
@@ -265,10 +269,10 @@
 		</tr>
 	</tbody>
 </table>
-
+</div>
 
 <!-- Mixins -->
-
+<div class="panel">
 <h3 id="mixins" class="section-title">Mixins</h3>
 <p>Predefined Mixins for use with Turret.</p>
 <table class="table table-bordered table-block table-responsive">
@@ -282,6 +286,7 @@
 		<?php include('includes/mixin-table.php'); ?>
 	</tbody>
 </table>
+</div>
 
 </div>
 

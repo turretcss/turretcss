@@ -1,34 +1,37 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="height:200px;">
-	<div class="container">
-		<div class="page-header-content column-1"><h1 class="page-title">layout</h1></div>
+<div class="page-header" style="min-height:200px; padding: 50px 0px 30px;">
+	<?php include('includes/grid.php'); ?>
+	<!--
+<div class="container">
+		<div class="page-header-content column-1">
+			<h1 class="page-title">layout</h1>
+		</div>
 	</div>
+-->
 </div>
 
 <div id="grid" class="content" class="row">
 <div class="container">
 
 <div class="column-1">
+<div class="panel">
+	<h2 class="section-title">Container and Rows</h2>
 
-<h2 class="section-title">Container and Rows</h2>
+	<!-- Container -->
+	<h3 class="section-sub-title">Container</h3>
+	<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
+	<pre><code class="hljs html"><?php echo htmlentities('<div class="container">...</div>'); ?></code></pre>
 
-<!-- Container -->
-
-<h3 class="section-sub-title">Container</h3>
-<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
-<pre><code class="hljs html"><?php echo htmlentities('<div class="container">...</div>'); ?></code></pre>
-
-<!-- Row -->
-
-<h3 class="section-sub-title">Row</h3>
-<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
-<pre><code class="hljs html"><?php echo htmlentities('<div class="row">...</div>'); ?></code></pre>
+	<!-- Row -->
+	<h3 class="section-sub-title">Row</h3>
+	<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
+	<pre><code class="hljs html"><?php echo htmlentities('<div class="row">...</div>'); ?></code></pre>
+</div>
 
 <!-- Grid -->
+<div class="panel">
 <h2 class="section-title">Grid</h2>
-
-<?php include('includes/grid.php'); ?>
 
 <h3 class="section-sub-title">Grid</h3>
 <pre><code class="hljs html">
@@ -73,7 +76,7 @@
 	</div>
 </div>'); ?>
 </code></pre>
-
+</div>
 </div>
 
 <?php include('includes/footer.php'); ?>

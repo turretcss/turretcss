@@ -53,6 +53,7 @@
 		<div class="nav-collapse" data-nav-collapse>
 			<ul class="nav right">
 				<li><a href="/docs/">General</a></li>
+				<li><a href="/docs/icons.php">Icons</a></li>
 				<li><a href="/docs/utilities.php">Utilities</a></li>
 				<li><a href="/docs/layout.php">Layout</a></li>
 				<li><a href="/docs/elements.php">Elements</a></li>

@@ -3117,16 +3117,18 @@ img.responsive {
   font-size: 68px;
 }
 /* Tables */
+table.table {
+  background: #ffffff;
+}
 table.table thead tr th {
-  padding: 15px 20px;
-  min-width: 200px;
+  padding: 10px;
   font-size: 13px;
-  color: #ff444e;
+  color: #485364;
   text-align: left;
   text-transform: uppercase;
 }
 table.table tbody tr td {
-  padding: 25px 20px 15px 20px;
+  padding: 10px;
   color: #485364;
   font-size: 13px;
   line-height: 1.5;
@@ -3136,12 +3138,15 @@ table.table.table-bordered {
   border: 1px solid #ececed;
 }
 table.table.table-bordered td {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ececed;
 }
+table.table.table-block {
+  width: 100%;
+}
 table.table.table-block th {
-  color: #ffffff;
-  background: #ff444e;
+  color: #485364;
+  background: #ececed;
 }
 @media (max-width: 1024px) {
   table.table.table-responsive table,
