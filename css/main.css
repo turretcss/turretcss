@@ -2811,34 +2811,6 @@ input {
 .side-nav ul li a.active:focus {
   margin-left: 0;
 }
-/* Lightbox */
-.lightbox {
-  display: none;
-  z-index: 9999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #000000;
-  background: rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-.lightbox .lightbox-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -288px;
-  margin-left: -512px;
-  text-align: center;
-  width: 1024px;
-  height: 576px;
-  display: block;
-  background: #ffffff;
-  border: 10px solid #ffffff;
-}
 /* Video */
 .video-wrapper {
   z-index: 600 !important;
@@ -2999,6 +2971,49 @@ img.responsive {
   vertical-align: middle;
   text-align: center;
 }
+.image-placeholder {
+  display: block;
+  position: relative;
+  background: #ececed url('/img/loading.gif') no-repeat center center;
+  background-size: 32px 32px;
+}
+.image-placeholder > img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-ratio-1-2 {
+  padding-top: 200%;
+}
+.image-ratio-9-16 {
+  padding-top: 177.777%;
+}
+.image-ratio-9-14 {
+  padding-top: 163.333%;
+}
+.image-ratio-2-3 {
+  padding-top: 150%;
+}
+.image-ratio-3-4 {
+  padding-top: 133.333%;
+}
+.image-ratio-1-1 {
+  padding-top: 100%;
+}
+.image-ratio-4-3 {
+  padding-top: 75%;
+}
+.image-ratio-3-2 {
+  padding-top: 66.66%;
+}
+.image-ratio-16-9 {
+  padding-top: 56.25%;
+}
+.image-ratio-2-1 {
+  padding-top: 50%;
+}
 /* List Group */
 .list-group {
   margin: 0;
@@ -3036,6 +3051,13 @@ table.table {
   background: #ffffff;
 }
 table.table thead tr th {
+  padding: 10px;
+  font-size: 13px;
+  color: #485364;
+  text-align: left;
+  text-transform: uppercase;
+}
+table.table tbody tr th {
   padding: 10px;
   font-size: 13px;
   color: #485364;
