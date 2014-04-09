@@ -16,7 +16,10 @@
 	<!-- Syntax Higlighting -->
 	<link rel="stylesheet" href="highlight/styles/github.css">
 	<script src="highlight/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
+	<script>
+		hljs.configure({tabReplace: '    '});
+		hljs.initHighlightingOnLoad();
+	</script>
 
 	<!-- Maps -->
 	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
@@ -52,7 +55,9 @@
 		</div>
 		<div class="nav-collapse" data-nav-collapse>
 			<ul class="nav right">
-				<li><a href="/docs/">General</a></li>
+				<li><a href="/docs/">Home</a></li>
+				<li><a href="/docs/support.php">Support</a></li>
+				<li><a href="/docs/general.php">General</a></li>
 				<li><a href="/docs/icons.php">Icons</a></li>
 				<li><a href="/docs/utilities.php">Utilities</a></li>
 				<li><a href="/docs/layout.php">Layout</a></li>
