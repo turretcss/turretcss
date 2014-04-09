@@ -404,6 +404,11 @@ code {
 }
 .grid .swatch {
   padding: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
 }
 .color {
   float: left;
