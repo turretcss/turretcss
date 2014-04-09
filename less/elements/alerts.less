@@ -1,0 +1,81 @@
+/* Alerts */
+
+//Mixin
+.alert-fade-style(@color) {
+	color: @color;
+	border: 1px solid @color;
+	background: fade(@color, 25%);
+
+	&:after {
+		color: @color;
+	}
+}
+
+//Alerts
+.alert {
+	display: block;
+	margin: @alerts_margin;
+	padding: @alerts_padding;
+	font-size: @alerts_font_size;
+	font-weight: @alerts_font_weight;
+
+	&:after {
+		float: right;
+		content: @alerts_close_icon;
+		font-family: @icon_font_family;
+	}
+
+	&.alert-info {
+		.alert-fade-style(@info);
+	}
+
+	&.alert-warning {
+		.alert-fade-style(@warning);
+	}
+
+	&.alert-error {
+		.alert-fade-style(@error);
+	}
+
+	&.alert-success {
+		.alert-fade-style(@success);
+	}
+
+	&.alert-block {
+		&.alert-info {
+			color: @white;
+			background: @info;
+
+			&:after {
+				color: @white;
+			}
+		}
+
+		&.alert-warning {
+			color: @white;
+			background: @warning;
+
+			&:after {
+				color: @white;
+			}
+		}
+
+		&.alert-error {
+			color: @white;
+			background: @error;
+
+			&:after {
+				color: @white;
+			}
+		}
+
+		&.alert-success {
+			color: @white;
+			background: @success;
+
+			&:after {
+				color: @white;
+			}
+		}
+	}
+}

@@ -48,6 +48,7 @@
 	<p>Use the <code>icon-spin</code> class to get any icon to rotate.</p>
 	<p><span class="icon-spin icon-loading"></span></p>
 	<pre><code class="hljs html"><?php echo htmlentities('<span class="icon-spin icon-loading"></span>'); ?></code></pre>
+	<div class="alert alert-info"> CSS3 animations aren't supported in IE8 - IE9.</div>
 </div>
 
 </div>

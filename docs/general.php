@@ -162,6 +162,10 @@
 			<div class="swatch success"></div>
 			<small>Success</small>
 		</div>
+		<div class="color column-1-6">
+			<div class="swatch info"></div>
+			<small>Info</small>
+		</div>
 	</div>
 
 	<!-- Palette -->

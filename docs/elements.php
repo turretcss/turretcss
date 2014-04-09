@@ -14,6 +14,7 @@
 	<div class="side-nav">
 		<ul>
 			<li><a href="#tags">Tags</a></li>
+			<li><a href="#alerts">Alerts</a></li>
 			<li><a href="#buttons">Buttons</a></li>
 			<li><a href="#images">Images</a></li>
 			<li><a href="#figure">Figure</a></li>
@@ -36,6 +37,30 @@
 	<div class="clearfix"></div>
 <pre><code class="hljs html"><?php echo htmlentities('<span class="tag">Tag</span>
 <span class="tag active">Tag</span>'); ?></code></pre>
+</div>
+
+<!-- Alerts -->
+<div class="panel">
+<h2 id="alerts" class="section-title">Alerts</h2>
+<h3 class="section-sub-title">Default Styles</h3>
+<div class="alert alert-info">Alert Info</div>
+<div class="alert alert-warning">Alert Warning</div>
+<div class="alert alert-error">Alert Error</div>
+<div class="alert alert-success">Alert Success</div>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="alert alert-info">Alert Info</div>
+<div class="alert alert-warning">Alert Warning</div>
+<div class="alert alert-error">Alert Error</div>
+<div class="alert alert-success">Alert Success</div>'); ?></code></pre>
+
+<h3 class="section-sub-title">Block Styles</h3>
+<div class="alert alert-block alert-info">Alert Info</div>
+<div class="alert alert-block alert-warning">Alert Warning</div>
+<div class="alert alert-block alert-error">Alert Error</div>
+<div class="alert alert-block alert-success">Alert Success</div>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="alert alert-block alert-info">Alert Info</div>
+<div class="alert alert-block alert-warning">Alert Warning</div>
+<div class="alert alert-block alert-error">Alert Error</div>
+<div class="alert alert-block alert-success">Alert Success</div>'); ?></code></pre>
 </div>
 
 <!-- Buttons -->
