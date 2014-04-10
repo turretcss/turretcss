@@ -1,34 +1,92 @@
 /* Map */
 
-#map {
-	width: 100%;
+.map {
+	position: relative;
 
-	//Bug Fix for Infowindow
 	img {
-		max-width:none
+		max-width:none;//Bug Fix for Infowindow
 	}
 
-	@media @small {
-		height: 300px;
-	}
+	.map-canvas {
+		width: 100%;
 
-	@media @only_medium {
-		height: 380px;
-	}
+		@media @small {
+			height: 300px;
+		}
 
-	@media @large {
-		height: 500px;
+		@media @only_medium {
+			height: 380px;
+		}
 
-		&.project-detail-map {
-			height: 256px;
+		@media @large {
+			height: 500px;
+		}
+
+		@media @extra_large {
+			height: 600px;
 		}
 	}
 
-	@media @extra_large {
-		height: 600px;
+	//Controls
+	.map-controls {
+		margin-left: 10px;
+		padding: 10px;
+		font-size: 15px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		color: @white;
+		background: @primary;
+		.transition(all @transition_fast ease-in-out);
 
-		&.project-detail-map {
-			height: 320px;
+		&:hover,
+		&:focus {
+			background: @dark_grey;
+		}
+
+		&.map-controls-zoom-in {
+			margin-top: 10px;
+		}
+
+		&.map-controls-zoom-out {
+
+		}
+	}
+
+	//Pagination
+	.map-pagination {
+		z-index: @map_pagination_z_index;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		.map-pagination-item {
+			display: inline-block;
+
+			a {
+				position: relative;
+				display: block;
+				background: @primary;
+				color: @white;
+				padding: 20px;
+				text-align: center;
+				font-size: 12px;
+				cursor: pointer;
+
+				&:hover,
+				&:focus {
+					@media @large {
+						background: @dark;
+					}
+				}
+
+				&.active {
+					background: @secondary;
+				}
+			}
 		}
 	}
 }
@@ -47,15 +105,6 @@
 	text-align: center;
 	color: @white;
 	white-space: nowrap;
-
-	.project {
-		margin-top: 14px;
-		display: block;
-	}
-
-	.contact {
-
-	}
 }
 
 
@@ -70,23 +119,6 @@
 	color: @grey;
 	background: @white;
 
-	.infobox-inner {
-		padding: 10px 0px;
-		height: 120px;
-		overflow: scroll;
-		.box-shadow(inset 0px -15px 10px -8px @white);
-
-		p {
-			font-size: 12px;
-		}
-
-		.infobox-title {
-			color: @primary;
-			text-transform: uppercase;
-
-		}
-	}
-
 	&:after {
 		z-index: 99;
 		position: absolute;
@@ -99,32 +131,5 @@
 		border-left: 20px solid transparent;
 		border-top: 20px solid @white;
 		border-right: 20px solid transparent;
-	}
-}
-
-
-//Controls
-.map-controls {
-	margin-left: 10px;
-	padding: 10px;
-	font-size: 15px;
-	width: 40px;
-	height: 40px;
-	text-align: center;
-	color: @white;
-	background: @dark;
-	.transition(all @transition_fast ease-in-out);
-
-	&:hover,
-	&:focus {
-		background: @dark_grey;
-	}
-
-	&.map-controls-zoom-in {
-		margin-top: 10px;
-	}
-
-	&.map-controls-zoom-out {
-
 	}
 }

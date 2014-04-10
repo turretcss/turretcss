@@ -50,7 +50,7 @@
 	<img src="http://placehold.it/1200x600&text=Slide+4">
 </div>'); ?></code></pre>
 
-<h3 class="section-sub-title">Javascript</h3>
+<h3 class="section-sub-title">Javascript Example</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities('$(\'[data-slides]\').slides({
 	width: 1200,
 	height: 600
@@ -100,6 +100,8 @@
 		complete: function() {}
 	}
 };"); ?></code></pre>
+<h3 class="section-sub-title">Plugin </h3>
+
 </div>
 
 <!-- Map -->
@@ -110,65 +112,68 @@
 <script>
 $(document).ready(function() {
 	$('[data-map]').gmap({
-		labelClass: 'bigfish-office',
-		pagination: false,
-		path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
-		color: '#E3EE21',
-		icon: 'icon-circle-full',
+		pagination: true,
 		locations: [
 			{
 				title: 'Bigfish.tv',
+				category: 'Bigfish',
 				content: 'Bigfish.tv Office',
 				position: {
 					lat: -27.440850,
 					lng: 153.041337
 				}
+			},
+			{
+				title: 'Brisbane',
+				category: 'Brisbane',
+				content: 'Brisbane',
+				position: {
+					lat: -27.4709331,
+					lng: 153.02350239
+				}
 			}
 		],
 		mapOptions: {
-			zoom: 15,
 			minZoom: 2,
-			maxZoom: 18,
-			center: [{lat: '-27.440850', lng: '153.041337'}],
-			styles: [
-				{"featureType":"water","stylers":[{"visibility":"simplified"},{"color":"#1B2A3C"}]},
-				{"featureType":"landscape","stylers":[{"visibility":"simplified"},{"color":"#E5E5E5"}]},
-				{"featureType":"poi","stylers":[{"visibility":"off"}]},
-				{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#1B2A3C"}]},
-				{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},
-				{"elementType":"geometry.stroke","stylers":[{"visibility":"simplified"}]},
-				{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#FF444E"}]},
-				{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},
-				{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#FFFFFF"}]},
-				{"featureType":"transit","stylers":[{"visibility":"off"}]},
-				{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#C1C2C3"}]},
-				{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#FFFFFF"}]},
-				{"featureType":"road.highway","elementType":"labels.icon","stylers":[{"visibility":"off"}]}
-			],
 			scrollwheel: false,
 			panControl: false,
 			zoomControl: false,
+			zoomInControl: true,
+			zoomOutControl: true,
+			zoomInIcon: 'icon-plus',
+			zoomOutIcon: 'icon-minus',
 			mapTypeControl: false,
 			scaleControl: false,
 			streetViewControl: false,
 			overviewMapControl: false
+		},
+		markerOptions: {
+			labelClass: 'bigfish-office',
+			height: 125,
+			scale: '0.5',
+			path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
+			color: '#3BC0C3',
+			icon: 'icon-thiess-logo'
+		},
+		mapInfoBoxOptions: {
+			width: 240,
+			height: 50
 		}
 	});
 });
 </script>
-
-<div id="map" data-map></div>
+<div class="map">
+	<div class="map-canvas" data-map></div>
+</div>
 <h3 class="section-sub-title">HTML</h3>
-<pre><code class="hljs html"><?php echo htmlentities('<div id="map" data-map></div>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="map">
+	<div class="map-canvas" data-map></div>
+</div>
 '); ?></code></pre>
 
 <h3 class="section-sub-title">Javascript (Example)</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities("$('[data-map]').gmap({
-	labelClass: 'bigfish-office',
-	pagination: true,
-	path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
-	color: '#E3EE21',
-	icon: 'icon-circle-full',
+	pagination: false,
 	locations: [
 		{
 			title: 'Bigfish.tv',
@@ -180,53 +185,38 @@ $(document).ready(function() {
 		}
 	],
 	mapOptions: {
-		zoom: 15,
 		minZoom: 2,
-		maxZoom: 18,
-		center: [{lat: '-27.440850', lng: '153.041337'}],
-		styles: [
-			{'featureType':'water','stylers':[{'visibility':'simplified'},{'color':'#1B2A3C'}]},
-			{'featureType':'landscape','stylers':[{'visibility':'simplified'},{'color':'#E5E5E5'}]},
-			{'featureType':'poi','stylers':[{'visibility':'off'}]},
-			{'featureType':'administrative','elementType':'labels.text.fill','stylers':[{'visibility':'on'},{'color':'#1B2A3C'}]},
-			{'featureType':'administrative','elementType':'labels.text.stroke','stylers':[{'visibility':'off'}]},
-			{'elementType':'geometry.stroke','stylers':[{'visibility':'simplified'}]},
-			{'featureType':'road.highway','elementType':'geometry','stylers':[{'visibility':'simplified'},{'color':'#FF444E'}]},
-			{'featureType':'road.highway','elementType':'labels.text.stroke','stylers':[{'visibility':'off'}]},
-			{'featureType':'road.highway','elementType':'labels.text.fill','stylers':[{'color':'#FFFFFF'}]},
-			{'featureType':'transit','stylers':[{'visibility':'off'}]},
-			{'featureType':'road.arterial','elementType':'geometry.stroke','stylers':[{'visibility':'on'},{'color':'#C1C2C3'}]},
-			{'featureType':'road.local','elementType':'geometry.fill','stylers':[{'visibility':'on'},{'color':'#FFFFFF'}]},
-			{'featureType':'road.highway','elementType':'labels.icon','stylers':[{'visibility':'off'}]}
-		],
 		scrollwheel: false,
 		panControl: false,
 		zoomControl: false,
+		zoomInControl: true,
+		zoomOutControl: true,
+		zoomInIcon: 'icon-plus',
+		zoomOutIcon: 'icon-minus',
 		mapTypeControl: false,
 		scaleControl: false,
 		streetViewControl: false,
 		overviewMapControl: false
+	},
+	markerOptions: {
+		labelClass: 'bigfish-office',
+		height: 125,
+		scale: '0.5',
+		path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
+		color: '#1B2A3C',
+		icon: 'icon-thiess-logo'
+	},
+	mapInfoBoxOptions: {
+		width: 240,
+		height: 50
 	}
 });"); ?></code></pre>
 
 
 <h3 class="section-sub-title">Plugin Options</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities("options = {
-	//Marker Label Class for Custom Style
-	labelClass: '',
-	//Location Pagination
 	pagination: false,
-	//Marker Scale
-	scale: 1,
-	//Marker SVG Path (SVG Notation)
-	path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
-	//Marker Colour
-	color: '#000000',
-	//Marker Icon
-	icon: null,
-	//Map Locations (JSON Array)
 	locations: null,
-	//Google Map Options
 	mapOptions: {
 		zoom: 9,
 		minZoom: 0,
@@ -237,14 +227,28 @@ $(document).ready(function() {
 		scrollwheel: false,
 		panControl: false,
 		zoomControl: false,
+		zoomInControl: true,
+		zoomOutControl: true,
+		zoomInIcon: 'icon-zoom-in',
+		zoomOutIcon: 'icon-zoom-out',
 		mapTypeControl: false,
 		scaleControl: false,
 		streetViewControl: false,
 		overviewMapControl: false
 	},
-	//Custom Zoom Controls
-	zoomInControl: true,
-	zoomOutControl: true,
+	markerOptions: {
+		labelClass: '',
+		width: 250,
+		height: 100,
+		scale: 1,
+		path: 'M 55 -80 -55 -80 -55 -13.175 -12.015 -13.175 0.134 0 12.285 -13.175 55 -13.175 Z',
+		color: '#1B2A3C',
+		icon: 'icon-thiess-logo'
+	},
+	mapInfoBoxOptions: {
+		width: 300,
+		height: 175
+	}
 };"); ?></code></pre>
 </div>
 

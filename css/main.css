@@ -5770,37 +5770,87 @@ form .form-input-group fieldset .checkbox label {
   }
 }
 /* Map */
-#map {
-  width: 100%;
+.map {
+  position: relative;
 }
-#map img {
+.map img {
   max-width: none;
 }
+.map .map-canvas {
+  width: 100%;
+}
 @media (max-width: 767px) {
-  #map {
+  .map .map-canvas {
     height: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  #map {
+  .map .map-canvas {
     height: 380px;
   }
 }
 @media (min-width: 1025px) {
-  #map {
+  .map .map-canvas {
     height: 500px;
-  }
-  #map.project-detail-map {
-    height: 256px;
   }
 }
 @media (min-width: 1280px) {
-  #map {
+  .map .map-canvas {
     height: 600px;
   }
-  #map.project-detail-map {
-    height: 320px;
+}
+.map .map-controls {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #ffffff;
+  background: #3bc0c3;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.map .map-controls:hover,
+.map .map-controls:focus {
+  background: #1b2a3c;
+}
+.map .map-controls.map-controls-zoom-in {
+  margin-top: 10px;
+}
+.map .map-pagination {
+  z-index: 900;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.map .map-pagination .map-pagination-item {
+  display: inline-block;
+}
+.map .map-pagination .map-pagination-item a {
+  position: relative;
+  display: block;
+  background: #3bc0c3;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media (min-width: 1025px) {
+  .map .map-pagination .map-pagination-item a:hover,
+  .map .map-pagination .map-pagination-item a:focus {
+    background: #1b2a3c;
   }
+}
+.map .map-pagination .map-pagination-item a.active {
+  background: #e3ee21;
 }
 .marker-label {
   z-index: 800;
@@ -5815,10 +5865,6 @@ form .form-input-group fieldset .checkbox label {
   color: #ffffff;
   white-space: nowrap;
 }
-.marker-label .project {
-  margin-top: 14px;
-  display: block;
-}
 .infobox {
   z-index: 99;
   margin: 0;
@@ -5828,22 +5874,6 @@ form .form-input-group fieldset .checkbox label {
   font-size: 14px;
   color: #485364;
   background: #ffffff;
-}
-.infobox .infobox-inner {
-  padding: 10px 0px;
-  height: 120px;
-  overflow: scroll;
-  -webkit-box-shadow: inset 0px -15px 10px -8px #ffffff;
-  -moz-box-shadow: inset 0px -15px 10px -8px #ffffff;
-  -o-box-shadow: inset 0px -15px 10px -8px #ffffff;
-  box-shadow: inset 0px -15px 10px -8px #ffffff;
-}
-.infobox .infobox-inner p {
-  font-size: 12px;
-}
-.infobox .infobox-inner .infobox-title {
-  color: #3bc0c3;
-  text-transform: uppercase;
 }
 .infobox:after {
   z-index: 99;
@@ -5857,28 +5887,6 @@ form .form-input-group fieldset .checkbox label {
   border-left: 20px solid transparent;
   border-top: 20px solid #ffffff;
   border-right: 20px solid transparent;
-}
-.map-controls {
-  margin-left: 10px;
-  padding: 10px;
-  font-size: 15px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  color: #ffffff;
-  background: #1b2a3c;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.map-controls:hover,
-.map-controls:focus {
-  background: #1b2a3c;
-}
-.map-controls.map-controls-zoom-in {
-  margin-top: 10px;
 }
 /* Default Styles */
 html,

@@ -1,5 +1,5 @@
 /*!
- * jquery.map.js v0.1
+ * jquery.gmap.js v1.0
  *
  * Copyright (c) 2014, Bigfish
  * http://bigfish.tv
@@ -10,17 +10,15 @@
 
 	(function($, window, document) {
 
-		var Plugin, defaults, pluginName, map, infowindow;
-		pluginName = "gmap";
+		'use strict';
+
+		var Plugin, defaults, pluginName, map, mapBounds, infowindow, infoBox, mapBounds,
+		markerArray = [];
+		pluginName = 'gmap';
 
 		//Plugin Options
 		defaults = {
-			labelClass: '',
 			pagination: false,
-			scale: 1,
-			path: 'M 25 -60 -25 -60 -25 -11.181 -10.314 -11.181 0.141 0 10.598 -11.181 25 -11.181 Z',
-			color: '#000000',
-			icon: null,
 			locations: null,
 			mapOptions: {
 				zoom: 9,
@@ -32,13 +30,28 @@
 				scrollwheel: false,
 				panControl: false,
 				zoomControl: false,
+				zoomInControl: true,
+				zoomOutControl: true,
+				zoomInIcon: 'icon-zoom-in',
+				zoomOutIcon: 'icon-zoom-out',
 				mapTypeControl: false,
 				scaleControl: false,
 				streetViewControl: false,
 				overviewMapControl: false
 			},
-			zoomInControl: true,
-			zoomOutControl: true,
+			markerOptions: {
+				labelClass: '',
+				width: 250,
+				height: 100,
+				scale: 1,
+				path: 'M 55 -80 -55 -80 -55 -13.175 -12.015 -13.175 0.134 0 12.285 -13.175 55 -13.175 Z',
+				color: '#1B2A3C',
+				icon: 'icon-thiess-logo'
+			},
+			mapInfoBoxOptions: {
+				width: 300,
+				height: 175
+			}
 		};
 
 		//Plugin
@@ -55,36 +68,39 @@
 
 		//Initialise
 		Plugin.prototype.init = function() {
-			var $element = $(this),
-			_this = this,
-			locations = this.options.locations,
-			pagination = this.options.pagination;
-			//Map Options
-			zoom = this.options.mapOptions.zoom,
-			minZoom = this.options.mapOptions.minZoom,
-			maxZoom = this.options.mapOptions.maxZoom,
-			center = this.options.mapOptions.center,
-			mapTypeId = this.options.mapOptions.mapTypeId,
-			styles = this.options.mapOptions.styles,
-			scrollwheel = this.options.mapOptions.scrollwheel,
-			panControl = this.options.mapOptions.panControl,
-			zoomControl = this.options.mapOptions.zoomControl,
-			mapTypeControl = this.options.mapOptions.mapTypeControl,
-			scaleControl = this.options.mapOptions.scaleControl,
-			streetViewControl = this.options.mapOptions.streetViewControl,
-			overviewMapControl = this.options.mapOptions.overviewMapControl;
-			//Controls
-			zoomInControl = this.options.zoomInControl,
-			zoomOutControl = this.options.zoomOutControl,
+			var $element = $(this);
+			var _this = this;
+			var locations = this.options.locations;
+			var pagination = this.options.pagination;
+			var zoom = this.options.mapOptions.zoom;
+			var minZoom = this.options.mapOptions.minZoom;
+			var maxZoom = this.options.mapOptions.maxZoom;
+			var center = this.options.mapOptions.center;
+			var mapTypeId = this.options.mapOptions.mapTypeId;
+			var styles = this.options.mapOptions.styles;
+			var scrollwheel = this.options.mapOptions.scrollwheel;
+			var panControl = this.options.mapOptions.panControl;
+			var zoomControl = this.options.mapOptions.zoomControl;
+			var zoomInControl = this.options.mapOptions.zoomInControl;
+			var zoomOutControl = this.options.mapOptions.zoomOutControl;
+			var mapTypeControl = this.options.mapOptions.mapTypeControl;
+			var scaleControl = this.options.mapOptions.scaleControl;
+			var streetViewControl = this.options.mapOptions.streetViewControl;
+			var overviewMapControl = this.options.mapOptions.overviewMapControl;
+			var markerWidth = this.options.markerOptions.width;
+			var markerHeight = this.options.markerOptions.height;
+			var markerScale = this.options.markerOptions.scale;
+			var infoboxWidth =  this.options.mapInfoBoxOptions.width;
+			var infoboxHeight =  this.options.mapInfoBoxOptions.height;
 
 			google.maps.event.addDomListener(window, 'load', function() {
 				google.maps.visualRefresh = true;
 
 				//Center Map on Center Value or First Location in Array
 				if (center) {
-					position = new google.maps.LatLng(center[0].lat, center[0].lng);
+					var position = new google.maps.LatLng(center[0].lat, center[0].lng);
 				} else {
-					position = new google.maps.LatLng(locations[0].position.lat, locations[0].position.lng);
+					var position = new google.maps.LatLng(locations[0].position.lat, locations[0].position.lng);
 				}
 
 				//Map Options
@@ -121,7 +137,11 @@
 					disableAutoPan: false,
 					maxWidth: 0,
 					boxClass: 'infobox',
-					pixelOffset: new google.maps.Size(-125,-245),
+					boxStyle: {
+						width: infoboxWidth + 'px',
+						height: infoboxHeight + 'px'
+					},
+					pixelOffset: new google.maps.Size(-(infoboxWidth/2),-(infoboxHeight + (markerHeight * markerScale))),
 					zIndex: null,
 					closeBoxMargin: 0,
 					closeBoxURL: '',
@@ -130,9 +150,9 @@
 					pane: 'floatPane',
 					enableEventPropagation: false
 			    };
-
 			    infoBox = new InfoBox(infoBoxOptions);
 
+				//Create Markers
 				_this.createMarkers(map, locations);
 
 				//Create Location Controls
@@ -152,35 +172,54 @@
 
 		//Create Pagination
 		Plugin.prototype.createPagination = function(map, locations) {
-			_this = this;
-			var pagination = $('<ul class="map-pagination"></ul>');
+			var $element = $(this.element),
+			_this = this,
+			categories = [],
+			pagination = $('<ul class="map-pagination"></ul>');
+			$element.after(pagination);
 
-			$('#map').after(pagination);
-			for (var i = 0; i < locations.length; i++) {
-				var location = locations[i];
-				pagination.append('<li class="map-pagination-item"><a data-lat="' + location.position.lat + '" data-lng="' + location.position.lng + '">' + location.title + '</a></li>');
-			}
-			if (center) {
-				pagination.prepend('<li class="map-pagination-item"><a class="all active" data-lat="' + center[0].lat + '" data-lng="' + center[0].lng + '">All</a></li>');
-			}
+			//Populate Categories Array with Unique Values
+			$.each(locations, function(i, location) {
+				if ($.inArray(location.category, categories) == -1) {
+					if(location.category != 'Offices') {
+						categories.push(location.category);
+					}
+				}
+			});
+
+			//Create Pagination Item for Each Category
+			$.each(categories, function(i, category) {
+				pagination.append('<li class="map-pagination-item"><a data-category="' + category + '">' + category + '</a></li>');
+			});
+
+			//Prepend All Pagination Item if Center is present
+			pagination.prepend('<li class="map-pagination-item"><a class="active" data-category="All">All</a></li>');
 
 			//Change Locaiton on Click
-			$('.map-pagination-item a').on('click', function() {
-				$('.map-pagination-item a').removeClass('active');
+			var $paginationItem = $('.map-pagination-item a');
+
+			//Filter Items on Click
+			$paginationItem.on('click', function() {
+				var category = $(this).data('category');
+
+				//Update Active Item
+				$paginationItem.removeClass('active');
 				$(this).addClass('active');
-				var lat = $(this).data('lat');
-				var lng = $(this).data('lng');
-				_this.mapPanTo(lat,lng);
-				if ($(this).hasClass('all')) {
-					map.setZoom(zoom);
+
+				//Update Markers
+				if ($(this).data('category') == 'All') {
+					_this.clearMarkers();
+					_this.createMarkers(map, locations);
 				} else {
-					map.setZoom(15);
+					_this.clearMarkers();
+					_this.createMarkers(map, locations, category);
 				}
 			});
 		};
 
 		//Create Zoom In Control
 		Plugin.prototype.createZoomInControl = function(map) {
+			var zoomInIcon = this.options.mapOptions.zoomInIcon;
 
 			function ZoomInControl(controlDiv, map) {
 
@@ -193,7 +232,7 @@
 
 				//Create Control Inner Content
 				var controlText = document.createElement('DIV');
-				controlText.innerHTML = '<span class="icon-zoom-in"></span>';
+				controlText.innerHTML = '<span class="' + zoomInIcon + '"></span>';
 				controlUI.appendChild(controlText);
 
 				//Google Maps Controls
@@ -212,6 +251,7 @@
 
 		//Create Zoom Out Control
 		Plugin.prototype.createZoomOutControl = function(map) {
+			var zoomOutIcon = this.options.mapOptions.zoomOutIcon;
 
 			function ZoomOutControl(controlDiv, map) {
 
@@ -224,7 +264,7 @@
 
 				//Create Control Inner Content
 				var controlText = document.createElement('DIV');
-				controlText.innerHTML = '<span class="icon-zoom-out"></span>';
+				controlText.innerHTML = '<span class="' + zoomOutIcon + '"></span>';
 				controlUI.appendChild(controlText);
 
 				//Google Maps Controls
@@ -247,54 +287,70 @@
 			map.panTo(LatLng);
 		};
 
+		//Clear Markers
+		Plugin.prototype.clearMarkers = function() {
+			//Close Infobox
+			infoBox.close();
+			//Remove Markers from Map
+			$.each(markerArray, function(i, marker) {
+				marker.setMap(null);
+			});
+			//Empty MarkerArray
+			markerArray = [];
+		}
+
 		//Create Markers
-		Plugin.prototype.createMarkers = function(map,locations) {
-			var path = this.options.path,
-			icon = this.options.icon,
-			color = this.options.color,
-			scale = this.options.scale,
-			labelClass = this.options.labelClass;
+		Plugin.prototype.createMarkers = function(map,locations,category) {
+			var markerPath = this.options.markerOptions.path,
+			markerWidth = this.options.markerOptions.width,
+			markerHeight = this.options.markerOptions.height,
+			markerIcon = this.options.markerOptions.icon,
+			markerColor = this.options.markerOptions.color,
+			markerScale = this.options.markerOptions.scale,
+			labelClass = this.options.markerOptions.labelClass;
 
-			for (var i = 0; i < locations.length; i++) {
-				var location = locations[i];
-				var LatLng = new google.maps.LatLng(location.position.lat, location.position.lng);
+			//Create Bounds
+			mapBounds = new google.maps.LatLngBounds();
 
-				//Create Marker
-				var marker = new Marker({
-					map: map,
-					position: LatLng,
-					zIndex: 1 + i,
-					title: location.title,
-					icon: {
-						path: path,
-						fillColor: color,
-						fillOpacity: 1,
-						strokeColor: '',
-						strokeWeight: 0,
-						scale: scale
-					},
-					label: '<i class="icon ' + labelClass + ' ' + icon + '"></i>'
-				});
+			$.each(locations, function(i, location) {
+				if(!category || location.category == category) {
+					var LatLng = new google.maps.LatLng(location.position.lat, location.position.lng);
 
-				//Add Content to Infowindow
-				/*
-google.maps.event.addListener(marker, 'click', (function(marker, location) {
-					return function() {
-						infowindow.setContent(location.content);
-						infowindow.open(map, marker);
-					}
-				})(marker, location));
-*/
+					//Create Marker
+					var marker = new Marker({
+						map: map,
+						position: LatLng,
+						zIndex: 1 + i,
+						title: location.title,
+						icon: {
+							path: markerPath,
+							fillColor: markerColor,
+							fillOpacity: 1,
+							strokeColor: '',
+							strokeWeight: 0,
+							scale: markerScale
+						},
+						label: '<i class="map-icon ' + labelClass + ' ' + markerIcon + '"></i>'
+					});
 
-				//Infobox
-				google.maps.event.addListener(marker, 'click', (function(marker, location) {
-					return function() {
-						infoBox.setContent(location.content);
-						infoBox.open(map, marker);
-					}
-				})(marker, location));
-			}
+					//Add Marker to MarkerArray
+					markerArray.push(marker);
 
+					//Extend Map Bounds for Marker Lat/Lng
+					mapBounds.extend(marker.position);
+
+					//Add Content to Infobox
+					google.maps.event.addListener(marker, 'click', (function(marker, location) {
+						return function() {
+							infoBox.setContent(location.content);
+							infoBox.open(map, marker);
+						}
+					})(marker, location));
+				}
+			});
+
+			//Map Fit to Bounds
+			map.fitBounds(mapBounds);
 		}
 
 		//Define Marker
@@ -360,24 +416,24 @@ google.maps.event.addListener(marker, 'click', (function(marker, location) {
 			 }
 		};
 
-		//Implement draw
+		//Implement Draw
 		MarkerLabel.prototype.draw = function() {
-			 var projection = this.getProjection();
-			 var position = projection.fromLatLngToDivPixel(this.get('position'));
-			 var div = this.div;
-			 div.style.left = position.x + 'px';
-			 div.style.top = position.y + 'px';
-			 div.style.display = 'block';
-			 //z-index to allow label to overlay marker
-			 div.style.zIndex = this.get('zIndex');
-			 this.div.innerHTML = this.get('text').toString();
+			var div = this.div,
+			projection = this.getProjection(),
+			position = projection.fromLatLngToDivPixel(this.get('position'));
+
+			div.style.left = position.x + 'px';
+			div.style.top = position.y + 'px';
+			div.style.display = 'block';
+			div.style.zIndex = this.marker.get('zIndex') + 1; //z-index to allow label to overlay marker
+			div.innerHTML = this.get('text').toString();
 		};
 
 		//Declare jQuery Plugin
 		return $.fn[pluginName] = function(options) {
 			return this.each(function() {
-				if (!$.data(this, "plugin_" + pluginName)) {
-					return $.data(this, "plugin_" + pluginName, new Plugin(this, options));
+				if (!$.data(this, 'plugin_' + pluginName)) {
+					return $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
 				}
 			});
 		};
