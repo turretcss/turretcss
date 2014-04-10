@@ -2,7 +2,6 @@
 
 .slides {
 	position: relative;
-	display: none;
 
 	.slides-navigation {
 		z-index: 999;
@@ -60,9 +59,9 @@
 			display: inline-block;
 
 			a {
+				display: block;
 				margin: 0px 2px;
-				width: @slides_pagination_size;
-				height: @slides_pagination_size;
+				.square(@slides_pagination_size);
 				.hide-text();
 				.border-radius(@slides_pagination_border_radius);
 				border: 2px solid @slides_pagination_color;

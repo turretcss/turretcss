@@ -5635,7 +5635,6 @@ form .form-input-group fieldset .checkbox label {
 /* Slides */
 .slides {
   position: relative;
-  display: none;
 }
 .slides .slides-navigation {
   z-index: 999;
@@ -5685,6 +5684,7 @@ form .form-input-group fieldset .checkbox label {
   display: inline-block;
 }
 .slides .slides-pagination .slides-pagination-item a {
+  display: block;
   margin: 0px 2px;
   width: 15px;
   height: 15px;

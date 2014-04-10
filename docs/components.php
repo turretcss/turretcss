@@ -26,81 +26,73 @@
 <div class="panel">
 <h2 id="slides" class="section-title">Slides</h2>
 <p>Slides are a responsive carousel with touch controls. Slide navigation, pagination and controls can be toggled in the plugin options.</p>
-<div class="slides" data-slides>
-	<img src="http://placehold.it/1200x600&text=Slide+1">
-	<img src="http://placehold.it/1200x600&text=Slide+2">
-	<img src="http://placehold.it/1200x600&text=Slide+3">
-	<img src="http://placehold.it/1200x600&text=Slide+4">
-</div>
 
 <script>
 	$(document).ready(function() {
 		$('[data-slides]').slides({
-			width: 1200,
+			width: 1280,
 			height: 600
 		});
 	});
 </script>
 
+<div class="slides" data-slides>
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
+</div>
+
 <h3 class="section-sub-title">HTML</h3>
 <pre><code class="hljs html"><?php echo htmlentities('<div class="slides" data-slides>
-	<img src="http://placehold.it/1200x600&text=Slide+1">
-	<img src="http://placehold.it/1200x600&text=Slide+2">
-	<img src="http://placehold.it/1200x600&text=Slide+3">
-	<img src="http://placehold.it/1200x600&text=Slide+4">
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
+	<img src="img/slide.gif">
 </div>'); ?></code></pre>
 
 <h3 class="section-sub-title">Javascript Example</h3>
-<pre><code class="hljs javascript"><?php echo htmlentities('$(\'[data-slides]\').slides({
-	width: 1200,
+<pre><code class="hljs javascript"><?php echo htmlentities("$('[data-slides]').slides({
+	width: 1280,
 	height: 600
-});'); ?></code></pre>
+});"); ?></code></pre>
 
 <h3 class="section-sub-title">Plugin Options</h3>
-<pre><code class="hljs javascript"><?php echo htmlentities("options = {
-	width: 940,
-	height: 528,
-	start: 1,
-	//Container for Navigation
-	container: false,
-	//Navigation Options
-	navigation: {
-		active: true,
-		effect: 'slide'
+<pre><code class="hljs javascript"><?php echo htmlentities("width: 940,
+height: 528,
+start: 1,
+container: false,
+navigation: {
+	active: true,
+	effect: 'slide'
+},
+pagination: {
+	active: true,
+	effect: 'slide'
+},
+play: {
+	active: false,
+	effect: 'slide',
+	interval: 5000,
+	auto: false,
+	swap: true,
+	pauseOnHover: false,
+	restartDelay: 2500
+},
+effect: {
+	slide: {
+		speed: 500
 	},
-	//Pagination Options
-	pagination: {
-		active: true,
-		effect: 'slide'
-	},
-	//Play/Pause Controls and Autoplay
-	play: {
-		active: false,
-		effect: 'slide',
-		interval: 5000,
-		auto: false,
-		swap: true,
-		pauseOnHover: false,
-		restartDelay: 2500
-	},
-	//Slide Transition Effect
-	effect: {
-		slide: {
-			speed: 500
-		},
-		fade: {
-			speed: 300,
-			crossfade: true
-		}
-	},
-	//Callback Methods
-	callback: {
-		loaded: function() {},
-		start: function() {},
-		complete: function() {}
+	fade: {
+		speed: 300,
+		crossfade: true
 	}
-};"); ?></code></pre>
-<h3 class="section-sub-title">Plugin </h3>
+},
+callback: {
+	loaded: function() {},
+	start: function() {},
+	complete: function() {}
+}"); ?></code></pre>
 
 </div>
 
@@ -214,42 +206,40 @@ $(document).ready(function() {
 
 
 <h3 class="section-sub-title">Plugin Options</h3>
-<pre><code class="hljs javascript"><?php echo htmlentities("options = {
-	pagination: false,
-	locations: null,
-	mapOptions: {
-		zoom: 9,
-		minZoom: 0,
-		maxZoom: 19,
-		center: null,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		styles: null,
-		scrollwheel: false,
-		panControl: false,
-		zoomControl: false,
-		zoomInControl: true,
-		zoomOutControl: true,
-		zoomInIcon: 'icon-zoom-in',
-		zoomOutIcon: 'icon-zoom-out',
-		mapTypeControl: false,
-		scaleControl: false,
-		streetViewControl: false,
-		overviewMapControl: false
-	},
-	markerOptions: {
-		labelClass: '',
-		width: 250,
-		height: 100,
-		scale: 1,
-		path: 'M 55 -80 -55 -80 -55 -13.175 -12.015 -13.175 0.134 0 12.285 -13.175 55 -13.175 Z',
-		color: '#1B2A3C',
-		icon: 'icon-thiess-logo'
-	},
-	mapInfoBoxOptions: {
-		width: 300,
-		height: 175
-	}
-};"); ?></code></pre>
+<pre><code class="hljs javascript"><?php echo htmlentities("pagination: false,
+locations: null,
+mapOptions: {
+	zoom: 9,
+	minZoom: 0,
+	maxZoom: 19,
+	center: null,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
+	styles: null,
+	scrollwheel: false,
+	panControl: false,
+	zoomControl: false,
+	zoomInControl: true,
+	zoomOutControl: true,
+	zoomInIcon: 'icon-zoom-in',
+	zoomOutIcon: 'icon-zoom-out',
+	mapTypeControl: false,
+	scaleControl: false,
+	streetViewControl: false,
+	overviewMapControl: false
+},
+markerOptions: {
+	labelClass: '',
+	width: 250,
+	height: 100,
+	scale: 1,
+	path: 'M 55 -80 -55 -80 -55 -13.175 -12.015 -13.175 0.134 0 12.285 -13.175 55 -13.175 Z',
+	color: '#1B2A3C',
+	icon: 'icon-thiess-logo'
+},
+mapInfoBoxOptions: {
+	width: 300,
+	height: 175
+}"); ?></code></pre>
 </div>
 
 <!-- Scroll Top -->

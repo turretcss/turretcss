@@ -1,5 +1,5 @@
 /*
- * jquery.slides.js v0.1
+ * jquery.slides.js v1.0
  *
  * Copyright (c) 2014, Bigfish
  * http://bigfish.tv
@@ -66,165 +66,173 @@
 
 		//Initialise
 		Plugin.prototype.init = function() {
-			var $element,
-			nextButton,
-			pagination,
-			playButton,
-			prevButton,
-			stopButton,
+			var $element, nextButton, pagination, playButton, prevButton, stopButton,
 			_this = this;
 			$element = $(this.element);
+			slidesTotal = $element.children().not('.slides-navigation', $element).length;
 			this.data = $.data(this);
 			$.data(this, 'animating', false);
-			$.data(this, 'total', $element.children().not('.slides-navigation', $element).length);
+			$.data(this, 'total', slidesTotal);
 			$.data(this, 'current', this.options.start - 1);
 			$.data(this, 'vendorPrefix', this._getVendorPrefix());
+
 			if (typeof TouchEvent !== 'undefined') {
 				$.data(this, 'touch', true);
 				this.options.effect.slide.speed = this.options.effect.slide.speed / 2;
 			}
-			$element.css({
-				overflow: 'hidden'
-			});
 
+			if (slidesTotal > 1) {
 
-			//Create Slides Container
-			$element.slidesContainer = $element.children().not('.slides-navigation', $element).wrapAll('<div class="slides-container">', $element).parent().css({
-				overflow: 'hidden',
-				position: 'relative'
-			});
-
-			$('.slides-container', $element).wrapInner('<div class="slides-control">', $element).children();
-			$('.slides-control', $element).css({position: 'relative', left: 0});
-
-			//Add Class and CSS Styles to Slides
-			$('.slides-control', $element).children().addClass('slides-slide').css({
-				position: 'absolute',
-				top: 0,
-				left: 0,
-				width: '100%',
-				height: '100%',
-				zIndex: 0,
-				display: 'none',
-				transform: 'translate3d(0,0,0)'
-			});
-
-			//Add Slide Index to Each Slide
-			$.each($('.slides-control', $element).children(), function(i) {
-				var $slide;
-				$slide = $(this);
-				return $slide.attr('slides-index', i);
-			});
-
-			//Touch Events
-			if (this.data.touch) {
-				$('.slides-control', $element).on('touchstart', function(e) {
-					return _this._touchstart(e);
-				});
-				$('.slides-control', $element).on('touchmove', function(e) {
-					return _this._touchmove(e);
-				});
-				$('.slides-control', $element).on('touchend', function(e) {
-					return _this._touchend(e);
-				});
-			}
-
-			$element.fadeIn(0);
-			this.update();
-
-			//Setup Touch
-			if (this.data.touch) {
-				this._setuptouch();
-			}
-
-			//Slides Controls
-			$('.slides-control', $element).children(':eq(' + this.data.current + ')').eq(0).fadeIn(0, function() {
-				return $(this).css({
-					zIndex: 10
-				});
-			});
-
-			//Add Slides Navigation
-			if (this.options.navigation.active) {
-				slidesNavigation = $('<div class="slides-navigation" data-slides-navigation></div>').appendTo($element);
-				prevButton = $('<a class="slides-previous" href="#" title="Previous"></a>');
-				nextButton = $('<a class="slides-next" href="#" title="Next"></a>');
-				if (this.options.container) {
-					container = $('<div class="container"></div>');
-					container.appendTo(slidesNavigation);
-					prevButton.appendTo(container);
-					nextButton.appendTo(container);
-				} else {
-					prevButton.appendTo(slidesNavigation);
-					nextButton.appendTo(slidesNavigation);
-				}
-			}
-
-			//Slides Next on Click to to Next Slide
-			$('.slides-next', $element).click(function(e) {
-				e.preventDefault();
-				_this.stop(true);
-				return _this.next(_this.options.navigation.effect);
-			});
-
-			//Slides Previous on Click to to Previous Slide
-			$('.slides-previous', $element).click(function(e) {
-				e.preventDefault();
-				_this.stop(true);
-				return _this.previous(_this.options.navigation.effect);
-			});
-
-			//Play/Stop Controls
-			if (this.options.play.active) {
-				playButton = $('<a class="slides-play" href="#" title="Play">Play</a>').appendTo($element);
-				stopButton = $('<a class="slides-stop" href="#" title="Stop">Stop</a>').appendTo($element);
-
-				//Play Slides
-				playButton.click(function(e) {
-					e.preventDefault();
-					return _this.play(true);
+				//Set Overflow Hidden
+				$element.css({
+					overflow: 'hidden'
 				});
 
-				//Stop Slides
-				stopButton.click(function(e) {
-					e.preventDefault();
-					return _this.stop(true);
+				//Create Slides Container
+				$element.slidesContainer = $element.children().not('.slides-navigation', $element).wrapAll('<div class="slides-container">', $element).parent().css({
+					overflow: 'hidden',
+					position: 'relative'
 				});
 
-				//Swap Icons
-				if (this.options.play.swap) {
-					stopButton.css({
-						display: 'none'
+				$('.slides-container', $element).wrapInner('<div class="slides-control">', $element).children();
+				$('.slides-control', $element).css({position: 'relative', left: 0});
+
+				//Add Class and CSS Styles to Slides
+				$('.slides-control', $element).children().addClass('slides-slide').css({
+					position: 'absolute',
+					top: 0,
+					left: 0,
+					width: '100%',
+					height: '100%',
+					zIndex: 0,
+					display: 'none',
+					transform: 'translate3d(0,0,0)'
+				});
+
+				//Add Slide Index to Each Slide
+				$.each($('.slides-control', $element).children(), function(i) {
+					var $slide;
+					$slide = $(this);
+					return $slide.attr('slides-index', i);
+				});
+
+				//Touch Events
+				if (this.data.touch) {
+					$('.slides-control', $element).on('touchstart', function(e) {
+						return _this._touchstart(e);
+					});
+					$('.slides-control', $element).on('touchmove', function(e) {
+						return _this._touchmove(e);
+					});
+					$('.slides-control', $element).on('touchend', function(e) {
+						return _this._touchend(e);
 					});
 				}
-			}
 
-			//Pagination Controls
-			if (this.options.pagination.active) {
-				pagination = $('<ul class="slides-pagination hidden-medium hidden-small" data-slides-pagination></ul>').appendTo($element);
-				var slide = $element.children('.slides-container').children('.slides-control').children('.slide');
-				$.each(new Array(this.data.total), function(i) {
-					var paginationItem, paginationTitle, paginationLink;
-					paginationItem = $('<li class="slides-pagination-item"></li>').appendTo(pagination);
-					paginationTitle = $(slide[i]).data('title') ? $(slide[i]).data('title') : i;
-					paginationLink = $('<a href="#" data-slides-item="' + i + '">' + paginationTitle + '</a>').appendTo(paginationItem);
-					return paginationLink.click(function(e) {
+				this.update();
+
+				//Setup Touch
+				if (this.data.touch) {
+					this._setuptouch();
+				}
+
+				//Slides Controls
+				$('.slides-control', $element).children(':eq(' + this.data.current + ')').eq(0).fadeIn(0, function() {
+					return $(this).css({
+						zIndex: 10
+					});
+				});
+
+				//Add Slides Navigation
+				if (this.options.navigation.active) {
+					slidesNavigation = $('<div class="slides-navigation" data-slides-navigation></div>').appendTo($element);
+					prevButton = $('<a class="slides-previous" href="#" title="Previous"></a>');
+					nextButton = $('<a class="slides-next" href="#" title="Next"></a>');
+					if (this.options.container) {
+						container = $('<div class="container"></div>');
+						container.appendTo(slidesNavigation);
+						prevButton.appendTo(container);
+						nextButton.appendTo(container);
+					} else {
+						prevButton.appendTo(slidesNavigation);
+						nextButton.appendTo(slidesNavigation);
+					}
+				}
+
+				//Slides Next on Click to to Next Slide
+				$('.slides-next', $element).click(function(e) {
+					e.preventDefault();
+					clearTimeout($.data(_this, 'restartDelay'));
+					$.data(_this, 'restartDelay', null);
+					_this.stop(true);
+					return _this.next(_this.options.navigation.effect);
+				});
+
+				//Slides Previous on Click to to Previous Slide
+				$('.slides-previous', $element).click(function(e) {
+					e.preventDefault();
+					clearTimeout($.data(_this, 'restartDelay'));
+					$.data(_this, 'restartDelay', null);
+					_this.stop(true);
+					return _this.previous(_this.options.navigation.effect);
+				});
+
+				//Play/Stop Controls
+				if (this.options.play.active) {
+					playButton = $('<a class="slides-play" href="#" title="Play">Play</a>').appendTo($element);
+					stopButton = $('<a class="slides-stop" href="#" title="Stop">Stop</a>').appendTo($element);
+
+					//Play Slides
+					playButton.click(function(e) {
 						e.preventDefault();
-						_this.stop(true);
-						return _this.display(($(e.currentTarget).attr('data-slides-item') * 1) + 1);
+						return _this.play(true);
 					});
-				});
-			}
 
-			//Update on Window Resize
-			$(window).bind('resize', function() {
-				return _this.update();
-			});
-			this._setActive();
-			if (this.options.play.auto) {
-				this.play();
+					//Stop Slides
+					stopButton.click(function(e) {
+						e.preventDefault();
+						return _this.stop(true);
+					});
+
+					//Swap Icons
+					if (this.options.play.swap) {
+						stopButton.css({
+							display: 'none'
+						});
+					}
+				}
+
+				//Pagination Controls
+				if (this.options.pagination.active) {
+					pagination = $('<ul class="slides-pagination" data-slides-pagination></ul>').appendTo($element);
+					var slide = $element.children('.slides-container').children('.slides-control').children('.slide');
+					$.each(new Array(this.data.total), function(i) {
+						var paginationItem, paginationTitle, paginationLink;
+						paginationItem = $('<li class="slides-pagination-item"></li>').appendTo(pagination);
+						paginationTitle = $(slide[i]).data('title') ? $(slide[i]).data('title') : i;
+						paginationLink = $('<a href="#" data-slides-item="' + i + '">' + paginationTitle + '</a>').appendTo(paginationItem);
+						return paginationLink.click(function(e) {
+							e.preventDefault();
+							_this.stop(true);
+							return _this.display(($(e.currentTarget).attr('data-slides-item') * 1) + 1);
+						});
+					});
+				}
+
+				//Update on Window Resize
+				$(window).bind('resize', function() {
+					return _this.update();
+				});
+				this._setActive();
+
+				//Set Up Autoplay
+				if (this.options.play.auto) {
+					this.play();
+				}
+
+				//Start Callback
+				return this.options.callback.loaded(this.options.start);
 			}
-			return this.options.callback.loaded(this.options.start);
 		};
 
 		//Set Active
@@ -237,32 +245,39 @@
 			return $('li.slides-pagination-item:eq(' + current + ') a', $element).addClass('active');
 		};
 
-		//Update
+		//Update Slides
 		Plugin.prototype.update = function() {
-			var $element, height, width;
-			$element = $(this.element);
-			this.data = $.data(this);
-			$('.slides-control', $element).children(':not(:eq(' + this.data.current + '))').css({
-				display: 'none',
-				left: 0,
-				zIndex: 0
-			});
-			width = $element.width();
-			height = (this.options.height / this.options.width) * width;
-			this.options.width = width;
-			this.options.height = height;
-			return $('.slides-control, .slides-container', $element).css({
-				width: width,
-				height: height
-			});
+			if (!this.data.animating) {
+				var $element, height, width;
+				$element = $(this.element);
+				this.data = $.data(this);
+
+				$('.slides-control', $element).children(':not(:eq(' + this.data.current + '))').css({
+					display: 'none',
+					left: 0,
+					zIndex: 0
+				});
+
+				width = $element.width();
+				height = (this.options.height / this.options.width) * width;
+				this.options.width = width;
+				this.options.height = height;
+
+				return $('.slides-control, .slides-container', $element).css({
+					width: width,
+					height: height
+				});
+			}
 		};
 
-		//Next
+		//Next Slide
 		Plugin.prototype.next = function(effect) {
 			var $element;
 			$element = $(this.element);
 			this.data = $.data(this);
+
 			$.data(this, 'direction', 'next');
+
 			if (effect === void 0) {
 				effect = this.options.navigation.effect;
 			}
@@ -273,12 +288,14 @@
 			}
 		};
 
-		//Previous
+		//Previous Slide
 		Plugin.prototype.previous = function(effect) {
 			var $element;
 			$element = $(this.element);
 			this.data = $.data(this);
+
 			$.data(this, 'direction', 'previous');
+
 			if (effect === void 0) {
 				effect = this.options.navigation.effect;
 			}
@@ -289,11 +306,12 @@
 			}
 		};
 
-		//Go To
+		//Go To Slide
 		Plugin.prototype.display = function(number) {
 			var $element, effect;
 			$element = $(this.element);
 			this.data = $.data(this);
+
 			if (effect === void 0) {
 				effect = this.options.pagination.effect;
 			}
@@ -342,7 +360,7 @@
 				next = 0;
 			}
 
-			//Show Next and Prvious Slides offset Slide Width
+			//Show Next and Previous Slides offset Slide Width
 			slidesControl.children(':eq(' + next + ')').css({
 				display: 'block',
 				left: this.options.width
@@ -419,6 +437,8 @@
 				slidesControl[0].style[transform] = 'translateX(0px)';
 				slidesControl[0].style[duration] = this.options.effect.slide.speed * 0.85 + 'ms';
 			}
+
+			//On CSS Transition End Event
 			slidesControl.on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', function() {
 				prefix = _this.data.vendorPrefix;
 				transform = prefix + 'Transform';
@@ -431,12 +451,13 @@
 			return e.stopPropagation();
 		};
 
-		//Play
+		//Play Slides
 		Plugin.prototype.play = function(next) {
 			var $element, currentSlide, slidesContainer,
 			_this = this;
 			$element = $(this.element);
 			this.data = $.data(this);
+
 			if (!this.data.playInterval) {
 				if (next) {
 					currentSlide = this.data.current;
@@ -447,6 +468,8 @@
 						this._slide();
 					}
 				}
+
+				//Play Interval
 				$.data(this, 'playInterval', setInterval((function() {
 					currentSlide = _this.data.current;
 					_this.data.direction = 'next';
@@ -456,7 +479,10 @@
 						return _this._slide();
 					}
 				}), this.options.play.interval));
+
 				slidesContainer = $('.slides-container', $element);
+
+				//Pause Slides on Hover
 				if (this.options.play.pauseOnHover) {
 					slidesContainer.unbind();
 					slidesContainer.bind('mouseenter', function() {
@@ -474,8 +500,14 @@
 						}
 					});
 				}
+
+				//Set Data Playing to True
 				$.data(this, 'playing', true);
+
+				//Add Slides Playing Class
 				$('.slides-play', $element).addClass('slides-playing');
+
+				//Swap Play/Stop Controls
 				if (this.options.play.swap) {
 					$('.slides-play', $element).hide();
 					return $('.slides-stop', $element).show();
@@ -483,25 +515,35 @@
 			}
 		};
 
-		//Stop
+		//Stop Slides
 		Plugin.prototype.stop = function(clicked) {
 			var $element;
 			$element = $(this.element);
 			this.data = $.data(this);
+
+			//Clear Interval
 			clearInterval(this.data.playInterval);
+
+			//Unbind Pause Slides on Hover
 			if (this.options.play.pauseOnHover && clicked) {
 				$('.slides-container', $element).unbind();
 			}
+
+			//Remove Playing and Play Interval Data Attributes
 			$.data(this, 'playInterval', null);
 			$.data(this, 'playing', false);
+
+			//Remove Slides Playing Class
 			$('.slides-play', $element).removeClass('slides-playing');
+
+			//Swap Play/Stop Controls
 			if (this.options.play.swap) {
 				$('.slides-stop', $element).hide();
 				return $('.slides-play', $element).show();
 			}
 		};
 
-		//Slide
+		//Slide Transition
 		Plugin.prototype._slide = function(number) {
 			var $element, currentSlide, direction, duration, next, prefix, slidesControl, timing, transform, value,
 			_this = this;
@@ -509,8 +551,13 @@
 			this.data = $.data(this);
 
 			if (!this.data.animating && number !== this.data.current + 1) {
+
+				//Set Data Attribute Animating to True
 				$.data(this, 'animating', true);
+
+				//Set Current Slide
 				currentSlide = this.data.current;
+
 				if (number > -1) {
 					number = number - 1;
 					value = number > currentSlide ? 1 : -1;
@@ -527,7 +574,11 @@
 				if (next === this.data.total) {
 					next = 0;
 				}
+
+				//Set Active
 				this._setActive(next);
+
+				//Hide Other Slides
 				slidesControl = $('.slides-control', $element);
 				if (number > -1) {
 					slidesControl.children(':not(:eq(' + currentSlide + '))').css({
@@ -542,6 +593,8 @@
 					zIndex: 10
 				});
 				this.options.callback.start(currentSlide + 1);
+
+				//If Vendor Prefixes use CSS Transitions alse use JQuery Animations
 				if (this.data.vendorPrefix) {
 					prefix = this.data.vendorPrefix;
 					transform = prefix + 'Transform';
@@ -593,15 +646,20 @@
 			}
 		};
 
-		//Fade
+		//Fade Transition
 		Plugin.prototype._fade = function(number) {
 			var $element, currentSlide, next, slidesControl, value,
 			_this = this;
 			$element = $(this.element);
 			this.data = $.data(this);
 			if (!this.data.animating && number !== this.data.current + 1) {
+
+				//Set Data Attribute Animating to True
 				$.data(this, 'animating', true);
+
+				//Set Current Slide
 				currentSlide = this.data.current;
+
 				if (number) {
 					number = number - 1;
 					value = number > currentSlide ? 1 : -1;
@@ -616,7 +674,11 @@
 				if (next === this.data.total) {
 					next = 0;
 				}
+
+				//Set Active
 				this._setActive(next);
+
+				//Hide Other Slides
 				slidesControl = $('.slides-control', $element);
 				slidesControl.children(':eq(' + next + ')').css({
 					display: 'none',
@@ -625,6 +687,8 @@
 				});
 
 				this.options.callback.start(currentSlide + 1);
+
+				//Crossfade if set in Options else FadeIn/FadeOut
 				if (this.options.effect.fade.crossfade) {
 					slidesControl.children(':eq(' + this.data.current + ')').stop().fadeOut(this.options.effect.fade.speed);
 					return slidesControl.children(':eq(' + next + ')').stop().fadeIn(this.options.effect.fade.speed, (function() {
