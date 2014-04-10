@@ -3304,7 +3304,7 @@ input {
 }
 .navbar .nav li a.active,
 .navbar .nav li a:active {
-  color: #ffffff;
+  color: #3bc0c3;
   text-decoration: none;
 }
 .navbar.dark {

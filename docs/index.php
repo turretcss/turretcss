@@ -13,7 +13,7 @@
 <div class="column-1-4">
 	<div class="side-nav">
 		<ul>
-			<li><a href="#fonts">Fonts</a></li>
+			<!-- <li><a href="#fonts">Fonts</a></li> -->
 			<li><a href="#video">Video</a></li>
 			<li><a href="#resolutions">Screen Resolutions</a></li>
 			<li><a href="#retina">Retina</a></li>
@@ -23,6 +23,13 @@
 </div>
 
 <div class="column-3-4">
+
+	<!-- Fonts -->
+	<!--
+<div class="panel">
+		<h2 id="fonts" class="section-title">Fonts</h2>
+	</div>
+-->
 
 	<!-- Video -->
 	<div class="panel">
@@ -72,30 +79,6 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
-
-	<!-- Fonts -->
-	<div class="panel">
-		<h2 id="fonts" class="section-title">Fonts</h2>
-		<!--
-<h3 class="section-sub-title">Resources</h2>
-		<table class="table table-block table-responsive">
-			<tbody>
-				<tr>
-					<td>Designing for Touch</td>
-					<td align="center"><a class="button button-text" href="http://brianthurston.com/2014/04/designing-for-touch-part-1-josh-clarks-workshop-at-an-event-apart/">Link</a></td>
-				</tr>
-				<tr>
-					<td>iOS Human Interface Guidelines</td>
-					<td align="center"><a class="button button-text" href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1">Link</a></td>
-				</tr>
-				<tr>
-					<td>Android Design Guidelines</td>
-					<td align="center"><a class="button button-text" href="https://developer.android.com/design/style/metrics-grids.html">Link</a></td>
-				</tr>
-			</tbody>
-		</table>
--->
 	</div>
 
 	<!-- Screen Resolutions -->
