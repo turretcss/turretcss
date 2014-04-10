@@ -17,7 +17,7 @@ $(document).ready(function() {
 		<li><a href="#scroller-section-2">Section 2</a></li>
 		<li><a href="#scroller-section-3">Section 3</a></li>
 	</ul>
-	<section id="scroller-section-1" class="scroller-section" data-scroller-section style="background: #ECECED;"></section>
+	<section id="scroller-section-1" class="scroller-section" data-scroller-section style="background: #3BC0C3;"></section>
 	<section id="scroller-section-2" class="scroller-section" data-scroller-section style="background: #6B7681;"></section>
 	<section id="scroller-section-3" class="scroller-section" data-scroller-section style="background: #3BC0C3;"></section>
 </div>
