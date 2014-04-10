@@ -3623,225 +3623,6 @@ input {
 .social a.youtube:hover {
   color: #bb0000;
 }
-/* Tools */
-.tools {
-  margin: 10px 0px;
-  padding: 0;
-  color: #3bc0c3;
-  list-style: none;
-  display: block;
-  position: relative;
-}
-.tools li {
-  display: inline-block;
-}
-.tools li a {
-  margin-right: 8px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.tools li a .icon {
-  margin-right: 2px;
-  font-size: 24px;
-  vertical-align: middle;
-}
-.tools li a .icon.icon-print {
-  font-size: 30px;
-}
-.tools li a .icon.icon-share {
-  font-size: 20px;
-}
-.tools li a .text {
-  font-size: 12px;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-.tools li a.share {
-  margin-right: 5px;
-  outline: none;
-}
-.tools li a.share:after {
-  float: right;
-  font-size: 8px;
-  margin: 5px 0px;
-  color: #1b2a3c;
-  content: "\e647";
-  font-family: icons;
-}
-.tools li a:hover,
-.tools li a:focus {
-  color: #3bc0c3;
-}
-.tools li.open .share:after {
-  content: "\e640";
-}
-.tools li.open .share-dropdown {
-  visibility: visible;
-  margin-top: 20px;
-  -moz-opacity: 1 !important;
-  -khtml-opacity: 1 !important;
-  -webkit-opacity: 1 !important;
-  opacity: 1 !important;
-}
-.tools li .share-dropdown {
-  z-index: 100;
-  right: 0;
-  left: 30%;
-  margin: 0;
-  padding: 10px 0px;
-  margin-top: 0px;
-  position: absolute;
-  visibility: hidden;
-  background: #3bc0c3;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
-  opacity: 0 !important;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.tools li .share-dropdown:before {
-  position: absolute;
-  top: -12px;
-  right: 20px;
-  width: 0;
-  height: 0;
-  border-right: 12px solid transparent;
-  border-bottom: 12px solid #3bc0c3;
-  border-left: 12px solid transparent;
-  content: ' ';
-}
-.tools li .share-dropdown li a {
-  margin: 0;
-  padding: 10px 15px;
-  display: block;
-  font-size: 11px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: #ffffff;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.tools li .share-dropdown li a .icon {
-  font-size: 16px;
-  margin-right: 5px;
-}
-.tools li .share-dropdown li a:hover,
-.tools li .share-dropdown li a:focus {
-  color: #cccccc;
-}
-/* Tooltip */
-.tooltip {
-  position: absolute;
-  z-index: 100;
-  display: block;
-  visibility: visible;
-  font-size: 12px;
-  line-height: 1.4;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
-  opacity: 0 !important;
-}
-.tooltip.in {
-  -moz-opacity: 1 !important;
-  -khtml-opacity: 1 !important;
-  -webkit-opacity: 1 !important;
-  opacity: 1 !important;
-}
-.tooltip.top {
-  margin-top: -3px;
-  padding: 5px 0;
-}
-.tooltip.right {
-  margin-left: 3px;
-  padding: 0 5px;
-}
-.tooltip.bottom {
-  margin-top: 3px;
-  padding: 5px 0;
-}
-.tooltip.left {
-  margin-left: -3px;
-  padding: 0 5px;
-}
-.tooltip-inner {
-  min-width: 150px;
-  max-width: 250px;
-  padding: 8px 14px;
-  color: #ffffff;
-  text-align: left;
-  text-decoration: none;
-  background-color: #3bc0c3;
-}
-.tooltip-arrow {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.tooltip.top .tooltip-arrow {
-  bottom: 0;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px 5px 0;
-  border-top-color: #3bc0c3;
-}
-.tooltip.top-left .tooltip-arrow {
-  bottom: 0;
-  left: 5px;
-  border-width: 5px 5px 0;
-  border-top-color: #3bc0c3;
-}
-.tooltip.top-right .tooltip-arrow {
-  bottom: 0;
-  right: 5px;
-  border-width: 5px 5px 0;
-  border-top-color: #3bc0c3;
-}
-.tooltip.right .tooltip-arrow {
-  top: 50%;
-  left: 0;
-  margin-top: -5px;
-  border-width: 5px 5px 5px 0;
-  border-right-color: #3bc0c3;
-}
-.tooltip.left .tooltip-arrow {
-  top: 50%;
-  right: 0;
-  margin-top: -5px;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #3bc0c3;
-}
-.tooltip.bottom .tooltip-arrow {
-  top: 0;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: #3bc0c3;
-}
-.tooltip.bottom-left .tooltip-arrow {
-  top: 0;
-  left: 5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: #3bc0c3;
-}
-.tooltip.bottom-right .tooltip-arrow {
-  top: 0;
-  right: 5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: #3bc0c3;
-}
 /* Side Nav */
 .side-nav ul {
   margin: 0;
@@ -5717,6 +5498,139 @@ form .form-input-group fieldset .checkbox label {
   -ms-transition: height 0.3s ease-in-out;
   -o-transition: height 0.3s ease-in-out;
   transition: height 0.3s ease-in-out;
+}
+/* Scroller */
+.scroller {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  background: #485364;
+}
+.scroller section {
+  z-index: 800;
+  position: relative;
+  width: 100%;
+}
+.scroller section .scroll-image {
+  height: 100%;
+}
+.scroller section .scroller-indicator {
+  z-index: 820;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
+}
+@media (max-width: 1024px) {
+  .scroller section .scroller-indicator {
+    display: none !important;
+    visibility: hidden !important;
+    -moz-opacity: 0 !important;
+    -khtml-opacity: 0 !important;
+    -webkit-opacity: 0 !important;
+    opacity: 0 !important;
+  }
+}
+.scroller section .scroller-indicator:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  content: "\e647";
+  color: #ffffff;
+  font-size: 20px;
+  font-family: icons;
+  -webkit-animation-name: indicator;
+  -moz-animation-name: indicator;
+  -ms-animation-name: indicator;
+  -o-animation-name: indicator;
+  animation-name: indicator;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.scroller ul.scroller-pagination {
+  z-index: 810;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  margin-top: -75px;
+  display: none !important;
+  visibility: hidden !important;
+  -moz-opacity: 0 !important;
+  -khtml-opacity: 0 !important;
+  -webkit-opacity: 0 !important;
+  opacity: 0 !important;
+}
+@media (min-width: 1025px) {
+  .scroller ul.scroller-pagination {
+    display: block !important;
+    visibility: visible !important;
+    -moz-opacity: 1 !important;
+    -khtml-opacity: 1 !important;
+    -webkit-opacity: 1 !important;
+    opacity: 1 !important;
+  }
+}
+.scroller ul.scroller-pagination li {
+  list-style: none;
+}
+.scroller ul.scroller-pagination li a {
+  display: block;
+  margin: 12px auto;
+  width: 16px;
+  height: 16px;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+.scroller ul.scroller-pagination li a:active,
+.scroller ul.scroller-pagination li a.active {
+  background: #ffffff;
+}
+.scroller ul.scroller-pagination.inverse a {
+  border: 2px solid #1b2a3c;
+}
+.scroller ul.scroller-pagination.inverse a:active,
+.scroller ul.scroller-pagination.inverse a.active {
+  background: #1b2a3c;
 }
 /* Scroll Top */
 .scroll-top {

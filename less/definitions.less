@@ -66,6 +66,7 @@
 @slides_controls_z_index: 500;
 @slides_navigation_z_index: 501;
 @slides_pagination_z_index: 502;
+@scroller_z_index: 800;
 @map_marker_label_z_index: 800;
 @map_pagination_z_index: @map_marker_label_z_index + 100;
 @lightbox_z_index: 9999;
@@ -354,11 +355,16 @@
 @slides_pagination_border_radius: 50%;
 
 
-//Tools
-@tools_margin_right: 8px;
-@tools_font_size: 12px;
-@tools_icon_size: 24px;
-@tools_color: @primary;
+//Scroller
+@scroller_background: @footer_background;
+@scroller_indicator_icon: @icon_angle_down;
+@scroller_pagination_margin: 12px auto;
+@scroller_pagination_size: 16px;
+@scroller_pagination_active_size: 16px;
+@scroller_pagination_colour: @white;
+@scroller_pagination_inverse_colour: @dark;
+@scroller_pagination_active_colour: @white;
+@scroller_pagination_inverse_active_colour: @dark;
 
 
 //Page Header
@@ -373,15 +379,6 @@
 @page_header_text_transform: none;
 
 
-//Tooltips
-@tooltip_min_width: 150px;
-@tooltip_max_width: 250px;
-@tooltip_color: @white;
-@tooltip_background: @primary;
-@tooltip_arrow_width: 5px;
-@tooltip_arrow_color: @tooltip_background;
-
-
 //Scroll Top
 @scroll_top_margin: 10px;
 @scroll_top_padding: 20px;
@@ -394,11 +391,6 @@
 @scroll_top_width: 100px;
 @scroll_top_medium_width: 80px;
 @scroll_top_small_width: 60px;
-
-
-//Lightbox
-@lightbox_width: 1024px;
-@lightbox_height: 576px;
 
 
 //Icons

@@ -14,7 +14,8 @@
 	<div class="side-nav">
 		<ul>
 			<li><a href="#slides">Slides</a></li>
-			<li><a href="#google-map">Map</a></li>
+			<li><a href="#google-map">GMaps</a></li>
+			<li><a href="#scroller">Scroller</a></li>
 			<li><a href="#scroll-top">Scroll Top</a></li>
 		</ul>
 	</div>
@@ -51,7 +52,7 @@
 	<img src="img/slide.gif">
 </div>'); ?></code></pre>
 
-<h3 class="section-sub-title">Javascript Example</h3>
+<h3 class="section-sub-title">JQuery Example</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities("$('[data-slides]').slides({
 	width: 1280,
 	height: 600
@@ -98,8 +99,9 @@ callback: {
 
 <!-- Map -->
 <div class="panel">
-<h2 id="google-map" class="section-title">Map</h2>
-<p>Slides are a responsive carousel with touch controls. Slide navigation, pagination and controls can be toggled in the plugin options.</p>
+<h2 id="google-map" class="section-title">GMaps</h2>
+<p>GMaps is a Google Maps JQuery Plugin that allows for SVG markers, icon font marker labels, custom zoom controls using icon fonts, and custom InfoBox styles using CSS.</p>
+<p><strong>Note: </strong>GMaps is dependant on the <code>infobox.js</code> Google Maps Class Extension.</p>
 
 <script>
 $(document).ready(function() {
@@ -163,7 +165,7 @@ $(document).ready(function() {
 </div>
 '); ?></code></pre>
 
-<h3 class="section-sub-title">Javascript (Example)</h3>
+<h3 class="section-sub-title">JQuery Example</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities("$('[data-map]').gmap({
 	pagination: false,
 	locations: [
@@ -242,13 +244,63 @@ mapInfoBoxOptions: {
 }"); ?></code></pre>
 </div>
 
+<!-- Scroller -->
+<div class="panel">
+<h2 id="scroller" class="section-title">Scroller</h2>
+<p>Scroller is a scroll gesture plugin for full-screen website scroll views.</p>
+<p><a class="button button-primary" href="scroller.php">Demo</a></p>
+
+<h3 class="section-sub-title">HTML</h3>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="scroller" data-scroller data-scroller-fixed-navigation>
+	<ul class="scroller-pagination" data-scroller-pagination>
+		<li><a href="#scroller-section-1">Section 1</a></li>
+		<li><a href="#scroller-section-2">Section 2</a></li>
+		<li><a href="#scroller-section-3">Section 3</a></li>
+	</ul>
+	<section id="scroller-section-1" class="scroller-section" data-scroller-section></section>
+	<section id="scroller-section-2" class="scroller-section" data-scroller-section></section>
+	<section id="scroller-section-3" class="scroller-section" data-scroller-section></section>
+</div>'); ?></code></pre>
+
+<h3 class="section-sub-title">JQuery Example</h3>
+<pre><code class="hljs javascript"><?php echo htmlentities("$('[data-scroller]').scroller({
+	fixedNavigation: true,
+	speed: 600,
+	quietPeriod: 600,
+	breakpoint: 1025
+});"); ?></code></pre>
+
+<h3 class="section-sub-title">Plugin Options</h3>
+<pre><code class="hljs html"><?php echo htmlentities("body: 'html, body',
+container: '[data-scroller]',
+section: '[data-scroller-section]',
+pagination: '[data-scroller-pagination]',
+paginationItem: '[data-scroller-pagination] li a',
+sectionHeight: 95,
+current: 1,
+swipe: false,
+hash: false,
+loop: false,
+pagination: true,
+keyboard: true,
+footer: false,
+fixedNavigation: false,
+speed: 600,
+lastAnimation: null,
+quietPeriod: 600,
+breakpoint: 768,
+easing: 'easeInOutExpo'"); ?></code></pre>
+</div>
+
 <!-- Scroll Top -->
 <div class="panel">
 <h2 id="scroll-top" class="section-title">Scroll Top</h2>
 <p>Scroll Top is an anchor that animates to the top when clicked. It can be <code>absolute</code> or <code>fixed</code> and aligned to the <code>right</code> or <code>centered</code>.</p>
 
+<h3 class="section-sub-title">HTML</h3>
 <pre><code class="hljs html"><?php echo htmlentities('<div class="scroll-top fixed right" data-scroll-top>Top</div>'); ?></code></pre>
 
+<h3 class="section-sub-title">JQuery Example</h3>
 <pre><code class="hljs javascript"><?php echo htmlentities("$('[data-scroll-top]').scrolltop();"); ?></code></pre>
 </div>
 

@@ -32,6 +32,7 @@
 	<script src="../js/jquery.scrolltop.js"></script>
 	<script src="../js/jquery.gmap.js"></script>
 	<script src="../js/jquery.slides.js"></script>
+	<script src="../js/jquery.scroller.js"></script>
 
 	<script>
 		$(document).ready(function() {
