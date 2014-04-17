@@ -18,7 +18,7 @@
 			<li><a href="#colours">Colours</a></li>
 			<li><a href="#template">Basic Template</a></li>
 			<li><a href="#media-queries">Media Queries</a></li>
-			<li><a href="#icons">Icons and Splash Screens</a></li>
+			<li><a href="#apps">Web Apps</a></li>
 		</ul>
 	</div>
 </div>
@@ -195,8 +195,113 @@
 
 <!-- Media Queries -->
 <div class="panel">
-	<h2 id="icons" class="section-title">Icons and Splash Screens</h2>
-	<p>We use the following media queries in LESS files to create the key breakpoints.</p>
+	<h2 id="apps" class="section-title">Web Apps</h2>
+	<p>Apple Touch Icons and Launch Screen images link tags to be included in the <code><?php echo htmlentities('<head>');?></code>. For more information regarding Apple Touch Icons and Launch Images refer to the <a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html">iOS Human Interface Guidelines</a>.</p>
+	<h3 class="section-sub-title">Icon Sizes</h3>
+	<!--
+<table class="table table-block table-bordered">
+		<thead>
+			<tr>
+				<th scope="col">Description</th>
+				<th scope="col">iPhone</th>
+				<th scope="col">iPhone Retina</th>
+				<th scope="col">iPad Retina</th>
+				<th scope="col">iPad</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">App Icon</td>
+				<td>120 x 120</td>
+				<td>120 x 120</td>
+				<td>152 x 152</td>
+				<td>76 x 76</td>
+			</tr>
+			<tr>
+				<td scope="row">Launch Image</td>
+				<td>640 x 1136</td>
+				<td>640 x 960</td>
+				<td>1536 x 2048 (portrait)<br>2048 x 1536 (landscape)</td>
+				<td>768 x 1024 (portrait)<br>1024 x 768 (landscape)</td>
+			</tr>
+			<tr>
+				<td scope="row">Web Clip Icon</td>
+				<td>120 x 120</td>
+				<td>120 x 120</td>
+				<td>152 x 152</td>
+				<td>76 x 76</td>
+			</tr>
+		</tbody>
+	</table>
+-->
+	<table class="table table-block table-bordered">
+		<thead>
+			<tr>
+				<th scope="col">Device</th>
+				<th scope="col">App Icon</th>
+				<th scope="col">Launch Image</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">iPhone iOS6</td>
+				<td>57 x 57</td>
+				<td>320 x 460</td>
+			</tr>
+			<tr>
+				<td scope="row">iPhone iOS7</td>
+				<td>60 x 60<br>
+				<td>320 x 460</td>
+			</tr>
+			<tr>
+				<td scope="row">iPhone Retina iOS6</td>
+				<td>114 x 114<br>
+				<td>640 x 960</td>
+			</tr>
+			<tr>
+				<td scope="row">iPhone Retina iOS7</td>
+				<td>120 x 120<br>
+				<td>640 x 960</td>
+			</tr>
+			<tr>
+				<td scope="row">iPhone Tall Retina iOS6</td>
+				<td>114 x 114<br>
+				<td>640 x 1096</td>
+			</tr>
+			<tr>
+				<td scope="row">iPhone Tall Retina iOS7</td>
+				<td>120 x 120<br>
+				<td>640 x 1096</td>
+			</tr>
+			<tr>
+				<td scope="row">iPad iOS6</td>
+				<td>72 x 72<br>
+				<td>768 x 1004 (portrait)<br>1024 x 748 (landscape)</td>
+			</tr>
+			<tr>
+				<td scope="row">iPad iOS7</td>
+				<td>76 x 76<br>
+				<td>768 x 1004 (portrait)<br>1024 x 748 (landscape)</td>
+			</tr>
+			<tr>
+				<td scope="row">iPad Retina iOS6</td>
+				<td>144 x 144<br>
+				<td>1496 x 2048 (portrait)<br>2008 x 1536 (landscape)</td>
+			</tr>
+			<tr>
+				<td scope="row">iPad Retina iOS7</td>
+				<td>152 x 152<br>
+				<td>1496 x 2048 (portrait)<br>2008 x 1536 (landscape)</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3 class="section-sub-title">Status Bar</h3>
+	<p>If a web application displays in standalone mode like that of a native application, you can minimize the status bar that is displayed at the top of the screen on iOS.</p>
+	<pre><code class="hljs html"><?php echo htmlentities('<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">'); ?></code></pre>
+
+	<h3 class="section-sub-title">HTML</h3>
 	<pre><code class="hljs html">
 <?php echo htmlentities('<!-- Run in full-screen mode. -->
 <meta name="apple-mobile-web-app-capable" content="yes">
