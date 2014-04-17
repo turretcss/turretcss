@@ -240,6 +240,10 @@ li {
   padding-left: 0;
   padding-right: 0;
 }
+[class*='column-'].column-center {
+  float: none;
+  margin: 0 auto;
+}
 @media (max-width: 767px) {
   [class*='column-'].no-gutter-small {
     padding-left: 0;
