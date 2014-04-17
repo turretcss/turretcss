@@ -14,9 +14,11 @@
 	<div class="side-nav">
 		<ul>
 			<li><a href="#general">General</a></li>
+			<li><a href="#typography">Typography</a></li>
+			<li><a href="#colours">Colours</a></li>
 			<li><a href="#template">Basic Template</a></li>
 			<li><a href="#media-queries">Media Queries</a></li>
-			<li><a href="#typography">Typography</a></li>
+			<li><a href="#icons">Icons and Splash Screens</a></li>
 		</ul>
 	</div>
 </div>
@@ -39,61 +41,6 @@
 	<pre><code class="hljs html"><?php echo htmlentities('<img src="..." class="responsive" />'); ?></code></pre>
 </div>
 
-<!-- Media Queries -->
-<div class="panel">
-	<h2 id="media-queries" class="section-title">Media Queries</h2>
-	<p>We use the following media queries in LESS files to create the key breakpoints.</p>
-	<pre><code class="hljs css">
-<?php echo htmlentities('@small: ~"(max-width: 767px)";
-@medium: ~"(max-width: 1024px)";
-@only_medium: ~"(min-width: 768px) and (max-width: 1024px) and (orientation: portrait)";
-@medium_landscape: ~"(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)";
-@large: ~"(min-width: 1025px)";
-@only_large: ~"(min-width: 1025px) and (max-width: 1279px)";
-@extra_large: ~"(min-width: 1280px)";
-
-@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
-~"only screen and (min--moz-device-pixel-ratio: 1.5)",
-~"only screen and (-o-min-device-pixel-ratio: 3/2)",
-~"only screen and (min-device-pixel-ratio: 1.5)";'); ?>
-</code></pre>
-</div>
-
-<!-- Basic Template -->
-<div class="panel">
-	<h2 id="template" class="section-title">Basic Template</h2>
-	<p>Turret styles are compiled into <code>main.css</code> in the <code>/css</code> directory. Mobile first responsive styles require the viewport to be <code>width=device-width</code>, <code>initial-scale=1.0</code>, <code>maximum-scale=1.0</code>, and <code>user-scalable=no</code>. Turret components require JQuery. Optional support for IE8 requires <code>HTML5Siv.js</code> and <code>respond.js</code></p>
-<pre><code class="hljs html"><?php echo htmlentities('<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>Turret Template</title>
-
-	<!-- Turret -->
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-
-	<!-- Respond.js IE8 support of media queries -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-	<h1>Hello, world!</h1>
-
-	<!-- JQuery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write(\'<script src="../lib/jquery-1.10.1.min.js"><\/script>\')</script>
-
-	<!-- Components -->
-	<script src="../js/jquery.easing.js"></script>
-	<script src="../js/jquery.scrolltop.js"></script>
-	<script src="../js/jquery.gmap.js"></script>
-	<script src="../js/jquery.slides.js"></script>
-</body>
-</html>'); ?></code></pre>
-</div>
 
 <!-- Typography -->
 <div class="panel">
@@ -189,6 +136,135 @@
 		</div>
 	</div>
 </div>
+
+<!-- Icons and Splash Screens -->
+<div class="panel">
+	<h2 id="template" class="section-title">Basic Template</h2>
+	<p>Turret styles are compiled into <code>main.css</code> in the <code>/css</code> directory. Mobile first responsive styles require the viewport to be <code>width=device-width</code>, <code>initial-scale=1.0</code>, <code>maximum-scale=1.0</code>, and <code>user-scalable=no</code>. Turret components require JQuery. Optional support for IE8 requires <code>HTML5Siv.js</code> and <code>respond.js</code></p>
+<pre><code class="hljs html"><?php echo htmlentities('<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Turret Template</title>
+
+	<!-- Turret -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!-- Respond.js IE8 support of media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<h1>Hello, world!</h1>
+
+	<!-- JQuery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write(\'<script src="../lib/jquery-1.10.1.min.js"><\/script>\')</script>
+
+	<!-- Components -->
+	<script src="../js/jquery.easing.js"></script>
+	<script src="../js/jquery.scrolltop.js"></script>
+	<script src="../js/jquery.gmap.js"></script>
+	<script src="../js/jquery.slides.js"></script>
+</body>
+</html>'); ?></code></pre>
+</div>
+
+<!-- Media Queries -->
+<div class="panel">
+	<h2 id="media-queries" class="section-title">Media Queries</h2>
+	<p>We use the following media queries in LESS files to create the key breakpoints.</p>
+	<pre><code class="hljs css">
+<?php echo htmlentities('@small: ~"(max-width: 767px)";
+@medium: ~"(max-width: 1024px)";
+@only_medium: ~"(min-width: 768px) and (max-width: 1024px) and (orientation: portrait)";
+@medium_landscape: ~"(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)";
+@large: ~"(min-width: 1025px)";
+@only_large: ~"(min-width: 1025px) and (max-width: 1279px)";
+@extra_large: ~"(min-width: 1280px)";
+
+@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+~"only screen and (min-device-pixel-ratio: 1.5)";'); ?>
+</code></pre>
+</div>
+
+<!-- Media Queries -->
+<div class="panel">
+	<h2 id="icons" class="section-title">Icons and Splash Screens</h2>
+	<p>We use the following media queries in LESS files to create the key breakpoints.</p>
+	<pre><code class="hljs html">
+<?php echo htmlentities('<!-- Run in full-screen mode. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- Make the status bar black with white text. -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- Customize home screen title. -->
+<meta name="apple-mobile-web-app-title" content="Web App">
+
+<!-- Disable phone number detection. -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Set viewport. -->
+<meta name="viewport" content="initial-scale=1">
+
+<!-- Prevent text size adjustment on orientation change. -->
+<style>html { -webkit-text-size-adjust: 100%; }</style>
+
+<!-- Icons -->
+
+<!-- iOS 7 iPad (retina) -->
+<link href="/ico/apple-touch-icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
+
+<!-- iOS 6 iPad (retina) -->
+<link href="/ico/apple-touch-icon-144x144.png"sizes="144x144"rel="apple-touch-icon">
+
+<!-- iOS 7 iPhone (retina) -->
+<link href="/ico/apple-touch-icon-120x120.png"sizes="120x120"rel="apple-touch-icon">
+
+<!-- iOS 6 iPhone (retina) -->
+<link href="/ico/apple-touch-icon-114x114.png"sizes="114x114"rel="apple-touch-icon">
+
+<!-- iOS 7 iPad -->
+<link href="/ico/apple-touch-icon-76x76.png"sizes="76x76"rel="apple-touch-icon">
+
+<!-- iOS 6 iPad -->
+<link href="/ico/apple-touch-icon-72x72.png"sizes="72x72"rel="apple-touch-icon">
+
+<!-- iOS 6 iPhone -->
+<link href="/ico/apple-touch-icon-57x57.png"sizes="57x57"rel="apple-touch-icon">
+
+<!-- Startup images -->
+
+<!-- iOS 6 & 7 iPad (retina, portrait) -->
+<link href="/ico/apple-touch-startup-image-1536x2008.png"media="(device-width: 768px) and (device-height: 1024px)   and (orientation: portrait)   and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 & 7 iPad (retina, landscape) -->
+<link href="/ico/apple-touch-startup-image-1496x2048.png"media="(device-width: 768px) and (device-height: 1024px)   and (orientation: landscape)   and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 iPad (portrait) -->
+<link href="/ico/apple-touch-startup-image-768x1004.png"media="(device-width: 768px) and (device-height: 1024px)   and (orientation: portrait)   and (-webkit-device-pixel-ratio: 1)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 iPad (landscape) -->
+<link href="/ico/apple-touch-startup-image-748x1024.png"media="(device-width: 768px) and (device-height: 1024px)   and (orientation: landscape)   and (-webkit-device-pixel-ratio: 1)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 & 7 iPhone 5 -->
+<link href="/ico/apple-touch-startup-image-640x1096.png"media="(device-width: 320px) and (device-height: 568px)   and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 & 7 iPhone (retina) -->
+<link href="/ico/apple-touch-startup-image-640x920.png"media="(device-width: 320px) and (device-height: 480px)   and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image">
+
+<!-- iOS 6 iPhone -->
+<link href="/ico/apple-touch-startup-image-320x460.png"media="(device-width: 320px) and (device-height: 480px)   and (-webkit-device-pixel-ratio: 1)"rel="apple-touch-startup-image">'); ?>
+</code></pre>
+</div>
+
+
 
 </div>
 </div>
