@@ -159,64 +159,196 @@
 <div class="panel">
 <h2 id="forms" class="section-title">Forms</h2>
 <h3 class="section-sub-title">Form Inputs</h3>
-<form role="form">
+<form>
 	<div class="form-input-group">
-		<label for="email">Email address</label>
-		<input type="email" id="email" class="form-input" placeholder="Email" />
+		<label for="text">Text Input</label>
+		<input class="form-input" type="text" id="text" placeholder="Text">
 	</div>
 	<div class="form-input-group">
-		<label for="password">Password</label>
-		<input type="password" id="password" class="form-input" placeholder="Password" />
+		<label for="required">Required Input<span class="required">*</span></label>
+		<input class="form-input" type="text" id="required" placeholder="Required" required>
 	</div>
 	<div class="form-input-group">
 		<label for="disabled">Disabled</label>
-		<input type="disabled" id="disabled" class="form-input" placeholder="Disabled" disabled />
+		<input class="form-input" type="text" id="disabled" placeholder="Disabled" disabled>
 	</div>
 	<div class="form-input-group">
-		<label for="error">Error</label>
-		<input type="error" id="error" class="form-input error" value="Error" />
+		<label for="error">Input Error</label>
+		<input class="form-input error" type="text" id="error" placeholder="Error">
+	</div>
+	<div class="form-input-group">
+		<label for="email">Email Input</label>
+		<input class="form-input" type="email" id="email" placeholder="Email" />
+	</div>
+	<div class="form-input-group">
+		<label for="search">Search Input</label>
+		<input class="form-input" type="search" id="search" placeholder="Search" />
+	</div>
+	<div class="form-input-group">
+		<label for="tel">Telephone Input</label>
+		<input class="form-input" type="tel" id="tel" placeholder="Telephone" />
+	</div>
+	<div class="form-input-group">
+		<label for="url">URL Input</label>
+		<input class="form-input" type="url" id="url" placeholder="http://" />
+	</div>
+	<div class="form-input-group">
+		<label for="password">Password Input</label>
+		<input class="form-input" type="password" id="password" value="password">
 	</div>
 	<div class="form-input-group">
 		<label>
-			<input type="checkbox"> Checkbox
+			<input class="form-input" type="radio"> Radio
 		</label>
 	</div>
 	<div class="form-input-group">
 		<label>
-			<input type="radio"> Radio
+			<input class="form-input" type="checkbox"> Checkbox
 		</label>
 	</div>
-	<input type="submit" value="Submit" class="button primary" />
+	<div class="form-input-group">
+		<label for="file">File Input</label>
+		<input class="form-input" type="file" id="file">
+	</div>
+	<div class="form-input-group">
+		<label for="select">Select Field</label>
+		<select id="select">
+			<option>Option 01</option>
+			<option>Option 02</option>
+		</select>
+	</div>
+	<div class="form-input-group">
+		<label>Textarea</label>
+		<textarea class="form-input" cols="30" rows="5" class="span6">Textarea text</textarea>
+	</div>
+	<div class="form-input-group">
+		<label for="color">Color Input</label>
+		<input type="color" id="color">
+	</div>
+	<div class="form-input-group">
+		<label for="number">Number Input</label>
+		<input class="form-input" type="number" id="number" min="0" max="10">
+	</div>
+	<div class="form-input-group">
+		<label for="range">Range Input</label>
+		<input class="form-input" type="range" id="range">
+	</div>
+	<div class="form-input-group">
+		<label for="date">Date Input</label>
+		<input class="form-input" type="date" id="date">
+	</div>
+	<div class="form-input-group">
+		<label for="month">Month Input</label>
+		<input class="form-input" type="month" id="month">
+	</div>
+	<div class="form-input-group">
+		<label for="week">Week Input</label>
+		<input class="form-input" type="week" id="week">
+	</div>
+	<div class="form-input-group">
+		<label for="datetime">Datetime Input</label>
+		<input class="form-input" type="datetime" id="datetime">
+	</div>
+	<div class="form-input-group">
+		<label for="datetime-local">Datetime-local Input</label>
+		<input class="form-input" type="datetime-local" id="datetime-local">
+	</div>
 </form>
 
-<pre><code class="hljs html"><?php echo htmlentities('<form role="form">
+<pre><code class="hljs html"><?php echo htmlentities('<form>
 	<div class="form-input-group">
-		<label for="email">Email address</label>
-		<input type="email" id="email" class="form-input" placeholder="Email" />
+		<label for="text">Text Input</label>
+		<input class="form-input" type="text" id="text" placeholder="Text">
 	</div>
 	<div class="form-input-group">
-		<label for="password">Password</label>
-		<input type="password" id="password" class="form-input" placeholder="Password" />
+		<label for="required">Required Input<span class="required">*</span></label>
+		<input class="form-input" type="text" id="required" placeholder="Required" required>
 	</div>
 	<div class="form-input-group">
 		<label for="disabled">Disabled</label>
-		<input type="disabled" id="disabled" class="form-input" placeholder="Disabled" disabled />
+		<input class="form-input" type="text" id="disabled" placeholder="Disabled" disabled>
 	</div>
 	<div class="form-input-group">
-		<label for="error">Error</label>
-		<input type="error" id="error" class="form-input error" value="Error" />
+		<label for="error">Input Error</label>
+		<input class="form-input error" type="text" id="error" placeholder="Error">
+	</div>
+	<div class="form-input-group">
+		<label for="email">Email Input</label>
+		<input class="form-input" type="email" id="email" placeholder="Email" />
+	</div>
+	<div class="form-input-group">
+		<label for="search">Search Input</label>
+		<input class="form-input" type="search" id="search" placeholder="Search" />
+	</div>
+	<div class="form-input-group">
+		<label for="tel">Telephone Input</label>
+		<input class="form-input" type="tel" id="tel" placeholder="Telephone" />
+	</div>
+	<div class="form-input-group">
+		<label for="url">URL Input</label>
+		<input class="form-input" type="url" id="url" placeholder="http://" />
+	</div>
+	<div class="form-input-group">
+		<label for="password">Password Input</label>
+		<input class="form-input" type="password" id="password" value="password">
 	</div>
 	<div class="form-input-group">
 		<label>
-			<input type="checkbox"> Checkbox
+			<input class="form-input" type="radio"> Radio
 		</label>
 	</div>
 	<div class="form-input-group">
 		<label>
-			<input type="radio"> Radio
+			<input class="form-input" type="checkbox"> Checkbox
 		</label>
 	</div>
-	<input type="submit" value="Submit" class="button primary" />
+	<div class="form-input-group">
+		<label for="file">File Input</label>
+		<input class="form-input" type="file" id="file">
+	</div>
+	<div class="form-input-group">
+		<label for="select">Select Field</label>
+		<select id="select">
+			<option>Option 01</option>
+			<option>Option 02</option>
+		</select>
+	</div>
+	<div class="form-input-group">
+		<label>Textarea</label>
+		<textarea class="form-input" cols="30" rows="5" class="span6">Textarea text</textarea>
+	</div>
+	<div class="form-input-group">
+		<label for="color">Color Input</label>
+		<input type="color" id="color">
+	</div>
+	<div class="form-input-group">
+		<label for="number">Number Input</label>
+		<input class="form-input" type="number" id="number" min="0" max="10">
+	</div>
+	<div class="form-input-group">
+		<label for="range">Range Input</label>
+		<input class="form-input" type="range" id="range">
+	</div>
+	<div class="form-input-group">
+		<label for="date">Date Input</label>
+		<input class="form-input" type="date" id="date">
+	</div>
+	<div class="form-input-group">
+		<label for="month">Month Input</label>
+		<input class="form-input" type="month" id="month">
+	</div>
+	<div class="form-input-group">
+		<label for="week">Week Input</label>
+		<input class="form-input" type="week" id="week">
+	</div>
+	<div class="form-input-group">
+		<label for="datetime">Datetime Input</label>
+		<input class="form-input" type="datetime" id="datetime">
+	</div>
+	<div class="form-input-group">
+		<label for="datetime-local">Datetime-local Input</label>
+		<input class="form-input" type="datetime-local" id="datetime-local">
+	</div>
 </form>'); ?></code></pre>
 
 <h3 class="section-sub-title">Input Sizes</h3>
