@@ -876,6 +876,9 @@ li {
   .column-small-11-12 {
     width: 91.63%;
   }
+  [class*='column-offset-'] {
+    margin-left: 0;
+  }
   .column-small-offset-1 {
     margin-left: 100%;
   }
