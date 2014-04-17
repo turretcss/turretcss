@@ -15,6 +15,7 @@
 		<div class="side-nav">
 			<ul>
 				<li><a href="#browsers">Browser Support</a></li>
+				<li><a href="#modernizr">Modernizr</a></li>
 				<li><a href="#devices">Device Support</a></li>
 				<li><a href="#css">CSS3</a></li>
 				<li><a href="#responsive">Responsive</a></li>
@@ -77,8 +78,21 @@
 			<p>The Default Android Browser is not supported. Android 4.4+ does not ship with a default Browser. (note: Chrome on Android is fully supported)</p>
 
 			<h3 class="section-sub-title">IE Compatibility modes</h2>
-			<p>Bootstrap is not supported in the old Internet Explorer compatibility modes. To be sure you're using the latest rendering mode for IE, consider including the appropriate <code><?php echo htmlentities('<meta>'); ?></code> tag in your pages:</p>
-			<pre><code class="hljs html"><?php echo htmlentities('<meta http-equiv="X-UA-Compatible" content="IE=edge">'); ?></code></pre>
+			<p>Turret is not supported in the old Internet Explorer compatibility modes. To be sure you're using the latest rendering mode for IE, consider including the appropriate <code><?php echo htmlentities('<meta>'); ?></code> tag in your pages:</p>
+			<pre><code class="hljs html"><?php echo htmlentities('<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">'); ?></code></pre>
+			<p>The meta tag tells the IE rendering engine two things:</p>
+			<ol>
+				<li>It should use the latest, or edge, version of the IE rendering environment</li>
+				<li>If already installed, it should use the Google Chrome Frame rendering engine.</li>
+			</ol>
+			<p>This line breaks validation, and the Google Chrome Frame part won't work inside a conditional comment. To avoid these edge case issues it is recommended that you remove this line and use the <code>.htaccess</code> to send these headers instead as specified in <a href="http://groups.google.com/group/html5boilerplate/browse_thread/thread/6d1b6b152aca8ed2">Validating: X-UA-Compatible</a>.</p>
+		</div>
+
+		<!-- Device Support -->
+		<div class="panel">
+			<h2 id="modernizr" class="section-title">Modernizr</h2>
+			<p><a href="http://modernizr.com/">Modernizr</a> is a JavaScript library which adds classes to the <code>html</code> element based on the results of feature test and which ensures that all browsers can make use of HTML5 elements (as it includes the HTML5 Shiv). This allows you to target parts of your CSS and JavaScript based on the features supported by a browser.</p>
+			<p>In general, in order to keep page load times to a minimum, it's best to call any JavaScript at the end of the page because if a script is slow to load from an external server it may cause the whole page to hang. That said, the Modernizr script needs to run before the browser begins rendering the page, so that browsers lacking support for some of the new HTML5 elements are able to handle them properly. Therefore the Modernizr script is the only JavaScript file synchronously loaded at the top of the document.</p>
 		</div>
 
 		<!-- Device Support -->
