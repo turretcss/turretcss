@@ -3535,6 +3535,9 @@ input {
   text-align: center;
   display: block;
 }
+.button.button-center {
+  margin: 0 auto;
+}
 .button.button-border {
   color: #485364;
   background: transparent;
