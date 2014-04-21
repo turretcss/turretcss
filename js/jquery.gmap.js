@@ -46,7 +46,7 @@
 				scale: 1,
 				path: 'M 55 -80 -55 -80 -55 -13.175 -12.015 -13.175 0.134 0 12.285 -13.175 55 -13.175 Z',
 				color: '#1B2A3C',
-				icon: 'icon-thiess-logo'
+				icon: 'icon-circle-full'
 			},
 			mapInfoBoxOptions: {
 				width: 300,
