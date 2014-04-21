@@ -1,10 +1,12 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="height:200px;">
-
+<div class="page-header">
 	<div class="container">
 		<div class="page-header-content column-1">
-			<h1 class="page-title">layout</h1>
+			<div class="page-header-content-inner">
+				<h1 class="page-title">Layout</h1>
+				<p class="page-description">The Turret Grid, the container, rows, columns, column offsets, gutters and more.</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -15,6 +17,9 @@
 
 <div class="column-1">
 
+<?php include('includes/grid.php'); ?>
+
+<!-- Container -->
 <div class="panel">
 	<h2 class="section-title">Container and Rows</h2>
 
@@ -28,8 +33,6 @@
 	<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
 	<pre><code class="hljs html"><?php echo htmlentities('<div class="row">...</div>'); ?></code></pre>
 </div>
-
-<?php include('includes/grid.php'); ?>
 
 <!-- Grid -->
 <div class="panel">
