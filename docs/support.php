@@ -1,8 +1,13 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="height:200px;">
+<div class="page-header">
 	<div class="container">
-		<div class="page-header-content column-1"><h1 class="page-title">Support</h1></div>
+		<div class="page-header-content column-1">
+			<div class="page-header-content-inner">
+				<h1 class="page-title">Support</h1>
+				<p class="page-description">Outline of Browser and Device Support, video support, CSS3 supported rules, Accessibility, and support libraries including Modernizr and Respond.js</p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -12,19 +17,116 @@
 <div class="row">
 
 	<div class="column-1-4">
-		<div class="side-nav">
+		<div class="side-nav" data-affix>
 			<ul>
-				<li><a href="#browsers">Browser Support</a></li>
-				<li><a href="#modernizr">Modernizr</a></li>
-				<li><a href="#devices">Device Support</a></li>
+				<li><a href="#html">HTML5</a></li>
 				<li><a href="#css">CSS3</a></li>
-				<li><a href="#responsive">Responsive</a></li>
+				<li><a href="#browsers">Browser Support</a></li>
+				<li><a href="#devices">Device Support</a></li>
+				<li><a href="#video">Video</a></li>
 				<li><a href="#accessibility">Accessibility</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="column-3-4">
+	
+		<!-- CCS3 Support -->
+		<div class="panel">
+			<h2 id="html" class="section-title">HTML5</h2>
+			<h3 class="section-sub-title">HTML5 Doctype</h2>
+			<p>Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype.</p>
+			<pre><code class="hljs html"><?php echo htmlentities('<!DOCTYPE html>
+<html lang="en">
+  ...
+</html>'); ?></code></pre>
+			<h3 class="section-sub-title">Normalize</h2>
+			<p>For improved cross-browser rendering, Turret uses <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>, a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a>.</p>
+			<!--
+<table class="table table-bordered table-block table-responsive">
+				<thead>
+					<tr>
+						<th>Feature</th>
+						<th>IE8</th>
+						<th>IE9</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><code>border-radius</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported</td>
+					</tr>
+					<tr>
+						<td><code>box-shadow</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported</td>
+					</tr>
+					<tr>
+						<td><code>transform</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported, with <code>-ms</code> prefix</td>
+					</tr>
+					<tr>
+						<td><code>transition</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-unsupported">Not supported</td>
+					</tr>
+					<tr>
+						<td><code>placeholder</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-unsupported">Not supported</td>
+					</tr>
+				</tbody>
+			</table>
+-->
+		</div>
+	
+		<!-- CCS3 Support -->
+		<div class="panel">
+			<h2 id="css" class="section-title">CSS3</h2>
+			<p>Some CSS3 properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.</p>
+			<table class="table table-bordered table-block table-responsive">
+				<thead>
+					<tr>
+						<th>Feature</th>
+						<th>IE8</th>
+						<th>IE9</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><code>border-radius</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported</td>
+					</tr>
+					<tr>
+						<td><code>box-shadow</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported</td>
+					</tr>
+					<tr>
+						<td><code>transform</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported, with <code>-ms</code> prefix</td>
+					</tr>
+					<tr>
+						<td><code>transition</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-unsupported">Not supported</td>
+					</tr>
+					<tr>
+						<td><code>placeholder</code></td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-unsupported">Not supported</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>Visit <a href="http://caniuse.com/">Can I use...</a> for details on browser support of CSS3 and HTML5 features.</p>
+
+			<h3 class="section-sub-title">IE8 and box-sizing</h2>
+			<p>IE8 does not fully support <code>box-sizing: border-box;</code> when combined with <code>min-width</code>, <code>max-width</code>, <code>min-height</code>, or <code>max-height</code>. Cannot use max-width on <code>.container</code>.</p>
+		</div>
 
 		<!-- Browser Support -->
 		<div class="panel">
@@ -86,13 +188,23 @@
 				<li>If already installed, it should use the Google Chrome Frame rendering engine.</li>
 			</ol>
 			<p>This line breaks validation, and the Google Chrome Frame part won't work inside a conditional comment. To avoid these edge case issues it is recommended that you remove this line and use the <code>.htaccess</code> to send these headers instead as specified in <a href="http://groups.google.com/group/html5boilerplate/browse_thread/thread/6d1b6b152aca8ed2">Validating: X-UA-Compatible</a>.</p>
-		</div>
-
-		<!-- Device Support -->
-		<div class="panel">
-			<h2 id="modernizr" class="section-title">Modernizr</h2>
+			<h3 class="section-sub-title">Modernizr</h2>
 			<p><a href="http://modernizr.com/">Modernizr</a> is a JavaScript library which adds classes to the <code>html</code> element based on the results of feature test and which ensures that all browsers can make use of HTML5 elements (as it includes the HTML5 Shiv). This allows you to target parts of your CSS and JavaScript based on the features supported by a browser.</p>
 			<p>In general, in order to keep page load times to a minimum, it's best to call any JavaScript at the end of the page because if a script is slow to load from an external server it may cause the whole page to hang. That said, the Modernizr script needs to run before the browser begins rendering the page, so that browsers lacking support for some of the new HTML5 elements are able to handle them properly. Therefore the Modernizr script is the only JavaScript file synchronously loaded at the top of the document.</p>
+			
+			<h3 class="section-sub-title">Respond.js</h2>
+			<p>Internet Explorer 8 requires the use of <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> to enable media query support.</p>
+			<h3 class="section-sub-title">Internet Explorer 8 and Respond.js</h3>
+			<p>Beware of the following caveats when using Respond.js in your development and production environments for Internet Explorer 8.</p>
+
+			<h4 class="section-sub-title">Respond.js and cross-domain CSS</h4>
+			<p>Using Respond.js with CSS hosted on a different (sub)domain (for example, on a CDN) requires some additional setup. See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
+
+			<h4 class="section-sub-title">Respond.js and <code>file://</code></h4>
+			<p>Due to browser security rules, Respond.js doesn't work with pages viewed via the <code>file://</code> protocol (like when opening a local HTML file). To test responsive features in IE8, view your pages over HTTP(S). See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
+
+			<h4 class="section-sub-title">Respond.js and <code>@import</code></h4>
+			<p>Respond.js doesn't work with CSS that's referenced via <code>@import</code>. In particular, some Drupal configurations are known to use <code>@import</code>. See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
 		</div>
 
 		<!-- Device Support -->
@@ -190,68 +302,55 @@
 				</tbody>
 			</table>
 		</div>
-
-		<!-- CCS3 Support -->
+		
+		<!-- Video -->
 		<div class="panel">
-			<h2 id="css" class="section-title">CSS3</h2>
-			<p>Some CSS3 properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.</p>
+			<h2 id="video" class="section-title">Video</h2>
+			<h3 class="section-sub-title">Browser Support for Video</h2>
 			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Feature</th>
-						<th>IE8</th>
-						<th>IE9</th>
-					</tr>
-				</thead>
 				<tbody>
 					<tr>
-						<td><code>border-radius</code></td>
+						<th>&nbsp;</th>
+						<th>Android</th>
+						<th>Chrome</th>
+						<th>Firefox</th>
+						<th>Internet Explorer</th>
+						<th>iOS</th>
+						<th>Opera</th>
+						<th>Safari</th>
+					</tr>
+					<tr>
+						<th>MP4<br><small>H.264</small></th>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported</td>
+						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported<br/><small>Since IE9</a></td>
+						<td class="is-supported">Supported</td>
 						<td class="is-unsupported">Not supported</td>
 						<td class="is-supported">Supported</td>
 					</tr>
 					<tr>
-						<td><code>box-shadow</code></td>
+						<th>ogg<br><small>Theora</small></th>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported</td>
+						<td class="is-unsupported">Not supported</td>
 						<td class="is-unsupported">Not supported</td>
 						<td class="is-supported">Supported</td>
-					</tr>
-					<tr>
-						<td><code>transform</code></td>
-						<td class="is-unsupported">Not supported</td>
-						<td class="is-supported">Supported, with <code>-ms</code> prefix</td>
-					</tr>
-					<tr>
-						<td><code>transition</code></td>
-						<td class="is-unsupported">Not supported</td>
 						<td class="is-unsupported">Not supported</td>
 					</tr>
 					<tr>
-						<td><code>placeholder</code></td>
+						<th>WebM</th>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported</td>
+						<td class="is-supported">Supported<br/><small><a href="http://tools.google.com/dlpage/webmmf" zt="-o1/XL" target="_blank">(with components)</a></small></td>
 						<td class="is-unsupported">Not supported</td>
+						<td class="is-supported">Supported</td>
 						<td class="is-unsupported">Not supported</td>
 					</tr>
 				</tbody>
 			</table>
-			<p>Visit <a href="http://caniuse.com/">Can I use...</a> for details on browser support of CSS3 and HTML5 features.</p>
-
-			<h3 class="section-sub-title">IE8 and box-sizing</h2>
-			<p>IE8 does not fully support <code>box-sizing: border-box;</code> when combined with <code>min-width</code>, <code>max-width</code>, <code>min-height</code>, or <code>max-height</code>. Cannot use max-width on <code>.container</code>.</p>
-		</div>
-
-		<!-- Responsive -->
-		<div class="panel">
-			<h2 id="responsive" class="section-title">Responsive</h2>
-			<p>Internet Explorer 8 requires the use of <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> to enable media query support.</p>
-			<h3 class="section-sub-title">Internet Explorer 8 and Respond.js</h3>
-			<p>Beware of the following caveats when using Respond.js in your development and production environments for Internet Explorer 8.</p>
-
-			<h4 class="section-sub-title">Respond.js and cross-domain CSS</h4>
-			<p>Using Respond.js with CSS hosted on a different (sub)domain (for example, on a CDN) requires some additional setup. See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
-
-			<h4 class="section-sub-title">Respond.js and <code>file://</code></h4>
-			<p>Due to browser security rules, Respond.js doesn't work with pages viewed via the <code>file://</code> protocol (like when opening a local HTML file). To test responsive features in IE8, view your pages over HTTP(S). See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
-
-			<h4 class="section-sub-title">Respond.js and <code>@import</code></h4>
-			<p>Respond.js doesn't work with CSS that's referenced via <code>@import</code>. In particular, some Drupal configurations are known to use <code>@import</code>. See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
 		</div>
 
 		<!-- Accessibility -->
