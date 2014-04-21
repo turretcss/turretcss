@@ -1,1 +1,1 @@
-<?php header('Location: /docs'); ?>
+<?php header('Location: /docs/general.php'); ?>
