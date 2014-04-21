@@ -1,18 +1,22 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="height:200px;">
+<div class="page-header">
 	<div class="container">
-		<div class="page-header-content column-1"><h1 class="page-title">utilities</h1></div>
+		<div class="page-header-content column-1">
+			<div class="page-header-content-inner">
+				<h1 class="page-title">Utilities</h1>
+				<p class="page-description">Utility classes and mixins for easy styling including clearfix, center block, floats, hide/show visiblity, and responsive utilities.</p>
+			</div>
+		</div>
 	</div>
 </div>
-
 
 <div id="utilities" class="content">
 <div class="container">
 <div class="row">
 
 <div class="column-1-4">
-	<div class="side-nav">
+	<div class="side-nav" data-affix>
 		<ul>
 			<li><a href="#clearfix">Clearfix</a></li>
 			<li><a href="#center-block">Center Block</a></li>
