@@ -1,18 +1,27 @@
 /* Scroll Top */
 
 .scroll-top {
+	z-index: @scroll_top_z_index;
 	margin: @scroll_top_margin;
 	padding: @scroll_top_padding;
 	position: absolute;
 	bottom: 0;
+	display: block;
 	width: @scroll_top_width;
-	font-size: @scroll_top_font_size;
-	font-weight: @scroll_top_font_weight;
-	color: @white;
+	height: @scroll_top_height;
 	text-align: center;
 	cursor: pointer;
-	background: @scroll_top_color;
-	text-transform: uppercase;
+	background: @scroll_top_background;
+	.border-radius(@scroll_top_border_radius);
+	
+	&:after {
+		color: @scroll_top_color;
+		content: @scroll_top_icon;
+		font-family: @icon_font_family;
+		font-size: @scroll_top_font_size;
+		font-weight: @scroll_top_font_weight;
+		line-height: @scroll_top_height - (@scroll_top_padding * 2);
+	}
 
 	&.fixed {
 		position: fixed;
@@ -40,17 +49,5 @@
 			border-left: @scroll_top_tooltip_size solid transparent;
 			content: ' ';
 		}
-	}
-
-	@media @medium {
-		padding: @scroll_top_medium_padding;
-		margin-left: -(@scroll_top_medium_width/2);
-		width: @scroll_top_medium_width;
-	}
-
-	@media @small {
-		padding: @scroll_top_small_padding;
-		margin-left: -(@scroll_top_small_width/2);
-		width: @scroll_top_small_width;
 	}
 }
