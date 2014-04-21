@@ -1,8 +1,13 @@
 <?php include('includes/head.php'); ?>
 
-<div class="page-header" style="height:200px;">
+<div class="page-header">
 	<div class="container">
-		<div class="page-header-content column-1"><h1 class="page-title">elements</h1></div>
+		<div class="page-header-content column-1">
+			<div class="page-header-content-inner">
+				<h1 class="page-title">Elements</h1>
+				<p class="page-description">Reusable CSS Elements including alerts, buttons, images, forms and inputs, tables and much more!</p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -11,7 +16,7 @@
 <div class="row">
 
 <div class="column-1-4">
-	<div class="side-nav">
+	<div class="side-nav" data-affix>
 		<ul>
 			<li><a href="#tags">Tags</a></li>
 			<li><a href="#alerts">Alerts</a></li>
@@ -19,7 +24,6 @@
 			<li><a href="#images">Images</a></li>
 			<li><a href="#figure">Figure</a></li>
 			<li><a href="#forms">Forms</a></li>
-			<li><a href="#search">Search</a></li>
 			<li><a href="#breadcrumbs">Breadcrumbs</a></li>
 			<li><a href="#video">Video</a></li>
 			<li><a href="#tables">Tables</a></li>
@@ -31,7 +35,7 @@
 
 <!-- Tags -->
 <div class="panel">
-	<h2 id="tags" class="section-title">Tags</h2>
+	<h2 id="tags" class="section-title">Tags <code>tags.less</code></h2>
 	<span class="tag">Tag</span>
 	<span class="tag active">Tag</span>
 	<div class="clearfix"></div>
@@ -41,7 +45,7 @@
 
 <!-- Alerts -->
 <div class="panel">
-<h2 id="alerts" class="section-title">Alerts</h2>
+<h2 id="alerts" class="section-title">Alerts <code>alerts.less</code></h2>
 <h3 class="section-sub-title">Default Styles</h3>
 <div class="alert alert-info">Alert Info</div>
 <div class="alert alert-warning">Alert Warning</div>
@@ -65,7 +69,7 @@
 
 <!-- Buttons -->
 <div class="panel">
-<h2 id="buttons" class="section-title">Buttons</h2>
+<h2 id="buttons" class="section-title">Buttons <code>buttons.less</code></h2>
 <h3 class="section-sub-title">Button Styles</h3>
 <button class="button">Button</button>
 <button class="button button-primary">Primary</button>
@@ -109,8 +113,9 @@
 
 <!-- Images -->
 <div class="panel">
-<h2 id="images" class="section-title">Images</h2>
+<h2 id="images" class="section-title">Images <code>images.less</code></h2>
 <h3 class="section-sub-title">Responsive Images</h3>
+<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
 <div class="row">
 	<div class="column-1"><img src="http://placehold.it/800x200" class="responsive" /></div>
 </div>
@@ -139,7 +144,7 @@
 
 <!-- Figure -->
 <div class="panel">
-<h2 id="images" class="section-title">Figure</h2>
+<h2 id="figure" class="section-title">Figure <code>figure.less</code></h2>
 <div class="row">
 	<div class="column-1-3 column-offset-1-3">
 		<figure>
@@ -157,7 +162,7 @@
 
 <!-- Forms -->
 <div class="panel">
-<h2 id="forms" class="section-title">Forms</h2>
+<h2 id="forms" class="section-title">Forms <code>forms.less</code></h2>
 <h3 class="section-sub-title">Form Inputs</h3>
 <form>
 	<div class="form-input-group">
@@ -367,7 +372,7 @@
 	<div class="input-group">
 		<input class="search form-input" type="text" placeholder="Enter Keyword...">
 		<span class="input-group-button">
-			<button class="button primary" type="submit">Submit</button>
+			<button class="button button-primary" type="submit">Submit</button>
 		</span>
 	</div>
 </form>
@@ -375,7 +380,7 @@
 <pre><code class="hljs html"><?php echo htmlentities('<div class="input-group">
 	<input class="search form-input" type="text" placeholder="Enter Keyword...">
 	<span class="input-group-button">
-		<button class="button primary" type="submit">Submit</button>
+		<button class="button button-primary" type="submit">Submit</button>
 	</span>
 </div>'); ?></code></pre>
 
@@ -384,7 +389,7 @@
 	<div class="input-group">
 		<input class="search form-input input-large" type="text" placeholder="Input Group Large">
 		<span class="input-group-button input-group-button-large">
-			<button class="button primary" type="submit">Submit</button>
+			<button class="button button-primary" type="submit">Submit</button>
 		</span>
 	</div>
 </form>
@@ -392,19 +397,16 @@
 <pre><code class="hljs html"><?php echo htmlentities('<div class="input-group">
 	<input class="search form-input input-large" type="text" placeholder="Enter Keyword...">
 	<span class="input-group-button input-group-button-large">
-		<button class="button primary" type="submit">Submit</button>
+		<button class="button button-primary" type="submit">Submit</button>
 	</span>
 </div>'); ?></code></pre>
-</div>
 
-<!-- Search -->
-<div class="panel">
-<h3 id="search" class="section-title">Search</h3>
+<h3 class="section-sub-title">Search</h3>
 <form role="form">
 	<div class="input-group">
 		<input class="search form-input" type="search" placeholder="Search">
 		<span class="input-group-button">
-			<button class="button primary" type="submit"><span class="icon-search"></span></button>
+			<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
 		</span>
 	</div>
 </form>
@@ -412,14 +414,14 @@
 <pre><code class="hljs html"><?php echo htmlentities('<div class="input-group">
 	<input class="search form-input" type="search" placeholder="Enter Keyword...">
 	<span class="input-group-button">
-		<button class="button primary" type="submit"><span class="icon-search"></span></button>
+		<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
 	</span>
 </div>'); ?></code></pre>
 </div>
 
 <!-- Breadcrumbs -->
 <div class="panel">
-<h2 id="breadcrumbs" class="section-title">Breadcrumbs</h2>
+<h2 id="breadcrumbs" class="section-title">Breadcrumbs <code>breadcrumbs.less</code></h2>
 <ul class="breadcrumbs">
 	<li><a href="#">Link</a></li>
 	<li><a href="#">Link</a></li>
@@ -435,7 +437,7 @@
 
 <!-- Video -->
 <div class="panel">
-<h2 id="video" class="section-title">Video</h2>
+<h2 id="video" class="section-title">Video <code>video.less</code></h2>
 <div class="row">
 	<div class="column-1">
 		<div class="video-wrapper frame" data-video-wrapper>
@@ -453,7 +455,7 @@
 
 <!-- Tables -->
 <div class="panel">
-<h2 id="tables" class="section-title">Tables</h2>
+<h2 id="tables" class="section-title">Tables <code>tables.less</code></h2>
 <h3 class="section-sub-title">Table Bordered</h2>
 <table class="table table-bordered">
 	<thead>
