@@ -203,7 +203,7 @@
 			}
 
 			//Trigger After Resize Event
-			$(this.element).trigger('afterResize.' + pluginName);
+			$(this.element).trigger('resize.' + pluginName);
 		}
 
 		//Swipe Events (credit: Eike Send)
