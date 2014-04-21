@@ -5,9 +5,12 @@
 	color: @color;
 	border: 1px solid @color;
 	background: fade(@color, 25%);
-
-	&:after {
-		color: @color;
+	
+	.alert-close {
+		
+		&:after {
+			color: @color;
+		}
 	}
 }
 
@@ -18,12 +21,6 @@
 	padding: @alerts_padding;
 	font-size: @alerts_font_size;
 	font-weight: @alerts_font_weight;
-
-	&:after {
-		float: right;
-		content: @alerts_close_icon;
-		font-family: @icon_font_family;
-	}
 
 	&.alert-info {
 		.alert-fade-style(@info);
@@ -40,14 +37,18 @@
 	&.alert-success {
 		.alert-fade-style(@success);
 	}
-
+	
+	//Alert Block Syles
 	&.alert-block {
 		&.alert-info {
 			color: @white;
 			background: @info;
 
-			&:after {
-				color: @white;
+			.alert-close {
+		
+				&:after {
+					color: @white;
+				}
 			}
 		}
 
@@ -55,8 +56,11 @@
 			color: @white;
 			background: @warning;
 
-			&:after {
-				color: @white;
+			.alert-close {
+		
+				&:after {
+					color: @white;
+				}
 			}
 		}
 
@@ -64,8 +68,11 @@
 			color: @white;
 			background: @error;
 
-			&:after {
-				color: @white;
+			.alert-close {
+		
+				&:after {
+					color: @white;
+				}
 			}
 		}
 
@@ -73,9 +80,25 @@
 			color: @white;
 			background: @success;
 
-			&:after {
-				color: @white;
+			.alert-close {
+		
+				&:after {
+					color: @white;
+				}
 			}
+		}
+	}
+	
+	//Alert Close Button
+	.alert-close {
+		float: right;
+		font-size: @alerts_font_size;
+		background: transparent;
+		border: none;
+		
+		&:after {
+			content: @alerts_close_icon;
+			font-family: @icon_font_family;
 		}
 	}
 }
