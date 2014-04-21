@@ -10,9 +10,11 @@
 (function() {
 
 	(function($, window, document) {
+	
+		'use strict';
 
 		var Plugin, defaults, pluginName;
-		pluginName = "scrolltop";
+		pluginName = 'scrolltop';
 
 		//Plugin Options
 		defaults = {
@@ -36,35 +38,30 @@
 
 		//Initialise
 		Plugin.prototype.init = function() {
-			var $element = $(this),
-			_this = this;
-			$element = $(this.options.element);
-			speed = this.options.speed;
-			easing = this.options.easing;
-			$body = $(this.options.body);
-
-			//Animate Scroll with Easing
-			function scrollAnimate() {
-				$body.stop().animate({scrollTop: 0}, speed, easing);
-			}
+			var _this = this;
+			var $element = $(this.element);
 
 			//Click Event
 			$element.on('click', function(e) {
 				e.preventDefault();
-				scrollAnimate();
+				_this.scrollAnimate();
 			});
 		};
 
-		//Animate Scroll
+		//Animate Scroll with Easing
 		Plugin.prototype.scrollAnimate = function() {
-			this.$body.stop().animate({scrollTop: 0}, speed, easing);
+			var $body = $(this.options.body);
+			var speed = this.options.speed;
+			var easing = this.options.easing;
+			
+			$body.stop().animate({scrollTop: 0}, speed, easing);
 		};
 
 		//Declare jQuery Plugin
 		return jQuery.prototype[pluginName] = function(options) {
 			return this.each(function() {
-				if (!$.data(this, "plugin_" + pluginName)) {
-					return $.data(this, "plugin_" + pluginName, new Plugin(this, options));
+				if (!$.data(this, 'plugin_' + pluginName)) {
+					return $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
 				}
 			});
 		};
