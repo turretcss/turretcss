@@ -7,6 +7,77 @@
 	min-height: @navbar_min_height;
 	font-style: @navbar_font_size;
 	overflow: hidden;
+	
+	&.dark {
+		background: @navbar_dark_background;
+
+		.logo {
+			color: @nav_dark_color;
+		}
+
+		.nav-toggle {
+
+			.icon-bar {
+				background: @white;
+			}
+
+		}
+
+		.nav {
+
+			li {
+
+				a {
+					color: @nav_dark_color;
+					&:hover,
+					&:focus {
+						color: @nav_dark_hover_color;
+					}
+				}
+			}
+		}
+
+	}
+	
+	&.transparent {
+		background: transparent;
+		.box-shadow(none);
+
+		.logo {
+			color: @nav_dark_color;
+		}
+
+		.nav-toggle {
+
+			.icon-bar {
+				background: @white;
+			}
+
+		}
+
+		.nav {
+
+			li {
+
+				a {
+					color: @nav_dark_color;
+					&:hover,
+					&:focus {
+						color: @nav_dark_hover_color;
+					}
+				}
+			}
+		}
+
+	}
+
+	&.fixed {
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 
 	.logo {
 
@@ -80,45 +151,6 @@
 				}
 			}
 		}
-	}
-
-	&.dark {
-		background: @navbar_dark_background;
-
-		.logo {
-			color: @nav_dark_color;
-		}
-
-		.nav-toggle {
-
-			.icon-bar {
-				background: @white;
-			}
-
-		}
-
-		.nav {
-
-			li {
-
-				a {
-					color: @nav_dark_color;
-					&:hover,
-					&:focus {
-						color: @nav_dark_hover_color;
-					}
-				}
-			}
-		}
-
-	}
-
-	&.fixed {
-		z-index: 9999;
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
 	}
 
 	@media @small {
