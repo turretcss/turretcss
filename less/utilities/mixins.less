@@ -65,6 +65,20 @@
 	margin-left: -(@width / 2);
 }
 
+//Font Face
+.font-face(@family: arial, @weight: normal, @style: normal) {
+	@font-face{
+		font-family: '@{family}';
+		src:url('/fonts/@{family}-webfont.eot');
+		src:url('/fonts/@{family}-webfont.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/@{family}-webfont.woff') format('woff'),
+			url('/fonts/@{family}-webfont.ttf') format('truetype'),
+			url('/fonts/@{family}-webfont.svg#icon') format('svg');
+		font-weight: @weight;
+		font-style: @style;
+	}
+}
+
 //Sizing
 .size(@width; @height) {
 	width: @width;

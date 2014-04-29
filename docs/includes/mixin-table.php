@@ -39,6 +39,10 @@
 	<td><code>.absolute-center(@width, @height);</code></td>
 </tr>
 <tr>
+	<td>Font Face</td>
+	<td><code>.font-face(@family, @weight, @style);</code></td>
+</tr>
+<tr>
 	<td>Size</td>
 	<td><code>.size(@width; @height);</code></td>
 </tr>
