@@ -20,6 +20,7 @@
 		<ul>
 			<li><a href="#clearfix">Clearfix</a></li>
 			<li><a href="#center-block">Center Block</a></li>
+			<li><a href="#display">Display</a></li>
 			<li><a href="#floats">Floats</a></li>
 			<li><a href="#hide-and-show">Hide and Show</a></li>
 			<li><a href="#responsive-utilities">Responsive Utilities</a></li>
@@ -70,6 +71,24 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}'); ?></code></pre>
+</div>
+
+<!-- Display -->
+<div class="panel">
+<h2 id="display" class="section-title">Display</h2>
+<p>Set any element to be <code>display: table;</code> or <code>display: table-cell;</code> using helper classes.</p>
+<h3 class="section-sub-title">Class</h3>
+<pre><code class="hljs html"><?php echo htmlentities('<div class="display-table">...</div>
+<div class="display-table-cell">...</div>'); ?></code></pre>
+<h3 class="section-sub-title">CSS</h3>
+<pre><code class="hljs css"><?php echo htmlentities('.display-table {
+	display: table;
+}
+
+.display-table-cell {
+	display: table-cell;
+	vertical-align: middle;
 }'); ?></code></pre>
 </div>
 
