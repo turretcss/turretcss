@@ -1,0 +1,50 @@
+/* Ripple */
+
+@-webkit-keyframes ripple {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+	}
+	40% {
+		box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+	}
+	100% {
+		box-shadow: 0 0 0 10px rgba(0,0,0,0.01);
+	}
+}
+
+@-moz-keyframes ripple {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+	}
+	40% {
+		box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+	}
+	100% {
+		box-shadow: 0 0 0 10px rgba(0,0,0,0.01);
+	}
+}
+
+@keyframes ripple {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+	}
+	40% {
+		box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+	}
+	100% {
+		box-shadow: 0 0 0 10px rgba(0,0,0,0.01);
+	}
+}
+
+.ripple {
+	.animation-name(ripple);
+}

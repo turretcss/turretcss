@@ -1,0 +1,117 @@
+/* Select */
+
+.select {
+	position: relative;
+	display: block;
+	color: @select_background;
+	
+	//Select
+	select {
+		display: block;
+		margin: 0;
+		padding: @select_padding;
+		width: 100%;
+		height: @select_height;
+		line-height: 1;
+		font-family: @select_font_family;
+		.font-size(@select_font_size);
+		color: @select_color;
+		background: @select_background;
+		border: @select_border;
+		cursor: pointer;
+		outline: 0;
+		.border-radius(@select_border_radius);
+		.appearance(none);
+		
+		&.large {
+			padding: @select_large_padding;
+		}
+		
+		//Undo the Firefox inner focus ring
+		&::-moz-focusring {
+			color: transparent;
+			text-shadow: 0 0 0 #000;
+		}
+		
+		//Hide the arrow in IE10 and up
+		&::-ms-expand {
+			display: none;
+		}
+	}
+	
+	//Inverse
+	&.inverse {
+		select {
+			color: @select_inverse_color;
+			border: @select_inverse_border;
+			background-color: @select_inverse_background;
+		}
+		
+		&:after {
+			color: @select_inverse_icon_color;
+		}
+	}
+	
+	//Dropdown Arrow
+	&:after {
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		line-height: 1;
+		margin-top: -(@select_icon_size / 2);
+		content: @select_icon;
+		font-family: @icon_font_family;
+		font-size: @select_icon_size;
+		color: @select_icon_color;
+	}
+}
+
+//IE9 hide the arrow
+@media @ie9-10 {
+
+	.select {
+	
+		select {
+			padding: 0.5em;
+		}
+	
+		&:after {
+			display: none;
+		}
+	}
+}
+
+//Firefox hack to hide the arrow
+@-moz-document url-prefix() {
+	
+	//Firefox hack to hide the arrow (FF < 30)
+	.select select {
+		text-indent: 0.01px;
+		text-overflow: '';
+		padding-right: 1rem;
+	}
+	
+	//Firefox hack to hide the arrow (FF => 30)
+	.select:before {
+		z-index: 2;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		content: '';
+		pointer-events: none;
+		width: 1em;
+		border: @select_border;
+		border-width: 1px 1px 1px 0px;
+		background: @select_background;
+		.border-radiuses (0, @select_border_radius, 0, @select_border_radius);
+	}
+	
+	.select.large:before {
+		width: 1.5em;
+	}
+	
+	.select.inverse:before {
+		background: @select_inverse_background;
+	}
+}

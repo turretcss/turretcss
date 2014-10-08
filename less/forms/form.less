@@ -1,0 +1,132 @@
+/* Form */
+
+form {
+
+	//Loading
+	&.loading {
+		position: relative;
+	
+		&:after {
+			z-index: 999;
+			content: '';
+			.cover();
+			background: @white url('/img/loading.gif') no-repeat center center;
+			background-size: 24px 24px;
+		}
+	}
+
+	//Reset height for `textarea`s
+	textarea {
+		height: auto;
+		line-height: @line_height;
+	}
+	
+	//Label
+	label {
+		display: block;
+		margin: @label_margin;
+		font-family: @label_font_family;
+		.font-size(@label_font_size);
+		color: @label_color;
+		line-height: @line_height;
+	}
+	
+	//Checkbox and Radio Buttons
+	input[type="checkbox"],
+	input[type="radio"] {
+		margin-right: 10px;
+		display: inline-block;
+
+		& + p {
+			margin: 0;
+			display: inline-block;
+		}
+
+		& + label {
+			display: inline-block;
+		}
+	}
+	
+	//Select
+	select {
+		display: block;
+		width: 100%;
+	}
+	
+	//Fieldset
+	fieldset {
+		margin: @fieldset_margin;
+		padding: @fieldset_padding;
+		border: @fieldset_border;
+
+		.all-select {
+			display: inline-block;
+
+			input[type="checkbox"] {
+				margin: 5px 0px;
+				margin-right: 2px;
+				display: inline-block;
+			}
+		}
+
+		legend {
+			display: inline-block;
+			.font-size(@label_font_size);
+
+			color: @primary;
+			.font-size(12px);
+		}
+
+		.checkbox {
+			input[type="checkbox"] {
+				margin: 5px 0px;
+				margin-right: 2px;
+				display: inline-block;
+			}
+
+			label {
+				display: inline-block;
+			}
+		}
+	}
+	
+	//Submit Button
+	button[type="submit"] {
+		
+		&.saving,
+		&.submitting {
+			color: @primary;
+			border: 2px solid @primary;
+			background: transparent;
+			
+			
+			&:after {
+				display: inline-block;
+				margin-left: 2px;
+				content: "\2026";
+			}
+			
+			&:hover,
+			&:focus {
+				background: transparent;
+			}
+		}
+	}
+	
+	//Error
+	.error {
+		position: relative;
+		
+		input.form-error {
+			border: 1px solid @error;
+		}
+	}
+	
+	.error-message {
+		display: block;
+		margin: @input_error_message_margin;
+		.font-size(@input_error_message_font_size);
+		color: @input_error_message_color;
+	}
+	
+}

@@ -1,0 +1,32 @@
+/* Orbit */
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform: rotate(0deg) translate(-25em) rotate(270deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg) translate(-25em) rotate(270deg);
+	}
+}
+
+@-moz-keyframes orbit {
+	from {
+		-moz-transform: rotate(0deg) translate(-25em) rotate(270deg);
+	}
+	to {
+		-moz-transform: rotate(360deg) translate(-25em) rotate(270deg);
+	}
+}
+
+@keyframes orbit {
+	from {
+		transform: rotate(0deg) translate(-25em) rotate(270deg);
+	}
+	to {
+		transform: rotate(360deg) translate(-25em) rotate(270deg);
+	}
+}
+
+.orbit {
+	.animation-name(orbit);
+}

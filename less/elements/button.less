@@ -1,0 +1,267 @@
+/* Buttons */
+
+.button {
+	display: inline-block;
+	padding: @buttons_padding_vertical @buttons_padding_horizontal;
+	height: @buttons_height;
+	font-family: @buttons_font_family;
+	.font-size(@buttons_font_size);
+	border: none;
+	line-height: @buttons_height - (@buttons_padding_vertical * 2);
+	color: @buttons_color;
+	text-align: @buttons_text_align;
+	text-transform: @buttons_text_transform;
+	background: @buttons_background;
+	white-space: nowrap;
+	.border-radius(@buttons_border_radius);
+	.transition(all @transition_fast ease-in-out);
+
+	&:before,
+	&:after {
+		color: @buttons_color;
+		.transition(all @transition_fast ease-in-out);
+	}
+	
+	.icon {
+		.font-size(@buttons_font_size);
+		vertical-align: middle;
+	}
+	
+	&:hover,
+	&:focus {
+		color: @buttons_hover_color;
+		background: @buttons_hover_background;
+		
+		&:after {
+			color: @buttons_hover_color;
+		}
+	}
+	
+	
+	/*
+	 * Button Sizes
+	 */
+
+	//Button Small
+	&.button-small {
+		padding: @buttons_small_padding_vertical @buttons_small_padding_horizontal;
+		height: @buttons_small_height;
+		.font-size(@buttons_small_font_size);
+	}
+
+	//Button Large
+	&.button-large {
+		padding: @buttons_large_padding_vertical @buttons_large_padding_horizontal;
+		height: @buttons_large_height;
+		.font-size(@buttons_large_font_size);
+	}
+	
+	//Button Extra Large
+	&.button-extra-large {
+		padding: @buttons_extra_large_padding_vertical @buttons_extra_large_padding_horizontal;
+		height: @buttons_extra_large_height;
+		.font-size(@buttons_extra_large_font_size);
+	}
+
+		
+	/*
+	 * Button Styles
+	 */
+
+
+	//Button Primary
+	&.button-inverse {
+		color: @buttons_inverse_color;
+		background: @buttons_inverse_background;
+		
+		&:after {
+			color: @buttons_inverse_color;
+		}
+		
+		&:hover,
+		&:focus {
+			color: @buttons_inverse_hover_color;
+			background: @buttons_inverse_hover_background;
+			
+			&:after {
+				color: @buttons_inverse_hover_color;
+			}
+		}
+	}
+	
+	//Text Button
+	&.button-text {
+		padding: @buttons_padding_vertical @buttons_text_padding_horizontal;
+		color: @buttons_text_color;
+		background: transparent !important;
+		
+		&:after {
+			color: @buttons_text_color;
+		}
+		
+		&:hover,
+		&:focus {
+			color: @buttons_text_hover_color;
+			
+			&:after {
+				color: @buttons_text_color;
+			}
+		}
+	}
+
+	//Button Primary
+	&.button-primary {
+		color: @buttons_primary_color;
+		background: @buttons_primary_background;
+		
+		&:after {
+			color: @buttons_primary_color;
+		}
+		
+		&:hover,
+		&:focus {
+			color: @buttons_primary_hover_color;
+			background: @buttons_primary_hover_background;
+			
+			&:after {
+				color: @buttons_primary_hover_color;
+			}
+		}
+	}
+	
+	//Button Border
+	&.button-border {
+		color: @buttons_border_color;
+		background: transparent;
+		border: @buttons_border;
+		
+		&:after {
+			color: @buttons_border_color;
+		}
+		
+		&:hover,
+		&:focus {
+			color: @buttons_border_hover_color;
+			border: @buttons_border_hover;
+			
+			&:after {
+				color: @buttons_border_hover_color;
+			}
+		}
+	}
+
+		
+	/*
+	 * Button Types
+	 */
+	 
+	&.button-action,
+	&.button-close,
+	&.button-play {
+		&:after {
+			position: absolute;
+			top: 50%;
+			font-family: @icon_font_family;
+			line-height: 1;
+			vertical-align: middle;
+		}
+	}
+
+	//Button Action
+	&.button-action {
+		position: relative;
+		padding-right: @buttons_action_padding_right;
+		text-align: left;
+		clear: both;
+
+		&:after {
+			right: @buttons_padding_horizontal - (@buttons_action_icon_size / 2);
+			margin-top: -(@buttons_action_icon_size / 2);
+			font-size: @buttons_action_icon_size;
+			content: @buttons_action_icon;
+		}
+	}
+
+	//Close Button
+	&.button-close {
+		position: relative;
+		padding-right: @buttons_close_size;
+		line-height: 1;
+		
+		&:after {
+			right: @buttons_padding_horizontal - (@buttons_close_icon_size / 2);
+			margin-top: -(@buttons_close_icon_size / 2);
+			font-size: @buttons_close_icon_size;
+			content: @buttons_close_icon;
+		}
+	}
+	
+	//Play Button
+	&.button-play {
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -(@buttons_play_size / 2);
+		margin-left: -(@buttons_play_size / 2);
+		.square(@buttons_play_size);
+		line-height: 1;
+		.border-radius(50%);
+		
+		&:after {
+			left: 50%;
+			margin-top: -(@buttons_play_icon_size / 2);
+			margin-left: -(@buttons_play_icon_size / 2);
+			font-size: @buttons_play_icon_size;
+			content: @buttons_play_icon;
+		}
+	}
+	
+	//File Button
+	&.button-file {
+		@buttons_file_icon_pixel_size: (@buttons_file_icon_size * 10);
+		@padding_right: (@buttons_file_icon_size * 2);
+		
+		position: relative;
+		padding-right: ~"@{padding_right}px";
+		text-align: left;
+		clear: both;
+
+		&:after {	
+			@margin_top: -(@buttons_file_icon_pixel_size) / 2;
+			
+			position: absolute;
+			top: 50%;
+			right: @buttons_padding_horizontal - (@buttons_file_icon_pixel_size / 2);
+			margin-top: ~"@{margin_top}px";
+			font-family: @icon_font_family;
+			.font-size(@buttons_file_icon_size);
+			content: @buttons_file_icon;
+			vertical-align: middle;
+		}
+	}
+	
+		
+	/*
+	 * Button Modifiers
+	 */
+	
+	//Button Block
+	&.button-block {
+		width: 100%;
+		text-align: @buttons_block_text_align;
+		display: block;
+	}
+
+	//Button Center
+	&.button-center {
+		margin: 0 auto;
+		display: inline-block;
+	}
+
+	//Button Disabled
+	&:disabled {
+		color: @button_disabled_color;
+		background: @button_disabled_background;
+	}
+}

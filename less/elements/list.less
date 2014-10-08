@@ -1,0 +1,23 @@
+.list {
+	margin: @list_margin;
+	padding: @list_padding;
+	list-style: none;
+
+	li {
+		position: relative;
+		margin: @list_item_margin;
+		font-family: @list_item_font_family;
+		font-weight: @list_item_font_weight;
+		color: @list_item_color;
+
+		&:before {
+			position: absolute;
+			top: @list_item_icon_top;
+			left: @list_item_icon_left;
+			font-family: @icon_font_family;
+			font-size: @list_item_icon_size;
+			content: @list_item_icon;
+			color: @list_item_icon_color;
+		}
+	}
+}

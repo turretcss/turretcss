@@ -1,0 +1,24 @@
+/* Panel */
+
+.panel {
+	margin: @panel_margin;
+	padding: @panel_padding;
+	background: @panel_background;
+	text-align: @panel_text_align;
+	.border-radius(@panel_border_radius);
+	
+	.panel-title {
+		margin: @panel_title_margin;
+		font-family: @panel_title_font_family;
+		.font-size(@panel_title_font_size);
+		color: @panel_title_color;
+		text-transform: @panel_text_transform;
+	}
+	
+	.panel-content {
+		margin: @panel_content_margin;
+		.font-size(@panel_content_font_size);
+		line-height: @panel_content_line_height;
+		color: @panel_content_color;
+	}
+}

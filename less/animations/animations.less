@@ -1,8 +1,20 @@
 /* Animations */
 
 .animated {
-	.animation-duration(1s);
-	.animation-timing-function(linear);
+	.animation-duration(@animation_medium);
+	.animation-timing-function(forward);
+	.animation-fill-mode(both);
+}
+
+.animated-fast {
+	.animation-duration(@animation_fast);
+	.animation-timing-function(forward);
+	.animation-fill-mode(both);
+}
+
+.animated-slow {
+	.animation-duration(@animation_slow);
+	.animation-timing-function(forward);
 	.animation-fill-mode(both);
 }
 
@@ -10,8 +22,19 @@
 	.animation-iteration-count(infinite);
 }
 
-@import 'bounce.less';
-@import 'indicator.less';
-@import 'spin.less';
-@import 'fade-in.less';
-@import 'fade-out.less';
+@import 'animations/bounce.less';
+@import 'animations/indicator.less';
+@import 'animations/spin.less';
+@import 'animations/clouds.less';
+@import 'animations/half-spin.less';
+@import 'animations/fade-in.less';
+@import 'animations/fade-in-down.less';
+@import 'animations/fade-in-up.less';
+@import 'animations/orbit.less';
+@import 'animations/fade-out.less';
+@import 'animations/line.less';
+@import 'animations/ripple.less';
+@import 'animations/grow.less';
+@import 'animations/pulse.less';
+@import 'animations/tea.less';
+@import 'animations/line-center-out.less';

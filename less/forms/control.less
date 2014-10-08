@@ -1,0 +1,80 @@
+/* Controls (Radio + Checkbox) */
+
+.control {
+	position: relative;
+	display: block;
+	padding-left: 2rem;
+	color: @control_color;
+	cursor: pointer;
+	
+	input {
+		position: absolute;
+		opacity: 0;
+		z-index: -1; /* Put the input behind the label so it doesn't overlay text */
+	}
+	
+	input:focus ~ .control-indicator {
+		
+	}
+	
+	//Focus
+	.control-indicator {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		.square(@control_indicator_size);
+		line-height: 1rem;
+		color: @control_indicator_color;
+		text-align: center;
+		background: @control_indicator_background;
+		background-size: 50% 50%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border: @control_indicator_border;
+		.user-select(none);
+	}
+	
+	.control-label {
+		margin: @control_label_margin;
+		font-family: @control_label_font_family;
+		.font-size(@control_label_font_size);
+		color: @control_label_color;
+		line-height: 1;
+	}
+	
+	//Checked
+	input:checked ~ .control-indicator {
+		color: @control_indicator_checked_color;
+		background: @control_indicator_checked_background;
+		
+		&:before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -(@control_indicator_icon_size / 2);
+			margin-left: -(@control_indicator_icon_size / 2);
+			font-family: @icon_font_family;
+			font-size: @control_indicator_icon_size;
+		}
+	}
+	
+	//Checkbox
+	&.checkbox .control-indicator {
+		.border-radius(@checkbox_border_radius);
+		
+	}
+	
+	&.checkbox input:checked ~ .control-indicator:before {
+		content: @checkbox_icon;
+	}
+	
+	//Radio
+	&.radio .control-indicator {
+		.border-radius(@radio_border_radius);
+	}
+	
+	&.radio input:checked ~ .control-indicator:before {
+		content: @radio_icon;
+	}
+}

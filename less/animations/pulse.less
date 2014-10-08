@@ -1,0 +1,45 @@
+/* Pulse */
+
+@pulse_color: #FFDF4F;
+@pulse_color_start: fadeout(@pulse_color, 75%);
+@pulse_color_end: fadeout(@pulse_color, 90%);
+
+@-webkit-keyframes pulse {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 4px @pulse_color_start;
+	}
+	100% {
+		box-shadow: 0 0 0 25px @pulse_color_end;
+	}
+}
+
+@-moz-keyframes pulse {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 4px @pulse_color_start;
+	}
+	100% {
+		box-shadow: 0 0 0 25px @pulse_color_end;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: none;
+	}
+	10% {
+		box-shadow: 0 0 0 4px @pulse_color_start;
+	}
+	100% {
+		box-shadow: 0 0 0 25px @pulse_color_end;
+	}
+}
+
+.pulse {
+	.animation-name(pulse);
+}

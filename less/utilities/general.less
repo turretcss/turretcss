@@ -1,0 +1,106 @@
+/* Browser Styles */
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	.border-box-sizing();
+}
+
+//Removes Dotted Border
+:focus {
+	outline: 0;
+}
+
+abbr {
+	cursor: help;
+}
+
+//Remove Border Radius from Mobile Safari
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea {
+	.appearance(none);
+	.border-radius(0);
+}
+
+//Remove Webkit Glow
+textarea, input {
+	outline: none;
+}
+
+/* General Styles */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+html {
+	font-size: @base_font_size;
+	
+	@media @medium {
+		font-size: @base_medium_font_size;
+	}
+	
+	@media @small {
+		font-size: @base_small_font_size;
+	}
+}
+
+body {
+	color: @body_color;
+	font-family: @copy_font_family;
+	
+	&.navigation-fixed {
+		padding-top: @navigation_height;
+		
+		@media @navigation_mobile_breakpoint {
+			padding-top: @navigation_mobile_height;
+		}
+	}
+}
+
+a {
+	text-decoration: none;
+	color: @link_color;
+	.transition(color @transition_fast ease-in-out);
+	
+	&:hover,
+	&:focus {
+		color: @link_hover_color;
+	}
+}
+
+hr {
+	clear: both;
+	margin: @hr_margin;
+	border: 0;
+	height: @hr_height;
+	background: @hr_background;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+dl {
+
+	dt,
+	dd {
+
+	}
+}

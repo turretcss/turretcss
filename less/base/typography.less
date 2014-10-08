@@ -1,0 +1,111 @@
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: @headings_margin;
+	padding: 0;
+	font-family: @headings_font_family;
+	font-weight: @headings_font_weight;
+	color: @headings_color;
+	line-height: @headings_line_height;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	color: @headings_small_color;
+	font-size: @headings_small_size;
+}
+
+h1 {
+	.font-size(@h1_font_size);
+}
+
+h2 {
+	.font-size(@h2_font_size);
+}
+
+h3 {
+	.font-size(@h3_font_size);
+}
+
+h4 {
+	.font-size(@h4_font_size);
+}
+
+h5 {
+	.font-size(@h5_font_size);
+}
+
+h6 {
+	.font-size(@h6_font_size);
+}
+
+p {
+	font-family: @copy_font_family;
+	.font-size(@paragraph_font_size);
+	color: @paragraph_color;
+	line-height: @line_height;
+	
+	&.lead {
+		margin-top: 0;
+	}
+}
+
+@media @mobile {
+	h1 {
+		.font-size(@h1_mobile_font_size);
+	}
+	
+	h2 {
+		.font-size(@h2_mobile_font_size);
+	}
+	
+	h3 {
+		.font-size(@h3_mobile_font_size);
+	}
+	
+	h4 {
+		.font-size(@h4_mobile_font_size);
+	}
+	
+	h5 {
+		.font-size(@h5_mobile_font_size);
+	}
+	
+	h6 {
+		.font-size(@h6_mobile_font_size);
+	}
+	
+	p {
+		.font-size(@paragraph_mobile_font_size);
+		
+		&.lead {
+			.font-size(@lead_mobile_font_size);
+		}
+	}
+}
+
+ul li,
+ol, li {
+	.font-size(@paragraph_font_size);
+	color: @paragraph_color;
+	line-height: @line_height;
+}
+
+.lead {
+	margin-top: 0;
+	font-family: @lead_font_family;
+	.font-size(@lead_font_size);
+	color: @lead_color;
+}
+
+blockquote {
+
+}
+
+pre {
+
+}
+
+strong {
+	font-family: @strong_font_family;
+	font-weight: @strong_font_weight;
+}
