@@ -4,13 +4,13 @@ table {
 	&.table {
 		border-collapse: collapse;
 		overflow: hidden;
-		background: @tables_background;
-		.border-radius(@tables_border_radius);
+		background: @tables-background;
+		.border-radius(@tables-border-radius);
 		
 		caption {
-			margin: @tables_caption_margin;
-			.font-size(@tables_caption_font_size);
-			text-align: @tables_caption_text_align;
+			margin: @tables-caption-margin;
+			.font-size(@tables-caption-font-size);
+			text-align: @tables-caption-text-align;
 		}
 		
 		//Table Head
@@ -19,13 +19,13 @@ table {
 			tr {
 
 				th {
-					padding: @tables_head_padding;
-					font-family: @tables_head_font_family;
-					font-weight: @tables_head_font_weight;
-					.font-size(@tables_head_font_size);
-					color: @tables_head_color;
-					text-align: @tables_head_text_align;
-					text-transform: @tables_head_text_transform;
+					padding: @tables-head-padding;
+					font-family: @tables-head-font-family;
+					font-weight: @tables-head-font-weight;
+					.font-size(@tables-head-font-size);
+					color: @tables-head-color;
+					text-align: @tables-head-text-align;
+					text-transform: @tables-head-text-transform;
 				}
 			}
 		}
@@ -36,10 +36,10 @@ table {
 			tr {
 
 				td {
-					padding: @tables_cell_padding;
+					padding: @tables-cell-padding;
 					color: @grey;
-					.font-size(@tables_body_font_size);
-					line-height: @tables_body_line_height;
+					.font-size(@tables-body-font-size);
+					line-height: @tables-body-line-height;
 					vertical-align: text-middle;
 
 					@media @large {
@@ -50,13 +50,13 @@ table {
 		}
 
 		&.table-bordered {
-			border: @tables_border;
-			border-width: @tables_border_width;
+			border: @tables-border;
+			border-width: @tables-border-width;
 
 			td {
-				padding: @tables_cell_padding;
-				border: @tables_border;
-				border-width: @tables_border_width;
+				padding: @tables-cell-padding;
+				border: @tables-border;
+				border-width: @tables-border-width;
 			}
 		}
 
@@ -71,11 +71,11 @@ table {
 
 					> td,
 					> th {
-						.transition(all @transition_fast ease-in-out);
+						.transition(all @transition-fast ease-in-out);
 						
 						.icon {
 							//.translate3d(0,0,0);
-							//.transition-transform(all @transition_fast ease-in-out);
+							//.transition-transform(all @transition-fast ease-in-out);
 						}
 					}
 
@@ -110,14 +110,14 @@ table {
 
 				tr {
 					margin-bottom: @gutter;
-					border: @table_responsive_border;
-					border-width: @table_responsive_border_width;
+					border: @table-responsive-border;
+					border-width: @table-responsive-border-width;
 				}
 
 				td {
 					//Behave  like a "row"
 					border: none;
-					padding: @table_responsive_padding;
+					padding: @table-responsive-padding;
 					position: relative;
 
 					//Display Title

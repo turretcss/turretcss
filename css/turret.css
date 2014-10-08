@@ -8,23 +8,32 @@ Version: 2.0
 /*                               GENERAL                                    */
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
-/*                             TYPOGRAPHY                                   */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
 /*                                COLORS                                    */
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
-/*                                LAYOUT                                    */
+/*                                 GRID                                     */
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
 /*                             MEDIA QUERIES                                */
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
-/*                               ELEMENTS                                   */
+/*                             TYPOGRAPHY                                   */
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*                                 ICONS                                    */
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*                                FORMS                                     */
 /*--------------------------------------------------------------------------*/
 /*
- * Alerts
+ * Control
  */
+/*
+ * Select
+ */
+/*--------------------------------------------------------------------------*/
+/*                               ELEMENTS                                   */
+/*--------------------------------------------------------------------------*/
 /*
  * Blockquote
  */
@@ -35,13 +44,7 @@ Version: 2.0
  * Buttons
  */
 /*
- * Control
- */
-/*
  * Figure
- */
-/*
- * Forms
  */
 /*
  * Image
@@ -56,26 +59,11 @@ Version: 2.0
  * Panel
  */
 /*
- * Select
- */
-/*
  * Tables
- */
-/*
- * Tools
  */
 /*
  * Video
  */
-/*--------------------------------------------------------------------------*/
-/*                              COMPONENTS                                  */
-/*--------------------------------------------------------------------------*/
-/*
- * Slides
- */
-/*--------------------------------------------------------------------------*/
-/*                                 ICONS                                    */
-/*--------------------------------------------------------------------------*/
 /* Animations */
 .animated {
   -webkit-animation-duration: 1s;
@@ -891,8 +879,8 @@ html {
   }
 }
 body {
-  color: #414c57;
-  font-family: 'VAGRoundedLT-Light';
+  color: #485364;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body.navigation-fixed {
   padding-top: 110px;
@@ -913,7 +901,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #414c57;
+  color: #485364;
 }
 hr {
   clear: both;
@@ -1077,7 +1065,7 @@ ul {
   background: #3bc0c3 !important;
 }
 .background-dark {
-  background: #414c57 !important;
+  background: #485364 !important;
 }
 .background-light {
   background: #b2c6c9 !important;
@@ -1101,10 +1089,10 @@ ul {
   border-bottom: 1px solid #3bc0c3;
 }
 .border-top-dark {
-  border-top: 1px solid #414c57;
+  border-top: 1px solid #485364;
 }
 .border-bottom-dark {
-  border-bottom: 1px solid #414c57;
+  border-bottom: 1px solid #485364;
 }
 .border-top-light {
   border-top: 1px solid #b2c6c9;
@@ -1122,7 +1110,7 @@ ul {
   color: #3bc0c3 !important;
 }
 .dark {
-  color: #414c57 !important;
+  color: #485364 !important;
 }
 .light {
   color: #b2c6c9 !important;
@@ -1586,58 +1574,6 @@ ul {
 /*
  * Filters
  */
-/**
- * @license
- * MyFonts Webfont Build ID 2892169, 2014-09-29T19:12:33-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: VAGRoundedLT-Thin by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/vag-rounded/thin/
- * 
- * Webfont: VAGRoundedLT-Black by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/vag-rounded/black/
- * 
- * Webfont: VAGRoundedLT-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/vag-rounded/bold/
- * 
- * Webfont: VAGRoundedLT-Light by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/vag-rounded/light/
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2892169
- * Licensed pageviews: 250,000
- * Webfonts copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1989, 1995, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype Library GmbH, and 
- * 
- * © 2014 MyFonts Inc
-*/
-/* Fonts */
-/* @import must be at top of file, otherwise CSS will not work */
-@font-face {
-  font-family: 'VAGRoundedLT-Thin';
-  src: url('../fonts/webfonts/2C2189_0_0.eot');
-  src: url('../fonts/webfonts/2C2189_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2C2189_0_0.woff') format('woff'), url('../fonts/webfonts/2C2189_0_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'VAGRoundedLT-Light';
-  src: url('../fonts/webfonts/2C2189_3_0.eot');
-  src: url('../fonts/webfonts/2C2189_3_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2C2189_3_0.woff') format('woff'), url('../fonts/webfonts/2C2189_3_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'VAGRoundedLT-Bold';
-  src: url('../fonts/webfonts/2C2189_2_0.eot');
-  src: url('../fonts/webfonts/2C2189_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2C2189_2_0.woff') format('woff'), url('../fonts/webfonts/2C2189_2_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'VAGRoundedLT-Black';
-  src: url('../fonts/webfonts/2C2189_1_0.eot');
-  src: url('../fonts/webfonts/2C2189_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2C2189_1_0.woff') format('woff'), url('../fonts/webfonts/2C2189_1_0.ttf') format('truetype');
-}
-/* Icons */
 .icon-ul {
   padding-left: 0;
   margin-left: 2.142857142857143em;
@@ -1654,31 +1590,11 @@ ul {
   text-align: center;
 }
 .icon-spin {
-  -webkit-animation-name: spin;
-  -moz-animation-name: spin;
-  -ms-animation-name: spin;
-  -o-animation-name: spin;
-  animation-name: spin;
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  -ms-animation-duration: 1s;
-  -o-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  -ms-animation-timing-function: linear;
-  -o-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -ms-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  -moz-animation-direction: alternate;
-  -ms-animation-direction: alternate;
-  -o-animation-direction: alternate;
-  animation-direction: alternate;
+  -webkit-animation-name: spin 1s linear infinite;
+  -moz-animation-name: spin 1s linear infinite;
+  -ms-animation-name: spin 1s linear infinite;
+  -o-animation-name: spin 1s linear infinite;
+  animation-name: spin 1s linear infinite;
 }
 /* Icon Font */
 @font-face {
@@ -1973,9 +1889,9 @@ h5,
 h6 {
   margin: 0px 0px 20px 0px;
   padding: 0;
-  font-family: 'VAGRoundedLT-Black';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.1;
 }
 h1 small,
@@ -2012,10 +1928,10 @@ h6 {
   font-size: 1.2rem;
 }
 p {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-size: 1.5rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
 }
 p.lead {
@@ -2060,18 +1976,18 @@ ol,
 li {
   font-size: 15px;
   font-size: 1.5rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
 }
 .lead {
   margin-top: 0;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-size: 2.3rem;
-  color: #809da5;
+  color: #6b7681;
 }
 strong {
-  font-family: 'VAGRoundedLT-Black';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 /*
@@ -6308,10 +6224,10 @@ form textarea {
 form label {
   display: block;
   margin: 0;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-size: 1.5rem;
-  color: #414c57;
+  color: #485364;
   line-height: 1.5;
 }
 form input[type="checkbox"],
@@ -6335,7 +6251,7 @@ form select {
 form fieldset {
   margin: 0;
   padding: 20px;
-  border: 3px solid #809da5;
+  border: 3px solid #6b7681;
 }
 form fieldset .all-select {
   display: inline-block;
@@ -6383,21 +6299,21 @@ form .error {
   position: relative;
 }
 form .error input.form-error {
-  border: 1px solid #ff0000;
+  border: 1px solid #f05a5c;
 }
 form .error-message {
   display: block;
   margin: 10px 0px 0px;
   font-size: 13px;
   font-size: 1.3rem;
-  color: #ff0000;
+  color: #f05a5c;
 }
 /* Controls (Radio + Checkbox) */
 .control {
   position: relative;
   display: block;
   padding-left: 2rem;
-  color: #809da5;
+  color: #6b7681;
   cursor: pointer;
 }
 .control input {
@@ -6428,10 +6344,10 @@ form .error-message {
 }
 .control .control-label {
   margin: 0px 0px 0px 20px;
-  font-family: 'VAGRoundedLT-Black';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-size: 1.5rem;
-  color: #414c57;
+  color: #485364;
   line-height: 1;
 }
 .control input:checked ~ .control-indicator {
@@ -6485,7 +6401,7 @@ form .error-message {
 }
 .input-group.input-group-search .button:not(.button-inverse) {
   padding-right: 20px;
-  color: #809da5;
+  color: #6b7681;
   background: #ffffff;
 }
 .input-group input[type="text"],
@@ -6599,10 +6515,10 @@ textarea,
   width: 100%;
   height: 40px;
   padding: 8px 12px;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   border: none;
   background-color: #ffffff;
@@ -6626,10 +6542,10 @@ input[type="password"]:-moz-placeholder,
 input[type="number"]:-moz-placeholder,
 textarea:-moz-placeholder,
 .form-input:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6646,7 +6562,7 @@ input[type="password"]:focus:-moz-placeholder,
 input[type="number"]:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder,
 .form-input:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"]::-moz-placeholder,
 input[type="search"]::-moz-placeholder,
@@ -6655,10 +6571,10 @@ input[type="password"]::-moz-placeholder,
 input[type="number"]::-moz-placeholder,
 textarea::-moz-placeholder,
 .form-input::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6675,7 +6591,7 @@ input[type="password"]:focus::-moz-placeholder,
 input[type="number"]:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder,
 .form-input:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"]:-ms-input-placeholder,
 input[type="search"]:-ms-input-placeholder,
@@ -6684,10 +6600,10 @@ input[type="password"]:-ms-input-placeholder,
 input[type="number"]:-ms-input-placeholder,
 textarea:-ms-input-placeholder,
 .form-input:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6704,7 +6620,7 @@ input[type="password"]:focus:-ms-input-placeholder,
 input[type="number"]:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder,
 .form-input:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"]::-webkit-input-placeholder,
 input[type="search"]::-webkit-input-placeholder,
@@ -6713,10 +6629,10 @@ input[type="password"]::-webkit-input-placeholder,
 input[type="number"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder,
 .form-input::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6733,7 +6649,7 @@ input[type="password"]:focus::-webkit-input-placeholder,
 input[type="number"]:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder,
 .form-input:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"]:disabled,
 input[type="search"]:disabled,
@@ -6742,7 +6658,7 @@ input[type="password"]:disabled,
 input[type="number"]:disabled,
 textarea:disabled,
 .form-input:disabled {
-  background: #ededed;
+  background: #e1e3e8;
 }
 input[type="text"]:focus,
 input[type="search"]:focus,
@@ -6763,7 +6679,7 @@ textarea:focus.inverse,
 .form-input:focus.inverse {
   color: #ffffff;
   border: none;
-  background: #809da5;
+  background: #6b7681;
 }
 input[type="text"] .form-error,
 input[type="search"] .form-error,
@@ -6772,8 +6688,8 @@ input[type="password"] .form-error,
 input[type="number"] .form-error,
 textarea .form-error,
 .form-input .form-error {
-  color: #809da5;
-  border-color: #ff0000;
+  color: #6b7681;
+  border-color: #f05a5c;
 }
 input[type="text"].input-small,
 input[type="search"].input-small,
@@ -6794,10 +6710,10 @@ input[type="password"].input-small:-moz-placeholder,
 input[type="number"].input-small:-moz-placeholder,
 textarea.input-small:-moz-placeholder,
 .form-input.input-small:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6814,7 +6730,7 @@ input[type="password"].input-small:focus:-moz-placeholder,
 input[type="number"].input-small:focus:-moz-placeholder,
 textarea.input-small:focus:-moz-placeholder,
 .form-input.input-small:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-small::-moz-placeholder,
 input[type="search"].input-small::-moz-placeholder,
@@ -6823,10 +6739,10 @@ input[type="password"].input-small::-moz-placeholder,
 input[type="number"].input-small::-moz-placeholder,
 textarea.input-small::-moz-placeholder,
 .form-input.input-small::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6843,7 +6759,7 @@ input[type="password"].input-small:focus::-moz-placeholder,
 input[type="number"].input-small:focus::-moz-placeholder,
 textarea.input-small:focus::-moz-placeholder,
 .form-input.input-small:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-small:-ms-input-placeholder,
 input[type="search"].input-small:-ms-input-placeholder,
@@ -6852,10 +6768,10 @@ input[type="password"].input-small:-ms-input-placeholder,
 input[type="number"].input-small:-ms-input-placeholder,
 textarea.input-small:-ms-input-placeholder,
 .form-input.input-small:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6872,7 +6788,7 @@ input[type="password"].input-small:focus:-ms-input-placeholder,
 input[type="number"].input-small:focus:-ms-input-placeholder,
 textarea.input-small:focus:-ms-input-placeholder,
 .form-input.input-small:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-small::-webkit-input-placeholder,
 input[type="search"].input-small::-webkit-input-placeholder,
@@ -6881,10 +6797,10 @@ input[type="password"].input-small::-webkit-input-placeholder,
 input[type="number"].input-small::-webkit-input-placeholder,
 textarea.input-small::-webkit-input-placeholder,
 .form-input.input-small::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6901,7 +6817,7 @@ input[type="password"].input-small:focus::-webkit-input-placeholder,
 input[type="number"].input-small:focus::-webkit-input-placeholder,
 textarea.input-small:focus::-webkit-input-placeholder,
 .form-input.input-small:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium,
 input[type="search"].input-medium,
@@ -6922,10 +6838,10 @@ input[type="password"].input-medium:-moz-placeholder,
 input[type="number"].input-medium:-moz-placeholder,
 textarea.input-medium:-moz-placeholder,
 .form-input.input-medium:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6942,7 +6858,7 @@ input[type="password"].input-medium:focus:-moz-placeholder,
 input[type="number"].input-medium:focus:-moz-placeholder,
 textarea.input-medium:focus:-moz-placeholder,
 .form-input.input-medium:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium::-moz-placeholder,
 input[type="search"].input-medium::-moz-placeholder,
@@ -6951,10 +6867,10 @@ input[type="password"].input-medium::-moz-placeholder,
 input[type="number"].input-medium::-moz-placeholder,
 textarea.input-medium::-moz-placeholder,
 .form-input.input-medium::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -6971,7 +6887,7 @@ input[type="password"].input-medium:focus::-moz-placeholder,
 input[type="number"].input-medium:focus::-moz-placeholder,
 textarea.input-medium:focus::-moz-placeholder,
 .form-input.input-medium:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium:-ms-input-placeholder,
 input[type="search"].input-medium:-ms-input-placeholder,
@@ -6980,10 +6896,10 @@ input[type="password"].input-medium:-ms-input-placeholder,
 input[type="number"].input-medium:-ms-input-placeholder,
 textarea.input-medium:-ms-input-placeholder,
 .form-input.input-medium:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -7000,7 +6916,7 @@ input[type="password"].input-medium:focus:-ms-input-placeholder,
 input[type="number"].input-medium:focus:-ms-input-placeholder,
 textarea.input-medium:focus:-ms-input-placeholder,
 .form-input.input-medium:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium::-webkit-input-placeholder,
 input[type="search"].input-medium::-webkit-input-placeholder,
@@ -7009,10 +6925,10 @@ input[type="password"].input-medium::-webkit-input-placeholder,
 input[type="number"].input-medium::-webkit-input-placeholder,
 textarea.input-medium::-webkit-input-placeholder,
 .form-input.input-medium::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
@@ -7029,7 +6945,7 @@ input[type="password"].input-medium:focus::-webkit-input-placeholder,
 input[type="number"].input-medium:focus::-webkit-input-placeholder,
 textarea.input-medium:focus::-webkit-input-placeholder,
 .form-input.input-medium:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium.inverse:-moz-placeholder,
 input[type="search"].input-medium.inverse:-moz-placeholder,
@@ -7038,7 +6954,7 @@ input[type="password"].input-medium.inverse:-moz-placeholder,
 input[type="number"].input-medium.inverse:-moz-placeholder,
 textarea.input-medium.inverse:-moz-placeholder,
 .form-input.input-medium.inverse:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7067,7 +6983,7 @@ input[type="password"].input-medium.inverse::-moz-placeholder,
 input[type="number"].input-medium.inverse::-moz-placeholder,
 textarea.input-medium.inverse::-moz-placeholder,
 .form-input.input-medium.inverse::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7096,7 +7012,7 @@ input[type="password"].input-medium.inverse:-ms-input-placeholder,
 input[type="number"].input-medium.inverse:-ms-input-placeholder,
 textarea.input-medium.inverse:-ms-input-placeholder,
 .form-input.input-medium.inverse:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7125,7 +7041,7 @@ input[type="password"].input-medium.inverse::-webkit-input-placeholder,
 input[type="number"].input-medium.inverse::-webkit-input-placeholder,
 textarea.input-medium.inverse::-webkit-input-placeholder,
 .form-input.input-medium.inverse::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7154,10 +7070,10 @@ input[type="password"].input-medium.input-date:-moz-placeholder,
 input[type="number"].input-medium.input-date:-moz-placeholder,
 textarea.input-medium.input-date:-moz-placeholder,
 .form-input.input-medium.input-date:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7174,7 +7090,7 @@ input[type="password"].input-medium.input-date:focus:-moz-placeholder,
 input[type="number"].input-medium.input-date:focus:-moz-placeholder,
 textarea.input-medium.input-date:focus:-moz-placeholder,
 .form-input.input-medium.input-date:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium.input-date::-moz-placeholder,
 input[type="search"].input-medium.input-date::-moz-placeholder,
@@ -7183,10 +7099,10 @@ input[type="password"].input-medium.input-date::-moz-placeholder,
 input[type="number"].input-medium.input-date::-moz-placeholder,
 textarea.input-medium.input-date::-moz-placeholder,
 .form-input.input-medium.input-date::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7203,7 +7119,7 @@ input[type="password"].input-medium.input-date:focus::-moz-placeholder,
 input[type="number"].input-medium.input-date:focus::-moz-placeholder,
 textarea.input-medium.input-date:focus::-moz-placeholder,
 .form-input.input-medium.input-date:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium.input-date:-ms-input-placeholder,
 input[type="search"].input-medium.input-date:-ms-input-placeholder,
@@ -7212,10 +7128,10 @@ input[type="password"].input-medium.input-date:-ms-input-placeholder,
 input[type="number"].input-medium.input-date:-ms-input-placeholder,
 textarea.input-medium.input-date:-ms-input-placeholder,
 .form-input.input-medium.input-date:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7232,7 +7148,7 @@ input[type="password"].input-medium.input-date:focus:-ms-input-placeholder,
 input[type="number"].input-medium.input-date:focus:-ms-input-placeholder,
 textarea.input-medium.input-date:focus:-ms-input-placeholder,
 .form-input.input-medium.input-date:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-medium.input-date::-webkit-input-placeholder,
 input[type="search"].input-medium.input-date::-webkit-input-placeholder,
@@ -7241,10 +7157,10 @@ input[type="password"].input-medium.input-date::-webkit-input-placeholder,
 input[type="number"].input-medium.input-date::-webkit-input-placeholder,
 textarea.input-medium.input-date::-webkit-input-placeholder,
 .form-input.input-medium.input-date::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7261,7 +7177,7 @@ input[type="password"].input-medium.input-date:focus::-webkit-input-placeholder,
 input[type="number"].input-medium.input-date:focus::-webkit-input-placeholder,
 textarea.input-medium.input-date:focus::-webkit-input-placeholder,
 .form-input.input-medium.input-date:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large,
 input[type="search"].input-large,
@@ -7283,10 +7199,10 @@ input[type="password"].input-large:-moz-placeholder,
 input[type="number"].input-large:-moz-placeholder,
 textarea.input-large:-moz-placeholder,
 .form-input.input-large:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7303,7 +7219,7 @@ input[type="password"].input-large:focus:-moz-placeholder,
 input[type="number"].input-large:focus:-moz-placeholder,
 textarea.input-large:focus:-moz-placeholder,
 .form-input.input-large:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large::-moz-placeholder,
 input[type="search"].input-large::-moz-placeholder,
@@ -7312,10 +7228,10 @@ input[type="password"].input-large::-moz-placeholder,
 input[type="number"].input-large::-moz-placeholder,
 textarea.input-large::-moz-placeholder,
 .form-input.input-large::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7332,7 +7248,7 @@ input[type="password"].input-large:focus::-moz-placeholder,
 input[type="number"].input-large:focus::-moz-placeholder,
 textarea.input-large:focus::-moz-placeholder,
 .form-input.input-large:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large:-ms-input-placeholder,
 input[type="search"].input-large:-ms-input-placeholder,
@@ -7341,10 +7257,10 @@ input[type="password"].input-large:-ms-input-placeholder,
 input[type="number"].input-large:-ms-input-placeholder,
 textarea.input-large:-ms-input-placeholder,
 .form-input.input-large:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7361,7 +7277,7 @@ input[type="password"].input-large:focus:-ms-input-placeholder,
 input[type="number"].input-large:focus:-ms-input-placeholder,
 textarea.input-large:focus:-ms-input-placeholder,
 .form-input.input-large:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large::-webkit-input-placeholder,
 input[type="search"].input-large::-webkit-input-placeholder,
@@ -7370,10 +7286,10 @@ input[type="password"].input-large::-webkit-input-placeholder,
 input[type="number"].input-large::-webkit-input-placeholder,
 textarea.input-large::-webkit-input-placeholder,
 .form-input.input-large::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7390,7 +7306,7 @@ input[type="password"].input-large:focus::-webkit-input-placeholder,
 input[type="number"].input-large:focus::-webkit-input-placeholder,
 textarea.input-large:focus::-webkit-input-placeholder,
 .form-input.input-large:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large.inverse:-moz-placeholder,
 input[type="search"].input-large.inverse:-moz-placeholder,
@@ -7399,7 +7315,7 @@ input[type="password"].input-large.inverse:-moz-placeholder,
 input[type="number"].input-large.inverse:-moz-placeholder,
 textarea.input-large.inverse:-moz-placeholder,
 .form-input.input-large.inverse:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7428,7 +7344,7 @@ input[type="password"].input-large.inverse::-moz-placeholder,
 input[type="number"].input-large.inverse::-moz-placeholder,
 textarea.input-large.inverse::-moz-placeholder,
 .form-input.input-large.inverse::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7457,7 +7373,7 @@ input[type="password"].input-large.inverse:-ms-input-placeholder,
 input[type="number"].input-large.inverse:-ms-input-placeholder,
 textarea.input-large.inverse:-ms-input-placeholder,
 .form-input.input-large.inverse:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7486,7 +7402,7 @@ input[type="password"].input-large.inverse::-webkit-input-placeholder,
 input[type="number"].input-large.inverse::-webkit-input-placeholder,
 textarea.input-large.inverse::-webkit-input-placeholder,
 .form-input.input-large.inverse::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -7515,10 +7431,10 @@ input[type="password"].input-large.input-date:-moz-placeholder,
 input[type="number"].input-large.input-date:-moz-placeholder,
 textarea.input-large.input-date:-moz-placeholder,
 .form-input.input-large.input-date:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7535,7 +7451,7 @@ input[type="password"].input-large.input-date:focus:-moz-placeholder,
 input[type="number"].input-large.input-date:focus:-moz-placeholder,
 textarea.input-large.input-date:focus:-moz-placeholder,
 .form-input.input-large.input-date:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large.input-date::-moz-placeholder,
 input[type="search"].input-large.input-date::-moz-placeholder,
@@ -7544,10 +7460,10 @@ input[type="password"].input-large.input-date::-moz-placeholder,
 input[type="number"].input-large.input-date::-moz-placeholder,
 textarea.input-large.input-date::-moz-placeholder,
 .form-input.input-large.input-date::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7564,7 +7480,7 @@ input[type="password"].input-large.input-date:focus::-moz-placeholder,
 input[type="number"].input-large.input-date:focus::-moz-placeholder,
 textarea.input-large.input-date:focus::-moz-placeholder,
 .form-input.input-large.input-date:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large.input-date:-ms-input-placeholder,
 input[type="search"].input-large.input-date:-ms-input-placeholder,
@@ -7573,10 +7489,10 @@ input[type="password"].input-large.input-date:-ms-input-placeholder,
 input[type="number"].input-large.input-date:-ms-input-placeholder,
 textarea.input-large.input-date:-ms-input-placeholder,
 .form-input.input-large.input-date:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7593,7 +7509,7 @@ input[type="password"].input-large.input-date:focus:-ms-input-placeholder,
 input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
 textarea.input-large.input-date:focus:-ms-input-placeholder,
 .form-input.input-large.input-date:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-large.input-date::-webkit-input-placeholder,
 input[type="search"].input-large.input-date::-webkit-input-placeholder,
@@ -7602,10 +7518,10 @@ input[type="password"].input-large.input-date::-webkit-input-placeholder,
 input[type="number"].input-large.input-date::-webkit-input-placeholder,
 textarea.input-large.input-date::-webkit-input-placeholder,
 .form-input.input-large.input-date::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
@@ -7622,7 +7538,7 @@ input[type="password"].input-large.input-date:focus::-webkit-input-placeholder,
 input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
 textarea.input-large.input-date:focus::-webkit-input-placeholder,
 .form-input.input-large.input-date:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 @media (max-width:  1024px) {
   input[type="text"].input-large,
@@ -7644,10 +7560,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:-moz-placeholder,
   textarea.input-large:-moz-placeholder,
   .form-input.input-large:-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 1.5;
     letter-spacing: 0px;
     text-transform: none;
@@ -7664,7 +7580,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:focus:-moz-placeholder,
   textarea.input-large:focus:-moz-placeholder,
   .form-input.input-large:focus:-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large::-moz-placeholder,
   input[type="search"].input-large::-moz-placeholder,
@@ -7673,10 +7589,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large::-moz-placeholder,
   textarea.input-large::-moz-placeholder,
   .form-input.input-large::-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 1.5;
     letter-spacing: 0px;
     text-transform: none;
@@ -7693,7 +7609,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:focus::-moz-placeholder,
   textarea.input-large:focus::-moz-placeholder,
   .form-input.input-large:focus::-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large:-ms-input-placeholder,
   input[type="search"].input-large:-ms-input-placeholder,
@@ -7702,10 +7618,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:-ms-input-placeholder,
   textarea.input-large:-ms-input-placeholder,
   .form-input.input-large:-ms-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 1.5;
     letter-spacing: 0px;
     text-transform: none;
@@ -7722,7 +7638,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:focus:-ms-input-placeholder,
   textarea.input-large:focus:-ms-input-placeholder,
   .form-input.input-large:focus:-ms-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large::-webkit-input-placeholder,
   input[type="search"].input-large::-webkit-input-placeholder,
@@ -7731,10 +7647,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large::-webkit-input-placeholder,
   textarea.input-large::-webkit-input-placeholder,
   .form-input.input-large::-webkit-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 1.5;
     letter-spacing: 0px;
     text-transform: none;
@@ -7751,7 +7667,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large:focus::-webkit-input-placeholder,
   textarea.input-large:focus::-webkit-input-placeholder,
   .form-input.input-large:focus::-webkit-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large.inverse:-moz-placeholder,
   input[type="search"].input-large.inverse:-moz-placeholder,
@@ -7760,7 +7676,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.inverse:-moz-placeholder,
   textarea.input-large.inverse:-moz-placeholder,
   .form-input.input-large.inverse:-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
     color: #ffffff;
@@ -7789,7 +7705,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.inverse::-moz-placeholder,
   textarea.input-large.inverse::-moz-placeholder,
   .form-input.input-large.inverse::-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
     color: #ffffff;
@@ -7818,7 +7734,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.inverse:-ms-input-placeholder,
   textarea.input-large.inverse:-ms-input-placeholder,
   .form-input.input-large.inverse:-ms-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
     color: #ffffff;
@@ -7847,7 +7763,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.inverse::-webkit-input-placeholder,
   textarea.input-large.inverse::-webkit-input-placeholder,
   .form-input.input-large.inverse::-webkit-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
     color: #ffffff;
@@ -7876,10 +7792,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:-moz-placeholder,
   textarea.input-large.input-date:-moz-placeholder,
   .form-input.input-large.input-date:-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -7896,7 +7812,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:focus:-moz-placeholder,
   textarea.input-large.input-date:focus:-moz-placeholder,
   .form-input.input-large.input-date:focus:-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large.input-date::-moz-placeholder,
   input[type="search"].input-large.input-date::-moz-placeholder,
@@ -7905,10 +7821,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date::-moz-placeholder,
   textarea.input-large.input-date::-moz-placeholder,
   .form-input.input-large.input-date::-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -7925,7 +7841,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:focus::-moz-placeholder,
   textarea.input-large.input-date:focus::-moz-placeholder,
   .form-input.input-large.input-date:focus::-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large.input-date:-ms-input-placeholder,
   input[type="search"].input-large.input-date:-ms-input-placeholder,
@@ -7934,10 +7850,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:-ms-input-placeholder,
   textarea.input-large.input-date:-ms-input-placeholder,
   .form-input.input-large.input-date:-ms-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -7954,7 +7870,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
   textarea.input-large.input-date:focus:-ms-input-placeholder,
   .form-input.input-large.input-date:focus:-ms-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-large.input-date::-webkit-input-placeholder,
   input[type="search"].input-large.input-date::-webkit-input-placeholder,
@@ -7963,10 +7879,10 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date::-webkit-input-placeholder,
   textarea.input-large.input-date::-webkit-input-placeholder,
   .form-input.input-large.input-date::-webkit-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -7983,7 +7899,7 @@ textarea.input-large.input-date:focus::-webkit-input-placeholder,
   input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
   textarea.input-large.input-date:focus::-webkit-input-placeholder,
   .form-input.input-large.input-date:focus::-webkit-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
 }
 input[type="text"].input-extra-large,
@@ -8006,10 +7922,10 @@ input[type="password"].input-extra-large:-moz-placeholder,
 input[type="number"].input-extra-large:-moz-placeholder,
 textarea.input-extra-large:-moz-placeholder,
 .form-input.input-extra-large:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
@@ -8026,7 +7942,7 @@ input[type="password"].input-extra-large:focus:-moz-placeholder,
 input[type="number"].input-extra-large:focus:-moz-placeholder,
 textarea.input-extra-large:focus:-moz-placeholder,
 .form-input.input-extra-large:focus:-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-extra-large::-moz-placeholder,
 input[type="search"].input-extra-large::-moz-placeholder,
@@ -8035,10 +7951,10 @@ input[type="password"].input-extra-large::-moz-placeholder,
 input[type="number"].input-extra-large::-moz-placeholder,
 textarea.input-extra-large::-moz-placeholder,
 .form-input.input-extra-large::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
@@ -8055,7 +7971,7 @@ input[type="password"].input-extra-large:focus::-moz-placeholder,
 input[type="number"].input-extra-large:focus::-moz-placeholder,
 textarea.input-extra-large:focus::-moz-placeholder,
 .form-input.input-extra-large:focus::-moz-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-extra-large:-ms-input-placeholder,
 input[type="search"].input-extra-large:-ms-input-placeholder,
@@ -8064,10 +7980,10 @@ input[type="password"].input-extra-large:-ms-input-placeholder,
 input[type="number"].input-extra-large:-ms-input-placeholder,
 textarea.input-extra-large:-ms-input-placeholder,
 .form-input.input-extra-large:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
@@ -8084,7 +8000,7 @@ input[type="password"].input-extra-large:focus:-ms-input-placeholder,
 input[type="number"].input-extra-large:focus:-ms-input-placeholder,
 textarea.input-extra-large:focus:-ms-input-placeholder,
 .form-input.input-extra-large:focus:-ms-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-extra-large::-webkit-input-placeholder,
 input[type="search"].input-extra-large::-webkit-input-placeholder,
@@ -8093,10 +8009,10 @@ input[type="password"].input-extra-large::-webkit-input-placeholder,
 input[type="number"].input-extra-large::-webkit-input-placeholder,
 textarea.input-extra-large::-webkit-input-placeholder,
 .form-input.input-extra-large::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  color: #809da5;
+  color: #6b7681;
   line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
@@ -8113,7 +8029,7 @@ input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
 input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
 textarea.input-extra-large:focus::-webkit-input-placeholder,
 .form-input.input-extra-large:focus::-webkit-input-placeholder {
-  color: rgba(128, 157, 165, 0.25);
+  color: rgba(107, 118, 129, 0.25);
 }
 input[type="text"].input-extra-large.inverse:-moz-placeholder,
 input[type="search"].input-extra-large.inverse:-moz-placeholder,
@@ -8122,7 +8038,7 @@ input[type="password"].input-extra-large.inverse:-moz-placeholder,
 input[type="number"].input-extra-large.inverse:-moz-placeholder,
 textarea.input-extra-large.inverse:-moz-placeholder,
 .form-input.input-extra-large.inverse:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8151,7 +8067,7 @@ input[type="password"].input-extra-large.inverse::-moz-placeholder,
 input[type="number"].input-extra-large.inverse::-moz-placeholder,
 textarea.input-extra-large.inverse::-moz-placeholder,
 .form-input.input-extra-large.inverse::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8180,7 +8096,7 @@ input[type="password"].input-extra-large.inverse:-ms-input-placeholder,
 input[type="number"].input-extra-large.inverse:-ms-input-placeholder,
 textarea.input-extra-large.inverse:-ms-input-placeholder,
 .form-input.input-extra-large.inverse:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8209,7 +8125,7 @@ input[type="password"].input-extra-large.inverse::-webkit-input-placeholder,
 input[type="number"].input-extra-large.inverse::-webkit-input-placeholder,
 textarea.input-extra-large.inverse::-webkit-input-placeholder,
 .form-input.input-extra-large.inverse::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8252,10 +8168,10 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:-moz-placeholder,
   textarea.input-extra-large:-moz-placeholder,
   .form-input.input-extra-large:-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -8272,7 +8188,7 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:focus:-moz-placeholder,
   textarea.input-extra-large:focus:-moz-placeholder,
   .form-input.input-extra-large:focus:-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-extra-large::-moz-placeholder,
   input[type="search"].input-extra-large::-moz-placeholder,
@@ -8281,10 +8197,10 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large::-moz-placeholder,
   textarea.input-extra-large::-moz-placeholder,
   .form-input.input-extra-large::-moz-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -8301,7 +8217,7 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:focus::-moz-placeholder,
   textarea.input-extra-large:focus::-moz-placeholder,
   .form-input.input-extra-large:focus::-moz-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-extra-large:-ms-input-placeholder,
   input[type="search"].input-extra-large:-ms-input-placeholder,
@@ -8310,10 +8226,10 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:-ms-input-placeholder,
   textarea.input-extra-large:-ms-input-placeholder,
   .form-input.input-extra-large:-ms-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -8330,7 +8246,7 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:focus:-ms-input-placeholder,
   textarea.input-extra-large:focus:-ms-input-placeholder,
   .form-input.input-extra-large:focus:-ms-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
   input[type="text"].input-extra-large::-webkit-input-placeholder,
   input[type="search"].input-extra-large::-webkit-input-placeholder,
@@ -8339,10 +8255,10 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large::-webkit-input-placeholder,
   textarea.input-extra-large::-webkit-input-placeholder,
   .form-input.input-extra-large::-webkit-input-placeholder {
-    font-family: 'VAGRoundedLT-Light';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    color: #809da5;
+    color: #6b7681;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -8359,7 +8275,7 @@ textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
   input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
   textarea.input-extra-large:focus::-webkit-input-placeholder,
   .form-input.input-extra-large:focus::-webkit-input-placeholder {
-    color: rgba(128, 157, 165, 0.25);
+    color: rgba(107, 118, 129, 0.25);
   }
 }
 input[type="text"].input-inverse,
@@ -8371,7 +8287,7 @@ textarea.input-inverse,
 .form-input.input-inverse {
   color: #ffffff;
   border: none;
-  background-color: #809da5;
+  background-color: #6b7681;
 }
 input[type="text"].input-inverse:-moz-placeholder,
 input[type="search"].input-inverse:-moz-placeholder,
@@ -8380,7 +8296,7 @@ input[type="password"].input-inverse:-moz-placeholder,
 input[type="number"].input-inverse:-moz-placeholder,
 textarea.input-inverse:-moz-placeholder,
 .form-input.input-inverse:-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8409,7 +8325,7 @@ input[type="password"].input-inverse::-moz-placeholder,
 input[type="number"].input-inverse::-moz-placeholder,
 textarea.input-inverse::-moz-placeholder,
 .form-input.input-inverse::-moz-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8438,7 +8354,7 @@ input[type="password"].input-inverse:-ms-input-placeholder,
 input[type="number"].input-inverse:-ms-input-placeholder,
 textarea.input-inverse:-ms-input-placeholder,
 .form-input.input-inverse:-ms-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8467,7 +8383,7 @@ input[type="password"].input-inverse::-webkit-input-placeholder,
 input[type="number"].input-inverse::-webkit-input-placeholder,
 textarea.input-inverse::-webkit-input-placeholder,
 .form-input.input-inverse::-webkit-input-placeholder {
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -8507,10 +8423,10 @@ input[type="search"] {
   width: 100%;
   height: 40px;
   line-height: 1;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  color: #414c57;
+  color: #485364;
   background: #ffffff;
   border: none;
   cursor: pointer;
@@ -8535,7 +8451,7 @@ input[type="search"] {
 .select.inverse select {
   color: #ffffff;
   border: none;
-  background-color: #809da5;
+  background-color: #6b7681;
 }
 .select.inverse:after {
   color: #ffffff;
@@ -8588,7 +8504,7 @@ input[type="search"] {
     width: 1.5em;
   }
   .select.inverse:before {
-    background: #809da5;
+    background: #6b7681;
   }
 }
 /* Button Group */
@@ -8673,7 +8589,7 @@ input[type="search"] {
   display: inline-block;
   padding: 8px 15px;
   height: 40px;
-  font-family: 'VAGRoundedLT-Bold';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   border: none;
@@ -8763,11 +8679,11 @@ input[type="search"] {
 }
 .button.button-text {
   padding: 8px 0;
-  color: #414c57;
+  color: #485364;
   background: transparent !important;
 }
 .button.button-text:after {
-  color: #414c57;
+  color: #485364;
 }
 .button.button-text:hover,
 .button.button-text:focus {
@@ -8775,14 +8691,14 @@ input[type="search"] {
 }
 .button.button-text:hover:after,
 .button.button-text:focus:after {
-  color: #414c57;
+  color: #485364;
 }
 .button.button-primary {
-  color: #414c57;
+  color: #485364;
   background: #4bb3d6;
 }
 .button.button-primary:after {
-  color: #414c57;
+  color: #485364;
 }
 .button.button-primary:hover,
 .button.button-primary:focus {
@@ -8794,12 +8710,12 @@ input[type="search"] {
   color: #ffffff;
 }
 .button.button-border {
-  color: #414c57;
+  color: #485364;
   background: transparent;
   border: 1px solid #b2c6c9;
 }
 .button.button-border:after {
-  color: #414c57;
+  color: #485364;
 }
 .button.button-border:hover,
 .button.button-border:focus {
@@ -8903,7 +8819,7 @@ figure figcaption {
   margin: 10px 0px;
   font-size: 10px;
   font-size: 1rem;
-  color: #414c57;
+  color: #485364;
 }
 /* Images */
 img {
@@ -8914,7 +8830,7 @@ img.thumbnail {
   -moz-border-radius: 8px;
   border-radius: 8px;
   padding: 5px;
-  border: 1px solid #ededed;
+  border: 1px solid #e1e3e8;
 }
 img.rounded {
   -webkit-border-radius: 8px;
@@ -8983,7 +8899,7 @@ img.responsive {
   display: block;
   padding: 15px 20px 0px 20px;
   width: 40%;
-  font-family: 'VAGRoundedLT-Thin';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 72px;
   font-size: 7.2rem;
@@ -8999,9 +8915,9 @@ img.responsive {
 .list li {
   position: relative;
   margin: 10px 0px 10px 20px;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #414c57;
+  color: #485364;
 }
 .list li:before {
   position: absolute;
@@ -9010,129 +8926,7 @@ img.responsive {
   font-family: 'turret';
   font-size: 16px;
   content: "\e64b";
-  color: #414c57;
-}
-/* Navigation */
-.navigation {
-  z-index: 100;
-  padding: 0;
-  background: #ffffff;
-  height: 110px;
-  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
-  -o-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
-}
-.navigation.navigation-fixed {
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.navigation .navigation-toggle {
-  display: none;
-}
-.navigation .logo {
-  float: left;
-  margin: 10px 0px;
-}
-.navigation .logo img {
-  width: 139px;
-  height: 60px;
-}
-@media (min-width: 1280px) {
-  .navigation .logo img {
-    width: 139px;
-    height: 60px;
-  }
-}
-@media (max-width: 767px) {
-  .navigation .logo img {
-    width: 93px;
-    height: 40px;
-  }
-}
-.navigation .nav {
-  padding: 0;
-  margin: 0;
-  height: 110px;
-  *zoom: 1;
-}
-.navigation .nav:before,
-.navigation .nav:after {
-  content: " ";
-  display: table;
-}
-.navigation .nav:after {
-  clear: both;
-}
-.navigation .nav:before,
-.navigation .nav:after {
-  content: " ";
-  display: table;
-}
-.navigation .nav:after {
-  clear: both;
-}
-.navigation .nav li {
-  list-style: none;
-  float: left;
-  vertical-align: middle;
-}
-.navigation .nav li a {
-  display: block;
-  margin: 0;
-  padding: 35px 20px;
-  height: 110px;
-  font-family: 'VAGRoundedLT-Black';
-  font-size: 13px;
-  font-size: 1.3rem;
-  color: #809da5;
-  height: 1;
-  text-align: center;
-  text-transform: none;
-}
-.navigation .nav li a:hover,
-.navigation .nav li a:focus {
-  color: #4bb3d6;
-}
-.navigation .nav li a.active {
-  color: #ffffff;
-  background: #4bb3d6;
-}
-.navigation .nav li.active a {
-  color: #ffffff;
-  background: #4bb3d6;
-}
-.navigation .secondary li a {
-  margin: 0;
-  font-family: 'VAGRoundedLT-Light';
-  font-size: 12px;
-  font-size: 1.2rem;
-  color: #809da5;
-}
-.navigation .secondary li a.active,
-.navigation .secondary li a:active {
-  color: #809da5;
-}
-@media (max-width:  1024px) {
-  .navigation {
-    padding: 0;
-    height: 50px;
-  }
-  .navigation .logo {
-    margin: 5px 0px;
-  }
-  .navigation .navigation-toggle {
-    display: block;
-  }
-  .navigation .navigation-collapse {
-    display: none;
-  }
-  .navigation .navigation-collapse.open {
-    display: block;
-  }
+  color: #485364;
 }
 /* Panel */
 .panel {
@@ -9146,7 +8940,7 @@ img.responsive {
 }
 .panel .panel-title {
   margin: 0 0 10px 0;
-  font-family: 'VAGRoundedLT-Bold';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-size: 2.2rem;
   color: #ffffff;
@@ -9221,17 +9015,17 @@ table.table caption {
 }
 table.table thead tr th {
   padding: 5px 0px;
-  font-family: 'VAGRoundedLT-Light';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 12px;
   font-size: 1.2rem;
-  color: #414c57;
+  color: #485364;
   text-align: left;
   text-transform: none;
 }
 table.table tbody tr td {
   padding: 5px 0px;
-  color: #809da5;
+  color: #6b7681;
   font-size: 15px;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -9243,12 +9037,12 @@ table.table tbody tr td {
   }
 }
 table.table.table-bordered {
-  border: 1px solid #ededed;
+  border: 1px solid #e1e3e8;
   border-width: 0px 0px 1px 0px;
 }
 table.table.table-bordered td {
   padding: 5px 0px;
-  border: 1px solid #ededed;
+  border: 1px solid #e1e3e8;
   border-width: 0px 0px 1px 0px;
 }
 table.table.table-block {
@@ -9343,23 +9137,6 @@ table.table.table-block {
 .video-player {
   background: #3bc0c3;
 }
-/*
-
-.video-message {
-	@pxValue: (@video_message_font_size * 10);
-	@offsetValue: (@pxValue / 2);
-	position: absolute;
-	top: 50%;
-	margin: 0;
-	margin-top: ~"-@{offsetValue}px";
-	width: 100%;
-	height: ~"@{offsetValue}px";
-	.font-size(@video_message_font_size);
-	color: @video_message_color;
-	line-height: ~"@{offsetValue}px";
-	text-align: center;
-}
-*/
 .video-wrapper {
   z-index: 1900 !important;
   position: absolute;

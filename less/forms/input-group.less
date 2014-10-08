@@ -10,18 +10,18 @@
 	}
 	
 	&.input-group-search {
-		.border-radius(@input_search_border_radius);
+		.border-radius(@input-search-border-radius);
 		overflow: hidden;
 		
 		input[type="search"] {
-			padding-left: @input_search_border_radius;
+			padding-left: @input-search-border-radius;
 			.border-right-radius(0)
 		}
 		
 		.button:not(.button-inverse) {
-			padding-right: @input_search_border_radius;
-			color: @input_color;
-			background: @input_background;
+			padding-right: @input-search-border-radius;
+			color: @input-color;
+			background: @input-background;
 		}
 	}
 	
@@ -30,7 +30,7 @@
 	input[type="email"],
 	input[type="password"],
 	input[type="number"] {
-		.border-radiuses(@input_border_radius, 0, @input_border_radius, 0);
+		.border-radiuses(@input-border-radius, 0, @input-border-radius, 0);
 	}
 
 	//Undo Column Padding and Float
@@ -57,9 +57,9 @@
 		// element above the siblings.
 		> .button {
 			position: relative;
-			height: @input_medium_height;
-			min-width: @input_medium_height;
-			.border-radiuses(0, @buttons_border_radius, 0, @buttons_border_radius);
+			height: @input-medium-height;
+			min-width: @input-medium-height;
+			.border-radiuses(0, @buttons-border-radius, 0, @buttons-border-radius);
 
 			+ .button {
 				margin-left: -1px;
@@ -73,7 +73,7 @@
 			}
 			
 			@media @medium {
-				padding: @input_button_small_padding;
+				padding: @input-button-small-padding;
 			}
 		}
 
@@ -88,38 +88,38 @@
 
 		//Button Sizes
 		&.input-group-button-small > .button {
-			.font-size(@label_small_font_size);
-			height: @input_small_height;
-			min-width: @input_small_height;
+			.font-size(@label-small-font-size);
+			height: @input-small-height;
+			min-width: @input-small-height;
 		}
 
 		&.input-group-button-medium > .button {
-			.font-size(@label_medium_font_size);
-			height: @input_medium_height;
-			min-width: @input_medium_height;
+			.font-size(@label-medium-font-size);
+			height: @input-medium-height;
+			min-width: @input-medium-height;
 		}
 
 		&.input-group-button-large > .button {
-			.font-size(@label_large_font_size);
-			height: @input_large_height;
-			min-width: @input_large_height;
+			.font-size(@label-large-font-size);
+			height: @input-large-height;
+			min-width: @input-large-height;
 
 			@media @medium {
-				.font-size(@label_medium_font_size);
-				height: @input_medium_height;
-				min-width: @input_medium_height;
+				.font-size(@label-medium-font-size);
+				height: @input-medium-height;
+				min-width: @input-medium-height;
 			}
 		}
 
 		&.input-group-button-extra-large > .button {
-			.font-size(@label_extra_large_font_size);
-			height: @input_extra_large_height;
-			min-width: @input_extra_large_height;
+			.font-size(@label-extra-large-font-size);
+			height: @input-extra-large-height;
+			min-width: @input-extra-large-height;
 
 			@media @medium {
-				.font-size(@label_large_font_size);
-				height: @input_large_height;
-				min-width: @input_large_height;
+				.font-size(@label-large-font-size);
+				height: @input-large-height;
+				min-width: @input-large-height;
 			}
 		}
 	}

@@ -18,17 +18,17 @@ form {
 	//Reset height for `textarea`s
 	textarea {
 		height: auto;
-		line-height: @line_height;
+		line-height: @line-height;
 	}
 	
 	//Label
 	label {
 		display: block;
-		margin: @label_margin;
-		font-family: @label_font_family;
-		.font-size(@label_font_size);
-		color: @label_color;
-		line-height: @line_height;
+		margin: @label-margin;
+		font-family: @label-font-family;
+		.font-size(@label-font-size);
+		color: @label-color;
+		line-height: @line-height;
 	}
 	
 	//Checkbox and Radio Buttons
@@ -55,9 +55,9 @@ form {
 	
 	//Fieldset
 	fieldset {
-		margin: @fieldset_margin;
-		padding: @fieldset_padding;
-		border: @fieldset_border;
+		margin: @fieldset-margin;
+		padding: @fieldset-padding;
+		border: @fieldset-border;
 
 		.all-select {
 			display: inline-block;
@@ -71,7 +71,7 @@ form {
 
 		legend {
 			display: inline-block;
-			.font-size(@label_font_size);
+			.font-size(@label-font-size);
 
 			color: @primary;
 			.font-size(12px);
@@ -124,9 +124,9 @@ form {
 	
 	.error-message {
 		display: block;
-		margin: @input_error_message_margin;
-		.font-size(@input_error_message_font_size);
-		color: @input_error_message_color;
+		margin: @input-error-message-margin;
+		.font-size(@input-error-message-font-size);
+		color: @input-error-message-color;
 	}
 	
 }

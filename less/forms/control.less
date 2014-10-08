@@ -4,7 +4,7 @@
 	position: relative;
 	display: block;
 	padding-left: 2rem;
-	color: @control_color;
+	color: @control-color;
 	cursor: pointer;
 	
 	input {
@@ -23,58 +23,58 @@
 		top: 0;
 		left: 0;
 		display: block;
-		.square(@control_indicator_size);
+		.square(@control-indicator-size);
 		line-height: 1rem;
-		color: @control_indicator_color;
+		color: @control-indicator-color;
 		text-align: center;
-		background: @control_indicator_background;
+		background: @control-indicator-background;
 		background-size: 50% 50%;
 		background-position: center center;
 		background-repeat: no-repeat;
-		border: @control_indicator_border;
+		border: @control-indicator-border;
 		.user-select(none);
 	}
 	
 	.control-label {
-		margin: @control_label_margin;
-		font-family: @control_label_font_family;
-		.font-size(@control_label_font_size);
-		color: @control_label_color;
+		margin: @control-label-margin;
+		font-family: @control-label-font-family;
+		.font-size(@control-label-font-size);
+		color: @control-label-color;
 		line-height: 1;
 	}
 	
 	//Checked
 	input:checked ~ .control-indicator {
-		color: @control_indicator_checked_color;
-		background: @control_indicator_checked_background;
+		color: @control-indicator-checked-color;
+		background: @control-indicator-checked-background;
 		
 		&:before {
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			margin-top: -(@control_indicator_icon_size / 2);
-			margin-left: -(@control_indicator_icon_size / 2);
-			font-family: @icon_font_family;
-			font-size: @control_indicator_icon_size;
+			margin-top: -(@control-indicator-icon-size / 2);
+			margin-left: -(@control-indicator-icon-size / 2);
+			font-family: @icon-font-family;
+			font-size: @control-indicator-icon-size;
 		}
 	}
 	
 	//Checkbox
 	&.checkbox .control-indicator {
-		.border-radius(@checkbox_border_radius);
+		.border-radius(@checkbox-border-radius);
 		
 	}
 	
 	&.checkbox input:checked ~ .control-indicator:before {
-		content: @checkbox_icon;
+		content: @checkbox-icon;
 	}
 	
 	//Radio
 	&.radio .control-indicator {
-		.border-radius(@radio_border_radius);
+		.border-radius(@radio-border-radius);
 	}
 	
 	&.radio input:checked ~ .control-indicator:before {
-		content: @radio_icon;
+		content: @radio-icon;
 	}
 }

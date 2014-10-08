@@ -2,33 +2,33 @@
 
 //Input Sizes
 .input-small() {
-	.font-size(@label_small_font_size);
-	height: @input_small_height;
-	padding: @input_small_padding;
-	.placeholder(@input_placeholder_color, @input_placeholder_font_size, @input_placeholder_font_family, @input_placeholder_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+	.font-size(@label-small-font-size);
+	height: @input-small-height;
+	padding: @input-small-padding;
+	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 .input-medium() {
-	.font-size(@label_medium_font_size);
-	height: @input_medium_height;
-	padding: @input_medium_padding;
-	.placeholder(@input_placeholder_color, @label_medium_font_size, @input_placeholder_font_family, @input_placeholder_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+	.font-size(@label-medium-font-size);
+	height: @input-medium-height;
+	padding: @input-medium-padding;
+	.placeholder(@input-placeholder-color, @label-medium-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 .input-large() {
-	.font-size(@label_large_font_size);
-	height: @input_large_height;
-	line-height: @label_large_line_height;
-	padding: @input_large_padding;
-	.placeholder(@input_placeholder_color, @label_large_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+	.font-size(@label-large-font-size);
+	height: @input-large-height;
+	line-height: @label-large-line-height;
+	padding: @input-large-padding;
+	.placeholder(@input-placeholder-color, @label-large-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 .input-extra-large() {
-	.font-size(@label_extra_large_font_size);
-	height: @input_extra_large_height;
-	line-height: @label_extra_large_line_height;
-	padding: @input_extra_large_padding;
-	.placeholder(@input_placeholder_color, @label_extra_large_font_size, @input_placeholder_font_family, @label_extra_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+	.font-size(@label-extra-large-font-size);
+	height: @input-extra-large-height;
+	line-height: @label-extra-large-line-height;
+	padding: @input-extra-large-padding;
+	.placeholder(@input-placeholder-color, @label-extra-large-font-size, @input-placeholder-font-family, @label-extra-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 //Inputs
@@ -41,45 +41,45 @@ textarea,
 .form-input {
 	display: block;
 	width: 100%;
-	height: @input_height;
-	padding: @input_padding;
-	font-family: @input_font_family;
-	.font-size(@input_font_size);
-	color: @input_color;
-	line-height: @input_line_height;
-	border: @input_border;
-	background-color: @input_background;
+	height: @input-height;
+	padding: @input-padding;
+	font-family: @input-font-family;
+	.font-size(@input-font-size);
+	color: @input-color;
+	line-height: @input-line-height;
+	border: @input-border;
+	background-color: @input-background;
 	background-image: none;
-	.border-radius(@input_border_radius);
-	.transition(border @transition_fast ease-in-out);
+	.border-radius(@input-border-radius);
+	.transition(border @transition-fast ease-in-out);
 
 	//Override Normalise for Input Types
 	.border-box-sizing();
 
 	// Placeholder
-	.placeholder(@input_placeholder_color, @input_placeholder_font_size, @input_placeholder_font_family, @input_placeholder_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 
 	//Disabled
 	&:disabled {
-		background: @light_grey;
+		background: @light-grey;
 	}
 	
 	//Focus
 	&:focus {
-		border: @input_focus_border;
-		background: @input_focus_background;
+		border: @input-focus-border;
+		background: @input-focus-background;
 		
 		&.inverse {
-			color: @input_inverse_focus_color;
-			border: @input_inverse_focus_border;
-			background: @input_inverse_focus_background;
+			color: @input-inverse-focus-color;
+			border: @input-inverse-focus-border;
+			background: @input-inverse-focus-background;
 		}
 	}
 	
 	//Form Error
 	.form-error {
-		color: @input_error_color;
-		border-color: @input_error_border_color;
+		color: @input-error-color;
+		border-color: @input-error-border-color;
 	}
 
 	//Input Sizes
@@ -91,11 +91,11 @@ textarea,
 		.input-medium();
 		
 		&.inverse {
-			.placeholder(@input_inverse_color, @input_placeholder_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 		
 		&.input-date {
-			.placeholder(@input_placeholder_color, @input_placeholder_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 	}
 
@@ -103,11 +103,11 @@ textarea,
 		.input-large();
 		
 		&.inverse {
-			.placeholder(@input_inverse_color, @input_placeholder_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 		
 		&.input-date {
-			.placeholder(@input_placeholder_color, @input_placeholder_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 		
 		@media @medium {
@@ -119,27 +119,27 @@ textarea,
 		.input-extra-large();
 		
 		&.inverse {
-			.placeholder(@input_inverse_color, @input_placeholder_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 		
 		@media @medium {
-			.font-size(@label_large_font_size);
-			height: @input_large_height;
-			line-height: @label_large_line_height;
-			padding: @input_large_padding;
-			.placeholder(@input_placeholder_color, @label_large_font_size, @input_placeholder_font_family, @label_large_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+			.font-size(@label-large-font-size);
+			height: @input-large-height;
+			line-height: @label-large-line-height;
+			padding: @input-large-padding;
+			.placeholder(@input-placeholder-color, @label-large-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 		}
 	}
 
 	//Inverse
 	&.input-inverse {
-		color: @input_inverse_color;
-		border: @input_inverse_border;
-		background-color: @input_inverse_background;
-		.placeholder(@input_inverse_color, @input_placeholder_font_size, @input_placeholder_font_family, @input_placeholder_line_height, @input_placeholder_letter_spacing, @input_placeholder_text_transform);
+		color: @input-inverse-color;
+		border: @input-inverse-border;
+		background-color: @input-inverse-background;
+		.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 	}
 }
 
 input[type="search"] {
-	.border-radius(@input_search_border_radius);
+	.border-radius(@input-search-border-radius);
 }

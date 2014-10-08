@@ -1,48 +1,48 @@
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	margin: @headings_margin;
+	margin: @headings-margin;
 	padding: 0;
-	font-family: @headings_font_family;
-	font-weight: @headings_font_weight;
-	color: @headings_color;
-	line-height: @headings_line_height;
+	font-family: @headings-font-family;
+	font-weight: @headings-font-weight;
+	color: @headings-color;
+	line-height: @headings-line-height;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-	color: @headings_small_color;
-	font-size: @headings_small_size;
+	color: @headings-small-color;
+	font-size: @headings-small-size;
 }
 
 h1 {
-	.font-size(@h1_font_size);
+	.font-size(@h1-font-size);
 }
 
 h2 {
-	.font-size(@h2_font_size);
+	.font-size(@h2-font-size);
 }
 
 h3 {
-	.font-size(@h3_font_size);
+	.font-size(@h3-font-size);
 }
 
 h4 {
-	.font-size(@h4_font_size);
+	.font-size(@h4-font-size);
 }
 
 h5 {
-	.font-size(@h5_font_size);
+	.font-size(@h5-font-size);
 }
 
 h6 {
-	.font-size(@h6_font_size);
+	.font-size(@h6-font-size);
 }
 
 p {
-	font-family: @copy_font_family;
-	.font-size(@paragraph_font_size);
-	color: @paragraph_color;
-	line-height: @line_height;
+	font-family: @copy-font-family;
+	.font-size(@paragraph-font-size);
+	color: @paragraph-color;
+	line-height: @line-height;
 	
 	&.lead {
 		margin-top: 0;
@@ -51,50 +51,50 @@ p {
 
 @media @mobile {
 	h1 {
-		.font-size(@h1_mobile_font_size);
+		.font-size(@h1-mobile-font-size);
 	}
 	
 	h2 {
-		.font-size(@h2_mobile_font_size);
+		.font-size(@h2-mobile-font-size);
 	}
 	
 	h3 {
-		.font-size(@h3_mobile_font_size);
+		.font-size(@h3-mobile-font-size);
 	}
 	
 	h4 {
-		.font-size(@h4_mobile_font_size);
+		.font-size(@h4-mobile-font-size);
 	}
 	
 	h5 {
-		.font-size(@h5_mobile_font_size);
+		.font-size(@h5-mobile-font-size);
 	}
 	
 	h6 {
-		.font-size(@h6_mobile_font_size);
+		.font-size(@h6-mobile-font-size);
 	}
 	
 	p {
-		.font-size(@paragraph_mobile_font_size);
+		.font-size(@paragraph-mobile-font-size);
 		
 		&.lead {
-			.font-size(@lead_mobile_font_size);
+			.font-size(@lead-mobile-font-size);
 		}
 	}
 }
 
 ul li,
 ol, li {
-	.font-size(@paragraph_font_size);
-	color: @paragraph_color;
-	line-height: @line_height;
+	.font-size(@paragraph-font-size);
+	color: @paragraph-color;
+	line-height: @line-height;
 }
 
 .lead {
 	margin-top: 0;
-	font-family: @lead_font_family;
-	.font-size(@lead_font_size);
-	color: @lead_color;
+	font-family: @lead-font-family;
+	.font-size(@lead-font-size);
+	color: @lead-color;
 }
 
 blockquote {
@@ -106,6 +106,6 @@ pre {
 }
 
 strong {
-	font-family: @strong_font_family;
-	font-weight: @strong_font_weight;
+	font-family: @strong-font-family;
+	font-weight: @strong-font-weight;
 }

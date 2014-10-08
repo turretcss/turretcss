@@ -4,13 +4,13 @@ img {
 	vertical-align: bottom;
 
 	&.thumbnail {
-		.border-radius(@image_border_radius);
-		padding: @image_padding;
-		border: @image_border;
+		.border-radius(@image-border-radius);
+		padding: @image-padding;
+		border: @image-border;
 	}
 
 	&.rounded {
-		.border-radius(@image_border_radius);
+		.border-radius(@image-border-radius);
 	}
 
 	&.circle {
@@ -59,7 +59,7 @@ img {
 			}
 		}
 
-		@media @extra_large {
+		@media @extra-large {
 			&.extra-large-remove-overlay {
 				position: relative;
 				display: block;
@@ -82,13 +82,13 @@ img {
 
 	.image-caption {
 		display: block;
-		padding: @image_caption_padding;
-		width: @image_caption_width;
-		font-family: @image_caption_font_family;
-		font-weight: @image_caption_font_weight;
-		.font-size(@image_caption_font_size);
+		padding: @image-caption-padding;
+		width: @image-caption-width;
+		font-family: @image-caption-font-family;
+		font-weight: @image-caption-font-weight;
+		.font-size(@image-caption-font-size);
 		line-height: 1;
-		color: @image_caption_color;
-		background: @image_caption_background;
+		color: @image-caption-color;
+		background: @image-caption-background;
 	}
 }

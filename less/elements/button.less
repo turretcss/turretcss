@@ -2,38 +2,38 @@
 
 .button {
 	display: inline-block;
-	padding: @buttons_padding_vertical @buttons_padding_horizontal;
-	height: @buttons_height;
-	font-family: @buttons_font_family;
-	.font-size(@buttons_font_size);
+	padding: @buttons-padding-vertical @buttons-padding-horizontal;
+	height: @buttons-height;
+	font-family: @buttons-font-family;
+	.font-size(@buttons-font-size);
 	border: none;
-	line-height: @buttons_height - (@buttons_padding_vertical * 2);
-	color: @buttons_color;
-	text-align: @buttons_text_align;
-	text-transform: @buttons_text_transform;
-	background: @buttons_background;
+	line-height: @buttons-height - (@buttons-padding-vertical * 2);
+	color: @buttons-color;
+	text-align: @buttons-text-align;
+	text-transform: @buttons-text-transform;
+	background: @buttons-background;
 	white-space: nowrap;
-	.border-radius(@buttons_border_radius);
-	.transition(all @transition_fast ease-in-out);
+	.border-radius(@buttons-border-radius);
+	.transition(all @transition-fast ease-in-out);
 
 	&:before,
 	&:after {
-		color: @buttons_color;
-		.transition(all @transition_fast ease-in-out);
+		color: @buttons-color;
+		.transition(all @transition-fast ease-in-out);
 	}
 	
 	.icon {
-		.font-size(@buttons_font_size);
+		.font-size(@buttons-font-size);
 		vertical-align: middle;
 	}
 	
 	&:hover,
 	&:focus {
-		color: @buttons_hover_color;
-		background: @buttons_hover_background;
+		color: @buttons-hover-color;
+		background: @buttons-hover-background;
 		
 		&:after {
-			color: @buttons_hover_color;
+			color: @buttons-hover-color;
 		}
 	}
 	
@@ -44,23 +44,23 @@
 
 	//Button Small
 	&.button-small {
-		padding: @buttons_small_padding_vertical @buttons_small_padding_horizontal;
-		height: @buttons_small_height;
-		.font-size(@buttons_small_font_size);
+		padding: @buttons-small-padding-vertical @buttons-small-padding-horizontal;
+		height: @buttons-small-height;
+		.font-size(@buttons-small-font-size);
 	}
 
 	//Button Large
 	&.button-large {
-		padding: @buttons_large_padding_vertical @buttons_large_padding_horizontal;
-		height: @buttons_large_height;
-		.font-size(@buttons_large_font_size);
+		padding: @buttons-large-padding-vertical @buttons-large-padding-horizontal;
+		height: @buttons-large-height;
+		.font-size(@buttons-large-font-size);
 	}
 	
 	//Button Extra Large
 	&.button-extra-large {
-		padding: @buttons_extra_large_padding_vertical @buttons_extra_large_padding_horizontal;
-		height: @buttons_extra_large_height;
-		.font-size(@buttons_extra_large_font_size);
+		padding: @buttons-extra-large-padding-vertical @buttons-extra-large-padding-horizontal;
+		height: @buttons-extra-large-height;
+		.font-size(@buttons-extra-large-font-size);
 	}
 
 		
@@ -71,81 +71,81 @@
 
 	//Button Primary
 	&.button-inverse {
-		color: @buttons_inverse_color;
-		background: @buttons_inverse_background;
+		color: @buttons-inverse-color;
+		background: @buttons-inverse-background;
 		
 		&:after {
-			color: @buttons_inverse_color;
+			color: @buttons-inverse-color;
 		}
 		
 		&:hover,
 		&:focus {
-			color: @buttons_inverse_hover_color;
-			background: @buttons_inverse_hover_background;
+			color: @buttons-inverse-hover-color;
+			background: @buttons-inverse-hover-background;
 			
 			&:after {
-				color: @buttons_inverse_hover_color;
+				color: @buttons-inverse-hover-color;
 			}
 		}
 	}
 	
 	//Text Button
 	&.button-text {
-		padding: @buttons_padding_vertical @buttons_text_padding_horizontal;
-		color: @buttons_text_color;
+		padding: @buttons-padding-vertical @buttons-text-padding-horizontal;
+		color: @buttons-text-color;
 		background: transparent !important;
 		
 		&:after {
-			color: @buttons_text_color;
+			color: @buttons-text-color;
 		}
 		
 		&:hover,
 		&:focus {
-			color: @buttons_text_hover_color;
+			color: @buttons-text-hover-color;
 			
 			&:after {
-				color: @buttons_text_color;
+				color: @buttons-text-color;
 			}
 		}
 	}
 
 	//Button Primary
 	&.button-primary {
-		color: @buttons_primary_color;
-		background: @buttons_primary_background;
+		color: @buttons-primary-color;
+		background: @buttons-primary-background;
 		
 		&:after {
-			color: @buttons_primary_color;
+			color: @buttons-primary-color;
 		}
 		
 		&:hover,
 		&:focus {
-			color: @buttons_primary_hover_color;
-			background: @buttons_primary_hover_background;
+			color: @buttons-primary-hover-color;
+			background: @buttons-primary-hover-background;
 			
 			&:after {
-				color: @buttons_primary_hover_color;
+				color: @buttons-primary-hover-color;
 			}
 		}
 	}
 	
 	//Button Border
 	&.button-border {
-		color: @buttons_border_color;
+		color: @buttons-border-color;
 		background: transparent;
-		border: @buttons_border;
+		border: @buttons-border;
 		
 		&:after {
-			color: @buttons_border_color;
+			color: @buttons-border-color;
 		}
 		
 		&:hover,
 		&:focus {
-			color: @buttons_border_hover_color;
-			border: @buttons_border_hover;
+			color: @buttons-border-hover-color;
+			border: @buttons-border-hover;
 			
 			&:after {
-				color: @buttons_border_hover_color;
+				color: @buttons-border-hover-color;
 			}
 		}
 	}
@@ -161,7 +161,7 @@
 		&:after {
 			position: absolute;
 			top: 50%;
-			font-family: @icon_font_family;
+			font-family: @icon-font-family;
 			line-height: 1;
 			vertical-align: middle;
 		}
@@ -170,29 +170,29 @@
 	//Button Action
 	&.button-action {
 		position: relative;
-		padding-right: @buttons_action_padding_right;
+		padding-right: @buttons-action-padding-right;
 		text-align: left;
 		clear: both;
 
 		&:after {
-			right: @buttons_padding_horizontal - (@buttons_action_icon_size / 2);
-			margin-top: -(@buttons_action_icon_size / 2);
-			font-size: @buttons_action_icon_size;
-			content: @buttons_action_icon;
+			right: @buttons-padding-horizontal - (@buttons-action-icon-size / 2);
+			margin-top: -(@buttons-action-icon-size / 2);
+			font-size: @buttons-action-icon-size;
+			content: @buttons-action-icon;
 		}
 	}
 
 	//Close Button
 	&.button-close {
 		position: relative;
-		padding-right: @buttons_close_size;
+		padding-right: @buttons-close-size;
 		line-height: 1;
 		
 		&:after {
-			right: @buttons_padding_horizontal - (@buttons_close_icon_size / 2);
-			margin-top: -(@buttons_close_icon_size / 2);
-			font-size: @buttons_close_icon_size;
-			content: @buttons_close_icon;
+			right: @buttons-padding-horizontal - (@buttons-close-icon-size / 2);
+			margin-top: -(@buttons-close-icon-size / 2);
+			font-size: @buttons-close-icon-size;
+			content: @buttons-close-icon;
 		}
 	}
 	
@@ -202,41 +202,41 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		margin-top: -(@buttons_play_size / 2);
-		margin-left: -(@buttons_play_size / 2);
-		.square(@buttons_play_size);
+		margin-top: -(@buttons-play-size / 2);
+		margin-left: -(@buttons-play-size / 2);
+		.square(@buttons-play-size);
 		line-height: 1;
 		.border-radius(50%);
 		
 		&:after {
 			left: 50%;
-			margin-top: -(@buttons_play_icon_size / 2);
-			margin-left: -(@buttons_play_icon_size / 2);
-			font-size: @buttons_play_icon_size;
-			content: @buttons_play_icon;
+			margin-top: -(@buttons-play-icon-size / 2);
+			margin-left: -(@buttons-play-icon-size / 2);
+			font-size: @buttons-play-icon-size;
+			content: @buttons-play-icon;
 		}
 	}
 	
 	//File Button
 	&.button-file {
-		@buttons_file_icon_pixel_size: (@buttons_file_icon_size * 10);
-		@padding_right: (@buttons_file_icon_size * 2);
+		@buttons-file-icon-pixel-size: (@buttons-file-icon-size * 10);
+		@padding-right: (@buttons-file-icon-size * 2);
 		
 		position: relative;
-		padding-right: ~"@{padding_right}px";
+		padding-right: ~"@{padding-right}px";
 		text-align: left;
 		clear: both;
 
 		&:after {	
-			@margin_top: -(@buttons_file_icon_pixel_size) / 2;
+			@margin-top: -(@buttons-file-icon-pixel-size) / 2;
 			
 			position: absolute;
 			top: 50%;
-			right: @buttons_padding_horizontal - (@buttons_file_icon_pixel_size / 2);
-			margin-top: ~"@{margin_top}px";
-			font-family: @icon_font_family;
-			.font-size(@buttons_file_icon_size);
-			content: @buttons_file_icon;
+			right: @buttons-padding-horizontal - (@buttons-file-icon-pixel-size / 2);
+			margin-top: ~"@{margin-top}px";
+			font-family: @icon-font-family;
+			.font-size(@buttons-file-icon-size);
+			content: @buttons-file-icon;
 			vertical-align: middle;
 		}
 	}
@@ -249,7 +249,7 @@
 	//Button Block
 	&.button-block {
 		width: 100%;
-		text-align: @buttons_block_text_align;
+		text-align: @buttons-block-text-align;
 		display: block;
 	}
 
@@ -261,7 +261,7 @@
 
 	//Button Disabled
 	&:disabled {
-		color: @button_disabled_color;
-		background: @button_disabled_background;
+		color: @button-disabled-color;
+		background: @button-disabled-background;
 	}
 }

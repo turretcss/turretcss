@@ -3,28 +3,28 @@
 .select {
 	position: relative;
 	display: block;
-	color: @select_background;
+	color: @select-background;
 	
 	//Select
 	select {
 		display: block;
 		margin: 0;
-		padding: @select_padding;
+		padding: @select-padding;
 		width: 100%;
-		height: @select_height;
+		height: @select-height;
 		line-height: 1;
-		font-family: @select_font_family;
-		.font-size(@select_font_size);
-		color: @select_color;
-		background: @select_background;
-		border: @select_border;
+		font-family: @select-font-family;
+		.font-size(@select-font-size);
+		color: @select-color;
+		background: @select-background;
+		border: @select-border;
 		cursor: pointer;
 		outline: 0;
-		.border-radius(@select_border_radius);
+		.border-radius(@select-border-radius);
 		.appearance(none);
 		
 		&.large {
-			padding: @select_large_padding;
+			padding: @select-large-padding;
 		}
 		
 		//Undo the Firefox inner focus ring
@@ -42,13 +42,13 @@
 	//Inverse
 	&.inverse {
 		select {
-			color: @select_inverse_color;
-			border: @select_inverse_border;
-			background-color: @select_inverse_background;
+			color: @select-inverse-color;
+			border: @select-inverse-border;
+			background-color: @select-inverse-background;
 		}
 		
 		&:after {
-			color: @select_inverse_icon_color;
+			color: @select-inverse-icon-color;
 		}
 	}
 	
@@ -58,11 +58,11 @@
 		top: 50%;
 		right: 15px;
 		line-height: 1;
-		margin-top: -(@select_icon_size / 2);
-		content: @select_icon;
-		font-family: @icon_font_family;
-		font-size: @select_icon_size;
-		color: @select_icon_color;
+		margin-top: -(@select-icon-size / 2);
+		content: @select-icon;
+		font-family: @icon-font-family;
+		font-size: @select-icon-size;
+		color: @select-icon-color;
 	}
 }
 
@@ -101,10 +101,10 @@
 		content: '';
 		pointer-events: none;
 		width: 1em;
-		border: @select_border;
+		border: @select-border;
 		border-width: 1px 1px 1px 0px;
-		background: @select_background;
-		.border-radiuses (0, @select_border_radius, 0, @select_border_radius);
+		background: @select-background;
+		.border-radiuses (0, @select-border-radius, 0, @select-border-radius);
 	}
 	
 	.select.large:before {
@@ -112,6 +112,6 @@
 	}
 	
 	.select.inverse:before {
-		background: @select_inverse_background;
+		background: @select-inverse-background;
 	}
 }
