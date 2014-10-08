@@ -6312,7 +6312,8 @@ form .error-message {
 .control {
   position: relative;
   display: block;
-  padding-left: 2rem;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 1.5em;
   color: #6b7681;
   cursor: pointer;
 }
@@ -9339,6 +9340,7 @@ input[type="search"] {
 .select {
   position: relative;
   display: block;
+  margin: 0px 0px 20px 0px;
   color: #ffffff;
 }
 .select select {
@@ -9391,6 +9393,7 @@ input[type="search"] {
   font-family: 'turret';
   font-size: 12px;
   color: #4bb3d6;
+  pointer-events: none;
 }
 @media screen and (min-width:0\0) {
   .select select {
