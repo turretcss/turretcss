@@ -81,7 +81,7 @@ array (
 array (
 	'title' => 'Textarea',
 	'code' => '<label>Textarea</label>
-<textarea cols="30" rows="5" class="span6">Textarea text</textarea>',
+<textarea cols="30" rows="5" placeholder="Textarea text"></textarea>',
 ),
 array (
 	'title' => 'Color Input',
