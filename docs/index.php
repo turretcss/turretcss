@@ -5,26 +5,6 @@
 	<?php include('includes/navigation.php'); ?>
 </aside>
 
-<?php
-/*
-
-	$sections = array(
-		
-		'general' => array(
-			'id' => 'general',
-			'title' => 'General',
-			'file' => null,
-			'description' => null,
-			'code' => null,
-			'' => 'general',
-			'id' => 'general',
-			'id' => 'general',
-		),
-	);
-*/
-
-?>
-
 <main id="content">
 	
 	<?php
@@ -32,7 +12,9 @@
 		include('sections/base/typography.php');
 		include('sections/base/media-queries.php');
 		include('sections/base/icons.php');
+		include('sections/grid/grid.php');
 		include('sections/forms/input.php');
+		include('sections/forms/input-group.php');
 	?>
 
 </main>
