@@ -41,7 +41,7 @@
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #E1E3E8;
+@light-grey: #EDF1F2;
 @grey: #6B7681;
 @dark-grey: #485364;
 
@@ -59,7 +59,7 @@
 @youtube: #BB0000;
 
 //Palette
-@light: #B2C6C9;
+@light: @light-grey;
 @dark: @dark-grey;
 @primary: #4BB3D6;
 @secondary: #3BC0C3;
@@ -203,7 +203,7 @@
 
 //Heading Font Sizes
 @h1-font-size: 5;
-@h2-font-size: 3;
+@h2-font-size: 2.4;
 @h3-font-size: 1.3;
 @h4-font-size: 1.4;
 @h5-font-size: 1.3;
@@ -229,7 +229,7 @@
 @font-size-small: 1;
 
 //Colors
-@headings-color: @grey;
+@headings-color: @dark;
 @copy-color: @grey;
 @paragraph-color: @grey;
 @lead-color: @grey;
@@ -359,9 +359,9 @@
  */
 
 //Label
-@label-margin: 0;
+@label-margin: 10px 0px;
 @label-font-family: @medium-font-family;
-@label-font-size: 1.5;
+@label-font-size: 1.2;
 @label-color: @dark;
 
 //Label Small
@@ -385,13 +385,14 @@
 
 //Input
 @input-height: 40px;
+@input-margin: 0px 0px 20px 0px;
 @input-padding: 8px 12px;
 @input-color: @grey;
 @input-font-family: @regular-font-family;
 @input-font-size: 1.4;
 @input-line-height: @line-height;
 @input-background: @white;
-@input-border: none;
+@input-border: 1px solid @light;
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
 @input-button-small-padding: 10px 15px;
@@ -462,7 +463,7 @@
 @control-indicator-size: 15px;
 @control-indicator-color: @primary;
 @control-indicator-background: @white;
-@control-indicator-border: none;
+@control-indicator-border: @input-border;
 @control-indicator-icon-size: 1.5rem;
 
 //Control Indicator Checked
@@ -470,13 +471,13 @@
 @control-indicator-checked-background: @white;
 
 //Control Label
-@control-label-margin: 0px 0px 0px 20px;
-@control-label-font-family: @headings-font-family;
-@control-label-font-size: 1.5;
-@control-label-color: @dark;
+@control-label-margin: 0px 0px 0px 10px;
+@control-label-font-family: @label-font-family;
+@control-label-font-size: @label-font-size;
+@control-label-color: @label-color;
 
 //Border Radius
-@checkbox-border-radius: @border-radius;
+@checkbox-border-radius: none;
 @radio-border-radius: 50%;
 
 //Control Icons
@@ -494,7 +495,7 @@
 @select-font-size: @input-font-size;
 @select-color: @dark;
 @select-background: @white;
-@select-border: none;
+@select-border: @input-border;
 @select-border-radius: @border-radius;
 
 //Select Large
