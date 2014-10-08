@@ -131,6 +131,70 @@ array (
 	<?php foreach ($inputs as $input) : ?>
 		<h3 class="section-sub-title"><?php echo $input['title']; ?></h3>
 		<form><?php echo $input['code']; ?></form>
-		<pre><code class="hljs html"><?php echo htmlentities($input['code']); ?></code></pre>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities($input['code']); ?></code></pre>
 	<?php endforeach; ?>
+	
+	<h3 class="section-sub-title">Input Sizes</h3>
+	<form>
+		<input class="input-large" type="text" placeholder="Input Large">
+		<input class="input-medium" type="text" placeholder="Input Medium">
+		<input class="input-small" type="text" placeholder="Input Small">
+	</form>
+	
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<input class="input-large" type="text" placeholder="Input Large">
+<input class="input-medium" type="text" placeholder="Input Medium">
+<input class="input-small" type="text" placeholder="Input Small">'); ?></code></pre>
+	
+	<h3 class="section-sub-title">Input Group</h3>
+	<form>
+		<div class="input-group">
+			<input type="text" placeholder="Enter Keyword...">
+			<span class="input-group-button">
+				<button class="button button-primary" type="submit">Submit</button>
+			</span>
+		</div>
+	</form>
+
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="input-group">
+	<input type="text" placeholder="Enter Keyword...">
+	<span class="input-group-button">
+		<button class="button button-primary" type="submit">Submit</button>
+	</span>
+</div>'); ?></code></pre>
+
+	<h3 class="section-sub-title">Input Group Sizes</h3>
+<form role="form">
+	<div class="input-group">
+		<input class="search form-input input-large" type="text" placeholder="Input Group Large">
+		<span class="input-group-button input-group-button-large">
+			<button class="button button-primary" type="submit">Submit</button>
+		</span>
+	</div>
+</form>
+
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="input-group">
+	<input class="search form-input input-large" type="text" placeholder="Enter Keyword...">
+	<span class="input-group-button input-group-button-large">
+		<button class="button button-primary" type="submit">Submit</button>
+	</span>
+</div>'); ?></code></pre>
+
+<h3 class="section-sub-title">Search</h3>
+<form role="form">
+	<div class="input-group">
+		<input class="search form-input" type="search" placeholder="Search">
+		<span class="input-group-button">
+			<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
+		</span>
+	</div>
+</form>
+
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="input-group">
+	<input class="search form-input" type="search" placeholder="Enter Keyword...">
+	<span class="input-group-button">
+		<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
+	</span>
+</div>'); ?></code></pre>
+
+
 </section>
