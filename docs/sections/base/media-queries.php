@@ -38,5 +38,5 @@ $code = '//Orientation
 <section id="media-queries" class="section">
 	<h2 class="section-title">Media Queries</h2>
 	<p>Turret uses the following media queries in LESS files to create the key breakpoints.</p>
-	<pre><code class="hljs css"><?php echo htmlentities($code); ?></code></pre>
+	<pre class="language-css"><code class="language-css"><?php echo htmlentities($code); ?></code></pre>
 </section>

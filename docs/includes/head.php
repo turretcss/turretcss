@@ -9,11 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/document.css" />
 
 	<!-- Syntax Higlighting -->
-	<link rel="stylesheet" href="lib/highlight/styles/github.css">
-	<script src="lib/highlight/highlight.pack.js"></script>
-	<script>
-		hljs.configure({tabReplace: '  '});
-		hljs.initHighlightingOnLoad();
-	</script>
+	<link rel="stylesheet" href="lib/prism.css">
+	<script src="lib/prism.js"></script>
+
 </head>
 <body>

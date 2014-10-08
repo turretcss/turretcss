@@ -31,21 +31,39 @@ body {
 
 //General
 code {
-	padding: 2px 3px;
-	font-size: 12px;
-	color: #DD1648;
-	background: #FAFBFB !important;
+	font-size: 12px !important;
+	background: transparent !important;
 }
 
 pre {
+	padding: 10px !important;
+	background: #FAFBFB !important;
+	border: 1px solid @light;
+	
 	code {
-		padding: 10px !important;
-		font-size: 12px !important;
-		overflow-wrap: break-word;
-		border: 1px solid @light;
-		.border-radius(2px);
+		
 	}
 }
+
+/*
+pre[class*="language-"] {
+	
+	margin: 10px 0px;
+	overflow: auto;
+	
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #FAFBFB;
+}
+
+//Inline code
+:not(pre) > code[class*="language-"] {
+	padding: 2px 3px;
+	.border-radius(2px);
+}
+*/
 
 //Navigation
 .navigation {
