@@ -4,69 +4,6 @@ Author: Bigfish
 URL: http://turret.bigfish.tv
 Version: 2.0
 */
-/*--------------------------------------------------------------------------*/
-/*                               GENERAL                                    */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                                COLORS                                    */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                                 GRID                                     */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                             MEDIA QUERIES                                */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                             TYPOGRAPHY                                   */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                                 ICONS                                    */
-/*--------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------*/
-/*                                FORMS                                     */
-/*--------------------------------------------------------------------------*/
-/*
- * Label
- */
-/*
- * Input
- */
-/*
- * Control
- */
-/*
- * Select
- */
-/*--------------------------------------------------------------------------*/
-/*                               ELEMENTS                                   */
-/*--------------------------------------------------------------------------*/
-/*
- * Blockquote
- */
-/*
- * Buttons
- */
-/*
- * Figure
- */
-/*
- * Image
- */
-/*
- * List
- */
-/*
- * Navigation
- */
-/*
- * Panel
- */
-/*
- * Tables
- */
-/*
- * Video
- */
 /* Animations */
 .animated {
   -webkit-animation-duration: 1s;
@@ -918,9 +855,6 @@ ol {
   margin: 0;
   padding: 0;
 }
-ul {
-  list-style: none;
-}
 /*
  * Utilities
  */
@@ -1071,7 +1005,7 @@ ul {
   background: #485364 !important;
 }
 .background-light {
-  background: #b2c6c9 !important;
+  background: #edf1f2 !important;
 }
 /*
  * Borders
@@ -1098,10 +1032,10 @@ ul {
   border-bottom: 1px solid #485364;
 }
 .border-top-light {
-  border-top: 1px solid #b2c6c9;
+  border-top: 1px solid #edf1f2;
 }
 .border-bottom-light {
-  border-bottom: 1px solid #b2c6c9;
+  border-bottom: 1px solid #edf1f2;
 }
 /*
  * Palette
@@ -1116,7 +1050,7 @@ ul {
   color: #485364 !important;
 }
 .light {
-  color: #b2c6c9 !important;
+  color: #edf1f2 !important;
 }
 /*
  * Gutter Classes
@@ -1602,8 +1536,8 @@ ul {
 /* Icon Font */
 @font-face {
   font-family: 'turret';
-  src: url('../fonts/turret.eot');
-  src: url('../fonts/turret.eot?#iefix') format('embedded-opentype'), url('../fonts/turret.woff') format('woff'), url('../fonts/turret.ttf') format('truetype'), url('../fonts/turret.svg#icons') format('svg');
+  src: url('../../fonts/turret.eot');
+  src: url('../../fonts/turret.eot?#iefix') format('embedded-opentype'), url('../../fonts/turret.woff') format('woff'), url('../../fonts/turret.ttf') format('truetype'), url('../../fonts/turret.svg#icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1894,7 +1828,7 @@ h6 {
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #6b7681;
+  color: #485364;
   line-height: 1.1;
 }
 h1 small,
@@ -1903,7 +1837,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-  color: #b2c6c9;
+  color: #edf1f2;
   font-size: 0.6em;
 }
 h1 {
@@ -1911,8 +1845,8 @@ h1 {
   font-size: 5rem;
 }
 h2 {
-  font-size: 30px;
-  font-size: 3rem;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 h3 {
   font-size: 13px;
@@ -6226,10 +6160,10 @@ form textarea {
 }
 form label {
   display: block;
-  margin: 0;
+  margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   color: #485364;
   line-height: 1.5;
 }
@@ -6266,8 +6200,8 @@ form fieldset .all-select input[type="checkbox"] {
 }
 form fieldset legend {
   display: inline-block;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   color: #4bb3d6;
   font-size: 120pxpx;
   font-size: 12pxrem;
@@ -6315,7 +6249,8 @@ form .error-message {
 .control {
   position: relative;
   display: block;
-  padding-left: 2rem;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 1.5em;
   color: #6b7681;
   cursor: pointer;
 }
@@ -6339,17 +6274,17 @@ form .error-message {
   background-size: 50% 50%;
   background-position: center center;
   background-repeat: no-repeat;
-  border: none;
+  border: 1px solid #edf1f2;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 .control .control-label {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   color: #485364;
   line-height: 1;
 }
@@ -6367,9 +6302,9 @@ form .error-message {
   font-size: 1.5rem;
 }
 .control.checkbox .control-indicator {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
 }
 .control.checkbox input:checked ~ .control-indicator:before {
   content: "\e646";
@@ -6512,18 +6447,26 @@ input[type="search"],
 input[type="email"],
 input[type="password"],
 input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="datetime"],
+input[type="datetime-local"],
 textarea,
 .form-input {
   display: block;
   width: 100%;
   height: 40px;
+  margin: 0px 0px 20px 0px;
   padding: 8px 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
   line-height: 1.5;
-  border: none;
+  border: 1px solid #edf1f2;
   background-color: #ffffff;
   background-image: none;
   -webkit-border-radius: 6px;
@@ -6538,1876 +6481,6 @@ textarea,
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type="text"]:-moz-placeholder,
-input[type="search"]:-moz-placeholder,
-input[type="email"]:-moz-placeholder,
-input[type="password"]:-moz-placeholder,
-input[type="number"]:-moz-placeholder,
-textarea:-moz-placeholder,
-.form-input:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"]:focus:-moz-placeholder,
-input[type="search"]:focus:-moz-placeholder,
-input[type="email"]:focus:-moz-placeholder,
-input[type="password"]:focus:-moz-placeholder,
-input[type="number"]:focus:-moz-placeholder,
-textarea:focus:-moz-placeholder,
-.form-input:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"]::-moz-placeholder,
-input[type="search"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder,
-input[type="password"]::-moz-placeholder,
-input[type="number"]::-moz-placeholder,
-textarea::-moz-placeholder,
-.form-input::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"]:focus::-moz-placeholder,
-input[type="search"]:focus::-moz-placeholder,
-input[type="email"]:focus::-moz-placeholder,
-input[type="password"]:focus::-moz-placeholder,
-input[type="number"]:focus::-moz-placeholder,
-textarea:focus::-moz-placeholder,
-.form-input:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"]:-ms-input-placeholder,
-input[type="search"]:-ms-input-placeholder,
-input[type="email"]:-ms-input-placeholder,
-input[type="password"]:-ms-input-placeholder,
-input[type="number"]:-ms-input-placeholder,
-textarea:-ms-input-placeholder,
-.form-input:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"]:focus:-ms-input-placeholder,
-input[type="search"]:focus:-ms-input-placeholder,
-input[type="email"]:focus:-ms-input-placeholder,
-input[type="password"]:focus:-ms-input-placeholder,
-input[type="number"]:focus:-ms-input-placeholder,
-textarea:focus:-ms-input-placeholder,
-.form-input:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"]::-webkit-input-placeholder,
-input[type="search"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder,
-input[type="password"]::-webkit-input-placeholder,
-input[type="number"]::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder,
-.form-input::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"]:focus::-webkit-input-placeholder,
-input[type="search"]:focus::-webkit-input-placeholder,
-input[type="email"]:focus::-webkit-input-placeholder,
-input[type="password"]:focus::-webkit-input-placeholder,
-input[type="number"]:focus::-webkit-input-placeholder,
-textarea:focus::-webkit-input-placeholder,
-.form-input:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"]:disabled,
-input[type="search"]:disabled,
-input[type="email"]:disabled,
-input[type="password"]:disabled,
-input[type="number"]:disabled,
-textarea:disabled,
-.form-input:disabled {
-  background: #e1e3e8;
-}
-input[type="text"]:focus,
-input[type="search"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="number"]:focus,
-textarea:focus,
-.form-input:focus {
-  border: none;
-  background: #ffffff;
-}
-input[type="text"]:focus.inverse,
-input[type="search"]:focus.inverse,
-input[type="email"]:focus.inverse,
-input[type="password"]:focus.inverse,
-input[type="number"]:focus.inverse,
-textarea:focus.inverse,
-.form-input:focus.inverse {
-  color: #ffffff;
-  border: none;
-  background: #6b7681;
-}
-input[type="text"] .form-error,
-input[type="search"] .form-error,
-input[type="email"] .form-error,
-input[type="password"] .form-error,
-input[type="number"] .form-error,
-textarea .form-error,
-.form-input .form-error {
-  color: #6b7681;
-  border-color: #f05a5c;
-}
-input[type="text"].input-small,
-input[type="search"].input-small,
-input[type="email"].input-small,
-input[type="password"].input-small,
-input[type="number"].input-small,
-textarea.input-small,
-.form-input.input-small {
-  font-size: 10px;
-  font-size: 1rem;
-  height: 30px;
-  padding: 10px;
-}
-input[type="text"].input-small:-moz-placeholder,
-input[type="search"].input-small:-moz-placeholder,
-input[type="email"].input-small:-moz-placeholder,
-input[type="password"].input-small:-moz-placeholder,
-input[type="number"].input-small:-moz-placeholder,
-textarea.input-small:-moz-placeholder,
-.form-input.input-small:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-small:focus:-moz-placeholder,
-input[type="search"].input-small:focus:-moz-placeholder,
-input[type="email"].input-small:focus:-moz-placeholder,
-input[type="password"].input-small:focus:-moz-placeholder,
-input[type="number"].input-small:focus:-moz-placeholder,
-textarea.input-small:focus:-moz-placeholder,
-.form-input.input-small:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-small::-moz-placeholder,
-input[type="search"].input-small::-moz-placeholder,
-input[type="email"].input-small::-moz-placeholder,
-input[type="password"].input-small::-moz-placeholder,
-input[type="number"].input-small::-moz-placeholder,
-textarea.input-small::-moz-placeholder,
-.form-input.input-small::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-small:focus::-moz-placeholder,
-input[type="search"].input-small:focus::-moz-placeholder,
-input[type="email"].input-small:focus::-moz-placeholder,
-input[type="password"].input-small:focus::-moz-placeholder,
-input[type="number"].input-small:focus::-moz-placeholder,
-textarea.input-small:focus::-moz-placeholder,
-.form-input.input-small:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-small:-ms-input-placeholder,
-input[type="search"].input-small:-ms-input-placeholder,
-input[type="email"].input-small:-ms-input-placeholder,
-input[type="password"].input-small:-ms-input-placeholder,
-input[type="number"].input-small:-ms-input-placeholder,
-textarea.input-small:-ms-input-placeholder,
-.form-input.input-small:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-small:focus:-ms-input-placeholder,
-input[type="search"].input-small:focus:-ms-input-placeholder,
-input[type="email"].input-small:focus:-ms-input-placeholder,
-input[type="password"].input-small:focus:-ms-input-placeholder,
-input[type="number"].input-small:focus:-ms-input-placeholder,
-textarea.input-small:focus:-ms-input-placeholder,
-.form-input.input-small:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-small::-webkit-input-placeholder,
-input[type="search"].input-small::-webkit-input-placeholder,
-input[type="email"].input-small::-webkit-input-placeholder,
-input[type="password"].input-small::-webkit-input-placeholder,
-input[type="number"].input-small::-webkit-input-placeholder,
-textarea.input-small::-webkit-input-placeholder,
-.form-input.input-small::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-small:focus::-webkit-input-placeholder,
-input[type="search"].input-small:focus::-webkit-input-placeholder,
-input[type="email"].input-small:focus::-webkit-input-placeholder,
-input[type="password"].input-small:focus::-webkit-input-placeholder,
-input[type="number"].input-small:focus::-webkit-input-placeholder,
-textarea.input-small:focus::-webkit-input-placeholder,
-.form-input.input-small:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium,
-input[type="search"].input-medium,
-input[type="email"].input-medium,
-input[type="password"].input-medium,
-input[type="number"].input-medium,
-textarea.input-medium,
-.form-input.input-medium {
-  font-size: 14px;
-  font-size: 1.4rem;
-  height: 40px;
-  padding: 8px 12px;
-}
-input[type="text"].input-medium:-moz-placeholder,
-input[type="search"].input-medium:-moz-placeholder,
-input[type="email"].input-medium:-moz-placeholder,
-input[type="password"].input-medium:-moz-placeholder,
-input[type="number"].input-medium:-moz-placeholder,
-textarea.input-medium:-moz-placeholder,
-.form-input.input-medium:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium:focus:-moz-placeholder,
-input[type="search"].input-medium:focus:-moz-placeholder,
-input[type="email"].input-medium:focus:-moz-placeholder,
-input[type="password"].input-medium:focus:-moz-placeholder,
-input[type="number"].input-medium:focus:-moz-placeholder,
-textarea.input-medium:focus:-moz-placeholder,
-.form-input.input-medium:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium::-moz-placeholder,
-input[type="search"].input-medium::-moz-placeholder,
-input[type="email"].input-medium::-moz-placeholder,
-input[type="password"].input-medium::-moz-placeholder,
-input[type="number"].input-medium::-moz-placeholder,
-textarea.input-medium::-moz-placeholder,
-.form-input.input-medium::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium:focus::-moz-placeholder,
-input[type="search"].input-medium:focus::-moz-placeholder,
-input[type="email"].input-medium:focus::-moz-placeholder,
-input[type="password"].input-medium:focus::-moz-placeholder,
-input[type="number"].input-medium:focus::-moz-placeholder,
-textarea.input-medium:focus::-moz-placeholder,
-.form-input.input-medium:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium:-ms-input-placeholder,
-input[type="search"].input-medium:-ms-input-placeholder,
-input[type="email"].input-medium:-ms-input-placeholder,
-input[type="password"].input-medium:-ms-input-placeholder,
-input[type="number"].input-medium:-ms-input-placeholder,
-textarea.input-medium:-ms-input-placeholder,
-.form-input.input-medium:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium:focus:-ms-input-placeholder,
-input[type="search"].input-medium:focus:-ms-input-placeholder,
-input[type="email"].input-medium:focus:-ms-input-placeholder,
-input[type="password"].input-medium:focus:-ms-input-placeholder,
-input[type="number"].input-medium:focus:-ms-input-placeholder,
-textarea.input-medium:focus:-ms-input-placeholder,
-.form-input.input-medium:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium::-webkit-input-placeholder,
-input[type="search"].input-medium::-webkit-input-placeholder,
-input[type="email"].input-medium::-webkit-input-placeholder,
-input[type="password"].input-medium::-webkit-input-placeholder,
-input[type="number"].input-medium::-webkit-input-placeholder,
-textarea.input-medium::-webkit-input-placeholder,
-.form-input.input-medium::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium:focus::-webkit-input-placeholder,
-input[type="search"].input-medium:focus::-webkit-input-placeholder,
-input[type="email"].input-medium:focus::-webkit-input-placeholder,
-input[type="password"].input-medium:focus::-webkit-input-placeholder,
-input[type="number"].input-medium:focus::-webkit-input-placeholder,
-textarea.input-medium:focus::-webkit-input-placeholder,
-.form-input.input-medium:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.inverse:-moz-placeholder,
-input[type="search"].input-medium.inverse:-moz-placeholder,
-input[type="email"].input-medium.inverse:-moz-placeholder,
-input[type="password"].input-medium.inverse:-moz-placeholder,
-input[type="number"].input-medium.inverse:-moz-placeholder,
-textarea.input-medium.inverse:-moz-placeholder,
-.form-input.input-medium.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus:-moz-placeholder,
-input[type="search"].input-medium.inverse:focus:-moz-placeholder,
-input[type="email"].input-medium.inverse:focus:-moz-placeholder,
-input[type="password"].input-medium.inverse:focus:-moz-placeholder,
-input[type="number"].input-medium.inverse:focus:-moz-placeholder,
-textarea.input-medium.inverse:focus:-moz-placeholder,
-.form-input.input-medium.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse::-moz-placeholder,
-input[type="search"].input-medium.inverse::-moz-placeholder,
-input[type="email"].input-medium.inverse::-moz-placeholder,
-input[type="password"].input-medium.inverse::-moz-placeholder,
-input[type="number"].input-medium.inverse::-moz-placeholder,
-textarea.input-medium.inverse::-moz-placeholder,
-.form-input.input-medium.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus::-moz-placeholder,
-input[type="search"].input-medium.inverse:focus::-moz-placeholder,
-input[type="email"].input-medium.inverse:focus::-moz-placeholder,
-input[type="password"].input-medium.inverse:focus::-moz-placeholder,
-input[type="number"].input-medium.inverse:focus::-moz-placeholder,
-textarea.input-medium.inverse:focus::-moz-placeholder,
-.form-input.input-medium.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse:-ms-input-placeholder,
-input[type="search"].input-medium.inverse:-ms-input-placeholder,
-input[type="email"].input-medium.inverse:-ms-input-placeholder,
-input[type="password"].input-medium.inverse:-ms-input-placeholder,
-input[type="number"].input-medium.inverse:-ms-input-placeholder,
-textarea.input-medium.inverse:-ms-input-placeholder,
-.form-input.input-medium.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-medium.inverse:focus:-ms-input-placeholder,
-textarea.input-medium.inverse:focus:-ms-input-placeholder,
-.form-input.input-medium.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse::-webkit-input-placeholder,
-input[type="search"].input-medium.inverse::-webkit-input-placeholder,
-input[type="email"].input-medium.inverse::-webkit-input-placeholder,
-input[type="password"].input-medium.inverse::-webkit-input-placeholder,
-input[type="number"].input-medium.inverse::-webkit-input-placeholder,
-textarea.input-medium.inverse::-webkit-input-placeholder,
-.form-input.input-medium.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-medium.inverse:focus::-webkit-input-placeholder,
-textarea.input-medium.inverse:focus::-webkit-input-placeholder,
-.form-input.input-medium.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.input-date:-moz-placeholder,
-input[type="search"].input-medium.input-date:-moz-placeholder,
-input[type="email"].input-medium.input-date:-moz-placeholder,
-input[type="password"].input-medium.input-date:-moz-placeholder,
-input[type="number"].input-medium.input-date:-moz-placeholder,
-textarea.input-medium.input-date:-moz-placeholder,
-.form-input.input-medium.input-date:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus:-moz-placeholder,
-input[type="search"].input-medium.input-date:focus:-moz-placeholder,
-input[type="email"].input-medium.input-date:focus:-moz-placeholder,
-input[type="password"].input-medium.input-date:focus:-moz-placeholder,
-input[type="number"].input-medium.input-date:focus:-moz-placeholder,
-textarea.input-medium.input-date:focus:-moz-placeholder,
-.form-input.input-medium.input-date:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date::-moz-placeholder,
-input[type="search"].input-medium.input-date::-moz-placeholder,
-input[type="email"].input-medium.input-date::-moz-placeholder,
-input[type="password"].input-medium.input-date::-moz-placeholder,
-input[type="number"].input-medium.input-date::-moz-placeholder,
-textarea.input-medium.input-date::-moz-placeholder,
-.form-input.input-medium.input-date::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus::-moz-placeholder,
-input[type="search"].input-medium.input-date:focus::-moz-placeholder,
-input[type="email"].input-medium.input-date:focus::-moz-placeholder,
-input[type="password"].input-medium.input-date:focus::-moz-placeholder,
-input[type="number"].input-medium.input-date:focus::-moz-placeholder,
-textarea.input-medium.input-date:focus::-moz-placeholder,
-.form-input.input-medium.input-date:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date:-ms-input-placeholder,
-input[type="search"].input-medium.input-date:-ms-input-placeholder,
-input[type="email"].input-medium.input-date:-ms-input-placeholder,
-input[type="password"].input-medium.input-date:-ms-input-placeholder,
-input[type="number"].input-medium.input-date:-ms-input-placeholder,
-textarea.input-medium.input-date:-ms-input-placeholder,
-.form-input.input-medium.input-date:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="search"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="email"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="password"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="number"].input-medium.input-date:focus:-ms-input-placeholder,
-textarea.input-medium.input-date:focus:-ms-input-placeholder,
-.form-input.input-medium.input-date:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date::-webkit-input-placeholder,
-input[type="search"].input-medium.input-date::-webkit-input-placeholder,
-input[type="email"].input-medium.input-date::-webkit-input-placeholder,
-input[type="password"].input-medium.input-date::-webkit-input-placeholder,
-input[type="number"].input-medium.input-date::-webkit-input-placeholder,
-textarea.input-medium.input-date::-webkit-input-placeholder,
-.form-input.input-medium.input-date::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="search"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="email"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="password"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="number"].input-medium.input-date:focus::-webkit-input-placeholder,
-textarea.input-medium.input-date:focus::-webkit-input-placeholder,
-.form-input.input-medium.input-date:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large,
-input[type="search"].input-large,
-input[type="email"].input-large,
-input[type="password"].input-large,
-input[type="number"].input-large,
-textarea.input-large,
-.form-input.input-large {
-  font-size: 16px;
-  font-size: 1.6rem;
-  height: 50px;
-  line-height: 30px;
-  padding: 10px 20px;
-}
-input[type="text"].input-large:-moz-placeholder,
-input[type="search"].input-large:-moz-placeholder,
-input[type="email"].input-large:-moz-placeholder,
-input[type="password"].input-large:-moz-placeholder,
-input[type="number"].input-large:-moz-placeholder,
-textarea.input-large:-moz-placeholder,
-.form-input.input-large:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large:focus:-moz-placeholder,
-input[type="search"].input-large:focus:-moz-placeholder,
-input[type="email"].input-large:focus:-moz-placeholder,
-input[type="password"].input-large:focus:-moz-placeholder,
-input[type="number"].input-large:focus:-moz-placeholder,
-textarea.input-large:focus:-moz-placeholder,
-.form-input.input-large:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large::-moz-placeholder,
-input[type="search"].input-large::-moz-placeholder,
-input[type="email"].input-large::-moz-placeholder,
-input[type="password"].input-large::-moz-placeholder,
-input[type="number"].input-large::-moz-placeholder,
-textarea.input-large::-moz-placeholder,
-.form-input.input-large::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large:focus::-moz-placeholder,
-input[type="search"].input-large:focus::-moz-placeholder,
-input[type="email"].input-large:focus::-moz-placeholder,
-input[type="password"].input-large:focus::-moz-placeholder,
-input[type="number"].input-large:focus::-moz-placeholder,
-textarea.input-large:focus::-moz-placeholder,
-.form-input.input-large:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large:-ms-input-placeholder,
-input[type="search"].input-large:-ms-input-placeholder,
-input[type="email"].input-large:-ms-input-placeholder,
-input[type="password"].input-large:-ms-input-placeholder,
-input[type="number"].input-large:-ms-input-placeholder,
-textarea.input-large:-ms-input-placeholder,
-.form-input.input-large:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large:focus:-ms-input-placeholder,
-input[type="search"].input-large:focus:-ms-input-placeholder,
-input[type="email"].input-large:focus:-ms-input-placeholder,
-input[type="password"].input-large:focus:-ms-input-placeholder,
-input[type="number"].input-large:focus:-ms-input-placeholder,
-textarea.input-large:focus:-ms-input-placeholder,
-.form-input.input-large:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large::-webkit-input-placeholder,
-input[type="search"].input-large::-webkit-input-placeholder,
-input[type="email"].input-large::-webkit-input-placeholder,
-input[type="password"].input-large::-webkit-input-placeholder,
-input[type="number"].input-large::-webkit-input-placeholder,
-textarea.input-large::-webkit-input-placeholder,
-.form-input.input-large::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large:focus::-webkit-input-placeholder,
-input[type="search"].input-large:focus::-webkit-input-placeholder,
-input[type="email"].input-large:focus::-webkit-input-placeholder,
-input[type="password"].input-large:focus::-webkit-input-placeholder,
-input[type="number"].input-large:focus::-webkit-input-placeholder,
-textarea.input-large:focus::-webkit-input-placeholder,
-.form-input.input-large:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.inverse:-moz-placeholder,
-input[type="search"].input-large.inverse:-moz-placeholder,
-input[type="email"].input-large.inverse:-moz-placeholder,
-input[type="password"].input-large.inverse:-moz-placeholder,
-input[type="number"].input-large.inverse:-moz-placeholder,
-textarea.input-large.inverse:-moz-placeholder,
-.form-input.input-large.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus:-moz-placeholder,
-input[type="search"].input-large.inverse:focus:-moz-placeholder,
-input[type="email"].input-large.inverse:focus:-moz-placeholder,
-input[type="password"].input-large.inverse:focus:-moz-placeholder,
-input[type="number"].input-large.inverse:focus:-moz-placeholder,
-textarea.input-large.inverse:focus:-moz-placeholder,
-.form-input.input-large.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse::-moz-placeholder,
-input[type="search"].input-large.inverse::-moz-placeholder,
-input[type="email"].input-large.inverse::-moz-placeholder,
-input[type="password"].input-large.inverse::-moz-placeholder,
-input[type="number"].input-large.inverse::-moz-placeholder,
-textarea.input-large.inverse::-moz-placeholder,
-.form-input.input-large.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus::-moz-placeholder,
-input[type="search"].input-large.inverse:focus::-moz-placeholder,
-input[type="email"].input-large.inverse:focus::-moz-placeholder,
-input[type="password"].input-large.inverse:focus::-moz-placeholder,
-input[type="number"].input-large.inverse:focus::-moz-placeholder,
-textarea.input-large.inverse:focus::-moz-placeholder,
-.form-input.input-large.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse:-ms-input-placeholder,
-input[type="search"].input-large.inverse:-ms-input-placeholder,
-input[type="email"].input-large.inverse:-ms-input-placeholder,
-input[type="password"].input-large.inverse:-ms-input-placeholder,
-input[type="number"].input-large.inverse:-ms-input-placeholder,
-textarea.input-large.inverse:-ms-input-placeholder,
-.form-input.input-large.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-large.inverse:focus:-ms-input-placeholder,
-textarea.input-large.inverse:focus:-ms-input-placeholder,
-.form-input.input-large.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse::-webkit-input-placeholder,
-input[type="search"].input-large.inverse::-webkit-input-placeholder,
-input[type="email"].input-large.inverse::-webkit-input-placeholder,
-input[type="password"].input-large.inverse::-webkit-input-placeholder,
-input[type="number"].input-large.inverse::-webkit-input-placeholder,
-textarea.input-large.inverse::-webkit-input-placeholder,
-.form-input.input-large.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-large.inverse:focus::-webkit-input-placeholder,
-textarea.input-large.inverse:focus::-webkit-input-placeholder,
-.form-input.input-large.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.input-date:-moz-placeholder,
-input[type="search"].input-large.input-date:-moz-placeholder,
-input[type="email"].input-large.input-date:-moz-placeholder,
-input[type="password"].input-large.input-date:-moz-placeholder,
-input[type="number"].input-large.input-date:-moz-placeholder,
-textarea.input-large.input-date:-moz-placeholder,
-.form-input.input-large.input-date:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus:-moz-placeholder,
-input[type="search"].input-large.input-date:focus:-moz-placeholder,
-input[type="email"].input-large.input-date:focus:-moz-placeholder,
-input[type="password"].input-large.input-date:focus:-moz-placeholder,
-input[type="number"].input-large.input-date:focus:-moz-placeholder,
-textarea.input-large.input-date:focus:-moz-placeholder,
-.form-input.input-large.input-date:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date::-moz-placeholder,
-input[type="search"].input-large.input-date::-moz-placeholder,
-input[type="email"].input-large.input-date::-moz-placeholder,
-input[type="password"].input-large.input-date::-moz-placeholder,
-input[type="number"].input-large.input-date::-moz-placeholder,
-textarea.input-large.input-date::-moz-placeholder,
-.form-input.input-large.input-date::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus::-moz-placeholder,
-input[type="search"].input-large.input-date:focus::-moz-placeholder,
-input[type="email"].input-large.input-date:focus::-moz-placeholder,
-input[type="password"].input-large.input-date:focus::-moz-placeholder,
-input[type="number"].input-large.input-date:focus::-moz-placeholder,
-textarea.input-large.input-date:focus::-moz-placeholder,
-.form-input.input-large.input-date:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date:-ms-input-placeholder,
-input[type="search"].input-large.input-date:-ms-input-placeholder,
-input[type="email"].input-large.input-date:-ms-input-placeholder,
-input[type="password"].input-large.input-date:-ms-input-placeholder,
-input[type="number"].input-large.input-date:-ms-input-placeholder,
-textarea.input-large.input-date:-ms-input-placeholder,
-.form-input.input-large.input-date:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="search"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="email"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="password"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
-textarea.input-large.input-date:focus:-ms-input-placeholder,
-.form-input.input-large.input-date:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date::-webkit-input-placeholder,
-input[type="search"].input-large.input-date::-webkit-input-placeholder,
-input[type="email"].input-large.input-date::-webkit-input-placeholder,
-input[type="password"].input-large.input-date::-webkit-input-placeholder,
-input[type="number"].input-large.input-date::-webkit-input-placeholder,
-textarea.input-large.input-date::-webkit-input-placeholder,
-.form-input.input-large.input-date::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="search"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="email"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="password"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
-textarea.input-large.input-date:focus::-webkit-input-placeholder,
-.form-input.input-large.input-date:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-@media (max-width:  1024px) {
-  input[type="text"].input-large,
-  input[type="search"].input-large,
-  input[type="email"].input-large,
-  input[type="password"].input-large,
-  input[type="number"].input-large,
-  textarea.input-large,
-  .form-input.input-large {
-    font-size: 14px;
-    font-size: 1.4rem;
-    height: 40px;
-    padding: 8px 12px;
-  }
-  input[type="text"].input-large:-moz-placeholder,
-  input[type="search"].input-large:-moz-placeholder,
-  input[type="email"].input-large:-moz-placeholder,
-  input[type="password"].input-large:-moz-placeholder,
-  input[type="number"].input-large:-moz-placeholder,
-  textarea.input-large:-moz-placeholder,
-  .form-input.input-large:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus:-moz-placeholder,
-  input[type="search"].input-large:focus:-moz-placeholder,
-  input[type="email"].input-large:focus:-moz-placeholder,
-  input[type="password"].input-large:focus:-moz-placeholder,
-  input[type="number"].input-large:focus:-moz-placeholder,
-  textarea.input-large:focus:-moz-placeholder,
-  .form-input.input-large:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large::-moz-placeholder,
-  input[type="search"].input-large::-moz-placeholder,
-  input[type="email"].input-large::-moz-placeholder,
-  input[type="password"].input-large::-moz-placeholder,
-  input[type="number"].input-large::-moz-placeholder,
-  textarea.input-large::-moz-placeholder,
-  .form-input.input-large::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus::-moz-placeholder,
-  input[type="search"].input-large:focus::-moz-placeholder,
-  input[type="email"].input-large:focus::-moz-placeholder,
-  input[type="password"].input-large:focus::-moz-placeholder,
-  input[type="number"].input-large:focus::-moz-placeholder,
-  textarea.input-large:focus::-moz-placeholder,
-  .form-input.input-large:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large:-ms-input-placeholder,
-  input[type="search"].input-large:-ms-input-placeholder,
-  input[type="email"].input-large:-ms-input-placeholder,
-  input[type="password"].input-large:-ms-input-placeholder,
-  input[type="number"].input-large:-ms-input-placeholder,
-  textarea.input-large:-ms-input-placeholder,
-  .form-input.input-large:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus:-ms-input-placeholder,
-  input[type="search"].input-large:focus:-ms-input-placeholder,
-  input[type="email"].input-large:focus:-ms-input-placeholder,
-  input[type="password"].input-large:focus:-ms-input-placeholder,
-  input[type="number"].input-large:focus:-ms-input-placeholder,
-  textarea.input-large:focus:-ms-input-placeholder,
-  .form-input.input-large:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large::-webkit-input-placeholder,
-  input[type="search"].input-large::-webkit-input-placeholder,
-  input[type="email"].input-large::-webkit-input-placeholder,
-  input[type="password"].input-large::-webkit-input-placeholder,
-  input[type="number"].input-large::-webkit-input-placeholder,
-  textarea.input-large::-webkit-input-placeholder,
-  .form-input.input-large::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus::-webkit-input-placeholder,
-  input[type="search"].input-large:focus::-webkit-input-placeholder,
-  input[type="email"].input-large:focus::-webkit-input-placeholder,
-  input[type="password"].input-large:focus::-webkit-input-placeholder,
-  input[type="number"].input-large:focus::-webkit-input-placeholder,
-  textarea.input-large:focus::-webkit-input-placeholder,
-  .form-input.input-large:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.inverse:-moz-placeholder,
-  input[type="search"].input-large.inverse:-moz-placeholder,
-  input[type="email"].input-large.inverse:-moz-placeholder,
-  input[type="password"].input-large.inverse:-moz-placeholder,
-  input[type="number"].input-large.inverse:-moz-placeholder,
-  textarea.input-large.inverse:-moz-placeholder,
-  .form-input.input-large.inverse:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus:-moz-placeholder,
-  input[type="search"].input-large.inverse:focus:-moz-placeholder,
-  input[type="email"].input-large.inverse:focus:-moz-placeholder,
-  input[type="password"].input-large.inverse:focus:-moz-placeholder,
-  input[type="number"].input-large.inverse:focus:-moz-placeholder,
-  textarea.input-large.inverse:focus:-moz-placeholder,
-  .form-input.input-large.inverse:focus:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse::-moz-placeholder,
-  input[type="search"].input-large.inverse::-moz-placeholder,
-  input[type="email"].input-large.inverse::-moz-placeholder,
-  input[type="password"].input-large.inverse::-moz-placeholder,
-  input[type="number"].input-large.inverse::-moz-placeholder,
-  textarea.input-large.inverse::-moz-placeholder,
-  .form-input.input-large.inverse::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus::-moz-placeholder,
-  input[type="search"].input-large.inverse:focus::-moz-placeholder,
-  input[type="email"].input-large.inverse:focus::-moz-placeholder,
-  input[type="password"].input-large.inverse:focus::-moz-placeholder,
-  input[type="number"].input-large.inverse:focus::-moz-placeholder,
-  textarea.input-large.inverse:focus::-moz-placeholder,
-  .form-input.input-large.inverse:focus::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse:-ms-input-placeholder,
-  input[type="search"].input-large.inverse:-ms-input-placeholder,
-  input[type="email"].input-large.inverse:-ms-input-placeholder,
-  input[type="password"].input-large.inverse:-ms-input-placeholder,
-  input[type="number"].input-large.inverse:-ms-input-placeholder,
-  textarea.input-large.inverse:-ms-input-placeholder,
-  .form-input.input-large.inverse:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="search"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="email"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="password"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="number"].input-large.inverse:focus:-ms-input-placeholder,
-  textarea.input-large.inverse:focus:-ms-input-placeholder,
-  .form-input.input-large.inverse:focus:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse::-webkit-input-placeholder,
-  input[type="search"].input-large.inverse::-webkit-input-placeholder,
-  input[type="email"].input-large.inverse::-webkit-input-placeholder,
-  input[type="password"].input-large.inverse::-webkit-input-placeholder,
-  input[type="number"].input-large.inverse::-webkit-input-placeholder,
-  textarea.input-large.inverse::-webkit-input-placeholder,
-  .form-input.input-large.inverse::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="search"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="email"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="password"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="number"].input-large.inverse:focus::-webkit-input-placeholder,
-  textarea.input-large.inverse:focus::-webkit-input-placeholder,
-  .form-input.input-large.inverse:focus::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.input-date:-moz-placeholder,
-  input[type="search"].input-large.input-date:-moz-placeholder,
-  input[type="email"].input-large.input-date:-moz-placeholder,
-  input[type="password"].input-large.input-date:-moz-placeholder,
-  input[type="number"].input-large.input-date:-moz-placeholder,
-  textarea.input-large.input-date:-moz-placeholder,
-  .form-input.input-large.input-date:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus:-moz-placeholder,
-  input[type="search"].input-large.input-date:focus:-moz-placeholder,
-  input[type="email"].input-large.input-date:focus:-moz-placeholder,
-  input[type="password"].input-large.input-date:focus:-moz-placeholder,
-  input[type="number"].input-large.input-date:focus:-moz-placeholder,
-  textarea.input-large.input-date:focus:-moz-placeholder,
-  .form-input.input-large.input-date:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date::-moz-placeholder,
-  input[type="search"].input-large.input-date::-moz-placeholder,
-  input[type="email"].input-large.input-date::-moz-placeholder,
-  input[type="password"].input-large.input-date::-moz-placeholder,
-  input[type="number"].input-large.input-date::-moz-placeholder,
-  textarea.input-large.input-date::-moz-placeholder,
-  .form-input.input-large.input-date::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus::-moz-placeholder,
-  input[type="search"].input-large.input-date:focus::-moz-placeholder,
-  input[type="email"].input-large.input-date:focus::-moz-placeholder,
-  input[type="password"].input-large.input-date:focus::-moz-placeholder,
-  input[type="number"].input-large.input-date:focus::-moz-placeholder,
-  textarea.input-large.input-date:focus::-moz-placeholder,
-  .form-input.input-large.input-date:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date:-ms-input-placeholder,
-  input[type="search"].input-large.input-date:-ms-input-placeholder,
-  input[type="email"].input-large.input-date:-ms-input-placeholder,
-  input[type="password"].input-large.input-date:-ms-input-placeholder,
-  input[type="number"].input-large.input-date:-ms-input-placeholder,
-  textarea.input-large.input-date:-ms-input-placeholder,
-  .form-input.input-large.input-date:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="search"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="email"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="password"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
-  textarea.input-large.input-date:focus:-ms-input-placeholder,
-  .form-input.input-large.input-date:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date::-webkit-input-placeholder,
-  input[type="search"].input-large.input-date::-webkit-input-placeholder,
-  input[type="email"].input-large.input-date::-webkit-input-placeholder,
-  input[type="password"].input-large.input-date::-webkit-input-placeholder,
-  input[type="number"].input-large.input-date::-webkit-input-placeholder,
-  textarea.input-large.input-date::-webkit-input-placeholder,
-  .form-input.input-large.input-date::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="search"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="email"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="password"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
-  textarea.input-large.input-date:focus::-webkit-input-placeholder,
-  .form-input.input-large.input-date:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-}
-input[type="text"].input-extra-large,
-input[type="search"].input-extra-large,
-input[type="email"].input-extra-large,
-input[type="password"].input-extra-large,
-input[type="number"].input-extra-large,
-textarea.input-extra-large,
-.form-input.input-extra-large {
-  font-size: 18px;
-  font-size: 1.8rem;
-  height: 65px;
-  line-height: 45px;
-  padding: 10px 30px;
-}
-input[type="text"].input-extra-large:-moz-placeholder,
-input[type="search"].input-extra-large:-moz-placeholder,
-input[type="email"].input-extra-large:-moz-placeholder,
-input[type="password"].input-extra-large:-moz-placeholder,
-input[type="number"].input-extra-large:-moz-placeholder,
-textarea.input-extra-large:-moz-placeholder,
-.form-input.input-extra-large:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: #6b7681;
-  line-height: 45px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large:focus:-moz-placeholder,
-input[type="search"].input-extra-large:focus:-moz-placeholder,
-input[type="email"].input-extra-large:focus:-moz-placeholder,
-input[type="password"].input-extra-large:focus:-moz-placeholder,
-input[type="number"].input-extra-large:focus:-moz-placeholder,
-textarea.input-extra-large:focus:-moz-placeholder,
-.form-input.input-extra-large:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-extra-large::-moz-placeholder,
-input[type="search"].input-extra-large::-moz-placeholder,
-input[type="email"].input-extra-large::-moz-placeholder,
-input[type="password"].input-extra-large::-moz-placeholder,
-input[type="number"].input-extra-large::-moz-placeholder,
-textarea.input-extra-large::-moz-placeholder,
-.form-input.input-extra-large::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: #6b7681;
-  line-height: 45px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large:focus::-moz-placeholder,
-input[type="search"].input-extra-large:focus::-moz-placeholder,
-input[type="email"].input-extra-large:focus::-moz-placeholder,
-input[type="password"].input-extra-large:focus::-moz-placeholder,
-input[type="number"].input-extra-large:focus::-moz-placeholder,
-textarea.input-extra-large:focus::-moz-placeholder,
-.form-input.input-extra-large:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-extra-large:-ms-input-placeholder,
-input[type="search"].input-extra-large:-ms-input-placeholder,
-input[type="email"].input-extra-large:-ms-input-placeholder,
-input[type="password"].input-extra-large:-ms-input-placeholder,
-input[type="number"].input-extra-large:-ms-input-placeholder,
-textarea.input-extra-large:-ms-input-placeholder,
-.form-input.input-extra-large:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: #6b7681;
-  line-height: 45px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large:focus:-ms-input-placeholder,
-input[type="search"].input-extra-large:focus:-ms-input-placeholder,
-input[type="email"].input-extra-large:focus:-ms-input-placeholder,
-input[type="password"].input-extra-large:focus:-ms-input-placeholder,
-input[type="number"].input-extra-large:focus:-ms-input-placeholder,
-textarea.input-extra-large:focus:-ms-input-placeholder,
-.form-input.input-extra-large:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-extra-large::-webkit-input-placeholder,
-input[type="search"].input-extra-large::-webkit-input-placeholder,
-input[type="email"].input-extra-large::-webkit-input-placeholder,
-input[type="password"].input-extra-large::-webkit-input-placeholder,
-input[type="number"].input-extra-large::-webkit-input-placeholder,
-textarea.input-extra-large::-webkit-input-placeholder,
-.form-input.input-extra-large::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: #6b7681;
-  line-height: 45px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="search"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="email"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
-textarea.input-extra-large:focus::-webkit-input-placeholder,
-.form-input.input-extra-large:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-extra-large.inverse:-moz-placeholder,
-input[type="search"].input-extra-large.inverse:-moz-placeholder,
-input[type="email"].input-extra-large.inverse:-moz-placeholder,
-input[type="password"].input-extra-large.inverse:-moz-placeholder,
-input[type="number"].input-extra-large.inverse:-moz-placeholder,
-textarea.input-extra-large.inverse:-moz-placeholder,
-.form-input.input-extra-large.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="search"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="email"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="password"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="number"].input-extra-large.inverse:focus:-moz-placeholder,
-textarea.input-extra-large.inverse:focus:-moz-placeholder,
-.form-input.input-extra-large.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse::-moz-placeholder,
-input[type="search"].input-extra-large.inverse::-moz-placeholder,
-input[type="email"].input-extra-large.inverse::-moz-placeholder,
-input[type="password"].input-extra-large.inverse::-moz-placeholder,
-input[type="number"].input-extra-large.inverse::-moz-placeholder,
-textarea.input-extra-large.inverse::-moz-placeholder,
-.form-input.input-extra-large.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="search"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="email"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="password"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="number"].input-extra-large.inverse:focus::-moz-placeholder,
-textarea.input-extra-large.inverse:focus::-moz-placeholder,
-.form-input.input-extra-large.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="search"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="email"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="password"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="number"].input-extra-large.inverse:-ms-input-placeholder,
-textarea.input-extra-large.inverse:-ms-input-placeholder,
-.form-input.input-extra-large.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-extra-large.inverse:focus:-ms-input-placeholder,
-textarea.input-extra-large.inverse:focus:-ms-input-placeholder,
-.form-input.input-extra-large.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="search"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="email"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="password"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="number"].input-extra-large.inverse::-webkit-input-placeholder,
-textarea.input-extra-large.inverse::-webkit-input-placeholder,
-.form-input.input-extra-large.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-textarea.input-extra-large.inverse:focus::-webkit-input-placeholder,
-.form-input.input-extra-large.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-@media (max-width:  1024px) {
-  input[type="text"].input-extra-large,
-  input[type="search"].input-extra-large,
-  input[type="email"].input-extra-large,
-  input[type="password"].input-extra-large,
-  input[type="number"].input-extra-large,
-  textarea.input-extra-large,
-  .form-input.input-extra-large {
-    font-size: 16px;
-    font-size: 1.6rem;
-    height: 50px;
-    line-height: 30px;
-    padding: 10px 20px;
-  }
-  input[type="text"].input-extra-large:-moz-placeholder,
-  input[type="search"].input-extra-large:-moz-placeholder,
-  input[type="email"].input-extra-large:-moz-placeholder,
-  input[type="password"].input-extra-large:-moz-placeholder,
-  input[type="number"].input-extra-large:-moz-placeholder,
-  textarea.input-extra-large:-moz-placeholder,
-  .form-input.input-extra-large:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus:-moz-placeholder,
-  input[type="search"].input-extra-large:focus:-moz-placeholder,
-  input[type="email"].input-extra-large:focus:-moz-placeholder,
-  input[type="password"].input-extra-large:focus:-moz-placeholder,
-  input[type="number"].input-extra-large:focus:-moz-placeholder,
-  textarea.input-extra-large:focus:-moz-placeholder,
-  .form-input.input-extra-large:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large::-moz-placeholder,
-  input[type="search"].input-extra-large::-moz-placeholder,
-  input[type="email"].input-extra-large::-moz-placeholder,
-  input[type="password"].input-extra-large::-moz-placeholder,
-  input[type="number"].input-extra-large::-moz-placeholder,
-  textarea.input-extra-large::-moz-placeholder,
-  .form-input.input-extra-large::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus::-moz-placeholder,
-  input[type="search"].input-extra-large:focus::-moz-placeholder,
-  input[type="email"].input-extra-large:focus::-moz-placeholder,
-  input[type="password"].input-extra-large:focus::-moz-placeholder,
-  input[type="number"].input-extra-large:focus::-moz-placeholder,
-  textarea.input-extra-large:focus::-moz-placeholder,
-  .form-input.input-extra-large:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large:-ms-input-placeholder,
-  input[type="search"].input-extra-large:-ms-input-placeholder,
-  input[type="email"].input-extra-large:-ms-input-placeholder,
-  input[type="password"].input-extra-large:-ms-input-placeholder,
-  input[type="number"].input-extra-large:-ms-input-placeholder,
-  textarea.input-extra-large:-ms-input-placeholder,
-  .form-input.input-extra-large:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="search"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="email"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="password"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="number"].input-extra-large:focus:-ms-input-placeholder,
-  textarea.input-extra-large:focus:-ms-input-placeholder,
-  .form-input.input-extra-large:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large::-webkit-input-placeholder,
-  input[type="search"].input-extra-large::-webkit-input-placeholder,
-  input[type="email"].input-extra-large::-webkit-input-placeholder,
-  input[type="password"].input-extra-large::-webkit-input-placeholder,
-  input[type="number"].input-extra-large::-webkit-input-placeholder,
-  textarea.input-extra-large::-webkit-input-placeholder,
-  .form-input.input-extra-large::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="search"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="email"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
-  textarea.input-extra-large:focus::-webkit-input-placeholder,
-  .form-input.input-extra-large:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-}
-input[type="text"].input-inverse,
-input[type="search"].input-inverse,
-input[type="email"].input-inverse,
-input[type="password"].input-inverse,
-input[type="number"].input-inverse,
-textarea.input-inverse,
-.form-input.input-inverse {
-  color: #ffffff;
-  border: none;
-  background-color: #6b7681;
-}
-input[type="text"].input-inverse:-moz-placeholder,
-input[type="search"].input-inverse:-moz-placeholder,
-input[type="email"].input-inverse:-moz-placeholder,
-input[type="password"].input-inverse:-moz-placeholder,
-input[type="number"].input-inverse:-moz-placeholder,
-textarea.input-inverse:-moz-placeholder,
-.form-input.input-inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-inverse:focus:-moz-placeholder,
-input[type="search"].input-inverse:focus:-moz-placeholder,
-input[type="email"].input-inverse:focus:-moz-placeholder,
-input[type="password"].input-inverse:focus:-moz-placeholder,
-input[type="number"].input-inverse:focus:-moz-placeholder,
-textarea.input-inverse:focus:-moz-placeholder,
-.form-input.input-inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-inverse::-moz-placeholder,
-input[type="search"].input-inverse::-moz-placeholder,
-input[type="email"].input-inverse::-moz-placeholder,
-input[type="password"].input-inverse::-moz-placeholder,
-input[type="number"].input-inverse::-moz-placeholder,
-textarea.input-inverse::-moz-placeholder,
-.form-input.input-inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-inverse:focus::-moz-placeholder,
-input[type="search"].input-inverse:focus::-moz-placeholder,
-input[type="email"].input-inverse:focus::-moz-placeholder,
-input[type="password"].input-inverse:focus::-moz-placeholder,
-input[type="number"].input-inverse:focus::-moz-placeholder,
-textarea.input-inverse:focus::-moz-placeholder,
-.form-input.input-inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-inverse:-ms-input-placeholder,
-input[type="search"].input-inverse:-ms-input-placeholder,
-input[type="email"].input-inverse:-ms-input-placeholder,
-input[type="password"].input-inverse:-ms-input-placeholder,
-input[type="number"].input-inverse:-ms-input-placeholder,
-textarea.input-inverse:-ms-input-placeholder,
-.form-input.input-inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-inverse:focus:-ms-input-placeholder,
-input[type="search"].input-inverse:focus:-ms-input-placeholder,
-input[type="email"].input-inverse:focus:-ms-input-placeholder,
-input[type="password"].input-inverse:focus:-ms-input-placeholder,
-input[type="number"].input-inverse:focus:-ms-input-placeholder,
-textarea.input-inverse:focus:-ms-input-placeholder,
-.form-input.input-inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-inverse::-webkit-input-placeholder,
-input[type="search"].input-inverse::-webkit-input-placeholder,
-input[type="email"].input-inverse::-webkit-input-placeholder,
-input[type="password"].input-inverse::-webkit-input-placeholder,
-input[type="number"].input-inverse::-webkit-input-placeholder,
-textarea.input-inverse::-webkit-input-placeholder,
-.form-input.input-inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-inverse:focus::-webkit-input-placeholder,
-textarea.input-inverse:focus::-webkit-input-placeholder,
-.form-input.input-inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
 input[type="search"] {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -8417,6 +6490,7 @@ input[type="search"] {
 .select {
   position: relative;
   display: block;
+  margin: 0px 0px 20px 0px;
   color: #ffffff;
 }
 .select select {
@@ -8431,7 +6505,7 @@ input[type="search"] {
   font-size: 1.4rem;
   color: #485364;
   background: #ffffff;
-  border: none;
+  border: 1px solid #edf1f2;
   cursor: pointer;
   outline: 0;
   -webkit-border-radius: 6px;
@@ -8469,6 +6543,7 @@ input[type="search"] {
   font-family: 'turret';
   font-size: 12px;
   color: #4bb3d6;
+  pointer-events: none;
 }
 @media screen and (min-width:0\0) {
   .select select {
@@ -8493,7 +6568,7 @@ input[type="search"] {
     content: '';
     pointer-events: none;
     width: 1em;
-    border: none;
+    border: 1px solid #edf1f2;
     border-width: 1px 1px 1px 0px;
     background: #ffffff;
     -webkit-border-radius: 0 6px 6px 0;
@@ -8600,7 +6675,7 @@ input[type="search"] {
   color: #ffffff;
   text-align: center;
   text-transform: none;
-  background: #b2c6c9;
+  background: #edf1f2;
   white-space: nowrap;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -8715,7 +6790,7 @@ input[type="search"] {
 .button.button-border {
   color: #485364;
   background: transparent;
-  border: 1px solid #b2c6c9;
+  border: 1px solid #edf1f2;
 }
 .button.button-border:after {
   color: #485364;
@@ -8723,7 +6798,7 @@ input[type="search"] {
 .button.button-border:hover,
 .button.button-border:focus {
   color: #3bc0c3;
-  border: 1px solid #b2c6c9;
+  border: 1px solid #edf1f2;
 }
 .button.button-border:hover:after,
 .button.button-border:focus:after {
@@ -8810,7 +6885,7 @@ input[type="search"] {
 }
 .button:disabled {
   color: #ffffff;
-  background: #b2c6c9;
+  background: #edf1f2;
 }
 /* Figure */
 figure {
@@ -8833,7 +6908,7 @@ img.thumbnail {
   -moz-border-radius: 8px;
   border-radius: 8px;
   padding: 5px;
-  border: 1px solid #e1e3e8;
+  border: 1px solid #edf1f2;
 }
 img.rounded {
   -webkit-border-radius: 8px;
@@ -8908,7 +6983,7 @@ img.responsive {
   font-size: 7.2rem;
   line-height: 1;
   color: #4bb3d6;
-  background: #b2c6c9;
+  background: #edf1f2;
 }
 .list {
   margin: 40px 0px 30px;
@@ -8935,7 +7010,7 @@ img.responsive {
 .panel {
   margin: 0 0 10px 0;
   padding: 25px;
-  background: #b2c6c9;
+  background: #edf1f2;
   text-align: center;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -9040,12 +7115,12 @@ table.table tbody tr td {
   }
 }
 table.table.table-bordered {
-  border: 1px solid #e1e3e8;
+  border: 1px solid #edf1f2;
   border-width: 0px 0px 1px 0px;
 }
 table.table.table-bordered td {
   padding: 5px 0px;
-  border: 1px solid #e1e3e8;
+  border: 1px solid #edf1f2;
   border-width: 0px 0px 1px 0px;
 }
 table.table.table-block {
@@ -9089,7 +7164,7 @@ table.table.table-block {
   }
   table.table.table-responsive tr {
     margin-bottom: 10px;
-    border: solid #b2c6c9;
+    border: solid #edf1f2;
     border-width: 0px 0px 1px 0px;
   }
   table.table.table-responsive td {
