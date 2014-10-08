@@ -1,5 +1,5 @@
 <section id="typography" class="section">
-	<h2 class="section-title">Typography</h2>
+	<h2 class="section-title">Typography<code>base/typography.less</code></h2>
 	<h3 class="section-sub-title">Headings</h2>
 	<h1>Heading 1</h1>
 	<h2>Heading 2</h2>

@@ -10102,9 +10102,15 @@ body {
   width: 270px;
   color: #ffffff;
   background: #485364;
+  background-image: -moz-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4bb3d6), color-stop(100%, #3bc0c3));
+  background-image: -webkit-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
+  background-image: -o-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
+  background-image: -ms-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
+  background-image: linear-gradient(to bottom, #4bb3d6 0%, #3bc0c3 100%);
 }
 #content {
-  padding: 35px;
+  padding: 0px 30px;
   width: calc(100% - 270px);
   background: #ffffff;
 }
@@ -10124,24 +10130,48 @@ pre code {
   border-radius: 2px;
 }
 .navigation {
-  padding: 35px 0px;
+  padding: 30px 0px;
 }
 .navigation ul {
   list-style: none;
 }
 .navigation ul li a {
   display: block;
+  margin-left: 0;
   padding: 5px 20px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 600;
   color: #edf1f2;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .navigation ul li a:hover,
 .navigation ul li a:focus {
-  color: #4bb3d6;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.navigation ul li ul {
+  margin-left: 20px;
+  border-left: 1px solid #36aad1;
+}
+.navigation ul li ul li a {
+  padding: 3px 12px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-transform: none;
 }
 .section {
-  margin: 0 auto;
-  padding: 30px;
-  max-width: 960px;
+  margin: 80px auto;
+  max-width: 900px;
+}
+.section:first-child {
+  margin-top: 40px;
 }
 .section .section-title {
   margin-bottom: 35px;
@@ -10150,8 +10180,9 @@ pre code {
   border-bottom: 1px solid #edf1f2;
 }
 .section .section-title code {
+  margin-left: 15px;
+  padding: 0;
   font-size: 12px;
-  font-weight: 600;
   color: #4bb3d6;
   background: none !important;
   border: none;
