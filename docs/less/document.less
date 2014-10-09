@@ -31,17 +31,21 @@ body {
 
 //General
 code {
+	padding: 3px 4px;
 	font-size: 12px !important;
-	background: transparent !important;
+	color: @grey;
+	background: @light;
+	vertical-align: middle;
+	.border-radius(2px);
 }
 
 pre {
 	padding: 10px !important;
-	background: #FAFBFB !important;
-	border: 1px solid @light;
+	background: @light !important;
+	border: 1px solid #E1E3E8;
 	
 	code {
-		
+		background: transparent !important;
 	}
 }
 
@@ -152,10 +156,71 @@ pre[class*="language-"] {
 	}
 }
 
+//Tables
+table {
+	color: #888888;
+
+	&.table-block {
+
+		th {
+			color: #656A78 !important;
+			background: @light !important;
+		}
+
+		td {
+
+		}
+	}
+
+	th {
+		
+	}
+
+	tr {
+
+
+		td {
+
+			&.is-clear,
+			&.is-float {
+				text-transform: capitalize;
+			}
+
+			&.is-hidden,
+			&.is-float,
+			&.is-unsupported {
+				color: #B5B8C1 !important;
+				background: @light;
+			}
+
+			&.is-hidden,
+			&.is-unsupported {
+
+				&:before {
+					margin-right: 5px;
+					content: @icon-close;
+					font-family: @icon-font-family;
+				}
+			}
+
+			&.is-visible,
+			&.is-supported {
+
+				&:before {
+					margin-right: 5px;
+					content: @icon-tick;
+					font-family: @icon-font-family;
+					color: @primary;
+				}
+			}
+		}
+	}
+}
+
 /*
 body {
 	padding: 0;
-	background: @document_mid_grey;
+	background: @document-mid-grey;
 }
 */
 /*
@@ -168,7 +233,7 @@ body {
 		font-weight: 600;
 		letter-spacing: 2px;
 		text-transform: uppercase;
-		color: @document_mint;
+		color: @document-mint;
 	}
 
 	.nav a {
@@ -179,13 +244,13 @@ body {
 .section-title {
 	margin-bottom: 20px;
 	line-height: 2;
-	color: @document_dark;
-	border-bottom: 1px solid @document_mid_grey;
+	color: @document-dark;
+	border-bottom: 1px solid @document-mid-grey;
 	
 	code {
 		font-size: 12px;
 		font-weight: 600;
-		color: @document_aqua;
+		color: @document-aqua;
 		background: none !important;
 		border: none;
 	}
@@ -195,7 +260,7 @@ body {
 	margin: 20px 0px 15px;
 	font-size: 12px;
 	font-weight: 600;
-	color: @document_mid;
+	color: @document-mid;
 	text-transform: uppercase;
 }
 
@@ -205,7 +270,7 @@ ol li {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
-	color: @document_grey;
+	color: @document-grey;
 }
 
 .content {
@@ -216,13 +281,13 @@ code {
 	padding: 2px 3px;
 	font-size: 0.9em;
 	color: #DD1648;
-	background: @document_light !important;
+	background: @document-light !important;
 }
 
 pre {
 	code {
 		padding: 10px !important;
-		border: 1px solid @light_grey;
+		border: 1px solid @light-grey;
 		.border-radius(2px);
 	}
 }
@@ -239,7 +304,7 @@ pre {
 //Page Header
 .page-header {
 	height: 400px;
-	.gradient(@document_aqua, 0%, @document_mint, 100%);
+	.gradient(@document-aqua, 0%, @document-mint, 100%);
 
 	.page-header-content {
 		.overlay();
@@ -253,7 +318,7 @@ pre {
 			.page-title {
 				margin-bottom: 10px;
 				font-size: 42px;
-				color: @document_white;
+				color: @document-white;
 				letter-spacing: 4px;
 				text-align: left;
 				text-transform: uppercase;
@@ -266,7 +331,7 @@ pre {
 				font-size: 20px;
 				text-align: left;
 				line-height: 1.4;
-				color: @document_white;
+				color: @document-white;
 				text-shadow: 0px 2px 0px rgba(0,0,0,0.05);
 			}
 		}
@@ -278,7 +343,7 @@ pre {
 .panel,
 .side-nav {
 	margin-bottom: 30px;
-	background: @document_white;
+	background: @document-white;
 	.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
 }
 
@@ -293,18 +358,18 @@ pre {
 
 //Grid
 .grid {
-	color: @document_white;
+	color: @document-white;
 	font-size: 12px;
 	text-align: center;
 	color: black;
 
 	.swatch {
 		padding: 10px;
-		color: @document_white;
+		color: @document-white;
 
 		&.light {
-			color: @document_dark;
-			background: @document_white;
+			color: @document-dark;
+			background: @document-white;
 			.box-shadow(0px 2px 0px rgba(0,0,0,0.05));
 		}
 	}
@@ -325,66 +390,7 @@ pre {
 }
 
 
-//Tables
-table {
-	color: #888888;
 
-	&.table-block {
-
-		th {
-			color: #656A78 !important;
-			background: @document_light !important;
-		}
-
-		td {
-
-		}
-	}
-
-	th {
-		//background: @light_grey;
-	}
-
-	tr {
-
-
-		td {
-
-			&.is-clear,
-			&.is-float {
-				text-transform: capitalize;
-			}
-
-			&.is-hidden,
-			&.is-float,
-			&.is-unsupported {
-				color: #B5B8C1 !important;
-				background: @document_light;
-			}
-
-			&.is-hidden,
-			&.is-unsupported {
-
-				&:before {
-					margin-right: 5px;
-					content: @icon_close;
-					font-family: @icon_font_family;
-				}
-			}
-
-			&.is-visible,
-			&.is-supported {
-
-				&:before {
-					margin-right: 5px;
-					content: @icon_tick;
-					font-family: @icon_font_family;
-					color: @primary;
-				}
-			}
-		}
-	}
-}
 
 //Icons
 
@@ -393,14 +399,14 @@ table {
 
 	span {
 		font-size: 24px;
-		color: @document_dark;
+		color: @document-dark;
 		vertical-align: middle;
 	}
 	
 	.icon-name {
 		margin-left: 10px;
 		font-size: 12px;
-		color: @document_grey;
+		color: @document-grey;
 	}
 }
 */

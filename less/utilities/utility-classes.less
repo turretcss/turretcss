@@ -1,0 +1,558 @@
+/*
+ * Utilities
+ */
+ 
+.clearfix {
+	.clearfix();
+}
+
+.center-block {
+	.center-block();
+}
+
+.full-height {
+	height: 100%;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.no-margin {
+	margin: 0 auto;
+}
+
+.no-padding {
+	padding: 0 auto;
+}
+
+
+/*
+ * Position
+ */
+
+.top-left {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	
+	&.gutter {
+		top: @gutter;
+		left: @gutter;
+	}
+}
+
+.top-right {
+	position: absolute !important;
+	top: 0;
+	right: 0;
+	
+	&.gutter {
+		top: @gutter;
+		right: @gutter;
+	}
+}
+
+.bottom-left {
+	position: absolute !important;
+	bottom: 0;
+	left: 0;
+	
+	&.gutter {
+		bottom: @gutter;
+		left: @gutter;
+	}
+}
+
+.bottom-right {
+	position: absolute !important;
+	bottom: 0;
+	right: 0;
+	
+	&.gutter {
+		bottom: @gutter;
+		right: @gutter;
+	}
+}
+
+
+/*
+ * Text
+ */
+
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.truncate {
+	.truncate();
+}
+
+.text-hide {
+	.text-hide();
+}
+
+
+/*
+ * Display
+ */
+ 
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-table {
+	display: table;
+}
+
+.display-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*
+ * Table Rows & Cells
+ */
+ 
+.table-row {
+	display: table;
+	width: 100%;
+	
+	.table-cell {
+		display: table-cell;
+		height: 100%;
+		vertical-align: middle;
+		
+		@media @mobile {
+			&.table-row-mobile {
+				display: table-row;
+			}
+		}
+	}
+}
+
+
+/*
+ * Backgrounds
+ */
+
+.background-transparent {
+	background: transparent !important;
+}
+
+.background-primary {
+	background: @primary !important;
+}
+
+.background-secondary {
+	background: @secondary !important;
+}
+
+.background-dark {
+	background: @dark !important;
+}
+
+.background-light {
+	background: @light !important;
+}
+
+
+/*
+ * Borders
+ */
+
+.no-border {
+	border: none !important;
+}
+
+.border-top-primary {
+	border-top: 1px solid @primary;
+}
+
+.border-bottom-primary {
+	border-bottom: 1px solid @primary;
+}
+
+.border-top-secondary {
+	border-top: 1px solid @secondary;
+}
+
+.border-bottom-secondary {
+	border-bottom: 1px solid @secondary;
+}
+
+.border-top-dark {
+	border-top: 1px solid @dark;
+}
+
+.border-bottom-dark {
+	border-bottom: 1px solid @dark;
+}
+
+.border-top-light {
+	border-top: 1px solid @light;
+}
+
+.border-bottom-light {
+	border-bottom: 1px solid @light;
+}
+
+
+/*
+ * Palette
+ */
+ 
+.primary {
+	color: @primary !important;
+}
+
+.secondary {
+	color: @secondary !important;
+}
+
+.dark {
+	color: @dark !important;
+}
+
+.light {
+	color: @light !important;
+}
+
+
+/*
+ * Gutter Classes
+ */
+ 
+.gutter-top,
+.top-gutter {
+	margin-top: @gutter-top !important;
+}
+
+.gutter-bottom,
+.bottom-gutter {
+	margin-bottom: @gutter-bottom !important;
+}
+
+.gutter-left,
+.left-gutter {
+	padding-left: @gutter-left !important;
+}
+
+.gutter-right,
+.right-gutter {
+	padding-right: @gutter-right !important;
+}
+
+@media @medium-only {
+	.gutter-top-medium,
+	.top-gutter-medium {
+		margin-top: @gutter-top !important;
+	}
+	
+	.gutter-bottom-medium,
+	.bottom-gutter-medium {
+		margin-bottom: @gutter-bottom !important;
+	}
+	
+	.gutter-left-medium,
+	.left-gutter-medium {
+		padding-left: @gutter-left !important;
+	}
+	
+	.gutter-right-medium,
+	.right-gutter-medium {
+		padding-right: @gutter-right !important;
+	}
+}
+
+@media @small {
+	.gutter-top-small,
+	.top-gutter-small {
+		margin-top: @gutter-top !important;
+	}
+	
+	.gutter-bottom-small,
+	.bottom-gutter-small {
+		margin-bottom: @gutter-bottom !important;
+	}
+	
+	.gutter-left-small,
+	.left-gutter-small {
+		padding-left: @gutter-left !important;
+	}
+	
+	.gutter-right-small,
+	.right-gutter-small {
+		padding-right: @gutter-right !important;
+	}
+}
+
+
+/*
+ * Floats
+ */
+ 
+.right {
+	float: right !important;
+
+	&.extra-large-clear-right {
+		@media @extra-large {
+			float: none !important;
+		}
+	}
+
+	&.large-clear-right {
+		@media @large-only {
+			float: none !important;
+		}
+	}
+
+	&.medium-clear-right {
+		@media @medium-only {
+			float: none !important;
+		}
+	}
+
+	&.small-clear-right {
+		@media @small {
+			float: none !important;
+		}
+	}
+}
+
+.left {
+	float: left !important;
+
+	&.extra-large-clear-left {
+		@media @extra-large {
+			float: none !important;
+		}
+	}
+
+	&.large-clear-left {
+		@media @large-only {
+			float: none !important;
+		}
+	}
+
+	&.medium-clear-left {
+		@media @medium-only {
+			float: none !important;
+		}
+	}
+
+	&.small-clear-left {
+		@media @small {
+			float: none !important;
+		}
+	}
+}
+
+
+/*
+ * List Columns
+ */
+
+.columns-2 {
+	.column-count(2);
+	.column-gap(@gutter * 2);
+}
+
+.columns-3 {
+	.column-count(3);
+	.column-gap(@gutter * 2);
+}
+
+.columns-4 {
+	.column-count(4);
+	.column-gap(@gutter * 2);
+}
+
+//Fallback for no Column Count Support
+.no-csscolumns {
+	.columns-2 li {
+		float: left;
+		width: 50%;
+	}
+
+	.columns-3 li {
+		float: left;
+		width: 33%;
+	}
+
+	.columns-4 li {
+		float: left;
+		width: 33%;
+	}
+}
+
+
+/*
+ * Visibility
+ */
+
+.hide {
+	.hide();
+}
+
+.show {
+	.show();
+}
+
+.visible {
+	visibility: visible;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+//Hidden Classes
+.hidden-extra-large {
+	@media @extra-large {
+		.hide();
+	}
+}
+
+.hidden-large {
+	@media @large-only {
+		.hide();
+	}
+}
+
+.hidden-medium {
+	@media @medium-only {
+		.hide();
+	}
+}
+
+.hidden-mobile {
+	@media @medium {
+		.hide();
+	}
+}
+
+.hidden-medium-landscape {
+	@media @medium-landscape {
+		.hide();
+	}
+}
+
+.hidden-medium-portrait {
+	@media @medium-portrait {
+		.hide();
+	}
+}
+
+.hidden-small {
+	@media @small {
+		.hide();
+	}
+}
+
+.hidden-print {
+	@media print {
+		.hide();
+	}
+}
+
+.hidden-screen {
+	@media screen {
+		.hide();
+	}
+}
+
+//Visible Classes
+.visible-extra-large {
+	.hide();
+
+	@media @extra-large {
+		.show();
+	}
+}
+
+.visible-large {
+	.hide();
+
+	@media @large-only {
+		.show();
+	}
+}
+
+.visible-mobile {
+	.hide();
+
+	@media @medium {
+		.show();
+	}
+}
+
+.visible-medium {
+	.hide();
+
+	@media @medium-only {
+		.show();
+	}
+}
+
+.visible-medium-landscape {
+	.hide();
+
+	@media @medium-landscape {
+		.show();
+	}
+}
+
+.visible-medium-portrait {
+	.hide();
+
+	@media @medium-portrait {
+		.show();
+	}
+}
+
+.visible-small {
+	.hide();
+
+	@media @small {
+		.show();
+	}
+}
+
+.visible-print {
+	.hide();
+
+	@media print {
+		.show();
+	}
+}
+
+.visible-screen {
+	.hide();
+
+	@media screen {
+		.show();
+	}
+}

@@ -36,7 +36,7 @@
 	</span>
 </div>'); ?></code></pre>
 
-<h3 class="section-sub-title">Search</h3>
+<h3 class="section-sub-title">Search Form</h3>
 <form role="form">
 	<div class="input-group">
 		<input class="search form-input" type="search" placeholder="Search">
@@ -52,4 +52,5 @@
 		<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
 	</span>
 </div>'); ?></code></pre>
+
 </section>

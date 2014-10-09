@@ -41,7 +41,7 @@
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #EDF1F2;
+@light-grey: #FAFBFB;
 @grey: #6B7681;
 @dark-grey: #485364;
 
@@ -189,11 +189,11 @@
 @copy-font-weight: normal;
 
 //Generic Font Weights
-@thin-font-weight: normal;
-@regular-font-weight: normal;
-@medium-font-weight: normal;
-@semibold-font-weight: normal;
-@bold-font-weight: normal;
+@thin-font-weight: 300;
+@regular-font-weight: 400;
+@medium-font-weight: 400;
+@semibold-font-weight: 500;
+@bold-font-weight: 600;
 
 //Headings
 @headings: h1, h2, h3, h4, h5, h6;
@@ -392,7 +392,7 @@
 @input-font-size: 1.4;
 @input-line-height: @line-height;
 @input-background: @white;
-@input-border: 1px solid @light;
+@input-border: 1px solid #E1E3E8;
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
 @input-button-small-padding: 10px 15px;
@@ -763,13 +763,13 @@
  * Tables
  */
 
-@tables-cell-padding: 5px 0px;
+@tables-cell-padding: 10px;
 @tables-background: none;
 @tables-border-radius: @border-radius;
 
 //Table Border
-@tables-border: 1px solid @light-grey;
-@tables-border-width: 0px 0px 1px 0px;
+@tables-border: 1px solid #E1E3E8;
+@tables-border-width: 1px;
 
 //Table Caption
 @tables-caption-margin: 20px 0px 10px 0px;
@@ -777,9 +777,9 @@
 @tables-caption-text-align: left;
 
 //Table Head
-@tables-head-padding: 5px 0px;
-@tables-head-font-family: @medium-font-family;
-@tables-head-font-weight: @medium-font-weight;
+@tables-head-padding: 10px;
+@tables-head-font-family: @bold-font-family;
+@tables-head-font-weight: @bold-font-weight;
 @tables-head-font-size: 1.2;
 @tables-head-text-align: left;
 @tables-head-text-transform: none;
@@ -787,8 +787,8 @@
 @tables-head-background: none;
 
 //Table Body
-@tables-body-font-size: 1.5;
-@tables-body-line-height: 1.5;
+@tables-body-font-size: 1.2;
+@tables-body-line-height: 1.2;
 
 //Table Reponsive
 @table-responsive-padding: 0;
