@@ -64,12 +64,15 @@
 			'title' => 'Accessibility',
 			'link' => 'accessibility',
 		),
-		/*
-'Typography' => 'typography',
-		'Media Queries' => 'media-queries',
-		'Icons' => 'icons',
-		'Forms' => 'input',
-*/
+		array(
+			'title' => 'Notes',
+			'link' => 'notes',
+			'children' => array(
+				'Bugs & Issues' => 'bugs-and-issues',
+				'Contributing' => 'contributing',
+				'Licence' => 'licence',
+			),
+		),
 	);
 
 ?>
