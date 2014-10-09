@@ -22,8 +22,8 @@
 <h3 class="section-sub-title">Responsive Breakpoint Grid</h3>
 <div class="grid">
 	<div class="row">
-		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch primary">Responsive Breakpoints</div></div>
-		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="swatch primary">Responsive Breakpoints</div></div>
+		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="grid-item">Responsive Breakpoints</div></div>
+		<div class="column-1-2 column-large-1-4 column-medium-1-3 column-small-1"><div class="grid-item">Responsive Breakpoints</div></div>
 	</div>
 </div>
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="container">
@@ -36,16 +36,20 @@
 <h3 class="section-sub-title">Gutters</h3>
 <div class="grid">
 	<div class="row">
-		<div class="column-1-3 no-gutter"><div class="swatch primary">No Gutter</div></div>
-		<div class="column-1-3 bottom-gutter"><div class="swatch primary">Bottom Gutter</div></div>
-		<div class="column-1-3 top-gutter"><div class="swatch primary">Top Gutter</div></div>
+		<div class="column-1 no-gutter"><div class="grid-item">No Gutter</div></div>
+		<div class="column-1 gutter-top"><div class="grid-item">Top Gutter</div></div>
+		<div class="column-1 gutter-left"><div class="grid-item">Left Gutter</div></div>
+		<div class="column-1 gutter-bottom"><div class="grid-item">Bottom Gutter</div></div>
+		<div class="column-1 gutter-right"><div class="grid-item">Right Gutter</div></div>
 	</div>
 </div>
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="container">
 	<div class="row">
-		<div class="column-1-3 no-gutter">...</div>
-		<div class="column-1-3 bottom-gutter">...</div>
-		<div class="column-1-3 top-gutter">...</div>
+		<div class="column-1 no-gutter">...</div>
+		<div class="column-1 gutter-top">...</div>
+		<div class="column-1 gutter-left">...</div>
+		<div class="column-1 gutter-bottom">...</div>
+		<div class="column-1 gutter-right">...</div>
 	</div>
 </div>'); ?></code></pre>
 

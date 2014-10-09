@@ -10002,6 +10002,15 @@ pre {
   background: #FAFBFB !important;
   border: 1px solid #edf1f2;
 }
+.grid-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  background: #3bc0c3;
+}
 /*
 pre[class*="language-"] {
 	
