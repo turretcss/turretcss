@@ -48,35 +48,9 @@ array (
 <input type="password" id="password" value="password">',
 ),
 array (
-	'title' => 'Radio',
-	'code' => '<label class="control radio">
-	<input type="radio" name="radio">
-	<span class="control-indicator"></span>
-	<span class="control-label">Radio</span>
-</label>',
-),
-array (
-	'title' => 'Checkbox',
-	'code' => '<label class="control checkbox">
-	<input type="checkbox" name="checkbox">
-	<span class="control-indicator"></span>
-	<span class="control-label">Checkbox</span>
-</label>',
-),
-array (
 	'title' => 'File Input',
 	'code' => '<label for="file">File Input</label>
 <input type="file" id="file">',
-),
-array (
-	'title' => 'Select Field',
-	'code' => '<label class="select" for="select">
-	<select id="select">
-		<option>Select Field</option>
-		<option value="1">Option 01</option>
-		<option value="2">Option 02</option>
-	</select>
-</label>',
 ),
 array (
 	'title' => 'Textarea',

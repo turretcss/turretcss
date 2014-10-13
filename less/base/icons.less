@@ -1,7 +1,3 @@
-.icon {
-
-}
-
 //List Icons
 .icon-ul {
 	padding-left: 0;
@@ -23,7 +19,7 @@
 
 //Icon Spin
 .icon-spin {
-	.animation-name(spin 1s linear infinite);
+	.animation(spin 1s infinite);
 }
 
 /* Icon Font */
@@ -39,8 +35,7 @@
 	font-style: normal;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+.icon {
 	font-family: @icon-font-family;
 	speak: none;
 	font-style: normal;

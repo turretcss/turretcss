@@ -41,7 +41,7 @@
 			'children' => array(
 				'Input' => 'input',
 				'Input Group' => 'input-group',
-				'Control' => 'controls',
+				'Control' => 'control',
 				'Select' => 'select',
 			),
 		),

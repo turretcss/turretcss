@@ -29,6 +29,8 @@
 		include('sections/forms/form.php');
 		include('sections/forms/input.php');
 		include('sections/forms/input-group.php');
+		include('sections/forms/control.php');
+		include('sections/forms/select.php');
 		
 		//Utilities
 		include('sections/utilities/utilities.php');
