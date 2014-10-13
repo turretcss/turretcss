@@ -14,6 +14,7 @@
 			'link' => 'general',
 			'children' => array(
 				'Colors' => 'colors',
+				'Media Queries' => 'media-queries',
 			),
 		),
 		array(
@@ -43,6 +44,17 @@
 				'Input Group' => 'input-group',
 				'Control' => 'control',
 				'Select' => 'select',
+			),
+		),
+		array(
+			'title' => 'Elements',
+			'link' => 'elements',
+			'children' => array(
+				'Button' => 'button',
+				'Button Group' => 'button-group',
+				'Figure' => 'figure',
+				'Media' => 'media',
+				'Table' => 'table',
 			),
 		),
 		array(

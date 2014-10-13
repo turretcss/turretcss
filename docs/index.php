@@ -16,11 +16,12 @@
 	<?php
 		include('sections/general/general.php');
 		include('sections/general/colors.php');
+		include('sections/base/media-queries.php');
 		
 		//Base
-		include('sections/base/typography.php');
-		include('sections/base/media-queries.php');
+		include('sections/base/fonts.php');
 		include('sections/base/icons.php');
+		include('sections/base/typography.php');
 		
 		//Grid
 		include('sections/grid/grid.php');
