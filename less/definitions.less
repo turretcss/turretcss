@@ -435,8 +435,8 @@
 @input-inverse-focus-background: @input-inverse-background;
 
 //Focus
-@input-focus-border: 1px solid #E1E3E8;
-@input-focus-background: @light;
+@input-focus-border: 1px solid darken(#E1E3E8, 15%);
+@input-focus-background: @input-background;
 
 //Disabled
 @input-disabled-background: #DDDDDD;
@@ -470,7 +470,6 @@
 @control-indicator-color: @primary;
 @control-indicator-background: @white;
 @control-indicator-border: @input-border;
-@control-indicator-icon-size: 1.5rem;
 
 //Control Indicator Checked
 @control-indicator-checked-color: @primary;
@@ -488,7 +487,9 @@
 
 //Control Icons
 @radio-icon: @icon-circle;
-@checkbox-icon: @icon-square;
+@radio-icon-size: 10px;
+@checkbox-icon: @icon-tick;
+@checkbox-icon-size: 12px;
 
 
 /*

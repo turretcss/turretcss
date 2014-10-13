@@ -50,13 +50,8 @@
 		background: @control-indicator-checked-background;
 		
 		&:before {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-top: -(@control-indicator-icon-size / 2);
-			margin-left: -(@control-indicator-icon-size / 2);
+			.center();
 			font-family: @icon-font-family;
-			font-size: @control-indicator-icon-size;
 		}
 	}
 	
@@ -67,6 +62,7 @@
 	}
 	
 	&.checkbox input:checked ~ .control-indicator:before {
+		font-size: @checkbox-icon-size;
 		content: @checkbox-icon;
 	}
 	
@@ -76,6 +72,7 @@
 	}
 	
 	&.radio input:checked ~ .control-indicator:before {
+		font-size: @radio-icon-size;
 		content: @radio-icon;
 	}
 }
