@@ -28,6 +28,7 @@
 		vertical-align: middle;
 	}
 	
+	//Button Hover Styles
 	&:hover,
 	&:focus {
 		color: @buttons-hover-color;
@@ -37,232 +38,233 @@
 			color: @buttons-hover-color;
 		}
 	}
-	
-	
-	/*
-	 * Button Sizes
-	 */
-
-	//Button Small
-	&.button-small {
-		padding: @buttons-small-padding-vertical @buttons-small-padding-horizontal;
-		height: @buttons-small-height;
-		.font-size(@buttons-small-font-size);
-	}
-
-	//Button Large
-	&.button-large {
-		padding: @buttons-large-padding-vertical @buttons-large-padding-horizontal;
-		height: @buttons-large-height;
-		.font-size(@buttons-large-font-size);
-	}
-	
-	//Button Extra Large
-	&.button-extra-large {
-		padding: @buttons-extra-large-padding-vertical @buttons-extra-large-padding-horizontal;
-		height: @buttons-extra-large-height;
-		.font-size(@buttons-extra-large-font-size);
-	}
-
-		
-	/*
-	 * Button Styles
-	 */
-
-
-	//Button Primary
-	&.button-inverse {
-		color: @buttons-inverse-color;
-		background: @buttons-inverse-background;
-		
-		&:after {
-			color: @buttons-inverse-color;
-		}
-		
-		&:hover,
-		&:focus {
-			color: @buttons-inverse-hover-color;
-			background: @buttons-inverse-hover-background;
-			
-			&:after {
-				color: @buttons-inverse-hover-color;
-			}
-		}
-	}
-	
-	//Text Button
-	&.button-text {
-		padding: @buttons-padding-vertical @buttons-text-padding-horizontal;
-		color: @buttons-text-color;
-		background: transparent !important;
-		
-		&:after {
-			color: @buttons-text-color;
-		}
-		
-		&:hover,
-		&:focus {
-			color: @buttons-text-hover-color;
-			
-			&:after {
-				color: @buttons-text-color;
-			}
-		}
-	}
-
-	//Button Primary
-	&.button-primary {
-		color: @buttons-primary-color;
-		background: @buttons-primary-background;
-		
-		&:after {
-			color: @buttons-primary-color;
-		}
-		
-		&:hover,
-		&:focus {
-			color: @buttons-primary-hover-color;
-			background: @buttons-primary-hover-background;
-			
-			&:after {
-				color: @buttons-primary-hover-color;
-			}
-		}
-	}
-	
-	//Button Border
-	&.button-border {
-		color: @buttons-border-color;
-		background: transparent;
-		border: @buttons-border;
-		
-		&:after {
-			color: @buttons-border-color;
-		}
-		
-		&:hover,
-		&:focus {
-			color: @buttons-border-hover-color;
-			border: @buttons-border-hover;
-			
-			&:after {
-				color: @buttons-border-hover-color;
-			}
-		}
-	}
-
-		
-	/*
-	 * Button Types
-	 */
-	 
-	&.button-action,
-	&.button-close,
-	&.button-play {
-		&:after {
-			position: absolute;
-			top: 50%;
-			font-family: @icon-font-family;
-			line-height: 1;
-			vertical-align: middle;
-		}
-	}
-
-	//Button Action
-	&.button-action {
-		position: relative;
-		padding-right: @buttons-action-padding-right;
-		text-align: left;
-		clear: both;
-
-		&:after {
-			right: @buttons-padding-horizontal - (@buttons-action-icon-size / 2);
-			margin-top: -(@buttons-action-icon-size / 2);
-			font-size: @buttons-action-icon-size;
-			content: @buttons-action-icon;
-		}
-	}
-
-	//Close Button
-	&.button-close {
-		position: relative;
-		padding-right: @buttons-close-size;
-		line-height: 1;
-		
-		&:after {
-			right: @buttons-padding-horizontal - (@buttons-close-icon-size / 2);
-			margin-top: -(@buttons-close-icon-size / 2);
-			font-size: @buttons-close-icon-size;
-			content: @buttons-close-icon;
-		}
-	}
-	
-	//Play Button
-	&.button-play {
-		padding: 0;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-top: -(@buttons-play-size / 2);
-		margin-left: -(@buttons-play-size / 2);
-		.square(@buttons-play-size);
-		line-height: 1;
-		.border-radius(50%);
-		
-		&:after {
-			left: 50%;
-			margin-top: -(@buttons-play-icon-size / 2);
-			margin-left: -(@buttons-play-icon-size / 2);
-			font-size: @buttons-play-icon-size;
-			content: @buttons-play-icon;
-		}
-	}
-	
-	//File Button
-	&.button-file {
-		@buttons-file-icon-pixel-size: (@buttons-file-icon-size * 10);
-		@padding-right: (@buttons-file-icon-size * 2);
-		
-		position: relative;
-		padding-right: ~"@{padding-right}px";
-		text-align: left;
-		clear: both;
-
-		&:after {	
-			@margin-top: -(@buttons-file-icon-pixel-size) / 2;
-			
-			position: absolute;
-			top: 50%;
-			right: @buttons-padding-horizontal - (@buttons-file-icon-pixel-size / 2);
-			margin-top: ~"@{margin-top}px";
-			font-family: @icon-font-family;
-			.font-size(@buttons-file-icon-size);
-			content: @buttons-file-icon;
-			vertical-align: middle;
-		}
-	}
-	
-		
-	/*
-	 * Button Modifiers
-	 */
-	
-	//Button Block
-	&.button-block {
-		width: 100%;
-		text-align: @buttons-block-text-align;
-		display: block;
-	}
-
-	//Button Center
-	&.button-center {
-		margin: 0 auto;
-		display: inline-block;
-	}
 
 	//Button Disabled
 	&:disabled {
 		color: @button-disabled-color;
 		background: @button-disabled-background;
 	}
+}
+
+
+/*
+ * Button Sizes
+ */
+
+//Button Small
+.button-small {
+	padding: @buttons-small-padding-vertical @buttons-small-padding-horizontal;
+	height: @buttons-small-height;
+	.font-size(@buttons-small-font-size);
+}
+
+//Button Large
+.button-large {
+	padding: @buttons-large-padding-vertical @buttons-large-padding-horizontal;
+	height: @buttons-large-height;
+	.font-size(@buttons-large-font-size);
+}
+
+//Button Extra Large
+.button-extra-large {
+	padding: @buttons-extra-large-padding-vertical @buttons-extra-large-padding-horizontal;
+	height: @buttons-extra-large-height;
+	.font-size(@buttons-extra-large-font-size);
+}
+
+	
+/*
+ * Button Styles
+ */
+
+
+//Button Primary
+.button-inverse {
+	color: @buttons-inverse-color;
+	background: @buttons-inverse-background;
+	
+	&:after {
+		color: @buttons-inverse-color;
+	}
+	
+	&:hover,
+	&:focus {
+		color: @buttons-inverse-hover-color;
+		background: @buttons-inverse-hover-background;
+		
+		&:after {
+			color: @buttons-inverse-hover-color;
+		}
+	}
+}
+
+//Text Button
+.button-text {
+	padding: @buttons-padding-vertical @buttons-text-padding-horizontal;
+	color: @buttons-text-color;
+	background: transparent !important;
+	
+	&:after {
+		color: @buttons-text-color;
+	}
+	
+	&:hover,
+	&:focus {
+		color: @buttons-text-hover-color;
+		
+		&:after {
+			color: @buttons-text-color;
+		}
+	}
+}
+
+//Button Primary
+.button-primary {
+	color: @buttons-primary-color;
+	background: @buttons-primary-background;
+	
+	&:after {
+		color: @buttons-primary-color;
+	}
+	
+	&:hover,
+	&:focus {
+		color: @buttons-primary-hover-color;
+		background: @buttons-primary-hover-background;
+		
+		&:after {
+			color: @buttons-primary-hover-color;
+		}
+	}
+}
+
+//Button Border
+.button-border {
+	color: @buttons-border-color;
+	background: transparent;
+	border: @buttons-border;
+	
+	&:after {
+		color: @buttons-border-color;
+	}
+	
+	&:hover,
+	&:focus {
+		color: @buttons-border-hover-color;
+		border: @buttons-border-hover;
+		
+		&:after {
+			color: @buttons-border-hover-color;
+		}
+	}
+}
+
+	
+/*
+ * Button Types
+ */
+ 
+.button-action,
+.button-close,
+.button-play {
+
+	&:after {
+		position: absolute;
+		top: 50%;
+		font-family: @icon-font-family;
+		line-height: 1;
+		vertical-align: middle;
+	}
+}
+
+//Button Action
+.button-action {
+	position: relative;
+	padding-right: @buttons-action-padding-right;
+	text-align: left;
+	clear: both;
+
+	&:after {
+		right: @buttons-padding-horizontal - (@buttons-action-icon-size / 2);
+		margin-top: -(@buttons-action-icon-size / 2);
+		font-size: @buttons-action-icon-size;
+		content: @buttons-action-icon;
+	}
+}
+
+//Close Button
+.button-close {
+	position: relative;
+	padding-right: @buttons-close-size;
+	line-height: 1;
+	
+	&:after {
+		right: @buttons-padding-horizontal - (@buttons-close-icon-size / 2);
+		margin-top: -(@buttons-close-icon-size / 2);
+		font-size: @buttons-close-icon-size;
+		content: @buttons-close-icon;
+	}
+}
+
+//Play Button
+.button-play {
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -(@buttons-play-size / 2);
+	margin-left: -(@buttons-play-size / 2);
+	.square(@buttons-play-size);
+	line-height: 1;
+	.border-radius(50%);
+	
+	&:after {
+		left: 50%;
+		margin-top: -(@buttons-play-icon-size / 2);
+		margin-left: -(@buttons-play-icon-size / 2);
+		font-size: @buttons-play-icon-size;
+		content: @buttons-play-icon;
+	}
+}
+
+//File Button
+.button-file {
+	@buttons-file-icon-pixel-size: (@buttons-file-icon-size * 10);
+	@padding-right: (@buttons-file-icon-size * 2);
+	
+	position: relative;
+	padding-right: ~"@{padding-right}px";
+	text-align: left;
+	clear: both;
+
+	&:after {	
+		@margin-top: -(@buttons-file-icon-pixel-size) / 2;
+		
+		position: absolute;
+		top: 50%;
+		right: @buttons-padding-horizontal - (@buttons-file-icon-pixel-size / 2);
+		margin-top: ~"@{margin-top}px";
+		font-family: @icon-font-family;
+		.font-size(@buttons-file-icon-size);
+		content: @buttons-file-icon;
+		vertical-align: middle;
+	}
+}
+
+	
+/*
+ * Button Modifiers
+ */
+
+//Button Block
+.button-block {
+	width: 100%;
+	text-align: @buttons-block-text-align;
+	display: block;
+}
+
+//Button Center
+.button-center {
+	margin: 0 auto;
+	display: inline-block;
 }

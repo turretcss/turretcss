@@ -33,6 +33,9 @@
 		include('sections/forms/control.php');
 		include('sections/forms/select.php');
 		
+		//Elements
+		include('sections/elements/button.php');
+		
 		//Utilities
 		include('sections/utilities/utilities.php');
 		include('sections/utilities/utility-classes.php');
