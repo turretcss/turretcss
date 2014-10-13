@@ -19,11 +19,7 @@ abbr {
 }
 
 //Remove Border Radius from Mobile Safari
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
+input,
 textarea {
 	.appearance(none);
 	.border-radius(0);
@@ -98,5 +94,30 @@ dl {
 	dt,
 	dd {
 
+	}
+}
+
+/* Images */
+
+img {
+	vertical-align: bottom;
+
+	&.thumbnail {
+		.border-radius(@image-border-radius);
+		padding: @image-padding;
+		border: @image-border;
+	}
+
+	&.rounded {
+		.border-radius(@image-border-radius);
+	}
+
+	&.circle {
+		.border-radius(50%);
+	}
+
+	&.responsive {
+		width: 100%;
+		height: auto;
 	}
 }
