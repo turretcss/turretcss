@@ -14,7 +14,8 @@
 	
 	
 	<?php
-		include('sections/general.php');
+		include('sections/general/general.php');
+		include('sections/general/colors.php');
 		
 		//Base
 		include('sections/base/typography.php');

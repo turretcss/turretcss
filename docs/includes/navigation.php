@@ -12,6 +12,9 @@
 		array(
 			'title' => 'General',
 			'link' => 'general',
+			'children' => array(
+				'Colors' => 'colors',
+			),
 		),
 		array(
 			'title' => 'Base',

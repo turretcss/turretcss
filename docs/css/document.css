@@ -10012,6 +10012,61 @@ pre {
 pre code {
   background: transparent !important;
 }
+.color {
+  text-align: center;
+}
+.color .swatch {
+  padding: 5px;
+  border: 1px solid #eee;
+  height: 120px;
+  margin-bottom: 5px;
+}
+.color .swatch.white {
+  background: #ffffff;
+}
+.color .swatch.light-grey {
+  background: #fafbfb;
+}
+.color .swatch.grey {
+  background: #6b7681;
+}
+.color .swatch.dark-grey {
+  background: #485364;
+}
+.color .swatch.black {
+  background: #000000;
+}
+.color .swatch.error {
+  background: #f05a5c;
+}
+.color .swatch.warning {
+  background: #f4db05;
+}
+.color .swatch.success {
+  background: #5cb85c;
+}
+.color .swatch.info {
+  background: #3bc0c3;
+}
+.color .swatch.light {
+  background: #fafbfb;
+}
+.color .swatch.primary {
+  background: #4bb3d6;
+}
+.color .swatch.secondary {
+  background: #3bc0c3;
+}
+.color .swatch.tertiary {
+  background: #6b7681;
+}
+.color .swatch.dark {
+  background: #485364;
+}
+.color small {
+  font-size: 10px;
+  font-size: 1rem;
+}
 .grid-item {
   padding: 15px;
   margin-bottom: 20px;
@@ -10021,25 +10076,6 @@ pre code {
   text-align: center;
   background: #3bc0c3;
 }
-/*
-pre[class*="language-"] {
-	
-	margin: 10px 0px;
-	overflow: auto;
-	
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #FAFBFB;
-}
-
-//Inline code
-:not(pre) > code[class*="language-"] {
-	padding: 2px 3px;
-	.border-radius(2px);
-}
-*/
 .navigation {
   padding: 30px 0px;
 }
