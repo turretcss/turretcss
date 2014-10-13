@@ -19,7 +19,7 @@ abbr {
 }
 
 //Remove Border Radius from Mobile Safari
-input,
+input:not([type="range"]):not([type="file"]),
 textarea {
 	.appearance(none);
 	.border-radius(0);

@@ -677,7 +677,7 @@ html * {
 abbr {
   cursor: help;
 }
-input,
+input:not([type="range"]):not([type="file"]),
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -6265,7 +6265,7 @@ form .error-message {
   background: #ffffff;
 }
 /* Input */
-input,
+input:not([type="range"]):not([type="file"]),
 textarea {
   display: block;
   width: 100%;
@@ -6292,7 +6292,7 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-input:-moz-placeholder,
+input:not([type="range"]):not([type="file"]):-moz-placeholder,
 textarea:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -6306,11 +6306,11 @@ textarea:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:focus:-moz-placeholder,
+input:not([type="range"]):not([type="file"]):focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input::-moz-placeholder,
+input:not([type="range"]):not([type="file"])::-moz-placeholder,
 textarea::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -6324,11 +6324,11 @@ textarea::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:focus::-moz-placeholder,
+input:not([type="range"]):not([type="file"]):focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input:-ms-input-placeholder,
+input:not([type="range"]):not([type="file"]):-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -6342,11 +6342,11 @@ textarea:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:focus:-ms-input-placeholder,
+input:not([type="range"]):not([type="file"]):focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input::-webkit-input-placeholder,
+input:not([type="range"]):not([type="file"])::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -6360,20 +6360,20 @@ textarea::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:focus::-webkit-input-placeholder,
+input:not([type="range"]):not([type="file"]):focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input:disabled,
+input:not([type="range"]):not([type="file"]):disabled,
 textarea:disabled {
   background: #fafbfb;
 }
-input:focus,
+input:not([type="range"]):not([type="file"]):focus,
 textarea:focus {
   border: 1px solid #b6bbc7;
   background: #ffffff;
 }
-input:focus.inverse,
+input:not([type="range"]):not([type="file"]):focus.inverse,
 textarea:focus.inverse {
   color: #ffffff;
   border: none;
