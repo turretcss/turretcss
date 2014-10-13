@@ -38,18 +38,18 @@
 
 <h3 class="section-sub-title">Search Form</h3>
 <form role="form">
-	<div class="input-group">
-		<input class="search form-input" type="search" placeholder="Search">
+	<div class="input-group input-group-search">
+		<input type="search" placeholder="Search">
 		<span class="input-group-button">
-			<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
+			<button class="button button-primary" type="submit"><span class="icon icon-search"></span></button>
 		</span>
 	</div>
 </form>
 
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="input-group">
-	<input class="search form-input" type="search" placeholder="Enter Keyword...">
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="input-group input-group-search">
+	<input type="search" placeholder="Enter Keyword...">
 	<span class="input-group-button">
-		<button class="button button-primary" type="submit"><span class="icon-search"></span></button>
+		<button class="button button-primary" type="submit"><span class="icon icon-search"></span></button>
 	</span>
 </div>'); ?></code></pre>
 

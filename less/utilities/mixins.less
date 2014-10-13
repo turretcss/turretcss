@@ -538,11 +538,10 @@
  * Placeholder
  */
  
-.placeholder-input(@font-family, @font-size, @color, @line-height, @letter-spacing, @text-transform) {
+.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform) {
 	font-family: @font-family;
 	.font-size(@font-size);
 	color: @color;
-	line-height: @line-height;
 	letter-spacing: @letter-spacing;
 	text-transform: @text-transform;
 	.transition(color 0.2s ease-in-out);
@@ -553,27 +552,27 @@
 }
 
 //Placeholder
-.placeholder(@color, @font-size, @font-family, @line-height, @letter-spacing, @text-transform) {
+.placeholder(@color, @font-size, @font-family, @letter-spacing, @text-transform) {
 	&:-moz-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @line-height, @letter-spacing, @text-transform);
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
 	}
 	&:focus:-moz-placeholder {
 		.placeholder-input-focus(@color);
 	}
 	&::-moz-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @line-height, @letter-spacing, @text-transform);
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
 	}
 	&:focus::-moz-placeholder {
 		.placeholder-input-focus(@color);
 	}
 	&:-ms-input-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @line-height, @letter-spacing, @text-transform);
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
 	}
 	&:focus:-ms-input-placeholder {
 		.placeholder-input-focus(@color);
 	}
 	&::-webkit-input-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @line-height, @letter-spacing, @text-transform);
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
 	}
 	&:focus::-webkit-input-placeholder {
 		.placeholder-input-focus(@color);

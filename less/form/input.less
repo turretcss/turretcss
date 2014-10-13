@@ -1,49 +1,6 @@
 /* Input */
 
-//Input Sizes
-.input-small() {
-	.font-size(@label-small-font-size);
-	height: @input-small-height;
-	padding: @input-small-padding;
-	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-.input-medium() {
-	.font-size(@label-medium-font-size);
-	height: @input-medium-height;
-	padding: @input-medium-padding;
-	.placeholder(@input-placeholder-color, @label-medium-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-.input-large() {
-	.font-size(@label-large-font-size);
-	height: @input-large-height;
-	line-height: @label-large-line-height;
-	padding: @input-large-padding;
-	.placeholder(@input-placeholder-color, @label-large-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-.input-extra-large() {
-	.font-size(@label-extra-large-font-size);
-	height: @input-extra-large-height;
-	line-height: @label-extra-large-line-height;
-	padding: @input-extra-large-padding;
-	.placeholder(@input-placeholder-color, @label-extra-large-font-size, @input-placeholder-font-family, @label-extra-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-//Inputs
-input[type="text"],
-input[type="search"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="tel"],
-input[type="url"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="datetime"],
-input[type="datetime-local"],
+input,
 textarea {
 	display: block;
 	width: 100%;
@@ -58,13 +15,13 @@ textarea {
 	background-color: @input-background;
 	background-image: none;
 	.border-radius(@input-border-radius);
-	.transition(border @transition-fast ease-in-out);
+	.transition(all @transition-fast ease-in-out);
 
 	//Override Normalise for Input Types
 	.border-box-sizing();
 
 	// Placeholder
-	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 
 	//Disabled
 	&:disabled {
@@ -82,71 +39,62 @@ textarea {
 			background: @input-inverse-focus-background;
 		}
 	}
-	
-	//Form Error
-	.form-error {
-		color: @input-error-color;
-		border-color: @input-error-border-color;
-	}
-
-	//Input Sizes
-	&.input-small {
-		.input-small();
-	}
-
-	&.input-medium {
-		.input-medium();
-		
-		&.inverse {
-			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-		
-		&.input-date {
-			.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-	}
-
-	&.input-large {
-		.input-large();
-		
-		&.inverse {
-			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-		
-		&.input-date {
-			.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-		
-		@media @medium {
-			.input-medium();
-		}
-	}
-
-	&.input-extra-large {
-		.input-extra-large();
-		
-		&.inverse {
-			.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-		
-		@media @medium {
-			.font-size(@label-large-font-size);
-			height: @input-large-height;
-			line-height: @label-large-line-height;
-			padding: @input-large-padding;
-			.placeholder(@input-placeholder-color, @label-large-font-size, @input-placeholder-font-family, @label-large-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-		}
-	}
-
-	//Inverse
-	&.input-inverse {
-		color: @input-inverse-color;
-		border: @input-inverse-border;
-		background-color: @input-inverse-background;
-		.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-line-height, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
 }
 
+//Search
 input[type="search"] {
 	.border-radius(@input-search-border-radius);
+}
+
+//Input Sizes
+.input-small() {
+	.font-size(@input-small-font-size);
+	height: @input-small-height;
+	padding: @input-small-padding;
+	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+.input-medium() {
+	.font-size(@input-medium-font-size);
+	height: @input-medium-height;
+	padding: @input-medium-padding;
+	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+.input-large() {
+	.font-size(@input-large-font-size);
+	height: @input-large-height;
+	padding: @input-large-padding;
+	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+.input-extra-large() {
+	.font-size(@input-extra-large-font-size);
+	height: @input-extra-large-height;
+	padding: @input-extra-large-padding;
+	.placeholder(@input-placeholder-color, @input-extra-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+.input-small {
+	.input-medium();
+}
+
+.input-medium {
+	.input-medium();
+}
+
+.input-large {
+	.input-large();
+}
+
+.input-extra-large {
+	.input-extra-large();
+}
+
+//Input Inverse
+.input-inverse {
+	color: @input-inverse-color;
+	border: @input-inverse-border;
+	background-color: @input-inverse-background;
+	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }

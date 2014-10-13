@@ -11,6 +11,26 @@ array (
 	</select>
 </label>',
 ),
+array (
+	'title' => 'Inverse Select Field',
+	'code' => '<label class="select select-inverse" for="select-inverse">
+	<select id="select-inverse">
+		<option>Select Field</option>
+		<option value="1">Option 01</option>
+		<option value="2">Option 02</option>
+	</select>
+</label>',
+),
+array (
+	'title' => 'Large Select Field',
+	'code' => '<label class="select select-large" for="select-large">
+	<select id="select-large">
+		<option>Select Field</option>
+		<option value="1">Option 01</option>
+		<option value="2">Option 02</option>
+	</select>
+</label>',
+),
 );
 ?>
 

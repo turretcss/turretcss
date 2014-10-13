@@ -24,10 +24,6 @@
 		.border-radius(@select-border-radius);
 		.appearance(none);
 		
-		&.large {
-			padding: @select-large-padding;
-		}
-		
 		//Undo the Firefox inner focus ring
 		&::-moz-focusring {
 			color: transparent;
@@ -37,19 +33,6 @@
 		//Hide the arrow in IE10 and up
 		&::-ms-expand {
 			display: none;
-		}
-	}
-	
-	//Inverse
-	&.inverse {
-		select {
-			color: @select-inverse-color;
-			border: @select-inverse-border;
-			background-color: @select-inverse-background;
-		}
-		
-		&:after {
-			color: @select-inverse-icon-color;
 		}
 	}
 	
@@ -65,6 +48,29 @@
 		font-size: @select-icon-size;
 		color: @select-icon-color;
 		pointer-events: none;
+	}
+	
+	//Large Select
+	&.select-large {
+	
+		select {
+			padding: @select-large-padding;
+			.font-size(@select-large-font-size);
+		}
+	}
+	
+	//Inverse
+	&.select-inverse {
+	
+		select {
+			color: @select-inverse-color;
+			border: @select-inverse-border;
+			background-color: @select-inverse-background;
+		}
+		
+		&:after {
+			color: @select-inverse-icon-color;
+		}
 	}
 }
 
