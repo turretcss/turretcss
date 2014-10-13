@@ -17,6 +17,9 @@
 @hr-height: 1px;
 @hr-background: fade(@primary, 35%);
 
+//Images
+@image-rounded-border-radius: 8px;
+
 //Z-Index Declarations
 @navigation-z-index: 100;
 @navigation-fixed-z-index: 100;
@@ -558,13 +561,13 @@
 @buttons-font-family: @semibold-font-family;
 @buttons-font-size: 1.4;
 @buttons-color: @white;
-@buttons-background: @light;
+@buttons-background: @grey;
 @buttons-text-align: center;
 @buttons-text-transform: none;
 
 //Button Hover
 @buttons-hover-color: @white;
-@buttons-hover-background: @primary;
+@buttons-hover-background: darken(@grey, 10%);
 
 //Button Sizes
 @buttons-small-padding-vertical: 10px;
@@ -583,16 +586,16 @@
 @buttons-extra-large-font-size: 1.6;
 
 //Button Inverse
-@buttons-inverse-color: @white;
-@buttons-inverse-background: @secondary;
-@buttons-inverse-hover-color: @white;
-@buttons-inverse-hover-background: lighten(@secondary, 5%);
+@buttons-inverse-color: @grey;
+@buttons-inverse-background: @light;
+@buttons-inverse-hover-color: @grey;
+@buttons-inverse-hover-background: darken(@light, 10%);
 
 //Button Primary
-@buttons-primary-color: @white;
+@buttons-primary-color: @buttons-color;
 @buttons-primary-background: @primary;
-@buttons-primary-hover-color: @white;
-@buttons-primary-hover-background: darken(@primary, 5%);
+@buttons-primary-hover-color: @buttons-hover-color;
+@buttons-primary-hover-background: darken(@primary, 10%);
 
 //Button Border
 @buttons-border-color: @dark;
@@ -602,7 +605,7 @@
 @buttons-border-radius: @border-radius;
 
 //Button Text
-@buttons-text-padding-horizontal: 0;
+@buttons-text-padding-horizontal: @buttons-padding-horizontal;
 @buttons-text-color: @dark;
 @buttons-text-hover-color: @primary;
 
@@ -626,10 +629,10 @@
 @buttons-file-icon-size: 1.6;
 
 //Button Block
-@buttons-block-text-align: left;
+@buttons-block-text-align: center;
 
 //Button Disabled
-@button-disabled-color: @white;
+@button-disabled-color: darken(@light, 15%);
 @button-disabled-background: @light;
 
 
@@ -646,24 +649,10 @@
 
 
 /*
- * Image
+ * Media
  */
 
-@image-padding: 5px;
-@image-border-radius: 8px;
-@image-border: 1px solid @light-grey;
-
-//Image Placeholder
-@image-placeholder-background: transparent;
-
-//Image Caption
-@image-caption-padding: 15px 20px 0px 20px;
-@image-caption-width: 40%;
-@image-caption-font-family: @thin-font-family;
-@image-caption-font-weight: @thin-font-weight;
-@image-caption-font-size: 7.2;
-@image-caption-color: @primary;
-@image-caption-background: @light;
+@media-background: @light;
 
 
 /*
@@ -798,12 +787,3 @@
 @table-responsive-padding: 0;
 @table-responsive-border: solid @light;
 @table-responsive-border-width: 0px 0px 1px 0px;
-
-
-/*
- * Video
- */
-
-@video-player-background: @secondary;
-@video-message-font-size: 2;
-@video-message-color: @white;
