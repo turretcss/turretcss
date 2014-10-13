@@ -6843,6 +6843,7 @@ input[type="search"] {
 }
 .select.select-large select {
   padding: 16px 35px 16px 15px;
+  height: 50px;
   font-size: 14px;
   font-size: 1.4rem;
 }
