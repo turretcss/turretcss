@@ -661,7 +661,6 @@ Version: 2.0
   -o-animation-name: spin;
   animation-name: spin;
 }
-/* Browser Styles */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -677,20 +676,10 @@ html * {
 abbr {
   cursor: help;
 }
-input:not([type="range"]):not([type="file"]),
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
 textarea,
 input {
   outline: none;
 }
-/* General Styles */
 html,
 body {
   margin: 0;
@@ -714,40 +703,6 @@ body {
   color: #485364;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-body.navigation-fixed {
-  padding-top: 110px;
-}
-@media (max-width:  1024px) {
-  body.navigation-fixed {
-    padding-top: 50px;
-  }
-}
-a {
-  text-decoration: none;
-  color: #4bb3d6;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-a:hover,
-a:focus {
-  color: #485364;
-}
-hr {
-  clear: both;
-  margin: 65px auto;
-  border: 0;
-  height: 1px;
-  background: rgba(75, 179, 214, 0.35);
-}
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-/* Images */
 img {
   vertical-align: bottom;
 }
@@ -1703,6 +1658,50 @@ p {
 p.lead {
   margin-top: 0;
 }
+a {
+  text-decoration: none;
+  color: #4bb3d6;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #485364;
+}
+hr {
+  clear: both;
+  margin: 65px auto;
+  border: 0;
+  height: 1px;
+  background: rgba(75, 179, 214, 0.35);
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol,
+li {
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #6b7681;
+  line-height: 1.5;
+}
+.lead {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-size: 2.3rem;
+  color: #6b7681;
+}
+strong {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
 @media (max-width:  1024px) {
   h1 {
     font-size: 36px;
@@ -1736,25 +1735,6 @@ p.lead {
     font-size: 18px;
     font-size: 1.8rem;
   }
-}
-ul li,
-ol,
-li {
-  font-size: 15px;
-  font-size: 1.5rem;
-  color: #6b7681;
-  line-height: 1.5;
-}
-.lead {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-size: 2.3rem;
-  color: #6b7681;
-}
-strong {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
 }
 /*
  * Container
@@ -6288,6 +6268,9 @@ textarea {
   -ms-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

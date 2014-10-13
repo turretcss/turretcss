@@ -1,10 +1,10 @@
-/* Browser Styles */
-
+//Font Rendering
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+//Box Sizing
 * {
 	.border-box-sizing();
 }
@@ -14,15 +14,9 @@ html * {
 	outline: 0;
 }
 
+//? Cursor
 abbr {
 	cursor: help;
-}
-
-//Remove Border Radius from Mobile Safari
-input:not([type="range"]):not([type="file"]),
-textarea {
-	.appearance(none);
-	.border-radius(0);
 }
 
 //Remove Webkit Glow
@@ -30,8 +24,7 @@ textarea, input {
 	outline: none;
 }
 
-/* General Styles */
-
+//General Styles
 html,
 body {
 	margin: 0;
@@ -39,6 +32,7 @@ body {
 	width: 100%;
 }
 
+//Base Font Sizes
 html {
 	font-size: @base-font-size;
 	
@@ -51,54 +45,14 @@ html {
 	}
 }
 
+//Body Font and Color
 body {
 	color: @body-color;
 	font-family: @copy-font-family;
-	
-	&.navigation-fixed {
-		padding-top: @navigation-height;
-		
-		@media @navigation-mobile-breakpoint {
-			padding-top: @navigation-mobile-height;
-		}
-	}
 }
 
-a {
-	text-decoration: none;
-	color: @link-color;
-	.transition(color @transition-fast ease-in-out);
-	
-	&:hover,
-	&:focus {
-		color: @link-hover-color;
-	}
-}
 
-hr {
-	clear: both;
-	margin: @hr-margin;
-	border: 0;
-	height: @hr-height;
-	background: @hr-background;
-}
-
-ul,
-ol {
-	margin: 0;
-	padding: 0;
-}
-
-dl {
-
-	dt,
-	dd {
-
-	}
-}
-
-/* Images */
-
+//Images
 img {
 	vertical-align: bottom;
 
