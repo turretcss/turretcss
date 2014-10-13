@@ -15,7 +15,7 @@ textarea {
 	background-color: @input-background;
 	background-image: none;
 	.border-radius(@input-border-radius);
-	.transition(all @transition-fast ease-in-out);
+	.transition(border @transition-fast ease-in-out);
 
 	//Override Normalise for Input Types
 	.border-box-sizing();
@@ -51,7 +51,7 @@ input[type="search"] {
 	.font-size(@input-small-font-size);
 	height: @input-small-height;
 	padding: @input-small-padding;
-	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 .input-medium() {
@@ -76,7 +76,7 @@ input[type="search"] {
 }
 
 .input-small {
-	.input-medium();
+	.input-small();
 }
 
 .input-medium {

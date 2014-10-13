@@ -103,19 +103,23 @@ array (
 <section id="input" class="section">
 	<h2 class="section-title">Input<code>forms/input.less</code></h2>
 	<?php foreach ($inputs as $input) : ?>
-		<h3 class="section-sub-title"><?php echo $input['title']; ?></h3>
+		<!-- <h3 class="section-sub-title"><?php echo $input['title']; ?></h3> -->
 		<form><?php echo $input['code']; ?></form>
 		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities($input['code']); ?></code></pre>
 	<?php endforeach; ?>
-	
-	<h3 class="section-sub-title">Input Sizes</h3>
+</section>
+
+<section id="input" class="section">
+	<h2 class="section-title">Input Sizes</h2>
 <form>
+	<input class="input-extra-large" type="text" placeholder="Input Extra Large">
 	<input class="input-large" type="text" placeholder="Input Large">
 	<input class="input-medium" type="text" placeholder="Input Medium">
 	<input class="input-small" type="text" placeholder="Input Small">
 </form>
 	
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<input class="input-large" type="text" placeholder="Input Large">
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<input class="input-extra-large" type="text" placeholder="Input Extra Large">
+<input class="input-large" type="text" placeholder="Input Large">
 <input class="input-medium" type="text" placeholder="Input Medium">
 <input class="input-small" type="text" placeholder="Input Small">'); ?></code></pre>
 </section>

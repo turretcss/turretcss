@@ -5989,7 +5989,7 @@ form textarea {
 }
 form label {
   display: block;
-  margin: 10px 0px;
+  margin: 20px 0px 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -6217,8 +6217,8 @@ form .error-message {
   margin-left: -1px;
 }
 .input-group-button.input-group-button-small > .button {
-  font-size: 10px;
-  font-size: 1rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   height: 30px;
   min-width: 30px;
 }
@@ -6283,11 +6283,11 @@ textarea {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -ms-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -6385,15 +6385,15 @@ input[type="search"] {
   border-radius: 20px;
 }
 .input-small {
-  font-size: 14px;
-  font-size: 1.4rem;
-  height: 40px;
-  padding: 8px 12px;
+  font-size: 9px;
+  font-size: 0.9rem;
+  height: 30px;
+  padding: 10px;
 }
 .input-small:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
   letter-spacing: 0px;
   text-transform: none;
@@ -6408,8 +6408,8 @@ input[type="search"] {
 }
 .input-small::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
   letter-spacing: 0px;
   text-transform: none;
@@ -6424,8 +6424,8 @@ input[type="search"] {
 }
 .input-small:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
   letter-spacing: 0px;
   text-transform: none;
@@ -6440,72 +6440,8 @@ input[type="search"] {
 }
 .input-small::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-.input-small:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-.input-small::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-.input-small:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-.input-small::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
   letter-spacing: 0px;
   text-transform: none;
@@ -6662,7 +6598,7 @@ input[type="search"] {
   font-size: 18px;
   font-size: 1.8rem;
   height: 65px;
-  padding: 10px 30px;
+  padding: 10px 25px;
 }
 .input-extra-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7512,6 +7448,7 @@ pre {
   border: 1px solid #E1E3E8;
 }
 pre code {
+  padding: 0;
   background: transparent !important;
 }
 .color {
