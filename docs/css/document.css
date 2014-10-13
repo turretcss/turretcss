@@ -6357,13 +6357,13 @@ input[type="search"] {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-.input-small {
+input:not([type="range"]):not([type="file"]).input-small {
   font-size: 9px;
   font-size: 0.9rem;
   height: 30px;
   padding: 10px;
 }
-.input-small:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
@@ -6376,10 +6376,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-small:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-small::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
@@ -6392,10 +6392,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-small:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-small:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
@@ -6408,10 +6408,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-small:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-small::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
@@ -6424,16 +6424,16 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-small:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-medium {
+input:not([type="range"]):not([type="file"]).input-medium {
   font-size: 14px;
   font-size: 1.4rem;
   height: 40px;
   padding: 8px 12px;
 }
-.input-medium:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6446,10 +6446,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-medium:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-medium::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6462,10 +6462,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-medium:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-medium:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6478,10 +6478,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-medium:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-medium::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6494,16 +6494,16 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-medium:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-large {
+input:not([type="range"]):not([type="file"]).input-large {
   font-size: 16px;
   font-size: 1.6rem;
   height: 50px;
   padding: 10px 20px;
 }
-.input-large:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6516,10 +6516,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-large:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-large::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6532,10 +6532,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-large:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-large:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6548,10 +6548,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-large:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-large::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6564,16 +6564,16 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-large:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-extra-large {
+input:not([type="range"]):not([type="file"]).input-extra-large {
   font-size: 18px;
   font-size: 1.8rem;
   height: 65px;
   padding: 10px 25px;
 }
-.input-extra-large:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -6586,10 +6586,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-extra-large:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-extra-large::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -6602,10 +6602,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-extra-large:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-extra-large:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -6618,10 +6618,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-extra-large:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-extra-large::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -6634,15 +6634,15 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-extra-large:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-.input-inverse {
+input:not([type="range"]):not([type="file"]).input-inverse {
   color: #ffffff;
   border: none;
   background-color: #6b7681;
 }
-.input-inverse:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6655,10 +6655,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-inverse:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus:-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-.input-inverse::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6671,10 +6671,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-inverse:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus::-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-.input-inverse:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6687,10 +6687,10 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-inverse:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-.input-inverse::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -6703,7 +6703,7 @@ input[type="search"] {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-.input-inverse:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
 /* Select */
