@@ -1118,17 +1118,11 @@ img.responsive {
 .hide {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 .show {
   display: block !important;
   visibility: visible !important;
-  -moz-opacity: 1 !important;
-  -khtml-opacity: 1 !important;
-  -webkit-opacity: 1 !important;
   opacity: 1 !important;
 }
 .visible {
@@ -1141,9 +1135,6 @@ img.responsive {
   .hidden-extra-large {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1151,9 +1142,6 @@ img.responsive {
   .hidden-large {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1161,9 +1149,6 @@ img.responsive {
   .hidden-medium {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1171,9 +1156,6 @@ img.responsive {
   .hidden-mobile {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1181,9 +1163,6 @@ img.responsive {
   .hidden-medium-landscape {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1191,9 +1170,6 @@ img.responsive {
   .hidden-medium-portrait {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1201,9 +1177,6 @@ img.responsive {
   .hidden-small {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1211,9 +1184,6 @@ img.responsive {
   .hidden-print {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1221,171 +1191,114 @@ img.responsive {
   .hidden-screen {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
 .visible-extra-large {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 1280px) {
   .visible-extra-large {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-large {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
   .visible-large {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-mobile {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width:  1024px) {
   .visible-mobile {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .visible-medium {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium-landscape {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .visible-medium-landscape {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium-portrait {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width:  1024px) and (orientation: portrait) {
   .visible-medium-portrait {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-small {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width: 767px) {
   .visible-small {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-print {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media print {
   .visible-print {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-screen {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media screen {
   .visible-screen {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }

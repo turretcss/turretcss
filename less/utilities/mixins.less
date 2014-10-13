@@ -22,14 +22,14 @@
 .show() {
 	display: block !important;
 	visibility: visible !important;
-	.opacity(1);
+	opacity: 1 !important;
 }
 
 //Hide
 .hide() {
 	display: none !important;
 	visibility: hidden !important;
-	.opacity(0);
+	opacity: 0 !important;
 }
 
 //Sizing
@@ -106,15 +106,6 @@
 	position:
 	absolute;
 	width: 1px;
-}
-
-//Opacity
-.opacity(@opacity: 1) {
-	-moz-opacity: @opacity !important;
-	-khtml-opacity: @opacity !important;
-	-webkit-opacity: @opacity !important;
-	opacity: @opacity !important;
-	@opperc: @opacity * 100;
 }
 
 //User Select
