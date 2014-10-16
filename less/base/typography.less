@@ -96,6 +96,30 @@ ol, li {
 	line-height: @line-height;
 }
 
+.list {
+	margin: @list-margin;
+	padding: @list-padding;
+	list-style: none;
+
+	li {
+		position: relative;
+		margin: @list-item-margin;
+		font-family: @list-item-font-family;
+		font-weight: @list-item-font-weight;
+		color: @list-item-color;
+
+		&:before {
+			position: absolute;
+			top: @list-item-icon-top;
+			left: @list-item-icon-left;
+			font-family: @icon-font-family;
+			font-size: @list-item-icon-size;
+			content: @list-item-icon;
+			color: @list-item-icon-color;
+		}
+	}
+}
+
 //Blockquote
 blockquote {
 
