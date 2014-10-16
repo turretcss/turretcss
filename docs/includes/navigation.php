@@ -14,6 +14,7 @@
 			'title' => 'General',
 			'link' => 'general',
 			'children' => array(
+				'Images' => 'images',
 				'Colors' => 'colors',
 				'Media Queries' => 'media-queries',
 			),

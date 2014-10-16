@@ -15,6 +15,7 @@
 	
 	<?php
 		include('sections/general/general.php');
+		include('sections/general/images.php');
 		include('sections/general/colors.php');
 		include('sections/base/media-queries.php');
 		
