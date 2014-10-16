@@ -6204,7 +6204,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   color: #ffffff;
   text-align: center;
   text-transform: none;
-  background: #6b7681;
+  background: #3bc0c3;
   white-space: nowrap;
   cursor: pointer;
   -webkit-border-radius: 6px;

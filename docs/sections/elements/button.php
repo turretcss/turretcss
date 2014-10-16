@@ -31,7 +31,11 @@
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-block">Button Block Primary</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Center</h3>
-	<button class="button button-center">Button Center</button>
+	<div class="row">
+		<div class="column-1">
+			<button class="button button-center">Button Center</button>
+		</div>
+	</div>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-center">Button Center</button>'); ?></code></pre>
 	
 </section>
