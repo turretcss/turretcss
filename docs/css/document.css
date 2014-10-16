@@ -5370,13 +5370,20 @@ form button[type="submit"].submitting:focus {
   background: transparent;
 }
 form input:not([type="range"]):not([type="file"]).error {
+  color: #f05a5c;
   border-color: #f05a5c;
 }
 form input:not([type="range"]):not([type="file"]).warning {
+  color: #f4db05;
   border-color: #f4db05;
 }
 form input:not([type="range"]):not([type="file"]).success {
+  color: #5cb85c;
   border-color: #5cb85c;
+}
+form input:not([type="range"]):not([type="file"]).info {
+  color: #3bc0c3;
+  border-color: #3bc0c3;
 }
 /* Controls (Radio + Checkbox) */
 .control {

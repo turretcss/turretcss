@@ -102,17 +102,22 @@ $inputs_states = array(
 array (
 	'title' => 'Input Error',
 	'code' => '<label for="error">Input Error</label>
-<input class="error" type="text" id="error" placeholder="Error">',
+<input class="error" type="text" id="error" value="Input Error">',
 ),
 array (
 	'title' => 'Input Warning',
 	'code' => '<label for="warning">Input Warning</label>
-<input class="warning" type="text" id="warning" placeholder="Warning">',
+<input class="warning" type="text" id="warning" value="Input Warning">',
 ),
 array (
 	'title' => 'Input Success',
 	'code' => '<label for="success">Input Success</label>
-<input class="success" type="text" id="success" placeholder="Success">',
+<input class="success" type="text" id="success" value="Input Success">',
+),
+array (
+	'title' => 'Input Info',
+	'code' => '<label for="info">Input Info</label>
+<input class="info" type="text" id="info" value="Input Info">',
 ),
 );
 

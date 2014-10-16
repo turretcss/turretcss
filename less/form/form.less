@@ -117,15 +117,23 @@ form {
 	input:not([type="range"]):not([type="file"]) {
 	
 		&.error {
+			color: @input-error-color;
 			border-color: @input-error-color;
 		}
 		
 		&.warning {
+			color: @input-warning-color;
 			border-color: @input-warning-color;
 		}
 		
 		&.success {
+			color: @input-success-color;
 			border-color: @input-success-color;
+		}
+		
+		&.info {
+			color: @input-info-color;
+			border-color: @input-info-color;
 		}
 	}
 }
