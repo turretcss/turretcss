@@ -1,5 +1,6 @@
 <section id="colors" class="section">
 	<h2 class="section-title">Colours</h2>
+	
 	<h3 class="section-sub-title">Shades</h3>
 	<div class="row">
 		<div class="color column-1-6">
@@ -23,6 +24,13 @@
 			<small>Black</small>
 		</div>
 	</div>
+	
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-white">...</div>
+<div class="background-light-grey">...</div>
+<div class="background-grey">...</div>
+<div class="background-dark-grey">...</div>
+<div class="background-black">...</div>'); ?>
+	</code></pre>
 
 	<!-- Indicators -->
 	<h3 class="section-sub-title">Indicators</h3>
@@ -44,6 +52,12 @@
 			<small>Info</small>
 		</div>
 	</div>
+	
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-error">...</div>
+<div class="background-warning">...</div>
+<div class="background-success">...</div>
+<div class="background-info">...</div>'); ?>
+	</code></pre>
 
 	<!-- Palette -->
 	<h3 class="section-sub-title">Palette</h3>
@@ -69,6 +83,13 @@
 			<small>Dark</small>
 		</div>
 	</div>
+	
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-light">...</div>
+<div class="background-primary">...</div>
+<div class="background-secondary">...</div>
+<div class="background-tertiary">...</div>
+<div class="background-dark">...</div>'); ?>
+	</code></pre>
 	
 	<!-- Text Colors -->
 	<h3 class="section-sub-title">Text Colors</h3>
@@ -104,25 +125,6 @@
 <p class="text-secondary">...</p>
 <p class="text-tertiary">...</p>
 <p class="text-dark">...</p>'); ?>
-	</code></pre>
-	
-	<!-- Background Colors -->
-	<h3 class="section-sub-title">Background Colors</h3>
-
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-white">...</div>
-<div class="background-light-grey">...</div>
-<div class="background-grey">...</div>
-<div class="background-dark-grey">...</div>
-<div class="background-black">...</div>
-<div class="background-error">...</div>
-<div class="background-warning">...</div>
-<div class="background-success">...</div>
-<div class="background-info">...</div>
-<div class="background-light">...</div>
-<div class="background-primary">...</div>
-<div class="background-secondary">...</div>
-<div class="background-tertiary">...</div>
-<div class="background-dark">...</div>'); ?>
 	</code></pre>
 	
 </section>
