@@ -8,9 +8,9 @@ array (
 <input type="text" id="text" placeholder="Text">',
 ),
 array (
-	'title' => 'Required Input',
-	'code' => '<label for="required">Required Input<span class="required">*</span></label>
-<input type="text" id="required" placeholder="Required" required>',
+	'title' => 'Inverse Input',
+	'code' => '<label for="inverse">Inverse Input</label>
+<input class="input-inverse" type="text" id="inverse" placeholder="Inverse">',
 ),
 array (
 	'title' => 'Disabled Input',

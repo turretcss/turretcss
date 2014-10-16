@@ -5622,6 +5622,9 @@ textarea:focus::-webkit-input-placeholder {
 }
 input:not([type="range"]):not([type="file"]):disabled,
 textarea:disabled {
+  cursor: no-drop;
+  color: #fafbfb;
+  border: 1px solid #dee4e4;
   background: #fafbfb;
 }
 input:not([type="range"]):not([type="file"]):focus,
