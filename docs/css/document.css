@@ -5230,7 +5230,7 @@ form textarea {
 }
 form label {
   display: block;
-  margin: 5px 0px;
+  margin: 15px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5315,7 +5315,7 @@ form input:not([type="range"]):not([type="file"]).success {
 .control {
   position: relative;
   display: block;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px;
   padding: 0px 0px 0px 1.5em;
   color: #6b7681;
   cursor: pointer;
@@ -5392,7 +5392,7 @@ form input:not([type="range"]):not([type="file"]).success {
 .input-group {
   position: relative;
   display: table;
-  margin: 0px 0px 20px 0px;
+  margin: 0;
   border-collapse: separate;
 }
 .input-group.input-inline {
@@ -5512,7 +5512,7 @@ textarea {
   display: block;
   width: 100%;
   height: 40px;
-  margin: 0px 0px 20px 0px;
+  margin: 0;
   padding: 8px 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5982,7 +5982,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .select {
   position: relative;
   display: block;
-  margin: 0px 0px 20px 0px;
+  margin: 0;
   color: #ffffff;
 }
 .select select {
@@ -6686,6 +6686,7 @@ code {
   border-radius: 2px;
 }
 pre {
+  margin-top: 20px !important;
   padding: 10px !important;
   background: #fafbfb !important;
   border: 1px solid #E1E3E8;

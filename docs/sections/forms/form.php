@@ -54,7 +54,7 @@
 			<label for="password">Password</label>
 			<input type="password" id="password" placeholder="Enter Password">
 		</div>
-		<div class="column-1">
+		<div class="column-1 gutter-top">
 			<button type="submit" class="button">Submit</button>
 		</div>
 	</div>
@@ -78,7 +78,7 @@
 			<label for="password">Password</label>
 			<input type="password" id="password" placeholder="Enter Password">
 		</div>
-		<div class="column-1">
+		<div class="column-1 gutter-top">
 			<button type="submit" class="button">Submit</button>
 		</div>
 	</div>

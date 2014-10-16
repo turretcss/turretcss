@@ -12,25 +12,25 @@ array (
 ),
 array (
 	'title' => 'Input Group Sizes',
-	'code' => '<div class="input-group">
+	'code' => '<div class="input-group gutter-bottom">
 	<input class="input-extra-large" type="text" placeholder="Input Group Extra Large">
 	<span class="input-group-button input-group-button-extra-large">
 		<button class="button button-primary" type="submit">Submit</button>
 	</span>
 </div>
-<div class="input-group">
+<div class="input-group gutter-bottom">
 	<input class="input-large" type="text" placeholder="Input Group Large">
 	<span class="input-group-button input-group-button-large">
 		<button class="button button-primary" type="submit">Submit</button>
 	</span>
 </div>
-<div class="input-group">
+<div class="input-group gutter-bottom">
 	<input class="input-medium" type="text" placeholder="Input Group Medium">
 	<span class="input-group-button input-group-button-medium">
 		<button class="button button-primary" type="submit">Submit</button>
 	</span>
 </div>
-<div class="input-group">
+<div class="input-group gutter-bottom">
 	<input class="input-small" type="text" placeholder="Input Group Small">
 	<span class="input-group-button input-group-button-small">
 		<button class="button button-primary" type="submit">Submit</button>

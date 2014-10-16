@@ -135,10 +135,10 @@ array (
 
 	<h3 class="section-sub-title">Input Sizes</h3>
 <form>
-	<input class="input-extra-large" type="text" placeholder="Input Extra Large">
-	<input class="input-large" type="text" placeholder="Input Large">
-	<input class="input-medium" type="text" placeholder="Input Medium">
-	<input class="input-small" type="text" placeholder="Input Small">
+	<input class="input-extra-large gutter-bottom" type="text" placeholder="Input Extra Large">
+	<input class="input-large gutter-bottom" type="text" placeholder="Input Large">
+	<input class="input-medium gutter-bottom" type="text" placeholder="Input Medium">
+	<input class="input-small gutter-bottom" type="text" placeholder="Input Small">
 </form>
 	
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<input class="input-extra-large" type="text" placeholder="Input Extra Large">
