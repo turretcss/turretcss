@@ -7,6 +7,7 @@
 			'children' => array(
 				'Usage' => 'usage',
 				'Getting Started' => 'getting-started',
+				'Templates' => 'templates',
 			),
 		),
 		array(

@@ -6762,6 +6762,10 @@ pre code {
   text-align: center;
   background: #3bc0c3;
 }
+.grid-item.grid-item-nested {
+  margin-bottom: 0;
+  background: #4bb3d6;
+}
 .navigation {
   padding: 30px 0px;
 }
