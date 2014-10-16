@@ -5319,14 +5319,6 @@ form fieldset legend {
   font-size: 1.5rem;
   color: #4bb3d6;
 }
-form fieldset .checkbox input[type="checkbox"] {
-  margin: 5px 0px;
-  margin-right: 2px;
-  display: inline-block;
-}
-form fieldset .checkbox label {
-  display: inline-block;
-}
 /* Controls (Radio + Checkbox) */
 .control {
   position: relative;
