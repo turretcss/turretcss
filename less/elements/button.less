@@ -7,7 +7,7 @@
 	font-family: @buttons-font-family;
 	.font-size(@buttons-font-size);
 	border: none;
-	line-height: @buttons-height - (@buttons-padding-vertical * 2);
+	line-height: 1;
 	color: @buttons-color;
 	text-align: @buttons-text-align;
 	text-transform: @buttons-text-transform;
@@ -172,7 +172,6 @@
 		position: absolute;
 		top: 50%;
 		font-family: @icon-font-family;
-		line-height: 1;
 		vertical-align: middle;
 	}
 }
@@ -196,7 +195,6 @@
 .button-close {
 	position: relative;
 	padding-right: @buttons-close-size;
-	line-height: 1;
 	
 	&:after {
 		right: @buttons-padding-horizontal - (@buttons-close-icon-size / 2);
@@ -215,7 +213,6 @@
 	margin-top: -(@buttons-play-size / 2);
 	margin-left: -(@buttons-play-size / 2);
 	.square(@buttons-play-size);
-	line-height: 1;
 	.border-radius(50%);
 	
 	&:after {
