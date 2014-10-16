@@ -17,10 +17,12 @@
 	<button class="button button-small">Small</button>
 	<button class="button button-medium">Medium</button>
 	<button class="button button-large">Large</button>
+	<button class="button button-extra-large">Extra Large</button>
 	
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-small primary">Small</button>
 <button class="button button-medium">Medium</button>
-<button class="button button-large">Large</button>'); ?></code></pre>
+<button class="button button-large">Large</button>
+<button class="button button-extra-large">Extra Large</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Action</h3>
 	<button class="button button-action">Button Block Primary Action</button>
