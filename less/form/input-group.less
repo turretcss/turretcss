@@ -10,7 +10,7 @@
 		float: left;
 	}
 
-	input {
+	input:not([type="range"]):not([type="file"]) {
 		margin: 0;
 		.border-radiuses(@input-border-radius, 0, @input-border-radius, 0);
 	}

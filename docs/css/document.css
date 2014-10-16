@@ -6136,7 +6136,7 @@ form .error-message {
 .input-group.input-inline {
   float: left;
 }
-.input-group input {
+.input-group input:not([type="range"]):not([type="file"]) {
   margin: 0;
   -webkit-border-radius: 6px 0 0 6px;
   -moz-border-radius: 6px 0 0 6px;
