@@ -113,20 +113,19 @@ form {
 		}
 	}
 	
-	//Error
-	.error {
-		position: relative;
+	//Indicators
+	input:not([type="range"]):not([type="file"]) {
+	
+		&.error {
+			border-color: @input-error-color;
+		}
 		
-		input.form-error {
-			border: 1px solid @error;
+		&.warning {
+			border-color: @input-warning-color;
+		}
+		
+		&.success {
+			border-color: @input-success-color;
 		}
 	}
-	
-	.error-message {
-		display: block;
-		margin: @input-error-message-margin;
-		.font-size(@input-error-message-font-size);
-		color: @input-error-message-color;
-	}
-	
 }

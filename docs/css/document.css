@@ -1621,24 +1621,24 @@ h6 small {
   font-size: 0.6em;
 }
 h1 {
-  font-size: 50px;
-  font-size: 5rem;
+  font-size: 36px;
+  font-size: 3.6rem;
 }
 h2 {
   font-size: 24px;
   font-size: 2.4rem;
 }
 h3 {
-  font-size: 13px;
-  font-size: 1.3rem;
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 h4 {
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 h5 {
-  font-size: 13px;
-  font-size: 1.3rem;
+  font-size: 14px;
+  font-size: 1.4rem;
 }
 h6 {
   font-size: 12px;
@@ -5230,7 +5230,7 @@ form textarea {
 }
 form label {
   display: block;
-  margin: 20px 0px 10px;
+  margin: 5px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5302,18 +5302,14 @@ form button[type="submit"].saving:focus,
 form button[type="submit"].submitting:focus {
   background: transparent;
 }
-form .error {
-  position: relative;
+form input:not([type="range"]):not([type="file"]).error {
+  border-color: #f05a5c;
 }
-form .error input.form-error {
-  border: 1px solid #f05a5c;
+form input:not([type="range"]):not([type="file"]).warning {
+  border-color: #f4db05;
 }
-form .error-message {
-  display: block;
-  margin: 10px 0px 0px;
-  font-size: 13px;
-  font-size: 1.3rem;
-  color: #f05a5c;
+form input:not([type="range"]):not([type="file"]).success {
+  border-color: #5cb85c;
 }
 /* Controls (Radio + Checkbox) */
 .control {
@@ -6825,10 +6821,8 @@ pre code {
   border: none;
 }
 .section .section-sub-title {
-  margin: 30px 0px 15px;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
+  margin: 50px 0px 30px;
+  font-weight: 500;
 }
 table {
   color: #888888;

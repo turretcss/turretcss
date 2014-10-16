@@ -18,11 +18,6 @@ array (
 <input type="text" id="disabled" placeholder="Disabled" disabled>',
 ),
 array (
-	'title' => 'Input Error',
-	'code' => '<label for="error">Input Error</label>
-<input class="form-input error" type="text" id="error" placeholder="Error">',
-),
-array (
 	'title' => 'Email Input',
 	'code' => '<label for="email">Email Input</label>
 <input type="email" id="email" placeholder="Email" />',
@@ -57,21 +52,25 @@ array (
 	'code' => '<label>Textarea</label>
 <textarea cols="30" rows="5" placeholder="Textarea text"></textarea>',
 ),
+/*
 array (
 	'title' => 'Color Input',
 	'code' => '<label for="color">Color Input</label>
 <input type="color" id="color">',
 ),
+*/
 array (
 	'title' => 'Number Input',
 	'code' => '<label for="number">Number Input</label>
 <input type="number" id="number" min="0" max="10">',
 ),
+/*
 array (
 	'title' => 'Range Input',
 	'code' => '<label for="range">Range Input</label>
 <input type="range" id="range">',
 ),
+*/
 array (
 	'title' => 'Date Input',
 	'code' => '<label for="date">Date Input</label>
@@ -98,19 +97,43 @@ array (
 <input type="datetime-local" id="datetime-local">',
 ),
 );
+
+$inputs_states = array(
+array (
+	'title' => 'Input Error',
+	'code' => '<label for="error">Input Error</label>
+<input class="error" type="text" id="error" placeholder="Error">',
+),
+array (
+	'title' => 'Input Warning',
+	'code' => '<label for="warning">Input Warning</label>
+<input class="warning" type="text" id="warning" placeholder="Warning">',
+),
+array (
+	'title' => 'Input Success',
+	'code' => '<label for="success">Input Success</label>
+<input class="success" type="text" id="success" placeholder="Success">',
+),
+);
+
 ?>
 
 <section id="input" class="section">
 	<h2 class="section-title">Input<code>forms/input.less</code></h2>
+
+	<h3 class="section-sub-title">Input Types</h3>
 	<?php foreach ($inputs as $input) : ?>
-		<!-- <h3 class="section-sub-title"><?php echo $input['title']; ?></h3> -->
-		<form><?php echo $input['code']; ?></form>
+		<form class="gutter-top"><?php echo $input['code']; ?></form>
 		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities($input['code']); ?></code></pre>
 	<?php endforeach; ?>
-</section>
+	
+	<h3 class="section-sub-title">Input States</h3>
+	<?php foreach ($inputs_states as $input) : ?>
+		<form class="gutter-top"><?php echo $input['code']; ?></form>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities($input['code']); ?></code></pre>
+	<?php endforeach; ?>
 
-<section id="input" class="section">
-	<h2 class="section-title">Input Sizes</h2>
+	<h3 class="section-sub-title">Input Sizes</h3>
 <form>
 	<input class="input-extra-large" type="text" placeholder="Input Extra Large">
 	<input class="input-large" type="text" placeholder="Input Large">

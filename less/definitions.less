@@ -205,11 +205,11 @@
 @headings-small-color: @light;
 
 //Heading Font Sizes
-@h1-font-size: 5;
+@h1-font-size: 3.6;
 @h2-font-size: 2.4;
-@h3-font-size: 1.3;
-@h4-font-size: 1.4;
-@h5-font-size: 1.3;
+@h3-font-size: 1.8;
+@h4-font-size: 1.6;
+@h5-font-size: 1.4;
 @h6-font-size: 1.2;
 
 //Mobile Heading Font Sizes
@@ -357,12 +357,23 @@
 /*--------------------------------------------------------------------------*/
 
 
+
+//Fieldset
+@fieldset-margin: 0;
+@fieldset-padding: 20px;
+@fieldset-border: 3px solid @grey;
+
+//Indicators
+@input-error-color: @error;
+@input-warning-color: @warning;
+@input-success-color: @success;
+
 /*
  * Label
  */
 
 //Label
-@label-margin: 20px 0px 10px;
+@label-margin: 5px 0px;
 @label-font-family: @medium-font-family;
 @label-font-size: 1.2;
 @label-color: @dark;
@@ -418,15 +429,6 @@
 @input-extra-large-padding: 10px 25px;
 @input-extra-large-font-size: @label-extra-large-font-size;
 
-//Indicators
-@input-error-color: @grey;
-@input-error-message-margin: 10px 0px 0px;
-@input-error-message-font-size: 1.3;
-@input-error-message-color: @error;
-@input-error-border-color: @error;
-@input-warning-color: @warning;
-@input-success-color: @success;
-
 //Inverse
 @input-inverse-color: @white;
 @input-inverse-border: none;
@@ -443,11 +445,6 @@
 @input-disabled-background: #DDDDDD;
 @input-disabled-border: 1px solid #AAAAAA;
 @input-disabled-color: #AAAAAA;
-
-//Fieldset
-@fieldset-margin: 0;
-@fieldset-padding: 20px;
-@fieldset-border: 3px solid @grey;
 
 //Placeholder
 @input-placeholder-color: @input-color;
