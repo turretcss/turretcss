@@ -3,6 +3,7 @@
 .media {
 	display: block;
 	position: relative;
+	overflow: hidden;
 	background: @media-background;
 	
 	svg,
@@ -10,21 +11,47 @@
 	video,
 	iframe {
 		display: block;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
+		.cover();
 	}
 }
 
 //Media Ratios
-.media-1-2 { padding-top: 200%; }
-.media-9-16 { padding-top: 177.777%; }
-.media-9-14 { padding-top: 163.333%; }
-.media-2-3 { padding-top: 150%; }
-.media-3-4 { padding-top: 133.333%; }
-.media-1 { padding-top: 100%; }
-.media-4-3 { padding-top: 75%; }
-.media-3-2 { padding-top: 66.66%; }
-.media-16-9 { padding-top: 56.25%; }
-.media-2-1 { padding-top: 50%; }
+
+.media-1-2 {
+	.media-ratio(1, 2);
+}
+
+.media-9-16 {
+	.media-ratio(9, 16);
+}
+
+.media-9-14 {
+	.media-ratio(9, 14);
+}
+
+.media-2-3 {
+	.media-ratio(2, 3);
+}
+
+.media-3-4 {
+	.media-ratio(3, 4);
+}
+
+.media-1 {
+	.media-ratio(1, 1);
+}
+
+.media-4-3 {
+	.media-ratio(4, 3);
+}
+.media-3-2 {
+	.media-ratio(3, 2);
+}
+
+.media-16-9 {
+	.media-ratio(16, 9);
+}
+
+.media-2-1 {
+	.media-ratio(2, 1);
+}

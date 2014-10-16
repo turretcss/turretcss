@@ -42,6 +42,8 @@
 		include('sections/elements/button.php');
 		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
+		include('sections/elements/media.php');
+		include('sections/elements/table.php');
 		
 		//Utilities
 		include('sections/utilities/utilities.php');

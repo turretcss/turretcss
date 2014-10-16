@@ -1674,31 +1674,26 @@ hr {
   background: rgba(75, 179, 214, 0.35);
 }
 ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-ul li,
 ol,
-li {
-  font-size: 15px;
-  font-size: 1.5rem;
-  color: #6b7681;
-  line-height: 1.5;
-}
 .list {
   margin: 40px 0px 30px;
   padding: 0;
-  list-style: none;
 }
+ul li,
+ol li,
 .list li {
-  position: relative;
   margin: 10px 0px 10px 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #485364;
 }
-.list li:before {
+.list-icons {
+  list-style: none;
+}
+.list-icons li {
+  position: relative;
+}
+.list-icons li:before {
   position: absolute;
   top: -5px;
   left: -20px;
@@ -1706,6 +1701,15 @@ li {
   font-size: 16px;
   content: "\e64b";
   color: #485364;
+}
+.list-unstyled {
+  list-style: none;
+}
+.list-unstyled li {
+  margin-left: 0;
+}
+.list-inline li {
+  display: inline-block;
 }
 strong {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6457,6 +6461,7 @@ figure figcaption {
 .media {
   display: block;
   position: relative;
+  overflow: hidden;
   background: #fafbfb;
 }
 .media svg,
@@ -6464,25 +6469,28 @@ figure figcaption {
 .media video,
 .media iframe {
   display: block;
-  width: 100%;
   position: absolute;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 .media-1-2 {
   padding-top: 200%;
 }
 .media-9-16 {
-  padding-top: 177.777%;
+  padding-top: 177.77777777777777%;
 }
 .media-9-14 {
-  padding-top: 163.333%;
+  padding-top: 155.55555555555557%;
 }
 .media-2-3 {
   padding-top: 150%;
 }
 .media-3-4 {
-  padding-top: 133.333%;
+  padding-top: 133.33333333333331%;
 }
 .media-1 {
   padding-top: 100%;
@@ -6491,7 +6499,7 @@ figure figcaption {
   padding-top: 75%;
 }
 .media-3-2 {
-  padding-top: 66.66%;
+  padding-top: 66.66666666666666%;
 }
 .media-16-9 {
   padding-top: 56.25%;
@@ -6705,7 +6713,11 @@ pre {
 }
 pre code {
   padding: 0;
+  font-size: 12px !important;
   background: transparent !important;
+}
+svg rect {
+  fill: #4bb3d6;
 }
 .color {
   text-align: center;
@@ -6742,12 +6754,18 @@ pre code {
   padding: 30px 0px;
 }
 .navigation ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+.navigation ul li {
+  margin: 0;
+  padding: 0;
 }
 .navigation ul li a {
   display: block;
   margin-left: 0;
-  padding: 5px 20px;
+  padding: 10px 20px;
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: 600;
@@ -6770,7 +6788,7 @@ pre code {
   border-left: 1px solid #36aad1;
 }
 .navigation ul li ul li a {
-  padding: 3px 12px;
+  padding: 5px 12px;
   font-size: 12px;
   font-size: 1.2rem;
   text-transform: none;

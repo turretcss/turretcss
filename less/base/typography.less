@@ -83,30 +83,26 @@ hr {
 }
 
 //Lists
+
 ul,
-ol {
-	margin: 0;
-	padding: 0;
-}
-
-ul li,
-ol, li {
-	.font-size(@paragraph-font-size);
-	color: @paragraph-color;
-	line-height: @line-height;
-}
-
+ol,
 .list {
 	margin: @list-margin;
 	padding: @list-padding;
-	list-style: none;
 
 	li {
-		position: relative;
 		margin: @list-item-margin;
 		font-family: @list-item-font-family;
 		font-weight: @list-item-font-weight;
 		color: @list-item-color;
+	}
+}
+
+.list-icons {
+	list-style: none;
+
+	li {
+		position: relative;
 
 		&:before {
 			position: absolute;
@@ -117,6 +113,21 @@ ol, li {
 			content: @list-item-icon;
 			color: @list-item-icon-color;
 		}
+	}
+}
+
+.list-unstyled {
+	list-style: none;
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+.list-inline {
+	
+	li {
+		display: inline-block;
 	}
 }
 
