@@ -30,7 +30,7 @@
 			'title' => 'Grid',
 			'link' => 'grid',
 			'children' => array(
-				'Columns' => 'columns',
+				'Column' => 'column',
 				'Offset' => 'offset',
 				'Push' => 'push',
 				'Pull' => 'pull',

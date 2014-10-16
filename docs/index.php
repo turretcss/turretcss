@@ -25,6 +25,10 @@
 		
 		//Grid
 		include('sections/grid/grid.php');
+		include('sections/grid/column.php');
+		include('sections/grid/offset.php');
+		include('sections/grid/push.php');
+		include('sections/grid/pull.php');
 		
 		//Forms
 		include('sections/forms/form.php');
