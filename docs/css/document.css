@@ -5315,16 +5315,13 @@ form input:not([type="range"]):not([type="file"]).success {
 .control {
   position: relative;
   display: block;
-  margin: 20px 0px;
+  margin: 20px 20px 20px 0px;
   padding: 0px 0px 0px 1.5em;
   color: #6b7681;
   cursor: pointer;
 }
-.control input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-  /* Put the input behind the label so it doesn't overlay text */
+.control.control-inline {
+  display: inline-block;
 }
 .control .control-indicator {
   position: absolute;
@@ -5354,6 +5351,12 @@ form input:not([type="range"]):not([type="file"]).success {
   color: #485364;
   line-height: 1;
   pointer-events: none;
+}
+.control input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* Put the input behind the label so it doesn't overlay text */
 }
 .control input:checked ~ .control-indicator {
   color: #4bb3d6;

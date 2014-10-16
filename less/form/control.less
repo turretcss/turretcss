@@ -8,17 +8,11 @@
 	color: @control-color;
 	cursor: pointer;
 	
-	input {
-		position: absolute;
-		opacity: 0;
-		z-index: -1; /* Put the input behind the label so it doesn't overlay text */
+	&.control-inline {
+		display: inline-block;
 	}
 	
-	input:focus ~ .control-indicator {
-		
-	}
-	
-	//Focus
+	//Control Indicator
 	.control-indicator {
 		position: absolute;
 		top: 0;
@@ -36,6 +30,7 @@
 		.user-select(none);
 	}
 	
+	//Control Label
 	.control-label {
 		margin: @control-label-margin;
 		font-family: @control-label-font-family;
@@ -43,6 +38,17 @@
 		color: @control-label-color;
 		line-height: 1;
 		pointer-events: none;
+	}
+	
+	//Visually Hide Input
+	input {
+		position: absolute;
+		opacity: 0;
+		z-index: -1; /* Put the input behind the label so it doesn't overlay text */
+	}
+	
+	input:focus ~ .control-indicator {
+		
 	}
 	
 	//Checked
