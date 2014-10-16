@@ -32,6 +32,50 @@
 
 
 /*
+ * Display
+ */
+ 
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-table {
+	display: table;
+}
+
+.display-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*
+ * Table Rows & Cells
+ */
+ 
+.table-row {
+	display: table;
+	width: 100%;
+	
+	.table-cell {
+		display: table-cell;
+		height: 100%;
+		vertical-align: middle;
+		
+		@media @mobile {
+			&.table-row-mobile {
+				display: table-row;
+			}
+		}
+	}
+}
+
+
+/*
  * Position
  */
 
@@ -111,46 +155,66 @@
 
 
 /*
- * Display
+ * Text Colors
  */
- 
-.display-block {
-	display: block;
+
+//Shades
+.text-white {
+	color: @white !important;
 }
 
-.display-inline-block {
-	display: inline-block;
+.text-light-grey {
+	color: @light-grey  !important;
 }
 
-.display-table {
-	display: table;
+.text-grey {
+	color: @grey !important;
 }
 
-.display-table-cell {
-	display: table-cell;
-	vertical-align: middle;
+.text-dark-grey {
+	color: @dark-grey !important;
 }
 
+.text-black {
+	color: @black !important;
+}
 
-/*
- * Table Rows & Cells
- */
- 
-.table-row {
-	display: table;
-	width: 100%;
-	
-	.table-cell {
-		display: table-cell;
-		height: 100%;
-		vertical-align: middle;
-		
-		@media @mobile {
-			&.table-row-mobile {
-				display: table-row;
-			}
-		}
-	}
+//Indicators
+.text-error {
+	color: @error !important;
+}
+
+.text-warning {
+	color: @warning !important;
+}
+
+.text-success {
+	color: @success !important;
+}
+
+.text-info {
+	color: @info !important;
+}
+
+//Palette
+.text-primary {
+	color: @primary !important;
+}
+
+.text-secondary {
+	color: @secondary !important;
+}
+
+.text-tertiary {
+	color: @tertiary !important;
+}
+
+.text-dark {
+	color: @dark !important;
+}
+
+.text-light {
+	color: @light !important;
 }
 
 
@@ -162,6 +226,45 @@
 	background: transparent !important;
 }
 
+//Shades
+.background-white {
+	background: @white !important;
+}
+
+.background-light-grey {
+	background: @light-grey  !important;
+}
+
+.background-grey {
+	background: @grey !important;
+}
+
+.background-dark-grey {
+	background: @dark-grey !important;
+}
+
+.background-black {
+	background: @black !important;
+}
+
+//Indicators
+.background-error {
+	background: @error !important;
+}
+
+.background-warning {
+	background: @warning !important;
+}
+
+.background-success {
+	background: @success !important;
+}
+
+.background-info {
+	background: @info !important;
+}
+
+//Palette
 .background-primary {
 	background: @primary !important;
 }
@@ -170,20 +273,16 @@
 	background: @secondary !important;
 }
 
+.background-tertiary {
+	background: @tertiary !important;
+}
+
 .background-dark {
 	background: @dark !important;
 }
 
 .background-light {
 	background: @light !important;
-}
-
-.background-white {
-	background: @white !important;
-}
-
-.background-black {
-	background: @black !important;
 }
 
 
@@ -225,96 +324,6 @@
 
 .border-bottom-light {
 	border-bottom: 1px solid @light;
-}
-
-
-/*
- * Palette
- */
- 
-.primary {
-	color: @primary !important;
-}
-
-.secondary {
-	color: @secondary !important;
-}
-
-.dark {
-	color: @dark !important;
-}
-
-.light {
-	color: @light !important;
-}
-
-
-/*
- * Gutter Classes
- */
- 
-.gutter-top,
-.top-gutter {
-	margin-top: @gutter-top !important;
-}
-
-.gutter-bottom,
-.bottom-gutter {
-	margin-bottom: @gutter-bottom !important;
-}
-
-.gutter-left,
-.left-gutter {
-	padding-left: @gutter-left !important;
-}
-
-.gutter-right,
-.right-gutter {
-	padding-right: @gutter-right !important;
-}
-
-@media @medium-only {
-	.gutter-top-medium,
-	.top-gutter-medium {
-		margin-top: @gutter-top !important;
-	}
-	
-	.gutter-bottom-medium,
-	.bottom-gutter-medium {
-		margin-bottom: @gutter-bottom !important;
-	}
-	
-	.gutter-left-medium,
-	.left-gutter-medium {
-		padding-left: @gutter-left !important;
-	}
-	
-	.gutter-right-medium,
-	.right-gutter-medium {
-		padding-right: @gutter-right !important;
-	}
-}
-
-@media @small {
-	.gutter-top-small,
-	.top-gutter-small {
-		margin-top: @gutter-top !important;
-	}
-	
-	.gutter-bottom-small,
-	.bottom-gutter-small {
-		margin-bottom: @gutter-bottom !important;
-	}
-	
-	.gutter-left-small,
-	.left-gutter-small {
-		padding-left: @gutter-left !important;
-	}
-	
-	.gutter-right-small,
-	.right-gutter-small {
-		padding-right: @gutter-right !important;
-	}
 }
 
 
