@@ -50,7 +50,7 @@ Version: 2.0
  * Figure
  */
 /*
- * Image
+ * Media
  */
 /*
  * List
@@ -63,9 +63,6 @@ Version: 2.0
  */
 /*
  * Tables
- */
-/*
- * Video
  */
 /* Animations */
 .animated {
@@ -194,221 +191,6 @@ Version: 2.0
   -o-animation-name: bounce;
   animation-name: bounce;
 }
-/* Indicator */
-@-webkit-keyframes indicator {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.75;
-  }
-}
-@-moz-keyframes indicator {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.75;
-  }
-}
-@-o-keyframes indicator {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.75;
-  }
-}
-@keyframes indicator {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.75;
-  }
-}
-.indicator {
-  -webkit-animation-name: indicator;
-  -moz-animation-name: indicator;
-  -ms-animation-name: indicator;
-  -o-animation-name: indicator;
-  animation-name: indicator;
-}
-/* Spin */
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -webkit-transform-origin: 50% 50%;
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -webkit-transform-origin: 50% 50%;
-  }
-}
-@-moz-keyframes spin {
-  from {
-    -moz-transform: rotate(0deg);
-    -moz-transform-origin: 50% 50%;
-  }
-  to {
-    -moz-transform: rotate(360deg);
-    -moz-transform-origin: 50% 50%;
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-    transform-origin: 50% 50%;
-  }
-  to {
-    transform: rotate(360deg);
-    transform-origin: 50% 50%;
-  }
-}
-.spin {
-  -webkit-animation-name: spin;
-  -moz-animation-name: spin;
-  -ms-animation-name: spin;
-  -o-animation-name: spin;
-  animation-name: spin;
-}
-/* cloud */
-@-webkit-keyframes cloud {
-  0% {
-    margin-left: 800px;
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  90% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0;
-    margin-left: -800px;
-  }
-}
-@-moz-keyframes cloud {
-  0% {
-    margin-left: 800px;
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  90% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0;
-    margin-left: -800px;
-  }
-}
-@keyframes cloud {
-  0% {
-    margin-left: 800px;
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  90% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0;
-    margin-left: -800px;
-  }
-}
-.cloud {
-  -webkit-animation-name: cloud;
-  -moz-animation-name: cloud;
-  -ms-animation-name: cloud;
-  -o-animation-name: cloud;
-  animation-name: cloud;
-}
-/* Spin */
-@-webkit-keyframes half-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(180deg);
-  }
-}
-@-moz-keyframes half-spin {
-  from {
-    -moz-transform: rotate(0deg);
-  }
-  to {
-    -moz-transform: rotate(180deg);
-  }
-}
-@-o-keyframes half-spin {
-  from {
-    -o-transform: rotate(0deg);
-  }
-  to {
-    -o-transform: rotate(180deg);
-  }
-}
-@keyframes half-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
-.half-spin {
-  -webkit-animation-name: half-spin;
-  -moz-animation-name: half-spin;
-  -ms-animation-name: half-spin;
-  -o-animation-name: half-spin;
-  animation-name: half-spin;
-}
-/* Fade In */
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.fade-in {
-  -webkit-animation-name: fade-in;
-  -moz-animation-name: fade-in;
-  -ms-animation-name: fade-in;
-  -o-animation-name: fade-in;
-  animation-name: fade-in;
-}
 /* Fade In Down */
 @-webkit-keyframes fade-in-down {
   0% {
@@ -495,37 +277,37 @@ Version: 2.0
   -o-animation-name: fade-in-up;
   animation-name: fade-in-up;
 }
-/* Orbit */
-@-webkit-keyframes orbit {
-  from {
-    -webkit-transform: rotate(0deg) translate(-25em) rotate(270deg);
+/* Fade In */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
   }
-  to {
-    -webkit-transform: rotate(360deg) translate(-25em) rotate(270deg);
-  }
-}
-@-moz-keyframes orbit {
-  from {
-    -moz-transform: rotate(0deg) translate(-25em) rotate(270deg);
-  }
-  to {
-    -moz-transform: rotate(360deg) translate(-25em) rotate(270deg);
+  100% {
+    opacity: 1;
   }
 }
-@keyframes orbit {
-  from {
-    transform: rotate(0deg) translate(-25em) rotate(270deg);
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg) translate(-25em) rotate(270deg);
+  100% {
+    opacity: 1;
   }
 }
-.orbit {
-  -webkit-animation-name: orbit;
-  -moz-animation-name: orbit;
-  -ms-animation-name: orbit;
-  -o-animation-name: orbit;
-  animation-name: orbit;
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  -webkit-animation-name: fade-in;
+  -moz-animation-name: fade-in;
+  -ms-animation-name: fade-in;
+  -o-animation-name: fade-in;
+  animation-name: fade-in;
 }
 /* Fade Out */
 @-webkit-keyframes fade-out {
@@ -567,6 +349,126 @@ Version: 2.0
   -o-animation-name: fade-out;
   animation-name: fade-out;
 }
+/* Spin */
+@-webkit-keyframes half-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+@-moz-keyframes half-spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(180deg);
+  }
+}
+@-o-keyframes half-spin {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(180deg);
+  }
+}
+@keyframes half-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.half-spin {
+  -webkit-animation-name: half-spin;
+  -moz-animation-name: half-spin;
+  -ms-animation-name: half-spin;
+  -o-animation-name: half-spin;
+  animation-name: half-spin;
+}
+/* Indicator */
+@-webkit-keyframes indicator {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+@-moz-keyframes indicator {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+@-o-keyframes indicator {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+@keyframes indicator {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+.indicator {
+  -webkit-animation-name: indicator;
+  -moz-animation-name: indicator;
+  -ms-animation-name: indicator;
+  -o-animation-name: indicator;
+  animation-name: indicator;
+}
+/* Line */
+@-webkit-keyframes line-center-out {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-moz-keyframes line-center-out {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-o-keyframes line-center-out {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes line-center-out {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.line-center-out {
+  -webkit-animation: line-center-out;
+  -moz-animation: line-center-out;
+  -ms-animation: line-center-out;
+  -o-animation: line-center-out;
+  animation: line-center-out;
+}
 /* Line */
 @-webkit-keyframes line {
   to {
@@ -594,6 +496,79 @@ Version: 2.0
   -ms-animation: line;
   -o-animation: line;
   animation: line;
+}
+/* Orbit */
+@-webkit-keyframes orbit {
+  from {
+    -webkit-transform: rotate(0deg) translate(-25em) rotate(270deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-25em) rotate(270deg);
+  }
+}
+@-moz-keyframes orbit {
+  from {
+    -moz-transform: rotate(0deg) translate(-25em) rotate(270deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translate(-25em) rotate(270deg);
+  }
+}
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translate(-25em) rotate(270deg);
+  }
+  to {
+    transform: rotate(360deg) translate(-25em) rotate(270deg);
+  }
+}
+.orbit {
+  -webkit-animation-name: orbit;
+  -moz-animation-name: orbit;
+  -ms-animation-name: orbit;
+  -o-animation-name: orbit;
+  animation-name: orbit;
+}
+/* Pulse */
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: none;
+  }
+  10% {
+    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    box-shadow: none;
+  }
+  10% {
+    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: none;
+  }
+  10% {
+    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -ms-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
 }
 /* Ripple */
 @-webkit-keyframes ripple {
@@ -645,190 +620,44 @@ Version: 2.0
   -o-animation-name: ripple;
   animation-name: ripple;
 }
-/* Grow */
-@-webkit-keyframes grow {
-  0% {
-    width: 150px;
-    height: 150px;
-  }
-  100% {
-    width: 200px;
-    height: 200px;
-  }
-}
-@-moz-keyframes grow {
-  0% {
-    width: 150px;
-    height: 150px;
-  }
-  100% {
-    width: 200px;
-    height: 200px;
-  }
-}
-@keyframes grow {
-  0% {
-    width: 150px;
-    height: 150px;
-  }
-  100% {
-    width: 200px;
-    height: 200px;
-  }
-}
-.grow {
-  -webkit-animation-name: grow;
-  -moz-animation-name: grow;
-  -ms-animation-name: grow;
-  -o-animation-name: grow;
-  animation-name: grow;
-}
-/* Pulse */
-@-webkit-keyframes pulse {
-  0% {
-    box-shadow: none;
-  }
-  10% {
-    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
-  }
-  100% {
-    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
-  }
-}
-@-moz-keyframes pulse {
-  0% {
-    box-shadow: none;
-  }
-  10% {
-    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
-  }
-  100% {
-    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
-  }
-}
-@keyframes pulse {
-  0% {
-    box-shadow: none;
-  }
-  10% {
-    box-shadow: 0 0 0 4px rgba(255, 223, 79, 0.25);
-  }
-  100% {
-    box-shadow: 0 0 0 25px rgba(255, 223, 79, 0.09999999999999998);
-  }
-}
-.pulse {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -ms-animation-name: pulse;
-  -o-animation-name: pulse;
-  animation-name: pulse;
-}
-/* Tea */
-@-webkit-keyframes tea {
-  0% {
-    -webkit-transform: translate(0, 0) rotate(0);
-  }
-  10% {
-    -webkit-transform: translate(-25%, -25%) rotate(45deg);
-  }
-  20% {
-    -webkit-transform: translate(-25%, -25%) rotate(45deg);
-  }
-  30%,
-  100% {
-    -webkit-transform: translate(0, 0) rotate(0);
-  }
-}
-/*
-@-moz-keyframes tea {
-	0% {
-		margin-left: 800px;
-		opacity: 0;
-	}
-	10% {
-		opacity: 0.8;
-	}
-	50% {
-		opacity: 0.5;
-	}
-	90% {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 0;
-		margin-left: -800px;
-	}
-}
-
-@keyframes tea {
-	0% {
-		margin-left: 800px;
-		opacity: 0;
-	}
-	10% {
-		opacity: 0.8;
-	}
-	50% {
-		opacity: 0.5;
-	}
-	90% {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 0;
-		margin-left: -800px;
-	}
-}
-*/
-.tea {
-  -webkit-animation-name: tea;
-  -moz-animation-name: tea;
-  -ms-animation-name: tea;
-  -o-animation-name: tea;
-  animation-name: tea;
-}
-/* Line */
-@-webkit-keyframes line-center-out {
+/* Spin */
+@-webkit-keyframes spin {
   from {
-    width: 0%;
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
   }
   to {
-    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 50% 50%;
   }
 }
-@-moz-keyframes line-center-out {
+@-moz-keyframes spin {
   from {
-    width: 0%;
+    -moz-transform: rotate(0deg);
+    -moz-transform-origin: 50% 50%;
   }
   to {
-    width: 100%;
+    -moz-transform: rotate(360deg);
+    -moz-transform-origin: 50% 50%;
   }
 }
-@-o-keyframes line-center-out {
+@keyframes spin {
   from {
-    width: 0%;
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
   }
   to {
-    width: 100%;
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
   }
 }
-@keyframes line-center-out {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
+.spin {
+  -webkit-animation-name: spin;
+  -moz-animation-name: spin;
+  -ms-animation-name: spin;
+  -o-animation-name: spin;
+  animation-name: spin;
 }
-.line-center-out {
-  -webkit-animation: line-center-out;
-  -moz-animation: line-center-out;
-  -ms-animation: line-center-out;
-  -o-animation: line-center-out;
-  animation: line-center-out;
-}
-/* Browser Styles */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -844,24 +673,10 @@ html * {
 abbr {
   cursor: help;
 }
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
 textarea,
 input {
   outline: none;
 }
-/* General Styles */
 html,
 body {
   margin: 0;
@@ -885,38 +700,22 @@ body {
   color: #485364;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-body.navigation-fixed {
-  padding-top: 110px;
+img {
+  vertical-align: bottom;
 }
-@media (max-width:  1024px) {
-  body.navigation-fixed {
-    padding-top: 50px;
-  }
+img.rounded {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
-a {
-  text-decoration: none;
-  color: #4bb3d6;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+img.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
-a:hover,
-a:focus {
-  color: #485364;
-}
-hr {
-  clear: both;
-  margin: 65px auto;
-  border: 0;
-  height: 1px;
-  background: rgba(75, 179, 214, 0.35);
-}
-ul,
-ol {
-  margin: 0;
-  padding: 0;
+img.responsive {
+  width: 100%;
+  height: auto;
 }
 /*
  * Utilities
@@ -1069,6 +868,12 @@ ol {
 }
 .background-light {
   background: #fafbfb !important;
+}
+.background-white {
+  background: #ffffff !important;
+}
+.background-black {
+  background: #000000 !important;
 }
 /*
  * Borders
@@ -1264,17 +1069,11 @@ ol {
 .hide {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 .show {
   display: block !important;
   visibility: visible !important;
-  -moz-opacity: 1 !important;
-  -khtml-opacity: 1 !important;
-  -webkit-opacity: 1 !important;
   opacity: 1 !important;
 }
 .visible {
@@ -1287,9 +1086,6 @@ ol {
   .hidden-extra-large {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1297,9 +1093,6 @@ ol {
   .hidden-large {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1307,9 +1100,6 @@ ol {
   .hidden-medium {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1317,9 +1107,6 @@ ol {
   .hidden-mobile {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1327,9 +1114,6 @@ ol {
   .hidden-medium-landscape {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1337,9 +1121,6 @@ ol {
   .hidden-medium-portrait {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1347,9 +1128,6 @@ ol {
   .hidden-small {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1357,9 +1135,6 @@ ol {
   .hidden-print {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
@@ -1367,171 +1142,114 @@ ol {
   .hidden-screen {
     display: none !important;
     visibility: hidden !important;
-    -moz-opacity: 0 !important;
-    -khtml-opacity: 0 !important;
-    -webkit-opacity: 0 !important;
     opacity: 0 !important;
   }
 }
 .visible-extra-large {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 1280px) {
   .visible-extra-large {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-large {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
   .visible-large {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-mobile {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width:  1024px) {
   .visible-mobile {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .visible-medium {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium-landscape {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .visible-medium-landscape {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-medium-portrait {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width:  1024px) and (orientation: portrait) {
   .visible-medium-portrait {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-small {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media (max-width: 767px) {
   .visible-small {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-print {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media print {
   .visible-print {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
 .visible-screen {
   display: none !important;
   visibility: hidden !important;
-  -moz-opacity: 0 !important;
-  -khtml-opacity: 0 !important;
-  -webkit-opacity: 0 !important;
   opacity: 0 !important;
 }
 @media screen {
   .visible-screen {
     display: block !important;
     visibility: visible !important;
-    -moz-opacity: 1 !important;
-    -khtml-opacity: 1 !important;
-    -webkit-opacity: 1 !important;
     opacity: 1 !important;
   }
 }
@@ -1590,11 +1308,11 @@ ol {
   text-align: center;
 }
 .icon-spin {
-  -webkit-animation-name: spin 1s linear infinite;
-  -moz-animation-name: spin 1s linear infinite;
-  -ms-animation-name: spin 1s linear infinite;
-  -o-animation-name: spin 1s linear infinite;
-  animation-name: spin 1s linear infinite;
+  -webkit-animation: spin 1s infinite;
+  -moz-animation: spin 1s infinite;
+  -ms-animation: spin 1s infinite;
+  -o-animation: spin 1s infinite;
+  animation: spin 1s infinite;
 }
 /* Icon Font */
 @font-face {
@@ -1604,8 +1322,7 @@ ol {
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-"],
-[class*=" icon-"] {
+.icon {
   font-family: 'turret';
   speak: none;
   font-style: normal;
@@ -1937,6 +1654,50 @@ p {
 p.lead {
   margin-top: 0;
 }
+a {
+  text-decoration: none;
+  color: #4bb3d6;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #485364;
+}
+hr {
+  clear: both;
+  margin: 65px auto;
+  border: 0;
+  height: 1px;
+  background: rgba(75, 179, 214, 0.35);
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol,
+li {
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #6b7681;
+  line-height: 1.5;
+}
+.lead {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-size: 2.3rem;
+  color: #6b7681;
+}
+strong {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
 @media (max-width:  1024px) {
   h1 {
     font-size: 36px;
@@ -1970,25 +1731,6 @@ p.lead {
     font-size: 18px;
     font-size: 1.8rem;
   }
-}
-ul li,
-ol,
-li {
-  font-size: 15px;
-  font-size: 1.5rem;
-  color: #6b7681;
-  line-height: 1.5;
-}
-.lead {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-size: 2.3rem;
-  color: #6b7681;
-}
-strong {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
 }
 /*
  * Container
@@ -6223,7 +5965,7 @@ form textarea {
 }
 form label {
   display: block;
-  margin: 10px 0px;
+  margin: 20px 0px 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -6359,10 +6101,12 @@ form .error-message {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -0.75rem;
-  margin-left: -0.75rem;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: 'turret';
-  font-size: 1.5rem;
 }
 .control.checkbox .control-indicator {
   -webkit-border-radius: none;
@@ -6370,7 +6114,8 @@ form .error-message {
   border-radius: none;
 }
 .control.checkbox input:checked ~ .control-indicator:before {
-  content: "\e646";
+  font-size: 12px;
+  content: "\e64a";
 }
 .control.radio .control-indicator {
   -webkit-border-radius: 50%;
@@ -6378,45 +6123,20 @@ form .error-message {
   border-radius: 50%;
 }
 .control.radio input:checked ~ .control-indicator:before {
+  font-size: 10px;
   content: "\e61d";
 }
 /* Input Group */
 .input-group {
   position: relative;
   display: table;
+  margin: 0px 0px 20px 0px;
   border-collapse: separate;
 }
 .input-group.input-inline {
   float: left;
 }
-.input-group.input-group-search {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-.input-group.input-group-search input[type="search"] {
-  padding-left: 20px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-}
-.input-group.input-group-search .button:not(.button-inverse) {
-  padding-right: 20px;
-  color: #6b7681;
-  background: #ffffff;
-}
-.input-group input[type="text"],
-.input-group input[type="search"],
-.input-group input[type="email"],
-.input-group input[type="password"],
-.input-group input[type="number"],
-.input-group input[type="tel"],
-.input-group input[type="url"],
-.input-group input[type="date"],
-.input-group input[type="month"],
-.input-group input[type="week"],
-.input-group input[type="datetime"],
-.input-group input[type="datetime-local"] {
+.input-group input {
   margin: 0;
   -webkit-border-radius: 6px 0 0 6px;
   -moz-border-radius: 6px 0 0 6px;
@@ -6434,7 +6154,7 @@ form .error-message {
 .input-group .input-group .form-input {
   display: table-cell;
 }
-.input-group .input-group-button {
+.input-group-button {
   position: relative;
   font-size: 0px;
   font-size: 0rem;
@@ -6442,7 +6162,7 @@ form .error-message {
   white-space: nowrap;
   vertical-align: middle;
 }
-.input-group .input-group-button > .button {
+.input-group-button > .button {
   position: relative;
   height: 40px;
   min-width: 40px;
@@ -6453,78 +6173,75 @@ form .error-message {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.input-group .input-group-button > .button + .button {
+.input-group-button > .button + .button {
   margin-left: -1px;
 }
-.input-group .input-group-button > .button:hover,
-.input-group .input-group-button > .button:focus,
-.input-group .input-group-button > .button:active {
+.input-group-button > .button:hover,
+.input-group-button > .button:focus,
+.input-group-button > .button:active {
   z-index: 2;
 }
 @media (max-width:  1024px) {
-  .input-group .input-group-button > .button {
+  .input-group-button > .button {
     padding: 10px 15px;
   }
 }
-.input-group .input-group-button:first-child > .button {
+.input-group-button:first-child > .button {
   margin-right: -1px;
 }
-.input-group .input-group-button:last-child > .button {
+.input-group-button:last-child > .button {
   margin-left: -1px;
 }
-.input-group .input-group-button.input-group-button-small > .button {
-  font-size: 10px;
-  font-size: 1rem;
+.input-group-button.input-group-button-small > .button {
+  font-size: 9px;
+  font-size: 0.9rem;
   height: 30px;
   min-width: 30px;
 }
-.input-group .input-group-button.input-group-button-medium > .button {
+.input-group-button.input-group-button-medium > .button {
   font-size: 14px;
   font-size: 1.4rem;
   height: 40px;
   min-width: 40px;
 }
-.input-group .input-group-button.input-group-button-large > .button {
+.input-group-button.input-group-button-large > .button {
   font-size: 16px;
   font-size: 1.6rem;
   height: 50px;
   min-width: 50px;
 }
-@media (max-width:  1024px) {
-  .input-group .input-group-button.input-group-button-large > .button {
-    font-size: 14px;
-    font-size: 1.4rem;
-    height: 40px;
-    min-width: 40px;
-  }
-}
-.input-group .input-group-button.input-group-button-extra-large > .button {
+.input-group-button.input-group-button-extra-large > .button {
   font-size: 18px;
   font-size: 1.8rem;
   height: 65px;
   min-width: 65px;
 }
-@media (max-width:  1024px) {
-  .input-group .input-group-button.input-group-button-extra-large > .button {
-    font-size: 16px;
-    font-size: 1.6rem;
-    height: 50px;
-    min-width: 50px;
-  }
+.input-group-search {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.input-group-search input[type="search"] {
+  padding-left: 20px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.input-group-search .button {
+  padding-right: 20px;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  border-radius: 0 20px 20px 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.input-group-search .button:not(.button-inverse):not(.button-primary) {
+  color: #6b7681;
+  background: #ffffff;
 }
 /* Input */
-input[type="text"],
-input[type="search"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="tel"],
-input[type="url"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="datetime"],
-input[type="datetime-local"],
+input:not([type="range"]):not([type="file"]),
 textarea {
   display: block;
   width: 100%;
@@ -6547,28 +6264,19 @@ textarea {
   -ms-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type="text"]:-moz-placeholder,
-input[type="search"]:-moz-placeholder,
-input[type="email"]:-moz-placeholder,
-input[type="password"]:-moz-placeholder,
-input[type="number"]:-moz-placeholder,
-input[type="tel"]:-moz-placeholder,
-input[type="url"]:-moz-placeholder,
-input[type="date"]:-moz-placeholder,
-input[type="month"]:-moz-placeholder,
-input[type="week"]:-moz-placeholder,
-input[type="datetime"]:-moz-placeholder,
-input[type="datetime-local"]:-moz-placeholder,
+input:not([type="range"]):not([type="file"]):-moz-placeholder,
 textarea:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6577,39 +6285,16 @@ textarea:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"]:focus:-moz-placeholder,
-input[type="search"]:focus:-moz-placeholder,
-input[type="email"]:focus:-moz-placeholder,
-input[type="password"]:focus:-moz-placeholder,
-input[type="number"]:focus:-moz-placeholder,
-input[type="tel"]:focus:-moz-placeholder,
-input[type="url"]:focus:-moz-placeholder,
-input[type="date"]:focus:-moz-placeholder,
-input[type="month"]:focus:-moz-placeholder,
-input[type="week"]:focus:-moz-placeholder,
-input[type="datetime"]:focus:-moz-placeholder,
-input[type="datetime-local"]:focus:-moz-placeholder,
+input:not([type="range"]):not([type="file"]):focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"]::-moz-placeholder,
-input[type="search"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder,
-input[type="password"]::-moz-placeholder,
-input[type="number"]::-moz-placeholder,
-input[type="tel"]::-moz-placeholder,
-input[type="url"]::-moz-placeholder,
-input[type="date"]::-moz-placeholder,
-input[type="month"]::-moz-placeholder,
-input[type="week"]::-moz-placeholder,
-input[type="datetime"]::-moz-placeholder,
-input[type="datetime-local"]::-moz-placeholder,
+input:not([type="range"]):not([type="file"])::-moz-placeholder,
 textarea::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6618,39 +6303,16 @@ textarea::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"]:focus::-moz-placeholder,
-input[type="search"]:focus::-moz-placeholder,
-input[type="email"]:focus::-moz-placeholder,
-input[type="password"]:focus::-moz-placeholder,
-input[type="number"]:focus::-moz-placeholder,
-input[type="tel"]:focus::-moz-placeholder,
-input[type="url"]:focus::-moz-placeholder,
-input[type="date"]:focus::-moz-placeholder,
-input[type="month"]:focus::-moz-placeholder,
-input[type="week"]:focus::-moz-placeholder,
-input[type="datetime"]:focus::-moz-placeholder,
-input[type="datetime-local"]:focus::-moz-placeholder,
+input:not([type="range"]):not([type="file"]):focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"]:-ms-input-placeholder,
-input[type="search"]:-ms-input-placeholder,
-input[type="email"]:-ms-input-placeholder,
-input[type="password"]:-ms-input-placeholder,
-input[type="number"]:-ms-input-placeholder,
-input[type="tel"]:-ms-input-placeholder,
-input[type="url"]:-ms-input-placeholder,
-input[type="date"]:-ms-input-placeholder,
-input[type="month"]:-ms-input-placeholder,
-input[type="week"]:-ms-input-placeholder,
-input[type="datetime"]:-ms-input-placeholder,
-input[type="datetime-local"]:-ms-input-placeholder,
+input:not([type="range"]):not([type="file"]):-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6659,39 +6321,16 @@ textarea:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"]:focus:-ms-input-placeholder,
-input[type="search"]:focus:-ms-input-placeholder,
-input[type="email"]:focus:-ms-input-placeholder,
-input[type="password"]:focus:-ms-input-placeholder,
-input[type="number"]:focus:-ms-input-placeholder,
-input[type="tel"]:focus:-ms-input-placeholder,
-input[type="url"]:focus:-ms-input-placeholder,
-input[type="date"]:focus:-ms-input-placeholder,
-input[type="month"]:focus:-ms-input-placeholder,
-input[type="week"]:focus:-ms-input-placeholder,
-input[type="datetime"]:focus:-ms-input-placeholder,
-input[type="datetime-local"]:focus:-ms-input-placeholder,
+input:not([type="range"]):not([type="file"]):focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"]::-webkit-input-placeholder,
-input[type="search"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder,
-input[type="password"]::-webkit-input-placeholder,
-input[type="number"]::-webkit-input-placeholder,
-input[type="tel"]::-webkit-input-placeholder,
-input[type="url"]::-webkit-input-placeholder,
-input[type="date"]::-webkit-input-placeholder,
-input[type="month"]::-webkit-input-placeholder,
-input[type="week"]::-webkit-input-placeholder,
-input[type="datetime"]::-webkit-input-placeholder,
-input[type="datetime-local"]::-webkit-input-placeholder,
+input:not([type="range"]):not([type="file"])::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6700,121 +6339,41 @@ textarea::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"]:focus::-webkit-input-placeholder,
-input[type="search"]:focus::-webkit-input-placeholder,
-input[type="email"]:focus::-webkit-input-placeholder,
-input[type="password"]:focus::-webkit-input-placeholder,
-input[type="number"]:focus::-webkit-input-placeholder,
-input[type="tel"]:focus::-webkit-input-placeholder,
-input[type="url"]:focus::-webkit-input-placeholder,
-input[type="date"]:focus::-webkit-input-placeholder,
-input[type="month"]:focus::-webkit-input-placeholder,
-input[type="week"]:focus::-webkit-input-placeholder,
-input[type="datetime"]:focus::-webkit-input-placeholder,
-input[type="datetime-local"]:focus::-webkit-input-placeholder,
+input:not([type="range"]):not([type="file"]):focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"]:disabled,
-input[type="search"]:disabled,
-input[type="email"]:disabled,
-input[type="password"]:disabled,
-input[type="number"]:disabled,
-input[type="tel"]:disabled,
-input[type="url"]:disabled,
-input[type="date"]:disabled,
-input[type="month"]:disabled,
-input[type="week"]:disabled,
-input[type="datetime"]:disabled,
-input[type="datetime-local"]:disabled,
+input:not([type="range"]):not([type="file"]):disabled,
 textarea:disabled {
   background: #fafbfb;
 }
-input[type="text"]:focus,
-input[type="search"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
+input:not([type="range"]):not([type="file"]):focus,
 textarea:focus {
-  border: 1px solid #e1e3e8;
+  border: 1px solid #b6bbc7;
   background: #ffffff;
 }
-input[type="text"]:focus.inverse,
-input[type="search"]:focus.inverse,
-input[type="email"]:focus.inverse,
-input[type="password"]:focus.inverse,
-input[type="number"]:focus.inverse,
-input[type="tel"]:focus.inverse,
-input[type="url"]:focus.inverse,
-input[type="date"]:focus.inverse,
-input[type="month"]:focus.inverse,
-input[type="week"]:focus.inverse,
-input[type="datetime"]:focus.inverse,
-input[type="datetime-local"]:focus.inverse,
+input:not([type="range"]):not([type="file"]):focus.inverse,
 textarea:focus.inverse {
   color: #ffffff;
   border: none;
   background: #6b7681;
 }
-input[type="text"] .form-error,
-input[type="search"] .form-error,
-input[type="email"] .form-error,
-input[type="password"] .form-error,
-input[type="number"] .form-error,
-input[type="tel"] .form-error,
-input[type="url"] .form-error,
-input[type="date"] .form-error,
-input[type="month"] .form-error,
-input[type="week"] .form-error,
-input[type="datetime"] .form-error,
-input[type="datetime-local"] .form-error,
-textarea .form-error {
-  color: #6b7681;
-  border-color: #f05a5c;
+input[type="search"] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
-input[type="text"].input-small,
-input[type="search"].input-small,
-input[type="email"].input-small,
-input[type="password"].input-small,
-input[type="number"].input-small,
-input[type="tel"].input-small,
-input[type="url"].input-small,
-input[type="date"].input-small,
-input[type="month"].input-small,
-input[type="week"].input-small,
-input[type="datetime"].input-small,
-input[type="datetime-local"].input-small,
-textarea.input-small {
-  font-size: 10px;
-  font-size: 1rem;
+input:not([type="range"]):not([type="file"]).input-small {
+  font-size: 9px;
+  font-size: 0.9rem;
   height: 30px;
   padding: 10px;
 }
-input[type="text"].input-small:-moz-placeholder,
-input[type="search"].input-small:-moz-placeholder,
-input[type="email"].input-small:-moz-placeholder,
-input[type="password"].input-small:-moz-placeholder,
-input[type="number"].input-small:-moz-placeholder,
-input[type="tel"].input-small:-moz-placeholder,
-input[type="url"].input-small:-moz-placeholder,
-input[type="date"].input-small:-moz-placeholder,
-input[type="month"].input-small:-moz-placeholder,
-input[type="week"].input-small:-moz-placeholder,
-input[type="datetime"].input-small:-moz-placeholder,
-input[type="datetime-local"].input-small:-moz-placeholder,
-textarea.input-small:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6823,39 +6382,14 @@ textarea.input-small:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-small:focus:-moz-placeholder,
-input[type="search"].input-small:focus:-moz-placeholder,
-input[type="email"].input-small:focus:-moz-placeholder,
-input[type="password"].input-small:focus:-moz-placeholder,
-input[type="number"].input-small:focus:-moz-placeholder,
-input[type="tel"].input-small:focus:-moz-placeholder,
-input[type="url"].input-small:focus:-moz-placeholder,
-input[type="date"].input-small:focus:-moz-placeholder,
-input[type="month"].input-small:focus:-moz-placeholder,
-input[type="week"].input-small:focus:-moz-placeholder,
-input[type="datetime"].input-small:focus:-moz-placeholder,
-input[type="datetime-local"].input-small:focus:-moz-placeholder,
-textarea.input-small:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-small::-moz-placeholder,
-input[type="search"].input-small::-moz-placeholder,
-input[type="email"].input-small::-moz-placeholder,
-input[type="password"].input-small::-moz-placeholder,
-input[type="number"].input-small::-moz-placeholder,
-input[type="tel"].input-small::-moz-placeholder,
-input[type="url"].input-small::-moz-placeholder,
-input[type="date"].input-small::-moz-placeholder,
-input[type="month"].input-small::-moz-placeholder,
-input[type="week"].input-small::-moz-placeholder,
-input[type="datetime"].input-small::-moz-placeholder,
-input[type="datetime-local"].input-small::-moz-placeholder,
-textarea.input-small::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6864,39 +6398,14 @@ textarea.input-small::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-small:focus::-moz-placeholder,
-input[type="search"].input-small:focus::-moz-placeholder,
-input[type="email"].input-small:focus::-moz-placeholder,
-input[type="password"].input-small:focus::-moz-placeholder,
-input[type="number"].input-small:focus::-moz-placeholder,
-input[type="tel"].input-small:focus::-moz-placeholder,
-input[type="url"].input-small:focus::-moz-placeholder,
-input[type="date"].input-small:focus::-moz-placeholder,
-input[type="month"].input-small:focus::-moz-placeholder,
-input[type="week"].input-small:focus::-moz-placeholder,
-input[type="datetime"].input-small:focus::-moz-placeholder,
-input[type="datetime-local"].input-small:focus::-moz-placeholder,
-textarea.input-small:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-small:-ms-input-placeholder,
-input[type="search"].input-small:-ms-input-placeholder,
-input[type="email"].input-small:-ms-input-placeholder,
-input[type="password"].input-small:-ms-input-placeholder,
-input[type="number"].input-small:-ms-input-placeholder,
-input[type="tel"].input-small:-ms-input-placeholder,
-input[type="url"].input-small:-ms-input-placeholder,
-input[type="date"].input-small:-ms-input-placeholder,
-input[type="month"].input-small:-ms-input-placeholder,
-input[type="week"].input-small:-ms-input-placeholder,
-input[type="datetime"].input-small:-ms-input-placeholder,
-input[type="datetime-local"].input-small:-ms-input-placeholder,
-textarea.input-small:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6905,39 +6414,14 @@ textarea.input-small:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-small:focus:-ms-input-placeholder,
-input[type="search"].input-small:focus:-ms-input-placeholder,
-input[type="email"].input-small:focus:-ms-input-placeholder,
-input[type="password"].input-small:focus:-ms-input-placeholder,
-input[type="number"].input-small:focus:-ms-input-placeholder,
-input[type="tel"].input-small:focus:-ms-input-placeholder,
-input[type="url"].input-small:focus:-ms-input-placeholder,
-input[type="date"].input-small:focus:-ms-input-placeholder,
-input[type="month"].input-small:focus:-ms-input-placeholder,
-input[type="week"].input-small:focus:-ms-input-placeholder,
-input[type="datetime"].input-small:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-small:focus:-ms-input-placeholder,
-textarea.input-small:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-small::-webkit-input-placeholder,
-input[type="search"].input-small::-webkit-input-placeholder,
-input[type="email"].input-small::-webkit-input-placeholder,
-input[type="password"].input-small::-webkit-input-placeholder,
-input[type="number"].input-small::-webkit-input-placeholder,
-input[type="tel"].input-small::-webkit-input-placeholder,
-input[type="url"].input-small::-webkit-input-placeholder,
-input[type="date"].input-small::-webkit-input-placeholder,
-input[type="month"].input-small::-webkit-input-placeholder,
-input[type="week"].input-small::-webkit-input-placeholder,
-input[type="datetime"].input-small::-webkit-input-placeholder,
-input[type="datetime-local"].input-small::-webkit-input-placeholder,
-textarea.input-small::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 9px;
+  font-size: 0.9rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -6946,57 +6430,20 @@ textarea.input-small::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-small:focus::-webkit-input-placeholder,
-input[type="search"].input-small:focus::-webkit-input-placeholder,
-input[type="email"].input-small:focus::-webkit-input-placeholder,
-input[type="password"].input-small:focus::-webkit-input-placeholder,
-input[type="number"].input-small:focus::-webkit-input-placeholder,
-input[type="tel"].input-small:focus::-webkit-input-placeholder,
-input[type="url"].input-small:focus::-webkit-input-placeholder,
-input[type="date"].input-small:focus::-webkit-input-placeholder,
-input[type="month"].input-small:focus::-webkit-input-placeholder,
-input[type="week"].input-small:focus::-webkit-input-placeholder,
-input[type="datetime"].input-small:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-small:focus::-webkit-input-placeholder,
-textarea.input-small:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-small:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-medium,
-input[type="search"].input-medium,
-input[type="email"].input-medium,
-input[type="password"].input-medium,
-input[type="number"].input-medium,
-input[type="tel"].input-medium,
-input[type="url"].input-medium,
-input[type="date"].input-medium,
-input[type="month"].input-medium,
-input[type="week"].input-medium,
-input[type="datetime"].input-medium,
-input[type="datetime-local"].input-medium,
-textarea.input-medium {
+input:not([type="range"]):not([type="file"]).input-medium {
   font-size: 14px;
   font-size: 1.4rem;
   height: 40px;
   padding: 8px 12px;
 }
-input[type="text"].input-medium:-moz-placeholder,
-input[type="search"].input-medium:-moz-placeholder,
-input[type="email"].input-medium:-moz-placeholder,
-input[type="password"].input-medium:-moz-placeholder,
-input[type="number"].input-medium:-moz-placeholder,
-input[type="tel"].input-medium:-moz-placeholder,
-input[type="url"].input-medium:-moz-placeholder,
-input[type="date"].input-medium:-moz-placeholder,
-input[type="month"].input-medium:-moz-placeholder,
-input[type="week"].input-medium:-moz-placeholder,
-input[type="datetime"].input-medium:-moz-placeholder,
-input[type="datetime-local"].input-medium:-moz-placeholder,
-textarea.input-medium:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7005,39 +6452,14 @@ textarea.input-medium:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-medium:focus:-moz-placeholder,
-input[type="search"].input-medium:focus:-moz-placeholder,
-input[type="email"].input-medium:focus:-moz-placeholder,
-input[type="password"].input-medium:focus:-moz-placeholder,
-input[type="number"].input-medium:focus:-moz-placeholder,
-input[type="tel"].input-medium:focus:-moz-placeholder,
-input[type="url"].input-medium:focus:-moz-placeholder,
-input[type="date"].input-medium:focus:-moz-placeholder,
-input[type="month"].input-medium:focus:-moz-placeholder,
-input[type="week"].input-medium:focus:-moz-placeholder,
-input[type="datetime"].input-medium:focus:-moz-placeholder,
-input[type="datetime-local"].input-medium:focus:-moz-placeholder,
-textarea.input-medium:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-medium::-moz-placeholder,
-input[type="search"].input-medium::-moz-placeholder,
-input[type="email"].input-medium::-moz-placeholder,
-input[type="password"].input-medium::-moz-placeholder,
-input[type="number"].input-medium::-moz-placeholder,
-input[type="tel"].input-medium::-moz-placeholder,
-input[type="url"].input-medium::-moz-placeholder,
-input[type="date"].input-medium::-moz-placeholder,
-input[type="month"].input-medium::-moz-placeholder,
-input[type="week"].input-medium::-moz-placeholder,
-input[type="datetime"].input-medium::-moz-placeholder,
-input[type="datetime-local"].input-medium::-moz-placeholder,
-textarea.input-medium::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7046,39 +6468,14 @@ textarea.input-medium::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-medium:focus::-moz-placeholder,
-input[type="search"].input-medium:focus::-moz-placeholder,
-input[type="email"].input-medium:focus::-moz-placeholder,
-input[type="password"].input-medium:focus::-moz-placeholder,
-input[type="number"].input-medium:focus::-moz-placeholder,
-input[type="tel"].input-medium:focus::-moz-placeholder,
-input[type="url"].input-medium:focus::-moz-placeholder,
-input[type="date"].input-medium:focus::-moz-placeholder,
-input[type="month"].input-medium:focus::-moz-placeholder,
-input[type="week"].input-medium:focus::-moz-placeholder,
-input[type="datetime"].input-medium:focus::-moz-placeholder,
-input[type="datetime-local"].input-medium:focus::-moz-placeholder,
-textarea.input-medium:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-medium:-ms-input-placeholder,
-input[type="search"].input-medium:-ms-input-placeholder,
-input[type="email"].input-medium:-ms-input-placeholder,
-input[type="password"].input-medium:-ms-input-placeholder,
-input[type="number"].input-medium:-ms-input-placeholder,
-input[type="tel"].input-medium:-ms-input-placeholder,
-input[type="url"].input-medium:-ms-input-placeholder,
-input[type="date"].input-medium:-ms-input-placeholder,
-input[type="month"].input-medium:-ms-input-placeholder,
-input[type="week"].input-medium:-ms-input-placeholder,
-input[type="datetime"].input-medium:-ms-input-placeholder,
-input[type="datetime-local"].input-medium:-ms-input-placeholder,
-textarea.input-medium:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7087,39 +6484,14 @@ textarea.input-medium:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-medium:focus:-ms-input-placeholder,
-input[type="search"].input-medium:focus:-ms-input-placeholder,
-input[type="email"].input-medium:focus:-ms-input-placeholder,
-input[type="password"].input-medium:focus:-ms-input-placeholder,
-input[type="number"].input-medium:focus:-ms-input-placeholder,
-input[type="tel"].input-medium:focus:-ms-input-placeholder,
-input[type="url"].input-medium:focus:-ms-input-placeholder,
-input[type="date"].input-medium:focus:-ms-input-placeholder,
-input[type="month"].input-medium:focus:-ms-input-placeholder,
-input[type="week"].input-medium:focus:-ms-input-placeholder,
-input[type="datetime"].input-medium:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-medium:focus:-ms-input-placeholder,
-textarea.input-medium:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-medium::-webkit-input-placeholder,
-input[type="search"].input-medium::-webkit-input-placeholder,
-input[type="email"].input-medium::-webkit-input-placeholder,
-input[type="password"].input-medium::-webkit-input-placeholder,
-input[type="number"].input-medium::-webkit-input-placeholder,
-input[type="tel"].input-medium::-webkit-input-placeholder,
-input[type="url"].input-medium::-webkit-input-placeholder,
-input[type="date"].input-medium::-webkit-input-placeholder,
-input[type="month"].input-medium::-webkit-input-placeholder,
-input[type="week"].input-medium::-webkit-input-placeholder,
-input[type="datetime"].input-medium::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium::-webkit-input-placeholder,
-textarea.input-medium::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7128,386 +6500,20 @@ textarea.input-medium::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-medium:focus::-webkit-input-placeholder,
-input[type="search"].input-medium:focus::-webkit-input-placeholder,
-input[type="email"].input-medium:focus::-webkit-input-placeholder,
-input[type="password"].input-medium:focus::-webkit-input-placeholder,
-input[type="number"].input-medium:focus::-webkit-input-placeholder,
-input[type="tel"].input-medium:focus::-webkit-input-placeholder,
-input[type="url"].input-medium:focus::-webkit-input-placeholder,
-input[type="date"].input-medium:focus::-webkit-input-placeholder,
-input[type="month"].input-medium:focus::-webkit-input-placeholder,
-input[type="week"].input-medium:focus::-webkit-input-placeholder,
-input[type="datetime"].input-medium:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium:focus::-webkit-input-placeholder,
-textarea.input-medium:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-medium:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-medium.inverse:-moz-placeholder,
-input[type="search"].input-medium.inverse:-moz-placeholder,
-input[type="email"].input-medium.inverse:-moz-placeholder,
-input[type="password"].input-medium.inverse:-moz-placeholder,
-input[type="number"].input-medium.inverse:-moz-placeholder,
-input[type="tel"].input-medium.inverse:-moz-placeholder,
-input[type="url"].input-medium.inverse:-moz-placeholder,
-input[type="date"].input-medium.inverse:-moz-placeholder,
-input[type="month"].input-medium.inverse:-moz-placeholder,
-input[type="week"].input-medium.inverse:-moz-placeholder,
-input[type="datetime"].input-medium.inverse:-moz-placeholder,
-input[type="datetime-local"].input-medium.inverse:-moz-placeholder,
-textarea.input-medium.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus:-moz-placeholder,
-input[type="search"].input-medium.inverse:focus:-moz-placeholder,
-input[type="email"].input-medium.inverse:focus:-moz-placeholder,
-input[type="password"].input-medium.inverse:focus:-moz-placeholder,
-input[type="number"].input-medium.inverse:focus:-moz-placeholder,
-input[type="tel"].input-medium.inverse:focus:-moz-placeholder,
-input[type="url"].input-medium.inverse:focus:-moz-placeholder,
-input[type="date"].input-medium.inverse:focus:-moz-placeholder,
-input[type="month"].input-medium.inverse:focus:-moz-placeholder,
-input[type="week"].input-medium.inverse:focus:-moz-placeholder,
-input[type="datetime"].input-medium.inverse:focus:-moz-placeholder,
-input[type="datetime-local"].input-medium.inverse:focus:-moz-placeholder,
-textarea.input-medium.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse::-moz-placeholder,
-input[type="search"].input-medium.inverse::-moz-placeholder,
-input[type="email"].input-medium.inverse::-moz-placeholder,
-input[type="password"].input-medium.inverse::-moz-placeholder,
-input[type="number"].input-medium.inverse::-moz-placeholder,
-input[type="tel"].input-medium.inverse::-moz-placeholder,
-input[type="url"].input-medium.inverse::-moz-placeholder,
-input[type="date"].input-medium.inverse::-moz-placeholder,
-input[type="month"].input-medium.inverse::-moz-placeholder,
-input[type="week"].input-medium.inverse::-moz-placeholder,
-input[type="datetime"].input-medium.inverse::-moz-placeholder,
-input[type="datetime-local"].input-medium.inverse::-moz-placeholder,
-textarea.input-medium.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus::-moz-placeholder,
-input[type="search"].input-medium.inverse:focus::-moz-placeholder,
-input[type="email"].input-medium.inverse:focus::-moz-placeholder,
-input[type="password"].input-medium.inverse:focus::-moz-placeholder,
-input[type="number"].input-medium.inverse:focus::-moz-placeholder,
-input[type="tel"].input-medium.inverse:focus::-moz-placeholder,
-input[type="url"].input-medium.inverse:focus::-moz-placeholder,
-input[type="date"].input-medium.inverse:focus::-moz-placeholder,
-input[type="month"].input-medium.inverse:focus::-moz-placeholder,
-input[type="week"].input-medium.inverse:focus::-moz-placeholder,
-input[type="datetime"].input-medium.inverse:focus::-moz-placeholder,
-input[type="datetime-local"].input-medium.inverse:focus::-moz-placeholder,
-textarea.input-medium.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse:-ms-input-placeholder,
-input[type="search"].input-medium.inverse:-ms-input-placeholder,
-input[type="email"].input-medium.inverse:-ms-input-placeholder,
-input[type="password"].input-medium.inverse:-ms-input-placeholder,
-input[type="number"].input-medium.inverse:-ms-input-placeholder,
-input[type="tel"].input-medium.inverse:-ms-input-placeholder,
-input[type="url"].input-medium.inverse:-ms-input-placeholder,
-input[type="date"].input-medium.inverse:-ms-input-placeholder,
-input[type="month"].input-medium.inverse:-ms-input-placeholder,
-input[type="week"].input-medium.inverse:-ms-input-placeholder,
-input[type="datetime"].input-medium.inverse:-ms-input-placeholder,
-input[type="datetime-local"].input-medium.inverse:-ms-input-placeholder,
-textarea.input-medium.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="tel"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="url"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="date"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="month"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="week"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="datetime"].input-medium.inverse:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-medium.inverse:focus:-ms-input-placeholder,
-textarea.input-medium.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.inverse::-webkit-input-placeholder,
-input[type="search"].input-medium.inverse::-webkit-input-placeholder,
-input[type="email"].input-medium.inverse::-webkit-input-placeholder,
-input[type="password"].input-medium.inverse::-webkit-input-placeholder,
-input[type="number"].input-medium.inverse::-webkit-input-placeholder,
-input[type="tel"].input-medium.inverse::-webkit-input-placeholder,
-input[type="url"].input-medium.inverse::-webkit-input-placeholder,
-input[type="date"].input-medium.inverse::-webkit-input-placeholder,
-input[type="month"].input-medium.inverse::-webkit-input-placeholder,
-input[type="week"].input-medium.inverse::-webkit-input-placeholder,
-input[type="datetime"].input-medium.inverse::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium.inverse::-webkit-input-placeholder,
-textarea.input-medium.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="tel"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="url"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="date"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="month"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="week"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="datetime"].input-medium.inverse:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium.inverse:focus::-webkit-input-placeholder,
-textarea.input-medium.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-medium.input-date:-moz-placeholder,
-input[type="search"].input-medium.input-date:-moz-placeholder,
-input[type="email"].input-medium.input-date:-moz-placeholder,
-input[type="password"].input-medium.input-date:-moz-placeholder,
-input[type="number"].input-medium.input-date:-moz-placeholder,
-input[type="tel"].input-medium.input-date:-moz-placeholder,
-input[type="url"].input-medium.input-date:-moz-placeholder,
-input[type="date"].input-medium.input-date:-moz-placeholder,
-input[type="month"].input-medium.input-date:-moz-placeholder,
-input[type="week"].input-medium.input-date:-moz-placeholder,
-input[type="datetime"].input-medium.input-date:-moz-placeholder,
-input[type="datetime-local"].input-medium.input-date:-moz-placeholder,
-textarea.input-medium.input-date:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus:-moz-placeholder,
-input[type="search"].input-medium.input-date:focus:-moz-placeholder,
-input[type="email"].input-medium.input-date:focus:-moz-placeholder,
-input[type="password"].input-medium.input-date:focus:-moz-placeholder,
-input[type="number"].input-medium.input-date:focus:-moz-placeholder,
-input[type="tel"].input-medium.input-date:focus:-moz-placeholder,
-input[type="url"].input-medium.input-date:focus:-moz-placeholder,
-input[type="date"].input-medium.input-date:focus:-moz-placeholder,
-input[type="month"].input-medium.input-date:focus:-moz-placeholder,
-input[type="week"].input-medium.input-date:focus:-moz-placeholder,
-input[type="datetime"].input-medium.input-date:focus:-moz-placeholder,
-input[type="datetime-local"].input-medium.input-date:focus:-moz-placeholder,
-textarea.input-medium.input-date:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date::-moz-placeholder,
-input[type="search"].input-medium.input-date::-moz-placeholder,
-input[type="email"].input-medium.input-date::-moz-placeholder,
-input[type="password"].input-medium.input-date::-moz-placeholder,
-input[type="number"].input-medium.input-date::-moz-placeholder,
-input[type="tel"].input-medium.input-date::-moz-placeholder,
-input[type="url"].input-medium.input-date::-moz-placeholder,
-input[type="date"].input-medium.input-date::-moz-placeholder,
-input[type="month"].input-medium.input-date::-moz-placeholder,
-input[type="week"].input-medium.input-date::-moz-placeholder,
-input[type="datetime"].input-medium.input-date::-moz-placeholder,
-input[type="datetime-local"].input-medium.input-date::-moz-placeholder,
-textarea.input-medium.input-date::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus::-moz-placeholder,
-input[type="search"].input-medium.input-date:focus::-moz-placeholder,
-input[type="email"].input-medium.input-date:focus::-moz-placeholder,
-input[type="password"].input-medium.input-date:focus::-moz-placeholder,
-input[type="number"].input-medium.input-date:focus::-moz-placeholder,
-input[type="tel"].input-medium.input-date:focus::-moz-placeholder,
-input[type="url"].input-medium.input-date:focus::-moz-placeholder,
-input[type="date"].input-medium.input-date:focus::-moz-placeholder,
-input[type="month"].input-medium.input-date:focus::-moz-placeholder,
-input[type="week"].input-medium.input-date:focus::-moz-placeholder,
-input[type="datetime"].input-medium.input-date:focus::-moz-placeholder,
-input[type="datetime-local"].input-medium.input-date:focus::-moz-placeholder,
-textarea.input-medium.input-date:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date:-ms-input-placeholder,
-input[type="search"].input-medium.input-date:-ms-input-placeholder,
-input[type="email"].input-medium.input-date:-ms-input-placeholder,
-input[type="password"].input-medium.input-date:-ms-input-placeholder,
-input[type="number"].input-medium.input-date:-ms-input-placeholder,
-input[type="tel"].input-medium.input-date:-ms-input-placeholder,
-input[type="url"].input-medium.input-date:-ms-input-placeholder,
-input[type="date"].input-medium.input-date:-ms-input-placeholder,
-input[type="month"].input-medium.input-date:-ms-input-placeholder,
-input[type="week"].input-medium.input-date:-ms-input-placeholder,
-input[type="datetime"].input-medium.input-date:-ms-input-placeholder,
-input[type="datetime-local"].input-medium.input-date:-ms-input-placeholder,
-textarea.input-medium.input-date:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="search"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="email"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="password"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="number"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="tel"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="url"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="date"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="month"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="week"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="datetime"].input-medium.input-date:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-medium.input-date:focus:-ms-input-placeholder,
-textarea.input-medium.input-date:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-medium.input-date::-webkit-input-placeholder,
-input[type="search"].input-medium.input-date::-webkit-input-placeholder,
-input[type="email"].input-medium.input-date::-webkit-input-placeholder,
-input[type="password"].input-medium.input-date::-webkit-input-placeholder,
-input[type="number"].input-medium.input-date::-webkit-input-placeholder,
-input[type="tel"].input-medium.input-date::-webkit-input-placeholder,
-input[type="url"].input-medium.input-date::-webkit-input-placeholder,
-input[type="date"].input-medium.input-date::-webkit-input-placeholder,
-input[type="month"].input-medium.input-date::-webkit-input-placeholder,
-input[type="week"].input-medium.input-date::-webkit-input-placeholder,
-input[type="datetime"].input-medium.input-date::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium.input-date::-webkit-input-placeholder,
-textarea.input-medium.input-date::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="search"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="email"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="password"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="number"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="tel"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="url"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="date"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="month"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="week"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="datetime"].input-medium.input-date:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-medium.input-date:focus::-webkit-input-placeholder,
-textarea.input-medium.input-date:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large,
-input[type="search"].input-large,
-input[type="email"].input-large,
-input[type="password"].input-large,
-input[type="number"].input-large,
-input[type="tel"].input-large,
-input[type="url"].input-large,
-input[type="date"].input-large,
-input[type="month"].input-large,
-input[type="week"].input-large,
-input[type="datetime"].input-large,
-input[type="datetime-local"].input-large,
-textarea.input-large {
+input:not([type="range"]):not([type="file"]).input-large {
   font-size: 16px;
   font-size: 1.6rem;
   height: 50px;
-  line-height: 30px;
   padding: 10px 20px;
 }
-input[type="text"].input-large:-moz-placeholder,
-input[type="search"].input-large:-moz-placeholder,
-input[type="email"].input-large:-moz-placeholder,
-input[type="password"].input-large:-moz-placeholder,
-input[type="number"].input-large:-moz-placeholder,
-input[type="tel"].input-large:-moz-placeholder,
-input[type="url"].input-large:-moz-placeholder,
-input[type="date"].input-large:-moz-placeholder,
-input[type="month"].input-large:-moz-placeholder,
-input[type="week"].input-large:-moz-placeholder,
-input[type="datetime"].input-large:-moz-placeholder,
-input[type="datetime-local"].input-large:-moz-placeholder,
-textarea.input-large:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
-  line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7516,39 +6522,14 @@ textarea.input-large:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-large:focus:-moz-placeholder,
-input[type="search"].input-large:focus:-moz-placeholder,
-input[type="email"].input-large:focus:-moz-placeholder,
-input[type="password"].input-large:focus:-moz-placeholder,
-input[type="number"].input-large:focus:-moz-placeholder,
-input[type="tel"].input-large:focus:-moz-placeholder,
-input[type="url"].input-large:focus:-moz-placeholder,
-input[type="date"].input-large:focus:-moz-placeholder,
-input[type="month"].input-large:focus:-moz-placeholder,
-input[type="week"].input-large:focus:-moz-placeholder,
-input[type="datetime"].input-large:focus:-moz-placeholder,
-input[type="datetime-local"].input-large:focus:-moz-placeholder,
-textarea.input-large:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-large::-moz-placeholder,
-input[type="search"].input-large::-moz-placeholder,
-input[type="email"].input-large::-moz-placeholder,
-input[type="password"].input-large::-moz-placeholder,
-input[type="number"].input-large::-moz-placeholder,
-input[type="tel"].input-large::-moz-placeholder,
-input[type="url"].input-large::-moz-placeholder,
-input[type="date"].input-large::-moz-placeholder,
-input[type="month"].input-large::-moz-placeholder,
-input[type="week"].input-large::-moz-placeholder,
-input[type="datetime"].input-large::-moz-placeholder,
-input[type="datetime-local"].input-large::-moz-placeholder,
-textarea.input-large::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
-  line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7557,39 +6538,14 @@ textarea.input-large::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-large:focus::-moz-placeholder,
-input[type="search"].input-large:focus::-moz-placeholder,
-input[type="email"].input-large:focus::-moz-placeholder,
-input[type="password"].input-large:focus::-moz-placeholder,
-input[type="number"].input-large:focus::-moz-placeholder,
-input[type="tel"].input-large:focus::-moz-placeholder,
-input[type="url"].input-large:focus::-moz-placeholder,
-input[type="date"].input-large:focus::-moz-placeholder,
-input[type="month"].input-large:focus::-moz-placeholder,
-input[type="week"].input-large:focus::-moz-placeholder,
-input[type="datetime"].input-large:focus::-moz-placeholder,
-input[type="datetime-local"].input-large:focus::-moz-placeholder,
-textarea.input-large:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-large:-ms-input-placeholder,
-input[type="search"].input-large:-ms-input-placeholder,
-input[type="email"].input-large:-ms-input-placeholder,
-input[type="password"].input-large:-ms-input-placeholder,
-input[type="number"].input-large:-ms-input-placeholder,
-input[type="tel"].input-large:-ms-input-placeholder,
-input[type="url"].input-large:-ms-input-placeholder,
-input[type="date"].input-large:-ms-input-placeholder,
-input[type="month"].input-large:-ms-input-placeholder,
-input[type="week"].input-large:-ms-input-placeholder,
-input[type="datetime"].input-large:-ms-input-placeholder,
-input[type="datetime-local"].input-large:-ms-input-placeholder,
-textarea.input-large:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
-  line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7598,39 +6554,14 @@ textarea.input-large:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-large:focus:-ms-input-placeholder,
-input[type="search"].input-large:focus:-ms-input-placeholder,
-input[type="email"].input-large:focus:-ms-input-placeholder,
-input[type="password"].input-large:focus:-ms-input-placeholder,
-input[type="number"].input-large:focus:-ms-input-placeholder,
-input[type="tel"].input-large:focus:-ms-input-placeholder,
-input[type="url"].input-large:focus:-ms-input-placeholder,
-input[type="date"].input-large:focus:-ms-input-placeholder,
-input[type="month"].input-large:focus:-ms-input-placeholder,
-input[type="week"].input-large:focus:-ms-input-placeholder,
-input[type="datetime"].input-large:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-large:focus:-ms-input-placeholder,
-textarea.input-large:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-large::-webkit-input-placeholder,
-input[type="search"].input-large::-webkit-input-placeholder,
-input[type="email"].input-large::-webkit-input-placeholder,
-input[type="password"].input-large::-webkit-input-placeholder,
-input[type="number"].input-large::-webkit-input-placeholder,
-input[type="tel"].input-large::-webkit-input-placeholder,
-input[type="url"].input-large::-webkit-input-placeholder,
-input[type="date"].input-large::-webkit-input-placeholder,
-input[type="month"].input-large::-webkit-input-placeholder,
-input[type="week"].input-large::-webkit-input-placeholder,
-input[type="datetime"].input-large::-webkit-input-placeholder,
-input[type="datetime-local"].input-large::-webkit-input-placeholder,
-textarea.input-large::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
-  line-height: 30px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -7639,898 +6570,20 @@ textarea.input-large::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-large:focus::-webkit-input-placeholder,
-input[type="search"].input-large:focus::-webkit-input-placeholder,
-input[type="email"].input-large:focus::-webkit-input-placeholder,
-input[type="password"].input-large:focus::-webkit-input-placeholder,
-input[type="number"].input-large:focus::-webkit-input-placeholder,
-input[type="tel"].input-large:focus::-webkit-input-placeholder,
-input[type="url"].input-large:focus::-webkit-input-placeholder,
-input[type="date"].input-large:focus::-webkit-input-placeholder,
-input[type="month"].input-large:focus::-webkit-input-placeholder,
-input[type="week"].input-large:focus::-webkit-input-placeholder,
-input[type="datetime"].input-large:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-large:focus::-webkit-input-placeholder,
-textarea.input-large:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-large:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-large.inverse:-moz-placeholder,
-input[type="search"].input-large.inverse:-moz-placeholder,
-input[type="email"].input-large.inverse:-moz-placeholder,
-input[type="password"].input-large.inverse:-moz-placeholder,
-input[type="number"].input-large.inverse:-moz-placeholder,
-input[type="tel"].input-large.inverse:-moz-placeholder,
-input[type="url"].input-large.inverse:-moz-placeholder,
-input[type="date"].input-large.inverse:-moz-placeholder,
-input[type="month"].input-large.inverse:-moz-placeholder,
-input[type="week"].input-large.inverse:-moz-placeholder,
-input[type="datetime"].input-large.inverse:-moz-placeholder,
-input[type="datetime-local"].input-large.inverse:-moz-placeholder,
-textarea.input-large.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus:-moz-placeholder,
-input[type="search"].input-large.inverse:focus:-moz-placeholder,
-input[type="email"].input-large.inverse:focus:-moz-placeholder,
-input[type="password"].input-large.inverse:focus:-moz-placeholder,
-input[type="number"].input-large.inverse:focus:-moz-placeholder,
-input[type="tel"].input-large.inverse:focus:-moz-placeholder,
-input[type="url"].input-large.inverse:focus:-moz-placeholder,
-input[type="date"].input-large.inverse:focus:-moz-placeholder,
-input[type="month"].input-large.inverse:focus:-moz-placeholder,
-input[type="week"].input-large.inverse:focus:-moz-placeholder,
-input[type="datetime"].input-large.inverse:focus:-moz-placeholder,
-input[type="datetime-local"].input-large.inverse:focus:-moz-placeholder,
-textarea.input-large.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse::-moz-placeholder,
-input[type="search"].input-large.inverse::-moz-placeholder,
-input[type="email"].input-large.inverse::-moz-placeholder,
-input[type="password"].input-large.inverse::-moz-placeholder,
-input[type="number"].input-large.inverse::-moz-placeholder,
-input[type="tel"].input-large.inverse::-moz-placeholder,
-input[type="url"].input-large.inverse::-moz-placeholder,
-input[type="date"].input-large.inverse::-moz-placeholder,
-input[type="month"].input-large.inverse::-moz-placeholder,
-input[type="week"].input-large.inverse::-moz-placeholder,
-input[type="datetime"].input-large.inverse::-moz-placeholder,
-input[type="datetime-local"].input-large.inverse::-moz-placeholder,
-textarea.input-large.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus::-moz-placeholder,
-input[type="search"].input-large.inverse:focus::-moz-placeholder,
-input[type="email"].input-large.inverse:focus::-moz-placeholder,
-input[type="password"].input-large.inverse:focus::-moz-placeholder,
-input[type="number"].input-large.inverse:focus::-moz-placeholder,
-input[type="tel"].input-large.inverse:focus::-moz-placeholder,
-input[type="url"].input-large.inverse:focus::-moz-placeholder,
-input[type="date"].input-large.inverse:focus::-moz-placeholder,
-input[type="month"].input-large.inverse:focus::-moz-placeholder,
-input[type="week"].input-large.inverse:focus::-moz-placeholder,
-input[type="datetime"].input-large.inverse:focus::-moz-placeholder,
-input[type="datetime-local"].input-large.inverse:focus::-moz-placeholder,
-textarea.input-large.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse:-ms-input-placeholder,
-input[type="search"].input-large.inverse:-ms-input-placeholder,
-input[type="email"].input-large.inverse:-ms-input-placeholder,
-input[type="password"].input-large.inverse:-ms-input-placeholder,
-input[type="number"].input-large.inverse:-ms-input-placeholder,
-input[type="tel"].input-large.inverse:-ms-input-placeholder,
-input[type="url"].input-large.inverse:-ms-input-placeholder,
-input[type="date"].input-large.inverse:-ms-input-placeholder,
-input[type="month"].input-large.inverse:-ms-input-placeholder,
-input[type="week"].input-large.inverse:-ms-input-placeholder,
-input[type="datetime"].input-large.inverse:-ms-input-placeholder,
-input[type="datetime-local"].input-large.inverse:-ms-input-placeholder,
-textarea.input-large.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="tel"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="url"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="date"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="month"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="week"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="datetime"].input-large.inverse:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-large.inverse:focus:-ms-input-placeholder,
-textarea.input-large.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.inverse::-webkit-input-placeholder,
-input[type="search"].input-large.inverse::-webkit-input-placeholder,
-input[type="email"].input-large.inverse::-webkit-input-placeholder,
-input[type="password"].input-large.inverse::-webkit-input-placeholder,
-input[type="number"].input-large.inverse::-webkit-input-placeholder,
-input[type="tel"].input-large.inverse::-webkit-input-placeholder,
-input[type="url"].input-large.inverse::-webkit-input-placeholder,
-input[type="date"].input-large.inverse::-webkit-input-placeholder,
-input[type="month"].input-large.inverse::-webkit-input-placeholder,
-input[type="week"].input-large.inverse::-webkit-input-placeholder,
-input[type="datetime"].input-large.inverse::-webkit-input-placeholder,
-input[type="datetime-local"].input-large.inverse::-webkit-input-placeholder,
-textarea.input-large.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="tel"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="url"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="date"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="month"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="week"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="datetime"].input-large.inverse:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-large.inverse:focus::-webkit-input-placeholder,
-textarea.input-large.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-large.input-date:-moz-placeholder,
-input[type="search"].input-large.input-date:-moz-placeholder,
-input[type="email"].input-large.input-date:-moz-placeholder,
-input[type="password"].input-large.input-date:-moz-placeholder,
-input[type="number"].input-large.input-date:-moz-placeholder,
-input[type="tel"].input-large.input-date:-moz-placeholder,
-input[type="url"].input-large.input-date:-moz-placeholder,
-input[type="date"].input-large.input-date:-moz-placeholder,
-input[type="month"].input-large.input-date:-moz-placeholder,
-input[type="week"].input-large.input-date:-moz-placeholder,
-input[type="datetime"].input-large.input-date:-moz-placeholder,
-input[type="datetime-local"].input-large.input-date:-moz-placeholder,
-textarea.input-large.input-date:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus:-moz-placeholder,
-input[type="search"].input-large.input-date:focus:-moz-placeholder,
-input[type="email"].input-large.input-date:focus:-moz-placeholder,
-input[type="password"].input-large.input-date:focus:-moz-placeholder,
-input[type="number"].input-large.input-date:focus:-moz-placeholder,
-input[type="tel"].input-large.input-date:focus:-moz-placeholder,
-input[type="url"].input-large.input-date:focus:-moz-placeholder,
-input[type="date"].input-large.input-date:focus:-moz-placeholder,
-input[type="month"].input-large.input-date:focus:-moz-placeholder,
-input[type="week"].input-large.input-date:focus:-moz-placeholder,
-input[type="datetime"].input-large.input-date:focus:-moz-placeholder,
-input[type="datetime-local"].input-large.input-date:focus:-moz-placeholder,
-textarea.input-large.input-date:focus:-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date::-moz-placeholder,
-input[type="search"].input-large.input-date::-moz-placeholder,
-input[type="email"].input-large.input-date::-moz-placeholder,
-input[type="password"].input-large.input-date::-moz-placeholder,
-input[type="number"].input-large.input-date::-moz-placeholder,
-input[type="tel"].input-large.input-date::-moz-placeholder,
-input[type="url"].input-large.input-date::-moz-placeholder,
-input[type="date"].input-large.input-date::-moz-placeholder,
-input[type="month"].input-large.input-date::-moz-placeholder,
-input[type="week"].input-large.input-date::-moz-placeholder,
-input[type="datetime"].input-large.input-date::-moz-placeholder,
-input[type="datetime-local"].input-large.input-date::-moz-placeholder,
-textarea.input-large.input-date::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus::-moz-placeholder,
-input[type="search"].input-large.input-date:focus::-moz-placeholder,
-input[type="email"].input-large.input-date:focus::-moz-placeholder,
-input[type="password"].input-large.input-date:focus::-moz-placeholder,
-input[type="number"].input-large.input-date:focus::-moz-placeholder,
-input[type="tel"].input-large.input-date:focus::-moz-placeholder,
-input[type="url"].input-large.input-date:focus::-moz-placeholder,
-input[type="date"].input-large.input-date:focus::-moz-placeholder,
-input[type="month"].input-large.input-date:focus::-moz-placeholder,
-input[type="week"].input-large.input-date:focus::-moz-placeholder,
-input[type="datetime"].input-large.input-date:focus::-moz-placeholder,
-input[type="datetime-local"].input-large.input-date:focus::-moz-placeholder,
-textarea.input-large.input-date:focus::-moz-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date:-ms-input-placeholder,
-input[type="search"].input-large.input-date:-ms-input-placeholder,
-input[type="email"].input-large.input-date:-ms-input-placeholder,
-input[type="password"].input-large.input-date:-ms-input-placeholder,
-input[type="number"].input-large.input-date:-ms-input-placeholder,
-input[type="tel"].input-large.input-date:-ms-input-placeholder,
-input[type="url"].input-large.input-date:-ms-input-placeholder,
-input[type="date"].input-large.input-date:-ms-input-placeholder,
-input[type="month"].input-large.input-date:-ms-input-placeholder,
-input[type="week"].input-large.input-date:-ms-input-placeholder,
-input[type="datetime"].input-large.input-date:-ms-input-placeholder,
-input[type="datetime-local"].input-large.input-date:-ms-input-placeholder,
-textarea.input-large.input-date:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="search"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="email"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="password"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="tel"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="url"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="date"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="month"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="week"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="datetime"].input-large.input-date:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-large.input-date:focus:-ms-input-placeholder,
-textarea.input-large.input-date:focus:-ms-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-input[type="text"].input-large.input-date::-webkit-input-placeholder,
-input[type="search"].input-large.input-date::-webkit-input-placeholder,
-input[type="email"].input-large.input-date::-webkit-input-placeholder,
-input[type="password"].input-large.input-date::-webkit-input-placeholder,
-input[type="number"].input-large.input-date::-webkit-input-placeholder,
-input[type="tel"].input-large.input-date::-webkit-input-placeholder,
-input[type="url"].input-large.input-date::-webkit-input-placeholder,
-input[type="date"].input-large.input-date::-webkit-input-placeholder,
-input[type="month"].input-large.input-date::-webkit-input-placeholder,
-input[type="week"].input-large.input-date::-webkit-input-placeholder,
-input[type="datetime"].input-large.input-date::-webkit-input-placeholder,
-input[type="datetime-local"].input-large.input-date::-webkit-input-placeholder,
-textarea.input-large.input-date::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #6b7681;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="search"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="email"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="password"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="tel"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="url"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="date"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="month"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="week"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="datetime"].input-large.input-date:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-large.input-date:focus::-webkit-input-placeholder,
-textarea.input-large.input-date:focus::-webkit-input-placeholder {
-  color: rgba(107, 118, 129, 0.25);
-}
-@media (max-width:  1024px) {
-  input[type="text"].input-large,
-  input[type="search"].input-large,
-  input[type="email"].input-large,
-  input[type="password"].input-large,
-  input[type="number"].input-large,
-  input[type="tel"].input-large,
-  input[type="url"].input-large,
-  input[type="date"].input-large,
-  input[type="month"].input-large,
-  input[type="week"].input-large,
-  input[type="datetime"].input-large,
-  input[type="datetime-local"].input-large,
-  textarea.input-large {
-    font-size: 14px;
-    font-size: 1.4rem;
-    height: 40px;
-    padding: 8px 12px;
-  }
-  input[type="text"].input-large:-moz-placeholder,
-  input[type="search"].input-large:-moz-placeholder,
-  input[type="email"].input-large:-moz-placeholder,
-  input[type="password"].input-large:-moz-placeholder,
-  input[type="number"].input-large:-moz-placeholder,
-  input[type="tel"].input-large:-moz-placeholder,
-  input[type="url"].input-large:-moz-placeholder,
-  input[type="date"].input-large:-moz-placeholder,
-  input[type="month"].input-large:-moz-placeholder,
-  input[type="week"].input-large:-moz-placeholder,
-  input[type="datetime"].input-large:-moz-placeholder,
-  input[type="datetime-local"].input-large:-moz-placeholder,
-  textarea.input-large:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus:-moz-placeholder,
-  input[type="search"].input-large:focus:-moz-placeholder,
-  input[type="email"].input-large:focus:-moz-placeholder,
-  input[type="password"].input-large:focus:-moz-placeholder,
-  input[type="number"].input-large:focus:-moz-placeholder,
-  input[type="tel"].input-large:focus:-moz-placeholder,
-  input[type="url"].input-large:focus:-moz-placeholder,
-  input[type="date"].input-large:focus:-moz-placeholder,
-  input[type="month"].input-large:focus:-moz-placeholder,
-  input[type="week"].input-large:focus:-moz-placeholder,
-  input[type="datetime"].input-large:focus:-moz-placeholder,
-  input[type="datetime-local"].input-large:focus:-moz-placeholder,
-  textarea.input-large:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large::-moz-placeholder,
-  input[type="search"].input-large::-moz-placeholder,
-  input[type="email"].input-large::-moz-placeholder,
-  input[type="password"].input-large::-moz-placeholder,
-  input[type="number"].input-large::-moz-placeholder,
-  input[type="tel"].input-large::-moz-placeholder,
-  input[type="url"].input-large::-moz-placeholder,
-  input[type="date"].input-large::-moz-placeholder,
-  input[type="month"].input-large::-moz-placeholder,
-  input[type="week"].input-large::-moz-placeholder,
-  input[type="datetime"].input-large::-moz-placeholder,
-  input[type="datetime-local"].input-large::-moz-placeholder,
-  textarea.input-large::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus::-moz-placeholder,
-  input[type="search"].input-large:focus::-moz-placeholder,
-  input[type="email"].input-large:focus::-moz-placeholder,
-  input[type="password"].input-large:focus::-moz-placeholder,
-  input[type="number"].input-large:focus::-moz-placeholder,
-  input[type="tel"].input-large:focus::-moz-placeholder,
-  input[type="url"].input-large:focus::-moz-placeholder,
-  input[type="date"].input-large:focus::-moz-placeholder,
-  input[type="month"].input-large:focus::-moz-placeholder,
-  input[type="week"].input-large:focus::-moz-placeholder,
-  input[type="datetime"].input-large:focus::-moz-placeholder,
-  input[type="datetime-local"].input-large:focus::-moz-placeholder,
-  textarea.input-large:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large:-ms-input-placeholder,
-  input[type="search"].input-large:-ms-input-placeholder,
-  input[type="email"].input-large:-ms-input-placeholder,
-  input[type="password"].input-large:-ms-input-placeholder,
-  input[type="number"].input-large:-ms-input-placeholder,
-  input[type="tel"].input-large:-ms-input-placeholder,
-  input[type="url"].input-large:-ms-input-placeholder,
-  input[type="date"].input-large:-ms-input-placeholder,
-  input[type="month"].input-large:-ms-input-placeholder,
-  input[type="week"].input-large:-ms-input-placeholder,
-  input[type="datetime"].input-large:-ms-input-placeholder,
-  input[type="datetime-local"].input-large:-ms-input-placeholder,
-  textarea.input-large:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus:-ms-input-placeholder,
-  input[type="search"].input-large:focus:-ms-input-placeholder,
-  input[type="email"].input-large:focus:-ms-input-placeholder,
-  input[type="password"].input-large:focus:-ms-input-placeholder,
-  input[type="number"].input-large:focus:-ms-input-placeholder,
-  input[type="tel"].input-large:focus:-ms-input-placeholder,
-  input[type="url"].input-large:focus:-ms-input-placeholder,
-  input[type="date"].input-large:focus:-ms-input-placeholder,
-  input[type="month"].input-large:focus:-ms-input-placeholder,
-  input[type="week"].input-large:focus:-ms-input-placeholder,
-  input[type="datetime"].input-large:focus:-ms-input-placeholder,
-  input[type="datetime-local"].input-large:focus:-ms-input-placeholder,
-  textarea.input-large:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large::-webkit-input-placeholder,
-  input[type="search"].input-large::-webkit-input-placeholder,
-  input[type="email"].input-large::-webkit-input-placeholder,
-  input[type="password"].input-large::-webkit-input-placeholder,
-  input[type="number"].input-large::-webkit-input-placeholder,
-  input[type="tel"].input-large::-webkit-input-placeholder,
-  input[type="url"].input-large::-webkit-input-placeholder,
-  input[type="date"].input-large::-webkit-input-placeholder,
-  input[type="month"].input-large::-webkit-input-placeholder,
-  input[type="week"].input-large::-webkit-input-placeholder,
-  input[type="datetime"].input-large::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large::-webkit-input-placeholder,
-  textarea.input-large::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large:focus::-webkit-input-placeholder,
-  input[type="search"].input-large:focus::-webkit-input-placeholder,
-  input[type="email"].input-large:focus::-webkit-input-placeholder,
-  input[type="password"].input-large:focus::-webkit-input-placeholder,
-  input[type="number"].input-large:focus::-webkit-input-placeholder,
-  input[type="tel"].input-large:focus::-webkit-input-placeholder,
-  input[type="url"].input-large:focus::-webkit-input-placeholder,
-  input[type="date"].input-large:focus::-webkit-input-placeholder,
-  input[type="month"].input-large:focus::-webkit-input-placeholder,
-  input[type="week"].input-large:focus::-webkit-input-placeholder,
-  input[type="datetime"].input-large:focus::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large:focus::-webkit-input-placeholder,
-  textarea.input-large:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.inverse:-moz-placeholder,
-  input[type="search"].input-large.inverse:-moz-placeholder,
-  input[type="email"].input-large.inverse:-moz-placeholder,
-  input[type="password"].input-large.inverse:-moz-placeholder,
-  input[type="number"].input-large.inverse:-moz-placeholder,
-  input[type="tel"].input-large.inverse:-moz-placeholder,
-  input[type="url"].input-large.inverse:-moz-placeholder,
-  input[type="date"].input-large.inverse:-moz-placeholder,
-  input[type="month"].input-large.inverse:-moz-placeholder,
-  input[type="week"].input-large.inverse:-moz-placeholder,
-  input[type="datetime"].input-large.inverse:-moz-placeholder,
-  input[type="datetime-local"].input-large.inverse:-moz-placeholder,
-  textarea.input-large.inverse:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus:-moz-placeholder,
-  input[type="search"].input-large.inverse:focus:-moz-placeholder,
-  input[type="email"].input-large.inverse:focus:-moz-placeholder,
-  input[type="password"].input-large.inverse:focus:-moz-placeholder,
-  input[type="number"].input-large.inverse:focus:-moz-placeholder,
-  input[type="tel"].input-large.inverse:focus:-moz-placeholder,
-  input[type="url"].input-large.inverse:focus:-moz-placeholder,
-  input[type="date"].input-large.inverse:focus:-moz-placeholder,
-  input[type="month"].input-large.inverse:focus:-moz-placeholder,
-  input[type="week"].input-large.inverse:focus:-moz-placeholder,
-  input[type="datetime"].input-large.inverse:focus:-moz-placeholder,
-  input[type="datetime-local"].input-large.inverse:focus:-moz-placeholder,
-  textarea.input-large.inverse:focus:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse::-moz-placeholder,
-  input[type="search"].input-large.inverse::-moz-placeholder,
-  input[type="email"].input-large.inverse::-moz-placeholder,
-  input[type="password"].input-large.inverse::-moz-placeholder,
-  input[type="number"].input-large.inverse::-moz-placeholder,
-  input[type="tel"].input-large.inverse::-moz-placeholder,
-  input[type="url"].input-large.inverse::-moz-placeholder,
-  input[type="date"].input-large.inverse::-moz-placeholder,
-  input[type="month"].input-large.inverse::-moz-placeholder,
-  input[type="week"].input-large.inverse::-moz-placeholder,
-  input[type="datetime"].input-large.inverse::-moz-placeholder,
-  input[type="datetime-local"].input-large.inverse::-moz-placeholder,
-  textarea.input-large.inverse::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus::-moz-placeholder,
-  input[type="search"].input-large.inverse:focus::-moz-placeholder,
-  input[type="email"].input-large.inverse:focus::-moz-placeholder,
-  input[type="password"].input-large.inverse:focus::-moz-placeholder,
-  input[type="number"].input-large.inverse:focus::-moz-placeholder,
-  input[type="tel"].input-large.inverse:focus::-moz-placeholder,
-  input[type="url"].input-large.inverse:focus::-moz-placeholder,
-  input[type="date"].input-large.inverse:focus::-moz-placeholder,
-  input[type="month"].input-large.inverse:focus::-moz-placeholder,
-  input[type="week"].input-large.inverse:focus::-moz-placeholder,
-  input[type="datetime"].input-large.inverse:focus::-moz-placeholder,
-  input[type="datetime-local"].input-large.inverse:focus::-moz-placeholder,
-  textarea.input-large.inverse:focus::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse:-ms-input-placeholder,
-  input[type="search"].input-large.inverse:-ms-input-placeholder,
-  input[type="email"].input-large.inverse:-ms-input-placeholder,
-  input[type="password"].input-large.inverse:-ms-input-placeholder,
-  input[type="number"].input-large.inverse:-ms-input-placeholder,
-  input[type="tel"].input-large.inverse:-ms-input-placeholder,
-  input[type="url"].input-large.inverse:-ms-input-placeholder,
-  input[type="date"].input-large.inverse:-ms-input-placeholder,
-  input[type="month"].input-large.inverse:-ms-input-placeholder,
-  input[type="week"].input-large.inverse:-ms-input-placeholder,
-  input[type="datetime"].input-large.inverse:-ms-input-placeholder,
-  input[type="datetime-local"].input-large.inverse:-ms-input-placeholder,
-  textarea.input-large.inverse:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="search"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="email"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="password"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="number"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="tel"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="url"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="date"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="month"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="week"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="datetime"].input-large.inverse:focus:-ms-input-placeholder,
-  input[type="datetime-local"].input-large.inverse:focus:-ms-input-placeholder,
-  textarea.input-large.inverse:focus:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.inverse::-webkit-input-placeholder,
-  input[type="search"].input-large.inverse::-webkit-input-placeholder,
-  input[type="email"].input-large.inverse::-webkit-input-placeholder,
-  input[type="password"].input-large.inverse::-webkit-input-placeholder,
-  input[type="number"].input-large.inverse::-webkit-input-placeholder,
-  input[type="tel"].input-large.inverse::-webkit-input-placeholder,
-  input[type="url"].input-large.inverse::-webkit-input-placeholder,
-  input[type="date"].input-large.inverse::-webkit-input-placeholder,
-  input[type="month"].input-large.inverse::-webkit-input-placeholder,
-  input[type="week"].input-large.inverse::-webkit-input-placeholder,
-  input[type="datetime"].input-large.inverse::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large.inverse::-webkit-input-placeholder,
-  textarea.input-large.inverse::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #ffffff;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="search"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="email"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="password"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="number"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="tel"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="url"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="date"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="month"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="week"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="datetime"].input-large.inverse:focus::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large.inverse:focus::-webkit-input-placeholder,
-  textarea.input-large.inverse:focus::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.25);
-  }
-  input[type="text"].input-large.input-date:-moz-placeholder,
-  input[type="search"].input-large.input-date:-moz-placeholder,
-  input[type="email"].input-large.input-date:-moz-placeholder,
-  input[type="password"].input-large.input-date:-moz-placeholder,
-  input[type="number"].input-large.input-date:-moz-placeholder,
-  input[type="tel"].input-large.input-date:-moz-placeholder,
-  input[type="url"].input-large.input-date:-moz-placeholder,
-  input[type="date"].input-large.input-date:-moz-placeholder,
-  input[type="month"].input-large.input-date:-moz-placeholder,
-  input[type="week"].input-large.input-date:-moz-placeholder,
-  input[type="datetime"].input-large.input-date:-moz-placeholder,
-  input[type="datetime-local"].input-large.input-date:-moz-placeholder,
-  textarea.input-large.input-date:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus:-moz-placeholder,
-  input[type="search"].input-large.input-date:focus:-moz-placeholder,
-  input[type="email"].input-large.input-date:focus:-moz-placeholder,
-  input[type="password"].input-large.input-date:focus:-moz-placeholder,
-  input[type="number"].input-large.input-date:focus:-moz-placeholder,
-  input[type="tel"].input-large.input-date:focus:-moz-placeholder,
-  input[type="url"].input-large.input-date:focus:-moz-placeholder,
-  input[type="date"].input-large.input-date:focus:-moz-placeholder,
-  input[type="month"].input-large.input-date:focus:-moz-placeholder,
-  input[type="week"].input-large.input-date:focus:-moz-placeholder,
-  input[type="datetime"].input-large.input-date:focus:-moz-placeholder,
-  input[type="datetime-local"].input-large.input-date:focus:-moz-placeholder,
-  textarea.input-large.input-date:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date::-moz-placeholder,
-  input[type="search"].input-large.input-date::-moz-placeholder,
-  input[type="email"].input-large.input-date::-moz-placeholder,
-  input[type="password"].input-large.input-date::-moz-placeholder,
-  input[type="number"].input-large.input-date::-moz-placeholder,
-  input[type="tel"].input-large.input-date::-moz-placeholder,
-  input[type="url"].input-large.input-date::-moz-placeholder,
-  input[type="date"].input-large.input-date::-moz-placeholder,
-  input[type="month"].input-large.input-date::-moz-placeholder,
-  input[type="week"].input-large.input-date::-moz-placeholder,
-  input[type="datetime"].input-large.input-date::-moz-placeholder,
-  input[type="datetime-local"].input-large.input-date::-moz-placeholder,
-  textarea.input-large.input-date::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus::-moz-placeholder,
-  input[type="search"].input-large.input-date:focus::-moz-placeholder,
-  input[type="email"].input-large.input-date:focus::-moz-placeholder,
-  input[type="password"].input-large.input-date:focus::-moz-placeholder,
-  input[type="number"].input-large.input-date:focus::-moz-placeholder,
-  input[type="tel"].input-large.input-date:focus::-moz-placeholder,
-  input[type="url"].input-large.input-date:focus::-moz-placeholder,
-  input[type="date"].input-large.input-date:focus::-moz-placeholder,
-  input[type="month"].input-large.input-date:focus::-moz-placeholder,
-  input[type="week"].input-large.input-date:focus::-moz-placeholder,
-  input[type="datetime"].input-large.input-date:focus::-moz-placeholder,
-  input[type="datetime-local"].input-large.input-date:focus::-moz-placeholder,
-  textarea.input-large.input-date:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date:-ms-input-placeholder,
-  input[type="search"].input-large.input-date:-ms-input-placeholder,
-  input[type="email"].input-large.input-date:-ms-input-placeholder,
-  input[type="password"].input-large.input-date:-ms-input-placeholder,
-  input[type="number"].input-large.input-date:-ms-input-placeholder,
-  input[type="tel"].input-large.input-date:-ms-input-placeholder,
-  input[type="url"].input-large.input-date:-ms-input-placeholder,
-  input[type="date"].input-large.input-date:-ms-input-placeholder,
-  input[type="month"].input-large.input-date:-ms-input-placeholder,
-  input[type="week"].input-large.input-date:-ms-input-placeholder,
-  input[type="datetime"].input-large.input-date:-ms-input-placeholder,
-  input[type="datetime-local"].input-large.input-date:-ms-input-placeholder,
-  textarea.input-large.input-date:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="search"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="email"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="password"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="number"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="tel"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="url"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="date"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="month"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="week"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="datetime"].input-large.input-date:focus:-ms-input-placeholder,
-  input[type="datetime-local"].input-large.input-date:focus:-ms-input-placeholder,
-  textarea.input-large.input-date:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-large.input-date::-webkit-input-placeholder,
-  input[type="search"].input-large.input-date::-webkit-input-placeholder,
-  input[type="email"].input-large.input-date::-webkit-input-placeholder,
-  input[type="password"].input-large.input-date::-webkit-input-placeholder,
-  input[type="number"].input-large.input-date::-webkit-input-placeholder,
-  input[type="tel"].input-large.input-date::-webkit-input-placeholder,
-  input[type="url"].input-large.input-date::-webkit-input-placeholder,
-  input[type="date"].input-large.input-date::-webkit-input-placeholder,
-  input[type="month"].input-large.input-date::-webkit-input-placeholder,
-  input[type="week"].input-large.input-date::-webkit-input-placeholder,
-  input[type="datetime"].input-large.input-date::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large.input-date::-webkit-input-placeholder,
-  textarea.input-large.input-date::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="search"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="email"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="password"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="number"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="tel"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="url"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="date"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="month"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="week"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="datetime"].input-large.input-date:focus::-webkit-input-placeholder,
-  input[type="datetime-local"].input-large.input-date:focus::-webkit-input-placeholder,
-  textarea.input-large.input-date:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-}
-input[type="text"].input-extra-large,
-input[type="search"].input-extra-large,
-input[type="email"].input-extra-large,
-input[type="password"].input-extra-large,
-input[type="number"].input-extra-large,
-input[type="tel"].input-extra-large,
-input[type="url"].input-extra-large,
-input[type="date"].input-extra-large,
-input[type="month"].input-extra-large,
-input[type="week"].input-extra-large,
-input[type="datetime"].input-extra-large,
-input[type="datetime-local"].input-extra-large,
-textarea.input-extra-large {
+input:not([type="range"]):not([type="file"]).input-extra-large {
   font-size: 18px;
   font-size: 1.8rem;
   height: 65px;
-  line-height: 45px;
-  padding: 10px 30px;
+  padding: 10px 25px;
 }
-input[type="text"].input-extra-large:-moz-placeholder,
-input[type="search"].input-extra-large:-moz-placeholder,
-input[type="email"].input-extra-large:-moz-placeholder,
-input[type="password"].input-extra-large:-moz-placeholder,
-input[type="number"].input-extra-large:-moz-placeholder,
-input[type="tel"].input-extra-large:-moz-placeholder,
-input[type="url"].input-extra-large:-moz-placeholder,
-input[type="date"].input-extra-large:-moz-placeholder,
-input[type="month"].input-extra-large:-moz-placeholder,
-input[type="week"].input-extra-large:-moz-placeholder,
-input[type="datetime"].input-extra-large:-moz-placeholder,
-input[type="datetime-local"].input-extra-large:-moz-placeholder,
-textarea.input-extra-large:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
-  line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -8539,39 +6592,14 @@ textarea.input-extra-large:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-extra-large:focus:-moz-placeholder,
-input[type="search"].input-extra-large:focus:-moz-placeholder,
-input[type="email"].input-extra-large:focus:-moz-placeholder,
-input[type="password"].input-extra-large:focus:-moz-placeholder,
-input[type="number"].input-extra-large:focus:-moz-placeholder,
-input[type="tel"].input-extra-large:focus:-moz-placeholder,
-input[type="url"].input-extra-large:focus:-moz-placeholder,
-input[type="date"].input-extra-large:focus:-moz-placeholder,
-input[type="month"].input-extra-large:focus:-moz-placeholder,
-input[type="week"].input-extra-large:focus:-moz-placeholder,
-input[type="datetime"].input-extra-large:focus:-moz-placeholder,
-input[type="datetime-local"].input-extra-large:focus:-moz-placeholder,
-textarea.input-extra-large:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus:-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-extra-large::-moz-placeholder,
-input[type="search"].input-extra-large::-moz-placeholder,
-input[type="email"].input-extra-large::-moz-placeholder,
-input[type="password"].input-extra-large::-moz-placeholder,
-input[type="number"].input-extra-large::-moz-placeholder,
-input[type="tel"].input-extra-large::-moz-placeholder,
-input[type="url"].input-extra-large::-moz-placeholder,
-input[type="date"].input-extra-large::-moz-placeholder,
-input[type="month"].input-extra-large::-moz-placeholder,
-input[type="week"].input-extra-large::-moz-placeholder,
-input[type="datetime"].input-extra-large::-moz-placeholder,
-input[type="datetime-local"].input-extra-large::-moz-placeholder,
-textarea.input-extra-large::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
-  line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -8580,39 +6608,14 @@ textarea.input-extra-large::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-extra-large:focus::-moz-placeholder,
-input[type="search"].input-extra-large:focus::-moz-placeholder,
-input[type="email"].input-extra-large:focus::-moz-placeholder,
-input[type="password"].input-extra-large:focus::-moz-placeholder,
-input[type="number"].input-extra-large:focus::-moz-placeholder,
-input[type="tel"].input-extra-large:focus::-moz-placeholder,
-input[type="url"].input-extra-large:focus::-moz-placeholder,
-input[type="date"].input-extra-large:focus::-moz-placeholder,
-input[type="month"].input-extra-large:focus::-moz-placeholder,
-input[type="week"].input-extra-large:focus::-moz-placeholder,
-input[type="datetime"].input-extra-large:focus::-moz-placeholder,
-input[type="datetime-local"].input-extra-large:focus::-moz-placeholder,
-textarea.input-extra-large:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus::-moz-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-extra-large:-ms-input-placeholder,
-input[type="search"].input-extra-large:-ms-input-placeholder,
-input[type="email"].input-extra-large:-ms-input-placeholder,
-input[type="password"].input-extra-large:-ms-input-placeholder,
-input[type="number"].input-extra-large:-ms-input-placeholder,
-input[type="tel"].input-extra-large:-ms-input-placeholder,
-input[type="url"].input-extra-large:-ms-input-placeholder,
-input[type="date"].input-extra-large:-ms-input-placeholder,
-input[type="month"].input-extra-large:-ms-input-placeholder,
-input[type="week"].input-extra-large:-ms-input-placeholder,
-input[type="datetime"].input-extra-large:-ms-input-placeholder,
-input[type="datetime-local"].input-extra-large:-ms-input-placeholder,
-textarea.input-extra-large:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
-  line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -8621,39 +6624,14 @@ textarea.input-extra-large:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-extra-large:focus:-ms-input-placeholder,
-input[type="search"].input-extra-large:focus:-ms-input-placeholder,
-input[type="email"].input-extra-large:focus:-ms-input-placeholder,
-input[type="password"].input-extra-large:focus:-ms-input-placeholder,
-input[type="number"].input-extra-large:focus:-ms-input-placeholder,
-input[type="tel"].input-extra-large:focus:-ms-input-placeholder,
-input[type="url"].input-extra-large:focus:-ms-input-placeholder,
-input[type="date"].input-extra-large:focus:-ms-input-placeholder,
-input[type="month"].input-extra-large:focus:-ms-input-placeholder,
-input[type="week"].input-extra-large:focus:-ms-input-placeholder,
-input[type="datetime"].input-extra-large:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-extra-large:focus:-ms-input-placeholder,
-textarea.input-extra-large:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus:-ms-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-extra-large::-webkit-input-placeholder,
-input[type="search"].input-extra-large::-webkit-input-placeholder,
-input[type="email"].input-extra-large::-webkit-input-placeholder,
-input[type="password"].input-extra-large::-webkit-input-placeholder,
-input[type="number"].input-extra-large::-webkit-input-placeholder,
-input[type="tel"].input-extra-large::-webkit-input-placeholder,
-input[type="url"].input-extra-large::-webkit-input-placeholder,
-input[type="date"].input-extra-large::-webkit-input-placeholder,
-input[type="month"].input-extra-large::-webkit-input-placeholder,
-input[type="week"].input-extra-large::-webkit-input-placeholder,
-input[type="datetime"].input-extra-large::-webkit-input-placeholder,
-input[type="datetime-local"].input-extra-large::-webkit-input-placeholder,
-textarea.input-extra-large::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
-  line-height: 45px;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -8662,405 +6640,19 @@ textarea.input-extra-large::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="search"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="email"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="tel"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="url"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="date"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="month"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="week"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="datetime"].input-extra-large:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-extra-large:focus::-webkit-input-placeholder,
-textarea.input-extra-large:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-extra-large:focus::-webkit-input-placeholder {
   color: rgba(107, 118, 129, 0.25);
 }
-input[type="text"].input-extra-large.inverse:-moz-placeholder,
-input[type="search"].input-extra-large.inverse:-moz-placeholder,
-input[type="email"].input-extra-large.inverse:-moz-placeholder,
-input[type="password"].input-extra-large.inverse:-moz-placeholder,
-input[type="number"].input-extra-large.inverse:-moz-placeholder,
-input[type="tel"].input-extra-large.inverse:-moz-placeholder,
-input[type="url"].input-extra-large.inverse:-moz-placeholder,
-input[type="date"].input-extra-large.inverse:-moz-placeholder,
-input[type="month"].input-extra-large.inverse:-moz-placeholder,
-input[type="week"].input-extra-large.inverse:-moz-placeholder,
-input[type="datetime"].input-extra-large.inverse:-moz-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:-moz-placeholder,
-textarea.input-extra-large.inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="search"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="email"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="password"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="number"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="tel"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="url"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="date"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="month"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="week"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="datetime"].input-extra-large.inverse:focus:-moz-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:focus:-moz-placeholder,
-textarea.input-extra-large.inverse:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse::-moz-placeholder,
-input[type="search"].input-extra-large.inverse::-moz-placeholder,
-input[type="email"].input-extra-large.inverse::-moz-placeholder,
-input[type="password"].input-extra-large.inverse::-moz-placeholder,
-input[type="number"].input-extra-large.inverse::-moz-placeholder,
-input[type="tel"].input-extra-large.inverse::-moz-placeholder,
-input[type="url"].input-extra-large.inverse::-moz-placeholder,
-input[type="date"].input-extra-large.inverse::-moz-placeholder,
-input[type="month"].input-extra-large.inverse::-moz-placeholder,
-input[type="week"].input-extra-large.inverse::-moz-placeholder,
-input[type="datetime"].input-extra-large.inverse::-moz-placeholder,
-input[type="datetime-local"].input-extra-large.inverse::-moz-placeholder,
-textarea.input-extra-large.inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="search"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="email"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="password"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="number"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="tel"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="url"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="date"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="month"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="week"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="datetime"].input-extra-large.inverse:focus::-moz-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:focus::-moz-placeholder,
-textarea.input-extra-large.inverse:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="search"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="email"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="password"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="number"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="tel"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="url"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="date"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="month"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="week"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="datetime"].input-extra-large.inverse:-ms-input-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:-ms-input-placeholder,
-textarea.input-extra-large.inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="search"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="email"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="password"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="number"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="tel"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="url"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="date"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="month"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="week"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="datetime"].input-extra-large.inverse:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:focus:-ms-input-placeholder,
-textarea.input-extra-large.inverse:focus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-input[type="text"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="search"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="email"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="password"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="number"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="tel"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="url"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="date"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="month"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="week"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="datetime"].input-extra-large.inverse::-webkit-input-placeholder,
-input[type="datetime-local"].input-extra-large.inverse::-webkit-input-placeholder,
-textarea.input-extra-large.inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  color: #ffffff;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-input[type="text"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="tel"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="url"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="date"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="month"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="week"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="datetime"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-extra-large.inverse:focus::-webkit-input-placeholder,
-textarea.input-extra-large.inverse:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.25);
-}
-@media (max-width:  1024px) {
-  input[type="text"].input-extra-large,
-  input[type="search"].input-extra-large,
-  input[type="email"].input-extra-large,
-  input[type="password"].input-extra-large,
-  input[type="number"].input-extra-large,
-  input[type="tel"].input-extra-large,
-  input[type="url"].input-extra-large,
-  input[type="date"].input-extra-large,
-  input[type="month"].input-extra-large,
-  input[type="week"].input-extra-large,
-  input[type="datetime"].input-extra-large,
-  input[type="datetime-local"].input-extra-large,
-  textarea.input-extra-large {
-    font-size: 16px;
-    font-size: 1.6rem;
-    height: 50px;
-    line-height: 30px;
-    padding: 10px 20px;
-  }
-  input[type="text"].input-extra-large:-moz-placeholder,
-  input[type="search"].input-extra-large:-moz-placeholder,
-  input[type="email"].input-extra-large:-moz-placeholder,
-  input[type="password"].input-extra-large:-moz-placeholder,
-  input[type="number"].input-extra-large:-moz-placeholder,
-  input[type="tel"].input-extra-large:-moz-placeholder,
-  input[type="url"].input-extra-large:-moz-placeholder,
-  input[type="date"].input-extra-large:-moz-placeholder,
-  input[type="month"].input-extra-large:-moz-placeholder,
-  input[type="week"].input-extra-large:-moz-placeholder,
-  input[type="datetime"].input-extra-large:-moz-placeholder,
-  input[type="datetime-local"].input-extra-large:-moz-placeholder,
-  textarea.input-extra-large:-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus:-moz-placeholder,
-  input[type="search"].input-extra-large:focus:-moz-placeholder,
-  input[type="email"].input-extra-large:focus:-moz-placeholder,
-  input[type="password"].input-extra-large:focus:-moz-placeholder,
-  input[type="number"].input-extra-large:focus:-moz-placeholder,
-  input[type="tel"].input-extra-large:focus:-moz-placeholder,
-  input[type="url"].input-extra-large:focus:-moz-placeholder,
-  input[type="date"].input-extra-large:focus:-moz-placeholder,
-  input[type="month"].input-extra-large:focus:-moz-placeholder,
-  input[type="week"].input-extra-large:focus:-moz-placeholder,
-  input[type="datetime"].input-extra-large:focus:-moz-placeholder,
-  input[type="datetime-local"].input-extra-large:focus:-moz-placeholder,
-  textarea.input-extra-large:focus:-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large::-moz-placeholder,
-  input[type="search"].input-extra-large::-moz-placeholder,
-  input[type="email"].input-extra-large::-moz-placeholder,
-  input[type="password"].input-extra-large::-moz-placeholder,
-  input[type="number"].input-extra-large::-moz-placeholder,
-  input[type="tel"].input-extra-large::-moz-placeholder,
-  input[type="url"].input-extra-large::-moz-placeholder,
-  input[type="date"].input-extra-large::-moz-placeholder,
-  input[type="month"].input-extra-large::-moz-placeholder,
-  input[type="week"].input-extra-large::-moz-placeholder,
-  input[type="datetime"].input-extra-large::-moz-placeholder,
-  input[type="datetime-local"].input-extra-large::-moz-placeholder,
-  textarea.input-extra-large::-moz-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus::-moz-placeholder,
-  input[type="search"].input-extra-large:focus::-moz-placeholder,
-  input[type="email"].input-extra-large:focus::-moz-placeholder,
-  input[type="password"].input-extra-large:focus::-moz-placeholder,
-  input[type="number"].input-extra-large:focus::-moz-placeholder,
-  input[type="tel"].input-extra-large:focus::-moz-placeholder,
-  input[type="url"].input-extra-large:focus::-moz-placeholder,
-  input[type="date"].input-extra-large:focus::-moz-placeholder,
-  input[type="month"].input-extra-large:focus::-moz-placeholder,
-  input[type="week"].input-extra-large:focus::-moz-placeholder,
-  input[type="datetime"].input-extra-large:focus::-moz-placeholder,
-  input[type="datetime-local"].input-extra-large:focus::-moz-placeholder,
-  textarea.input-extra-large:focus::-moz-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large:-ms-input-placeholder,
-  input[type="search"].input-extra-large:-ms-input-placeholder,
-  input[type="email"].input-extra-large:-ms-input-placeholder,
-  input[type="password"].input-extra-large:-ms-input-placeholder,
-  input[type="number"].input-extra-large:-ms-input-placeholder,
-  input[type="tel"].input-extra-large:-ms-input-placeholder,
-  input[type="url"].input-extra-large:-ms-input-placeholder,
-  input[type="date"].input-extra-large:-ms-input-placeholder,
-  input[type="month"].input-extra-large:-ms-input-placeholder,
-  input[type="week"].input-extra-large:-ms-input-placeholder,
-  input[type="datetime"].input-extra-large:-ms-input-placeholder,
-  input[type="datetime-local"].input-extra-large:-ms-input-placeholder,
-  textarea.input-extra-large:-ms-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="search"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="email"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="password"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="number"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="tel"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="url"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="date"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="month"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="week"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="datetime"].input-extra-large:focus:-ms-input-placeholder,
-  input[type="datetime-local"].input-extra-large:focus:-ms-input-placeholder,
-  textarea.input-extra-large:focus:-ms-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-  input[type="text"].input-extra-large::-webkit-input-placeholder,
-  input[type="search"].input-extra-large::-webkit-input-placeholder,
-  input[type="email"].input-extra-large::-webkit-input-placeholder,
-  input[type="password"].input-extra-large::-webkit-input-placeholder,
-  input[type="number"].input-extra-large::-webkit-input-placeholder,
-  input[type="tel"].input-extra-large::-webkit-input-placeholder,
-  input[type="url"].input-extra-large::-webkit-input-placeholder,
-  input[type="date"].input-extra-large::-webkit-input-placeholder,
-  input[type="month"].input-extra-large::-webkit-input-placeholder,
-  input[type="week"].input-extra-large::-webkit-input-placeholder,
-  input[type="datetime"].input-extra-large::-webkit-input-placeholder,
-  input[type="datetime-local"].input-extra-large::-webkit-input-placeholder,
-  textarea.input-extra-large::-webkit-input-placeholder {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    color: #6b7681;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-transform: none;
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-  }
-  input[type="text"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="search"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="email"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="tel"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="url"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="date"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="month"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="week"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="datetime"].input-extra-large:focus::-webkit-input-placeholder,
-  input[type="datetime-local"].input-extra-large:focus::-webkit-input-placeholder,
-  textarea.input-extra-large:focus::-webkit-input-placeholder {
-    color: rgba(107, 118, 129, 0.25);
-  }
-}
-input[type="text"].input-inverse,
-input[type="search"].input-inverse,
-input[type="email"].input-inverse,
-input[type="password"].input-inverse,
-input[type="number"].input-inverse,
-input[type="tel"].input-inverse,
-input[type="url"].input-inverse,
-input[type="date"].input-inverse,
-input[type="month"].input-inverse,
-input[type="week"].input-inverse,
-input[type="datetime"].input-inverse,
-input[type="datetime-local"].input-inverse,
-textarea.input-inverse {
+input:not([type="range"]):not([type="file"]).input-inverse {
   color: #ffffff;
   border: none;
   background-color: #6b7681;
 }
-input[type="text"].input-inverse:-moz-placeholder,
-input[type="search"].input-inverse:-moz-placeholder,
-input[type="email"].input-inverse:-moz-placeholder,
-input[type="password"].input-inverse:-moz-placeholder,
-input[type="number"].input-inverse:-moz-placeholder,
-input[type="tel"].input-inverse:-moz-placeholder,
-input[type="url"].input-inverse:-moz-placeholder,
-input[type="date"].input-inverse:-moz-placeholder,
-input[type="month"].input-inverse:-moz-placeholder,
-input[type="week"].input-inverse:-moz-placeholder,
-input[type="datetime"].input-inverse:-moz-placeholder,
-input[type="datetime-local"].input-inverse:-moz-placeholder,
-textarea.input-inverse:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -9069,39 +6661,14 @@ textarea.input-inverse:-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-inverse:focus:-moz-placeholder,
-input[type="search"].input-inverse:focus:-moz-placeholder,
-input[type="email"].input-inverse:focus:-moz-placeholder,
-input[type="password"].input-inverse:focus:-moz-placeholder,
-input[type="number"].input-inverse:focus:-moz-placeholder,
-input[type="tel"].input-inverse:focus:-moz-placeholder,
-input[type="url"].input-inverse:focus:-moz-placeholder,
-input[type="date"].input-inverse:focus:-moz-placeholder,
-input[type="month"].input-inverse:focus:-moz-placeholder,
-input[type="week"].input-inverse:focus:-moz-placeholder,
-input[type="datetime"].input-inverse:focus:-moz-placeholder,
-input[type="datetime-local"].input-inverse:focus:-moz-placeholder,
-textarea.input-inverse:focus:-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus:-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input[type="text"].input-inverse::-moz-placeholder,
-input[type="search"].input-inverse::-moz-placeholder,
-input[type="email"].input-inverse::-moz-placeholder,
-input[type="password"].input-inverse::-moz-placeholder,
-input[type="number"].input-inverse::-moz-placeholder,
-input[type="tel"].input-inverse::-moz-placeholder,
-input[type="url"].input-inverse::-moz-placeholder,
-input[type="date"].input-inverse::-moz-placeholder,
-input[type="month"].input-inverse::-moz-placeholder,
-input[type="week"].input-inverse::-moz-placeholder,
-input[type="datetime"].input-inverse::-moz-placeholder,
-input[type="datetime-local"].input-inverse::-moz-placeholder,
-textarea.input-inverse::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -9110,39 +6677,14 @@ textarea.input-inverse::-moz-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-inverse:focus::-moz-placeholder,
-input[type="search"].input-inverse:focus::-moz-placeholder,
-input[type="email"].input-inverse:focus::-moz-placeholder,
-input[type="password"].input-inverse:focus::-moz-placeholder,
-input[type="number"].input-inverse:focus::-moz-placeholder,
-input[type="tel"].input-inverse:focus::-moz-placeholder,
-input[type="url"].input-inverse:focus::-moz-placeholder,
-input[type="date"].input-inverse:focus::-moz-placeholder,
-input[type="month"].input-inverse:focus::-moz-placeholder,
-input[type="week"].input-inverse:focus::-moz-placeholder,
-input[type="datetime"].input-inverse:focus::-moz-placeholder,
-input[type="datetime-local"].input-inverse:focus::-moz-placeholder,
-textarea.input-inverse:focus::-moz-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus::-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input[type="text"].input-inverse:-ms-input-placeholder,
-input[type="search"].input-inverse:-ms-input-placeholder,
-input[type="email"].input-inverse:-ms-input-placeholder,
-input[type="password"].input-inverse:-ms-input-placeholder,
-input[type="number"].input-inverse:-ms-input-placeholder,
-input[type="tel"].input-inverse:-ms-input-placeholder,
-input[type="url"].input-inverse:-ms-input-placeholder,
-input[type="date"].input-inverse:-ms-input-placeholder,
-input[type="month"].input-inverse:-ms-input-placeholder,
-input[type="week"].input-inverse:-ms-input-placeholder,
-input[type="datetime"].input-inverse:-ms-input-placeholder,
-input[type="datetime-local"].input-inverse:-ms-input-placeholder,
-textarea.input-inverse:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -9151,39 +6693,14 @@ textarea.input-inverse:-ms-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-inverse:focus:-ms-input-placeholder,
-input[type="search"].input-inverse:focus:-ms-input-placeholder,
-input[type="email"].input-inverse:focus:-ms-input-placeholder,
-input[type="password"].input-inverse:focus:-ms-input-placeholder,
-input[type="number"].input-inverse:focus:-ms-input-placeholder,
-input[type="tel"].input-inverse:focus:-ms-input-placeholder,
-input[type="url"].input-inverse:focus:-ms-input-placeholder,
-input[type="date"].input-inverse:focus:-ms-input-placeholder,
-input[type="month"].input-inverse:focus:-ms-input-placeholder,
-input[type="week"].input-inverse:focus:-ms-input-placeholder,
-input[type="datetime"].input-inverse:focus:-ms-input-placeholder,
-input[type="datetime-local"].input-inverse:focus:-ms-input-placeholder,
-textarea.input-inverse:focus:-ms-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input[type="text"].input-inverse::-webkit-input-placeholder,
-input[type="search"].input-inverse::-webkit-input-placeholder,
-input[type="email"].input-inverse::-webkit-input-placeholder,
-input[type="password"].input-inverse::-webkit-input-placeholder,
-input[type="number"].input-inverse::-webkit-input-placeholder,
-input[type="tel"].input-inverse::-webkit-input-placeholder,
-input[type="url"].input-inverse::-webkit-input-placeholder,
-input[type="date"].input-inverse::-webkit-input-placeholder,
-input[type="month"].input-inverse::-webkit-input-placeholder,
-input[type="week"].input-inverse::-webkit-input-placeholder,
-input[type="datetime"].input-inverse::-webkit-input-placeholder,
-input[type="datetime-local"].input-inverse::-webkit-input-placeholder,
-textarea.input-inverse::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
-  line-height: 1.5;
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
@@ -9192,25 +6709,8 @@ textarea.input-inverse::-webkit-input-placeholder {
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input[type="text"].input-inverse:focus::-webkit-input-placeholder,
-input[type="search"].input-inverse:focus::-webkit-input-placeholder,
-input[type="email"].input-inverse:focus::-webkit-input-placeholder,
-input[type="password"].input-inverse:focus::-webkit-input-placeholder,
-input[type="number"].input-inverse:focus::-webkit-input-placeholder,
-input[type="tel"].input-inverse:focus::-webkit-input-placeholder,
-input[type="url"].input-inverse:focus::-webkit-input-placeholder,
-input[type="date"].input-inverse:focus::-webkit-input-placeholder,
-input[type="month"].input-inverse:focus::-webkit-input-placeholder,
-input[type="week"].input-inverse:focus::-webkit-input-placeholder,
-input[type="datetime"].input-inverse:focus::-webkit-input-placeholder,
-input[type="datetime-local"].input-inverse:focus::-webkit-input-placeholder,
-textarea.input-inverse:focus::-webkit-input-placeholder {
+input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
-}
-input[type="search"] {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
 }
 /* Select */
 .select {
@@ -9241,23 +6741,12 @@ input[type="search"] {
   -moz-appearance: none;
   appearance: none;
 }
-.select select.large {
-  padding: 12px 35px 12px 15px;
-}
 .select select::-moz-focusring {
   color: transparent;
   text-shadow: 0 0 0 #000;
 }
 .select select::-ms-expand {
   display: none;
-}
-.select.inverse select {
-  color: #ffffff;
-  border: none;
-  background-color: #6b7681;
-}
-.select.inverse:after {
-  color: #ffffff;
 }
 .select:after {
   position: absolute;
@@ -9270,6 +6759,20 @@ input[type="search"] {
   font-size: 12px;
   color: #4bb3d6;
   pointer-events: none;
+}
+.select.select-large select {
+  padding: 16px 35px 16px 15px;
+  height: 50px;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.select.select-inverse select {
+  color: #ffffff;
+  border: none;
+  background-color: #6b7681;
+}
+.select.select-inverse:after {
+  color: #ffffff;
 }
 @media screen and (min-width:0\0) {
   .select select {
@@ -9401,7 +6904,7 @@ input[type="search"] {
   color: #ffffff;
   text-align: center;
   text-transform: none;
-  background: #fafbfb;
+  background: #6b7681;
   white-space: nowrap;
   cursor: pointer;
   -webkit-border-radius: 6px;
@@ -9412,18 +6915,6 @@ input[type="search"] {
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  /*
-	 * Button Sizes
-	 */
-  /*
-	 * Button Styles
-	 */
-  /*
-	 * Button Types
-	 */
-  /*
-	 * Button Modifiers
-	 */
 }
 .button:before,
 .button:after {
@@ -9442,128 +6933,141 @@ input[type="search"] {
 .button:hover,
 .button:focus {
   color: #ffffff;
-  background: #4bb3d6;
+  background: #545d65;
 }
 .button:hover:after,
 .button:focus:after {
   color: #ffffff;
 }
-.button.button-small {
+.button:disabled {
+  color: #d0d9d9;
+  background: #fafbfb;
+}
+/*
+ * Button Sizes
+ */
+.button-small {
   padding: 10px 15px;
   height: 30px;
   font-size: 10px;
   font-size: 1rem;
 }
-.button.button-large {
+.button-large {
   padding: 13px 15px;
   height: 50px;
   font-size: 18px;
   font-size: 1.8rem;
 }
-.button.button-extra-large {
+.button-extra-large {
   padding: 15px 15px;
   height: 65px;
   font-size: 16px;
   font-size: 1.6rem;
 }
-.button.button-inverse {
-  color: #ffffff;
-  background: #3bc0c3;
+/*
+ * Button Styles
+ */
+.button-inverse {
+  color: #6b7681;
+  background: #fafbfb;
 }
-.button.button-inverse:after {
-  color: #ffffff;
+.button-inverse:after {
+  color: #6b7681;
 }
-.button.button-inverse:hover,
-.button.button-inverse:focus {
-  color: #ffffff;
-  background: #4ec7c9;
+.button-inverse:hover,
+.button-inverse:focus {
+  color: #6b7681;
+  background: #dee4e4;
 }
-.button.button-inverse:hover:after,
-.button.button-inverse:focus:after {
-  color: #ffffff;
+.button-inverse:hover:after,
+.button-inverse:focus:after {
+  color: #6b7681;
 }
-.button.button-text {
-  padding: 8px 0;
+.button-text {
+  padding: 8px 15px;
   color: #485364;
   background: transparent !important;
 }
-.button.button-text:after {
+.button-text:after {
   color: #485364;
 }
-.button.button-text:hover,
-.button.button-text:focus {
+.button-text:hover,
+.button-text:focus {
   color: #4bb3d6;
 }
-.button.button-text:hover:after,
-.button.button-text:focus:after {
+.button-text:hover:after,
+.button-text:focus:after {
   color: #485364;
 }
-.button.button-primary {
+.button-primary {
   color: #ffffff;
   background: #4bb3d6;
 }
-.button.button-primary:after {
+.button-primary:after {
   color: #ffffff;
 }
-.button.button-primary:hover,
-.button.button-primary:focus {
+.button-primary:hover,
+.button-primary:focus {
   color: #ffffff;
-  background: #36aad1;
+  background: #2c9cc2;
 }
-.button.button-primary:hover:after,
-.button.button-primary:focus:after {
+.button-primary:hover:after,
+.button-primary:focus:after {
   color: #ffffff;
 }
-.button.button-border {
+.button-border {
   color: #485364;
   background: transparent;
   border: 1px solid #fafbfb;
 }
-.button.button-border:after {
+.button-border:after {
   color: #485364;
 }
-.button.button-border:hover,
-.button.button-border:focus {
+.button-border:hover,
+.button-border:focus {
   color: #3bc0c3;
   border: 1px solid #fafbfb;
 }
-.button.button-border:hover:after,
-.button.button-border:focus:after {
+.button-border:hover:after,
+.button-border:focus:after {
   color: #3bc0c3;
 }
-.button.button-action:after,
-.button.button-close:after,
-.button.button-play:after {
+/*
+ * Button Types
+ */
+.button-action:after,
+.button-close:after,
+.button-play:after {
   position: absolute;
   top: 50%;
   font-family: 'turret';
   line-height: 1;
   vertical-align: middle;
 }
-.button.button-action {
+.button-action {
   position: relative;
   padding-right: 50px;
   text-align: left;
   clear: both;
 }
-.button.button-action:after {
+.button-action:after {
   right: 7px;
   margin-top: -8px;
   font-size: 16px;
   content: "\e608";
 }
-.button.button-close {
+.button-close {
   position: relative;
   padding-right: 35px;
   line-height: 1;
 }
-.button.button-close:after {
+.button-close:after {
   right: 14.2px;
   margin-top: -0.8;
   font-size: 1.6;
   content: "\e620";
 }
-.button.button-play {
+.button-play {
   padding: 0;
   position: absolute;
   top: 50%;
@@ -9577,20 +7081,20 @@ input[type="search"] {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-.button.button-play:after {
+.button-play:after {
   left: 50%;
   margin-top: -25px;
   margin-left: -25px;
   font-size: 50px;
   content: "\e63c";
 }
-.button.button-file {
+.button-file {
   position: relative;
   padding-right: 3.2px;
   text-align: left;
   clear: both;
 }
-.button.button-file:after {
+.button-file:after {
   position: absolute;
   top: 50%;
   right: 7px;
@@ -9601,18 +7105,17 @@ input[type="search"] {
   content: "\e620";
   vertical-align: middle;
 }
-.button.button-block {
+/*
+ * Button Modifiers
+ */
+.button-block {
   width: 100%;
   text-align: left;
   display: block;
 }
-.button.button-center {
+.button-center {
   margin: 0 auto;
   display: inline-block;
-}
-.button:disabled {
-  color: #ffffff;
-  background: #fafbfb;
 }
 /* Figure */
 figure {
@@ -9625,92 +7128,6 @@ figure figcaption {
   font-size: 10px;
   font-size: 1rem;
   color: #485364;
-}
-/* Images */
-img {
-  vertical-align: bottom;
-}
-img.thumbnail {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  padding: 5px;
-  border: 1px solid #fafbfb;
-}
-img.rounded {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
-img.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-img.responsive {
-  width: 100%;
-  height: auto;
-}
-.image {
-  position: relative;
-  font-size: 0;
-}
-.image .image-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: table;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-@media (max-width: 767px) {
-  .image .image-overlay.small-remove-overlay {
-    position: relative;
-    display: block;
-  }
-}
-@media (max-width:  1024px) {
-  .image .image-overlay.medium-remove-overlay {
-    position: relative;
-    display: block;
-  }
-}
-@media (min-width: 1025px) {
-  .image .image-overlay.large-remove-overlay {
-    position: relative;
-    display: block;
-  }
-}
-@media (min-width: 1280px) {
-  .image .image-overlay.extra-large-remove-overlay {
-    position: relative;
-    display: block;
-  }
-}
-.image .image-overlay .text {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-.image .image-overlay .image-overlay-content {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-.image .image-caption {
-  display: block;
-  padding: 15px 20px 0px 20px;
-  width: 40%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 72px;
-  font-size: 7.2rem;
-  line-height: 1;
-  color: #4bb3d6;
-  background: #fafbfb;
 }
 .list {
   margin: 40px 0px 30px;
@@ -9758,49 +7175,50 @@ img.responsive {
   line-height: 1.2;
   color: #ffffff;
 }
-/* Placeholder */
-.placeholder {
+/* Media */
+.media {
   display: block;
   position: relative;
-  background: transparent;
+  background: #fafbfb;
 }
-.placeholder svg,
-.placeholder img,
-.placeholder video {
+.media svg,
+.media img,
+.media video,
+.media iframe {
   display: block;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
-.placeholder-ratio-1-2 {
+.media-1-2 {
   padding-top: 200%;
 }
-.placeholder-ratio-9-16 {
+.media-9-16 {
   padding-top: 177.777%;
 }
-.placeholder-ratio-9-14 {
+.media-9-14 {
   padding-top: 163.333%;
 }
-.placeholder-ratio-2-3 {
+.media-2-3 {
   padding-top: 150%;
 }
-.placeholder-ratio-3-4 {
+.media-3-4 {
   padding-top: 133.333%;
 }
-.placeholder-ratio-1-1 {
+.media-1-1 {
   padding-top: 100%;
 }
-.placeholder-ratio-4-3 {
+.media-4-3 {
   padding-top: 75%;
 }
-.placeholder-ratio-3-2 {
+.media-3-2 {
   padding-top: 66.66%;
 }
-.placeholder-ratio-16-9 {
+.media-16-9 {
   padding-top: 56.25%;
 }
-.placeholder-ratio-2-1 {
+.media-2-1 {
   padding-top: 50%;
 }
 /* Tables */
@@ -9939,9 +7357,6 @@ table.table.table-block {
   }
 }
 /* Video */
-.video-player {
-  background: #3bc0c3;
-}
 .video-wrapper {
   z-index: 1900 !important;
   position: absolute;
