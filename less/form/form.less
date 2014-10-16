@@ -2,19 +2,6 @@
 
 form {
 
-	//Loading
-	&.loading {
-		position: relative;
-	
-		&:after {
-			z-index: 999;
-			content: '';
-			.cover();
-			background: @white url('/img/loading.gif') no-repeat center center;
-			background-size: 24px 24px;
-		}
-	}
-
 	//Reset height for `textarea`s
 	textarea {
 		height: auto;
@@ -55,26 +42,16 @@ form {
 	
 	//Fieldset
 	fieldset {
+		display: block;
 		margin: @fieldset-margin;
 		padding: @fieldset-padding;
 		border: @fieldset-border;
 
-		.all-select {
-			display: inline-block;
-
-			input[type="checkbox"] {
-				margin: 5px 0px;
-				margin-right: 2px;
-				display: inline-block;
-			}
-		}
-
 		legend {
 			display: inline-block;
-			.font-size(@label-font-size);
-
-			color: @primary;
-			.font-size(12px);
+			padding: @fieldset-label-padding;
+			.font-size(@fieldset-label-font-size);
+			color: @fieldset-label-color;
 		}
 
 		.checkbox {
@@ -87,53 +64,6 @@ form {
 			label {
 				display: inline-block;
 			}
-		}
-	}
-	
-	//Submit Button
-	button[type="submit"] {
-		
-		&.saving,
-		&.submitting {
-			color: @primary;
-			border: 2px solid @primary;
-			background: transparent;
-			
-			
-			&:after {
-				display: inline-block;
-				margin-left: 2px;
-				content: "\2026";
-			}
-			
-			&:hover,
-			&:focus {
-				background: transparent;
-			}
-		}
-	}
-	
-	//Indicators
-	input:not([type="range"]):not([type="file"]) {
-	
-		&.error {
-			color: @input-error-color;
-			border-color: @input-error-color;
-		}
-		
-		&.warning {
-			color: @input-warning-color;
-			border-color: @input-warning-color;
-		}
-		
-		&.success {
-			color: @input-success-color;
-			border-color: @input-success-color;
-		}
-		
-		&.info {
-			color: @input-info-color;
-			border-color: @input-info-color;
 		}
 	}
 }

@@ -5275,22 +5275,6 @@ abbr {
   }
 }
 /* Form */
-form.loading {
-  position: relative;
-}
-form.loading:after {
-  z-index: 999;
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ffffff url('/img/loading.gif') no-repeat center center;
-  background-size: 24px 24px;
-}
 form textarea {
   height: auto;
   line-height: 1.5;
@@ -5323,25 +5307,17 @@ form select {
   width: 100%;
 }
 form fieldset {
+  display: block;
   margin: 0;
   padding: 20px;
-  border: 3px solid #6b7681;
-}
-form fieldset .all-select {
-  display: inline-block;
-}
-form fieldset .all-select input[type="checkbox"] {
-  margin: 5px 0px;
-  margin-right: 2px;
-  display: inline-block;
+  border: 1px solid #4bb3d6;
 }
 form fieldset legend {
   display: inline-block;
-  font-size: 12px;
-  font-size: 1.2rem;
+  padding: 10px;
+  font-size: 15px;
+  font-size: 1.5rem;
   color: #4bb3d6;
-  font-size: 120pxpx;
-  font-size: 12pxrem;
 }
 form fieldset .checkbox input[type="checkbox"] {
   margin: 5px 0px;
@@ -5350,40 +5326,6 @@ form fieldset .checkbox input[type="checkbox"] {
 }
 form fieldset .checkbox label {
   display: inline-block;
-}
-form button[type="submit"].saving,
-form button[type="submit"].submitting {
-  color: #4bb3d6;
-  border: 2px solid #4bb3d6;
-  background: transparent;
-}
-form button[type="submit"].saving:after,
-form button[type="submit"].submitting:after {
-  display: inline-block;
-  margin-left: 2px;
-  content: "\2026";
-}
-form button[type="submit"].saving:hover,
-form button[type="submit"].submitting:hover,
-form button[type="submit"].saving:focus,
-form button[type="submit"].submitting:focus {
-  background: transparent;
-}
-form input:not([type="range"]):not([type="file"]).error {
-  color: #f05a5c;
-  border-color: #f05a5c;
-}
-form input:not([type="range"]):not([type="file"]).warning {
-  color: #f4db05;
-  border-color: #f4db05;
-}
-form input:not([type="range"]):not([type="file"]).success {
-  color: #5cb85c;
-  border-color: #5cb85c;
-}
-form input:not([type="range"]):not([type="file"]).info {
-  color: #3bc0c3;
-  border-color: #3bc0c3;
 }
 /* Controls (Radio + Checkbox) */
 .control {
@@ -5700,6 +5642,26 @@ textarea:focus.inverse {
   color: #ffffff;
   border: none;
   background: #6b7681;
+}
+input:not([type="range"]):not([type="file"]).error,
+textarea.error {
+  color: #f05a5c;
+  border-color: #f05a5c;
+}
+input:not([type="range"]):not([type="file"]).warning,
+textarea.warning {
+  color: #f4db05;
+  border-color: #f4db05;
+}
+input:not([type="range"]):not([type="file"]).success,
+textarea.success {
+  color: #5cb85c;
+  border-color: #5cb85c;
+}
+input:not([type="range"]):not([type="file"]).info,
+textarea.info {
+  color: #3bc0c3;
+  border-color: #3bc0c3;
 }
 input[type="search"] {
   -webkit-border-radius: 20px;

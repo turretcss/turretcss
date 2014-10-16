@@ -1,14 +1,23 @@
 <section id="form" class="section">
 
 <h2 class="section-title">Form<code>forms/form.less</code></h2>
+<p>The styles within <code>form.less</code> include the fieldset styles as well as normalising form element behaviours, making controls display <code>inline-block</code>, <code>height: auto</code> for textareas, and making selects<code>display: block</code>.</p>
 
-<h3 class="section-sub-title">Labels</h3>
 <h3 class="section-sub-title">Fieldset</h3>
-<h3 class="section-sub-title">Errors</h3>
 
+<form role="form">
+	<fieldset>
+		<legend>Login</legend>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Enter Email">
+		<label for="password">Password</label>
+		<input type="password" id="password" placeholder="Enter Password">
+		<button type="submit" class="button gutter-top">Submit</button>
+	</fieldset>
+</form>
 
 <h3 class="section-sub-title">Simple Example</h3>
-<form role="form" class="bottom-gutter">
+<form role="form">
 	<label for="email">Email</label>
 	<input type="email" id="email" placeholder="Enter Email">
 	<label for="password">Password</label>
@@ -36,7 +45,7 @@
 
 
 <h3 class="section-sub-title">Multi-Column Example</h3>
-<form role="form" class="bottom-gutter">
+<form role="form">
 	<div class="row">
 		<div class="column-1-2">
 			<label for="first-name">First Name</label>
