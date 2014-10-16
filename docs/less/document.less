@@ -43,7 +43,7 @@ pre {
 	margin-top: 20px !important;
 	padding: 10px !important;
 	background: @light !important;
-	border: 1px solid #E1E3E8;
+	border: 1px solid @light-grey;
 	
 	code {
 		padding: 0;
@@ -76,7 +76,7 @@ svg {
 //Swatch
 .swatch {
 	padding: 5px;
-	border: 1px solid #eee;
+	border: 1px solid @light-grey;
 	height: 120px;
 	margin-bottom: 5px;
 }
@@ -158,7 +158,7 @@ svg {
 		margin-bottom: 35px;
 		line-height: 2;
 		color: @dark;
-		border-bottom: 1px solid #E1E3E8;
+		border-bottom: 1px solid @light-grey;
 		
 		code {
 			margin-left: 15px;
@@ -179,12 +179,10 @@ svg {
 
 //Tables
 table {
-	color: #888888;
 
 	&.table-block {
 
 		th {
-			color: #656A78 !important;
 			background: @light !important;
 		}
 
@@ -195,6 +193,13 @@ table {
 
 	th {
 		
+	}
+	
+	tbody {
+		
+		th {
+			padding: 10px;
+		}
 	}
 
 	tr {
@@ -210,7 +215,7 @@ table {
 			&.is-hidden,
 			&.is-float,
 			&.is-unsupported {
-				color: #B5B8C1 !important;
+				color: @grey !important;
 				background: @light;
 			}
 

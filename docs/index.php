@@ -12,12 +12,30 @@
 		<p class="lead">A library of Documentation, Elements, Components, Icons, and a Grid for rapid responsive website development.</p>
 	</section>
 	
+	<section id="templates" class="section">
+		<h2 class="section-title">Templates</h2>
+		<p>For an example of HTML markup using Turret styles here are a few templates:</p>
+		<div class="row">
+			<div class="column-1-4">
+				<figure>
+					<div class="media media-1">
+						<a href="templates/page.html" target="_blank">
+							<img src="http://placehold.it/200" class="responsive">
+						</a>
+					</div>
+					<figcaption><a href="templates/page.html" target="_blank">Page</a></figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
 	
 	<?php
+	
+		//General
 		include('sections/general/general.php');
 		include('sections/general/images.php');
 		include('sections/general/colors.php');
-		include('sections/base/media-queries.php');
+		include('sections/general/media-queries.php');
 		
 		//Base
 		include('sections/base/fonts.php');
@@ -51,7 +69,6 @@
 		include('sections/utilities/mixins.php');
 		
 		//Support
-		include('sections/support/html.php');
 		include('sections/support/css.php');
 		include('sections/support/browser-support.php');
 		include('sections/support/video-support.php');

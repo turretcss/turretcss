@@ -16,6 +16,18 @@
 	</fieldset>
 </form>
 
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<form role="form">
+	<fieldset>
+		<legend>Login</legend>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Enter Email">
+		<label for="password">Password</label>
+		<input type="password" id="password" placeholder="Enter Password">
+		<button type="submit" class="button gutter-top">Submit</button>
+	</fieldset>
+</form>'); ?></code></pre>
+
+
 <h3 class="section-sub-title">Simple Example</h3>
 <form role="form">
 	<label for="email">Email</label>

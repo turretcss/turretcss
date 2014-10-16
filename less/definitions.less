@@ -44,7 +44,7 @@
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #FAFBFB;
+@light-grey: #E1E3E8;
 @grey: #6B7681;
 @dark-grey: #485364;
 
@@ -62,7 +62,7 @@
 @youtube: #BB0000;
 
 //Palette
-@light: @light-grey;
+@light: #FAFBFB;
 @dark: @dark-grey;
 @primary: #4BB3D6;
 @secondary: #3BC0C3;
@@ -657,6 +657,7 @@
  * Figure
  */
 
+@figure-margin: 0;
 @figure-padding: @gutter;
 @figure-border: 1px solid @primary;
 
@@ -754,7 +755,6 @@
  * Tables
  */
 
-@tables-cell-padding: 10px;
 @tables-background: none;
 @tables-border-radius: @border-radius;
 
@@ -763,8 +763,10 @@
 @tables-border-width: 1px;
 
 //Table Caption
-@tables-caption-margin: 20px 0px 10px 0px;
-@tables-caption-font-size: 2.4;
+@tables-caption-margin: 5px 10px;
+@tables-caption-font-size: 1.4;
+@tables-caption-font-weight: @bold-font-weight;
+@tables-caption-color: @body-color;
 @tables-caption-text-align: left;
 
 //Table Head
@@ -778,8 +780,11 @@
 @tables-head-background: none;
 
 //Table Body
-@tables-body-font-size: 1.2;
-@tables-body-line-height: 1.2;
+@tables-cell-padding: 10px;
+@tables-cell-font-size: 1.2;
+@tables-cell-color: @body-color;
+@tables-cell-line-height: 1.2;
+@tables-cell-vertical-align: middle;
 
 //Table Reponsive
 @table-responsive-padding: 0;

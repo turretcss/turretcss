@@ -5,8 +5,8 @@
 			'title' => 'Introduction',
 			'link' => 'introduction',
 			'children' => array(
-				'Usage' => 'usage',
-				'Getting Started' => 'getting-started',
+				//'Usage' => 'usage',
+				//'Getting Started' => 'getting-started',
 				'Templates' => 'templates',
 			),
 		),
@@ -71,7 +71,6 @@
 			'title' => 'Support',
 			'link' => 'support',
 			'children' => array(
-				'HTML' => 'html',
 				'CSS' => 'css',
 				'Browser Support' => 'browser-support',
 				'Video Support' => 'video-support',
@@ -81,7 +80,8 @@
 			'title' => 'Accessibility',
 			'link' => 'accessibility',
 		),
-		array(
+		/*
+array(
 			'title' => 'Notes',
 			'link' => 'notes',
 			'children' => array(
@@ -90,6 +90,7 @@
 				'Licence' => 'licence',
 			),
 		),
+*/
 	);
 
 ?>
