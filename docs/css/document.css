@@ -6130,9 +6130,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .button-group > .button.active {
   z-index: 2;
 }
-.button-group > .button:focus {
-  outline: 0;
-}
 .button-group .button + .button,
 .button-group .button + .button-group,
 .button-group .button-group + .button,
@@ -6145,11 +6142,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .button-group > .button-group:not(:first-child):not(:last-child) > .button {
   border-radius: 0;
 }
-.button-group > .button:not(:first-child):not(:last-child):not(.dropdown-toggle) {
-  border-radius: 0;
-}
-.button-group > .button-group:first-child > .button:last-child,
-.button-group > .button-group:first-child > .dropdown-toggle {
+.button-group > .button-group:first-child > .button:last-child {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -6164,14 +6157,9 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-.button-group > .button:last-child:not(:first-child),
-.button-group > .dropdown-toggle:not(:first-child) {
+.button-group > .button:last-child:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-}
-.button-group .dropdown-toggle:active,
-.button-group.open .dropdown-toggle {
-  outline: 0;
 }
 .button-group-block {
   display: table;

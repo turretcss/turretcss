@@ -40,6 +40,7 @@
 		
 		//Elements
 		include('sections/elements/button.php');
+		include('sections/elements/button-group.php');
 		
 		//Utilities
 		include('sections/utilities/utilities.php');

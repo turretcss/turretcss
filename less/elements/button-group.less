@@ -17,11 +17,6 @@
 		&.active {
 			z-index: 2;
 		}
-		
-		&:focus {
-			//Remove focus outline when dropdown JS adds it after closing the menu
-			outline: 0;
-		}
 	}
 	
 	//Prevent double borders when buttons are next to each other
@@ -41,13 +36,9 @@
 		border-radius: 0;
 	}
 	
-	> .button:not(:first-child):not(:last-child):not(.dropdown-toggle) {
-		border-radius: 0;
-	}
+	> .button-group:first-child {
 	
-	 > .button-group:first-child {
-		> .button:last-child,
-		> .dropdown-toggle {
+		> .button:last-child {
 			.border-right-radius(0);
 		}
 	}
@@ -66,16 +57,9 @@
 	}
 	
 	//Need .dropdown-toggle since :last-child doesn't apply given a .dropdown-menu immediately after it
-	> .button:last-child:not(:first-child),
-	> .dropdown-toggle:not(:first-child) {
+	> .button:last-child:not(:first-child) {
 		.border-left-radius(0);
 	}
-}
-
-// On active and open, don't show outline
-.button-group .dropdown-toggle:active,
-.button-group.open .dropdown-toggle {
-	outline: 0;
 }
 
 //Button Group Block

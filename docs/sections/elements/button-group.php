@@ -1,5 +1,5 @@
-<section id="button" class="section">
-	<h2 class="section-title">Button <code>button.less</code></h2>
+<section id="button-group" class="section">
+	<h2 class="section-title">Button Group <code>button-group.less</code></h2>
 	<h3 class="section-sub-title">Button Styles</h3>
 	<button class="button">Button</button>
 	<button class="button button-primary">Primary</button>
