@@ -5513,10 +5513,6 @@ form fieldset legend {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.input-group-search .button:not(.button-inverse):not(.button-primary) {
-  color: #6b7681;
-  background: #ffffff;
-}
 /* Input */
 input:not([type="range"]):not([type="file"]),
 textarea {
