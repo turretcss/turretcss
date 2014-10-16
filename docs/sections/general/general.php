@@ -1,6 +1,7 @@
 <section id="general" class="section">
 	
 	<h2 class="section-title">General</h2>
+	<p>Getting started with Turret with guides to class names, colours, typography, a basic template, and media queries.</p>
 	<h3 class="section-sub-title">Structure</h3>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="[element] [behaviour] [style]">...</div>'); ?></code></pre>
 	

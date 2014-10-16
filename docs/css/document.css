@@ -6622,6 +6622,9 @@ body {
   width: calc(100% - 270px);
   background: #ffffff;
 }
+#title h1 {
+  margin: 0;
+}
 code {
   padding: 3px 4px;
   font-size: 12px !important;
@@ -6723,9 +6726,6 @@ svg rect {
 .section {
   margin: 80px auto;
   max-width: 900px;
-}
-.section:first-child {
-  margin-top: 40px;
 }
 .section .section-title {
   margin-bottom: 35px;

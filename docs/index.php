@@ -7,6 +7,10 @@
 
 <main id="content">
 
+	<section id="title" class="section">
+		<h1>Turret Documentation</h1>
+	</section>
+	
 	<section id="introduction" class="section">
 		<h2 class="section-title">Introduction</h2>
 		<p class="lead">A library of Documentation, Elements, Components, Icons, and a Grid for rapid responsive website development.</p>
