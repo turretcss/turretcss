@@ -6092,6 +6092,7 @@ form .error-message {
   font-size: 1.2rem;
   color: #485364;
   line-height: 1;
+  pointer-events: none;
 }
 .control input:checked ~ .control-indicator {
   color: #4bb3d6;
