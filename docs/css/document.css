@@ -869,6 +869,12 @@ img.responsive {
 .background-light {
   background: #fafbfb !important;
 }
+.background-white {
+  background: #ffffff !important;
+}
+.background-black {
+  background: #000000 !important;
+}
 /*
  * Borders
  */
@@ -7104,7 +7110,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
  */
 .button-block {
   width: 100%;
-  text-align: center;
+  text-align: left;
   display: block;
 }
 .button-center {
