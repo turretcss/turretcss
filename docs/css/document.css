@@ -1676,7 +1676,7 @@ hr {
 ul,
 ol,
 .list {
-  margin: 40px 0px 30px;
+  margin: 20px 0px;
   padding: 0;
 }
 ul li,
@@ -1684,8 +1684,9 @@ ol li,
 .list li {
   margin: 10px 0px 10px 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #485364;
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #6b7681;
 }
 .list-icons {
   list-style: none;
@@ -1699,7 +1700,7 @@ ol li,
   left: -20px;
   font-family: 'turret';
   font-size: 16px;
-  content: "\e64b";
+  content: "\e61d";
   color: #485364;
 }
 .list-unstyled {
