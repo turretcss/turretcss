@@ -6222,10 +6222,14 @@ form .error-message {
   border-radius: 20px;
   overflow: hidden;
 }
-.input-group-search input[type="search"] {
+.input-group-search input:not([type="range"]):not([type="file"])[type="search"] {
   padding-left: 20px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  -webkit-border-radius: 20px 0 0 20px;
+  -moz-border-radius: 20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .input-group-search .button {
   padding-right: 20px;

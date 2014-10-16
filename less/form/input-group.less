@@ -100,9 +100,9 @@
 	.border-radius(@input-search-border-radius);
 	overflow: hidden;
 	
-	input[type="search"] {
+	input:not([type="range"]):not([type="file"])[type="search"] {
 		padding-left: @input-search-border-radius;
-		.border-right-radius(0);
+		.border-radiuses(@input-search-border-radius, 0, @input-search-border-radius, 0);
 	}
 	
 	.button {
