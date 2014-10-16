@@ -32,8 +32,9 @@
 		float: left;
 	}
 	
-	> .button-group:not(:first-child):not(:last-child) > .button {
-		border-radius: 0;
+	.button:not(:first-child):not(:last-child),
+	.button-group:not(:first-child):not(:last-child) > .button {
+		.border-radius(0);
 	}
 	
 	> .button-group:first-child {
