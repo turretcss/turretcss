@@ -1,5 +1,8 @@
-/* Typography */
+/* 
+ * Typography 
+ */
 
+//Headings
 h1, h2, h3, h4, h5, h6 {
 	margin: @headings-margin;
 	padding: 0;
@@ -38,6 +41,7 @@ h6 {
 	.font-size(@h6-font-size);
 }
 
+//Paragraph
 p {
 	font-family: @copy-font-family;
 	.font-size(@paragraph-font-size);
@@ -49,6 +53,15 @@ p {
 	}
 }
 
+//Lead Paragraph
+.lead {
+	margin-top: 0;
+	font-family: @lead-font-family;
+	.font-size(@lead-font-size);
+	color: @lead-color;
+}
+
+//Links
 a {
 	text-decoration: none;
 	color: @link-color;
@@ -60,6 +73,7 @@ a {
 	}
 }
 
+//Horizontal Rule
 hr {
 	clear: both;
 	margin: @hr-margin;
@@ -68,18 +82,11 @@ hr {
 	background: @hr-background;
 }
 
+//Lists
 ul,
 ol {
 	margin: 0;
 	padding: 0;
-}
-
-dl {
-
-	dt,
-	dd {
-
-	}
 }
 
 ul li,
@@ -89,24 +96,59 @@ ol, li {
 	line-height: @line-height;
 }
 
-.lead {
-	margin-top: 0;
-	font-family: @lead-font-family;
-	.font-size(@lead-font-size);
-	color: @lead-color;
-}
-
+//Blockquote
 blockquote {
 
 }
 
+//Definition List
+dl {
+
+	dt,
+	dd {
+
+	}
+}
+
+//Strong
+strong {
+	font-family: @strong-font-family;
+	font-weight: @strong-font-weight;
+}
+
+//Abbreviation
+abbr {
+	cursor: help;
+}
+
+//Pre Block
 pre {
 
 }
 
-strong {
-	font-family: @strong-font-family;
-	font-weight: @strong-font-weight;
+//Highlight
+mark {
+	
+}
+
+//Deleted
+del {
+	
+}
+
+//Insert
+ins {
+	
+}
+
+//Underline
+u {
+	
+}
+
+//Emphasis
+em {
+	
 }
 
 @media @mobile {
