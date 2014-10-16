@@ -1686,6 +1686,27 @@ li {
   color: #6b7681;
   line-height: 1.5;
 }
+.list {
+  margin: 40px 0px 30px;
+  padding: 0;
+  list-style: none;
+}
+.list li {
+  position: relative;
+  margin: 10px 0px 10px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #485364;
+}
+.list li:before {
+  position: absolute;
+  top: -5px;
+  left: -20px;
+  font-family: 'turret';
+  font-size: 16px;
+  content: "\e64b";
+  color: #485364;
+}
 strong {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -6397,35 +6418,14 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 }
 /* Figure */
 figure {
-  padding: 0;
-  border: none;
+  padding: 10px;
+  border: 1px solid #4bb3d6;
 }
 figure figcaption {
   text-align: center;
   margin: 10px 0px;
-  font-size: 10px;
-  font-size: 1rem;
-  color: #485364;
-}
-.list {
-  margin: 40px 0px 30px;
-  padding: 0;
-  list-style: none;
-}
-.list li {
-  position: relative;
-  margin: 10px 0px 10px 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #485364;
-}
-.list li:before {
-  position: absolute;
-  top: -5px;
-  left: -20px;
-  font-family: 'turret';
-  font-size: 16px;
-  content: "\e64b";
+  font-size: 12px;
+  font-size: 1.2rem;
   color: #485364;
 }
 /* Panel */
@@ -6484,7 +6484,7 @@ figure figcaption {
 .media-3-4 {
   padding-top: 133.333%;
 }
-.media-1-1 {
+.media-1 {
   padding-top: 100%;
 }
 .media-4-3 {
