@@ -5,17 +5,13 @@
 
 //Body
 @body-color: @dark;
+@body-font-family: @regular-font-family;
 
 //Mobile Breakpoint
 @mobile: @medium;
 
 //Border Radius
 @border-radius: 6px;
-
-//Horizontal Rule
-@hr-margin: 65px auto;
-@hr-height: 1px;
-@hr-background: fade(@primary, 35%);
 
 //Images
 @image-rounded-border-radius: 8px;
@@ -174,11 +170,6 @@
 @font-family-serif: Georgia, "Times New Roman", Times, serif;
 @font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 
-//Font Families
-@headings-font-family: @bold-font-family;
-@lead-font-family: @regular-font-family;
-@copy-font-family: @regular-font-family;
-
 //Generic Font Families
 @thin-font-family: @font-family-sans-serif;
 @regular-font-family: @font-family-sans-serif;
@@ -198,11 +189,43 @@
 @semibold-font-weight: 500;
 @bold-font-weight: 600;
 
+//Generic Font Sizes
+@font-size-large: 1.4;
+@font-size-medium: 1.2;
+@font-size-small: 1;
+
+
+/*
+ * General
+ */
+
+//Line height
+@line-height: 1.5;
+
+//Links
+@link-color: @primary;
+@link-hover-color: @dark;
+
+//Horizontal Rule
+@hr-margin: 35px auto;
+@hr-height: 1px;
+@hr-background: fade(@primary, 35%);
+
+
+/*
+ * Headings
+ */
+
 //Headings
 @headings: h1, h2, h3, h4, h5, h6;
 @headings-margin: 0px 0px 20px 0px;
+@headings-font-family: @bold-font-family;
+@headings-color: @dark;
+@headings-line-height: 1.1;
+
+//Headings Small
 @headings-small-size: 0.6em;
-@headings-small-color: @light;
+@headings-small-color: @grey;
 
 //Heading Font Sizes
 @h1-font-size: 3.6;
@@ -212,60 +235,72 @@
 @h5-font-size: 1.4;
 @h6-font-size: 1.2;
 
-//Mobile Heading Font Sizes
-@h1-mobile-font-size: 3.6;
-@h2-mobile-font-size: 2.8;
-@h3-mobile-font-size: 1.6;
-@h4-mobile-font-size: 1.4;
-@h5-mobile-font-size: 1.3;
-@h6-mobile-font-size: 1.2;
 
-//Font Sizes
-@lead-font-size: 2.3;
-@lead-mobile-font-size: 1.8;
+/*
+ * Paragraph
+ */
+
+//Paragraph
+@paragraph-font-family: @regular-font-family;
 @paragraph-font-size: 1.5;
 @paragraph-mobile-font-size: 1.7;
-
-//Generic Font Sizes
-@font-size-large: 1.4;
-@font-size-medium: 1.2;
-@font-size-small: 1;
-
-//Colors
-@headings-color: @dark;
-@copy-color: @grey;
 @paragraph-color: @grey;
+
+//Lead Paragraph
+@lead-font-family: @regular-font-family;
+@lead-font-size: 2.3;
+@lead-mobile-font-size: 1.8;
 @lead-color: @grey;
-
-//Links
-@link-color: @primary;
-@link-hover-color: @dark;
-
-//Line height
-@line-height: 1.5;
-@headings-line-height: 1.1;
-@copy-line-height: @line-height;
 
 //Strong
 @strong-font-family: @bold-font-family;
-@strong-font-weight: normal;
+@strong-font-weight: @bold-font-weight;
+
+//Emphasis
+@em-font-style: italic;
+
+
+/*
+ * Blockquote
+ */
 
 //Blockquote
 @blockquote-margin: 35px 0px;
+@blockquote-padding: 0px 30px;
 
 //Blockquote Quote
 @blockquote-quote-margin: 0;
-@blockquote-quote-font-family: @bold-font-family;
+@blockquote-quote-font-family: @regular-font-family;
 @blockquote-quote-font-size: 2.2;
+@blockquote-quote-font-style: normal;
 @blockquote-quote-line-height: 1.3;
 @blockquote-quote-color: @primary;
 
 //Blockquote Cite
-@blockquote-cite-margin: 20px 0px;
+@blockquote-cite-margin: 10px 0px;
 @blockquote-cite-font-family: @regular-font-family;
 @blockquote-cite-font-size: 1.4;
+@blockquote-cite-font-style: normal;
 @blockquote-cite-color: @blockquote-quote-color;
-@blockquote-cite-text-transform: uppercase;
+@blockquote-cite-text-align: right;
+
+
+/*
+ * Pullout
+ */
+
+//Pullout
+@pullout-margin: @blockquote-margin;
+@pullout-padding: @blockquote-padding;
+@pullout-font-family: @blockquote-padding;
+@pullout-font-size: @blockquote-quote-font-size;
+@pullout-border: solid @primary;
+@pullout-border-width:  0px 0px 0px 5px;
+
+
+/*
+ * List
+ */
 
 //List
 @list-margin: 20px 0px;
@@ -275,14 +310,41 @@
 @list-item-margin: 10px 0px 10px 20px;
 @list-item-font-family: @regular-font-family;
 @list-item-font-size: @paragraph-font-size;
-@list-item-color: @copy-color;
+@list-item-color: @paragraph-color;
+
+//Child List
+@child-list-margin: 10px 0px;
+@child-list-padding: 0;
+@child-list-item-margin: @list-item-margin;
+
+//Unordered List
+@unordered-list-icon: disc;
+@unordered-child-list-icon: disc;
 
 //List Item Icon
-@list-item-icon-top: -5px;
 @list-item-icon-left: -20px;
-@list-item-icon: @icon-circle;
-@list-item-icon-size: 16px;
+@list-item-icon: @icon-triangle-right;
+@list-item-icon-size: 12px;
 @list-item-icon-color: @dark;
+
+
+/*
+ * Defintion List
+ */
+
+@defintion-list-margin: 0;
+@defintion-list-padding: 0;
+@defintion-list-font-family: @regular-font-family;
+@defintion-list-font-size: 1.2;
+
+//Definition Term
+@defintion-term-margin: 10px 0px;
+@defintion-term-font-weight: @bold-font-weight;
+@defintion-term-color: @paragraph-color;
+
+//Defintion Description
+@defintion-description-margin: 0px 0px 20px 0px;
+@defintion-description-color: @paragraph-color;
 
 
 /*--------------------------------------------------------------------------*/

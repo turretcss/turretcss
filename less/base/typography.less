@@ -43,7 +43,7 @@ h6 {
 
 //Paragraph
 p {
-	font-family: @copy-font-family;
+	font-family: @paragraph-font-family;
 	.font-size(@paragraph-font-size);
 	color: @paragraph-color;
 	line-height: @line-height;
@@ -73,6 +73,43 @@ a {
 	}
 }
 
+//Blockquote
+blockquote {
+	margin: @blockquote-margin;
+	padding: @blockquote-padding;
+
+	//Blockquote Quote
+	p {
+		margin: @blockquote-quote-margin;
+		font-family: @blockquote-quote-font-family;
+		.font-size(@blockquote-quote-font-size);
+		font-style: @blockquote-quote-font-style;
+		line-height: @blockquote-quote-line-height;
+		color: @blockquote-quote-color;
+	}
+	
+	//Blockquote Cite
+	cite {
+		display: block;
+		margin: @blockquote-cite-margin;
+		font-family: @blockquote-cite-font-family;
+		.font-size(@blockquote-cite-font-size);
+		font-style: @blockquote-cite-font-style;
+		color: @blockquote-cite-color;
+		text-align: @blockquote-cite-text-align;
+	}
+}
+
+//Pullout
+.pullout {
+	margin: @pullout-margin;
+	padding: @pullout-padding;
+	font-family: @pullout-font-family;
+	.font-size(@pullout-font-size);
+	border: @pullout-border;
+	border-width: @pullout-border-width;
+}
+
 //Horizontal Rule
 hr {
 	clear: both;
@@ -82,78 +119,15 @@ hr {
 	background: @hr-background;
 }
 
-//Lists
-
-ul,
-ol,
-.list {
-	margin: @list-margin;
-	padding: @list-padding;
-
-	li {
-		margin: @list-item-margin;
-		font-family: @list-item-font-family;
-		.font-size(@list-item-font-size);
-		color: @list-item-color;
-	}
-}
-
-.list-icons {
-	list-style: none;
-
-	li {
-		position: relative;
-
-		&:before {
-			position: absolute;
-			top: @list-item-icon-top;
-			left: @list-item-icon-left;
-			font-family: @icon-font-family;
-			font-size: @list-item-icon-size;
-			content: @list-item-icon;
-			color: @list-item-icon-color;
-		}
-	}
-}
-
-.list-unstyled {
-	list-style: none;
-	
-	li {
-		margin-left: 0;
-	}
-}
-
-.list-inline {
-	
-	li {
-		display: inline-block;
-	}
-}
-
-//Blockquote
-blockquote {
-
-}
-
-//Pullout
-.pullout {
-	
-}
-
-//Definition List
-dl {
-
-	dt,
-	dd {
-
-	}
-}
-
 //Strong
 strong {
 	font-family: @strong-font-family;
 	font-weight: @strong-font-weight;
+}
+
+//Emphasis
+em {
+	font-style: @em-font-style;
 }
 
 //Abbreviation
@@ -186,41 +160,108 @@ u {
 	
 }
 
-//Emphasis
-em {
-	
+//Lists
+ul,
+ol,
+.list {
+	margin: @list-margin;
+	padding: @list-padding;
+
+	li {
+		margin: @list-item-margin;
+		font-family: @list-item-font-family;
+		.font-size(@list-item-font-size);
+		color: @list-item-color;
+		
+		ul {
+			margin: @child-list-margin;
+			padding: @child-list-padding;
+			
+			li {
+				margin: @child-list-item-margin;
+			}
+		}
+	}
 }
 
-@media @mobile {
-	h1 {
-		.font-size(@h1-mobile-font-size);
-	}
+//Unordered List
+ul {
+	list-style: @unordered-list-icon;
 	
-	h2 {
-		.font-size(@h2-mobile-font-size);
-	}
-	
-	h3 {
-		.font-size(@h3-mobile-font-size);
-	}
-	
-	h4 {
-		.font-size(@h4-mobile-font-size);
-	}
-	
-	h5 {
-		.font-size(@h5-mobile-font-size);
-	}
-	
-	h6 {
-		.font-size(@h6-mobile-font-size);
-	}
-	
-	p {
-		.font-size(@paragraph-mobile-font-size);
+	li {
 		
-		&.lead {
-			.font-size(@lead-mobile-font-size);
+		ul {
+			list-style: @unordered-child-list-icon;
 		}
+	}
+}
+
+//Ordered List
+ol {
+	
+	li {
+		
+	}
+}
+
+//List Icons
+.list-icon {
+	list-style: none;
+
+	li {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			top: 0;
+			left: @list-item-icon-left;
+			font-family: @icon-font-family;
+			font-size: @list-item-icon-size;
+			content: @list-item-icon;
+			color: @list-item-icon-color;
+		}
+			
+		ul {
+			list-style: none;
+		}
+	}
+}
+
+
+//List Unstyled
+.list-unstyled {
+	list-style: none;
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+//List Inline
+.list-inline {
+	
+	li {
+		display: inline-block;
+	}
+}
+
+//Definition List
+dl {
+
+	dt,
+	dd {
+		font-family: @defintion-list-font-family;
+		.font-size(@defintion-list-font-size);
+	}
+	
+	dt {
+		margin: @defintion-term-margin;
+		font-weight: @defintion-term-font-weight;
+		color: @defintion-term-color;
+	}
+	
+	dd {
+		margin: @defintion-description-margin;
+		color: @defintion-description-color;
 	}
 }
