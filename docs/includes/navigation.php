@@ -23,8 +23,8 @@
 			'title' => 'Base',
 			'link' => 'base',
 			'children' => array(
-				'Fonts' => 'fonts',
-				'Icons' => 'icons',
+				//'Fonts' => 'fonts',
+				//'Icons' => 'icons',
 				'Typography' => 'typography',
 			),
 		),

@@ -42,8 +42,6 @@
 		include('sections/general/media-queries.php');
 		
 		//Base
-		include('sections/base/fonts.php');
-		include('sections/base/icons.php');
 		include('sections/base/typography.php');
 		
 		//Grid

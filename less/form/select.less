@@ -37,17 +37,29 @@
 	}
 	
 	//Dropdown Arrow
+	&:before,
 	&:after {
+		display: block;
 		position: absolute;
 		top: 50%;
-		right: 15px;
-		line-height: 1;
-		margin-top: -(@select-icon-size / 2);
-		content: @select-icon;
-		font-family: @icon-font-family;
-		font-size: @select-icon-size;
-		color: @select-icon-color;
+		right: 30px;
+		width: 3px;
+		height: 12px;
+		content: '';
 		pointer-events: none;
+		background: @select-arrow-background;
+	}
+	
+	&:before {
+		//-ms-transform: rotate(7deg);
+		//-webkit-transform: rotate(7deg);
+		transform: rotate(-45deg) translateY(-50%);
+	}
+	
+	&:after {
+		//-ms-transform: rotate(7deg);
+		//-webkit-transform: rotate(7deg);
+		transform: rotate(45deg) translateY(-50%);
 	}
 	
 	//Large Select
@@ -83,7 +95,8 @@
 		select {
 			padding: 0.5em;
 		}
-	
+		
+		&:before,
 		&:after {
 			display: none;
 		}
@@ -98,29 +111,5 @@
 		text-indent: 0.01px;
 		text-overflow: '';
 		padding-right: 1rem;
-	}
-	
-	//Firefox hack to hide the arrow (FF => 30)
-	.select:before {
-		z-index: 2;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		content: '';
-		pointer-events: none;
-		width: 1em;
-		border: @select-border;
-		border-width: 1px 1px 1px 0px;
-		background: @select-background;
-		.border-radiuses (0, @select-border-radius, 0, @select-border-radius);
-	}
-	
-	.select.large:before {
-		width: 1.5em;
-	}
-	
-	.select.inverse:before {
-		background: @select-inverse-background;
 	}
 }
