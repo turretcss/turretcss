@@ -15,23 +15,28 @@
 </div>'); ?></code></pre>
 
 <h3 class="section-sub-title">Media Wrapper Types</h3>
-<p>The media frame wraps <code><?php echo htmlentities('<img>'); ?></code>, <code><?php echo htmlentities('<svg>'); ?></code>, <code><?php echo htmlentities('<video>'); ?></code>, and <code><?php echo htmlentities('<iframe>'); ?></code>.</p>
+<p>The media frame wraps <code><?php echo htmlentities('<img>'); ?></code>, <code><?php echo htmlentities('<svg>'); ?></code>, <code><?php echo htmlentities('<video>'); ?></code>, and <code><?php echo htmlentities('<iframe>'); ?></code> by default, to wrap other content in a media container use the <code>media-inner</code> class. The <code>media-transparent</code> class removes the default background color on the media element.</p>
 <div class="row">
-	<div class="column-1-3">
+	<div class="column-1-4">
 		<div class="media media-1">
 			<img src="http://placehold.it/200" class="responsive">
 		</div>
 	</div>
-	<div class="column-1-3">
+	<div class="column-1-4">
 		<div class="media media-1">
 			<iframe class="vine-embed" src="https://vine.co/v/OqMLQBOZBd7/embed/simple" width="320" height="320" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>
 		</div>
 	</div>
-	<div class="column-1-3">
+	<div class="column-1-4">
 		<div class="media media-1">
 			<svg width="100%" height="100%">
 				<rect width="100%" height="100%">
 			</svg>
+		</div>
+	</div>
+	<div class="column-1-4">
+		<div class="media media-1">
+			<div class="media-inner"></div>
 		</div>
 	</div>
 </div>
@@ -44,6 +49,9 @@
 </div>
 <div class="media media-1">
 	<svg>...</svg>
+</div>
+<div class="media media-1">
+	<div class="media-inner">...</div>
 </div>'); ?></code></pre>
 
 <h3 class="section-sub-title">Media Ratios</h3>
