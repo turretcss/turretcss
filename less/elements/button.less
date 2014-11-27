@@ -1,5 +1,6 @@
 /* Buttons */
 
+button,
 .button {
 	display: inline-block;
 	padding: @buttons-padding-vertical @buttons-padding-horizontal;
@@ -156,95 +157,6 @@
 		&:after {
 			color: @buttons-border-hover-color;
 		}
-	}
-}
-
-	
-/*
- * Button Types
- */
- 
-.button-action,
-.button-close,
-.button-play {
-
-	&:after {
-		position: absolute;
-		top: 50%;
-		font-family: @icon-font-family;
-		vertical-align: middle;
-	}
-}
-
-//Button Action
-.button-action {
-	position: relative;
-	padding-right: @buttons-action-padding-right;
-	text-align: left;
-	clear: both;
-
-	&:after {
-		right: @buttons-padding-horizontal - (@buttons-action-icon-size / 2);
-		margin-top: -(@buttons-action-icon-size / 2);
-		font-size: @buttons-action-icon-size;
-		content: @buttons-action-icon;
-	}
-}
-
-//Close Button
-.button-close {
-	position: relative;
-	padding-right: @buttons-close-size;
-	
-	&:after {
-		right: @buttons-padding-horizontal - (@buttons-close-icon-size / 2);
-		margin-top: -(@buttons-close-icon-size / 2);
-		font-size: @buttons-close-icon-size;
-		content: @buttons-close-icon;
-	}
-}
-
-//Play Button
-.button-play {
-	padding: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -(@buttons-play-size / 2);
-	margin-left: -(@buttons-play-size / 2);
-	.square(@buttons-play-size);
-	.border-radius(50%);
-	
-	&:after {
-		left: 50%;
-		margin-top: -(@buttons-play-icon-size / 2);
-		margin-left: -(@buttons-play-icon-size / 2);
-		font-size: @buttons-play-icon-size;
-		content: @buttons-play-icon;
-	}
-}
-
-//File Button
-.button-file {
-	@buttons-file-icon-pixel-size: (@buttons-file-icon-size * 10);
-	@padding-right: (@buttons-file-icon-size * 2);
-	
-	position: relative;
-	padding-right: ~"@{padding-right}px";
-	text-align: left;
-	clear: both;
-
-	&:after {	
-		@margin-top: -(@buttons-file-icon-pixel-size) / 2;
-		
-		position: absolute;
-		top: 50%;
-		right: @buttons-padding-horizontal - (@buttons-file-icon-pixel-size / 2);
-		margin-top: ~"@{margin-top}px";
-		font-family: @icon-font-family;
-		.font-size(@buttons-file-icon-size);
-		content: @buttons-file-icon;
-		vertical-align: middle;
 	}
 }
 

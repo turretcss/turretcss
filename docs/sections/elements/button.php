@@ -24,20 +24,17 @@
 <button class="button button-large">Large</button>
 <button class="button button-extra-large">Extra Large</button>'); ?></code></pre>
 	
-	<h3 class="section-sub-title">Button Action</h3>
-	<button class="button button-action">Button Block Primary Action</button>
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-action">Button Block Primary Action</button>'); ?></code></pre>
-	
 	<h3 class="section-sub-title">Button Block</h3>
 	<button class="button button-block">Button Block Primary</button>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-block">Button Block Primary</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Center</h3>
 	<div class="row">
-		<div class="column-1">
+		<div class="column-1 text-center">
 			<button class="button button-center">Button Center</button>
 		</div>
 	</div>
+	<p><strong>Note:</strong> for <code>.button-center</code> to work the containing element needs to have <code>text-align: center;</code></p>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-center">Button Center</button>'); ?></code></pre>
 	
 </section>

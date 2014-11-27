@@ -5659,6 +5659,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   left: auto;
 }
 /* Buttons */
+button,
 .button {
   display: inline-block;
   padding: 8px 15px;
@@ -5683,7 +5684,9 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+button:before,
 .button:before,
+button:after,
 .button:after {
   color: #ffffff;
   -webkit-transition: all 0.2s ease-in-out;
@@ -5692,20 +5695,26 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+button .icon,
 .button .icon {
   font-size: 14px;
   font-size: 1.4rem;
   vertical-align: middle;
 }
+button:hover,
 .button:hover,
+button:focus,
 .button:focus {
   color: #ffffff;
   background: #545d65;
 }
+button:hover:after,
 .button:hover:after,
+button:focus:after,
 .button:focus:after {
   color: #ffffff;
 }
+button:disabled,
 .button:disabled {
   color: #d0d9d9;
   background: #fafbfb;
@@ -5798,76 +5807,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .button-border:hover:after,
 .button-border:focus:after {
   color: #3bc0c3;
-}
-/*
- * Button Types
- */
-.button-action:after,
-.button-close:after,
-.button-play:after {
-  position: absolute;
-  top: 50%;
-  font-family: 'turret';
-  vertical-align: middle;
-}
-.button-action {
-  position: relative;
-  padding-right: 50px;
-  text-align: left;
-  clear: both;
-}
-.button-action:after {
-  right: 7px;
-  margin-top: -8px;
-  font-size: 16px;
-  content: "\e608";
-}
-.button-close {
-  position: relative;
-  padding-right: 35px;
-}
-.button-close:after {
-  right: 14.2px;
-  margin-top: -0.8;
-  font-size: 1.6;
-  content: "\e620";
-}
-.button-play {
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -40px;
-  margin-left: -40px;
-  width: 80px;
-  height: 80px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-.button-play:after {
-  left: 50%;
-  margin-top: -25px;
-  margin-left: -25px;
-  font-size: 50px;
-  content: "\e63c";
-}
-.button-file {
-  position: relative;
-  padding-right: 3.2px;
-  text-align: left;
-  clear: both;
-}
-.button-file:after {
-  position: absolute;
-  top: 50%;
-  right: 7px;
-  margin-top: -8px;
-  font-family: 'turret';
-  font-size: 16px;
-  font-size: 1.6rem;
-  content: "\e620";
-  vertical-align: middle;
 }
 /*
  * Button Modifiers
