@@ -4583,9 +4583,9 @@ form fieldset legend {
 }
 .input-group input:not([type="range"]):not([type="file"]) {
   margin: 0;
-  -webkit-border-radius: 6px 0 0 6px;
-  -moz-border-radius: 6px 0 0 6px;
-  border-radius: 6px 0 0 6px;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -4611,9 +4611,9 @@ form fieldset legend {
   position: relative;
   height: 40px;
   min-width: 40px;
-  -webkit-border-radius: 0 6px 6px 0;
-  -moz-border-radius: 0 6px 6px 0;
-  border-radius: 0 6px 6px 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -4701,9 +4701,9 @@ textarea {
   border: 1px solid #e1e3e8;
   background-color: #ffffff;
   background-image: none;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
   -moz-transition: border 0.2s ease-in-out;
   -ms-transition: border 0.2s ease-in-out;
@@ -5202,9 +5202,9 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   border: 1px solid #e1e3e8;
   cursor: pointer;
   outline: 0;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -5216,23 +5216,18 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .select select::-ms-expand {
   display: none;
 }
-.select:before,
 .select:after {
-  display: block;
   position: absolute;
   top: 50%;
-  right: 30px;
-  width: 3px;
-  height: 12px;
+  right: 15px;
+  margin-top: -4px;
+  width: 0;
+  height: 0;
   content: '';
   pointer-events: none;
-  background: #4bb3d6;
-}
-.select:before {
-  transform: rotate(-45deg) translateY(-50%);
-}
-.select:after {
-  transform: rotate(45deg) translateY(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #4bb3d6;
 }
 .select.select-large select {
   padding: 16px 35px 16px 15px;
@@ -5262,6 +5257,31 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
     text-indent: 0.01px;
     text-overflow: '';
     padding-right: 1rem;
+  }
+  .select:before {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    pointer-events: none;
+    width: 1em;
+    border: 1px solid #e1e3e8;
+    border-width: 1px 1px 1px 0px;
+    background: #ffffff;
+    -webkit-border-radius: 0 2px 2px 0;
+    -moz-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  .select.large:before {
+    width: 1.5em;
+  }
+  .select.inverse:before {
+    background: #6b7681;
   }
 }
 /* Button Group */
@@ -5339,6 +5359,7 @@ button,
   padding: 8px 15px;
   height: 40px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   font-size: 14px;
   font-size: 1.4rem;
   border: none;
@@ -5349,9 +5370,9 @@ button,
   background: #3bc0c3;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -5409,7 +5430,7 @@ button:disabled,
   font-size: 1.8rem;
 }
 .button-extra-large {
-  padding: 15px 15px;
+  padding: 15px 20px;
   height: 65px;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5563,9 +5584,9 @@ figure figcaption {
 table {
   border-collapse: collapse;
   background: none;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 }
 table caption {
   margin: 5px 10px;
