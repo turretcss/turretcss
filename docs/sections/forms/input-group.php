@@ -42,7 +42,7 @@ array (
 	'code' => '<div class="input-group input-group-search">
 	<input type="search" placeholder="Search">
 	<span class="input-group-button">
-		<button class="button" type="submit"><span class="icon icon-search"></span></button>
+		<button class="button" type="submit">Search</button>
 	</span>
 </div>',
 ),
