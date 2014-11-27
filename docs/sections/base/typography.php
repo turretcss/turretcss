@@ -91,26 +91,6 @@
 	</li>
 </ol>'); ?></code></pre>
 	
-	<h3 class="section-sub-title">List Icon</h2>
-	<ul class="list list-icon">
-		<li>Vehicula Dapibus Tellus Fermentum</li>
-		<li>Vehicula Dapibus Tellus Fermentum</li>
-		<li>Vehicula Dapibus Tellus Fermentum
-			<ul>
-				<li>Vehicula Dapibus Tellus Fermentum</li>
-				<li>Vehicula Dapibus Tellus Fermentum</li>
-			</ul>
-		</li>
-	</ul>
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<ul class="list list-icon">
-	<li>...</li>
-	<li>
-		<ul>
-			<li>...</li>
-		</ul>
-	</li>
-</ul>'); ?></code></pre>
-	
 	<h3 class="section-sub-title">Definition List</h2>
 	<dl>
 		<dt>Fringilla Ipsum Tellus</dt>
