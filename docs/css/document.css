@@ -5426,14 +5426,14 @@ button:disabled,
 .button-large {
   padding: 13px 15px;
   height: 50px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 .button-extra-large {
   padding: 15px 20px;
   height: 65px;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 20px;
+  font-size: 2rem;
 }
 /*
  * Button Styles
@@ -5722,7 +5722,6 @@ body {
   margin: 0;
 }
 code {
-  padding: 3px 4px;
   font-size: 12px !important;
   color: #3bc0c3;
   vertical-align: middle;

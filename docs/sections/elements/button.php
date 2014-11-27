@@ -1,5 +1,8 @@
 <section id="button" class="section">
 	<h2 class="section-title">Button <code>button.less</code></h2>
+	<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the element.</p>
+	<button>Button</button>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button>Button</button>'); ?></code></pre>
 	<h3 class="section-sub-title">Button Styles</h3>
 	<button class="button">Button</button>
 	<button class="button button-primary">Primary</button>
@@ -8,7 +11,7 @@
 	<button class="button button-border">Border</button>
 	<button class="button" disabled>disabled</button>
 	
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button">Button</button>
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button>Button</button>
 <button class="button button-primary">Primary</button>
 <button class="button button-inverse">Dark</button>
 <button class="button button-text">Text</button>
@@ -21,7 +24,7 @@
 	<button class="button button-large">Large</button>
 	<button class="button button-extra-large">Extra Large</button>
 	
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-small primary">Small</button>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-small">Small</button>
 <button class="button button-medium">Medium</button>
 <button class="button button-large">Large</button>
 <button class="button button-extra-large">Extra Large</button>'); ?></code></pre>
