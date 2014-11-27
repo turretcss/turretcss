@@ -3,40 +3,41 @@
 button,
 .button {
 	display: inline-block;
-	padding: @buttons-padding-vertical @buttons-padding-horizontal;
-	height: @buttons-height;
-	font-family: @buttons-font-family;
-	.font-size(@buttons-font-size);
+	padding: @button-padding-vertical @button-padding-horizontal;
+	height: @button-height;
+	font-family: @button-font-family;
+	font-weight: @button-font-weight;
+	.font-size(@button-font-size);
 	border: none;
 	line-height: 1;
-	color: @buttons-color;
-	text-align: @buttons-text-align;
-	text-transform: @buttons-text-transform;
-	background: @buttons-background;
+	color: @button-color;
+	text-align: @button-text-align;
+	text-transform: @button-text-transform;
+	background: @button-background;
 	white-space: nowrap;
 	cursor: pointer;
-	.border-radius(@buttons-border-radius);
+	.border-radius(@button-border-radius);
 	.transition(all @transition-fast ease-in-out);
 
 	&:before,
 	&:after {
-		color: @buttons-color;
+		color: @button-color;
 		.transition(all @transition-fast ease-in-out);
 	}
 	
 	.icon {
-		.font-size(@buttons-font-size);
+		.font-size(@button-font-size);
 		vertical-align: middle;
 	}
 	
 	//Button Hover Styles
 	&:hover,
 	&:focus {
-		color: @buttons-hover-color;
-		background: @buttons-hover-background;
+		color: @button-hover-color;
+		background: @button-hover-background;
 		
 		&:after {
-			color: @buttons-hover-color;
+			color: @button-hover-color;
 		}
 	}
 
@@ -54,23 +55,23 @@ button,
 
 //Button Small
 .button-small {
-	padding: @buttons-small-padding-vertical @buttons-small-padding-horizontal;
-	height: @buttons-small-height;
-	.font-size(@buttons-small-font-size);
+	padding: @button-small-padding-vertical @button-small-padding-horizontal;
+	height: @button-small-height;
+	.font-size(@button-small-font-size);
 }
 
 //Button Large
 .button-large {
-	padding: @buttons-large-padding-vertical @buttons-large-padding-horizontal;
-	height: @buttons-large-height;
-	.font-size(@buttons-large-font-size);
+	padding: @button-large-padding-vertical @button-large-padding-horizontal;
+	height: @button-large-height;
+	.font-size(@button-large-font-size);
 }
 
 //Button Extra Large
 .button-extra-large {
-	padding: @buttons-extra-large-padding-vertical @buttons-extra-large-padding-horizontal;
-	height: @buttons-extra-large-height;
-	.font-size(@buttons-extra-large-font-size);
+	padding: @button-extra-large-padding-vertical @button-extra-large-padding-horizontal;
+	height: @button-extra-large-height;
+	.font-size(@button-extra-large-font-size);
 }
 
 	
@@ -81,82 +82,82 @@ button,
 
 //Button Primary
 .button-inverse {
-	color: @buttons-inverse-color;
-	background: @buttons-inverse-background;
+	color: @button-inverse-color;
+	background: @button-inverse-background;
 	
 	&:after {
-		color: @buttons-inverse-color;
+		color: @button-inverse-color;
 	}
 	
 	&:hover,
 	&:focus {
-		color: @buttons-inverse-hover-color;
-		background: @buttons-inverse-hover-background;
+		color: @button-inverse-hover-color;
+		background: @button-inverse-hover-background;
 		
 		&:after {
-			color: @buttons-inverse-hover-color;
+			color: @button-inverse-hover-color;
 		}
 	}
 }
 
 //Text Button
 .button-text {
-	padding: @buttons-padding-vertical @buttons-text-padding-horizontal;
-	color: @buttons-text-color;
+	padding: @button-padding-vertical @button-text-padding-horizontal;
+	color: @button-text-color;
 	background: transparent !important;
 	
 	&:after {
-		color: @buttons-text-color;
+		color: @button-text-color;
 	}
 	
 	&:hover,
 	&:focus {
-		color: @buttons-text-hover-color;
+		color: @button-text-hover-color;
 		
 		&:after {
-			color: @buttons-text-color;
+			color: @button-text-color;
 		}
 	}
 }
 
 //Button Primary
 .button-primary {
-	color: @buttons-primary-color;
-	background: @buttons-primary-background;
+	color: @button-primary-color;
+	background: @button-primary-background;
 	
 	&:after {
-		color: @buttons-primary-color;
+		color: @button-primary-color;
 	}
 	
 	&:hover,
 	&:focus {
-		color: @buttons-primary-hover-color;
-		background: @buttons-primary-hover-background;
+		color: @button-primary-hover-color;
+		background: @button-primary-hover-background;
 		
 		&:after {
-			color: @buttons-primary-hover-color;
+			color: @button-primary-hover-color;
 		}
 	}
 }
 
 //Button Border
 .button-border {
-	color: @buttons-border-color;
+	color: @button-border-color;
 	background: transparent;
-	border: @buttons-border;
+	border: @button-border;
 	
 	&:after {
-		color: @buttons-border-color;
+		color: @button-border-color;
 	}
 	
 	&:hover,
 	&:focus {
-		color: @buttons-border-hover-color;
-		border: @buttons-border-hover;
+		color: @button-border-hover-color;
+		border: @button-border-hover;
 		background: transparent;
 		
 		&:after {
-			color: @buttons-border-hover-color;
+			color: @button-border-hover-color;
 		}
 	}
 }
@@ -169,7 +170,7 @@ button,
 //Button Block
 .button-block {
 	width: 100%;
-	text-align: @buttons-block-text-align;
+	text-align: @button-block-text-align;
 	display: block;
 }
 
