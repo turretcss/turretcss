@@ -27,7 +27,7 @@
 <button class="button button-extra-large">Extra Large</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Block</h3>
-	<button class="button button-block">Button Block Primary</button>
+	<button class="button button-block">Button Block</button>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-block">Button Block Primary</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Center</h3>

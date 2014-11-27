@@ -5401,7 +5401,7 @@ button:hover,
 button:focus,
 .button:focus {
   color: #ffffff;
-  background: #545d65;
+  background: #2f999c;
 }
 button:hover:after,
 .button:hover:after,
@@ -5509,7 +5509,7 @@ button:disabled,
  */
 .button-block {
   width: 100%;
-  text-align: left;
+  text-align: center;
   display: block;
 }
 .button-center {
@@ -5724,17 +5724,16 @@ body {
 code {
   padding: 3px 4px;
   font-size: 12px !important;
-  color: #6b7681;
-  background: #fafbfb;
+  color: #3bc0c3;
   vertical-align: middle;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
 pre {
-  margin-top: 20px !important;
+  margin: 30px 0px !important;
   padding: 10px !important;
-  background: #fafbfb !important;
+  background: transparent !important;
   border: 1px solid #e1e3e8;
 }
 pre code {
