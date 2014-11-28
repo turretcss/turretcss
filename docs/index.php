@@ -58,7 +58,6 @@
 		//Elements
 		include('sections/elements/elements.php');
 		include('sections/elements/button.php');
-		include('sections/elements/button.php');
 		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
 		include('sections/elements/media.php');
