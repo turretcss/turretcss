@@ -23,7 +23,7 @@
 	&.checkbox {
 		
 		.control-indicator {
-			.border-radius(@checkbox-border-radius);
+			border-radius: @checkbox-border-radius;
 		}
 	
 		input:checked ~ .control-indicator {
@@ -56,7 +56,7 @@
 	&.radio {
 		
 		.control-indicator {
-			.border-radius(@radio-border-radius);
+			border-radius: @radio-border-radius;
 		}
 	
 		input:checked ~ .control-indicator:before {
@@ -65,7 +65,7 @@
 			content: '';
 			width: 65%;
 			height: 65%;
-			.border-radius(@radio-border-radius);
+			border-radius: @radio-border-radius;
 		}
 	}
 }

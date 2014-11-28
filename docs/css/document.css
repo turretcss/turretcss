@@ -564,13 +564,9 @@ img {
   vertical-align: bottom;
 }
 img.rounded {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
   border-radius: 8px;
 }
 img.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 img.responsive {
@@ -1122,16 +1118,16 @@ img.responsive {
  * Box Sizing
  */
 /*
- * Background
- */
-/*
- * Absolute Align
+ * Background Cover
  */
 /*
  * Typography
  */
 /*
  * Arrows
+ */
+/*
+ * Ribbons
  */
 /*
  * Gradients
@@ -1221,9 +1217,6 @@ a {
   text-decoration: none;
   color: #4bb3d6;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 a:hover,
@@ -4943,8 +4936,6 @@ form fieldset legend {
   /* Put the input behind the label so it doesn't overlay text */
 }
 .control.checkbox .control-indicator {
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
   border-radius: none;
 }
 .control.checkbox input:checked ~ .control-indicator:before,
@@ -4959,9 +4950,7 @@ form fieldset legend {
   left: 0.1em;
   height: 0.42em;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .control.checkbox input:checked ~ .control-indicator:after {
@@ -4969,14 +4958,10 @@ form fieldset legend {
   right: 0.35em;
   height: 1.1em;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .control.radio .control-indicator {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 .control.radio input:checked ~ .control-indicator:before {
@@ -4984,16 +4969,12 @@ form fieldset legend {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: #4bb3d6;
   content: '';
   width: 65%;
   height: 65%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 .control-indicator {
@@ -5037,11 +5018,7 @@ form fieldset legend {
 }
 .input-group input:not([type="range"]):not([type="file"]) {
   margin: 0;
-  -webkit-border-radius: 2px 0 0 2px;
-  -moz-border-radius: 2px 0 0 2px;
   border-radius: 2px 0 0 2px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 .input-group[class*="column-"] {
@@ -5065,11 +5042,7 @@ form fieldset legend {
   position: relative;
   height: 40px;
   min-width: 40px;
-  -webkit-border-radius: 0 2px 2px 0;
-  -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 .input-group-button > .button + .button {
@@ -5116,27 +5089,17 @@ form fieldset legend {
   min-width: 65px;
 }
 .input-group-search {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
   border-radius: 20px;
   overflow: hidden;
 }
 .input-group-search input:not([type="range"]):not([type="file"])[type="search"] {
   padding-left: 20px;
-  -webkit-border-radius: 20px 0 0 20px;
-  -moz-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 .input-group-search .button {
   padding-right: 20px;
-  -webkit-border-radius: 0 20px 20px 0;
-  -moz-border-radius: 0 20px 20px 0;
   border-radius: 0 20px 20px 0;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 /* Input */
@@ -5155,13 +5118,8 @@ textarea {
   border: 1px solid #e1e3e8;
   background-color: #ffffff;
   background-image: none;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
-  -moz-transition: border 0.2s ease-in-out;
-  -ms-transition: border 0.2s ease-in-out;
-  -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -5179,9 +5137,6 @@ textarea:-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]):focus:-moz-placeholder,
@@ -5197,9 +5152,6 @@ textarea::-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]):focus::-moz-placeholder,
@@ -5215,9 +5167,6 @@ textarea:-ms-input-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]):focus:-ms-input-placeholder,
@@ -5233,9 +5182,6 @@ textarea::-webkit-input-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]):focus::-webkit-input-placeholder,
@@ -5281,8 +5227,6 @@ textarea.info {
   border-color: #3bc0c3;
 }
 input[type="search"] {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
   border-radius: 20px;
 }
 input:not([type="range"]):not([type="file"]).input-small {
@@ -5299,9 +5243,6 @@ input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-small:focus:-moz-placeholder {
@@ -5315,9 +5256,6 @@ input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-small:focus::-moz-placeholder {
@@ -5331,9 +5269,6 @@ input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-small:focus:-ms-input-placeholder {
@@ -5347,9 +5282,6 @@ input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placehol
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-small:focus::-webkit-input-placeholder {
@@ -5369,9 +5301,6 @@ input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-medium:focus:-moz-placeholder {
@@ -5385,9 +5314,6 @@ input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-medium:focus::-moz-placeholder {
@@ -5401,9 +5327,6 @@ input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder 
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-medium:focus:-ms-input-placeholder {
@@ -5417,9 +5340,6 @@ input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeho
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-medium:focus::-webkit-input-placeholder {
@@ -5439,9 +5359,6 @@ input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-large:focus:-moz-placeholder {
@@ -5455,9 +5372,6 @@ input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-large:focus::-moz-placeholder {
@@ -5471,9 +5385,6 @@ input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-large:focus:-ms-input-placeholder {
@@ -5487,9 +5398,6 @@ input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placehol
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-large:focus::-webkit-input-placeholder {
@@ -5509,9 +5417,6 @@ input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder 
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:focus:-moz-placeholder {
@@ -5525,9 +5430,6 @@ input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:focus::-moz-placeholder {
@@ -5541,9 +5443,6 @@ input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeho
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:focus:-ms-input-placeholder {
@@ -5557,9 +5456,6 @@ input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-pl
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:focus::-webkit-input-placeholder {
@@ -5578,9 +5474,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-inverse:focus:-moz-placeholder {
@@ -5594,9 +5487,6 @@ input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-inverse:focus::-moz-placeholder {
@@ -5610,9 +5500,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-inverse:focus:-ms-input-placeholder {
@@ -5626,9 +5513,6 @@ input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeh
   letter-spacing: 0px;
   text-transform: none;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-placeholder {
@@ -5656,8 +5540,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
   border: 1px solid #e1e3e8;
   cursor: pointer;
   outline: 0;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -5724,11 +5606,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
     border: 1px solid #e1e3e8;
     border-width: 1px 1px 1px 0px;
     background: #ffffff;
-    -webkit-border-radius: 0 2px 2px 0;
-    -moz-border-radius: 0 2px 2px 0;
     border-radius: 0 2px 2px 0;
-    -moz-background-clip: padding-box;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .select.large:before {
@@ -5765,8 +5643,6 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 }
 .button-group .button:not(:first-child):not(:last-child),
 .button-group .button-group:not(:first-child):not(:last-child) > .button {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
 .button-group > .button-group:first-child > .button:last-child {
@@ -5824,13 +5700,8 @@ button,
   background: #3bc0c3;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 button:before,
@@ -5839,9 +5710,6 @@ button:after,
 .button:after {
   color: #ffffff;
   -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 button .icon,
@@ -6051,8 +5919,6 @@ nav ul li,
 table {
   border-collapse: collapse;
   background: none;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
 }
 table caption {
@@ -6173,10 +6039,8 @@ body {
   width: 270px;
   color: #ffffff;
   background: #485364;
-  background-image: -moz-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4bb3d6), color-stop(100%, #3bc0c3));
   background-image: -webkit-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
-  background-image: -o-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
+  background-image: -moz-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
   background-image: -ms-linear-gradient(top, #4bb3d6 0%, #3bc0c3 100%);
   background-image: linear-gradient(to bottom, #4bb3d6 0%, #3bc0c3 100%);
 }
@@ -6192,9 +6056,6 @@ code {
   font-size: 12px !important;
   color: #3bc0c3;
   vertical-align: middle;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
 }
 pre {
   margin: 30px 0px !important;
@@ -6265,9 +6126,6 @@ svg rect {
   text-transform: uppercase;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .navigation ul li a:hover,
@@ -6320,6 +6178,6 @@ table tr td.is-float {
 table tr td.is-hidden,
 table tr td.is-float,
 table tr td.is-unsupported {
-  color: #6b7681 !important;
+  color: #a5b7b7 !important;
   background: #fafbfb;
 }
