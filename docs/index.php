@@ -72,6 +72,7 @@
 		include('sections/utilities/mixins.php');
 		
 		//Support
+		include('sections/support/support.php');
 		include('sections/support/css.php');
 		include('sections/support/browser-support.php');
 		include('sections/support/video-support.php');

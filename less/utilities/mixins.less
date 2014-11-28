@@ -72,6 +72,7 @@
 	background-color: transparent;
 	border: 0;
 }
+
 .text-hide() {
 	.hide-text();
 }
@@ -158,6 +159,13 @@
 	column-gap: @gap;
 }
 
+//Box Sizing
+.box-sizing(@box-sizing) {
+	-webkit-box-sizing: @box-sizing;
+	-moz-box-sizing: @box-sizing;
+	box-sizing: @box-sizing;
+}
+
 
 /*
  * Border Radius
@@ -165,8 +173,8 @@
 
 
 //Border Radiuses
-.border-radiuses (@topleft: 5px, @topright: 5px, @bottomleft: 5px, @bottomright: 5px) {
-	border-radius: @topleft @topright @bottomright @bottomleft;
+.border-radiuses (@top-left: @border-radius, @top-right: @border-radius, @bottom-left: @border-radius, @bottom-right: @border-radius) {
+	border-radius: @top-left @top-right @bottom-right @bottom-left;
 	background-clip: padding-box;
 }
 
@@ -189,54 +197,6 @@
 .border-left-radius(@radius) {
 	border-bottom-left-radius: @radius;
 	border-top-left-radius: @radius;
-}
-
-
-/*
- * Box Sizing
- */
-
-//Box Sizing
-.box-sizing(@box-sizing) {
-	-webkit-box-sizing: @box-sizing;
-	-moz-box-sizing: @box-sizing;
-	box-sizing: @box-sizing;
-}
-
-//Border Box Sizing
-.border-box-sizing() {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-//Content Box Sizing
-.content-box-sizing() {
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
-
-
-/*
- * Background Cover
- */
-
-//Background Cover
-.background-cover(@url) {
-	background: url('@{url}') no-repeat center center; 
-	background-size: cover;
-}
-
-//Background Cover Fixed
-.background-cover-fixed(@url) {
-	background: url('@{url}') no-repeat center center;
-	background-attachment: scroll;
-	background-size: cover;
-	
-	@media @large {
-		background-attachment: fixed;
-	}
 }
 
 
@@ -273,7 +233,7 @@
 
 //Font Face
 .font-face(@family: arial, @weight: normal, @style: normal) {
-	@font-face{
+	@font-face {
 		font-family: '@{family}';
 		src:url('@{font-path}/@{family}.eot');
 		src:url('@{font-path}/@{family}.eot?#iefix') format('embedded-opentype'),
@@ -287,11 +247,102 @@
 }
 
 //Font Size
-.font-size(@sizeValue) {
-	@remValue: @sizeValue;
-	@pxValue: (@sizeValue * 10);
+.font-size(@size) {
+	@remValue: @size;
+	@pxValue: (@size * 10);
 	font-size: ~"@{pxValue}px"; 
 	font-size: ~"@{remValue}rem";
+}
+
+
+/*
+ * Backgrounds
+ */
+
+.gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: -ms-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: linear-gradient(to bottom, @start @start-origin, @stop @stop-origin);
+}
+
+//Horizontal Gradient
+.horizontal-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-linear-gradient(left, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-linear-gradient(left, @start @start-origin, @stop 100%);
+	background-image: -ms-linear-gradient(left, @start @start-origin, @stop @stop-origin);
+	background-image: linear-gradient(to right, @start @start-origin, @stop @stop-origin);
+}
+
+//Radial Gradient
+.radial-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: -ms-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: radial-gradient(ellipse at center, @start @start-origin, @stop @stop-origin);
+}
+
+//Background Cover
+.background-cover(@url) {
+	background: url('@{url}') no-repeat center center; 
+	background-size: cover;
+}
+
+//Background Cover Fixed
+.background-cover-fixed(@url) {
+	background: url('@{url}') no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	
+	@media @large {
+		background-attachment: fixed;
+	}
+}
+
+
+/*
+ * Placeholder
+ */
+ 
+.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform) {
+	font-family: @font-family;
+	.font-size(@font-size);
+	color: @color;
+	letter-spacing: @letter-spacing;
+	text-transform: @text-transform;
+	.transition(color 0.2s ease-in-out);
+}
+
+.placeholder-input-focus(@color) {
+	color: fade(@color, 25%);
+}
+
+//Placeholder
+.placeholder(@color, @font-size, @font-family, @letter-spacing, @text-transform) {
+	&:-moz-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus:-moz-placeholder {
+		.placeholder-input-focus(@color);
+	}
+	&::-moz-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus::-moz-placeholder {
+		.placeholder-input-focus(@color);
+	}
+	&:-ms-input-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus:-ms-input-placeholder {
+		.placeholder-input-focus(@color);
+	}
+	&::-webkit-input-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus::-webkit-input-placeholder {
+		.placeholder-input-focus(@color);
+	}
 }
 
 
@@ -367,130 +418,6 @@
 	border-top: @size solid transparent;
 	border-left: @size solid @color;
 	border-bottom: @size solid transparent;
-}
-
-
-/*
- * Ribbons
- */
-
-.ribbon-top(@size, @indent, @color) {
-	.arrow();
-	@height: @size / 2;
-	left: 0;
-	top: 50%;
-	margin-top: -@height;
-	border-top: @height solid transparent;
-	border-left: @indent solid @color;
-	border-bottom: @height solid transparent;
-}
-
-.ribbon-bottom(@size, @indent, @color) {
-	.arrow();
-	@height: @size / 2;
-	left: 50%;
-	bottom: 0;
-	margin-left: -@height;
-	height: @height;
-	border-left: @height solid transparent;
-	border-bottom: @indent solid @color;
-	border-right: @height solid transparent;
-}
-
-.ribbon-left(@size, @indent, @color) {
-	.arrow();
-	@height: @size / 2;
-	left: 0;
-	top: 50%;
-	margin-top: -@height;
-	border-top: @height solid transparent;
-	border-left: @indent solid @color;
-	border-bottom: @height solid transparent;
-}
-
-.ribbon-right(@size, @indent, @color) {
-	.arrow();
-	@height: @size / 2;
-	right: 0;
-	top: 50%;
-	margin-top: -@height;
-	border-top: @height solid transparent;
-	border-right: @indent solid @color;
-	border-bottom: @height solid transparent;
-}
-
-
-/*
- * Gradients
- */
- 
-.gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
-	background-image: -webkit-linear-gradient(top, @start @start-origin, @stop @stop-origin);
-	background-image: -moz-linear-gradient(top, @start @start-origin, @stop @stop-origin);
-	background-image: -ms-linear-gradient(top, @start @start-origin, @stop @stop-origin);
-	background-image: linear-gradient(to bottom, @start @start-origin, @stop @stop-origin);
-}
-
-//Horizontal Gradient
-.horizontal-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
-	background-image: -webkit-linear-gradient(left, @start @start-origin, @stop @stop-origin);
-	background-image: -moz-linear-gradient(left, @start @start-origin, @stop 100%);
-	background-image: -ms-linear-gradient(left, @start @start-origin, @stop @stop-origin);
-	background-image: linear-gradient(to right, @start @start-origin, @stop @stop-origin);
-}
-
-//Radial Gradient
-.radial-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
-	background-image: -webkit-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
-	background-image: -moz-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
-	background-image: -ms-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
-	background-image: radial-gradient(ellipse at center, @start @start-origin, @stop @stop-origin);
-}
-
-
-/*
- * Placeholder
- */
- 
-.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform) {
-	font-family: @font-family;
-	.font-size(@font-size);
-	color: @color;
-	letter-spacing: @letter-spacing;
-	text-transform: @text-transform;
-	.transition(color 0.2s ease-in-out);
-}
-
-.placeholder-input-focus(@color) {
-	color: fade(@color, 25%);
-}
-
-//Placeholder
-.placeholder(@color, @font-size, @font-family, @letter-spacing, @text-transform) {
-	&:-moz-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
-	}
-	&:focus:-moz-placeholder {
-		.placeholder-input-focus(@color);
-	}
-	&::-moz-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
-	}
-	&:focus::-moz-placeholder {
-		.placeholder-input-focus(@color);
-	}
-	&:-ms-input-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
-	}
-	&:focus:-ms-input-placeholder {
-		.placeholder-input-focus(@color);
-	}
-	&::-webkit-input-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
-	}
-	&:focus::-webkit-input-placeholder {
-		.placeholder-input-focus(@color);
-	}
 }
 
 
@@ -598,6 +525,18 @@
 	transform: rotateY(@degrees);
 }
 
+.transform-origin(@origin) {
+	-webkit-transform-origin: @origin;
+	-ms-transform-origin: @origin;
+	transform-origin: @origin;
+}
+
+.transform-style(@style) {
+	-webkit-transform-style: @style;
+	-ms-transform-style: @style;
+	transform-style: @style;
+}
+
 .perspective(@perspective) {
 	-webkit-perspective: @perspective;
 	perspective: @perspective;
@@ -608,24 +547,10 @@
 	perspective-origin: @perspective;
 }
 
-.transform-origin(@origin) {
-	-webkit-transform-origin: @origin;
-	-ms-transform-origin: @origin;
-	transform-origin: @origin;
-}
-
-.transform-style(@style) {
-	-webkit-transform-style: @style;
-	-moz-transform-style: @style;
-	transform-style: @style;
-}
-
 .backface-visibility(@visibility) {
 	-webkit-backface-visibility: @visibility;
-	-moz-backface-visibility: @visibility;
 	backface-visibility: @visibility;
 }
-
 
 /*
  * Animations

@@ -23,11 +23,11 @@
 }
 
 .no-margin {
-	margin: 0 auto;
+	margin: 0;
 }
 
 .no-padding {
-	padding: 0 auto;
+	padding: 0;
 }
 
 
@@ -50,28 +50,6 @@
 .display-table-cell {
 	display: table-cell;
 	vertical-align: middle;
-}
-
-
-/*
- * Table Rows & Cells
- */
- 
-.table-row {
-	display: table;
-	width: 100%;
-	
-	.table-cell {
-		display: table-cell;
-		height: 100%;
-		vertical-align: middle;
-		
-		@media @mobile {
-			&.table-row-mobile {
-				display: table-row;
-			}
-		}
-	}
 }
 
 
@@ -384,44 +362,6 @@
 		@media @small {
 			float: none !important;
 		}
-	}
-}
-
-
-/*
- * List Columns
- */
-
-.columns-2 {
-	.column-count(2);
-	.column-gap(@gutter * 2);
-}
-
-.columns-3 {
-	.column-count(3);
-	.column-gap(@gutter * 2);
-}
-
-.columns-4 {
-	.column-count(4);
-	.column-gap(@gutter * 2);
-}
-
-//Fallback for no Column Count Support
-.no-csscolumns {
-	.columns-2 li {
-		float: left;
-		width: 50%;
-	}
-
-	.columns-3 li {
-		float: left;
-		width: 33%;
-	}
-
-	.columns-4 li {
-		float: left;
-		width: 33%;
 	}
 }
 
