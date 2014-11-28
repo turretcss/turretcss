@@ -24,6 +24,30 @@
 	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<p class="lead">...</p>'); ?></code></pre>
 	
+	<h3 class="section-sub-title">Text Align</h2>
+	<p class="text-left">Text Left</p>
+	<p class="text-center">Text Center</p>
+	<p class="text-right">Text Right</p>
+	<p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+	<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<p class="text-left">...</p>
+<p class="text-center">...</p>
+<p class="text-right">...</p>
+<p class="text-justify">...</p>
+<p class="truncate">...</p>'); ?></code></pre>
+	
+	<h3 class="section-sub-title">Strong</h2>
+	<p><strong>strong</strong></p>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<strong>...</strong>'); ?></code></pre>
+	
+	<h3 class="section-sub-title">Emphasis</h2>
+	<p><em>emphasis</em></p>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<em>...</em>'); ?></code></pre>
+	
+	<h3 class="section-sub-title">Horizontal Rule</h2>
+	<hr>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<hr>'); ?></code></pre>
+	
 	<h3 class="section-sub-title">Blockquote</h2>
 	<blockquote>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -37,18 +61,6 @@
 	<h3 class="section-sub-title">Pullout</h2>
 	<p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<p class="pullout">...</p>'); ?></code></pre>
-	
-	<h3 class="section-sub-title">Strong</h2>
-	<p><strong>strong</strong></p>
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<strong>...</strong>'); ?></code></pre>
-	
-	<h3 class="section-sub-title">Emphasis</h2>
-	<p><em>emphasis</em></p>
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<em>...</em>'); ?></code></pre>
-	
-	<h3 class="section-sub-title">Horizontal Rule</h2>
-	<hr>
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<hr>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Unordered List</h2>
 	<ul>
