@@ -1,9 +1,8 @@
-/*
-Turret
-Author: Bigfish
-URL: http://turret.bigfish.tv
-Version: 2.0
-*/
+/*!
+ * Turret v2.0 (http://turret.bigfish.tv)
+ * Copyright 2014 Bigfish
+ * Licensed under MIT
+ */
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -602,10 +601,13 @@ img.responsive {
   cursor: pointer;
 }
 .no-margin {
-  margin: 0;
+  margin: 0 !important;
 }
 .no-padding {
-  padding: 0;
+  padding: 0 !important;
+}
+.no-border {
+  border: none !important;
 }
 /*
  * Display
@@ -784,58 +786,28 @@ img.responsive {
   background: #fafbfb !important;
 }
 /*
- * Borders
- */
-.no-border {
-  border: none !important;
-}
-.border-top-primary {
-  border-top: 1px solid #4bb3d6;
-}
-.border-bottom-primary {
-  border-bottom: 1px solid #4bb3d6;
-}
-.border-top-secondary {
-  border-top: 1px solid #3bc0c3;
-}
-.border-bottom-secondary {
-  border-bottom: 1px solid #3bc0c3;
-}
-.border-top-dark {
-  border-top: 1px solid #485364;
-}
-.border-bottom-dark {
-  border-bottom: 1px solid #485364;
-}
-.border-top-light {
-  border-top: 1px solid #fafbfb;
-}
-.border-bottom-light {
-  border-bottom: 1px solid #fafbfb;
-}
-/*
  * Floats
  */
 .right {
   float: right !important;
 }
 @media (min-width: 1280px) {
-  .right.extra-large-clear-right {
+  .extra-large-clear-right {
     float: none !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
-  .right.large-clear-right {
+  .large-clear-right {
     float: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .right.medium-clear-right {
+  .medium-clear-right {
     float: none !important;
   }
 }
 @media (max-width: 767px) {
-  .right.small-clear-right {
+  .small-clear-right {
     float: none !important;
   }
 }
@@ -843,22 +815,22 @@ img.responsive {
   float: left !important;
 }
 @media (min-width: 1280px) {
-  .left.extra-large-clear-left {
+  .extra-large-clear-left {
     float: none !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
-  .left.large-clear-left {
+  .large-clear-left {
     float: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .left.medium-clear-left {
+  .medium-clear-left {
     float: none !important;
   }
 }
 @media (max-width: 767px) {
-  .left.small-clear-left {
+  .small-clear-left {
     float: none !important;
   }
 }
@@ -5996,6 +5968,9 @@ h1.title {
 code {
   font-size: 12px !important;
   color: #07a;
+}
+small code {
+  font-size: 10px !important;
 }
 pre {
   margin: 30px 0px !important;

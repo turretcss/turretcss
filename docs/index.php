@@ -82,7 +82,7 @@
 	?>
 	
 	<footer>
-		<p class="text-center">Made with &hearts; by <a href="https://twitter.com/scottdejonge">@scottdejonge</a> at <a href="http://bigfish.tv/">bigfish.tv</a></p>
+		<p class="text-center">Version 2.0 &middot; Made with &hearts; by <a href="https://twitter.com/scottdejonge">@scottdejonge</a> at <a href="http://bigfish.tv/">bigfish.tv</a></p>
 	</footer>
 
 </main>
