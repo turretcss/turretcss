@@ -76,7 +76,14 @@
 		
 		//Accessibility
 		include('sections/accessibility.php');
+		
+		//Notes
+		include('sections/notes/notes.php');
 	?>
+	
+	<footer>
+		<p class="text-center">Made with &hearts; by <a href="https://twitter.com/scottdejonge">@scottdejonge</a> at <a href="http://bigfish.tv/">bigfish.tv</a></p>
+	</footer>
 
 </main>
 

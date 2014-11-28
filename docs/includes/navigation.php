@@ -80,11 +80,6 @@
 		array(
 			'title' => 'Notes',
 			'link' => 'notes',
-			'children' => array(
-				'Bugs & Issues' => 'bugs-and-issues',
-				'Contributing' => 'contributing',
-				'Licence' => 'licence',
-			),
 		),
 	);
 
