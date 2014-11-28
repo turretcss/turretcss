@@ -63,6 +63,7 @@
 		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
 		include('sections/elements/media.php');
+		include('sections/elements/nav.php');
 		include('sections/elements/table.php');
 		
 		//Utilities

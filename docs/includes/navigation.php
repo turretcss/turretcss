@@ -23,8 +23,6 @@
 			'title' => 'Base',
 			'link' => 'base',
 			'children' => array(
-				//'Fonts' => 'fonts',
-				//'Icons' => 'icons',
 				'Typography' => 'typography',
 			),
 		),
@@ -56,6 +54,7 @@
 				'Button Group' => 'button-group',
 				'Figure' => 'figure',
 				'Media' => 'media',
+				'Nav' => 'nav',
 				'Table' => 'table',
 			),
 		),

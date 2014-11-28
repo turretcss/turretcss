@@ -68,6 +68,9 @@ Version: 2.0
  * Media
  */
 /*
+ * Nav
+ */
+/*
  * Tables
  */
 html * {
@@ -5579,6 +5582,19 @@ figure figcaption {
 }
 .media-2-1 {
   padding-top: 50%;
+}
+/* Nav */
+nav ul,
+.nav ul {
+  list-style: none;
+}
+nav ul li,
+.nav ul li {
+  margin: 10px 0px;
+}
+.nav-inline ul li {
+  display: inline-block;
+  margin: 10px;
 }
 /* Tables */
 table {
