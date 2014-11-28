@@ -1,9 +1,8 @@
-/*
-Turret
-Author: Bigfish
-URL: http://turret.bigfish.tv
-Version: 2.0
-*/
+/*!
+ * Turret v2.0 (http://turret.bigfish.tv)
+ * Copyright 2014 Bigfish
+ * Licensed under MIT
+ */
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -602,10 +601,13 @@ img.responsive {
   cursor: pointer;
 }
 .no-margin {
-  margin: 0 auto;
+  margin: 0 !important;
 }
 .no-padding {
-  padding: 0 auto;
+  padding: 0 !important;
+}
+.no-border {
+  border: none !important;
 }
 /*
  * Display
@@ -622,23 +624,6 @@ img.responsive {
 .display-table-cell {
   display: table-cell;
   vertical-align: middle;
-}
-/*
- * Table Rows & Cells
- */
-.table-row {
-  display: table;
-  width: 100%;
-}
-.table-row .table-cell {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-}
-@media (max-width:  1024px) {
-  .table-row .table-cell.table-row-mobile {
-    display: table-row;
-  }
 }
 /*
  * Position
@@ -801,58 +786,28 @@ img.responsive {
   background: #fafbfb !important;
 }
 /*
- * Borders
- */
-.no-border {
-  border: none !important;
-}
-.border-top-primary {
-  border-top: 1px solid #4bb3d6;
-}
-.border-bottom-primary {
-  border-bottom: 1px solid #4bb3d6;
-}
-.border-top-secondary {
-  border-top: 1px solid #3bc0c3;
-}
-.border-bottom-secondary {
-  border-bottom: 1px solid #3bc0c3;
-}
-.border-top-dark {
-  border-top: 1px solid #485364;
-}
-.border-bottom-dark {
-  border-bottom: 1px solid #485364;
-}
-.border-top-light {
-  border-top: 1px solid #fafbfb;
-}
-.border-bottom-light {
-  border-bottom: 1px solid #fafbfb;
-}
-/*
  * Floats
  */
 .right {
   float: right !important;
 }
 @media (min-width: 1280px) {
-  .right.extra-large-clear-right {
+  .extra-large-clear-right {
     float: none !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
-  .right.large-clear-right {
+  .large-clear-right {
     float: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .right.medium-clear-right {
+  .medium-clear-right {
     float: none !important;
   }
 }
 @media (max-width: 767px) {
-  .right.small-clear-right {
+  .small-clear-right {
     float: none !important;
   }
 }
@@ -860,63 +815,24 @@ img.responsive {
   float: left !important;
 }
 @media (min-width: 1280px) {
-  .left.extra-large-clear-left {
+  .extra-large-clear-left {
     float: none !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
-  .left.large-clear-left {
+  .large-clear-left {
     float: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .left.medium-clear-left {
+  .medium-clear-left {
     float: none !important;
   }
 }
 @media (max-width: 767px) {
-  .left.small-clear-left {
+  .small-clear-left {
     float: none !important;
   }
-}
-/*
- * List Columns
- */
-.columns-2 {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
-}
-.columns-3 {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
-}
-.columns-4 {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
-}
-.no-csscolumns .columns-2 li {
-  float: left;
-  width: 50%;
-}
-.no-csscolumns .columns-3 li {
-  float: left;
-  width: 33%;
-}
-.no-csscolumns .columns-4 li {
-  float: left;
-  width: 33%;
 }
 /*
  * Visibility
@@ -1115,25 +1031,16 @@ img.responsive {
  * Border Radius
  */
 /*
- * Box Sizing
- */
-/*
- * Background Cover
- */
-/*
  * Typography
  */
 /*
- * Arrows
- */
-/*
- * Ribbons
- */
-/*
- * Gradients
+ * Backgrounds
  */
 /*
  * Placeholder
+ */
+/*
+ * Arrows
  */
 /*
  * Transitions
