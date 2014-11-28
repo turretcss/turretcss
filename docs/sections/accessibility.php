@@ -1,5 +1,5 @@
 <section id="accessibility" class="section">
-	<h2 class="section-title">Accessibility</h2>
+	<h1 class="title">Accessibility</h1>
 	<h3 class="section-sub-title">ARIA Roles</h2>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>

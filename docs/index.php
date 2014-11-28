@@ -6,14 +6,10 @@
 </aside>
 
 <main id="content">
-
-	<section id="title" class="section">
-		<h1>Turret Documentation</h1>
-	</section>
 	
 	<section id="introduction" class="section">
-		<h2 class="section-title">Introduction</h2>
-		<p class="lead">A library of Documentation, Elements, Components, Icons, and a Grid for rapid responsive website development.</p>
+		<h1 class="title">Introduction</h1>
+		<p class="lead">A library of Documentation, Elements, and a Grid for rapid responsive website development.</p>
 	</section>
 	
 	<section id="templates" class="section">
@@ -42,6 +38,7 @@
 		include('sections/general/media-queries.php');
 		
 		//Base
+		include('sections/base/base.php');
 		include('sections/base/typography.php');
 		
 		//Grid
@@ -59,6 +56,8 @@
 		include('sections/forms/select.php');
 		
 		//Elements
+		include('sections/elements/elements.php');
+		include('sections/elements/button.php');
 		include('sections/elements/button.php');
 		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
@@ -74,8 +73,6 @@
 		//Support
 		include('sections/support/support.php');
 		include('sections/support/css.php');
-		include('sections/support/browser-support.php');
-		include('sections/support/video-support.php');
 		
 		//Accessibility
 		include('sections/accessibility.php');

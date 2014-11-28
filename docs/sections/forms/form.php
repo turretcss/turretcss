@@ -1,5 +1,10 @@
 <section id="form" class="section">
 
+<div class="title-group">
+	<h1 class="title">Form</h1>
+	<p class="lead">A collection of form elements including inputs, input-groups, radio and checkbox controls, and selects.</p>
+</div>
+
 <h2 class="section-title">Form<code>forms/form.less</code></h2>
 <p>The styles within <code>form.less</code> include the fieldset styles as well as normalising form element behaviours, making controls display <code>inline-block</code>, <code>height: auto</code> for textareas, and making selects<code>display: block</code>.</p>
 

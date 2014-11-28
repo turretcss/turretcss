@@ -1,7 +1,10 @@
 <section id="general" class="section">
 	
-	<h2 class="section-title">General</h2>
-	<p>Getting started with Turret with guides to class names, colours, typography, a basic template, and media queries.</p>
+	<div class="title-group">
+		<h1 class="title">General</h1>
+		<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, media queries and image classes.</p>
+	</div>
+
 	<h3 class="section-sub-title">Structure</h3>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="[element] [behaviour] [style]">...</div>'); ?></code></pre>
 	

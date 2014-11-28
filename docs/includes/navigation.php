@@ -71,16 +71,13 @@
 			'link' => 'support',
 			'children' => array(
 				'CSS' => 'css',
-				'Browser Support' => 'browser-support',
-				'Video Support' => 'video-support',
 			),
 		),
 		array(
 			'title' => 'Accessibility',
 			'link' => 'accessibility',
 		),
-		/*
-array(
+		array(
 			'title' => 'Notes',
 			'link' => 'notes',
 			'children' => array(
@@ -89,7 +86,6 @@ array(
 				'Licence' => 'licence',
 			),
 		),
-*/
 	);
 
 ?>

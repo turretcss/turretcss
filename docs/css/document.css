@@ -5984,8 +5984,14 @@ body {
   width: calc(100% - 270px);
   background: #ffffff;
 }
-#title h1 {
-  margin: 0;
+h1.title {
+  margin: 100px 0px 50px;
+}
+.title-group h1.title {
+  margin: 100px 0px 20px;
+}
+.title-group p.lead {
+  margin: 20px 0px 50px;
 }
 code {
   font-size: 12px !important;
@@ -6078,7 +6084,7 @@ svg rect {
   text-transform: none;
 }
 .section {
-  margin: 80px auto;
+  margin: 50px auto;
   max-width: 900px;
 }
 .section .section-title {

@@ -1,5 +1,5 @@
-<section id="browser-support" class="section">
-	<h2 class="section-title">Browser Support</h2>
+<section id="support" class="section">
+	<h1 class="title">Support</h1>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -38,7 +38,7 @@
 				<th>Windows</th>
 				<td class="is-supported">Supported</td>
 				<td class="is-supported">Supported</td>
-				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported (IE9+)</td>
 				<td class="is-supported">Supported</td>
 				<td class="is-unsupported">Not supported</td>
 			</tr>
@@ -74,4 +74,50 @@
 
 	<h4 class="section-sub-title">Respond.js and <code>@import</code></h4>
 	<p>Respond.js doesn't work with CSS that's referenced via <code>@import</code>. In particular, some Drupal configurations are known to use <code>@import</code>. See the <a href="https://github.com/scottjehl/Respond"><code>Respond.js</code></a> docs for details.</p>
+	
+	<h3 class="section-sub-title">Browser Support for Video</h2>
+	<table class="table table-bordered table-block table-responsive">
+		<tbody>
+			<tr>
+				<th>&nbsp;</th>
+				<th>Android</th>
+				<th>Chrome</th>
+				<th>Firefox</th>
+				<th>Internet Explorer</th>
+				<th>iOS</th>
+				<th>Opera</th>
+				<th>Safari</th>
+			</tr>
+			<tr>
+				<th>MP4<br><small>H.264</small></th>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-unsupported">Not supported</td>
+				<td class="is-supported">Supported<br/><small>Since IE9</a></td>
+				<td class="is-supported">Supported</td>
+				<td class="is-unsupported">Not supported</td>
+				<td class="is-supported">Supported</td>
+			</tr>
+			<tr>
+				<th>ogg<br><small>Theora</small></th>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-unsupported">Not supported</td>
+				<td class="is-unsupported">Not supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-unsupported">Not supported</td>
+			</tr>
+			<tr>
+				<th>WebM</th>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-supported">Supported<br/><small><a href="http://tools.google.com/dlpage/webmmf" zt="-o1/XL" target="_blank">(with components)</a></small></td>
+				<td class="is-unsupported">Not supported</td>
+				<td class="is-supported">Supported</td>
+				<td class="is-unsupported">Not supported</td>
+			</tr>
+		</tbody>
+	</table>
 </section>
