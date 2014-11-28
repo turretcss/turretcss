@@ -1230,6 +1230,9 @@ a:hover,
 a:focus {
   color: #485364;
 }
+a:visited {
+  color: #237b98;
+}
 blockquote {
   margin: 35px 0px;
   padding: 0px 30px;

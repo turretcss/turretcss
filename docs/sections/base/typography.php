@@ -37,11 +37,10 @@
 	<h3 class="section-sub-title">Pullout</h2>
 	<p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<p class="pullout">...</p>'); ?></code></pre>
-
+	
 	<h3 class="section-sub-title">Strong</h2>
 	<p><strong>strong</strong></p>
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<strong>...</strong>'); ?></code></pre>
-	
 	
 	<h3 class="section-sub-title">Emphasis</h2>
 	<p><em>emphasis</em></p>
