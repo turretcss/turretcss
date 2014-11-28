@@ -23,11 +23,15 @@
 }
 
 .no-margin {
-	margin: 0;
+	margin: 0 !important;
 }
 
 .no-padding {
-	padding: 0;
+	padding: 0 !important;
+}
+
+.no-border {
+	border: none !important;
 }
 
 
@@ -265,103 +269,64 @@
 
 
 /*
- * Borders
- */
-
-.no-border {
-	border: none !important;
-}
-
-.border-top-primary {
-	border-top: 1px solid @primary;
-}
-
-.border-bottom-primary {
-	border-bottom: 1px solid @primary;
-}
-
-.border-top-secondary {
-	border-top: 1px solid @secondary;
-}
-
-.border-bottom-secondary {
-	border-bottom: 1px solid @secondary;
-}
-
-.border-top-dark {
-	border-top: 1px solid @dark;
-}
-
-.border-bottom-dark {
-	border-bottom: 1px solid @dark;
-}
-
-.border-top-light {
-	border-top: 1px solid @light;
-}
-
-.border-bottom-light {
-	border-bottom: 1px solid @light;
-}
-
-
-/*
  * Floats
  */
  
+//Right
 .right {
 	float: right !important;
+}
 
-	&.extra-large-clear-right {
-		@media @extra-large {
-			float: none !important;
-		}
-	}
-
-	&.large-clear-right {
-		@media @large-only {
-			float: none !important;
-		}
-	}
-
-	&.medium-clear-right {
-		@media @medium-only {
-			float: none !important;
-		}
-	}
-
-	&.small-clear-right {
-		@media @small {
-			float: none !important;
-		}
+.extra-large-clear-right {
+	@media @extra-large {
+		float: none !important;
 	}
 }
 
+.large-clear-right {
+	@media @large-only {
+		float: none !important;
+	}
+}
+
+.medium-clear-right {
+	@media @medium-only {
+		float: none !important;
+	}
+}
+
+.small-clear-right {
+	@media @small {
+		float: none !important;
+	}
+}
+
+//Left
 .left {
 	float: left !important;
+}
 
-	&.extra-large-clear-left {
-		@media @extra-large {
-			float: none !important;
-		}
+.extra-large-clear-left {
+	@media @extra-large {
+		float: none !important;
 	}
+}
 
-	&.large-clear-left {
-		@media @large-only {
-			float: none !important;
-		}
+.large-clear-left {
+	@media @large-only {
+		float: none !important;
 	}
+}
 
-	&.medium-clear-left {
-		@media @medium-only {
-			float: none !important;
-		}
+.medium-clear-left {
+	@media @medium-only {
+		float: none !important;
 	}
+}
 
-	&.small-clear-left {
-		@media @small {
-			float: none !important;
-		}
+.small-clear-left {
+	@media @small {
+		float: none !important;
 	}
 }
 
