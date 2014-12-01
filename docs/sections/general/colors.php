@@ -2,27 +2,12 @@
 	<h2 class="section-title">Colours</h2>
 	
 	<h3 class="section-sub-title">Shades</h3>
-	<div class="row">
-		<div class="color column-1-6">
-			<div class="swatch background-white"></div>
-			<small>White</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-light-grey"></div>
-			<small>Light Grey</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-grey"></div>
-			<small>Grey</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-dark-grey"></div>
-			<small>Dark Grey</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-black"></div>
-			<small>Black</small>
-		</div>
+	<div class="swatches">
+		<div class="swatch background-white"><small>White</small></div>
+		<div class="swatch background-light-grey"><small>Light Grey</small></div>
+		<div class="swatch background-grey"><small>Grey</small></div>
+		<div class="swatch background-dark-grey"><small>Dark Grey</small></div>
+		<div class="swatch background-black"><small>Black</small></div>
 	</div>
 	
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-white">...</div>
@@ -34,23 +19,11 @@
 
 	<!-- Indicators -->
 	<h3 class="section-sub-title">Indicators</h3>
-	<div class="row">
-		<div class="color column-1-6">
-			<div class="swatch background-error"></div>
-			<small>Error</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-warning"></div>
-			<small>Warning</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-success"></div>
-			<small>Success</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-info"></div>
-			<small>Info</small>
-		</div>
+	<div class="swatches">
+		<div class="swatch background-error"><small>Error</small></div>
+		<div class="swatch background-warning"><small>Warning</small></div>
+		<div class="swatch background-success"><small>Success</small></div>
+		<div class="swatch background-info"><small>Info</small></div>
 	</div>
 	
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-error">...</div>
@@ -61,27 +34,12 @@
 
 	<!-- Palette -->
 	<h3 class="section-sub-title">Palette</h3>
-	<div class="row">
-		<div class="color column-1-6">
-			<div class="swatch background-light"></div>
-			<small>Light</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-primary"></div>
-			<small>Primary</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-secondary"></div>
-			<small>Secondary</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-tertiary"></div>
-			<small>Tertiary</small>
-		</div>
-		<div class="color column-1-6">
-			<div class="swatch background-dark"></div>
-			<small>Dark</small>
-		</div>
+	<div class="swatches">
+		<div class="swatch background-light"><small>Light</small></div>
+		<div class="swatch background-primary"><small>Primary</small></div>
+		<div class="swatch background-secondary"><small>Secondary</small></div>
+		<div class="swatch background-tertiary"><small>Tertiary</small></div>
+		<div class="swatch background-dark"><small>Dark</small></div>
 	</div>
 	
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-light">...</div>

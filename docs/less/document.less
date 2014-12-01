@@ -93,11 +93,29 @@ svg {
 }
 
 //Swatch
+.swatches {
+	margin-left: -5px;
+	margin-right: -5px;
+	.clearfix();	
+}
+
 .swatch {
-	padding: 5px;
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	height: 110px;
+	width: 100px;
 	border: 1px solid @light-grey;
-	height: 120px;
-	margin-bottom: 5px;
+	
+	small {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 2px;
+		background: @white;
+		text-align: center;
+	}
 }
 
 //Grid Item

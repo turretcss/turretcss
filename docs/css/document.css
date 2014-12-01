@@ -5999,11 +5999,43 @@ svg rect {
   margin: 0;
   padding: 5px;
 }
+.swatches {
+  margin-left: -5px;
+  margin-right: -5px;
+  *zoom: 1;
+}
+.swatches:before,
+.swatches:after {
+  content: " ";
+  display: table;
+}
+.swatches:after {
+  clear: both;
+}
+.swatches:before,
+.swatches:after {
+  content: " ";
+  display: table;
+}
+.swatches:after {
+  clear: both;
+}
 .swatch {
-  padding: 5px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  height: 110px;
+  width: 100px;
   border: 1px solid #e1e3e8;
-  height: 120px;
-  margin-bottom: 5px;
+}
+.swatch small {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  background: #ffffff;
+  text-align: center;
 }
 .grid-item {
   padding: 15px;
