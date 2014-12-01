@@ -11,7 +11,7 @@
 	<button class="button button-border">Border</button>
 	<button class="button" disabled>disabled</button>
 	
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button>Button</button>
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button">Button</button>
 <button class="button button-primary">Primary</button>
 <button class="button button-inverse">Dark</button>
 <button class="button button-text">Text</button>
