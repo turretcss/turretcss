@@ -35,6 +35,14 @@
 <p class="text-right">...</p>
 <p class="text-justify">...</p>
 <p class="truncate">...</p>'); ?></code></pre>
+
+	<h3 class="section-sub-title">Text Transform</h2>
+	<p class="uppercase">Uppercase</p>
+	<p class="lowercase">Lowercase</p>
+	<p class="capitalize">capitalize</p>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<p class="uppercase">Uppercase</p>
+<p class="lowercase">Lowercase</p>
+<p class="capitalize">capitalize</p>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Strong</h2>
 	<p><strong>strong</strong></p>
