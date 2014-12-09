@@ -18,31 +18,17 @@ button,
 	cursor: pointer;
 	border-radius: @button-border-radius;
 	.transition(all @transition-fast ease-in-out);
-
-	&:before,
-	&:after {
-		color: @button-color;
-		.transition(all @transition-fast ease-in-out);
-	}
-	
-	.icon {
-		.font-size(@button-font-size);
-		vertical-align: middle;
-	}
 	
 	//Button Hover Styles
 	&:hover,
 	&:focus {
 		color: @button-hover-color;
 		background: @button-hover-background;
-		
-		&:after {
-			color: @button-hover-color;
-		}
 	}
 
 	//Button Disabled
 	&:disabled {
+		cursor: no-drop;
 		color: @button-disabled-color;
 		background: @button-disabled-background;
 	}
@@ -84,19 +70,11 @@ button,
 .button-inverse {
 	color: @button-inverse-color;
 	background: @button-inverse-background;
-	
-	&:after {
-		color: @button-inverse-color;
-	}
-	
+
 	&:hover,
 	&:focus {
 		color: @button-inverse-hover-color;
 		background: @button-inverse-hover-background;
-		
-		&:after {
-			color: @button-inverse-hover-color;
-		}
 	}
 }
 
@@ -105,18 +83,10 @@ button,
 	padding: @button-padding-vertical @button-text-padding-horizontal;
 	color: @button-text-color;
 	background: transparent !important;
-	
-	&:after {
-		color: @button-text-color;
-	}
-	
+
 	&:hover,
 	&:focus {
 		color: @button-text-hover-color;
-		
-		&:after {
-			color: @button-text-color;
-		}
 	}
 }
 
@@ -125,20 +95,37 @@ button,
 	color: @button-primary-color;
 	background: @button-primary-background;
 	
-	&:after {
-		color: @button-primary-color;
-	}
-	
 	&:hover,
 	&:focus {
 		color: @button-primary-hover-color;
 		background: @button-primary-hover-background;
-		
-		&:after {
-			color: @button-primary-hover-color;
-		}
 	}
 }
+
+//Button Secondary
+.button-secondary {
+	color: @button-secondary-color;
+	background: @button-secondary-background;
+	
+	&:hover,
+	&:focus {
+		color: @button-secondary-hover-color;
+		background: @button-secondary-hover-background;
+	}
+}
+
+//Button Tertiary
+.button-tertiary {
+	color: @button-tertiary-color;
+	background: @button-tertiary-background;
+	
+	&:hover,
+	&:focus {
+		color: @button-tertiary-hover-color;
+		background: @button-tertiary-hover-background;
+	}
+}
+
 
 //Button Border
 .button-border {
@@ -146,19 +133,11 @@ button,
 	background: transparent;
 	border: @button-border;
 	
-	&:after {
-		color: @button-border-color;
-	}
-	
 	&:hover,
 	&:focus {
 		color: @button-border-hover-color;
 		border: @button-border-hover;
 		background: transparent;
-		
-		&:after {
-			color: @button-border-hover-color;
-		}
 	}
 }
 

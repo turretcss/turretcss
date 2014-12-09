@@ -5,15 +5,19 @@
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button>Button</button>'); ?></code></pre>
 	<h3 class="section-sub-title">Button Styles</h3>
 	<button class="button">Button</button>
-	<button class="button button-primary">Primary</button>
 	<button class="button button-inverse">Inverse</button>
+	<button class="button button-primary">Primary</button>
+	<button class="button button-secondary">Secondary</button>
+	<button class="button button-tertiary">Tertiary</button>
 	<button class="button button-text">Text</button>
 	<button class="button button-border">Border</button>
 	<button class="button" disabled>disabled</button>
 	
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button">Button</button>
+<button class="button button-inverse">Inverse</button>
 <button class="button button-primary">Primary</button>
-<button class="button button-inverse">Dark</button>
+<button class="button button-secondary">Secondary</button>
+<button class="button button-tertiary">Tertiary</button>
 <button class="button button-text">Text</button>
 <button class="button button-border">Border</button>
 <button class="button" disabled>disabled</button>'); ?></code></pre>

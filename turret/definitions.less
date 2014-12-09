@@ -53,9 +53,10 @@
 //Palette
 @light: #FAFBFB;
 @dark: @dark-grey;
+@inverse: @dark;
 @primary: #4BB3D6;
 @secondary: #3BC0C3;
-@tertiary: @grey;
+@tertiary: #0096D9;
 
 
 /*--------------------------------------------------------------------------*/
@@ -517,7 +518,7 @@
 @button-font-weight: @semibold-font-weight;
 @button-font-size: 1.4;
 @button-color: @white;
-@button-background: @secondary;
+@button-background: @grey;
 @button-text-align: center;
 @button-text-transform: none;
 
@@ -542,22 +543,34 @@
 @button-extra-large-font-size: 2;
 
 //Button Inverse
-@button-inverse-color: @grey;
-@button-inverse-background: @light;
-@button-inverse-hover-color: @grey;
-@button-inverse-hover-background: darken(@light, 10%);
+@button-inverse-color: @light;
+@button-inverse-background: @inverse;
+@button-inverse-hover-color: @button-inverse-color;
+@button-inverse-hover-background: darken(@button-inverse-background, 10%);
 
 //Button Primary
-@button-primary-color: @button-color;
+@button-primary-color: @white;
 @button-primary-background: @primary;
 @button-primary-hover-color: @button-hover-color;
 @button-primary-hover-background: darken(@primary, 10%);
 
+//Button Secondary
+@button-secondary-color: @white;
+@button-secondary-background: @secondary;
+@button-secondary-hover-color: @button-hover-color;
+@button-secondary-hover-background: darken(@secondary, 10%);
+
+//Button Tertiary
+@button-tertiary-color: @white;
+@button-tertiary-background: @tertiary;
+@button-tertiary-hover-color: @button-hover-color;
+@button-tertiary-hover-background: darken(@tertiary, 10%);
+
 //Button Border
-@button-border-color: @primary;
-@button-border: 2px solid @primary;
-@button-border-hover-color: @secondary;
-@button-border-hover: 2px solid @secondary;
+@button-border-color: @button-background;
+@button-border: 2px solid @button-background;
+@button-border-hover-color: @button-hover-background;
+@button-border-hover: 2px solid @button-hover-background;
 @button-border-radius: @border-radius;
 
 //Button Text
