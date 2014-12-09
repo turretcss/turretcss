@@ -81,7 +81,7 @@
 	?>
 	
 	<footer>
-		<p class="text-center">Version 2.0 &middot; Made with &hearts; by <a href="https://twitter.com/scottdejonge">@scottdejonge</a> at <a href="http://bigfish.tv/">bigfish.tv</a></p>
+		<p class="text-center">Version 2.0 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
 	</footer>
 
 </main>
