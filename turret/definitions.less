@@ -398,6 +398,10 @@
 @input-search-border-radius: 20px;
 @input-button-small-padding: 10px 15px;
 
+//Focus
+@input-focus-border: 1px solid darken(#E1E3E8, 15%);
+@input-focus-background: darken(@input-background, 2%);
+
 //Input Small
 @input-small-height: 30px;
 @input-small-padding: 10px;
@@ -421,14 +425,10 @@
 //Inverse
 @input-inverse-color: @white;
 @input-inverse-border: none;
-@input-inverse-background: @tertiary;
+@input-inverse-background: @inverse;
 @input-inverse-focus-color: @input-inverse-color;
 @input-inverse-focus-border: @input-inverse-border;
-@input-inverse-focus-background: @input-inverse-background;
-
-//Focus
-@input-focus-border: 1px solid darken(#E1E3E8, 15%);
-@input-focus-background: @input-background;
+@input-inverse-focus-background: darken(@input-inverse-background, 2%);
 
 //Disabled
 @input-disabled-background: @light;
