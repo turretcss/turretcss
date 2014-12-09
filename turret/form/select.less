@@ -41,14 +41,14 @@
 		position: absolute;
 		top: 50%;
 		right: 15px;
-		margin-top: -4px;
+		margin-top: -(@select-arrow-size / 2);
 		width: 0;
 		height: 0;
 		content: '';
 		pointer-events: none;
-		border-left: 8px solid transparent;
-		border-right: 8px solid transparent;
-		border-top: 8px solid @select-arrow-background;
+		border-left: @select-arrow-size solid transparent;
+		border-right: @select-arrow-size solid transparent;
+		border-top: @select-arrow-size solid @select-arrow-background;
 	}
 	
 	//Large Select
@@ -71,7 +71,7 @@
 		}
 		
 		&:after {
-			color: @select-inverse-icon-color;
+			border-top: @select-arrow-size solid @select-inverse-arrow-background;
 		}
 	}
 }
