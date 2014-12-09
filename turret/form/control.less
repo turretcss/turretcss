@@ -14,9 +14,9 @@
 	
 	//Visually Hide Input
 	input {
+		z-index: -1;
 		position: absolute;
 		opacity: 0;
-		z-index: -1; /* Put the input behind the label so it doesn't overlay text */
 	}
 	
 	//Checkbox
@@ -26,28 +26,37 @@
 			border-radius: @checkbox-border-radius;
 		}
 	
-		input:checked ~ .control-indicator {
-
-			&:before,
-			&:after {
-				position: absolute;
-				width: 0.2em;
-				content: '';
-				background: @control-indicator-checked-background;
+		input:checked {
+			
+			~ .control-indicator {
+	
+				&:before,
+				&:after {
+					position: absolute;
+					width: 0.25em;
+					content: '';
+					background: @control-indicator-checked-background;
+				}
+				
+				&:before {
+					bottom: 0.2em;
+					left: 0.1em;
+					height: 0.5em;
+					-webkit-transform: rotate(-50deg) translate3d(0, 0, 0);
+					transform: rotate(-50deg) translate3d(0, 0, 0);
+				}
+				
+				&:after {
+					bottom: 0;
+					right: 0.25em;
+					height: 1.4em;
+					-webkit-transform: rotate(40deg) translate3d(0, 0, 0);
+					transform: rotate(40deg) translate3d(0, 0, 0);
+				}
 			}
 			
-			&:before {
-				bottom: 0.2em;
-				left: 0.1em;
-				height: 0.42em;
-				.rotate(-45deg);
-			}
-			
-			&:after {
-				bottom: 0;
-				right: 0.35em;
-				height: 1.1em;
-				.rotate(45deg);
+			~ .control-label {
+				color: @control-label-checked-color;
 			}
 		}
 	}
@@ -97,4 +106,5 @@
 	color: @control-label-color;
 	line-height: @control-label-line-height;
 	pointer-events: none;
+	.transition(color @transition-fast ease-in-out);
 }

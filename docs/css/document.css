@@ -4834,10 +4834,9 @@ form fieldset legend {
   display: inline-block;
 }
 .control input {
+  z-index: -1;
   position: absolute;
   opacity: 0;
-  z-index: -1;
-  /* Put the input behind the label so it doesn't overlay text */
 }
 .control.checkbox .control-indicator {
   border-radius: none;
@@ -4845,25 +4844,26 @@ form fieldset legend {
 .control.checkbox input:checked ~ .control-indicator:before,
 .control.checkbox input:checked ~ .control-indicator:after {
   position: absolute;
-  width: 0.2em;
+  width: 0.25em;
   content: '';
   background: #4bb3d6;
 }
 .control.checkbox input:checked ~ .control-indicator:before {
   bottom: 0.2em;
   left: 0.1em;
-  height: 0.42em;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  height: 0.5em;
+  -webkit-transform: rotate(-50deg) translate3d(0, 0, 0);
+  transform: rotate(-50deg) translate3d(0, 0, 0);
 }
 .control.checkbox input:checked ~ .control-indicator:after {
   bottom: 0;
-  right: 0.35em;
-  height: 1.1em;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  right: 0.25em;
+  height: 1.4em;
+  -webkit-transform: rotate(40deg) translate3d(0, 0, 0);
+  transform: rotate(40deg) translate3d(0, 0, 0);
+}
+.control.checkbox input:checked ~ .control-label {
+  color: #485364;
 }
 .control.radio .control-indicator {
   border-radius: 50%;
@@ -4910,6 +4910,8 @@ form fieldset legend {
   color: #485364;
   line-height: 1.2;
   pointer-events: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 /* Input Group */
 .input-group {
