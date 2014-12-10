@@ -5705,13 +5705,13 @@ button:disabled,
 .button-border {
   color: #6b7681;
   background: transparent;
-  border: 2px solid #6b7681;
+  border: 3px solid #6b7681;
 }
 .button-border:hover,
 .button-border:focus {
-  color: #545d65;
-  border: 2px solid #545d65;
-  background: transparent;
+  color: #ffffff;
+  border: 3px solid #6b7681;
+  background: #6b7681;
 }
 /*
  * Button Modifiers
