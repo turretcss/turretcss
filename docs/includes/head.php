@@ -13,8 +13,8 @@
 	<script src="lib/prism.js"></script>
 	
 	<!-- Icons -->
-	<link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="/ico/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/docs/ico/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/docs/ico/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="/ico/AppIcon57x57.png" sizes="57x57" />
 	<link rel="apple-touch-icon" href="/ico/AppIcon72x72.png" sizes="72x72" />
 	<link rel="apple-touch-icon" href="/ico/AppIcon76x76.png" sizes="76x76" />
