@@ -1,0 +1,22 @@
+{
+	"name": "turret",
+	"version": "0.0.1",
+	"author": "Scott de Jonge",
+	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
+	"dependencies": {
+		"browserify": "latest",
+		"less": "latest"
+	},
+	"devDependencies": {
+		"watchify": "latest",
+		"catw": "latest"
+	},
+	"scripts": {
+		"watch-turret": "catw -c 'lessc -' 'turret/*.less' -o dist/turret.css -v",
+		"watch-docs": "catw -c 'lessc -' 'docs/less/*.less' -o docs/css/style.css -v",
+		"watch": "npm run watch-turret & npm run watch-docs",
+		"build-turret": "catw -c 'lessc -' 'turret/*.less' > dist/turret.css",
+		"build-docs": "catw -c 'lessc -' 'docs/less/*.less' > docs/css/style.css",
+		"build": "npm run build-turret && npm run build-docs"
+	}
+}

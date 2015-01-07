@@ -6,7 +6,7 @@
 	<title>Turret</title>
 	<meta name="description" content="A library of Documentation, Elements, Components, Icons, and a Grid for rapid responsive website development.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="css/document.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 	<!-- Syntax Higlighting -->
 	<link rel="stylesheet" href="lib/prism.css">
