@@ -13,8 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-	color: @headings-small-color;
+	font-family: @headings-small-font-family;
 	font-size: @headings-small-size;
+	color: @headings-small-color;
 }
 
 h1 {
@@ -46,7 +47,7 @@ p {
 	font-family: @paragraph-font-family;
 	.font-size(@paragraph-font-size);
 	color: @paragraph-color;
-	line-height: @line-height;
+	line-height: @paragraph-line-height;
 }
 
 //Lead Paragraph
@@ -55,6 +56,7 @@ p {
 	font-family: @lead-font-family;
 	.font-size(@lead-font-size);
 	color: @lead-color;
+	line-height: @lead-line-height;
 }
 
 //Links
