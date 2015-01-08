@@ -184,7 +184,7 @@
 @bold-font-weight: 600;
 
 //Generic Font Sizes
-@font-size-extra-large: 2.2;
+@font-size-extra-large: 1.8;
 @font-size-large: 1.6;
 @font-size-medium: 1.4;
 @font-size-small: 1;
@@ -195,17 +195,20 @@
  */
 
 //Line height
+@line-height-extra-large: 2;
+@line-height-large: 1.8;
 @line-height: 1.5;
+@line-height-small: 1.2;
 
 //Links
 @link-color: @primary;
 @link-hover-color: @dark;
-@link-visited-color: darken(@primary, 20%);
+@link-visited-color: @link-color;
 
 //Horizontal Rule
 @hr-margin: 35px auto;
 @hr-height: 1px;
-@hr-background: fade(@primary, 35%);
+@hr-background: @primary;
 
 
 /*
@@ -216,7 +219,7 @@
 @headings: h1, h2, h3, h4, h5, h6;
 @headings-margin: 0px 0px 20px 0px;
 @headings-font-family: @bold-font-family;
-@headings-color: @dark;
+@headings-color: @body-color;
 @headings-line-height: 1.1;
 
 //Headings Small
@@ -240,14 +243,14 @@
 //Paragraph
 @paragraph-font-family: @medium-font-family;
 @paragraph-font-size: @font-size-large;
-@paragraph-color: @dark-grey;
+@paragraph-color: @body-color;
 @paragraph-line-height: @line-height;
 
 //Lead Paragraph
 @lead-font-family: @regular-font-family;
 @lead-font-size: @font-size-extra-large;
-@lead-color: @dark-grey;
-@lead-line-height: 1.5;
+@lead-color: @body-color;
+@lead-line-height: @line-height;
 
 //Strong
 @strong-font-family: @medium-font-family;
@@ -268,15 +271,15 @@
 //Blockquote Quote
 @blockquote-quote-margin: 0;
 @blockquote-quote-font-family: @regular-font-family;
-@blockquote-quote-font-size: 2.2;
+@blockquote-quote-font-size: @font-size-extra-large;
 @blockquote-quote-font-style: normal;
-@blockquote-quote-line-height: 1.3;
+@blockquote-quote-line-height: @line-height;
 @blockquote-quote-color: @primary;
 
 //Blockquote Cite
 @blockquote-cite-margin: 10px 0px;
 @blockquote-cite-font-family: @regular-font-family;
-@blockquote-cite-font-size: 1.4;
+@blockquote-cite-font-size: @font-size-medium;
 @blockquote-cite-font-style: normal;
 @blockquote-cite-color: @blockquote-quote-color;
 @blockquote-cite-text-align: right;
@@ -326,7 +329,7 @@
 @defintion-list-margin: 0;
 @defintion-list-padding: 0;
 @defintion-list-font-family: @regular-font-family;
-@defintion-list-font-size: 1.2;
+@defintion-list-font-size: @font-size-medium;
 
 //Definition Term
 @defintion-term-margin: 10px 0px;
@@ -351,7 +354,7 @@
 
 //Feildset Label
 @fieldset-label-padding: 10px;
-@fieldset-label-font-size: 1.5;
+@fieldset-label-font-size: @font-size-medium;
 @fieldset-label-color: @primary;
 
 //Indicators
@@ -367,20 +370,20 @@
 //Label
 @label-margin: 15px 0px;
 @label-font-family: @medium-font-family;
-@label-font-size: 1.2;
+@label-font-size: @font-size-medium;
 @label-color: @dark;
 
 //Label Small
-@label-small-font-size: 0.9;
+@label-small-font-size: @font-size-small;
 
 //Label Medium
 @label-medium-font-size: @input-font-size;
 
 //Label Large
-@label-large-font-size: 1.6;
+@label-large-font-size: @font-size-large;
 
 //Label Extra Large
-@label-extra-large-font-size: 1.8;
+@label-extra-large-font-size: @font-size-extra-large;
 
 
 /*
@@ -391,18 +394,19 @@
 @input-height: 40px;
 @input-margin: 0;
 @input-padding: 8px 12px;
-@input-color: @grey;
+@input-color: @body-color;
 @input-font-family: @regular-font-family;
-@input-font-size: 1.4;
+@input-font-size: @font-size-medium;
 @input-line-height: @line-height;
 @input-background: @white;
-@input-border: 1px solid #E1E3E8;
+@input-border: 1px solid @input-border-color;
+@input-border-color: @light-grey;
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
 @input-button-small-padding: 10px 15px;
 
 //Focus
-@input-focus-border: 1px solid darken(#E1E3E8, 15%);
+@input-focus-border: 1px solid darken(@input-border-color, 15%);
 @input-focus-background: darken(@input-background, 2%);
 
 //Input Small
@@ -453,12 +457,12 @@
 
 @control-margin: 20px 20px 20px 0px;
 @control-padding: 0px 0px 0px 1.5em;
-@control-color: @grey;
+@control-color: @input-color;
 
 //Control Indicator
 @control-indicator-size: 15px;
 @control-indicator-color: @primary;
-@control-indicator-background: @white;
+@control-indicator-background: @input-background;
 @control-indicator-border: @input-border;
 
 //Control Checked
@@ -486,8 +490,8 @@
 @select-height: @input-height;
 @select-font-family: @input-font-family;
 @select-font-size: @input-font-size;
-@select-color: @dark;
-@select-background: @white;
+@select-color: @input-color;
+@select-background: @input-background;
 @select-border: @input-border;
 @select-border-radius: @border-radius;
 
@@ -604,8 +608,8 @@
 
 //Figure Caption
 @figure-caption-margin: 10px 0px;
-@figure-caption-font-size: 1.2;
-@figure-caption-color: @dark;
+@figure-caption-font-size: @font-size-medium;
+@figure-caption-color: @body-color;
 @figure-caption-text-align: center;
 
 
@@ -634,12 +638,12 @@
 @tables-border-radius: @border-radius;
 
 //Table Border
-@tables-border: 1px solid #E1E3E8;
+@tables-border: 1px solid @light-grey;
 @tables-border-width: 1px;
 
 //Table Caption
 @tables-caption-margin: 5px 10px;
-@tables-caption-font-size: 1.4;
+@tables-caption-font-size: @font-size-medium;
 @tables-caption-font-weight: @bold-font-weight;
 @tables-caption-color: @body-color;
 @tables-caption-text-align: left;
@@ -648,17 +652,17 @@
 @tables-head-padding: 10px;
 @tables-head-font-family: @bold-font-family;
 @tables-head-font-weight: @bold-font-weight;
-@tables-head-font-size: 1.2;
+@tables-head-font-size: @font-size-medium;
 @tables-head-text-align: left;
 @tables-head-text-transform: none;
-@tables-head-color: @dark;
+@tables-head-color: @body-color;
 @tables-head-background: none;
 
 //Table Body
 @tables-cell-padding: 10px;
-@tables-cell-font-size: 1.2;
+@tables-cell-font-size: @font-size-medium;
 @tables-cell-color: @body-color;
-@tables-cell-line-height: 1.2;
+@tables-cell-line-height: @line-height;
 @tables-cell-vertical-align: middle;
 
 //Table Reponsive
