@@ -171,11 +171,6 @@
 @semibold-font-family: @font-family-sans-serif;
 @bold-font-family: @font-family-sans-serif;
 
-//Font Weights
-@headings-font-weight: normal;
-@lead-font-weight: normal;
-@copy-font-weight: normal;
-
 //Generic Font Weights
 @thin-font-weight: 300;
 @regular-font-weight: 400;
@@ -219,6 +214,7 @@
 @headings: h1, h2, h3, h4, h5, h6;
 @headings-margin: 0px 0px 20px 0px;
 @headings-font-family: @bold-font-family;
+@headings-font-weight: @bold-font-weight;
 @headings-color: @body-color;
 @headings-line-height: 1.1;
 
@@ -242,12 +238,14 @@
 
 //Paragraph
 @paragraph-font-family: @medium-font-family;
+@paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-large;
 @paragraph-color: @body-color;
 @paragraph-line-height: @line-height;
 
 //Lead Paragraph
 @lead-font-family: @regular-font-family;
+@lead-font-weight: @regular-font-weight;
 @lead-font-size: @font-size-extra-large;
 @lead-color: @body-color;
 @lead-line-height: @line-height;
