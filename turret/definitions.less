@@ -361,6 +361,20 @@
 @input-success-color: @success;
 @input-info-color: @info;
 
+//Form Message
+@form-message-margin: @label-margin;
+@form-message-font-family: @paragraph-font-family;
+@form-message-font-weight: @paragraph-font-weight;
+@form-message-font-size: 1.2;
+@form-message-line-height: @paragraph-line-height;
+
+//Form message Indicators
+@form-message-error-color: @error;
+@form-message-warning-color: @warning;
+@form-message-success-color: @success;
+@form-message-info-color: @info;
+
+
 /*
  * Label
  */
@@ -390,7 +404,7 @@
 
 //Input
 @input-height: 40px;
-@input-margin: 0;
+@input-margin: @label-margin;
 @input-padding: 8px 12px;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
@@ -453,7 +467,7 @@
  * Control
  */
 
-@control-margin: 0;
+@control-margin: @label-margin;
 @control-padding: 0px 0px 0px 1.5em;
 @control-color: @input-color;
 
