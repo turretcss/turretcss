@@ -110,4 +110,34 @@
 	</div>
 </form>'); ?></code></pre>
 
+<h3 class="section-sub-title">Form Messages</h3>
+<form role="form">
+	<label for="first-name">First Name</label>
+	<input type="text" id="first-name" placeholder="Enter First Name" value="Scott">
+	<p class="form-message success">Cool first name</p>
+	<label for="last-name">Last Name</label>
+	<input type="text" id="last-name" placeholder="Enter Last Name">
+	<p class="form-message error">Please enter a last name</p>
+	<label for="email">Email</label>
+	<input type="email" id="email" placeholder="Enter Email">
+	<p class="form-message info">Email address must include "@"</p>
+	<label for="password">Password</label>
+	<input type="password" id="password" placeholder="Enter Password" value="turretrocks">
+	<p class="form-message warning">Medium strengh password</p>
+	<button type="submit" class="button">Submit</button>
+</form>
+
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<form role="form" class="bottom-gutter">
+	<label for="email">Email</label>
+	<input type="email" id="email" placeholder="Enter Email">
+	<label for="password">Password</label>
+	<input type="password" id="password" placeholder="Enter Password">
+	<label class="control checkbox">
+		<input type="checkbox" name="checkbox" checked="true">
+		<span class="control-indicator"></span>
+		<span class="control-label">I agree to checking this checkbox</span>
+	</label>
+	<button type="submit" class="button">Submit</button>
+</form>'); ?></code></pre>
+
 </section>
