@@ -72,7 +72,7 @@
 @extra-large-container-width: 1280px;
 
 //Gutters
-@gutter: 10px;
+@gutter: 15px;
 @gutter-top: (@gutter * 2);
 @gutter-bottom:  (@gutter * 2);
 @gutter-left: (@gutter * 4);
@@ -203,7 +203,7 @@
 //Horizontal Rule
 @hr-margin: 35px auto;
 @hr-height: 1px;
-@hr-background: @primary;
+@hr-background: @light-grey;
 
 
 /*
@@ -251,8 +251,8 @@
 @lead-line-height: @line-height;
 
 //Strong
-@strong-font-family: @medium-font-family;
-@strong-font-weight: @medium-font-weight;
+@strong-font-family: @bold-font-family;
+@strong-font-weight: @bold-font-weight;
 
 //Emphasis
 @em-font-style: italic;
@@ -549,15 +549,15 @@
 @button-font-family: @bold-font-family;
 @button-font-weight: @bold-font-weight;
 @button-font-size: 1.4;
-@button-color: @white;
+@button-color: @dark-grey;
 @button-line-height: 1;
 @button-text-align: center;
 @button-text-transform: none;
-@button-background: @grey;
+@button-background: @light-grey;
 @button-border: 1px solid darken(@button-background, 5%);
 
 //Button Hover
-@button-hover-color: @white;
+@button-hover-color: @dark-grey;
 @button-hover-background: darken(@button-background, 10%);
 @button-hover-border: 1px solid darken(@button-background, 15%);
 
@@ -567,13 +567,13 @@
 @button-small-height: 30px;
 @button-small-font-size: 1;
 
-@button-large-padding-vertical: 13px;
-@button-large-padding-horizontal: 15px;
+@button-large-padding-vertical: 15px;
+@button-large-padding-horizontal: 24px;
 @button-large-height: 50px;
 @button-large-font-size: 1.6;
 
-@button-extra-large-padding-vertical: 15px;
-@button-extra-large-padding-horizontal: 20px;
+@button-extra-large-padding-vertical: 20px;
+@button-extra-large-padding-horizontal: 30px;
 @button-extra-large-height: 65px;
 @button-extra-large-font-size: 2;
 
@@ -610,13 +610,13 @@
 @button-tertiary-hover-border: 1px solid darken(@tertiary, 5%);
 
 //Button Border
-@button-border-color: @button-background;
-@button-border-border: 1px solid @button-background;
+@button-border-color: @dark;
+@button-border-border: 1px solid @button-border-color;
 @button-border-background: transparent;
 @button-border-radius: @border-radius;
 @button-border-hover-color: @white;
-@button-border-hover-border: 1px solid @button-background;
-@button-border-hover-background: @button-background;
+@button-border-hover-border: 1px solid @button-border-color;
+@button-border-hover-background: @button-border-color;
 
 //Button Text
 @button-text-padding-horizontal: @button-padding-horizontal;

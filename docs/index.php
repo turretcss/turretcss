@@ -1,7 +1,7 @@
 <?php include('includes/head.php'); ?>
 
 
-<aside id="sidebar">
+<aside id="sidebar" class="gradient">
 	<?php include('includes/navigation.php'); ?>
 </aside>
 

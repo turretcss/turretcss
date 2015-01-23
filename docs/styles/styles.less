@@ -8,10 +8,78 @@ body {
 	height: 100%;
 }
 
+.divider {
+	margin: 50px auto;
+	max-width: 100px;
+}
+
 .emoji {
 	width: 16px;
 	height: 16px;
 	vertical-align: middle;
+}
+
+//Gradient Animation
+@-webkit-keyframes gradient {
+	0%{background-position:0% 7%}
+	50%{background-position:100% 94%}
+	100%{background-position:0% 7%}
+}
+
+@keyframes gradient { 
+	0%{background-position:0% 7%}
+	50%{background-position:100% 94%}
+	100%{background-position:0% 7%}
+}
+
+.gradient {
+	background: linear-gradient(127deg, @primary, @secondary, @tertiary);
+	background-size: 400% 400%;
+	.animation(gradient 30s infinite);
+}
+
+//Hero
+.home-header {
+	padding: 150px 0px;
+	text-align: center;
+	
+	.button-border {
+		color: @white;
+		border: 1px solid @white;
+		
+		&:hover,
+		&:focus {
+			color: @secondary;
+			background: @white;
+			border: 1px solid @white;
+		}
+	}
+}
+
+.home-header-icon {
+	
+}
+
+.home-header-title {
+	margin: 30px 0px;
+	.bold-font();
+	.font-size(3.6);
+	color: @white;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.home-section {
+	padding: 65px 0px;
+}
+
+.home-section-icon {
+	width: 50%;
+	height: 50%;
+	
+	path {
+		fill: @grey;
+	}
 }
 
 //Content
@@ -25,8 +93,6 @@ body {
 #sidebar {
 	width: 270px;
 	color: @white;
-	background: @dark;
-	.gradient(@primary, 0%, @secondary, 100%);
 }
 
 #content {
