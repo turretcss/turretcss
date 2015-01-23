@@ -17,8 +17,20 @@
 		z-index: -1;
 		position: absolute;
 		opacity: 0;
+		
+		&:checked {
+			
+			~ .control-indicator {
+				background: @control-indicator-checked-background;
+				border: @control-indicator-checked-border;
+			}
+			
+			~ .control-label {
+				color: @control-label-checked-color;
+			}
+		}
 	}
-	
+
 	//Checkbox
 	&.checkbox {
 		
@@ -29,32 +41,7 @@
 		input:checked {
 			
 			~ .control-indicator {
-	
-				&:before,
-				&:after {
-					position: absolute;
-					width: 0.25em;
-					content: '';
-					background: @control-indicator-checked-background;
-				}
-				
-				&:before {
-					bottom: 0.2em;
-					left: 0.1em;
-					height: 0.5em;
-					.rotate(-50deg);
-				}
-				
-				&:after {
-					bottom: 0;
-					right: 0.25em;
-					height: 1.4em;
-					.rotate(40deg);
-				}
-			}
-			
-			~ .control-label {
-				color: @control-label-checked-color;
+				background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=');
 			}
 		}
 	}
@@ -68,10 +55,9 @@
 	
 		input:checked ~ .control-indicator:before {
 			.center();
-			background: @control-indicator-checked-background;
+			background: @white;
 			content: '';
-			width: 65%;
-			height: 65%;
+			.square(0.5em);
 			border-radius: @radio-border-radius;
 		}
 	}
@@ -87,7 +73,7 @@
 	line-height: 1rem;
 	color: @control-indicator-color;
 	text-align: center;
-	background: @control-indicator-background;
+	background-color: @control-indicator-background;
 	background-size: 50% 50%;
 	background-position: center center;
 	background-repeat: no-repeat;
