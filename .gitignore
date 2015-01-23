@@ -1,5 +1,5 @@
 .DS_Store
-dist/.turret.css-*
-docs/css/.style.css-*
+docs/css
+docs/css/styles.css
 npm-debug.log
 node_modules
