@@ -8,14 +8,14 @@ button,
 	font-family: @button-font-family;
 	font-weight: @button-font-weight;
 	.font-size(@button-font-size);
-	border: none;
 	line-height: @button-line-height;
 	color: @button-color;
 	text-align: @button-text-align;
 	text-transform: @button-text-transform;
-	background: @button-background;
 	white-space: nowrap;
 	cursor: pointer;
+	background: @button-background;
+	border: @button-border;
 	border-radius: @button-border-radius;
 	.transition(all @transition-fast ease-in-out);
 	
@@ -66,15 +66,17 @@ button,
  */
 
 
-//Button Primary
+//Button Inverse
 .button-inverse {
 	color: @button-inverse-color;
 	background: @button-inverse-background;
+	border: @button-inverse-border;
 
 	&:hover,
 	&:focus {
 		color: @button-inverse-hover-color;
 		background: @button-inverse-hover-background;
+		border: @button-inverse-hover-border;
 	}
 }
 
@@ -83,6 +85,7 @@ button,
 	padding: @button-padding-vertical @button-text-padding-horizontal;
 	color: @button-text-color;
 	background: transparent !important;
+	border: none !important;
 
 	&:hover,
 	&:focus {
@@ -94,11 +97,13 @@ button,
 .button-primary {
 	color: @button-primary-color;
 	background: @button-primary-background;
-	
+	border: @button-primary-border;
+
 	&:hover,
 	&:focus {
 		color: @button-primary-hover-color;
 		background: @button-primary-hover-background;
+		border: @button-primary-hover-border;
 	}
 }
 
@@ -106,11 +111,13 @@ button,
 .button-secondary {
 	color: @button-secondary-color;
 	background: @button-secondary-background;
+	border: @button-secondary-border;
 	
 	&:hover,
 	&:focus {
 		color: @button-secondary-hover-color;
 		background: @button-secondary-hover-background;
+		border: @button-secondary-hover-border;
 	}
 }
 
@@ -118,11 +125,13 @@ button,
 .button-tertiary {
 	color: @button-tertiary-color;
 	background: @button-tertiary-background;
+	border: @button-tertiary-border;
 	
 	&:hover,
 	&:focus {
 		color: @button-tertiary-hover-color;
 		background: @button-tertiary-hover-background;
+		border: @button-tertiary-hover-border;
 	}
 }
 
@@ -131,13 +140,74 @@ button,
 .button-border {
 	color: @button-border-color;
 	background: @button-border-background;
-	border: @button-border;
+	border: @button-border-border;
 	
 	&:hover,
 	&:focus {
 		color: @button-border-hover-color;
 		border: @button-border-hover-border;
 		background: @button-border-hover-background;
+	}
+}
+
+
+/*
+ * Button Indicators
+ */
+
+//Button Error
+.button-error {
+	color: @button-error-color;
+	background: @button-error-background;
+	border: @button-error-border;
+
+	&:hover,
+	&:focus {
+		color: @button-error-hover-color;
+		background: @button-error-hover-background;
+		border: @button-error-border;
+	}
+}
+
+//Button Warning
+.button-warning {
+	color: @button-warning-color;
+	background: @button-warning-background;
+	border: @button-warning-border;
+
+	&:hover,
+	&:focus {
+		color: @button-warning-hover-color;
+		background: @button-warning-hover-background;
+		border: @button-warning-border;
+	}
+}
+
+//Button Success
+.button-success {
+	color: @button-success-color;
+	background: @button-success-background;
+	border: @button-success-border;
+
+	&:hover,
+	&:focus {
+		color: @button-success-hover-color;
+		background: @button-success-hover-background;
+		border: @button-success-border;
+	}
+}
+
+//Button Info
+.button-info {
+	color: @button-info-color;
+	background: @button-info-background;
+	border: @button-info-border;
+
+	&:hover,
+	&:focus {
+		color: @button-info-hover-color;
+		background: @button-info-hover-background;
+		border: @button-info-border;
 	}
 }
 
