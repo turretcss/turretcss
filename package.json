@@ -1,6 +1,6 @@
 {
 	"name": "turret",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"author": "Scott de Jonge",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
 	"repository": {
