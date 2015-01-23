@@ -1,0 +1,112 @@
+/* Input Group */
+
+.input-group {
+	position: relative; // For dropdowns
+	display: table;
+	margin: @input-margin;
+	border-collapse: separate; // prevent input groups from inheriting border styles from table cells when placed within a table
+
+	&.input-inline {
+		float: left;
+	}
+
+	input:not([type="range"]):not([type="file"]) {
+		margin: 0;
+		.border-radiuses(@input-border-radius, 0, @input-border-radius, 0);
+	}
+
+	//Undo Column Padding and Float
+	&[class*="column-"] {
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.input-group-button,
+	.input-group .form-input {
+		display: table-cell;
+	}
+}
+
+//Input Group Button
+.input-group-button {
+	position: relative;
+	.font-size(0);
+	width: 1%;
+	white-space: nowrap;
+	vertical-align: middle;
+
+	// Negative margin for spacing, position for bringing hovered/focused/actived
+	// element above the siblings.
+	> .button {
+		position: relative;
+		height: @input-medium-height;
+		min-width: @input-medium-height;
+		.border-radiuses(0, @button-border-radius, 0, @button-border-radius);
+
+		+ .button {
+			margin-left: -1px;
+		}
+
+		// Bring the "active" button to the front
+		&:hover,
+		&:focus,
+		&:active {
+			z-index: 2;
+		}
+		
+		@media @medium {
+			padding: @input-button-small-padding;
+		}
+	}
+
+	// Negative margin to only have a 1px border between the two
+	&:first-child > .button {
+		margin-right: -1px;
+	}
+
+	&:last-child > .button {
+		margin-left: -1px;
+	}
+
+	//Button Sizes
+	&.input-group-button-small > .button {
+		.font-size(@label-small-font-size);
+		height: @input-small-height;
+		min-width: @input-small-height;
+	}
+
+	&.input-group-button-medium > .button {
+		.font-size(@label-medium-font-size);
+		height: @input-medium-height;
+		min-width: @input-medium-height;
+	}
+
+	&.input-group-button-large > .button {
+		.font-size(@label-large-font-size);
+		height: @input-large-height;
+		min-width: @input-large-height;
+	}
+
+	&.input-group-button-extra-large > .button {
+		.font-size(@label-extra-large-font-size);
+		height: @input-extra-large-height;
+		min-width: @input-extra-large-height;
+	}
+}
+
+//Input Group Search
+.input-group-search {
+	border-radius: @input-search-border-radius;
+	overflow: hidden;
+	
+	input:not([type="range"]):not([type="file"])[type="search"] {
+		padding-left: @input-search-border-radius;
+		.border-radiuses(@input-search-border-radius, 0, @input-search-border-radius, 0);
+	}
+	
+	.button {
+		padding-right: @input-search-border-radius;
+		.border-radiuses(0, @input-search-border-radius, 0, @input-search-border-radius);
+	}
+}

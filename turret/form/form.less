@@ -1,0 +1,57 @@
+/* Form */
+
+form {
+
+	//Reset height for `textarea`s
+	textarea {
+		height: auto;
+		line-height: @line-height;
+	}
+	
+	//Label
+	label {
+		display: block;
+		margin: @label-margin;
+		font-family: @label-font-family;
+		.font-size(@label-font-size);
+		color: @label-color;
+		line-height: @line-height;
+	}
+	
+	//Checkbox and Radio Buttons
+	input[type="checkbox"],
+	input[type="radio"] {
+		margin-right: 10px;
+		display: inline-block;
+
+		& + p {
+			margin: 0;
+			display: inline-block;
+		}
+
+		& + label {
+			display: inline-block;
+		}
+	}
+	
+	//Select
+	select {
+		display: block;
+		width: 100%;
+	}
+	
+	//Fieldset
+	fieldset {
+		display: block;
+		margin: @fieldset-margin;
+		padding: @fieldset-padding;
+		border: @fieldset-border;
+
+		legend {
+			display: inline-block;
+			padding: @fieldset-label-padding;
+			.font-size(@fieldset-label-font-size);
+			color: @fieldset-label-color;
+		}
+	}
+}

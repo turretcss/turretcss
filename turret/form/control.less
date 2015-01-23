@@ -1,0 +1,94 @@
+/* Controls (Radio + Checkbox) */
+
+.control {
+	position: relative;
+	display: block;
+	margin: @control-margin;
+	padding: @control-padding;
+	color: @control-color;
+	cursor: pointer;
+	
+	&.control-inline {
+		display: inline-block;
+	}
+	
+	//Visually Hide Input
+	input {
+		z-index: -1;
+		position: absolute;
+		opacity: 0;
+		
+		&:checked {
+			
+			~ .control-indicator {
+				background: @control-indicator-checked-background;
+				border: @control-indicator-checked-border;
+			}
+			
+			~ .control-label {
+				color: @control-label-checked-color;
+			}
+		}
+	}
+
+	//Checkbox
+	&.checkbox {
+		
+		.control-indicator {
+			border-radius: @checkbox-border-radius;
+		}
+	
+		input:checked {
+			
+			~ .control-indicator {
+				background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=');
+			}
+		}
+	}
+	
+	//Radio
+	&.radio {
+		
+		.control-indicator {
+			border-radius: @radio-border-radius;
+		}
+	
+		input:checked ~ .control-indicator:before {
+			.center();
+			background: @white;
+			content: '';
+			.square(0.5em);
+			border-radius: @radio-border-radius;
+		}
+	}
+}
+
+//Control Indicator
+.control-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	.square(@control-indicator-size);
+	line-height: 1rem;
+	color: @control-indicator-color;
+	text-align: center;
+	background-color: @control-indicator-background;
+	background-size: 50% 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: @control-indicator-border;
+	.user-select(none);
+}
+
+//Control Label
+.control-label {
+	display: block;
+	margin: @control-label-margin;
+	font-family: @control-label-font-family;
+	.font-size(@control-label-font-size);
+	color: @control-label-color;
+	line-height: @control-label-line-height;
+	pointer-events: none;
+	.transition(color @transition-fast ease-in-out);
+}

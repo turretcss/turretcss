@@ -1,0 +1,112 @@
+/* Input */
+
+input:not([type="range"]):not([type="file"]),
+textarea {
+	display: block;
+	width: 100%;
+	height: @input-height;
+	margin: @input-margin;
+	padding: @input-padding;
+	font-family: @input-font-family;
+	.font-size(@input-font-size);
+	color: @input-color;
+	line-height: @input-line-height;
+	border: @input-border;
+	background-color: @input-background;
+	background-image: none;
+	border-radius: @input-border-radius;
+	.transition(border @transition-fast ease-in-out);
+	.appearance(none);
+
+	//Override Normalise for Input Types
+	.box-sizing(border-box);
+
+	// Placeholder
+	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+
+	//Disabled
+	&:disabled {
+		cursor: no-drop;
+		color: @input-disabled-color;
+		border: @input-disabled-border;
+		background: @input-disabled-background;
+	}
+	
+	//Focus
+	&:focus {
+		border: @input-focus-border;
+		background: @input-focus-background;
+		
+		&.inverse {
+			color: @input-inverse-focus-color;
+			border: @input-inverse-focus-border;
+			background: @input-inverse-focus-background;
+		}
+	}
+	
+	//Error
+	&.error {
+		color: @input-error-color;
+		border-color: @input-error-color;
+	}
+	
+	//Warning
+	&.warning {
+		color: @input-warning-color;
+		border-color: @input-warning-color;
+	}
+	
+	//Success
+	&.success {
+		color: @input-success-color;
+		border-color: @input-success-color;
+	}
+	
+	//Info
+	&.info {
+		color: @input-info-color;
+		border-color: @input-info-color;
+	}
+}
+
+//Search
+input[type="search"] {
+	border-radius: @input-search-border-radius;
+}
+
+//Input Sizes
+input:not([type="range"]):not([type="file"]).input-small {
+	.font-size(@input-small-font-size);
+	height: @input-small-height;
+	padding: @input-small-padding;
+	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+input:not([type="range"]):not([type="file"]).input-medium {
+	.font-size(@input-medium-font-size);
+	height: @input-medium-height;
+	padding: @input-medium-padding;
+	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+input:not([type="range"]):not([type="file"]).input-large {
+	.font-size(@input-large-font-size);
+	height: @input-large-height;
+	padding: @input-large-padding;
+	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+input:not([type="range"]):not([type="file"]).input-extra-large {
+	.font-size(@input-extra-large-font-size);
+	height: @input-extra-large-height;
+	padding: @input-extra-large-padding;
+	.placeholder(@input-placeholder-color, @input-extra-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+//Input Inverse
+input:not([type="range"]):not([type="file"]).input-inverse {
+	color: @input-inverse-color;
+	border: @input-inverse-border;
+	background-color: @input-inverse-background;
+	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}

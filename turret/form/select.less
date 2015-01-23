@@ -1,0 +1,128 @@
+/* Select */
+
+.select {
+	position: relative;
+	display: block;
+	margin: @select-margin;
+	color: @select-background;
+	
+	//Select
+	select {
+		display: block;
+		margin: 0;
+		padding: @select-padding;
+		width: 100%;
+		height: @select-height;
+		line-height: 1;
+		font-family: @select-font-family;
+		.font-size(@select-font-size);
+		color: @select-color;
+		background: @select-background;
+		border: @select-border;
+		cursor: pointer;
+		outline: 0;
+		border-radius: @select-border-radius;
+		.appearance(none);
+		
+		//Undo the Firefox inner focus ring
+		&::-moz-focusring {
+			color: transparent;
+			text-shadow: 0 0 0 #000;
+		}
+		
+		//Hide the arrow in IE10 and up
+		&::-ms-expand {
+			display: none;
+		}
+	}
+	
+	//Dropdown Arrow
+	&:after {
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		margin-top: -(@select-arrow-size / 2);
+		width: 0;
+		height: 0;
+		content: '';
+		pointer-events: none;
+		border-left: @select-arrow-size solid transparent;
+		border-right: @select-arrow-size solid transparent;
+		border-top: @select-arrow-size solid @select-arrow-background;
+	}
+	
+	//Large Select
+	&.select-large {
+	
+		select {
+			padding: @select-large-padding;
+			height: @select-large-height;
+			.font-size(@select-large-font-size);
+		}
+	}
+	
+	//Inverse
+	&.select-inverse {
+	
+		select {
+			color: @select-inverse-color;
+			border: @select-inverse-border;
+			background-color: @select-inverse-background;
+		}
+		
+		&:after {
+			border-top: @select-arrow-size solid @select-inverse-arrow-background;
+		}
+	}
+}
+
+//IE9 hide the arrow
+@media @ie9-10 {
+
+	.select {
+	
+		select {
+			padding: 0.5em;
+		}
+		
+		&:before,
+		&:after {
+			display: none;
+		}
+	}
+}
+
+//Firefox hack to hide the arrow
+@-moz-document url-prefix() {
+	
+	//Firefox hack to hide the arrow (FF < 30)
+	.select select {
+		text-indent: 0.01px;
+		text-overflow: '';
+		padding-right: 1rem;
+	}
+	
+	//Firefox hack to hide the arrow (FF => 30)
+	.select:before {
+		z-index: 2;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		content: '';
+		pointer-events: none;
+		width: 1em;
+		border: @select-border;
+		border-width: 1px 1px 1px 0px;
+		background: @select-background;
+		.border-radiuses (0, @select-border-radius, 0, @select-border-radius);
+	}
+	
+	.select.large:before {
+		width: 1.5em;
+	}
+	
+	.select.inverse:before {
+		background: @select-inverse-background;
+	}
+}
