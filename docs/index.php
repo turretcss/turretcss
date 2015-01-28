@@ -16,14 +16,14 @@
 		<h2 class="section-title">Templates</h2>
 		<p>For an example of HTML markup using Turret styles here are a few templates:</p>
 		<div class="row">
-			<div class="column-1-4">
+			<div class="column-1-3">
 				<figure>
 					<div class="media media-1">
 						<a href="templates/page.html" target="_blank">
 							<img src="http://placehold.it/200" class="responsive">
 						</a>
 					</div>
-					<figcaption><a href="templates/page.html" target="_blank">Page</a></figcaption>
+					<figcaption><a href="/templates/page.html" target="_blank">Page</a></figcaption>
 				</figure>
 			</div>
 		</div>
