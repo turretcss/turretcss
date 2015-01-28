@@ -7,7 +7,7 @@
 	<h2 class="section-title">Licence</h2>
 	
 	<h3 class="section-sub-title">Code License</h3>
-	<p>Applies to code inside the <code>less</code> directory.</p>
+	<p>Applies to code inside the <code>turret</code> directory.</p>
 	<p>Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a></p>
 	
 	<h3 class="section-sub-title">Documentation License</h3>
