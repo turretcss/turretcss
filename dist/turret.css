@@ -1,5 +1,5 @@
 /*!
- * Turret v2.0.6 (http://turret.bigfish.tv)
+ * Turret v2.0.7 (http://turret.bigfish.tv)
  * Copyright 2014 Bigfish
  * Licensed under MIT
  */
@@ -5030,7 +5030,18 @@ form fieldset legend {
   background-clip: padding-box;
 }
 /* Input */
-input:not([type="range"]):not([type="file"]),
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="datetime"],
+input[type="datetime-local"],
 textarea {
   display: block;
   width: 100%;
@@ -5055,8 +5066,28 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  /*
+	 * Input Indicators
+	 */
+  /*
+	 * Input Sizes
+	 */
+  /*
+	 * Input Styles
+	 */
 }
-input:not([type="range"]):not([type="file"]):-moz-placeholder,
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="search"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="url"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="number"]:-moz-placeholder,
+input[type="date"]:-moz-placeholder,
+input[type="month"]:-moz-placeholder,
+input[type="week"]:-moz-placeholder,
+input[type="datetime"]:-moz-placeholder,
+input[type="datetime-local"]:-moz-placeholder,
 textarea:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5067,11 +5098,33 @@ textarea:-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]):focus:-moz-placeholder,
+input[type="text"]:focus:-moz-placeholder,
+input[type="email"]:focus:-moz-placeholder,
+input[type="search"]:focus:-moz-placeholder,
+input[type="tel"]:focus:-moz-placeholder,
+input[type="url"]:focus:-moz-placeholder,
+input[type="password"]:focus:-moz-placeholder,
+input[type="number"]:focus:-moz-placeholder,
+input[type="date"]:focus:-moz-placeholder,
+input[type="month"]:focus:-moz-placeholder,
+input[type="week"]:focus:-moz-placeholder,
+input[type="datetime"]:focus:-moz-placeholder,
+input[type="datetime-local"]:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"])::-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="date"]::-moz-placeholder,
+input[type="month"]::-moz-placeholder,
+input[type="week"]::-moz-placeholder,
+input[type="datetime"]::-moz-placeholder,
+input[type="datetime-local"]::-moz-placeholder,
 textarea::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5082,11 +5135,33 @@ textarea::-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]):focus::-moz-placeholder,
+input[type="text"]:focus::-moz-placeholder,
+input[type="email"]:focus::-moz-placeholder,
+input[type="search"]:focus::-moz-placeholder,
+input[type="tel"]:focus::-moz-placeholder,
+input[type="url"]:focus::-moz-placeholder,
+input[type="password"]:focus::-moz-placeholder,
+input[type="number"]:focus::-moz-placeholder,
+input[type="date"]:focus::-moz-placeholder,
+input[type="month"]:focus::-moz-placeholder,
+input[type="week"]:focus::-moz-placeholder,
+input[type="datetime"]:focus::-moz-placeholder,
+input[type="datetime-local"]:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]):-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder,
+input[type="month"]:-ms-input-placeholder,
+input[type="week"]:-ms-input-placeholder,
+input[type="datetime"]:-ms-input-placeholder,
+input[type="datetime-local"]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5097,11 +5172,33 @@ textarea:-ms-input-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]):focus:-ms-input-placeholder,
+input[type="text"]:focus:-ms-input-placeholder,
+input[type="email"]:focus:-ms-input-placeholder,
+input[type="search"]:focus:-ms-input-placeholder,
+input[type="tel"]:focus:-ms-input-placeholder,
+input[type="url"]:focus:-ms-input-placeholder,
+input[type="password"]:focus:-ms-input-placeholder,
+input[type="number"]:focus:-ms-input-placeholder,
+input[type="date"]:focus:-ms-input-placeholder,
+input[type="month"]:focus:-ms-input-placeholder,
+input[type="week"]:focus:-ms-input-placeholder,
+input[type="datetime"]:focus:-ms-input-placeholder,
+input[type="datetime-local"]:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"])::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="month"]::-webkit-input-placeholder,
+input[type="week"]::-webkit-input-placeholder,
+input[type="datetime"]::-webkit-input-placeholder,
+input[type="datetime-local"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5112,58 +5209,167 @@ textarea::-webkit-input-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]):focus::-webkit-input-placeholder,
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="email"]:focus::-webkit-input-placeholder,
+input[type="search"]:focus::-webkit-input-placeholder,
+input[type="tel"]:focus::-webkit-input-placeholder,
+input[type="url"]:focus::-webkit-input-placeholder,
+input[type="password"]:focus::-webkit-input-placeholder,
+input[type="number"]:focus::-webkit-input-placeholder,
+input[type="date"]:focus::-webkit-input-placeholder,
+input[type="month"]:focus::-webkit-input-placeholder,
+input[type="week"]:focus::-webkit-input-placeholder,
+input[type="datetime"]:focus::-webkit-input-placeholder,
+input[type="datetime-local"]:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]):disabled,
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="search"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+input[type="number"]:disabled,
+input[type="date"]:disabled,
+input[type="month"]:disabled,
+input[type="week"]:disabled,
+input[type="datetime"]:disabled,
+input[type="datetime-local"]:disabled,
 textarea:disabled {
   cursor: no-drop;
   color: #fafbfb;
   border: 1px solid #dee4e4;
   background: #fafbfb;
 }
-input:not([type="range"]):not([type="file"]):focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
 textarea:focus {
   border: 1px solid #b6bbc7;
   background: #fafafa;
 }
-input:not([type="range"]):not([type="file"]):focus.inverse,
+input[type="text"]:focus.inverse,
+input[type="email"]:focus.inverse,
+input[type="search"]:focus.inverse,
+input[type="tel"]:focus.inverse,
+input[type="url"]:focus.inverse,
+input[type="password"]:focus.inverse,
+input[type="number"]:focus.inverse,
+input[type="date"]:focus.inverse,
+input[type="month"]:focus.inverse,
+input[type="week"]:focus.inverse,
+input[type="datetime"]:focus.inverse,
+input[type="datetime-local"]:focus.inverse,
 textarea:focus.inverse {
   color: #ffffff;
   border: none;
   background: #444e5e;
 }
-input:not([type="range"]):not([type="file"]).error,
+input[type="text"].error,
+input[type="email"].error,
+input[type="search"].error,
+input[type="tel"].error,
+input[type="url"].error,
+input[type="password"].error,
+input[type="number"].error,
+input[type="date"].error,
+input[type="month"].error,
+input[type="week"].error,
+input[type="datetime"].error,
+input[type="datetime-local"].error,
 textarea.error {
   color: #e7555d;
   border-color: #e7555d;
 }
-input:not([type="range"]):not([type="file"]).warning,
+input[type="text"].warning,
+input[type="email"].warning,
+input[type="search"].warning,
+input[type="tel"].warning,
+input[type="url"].warning,
+input[type="password"].warning,
+input[type="number"].warning,
+input[type="date"].warning,
+input[type="month"].warning,
+input[type="week"].warning,
+input[type="datetime"].warning,
+input[type="datetime-local"].warning,
 textarea.warning {
   color: #f7ca2e;
   border-color: #f7ca2e;
 }
-input:not([type="range"]):not([type="file"]).success,
+input[type="text"].success,
+input[type="email"].success,
+input[type="search"].success,
+input[type="tel"].success,
+input[type="url"].success,
+input[type="password"].success,
+input[type="number"].success,
+input[type="date"].success,
+input[type="month"].success,
+input[type="week"].success,
+input[type="datetime"].success,
+input[type="datetime-local"].success,
 textarea.success {
   color: #4bb7ae;
   border-color: #4bb7ae;
 }
-input:not([type="range"]):not([type="file"]).info,
+input[type="text"].info,
+input[type="email"].info,
+input[type="search"].info,
+input[type="tel"].info,
+input[type="url"].info,
+input[type="password"].info,
+input[type="number"].info,
+input[type="date"].info,
+input[type="month"].info,
+input[type="week"].info,
+input[type="datetime"].info,
+input[type="datetime-local"].info,
 textarea.info {
   color: #69c3dd;
   border-color: #69c3dd;
 }
-input[type="search"] {
-  border-radius: 20px;
-}
-input:not([type="range"]):not([type="file"]).input-small {
+input[type="text"].input-small,
+input[type="email"].input-small,
+input[type="search"].input-small,
+input[type="tel"].input-small,
+input[type="url"].input-small,
+input[type="password"].input-small,
+input[type="number"].input-small,
+input[type="date"].input-small,
+input[type="month"].input-small,
+input[type="week"].input-small,
+input[type="datetime"].input-small,
+input[type="datetime-local"].input-small,
+textarea.input-small {
   font-size: 12px;
   font-size: 1.2rem;
   height: 30px;
   padding: 10px;
 }
-input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
+input[type="text"].input-small:-moz-placeholder,
+input[type="email"].input-small:-moz-placeholder,
+input[type="search"].input-small:-moz-placeholder,
+input[type="tel"].input-small:-moz-placeholder,
+input[type="url"].input-small:-moz-placeholder,
+input[type="password"].input-small:-moz-placeholder,
+input[type="number"].input-small:-moz-placeholder,
+input[type="date"].input-small:-moz-placeholder,
+input[type="month"].input-small:-moz-placeholder,
+input[type="week"].input-small:-moz-placeholder,
+input[type="datetime"].input-small:-moz-placeholder,
+input[type="datetime-local"].input-small:-moz-placeholder,
+textarea.input-small:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5173,10 +5379,34 @@ input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-small:focus:-moz-placeholder {
+input[type="text"].input-small:focus:-moz-placeholder,
+input[type="email"].input-small:focus:-moz-placeholder,
+input[type="search"].input-small:focus:-moz-placeholder,
+input[type="tel"].input-small:focus:-moz-placeholder,
+input[type="url"].input-small:focus:-moz-placeholder,
+input[type="password"].input-small:focus:-moz-placeholder,
+input[type="number"].input-small:focus:-moz-placeholder,
+input[type="date"].input-small:focus:-moz-placeholder,
+input[type="month"].input-small:focus:-moz-placeholder,
+input[type="week"].input-small:focus:-moz-placeholder,
+input[type="datetime"].input-small:focus:-moz-placeholder,
+input[type="datetime-local"].input-small:focus:-moz-placeholder,
+textarea.input-small:focus:-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
+input[type="text"].input-small::-moz-placeholder,
+input[type="email"].input-small::-moz-placeholder,
+input[type="search"].input-small::-moz-placeholder,
+input[type="tel"].input-small::-moz-placeholder,
+input[type="url"].input-small::-moz-placeholder,
+input[type="password"].input-small::-moz-placeholder,
+input[type="number"].input-small::-moz-placeholder,
+input[type="date"].input-small::-moz-placeholder,
+input[type="month"].input-small::-moz-placeholder,
+input[type="week"].input-small::-moz-placeholder,
+input[type="datetime"].input-small::-moz-placeholder,
+input[type="datetime-local"].input-small::-moz-placeholder,
+textarea.input-small::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5186,10 +5416,34 @@ input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-small:focus::-moz-placeholder {
+input[type="text"].input-small:focus::-moz-placeholder,
+input[type="email"].input-small:focus::-moz-placeholder,
+input[type="search"].input-small:focus::-moz-placeholder,
+input[type="tel"].input-small:focus::-moz-placeholder,
+input[type="url"].input-small:focus::-moz-placeholder,
+input[type="password"].input-small:focus::-moz-placeholder,
+input[type="number"].input-small:focus::-moz-placeholder,
+input[type="date"].input-small:focus::-moz-placeholder,
+input[type="month"].input-small:focus::-moz-placeholder,
+input[type="week"].input-small:focus::-moz-placeholder,
+input[type="datetime"].input-small:focus::-moz-placeholder,
+input[type="datetime-local"].input-small:focus::-moz-placeholder,
+textarea.input-small:focus::-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
+input[type="text"].input-small:-ms-input-placeholder,
+input[type="email"].input-small:-ms-input-placeholder,
+input[type="search"].input-small:-ms-input-placeholder,
+input[type="tel"].input-small:-ms-input-placeholder,
+input[type="url"].input-small:-ms-input-placeholder,
+input[type="password"].input-small:-ms-input-placeholder,
+input[type="number"].input-small:-ms-input-placeholder,
+input[type="date"].input-small:-ms-input-placeholder,
+input[type="month"].input-small:-ms-input-placeholder,
+input[type="week"].input-small:-ms-input-placeholder,
+input[type="datetime"].input-small:-ms-input-placeholder,
+input[type="datetime-local"].input-small:-ms-input-placeholder,
+textarea.input-small:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5199,10 +5453,34 @@ input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-small:focus:-ms-input-placeholder {
+input[type="text"].input-small:focus:-ms-input-placeholder,
+input[type="email"].input-small:focus:-ms-input-placeholder,
+input[type="search"].input-small:focus:-ms-input-placeholder,
+input[type="tel"].input-small:focus:-ms-input-placeholder,
+input[type="url"].input-small:focus:-ms-input-placeholder,
+input[type="password"].input-small:focus:-ms-input-placeholder,
+input[type="number"].input-small:focus:-ms-input-placeholder,
+input[type="date"].input-small:focus:-ms-input-placeholder,
+input[type="month"].input-small:focus:-ms-input-placeholder,
+input[type="week"].input-small:focus:-ms-input-placeholder,
+input[type="datetime"].input-small:focus:-ms-input-placeholder,
+input[type="datetime-local"].input-small:focus:-ms-input-placeholder,
+textarea.input-small:focus:-ms-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placeholder {
+input[type="text"].input-small::-webkit-input-placeholder,
+input[type="email"].input-small::-webkit-input-placeholder,
+input[type="search"].input-small::-webkit-input-placeholder,
+input[type="tel"].input-small::-webkit-input-placeholder,
+input[type="url"].input-small::-webkit-input-placeholder,
+input[type="password"].input-small::-webkit-input-placeholder,
+input[type="number"].input-small::-webkit-input-placeholder,
+input[type="date"].input-small::-webkit-input-placeholder,
+input[type="month"].input-small::-webkit-input-placeholder,
+input[type="week"].input-small::-webkit-input-placeholder,
+input[type="datetime"].input-small::-webkit-input-placeholder,
+input[type="datetime-local"].input-small::-webkit-input-placeholder,
+textarea.input-small::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
@@ -5212,16 +5490,52 @@ input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placehol
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-small:focus::-webkit-input-placeholder {
+input[type="text"].input-small:focus::-webkit-input-placeholder,
+input[type="email"].input-small:focus::-webkit-input-placeholder,
+input[type="search"].input-small:focus::-webkit-input-placeholder,
+input[type="tel"].input-small:focus::-webkit-input-placeholder,
+input[type="url"].input-small:focus::-webkit-input-placeholder,
+input[type="password"].input-small:focus::-webkit-input-placeholder,
+input[type="number"].input-small:focus::-webkit-input-placeholder,
+input[type="date"].input-small:focus::-webkit-input-placeholder,
+input[type="month"].input-small:focus::-webkit-input-placeholder,
+input[type="week"].input-small:focus::-webkit-input-placeholder,
+input[type="datetime"].input-small:focus::-webkit-input-placeholder,
+input[type="datetime-local"].input-small:focus::-webkit-input-placeholder,
+textarea.input-small:focus::-webkit-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-medium {
+input[type="text"].input-medium,
+input[type="email"].input-medium,
+input[type="search"].input-medium,
+input[type="tel"].input-medium,
+input[type="url"].input-medium,
+input[type="password"].input-medium,
+input[type="number"].input-medium,
+input[type="date"].input-medium,
+input[type="month"].input-medium,
+input[type="week"].input-medium,
+input[type="datetime"].input-medium,
+input[type="datetime-local"].input-medium,
+textarea.input-medium {
   font-size: 14px;
   font-size: 1.4rem;
   height: 40px;
   padding: 8px 12px;
 }
-input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
+input[type="text"].input-medium:-moz-placeholder,
+input[type="email"].input-medium:-moz-placeholder,
+input[type="search"].input-medium:-moz-placeholder,
+input[type="tel"].input-medium:-moz-placeholder,
+input[type="url"].input-medium:-moz-placeholder,
+input[type="password"].input-medium:-moz-placeholder,
+input[type="number"].input-medium:-moz-placeholder,
+input[type="date"].input-medium:-moz-placeholder,
+input[type="month"].input-medium:-moz-placeholder,
+input[type="week"].input-medium:-moz-placeholder,
+input[type="datetime"].input-medium:-moz-placeholder,
+input[type="datetime-local"].input-medium:-moz-placeholder,
+textarea.input-medium:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5231,10 +5545,34 @@ input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-medium:focus:-moz-placeholder {
+input[type="text"].input-medium:focus:-moz-placeholder,
+input[type="email"].input-medium:focus:-moz-placeholder,
+input[type="search"].input-medium:focus:-moz-placeholder,
+input[type="tel"].input-medium:focus:-moz-placeholder,
+input[type="url"].input-medium:focus:-moz-placeholder,
+input[type="password"].input-medium:focus:-moz-placeholder,
+input[type="number"].input-medium:focus:-moz-placeholder,
+input[type="date"].input-medium:focus:-moz-placeholder,
+input[type="month"].input-medium:focus:-moz-placeholder,
+input[type="week"].input-medium:focus:-moz-placeholder,
+input[type="datetime"].input-medium:focus:-moz-placeholder,
+input[type="datetime-local"].input-medium:focus:-moz-placeholder,
+textarea.input-medium:focus:-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
+input[type="text"].input-medium::-moz-placeholder,
+input[type="email"].input-medium::-moz-placeholder,
+input[type="search"].input-medium::-moz-placeholder,
+input[type="tel"].input-medium::-moz-placeholder,
+input[type="url"].input-medium::-moz-placeholder,
+input[type="password"].input-medium::-moz-placeholder,
+input[type="number"].input-medium::-moz-placeholder,
+input[type="date"].input-medium::-moz-placeholder,
+input[type="month"].input-medium::-moz-placeholder,
+input[type="week"].input-medium::-moz-placeholder,
+input[type="datetime"].input-medium::-moz-placeholder,
+input[type="datetime-local"].input-medium::-moz-placeholder,
+textarea.input-medium::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5244,10 +5582,34 @@ input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-medium:focus::-moz-placeholder {
+input[type="text"].input-medium:focus::-moz-placeholder,
+input[type="email"].input-medium:focus::-moz-placeholder,
+input[type="search"].input-medium:focus::-moz-placeholder,
+input[type="tel"].input-medium:focus::-moz-placeholder,
+input[type="url"].input-medium:focus::-moz-placeholder,
+input[type="password"].input-medium:focus::-moz-placeholder,
+input[type="number"].input-medium:focus::-moz-placeholder,
+input[type="date"].input-medium:focus::-moz-placeholder,
+input[type="month"].input-medium:focus::-moz-placeholder,
+input[type="week"].input-medium:focus::-moz-placeholder,
+input[type="datetime"].input-medium:focus::-moz-placeholder,
+input[type="datetime-local"].input-medium:focus::-moz-placeholder,
+textarea.input-medium:focus::-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder {
+input[type="text"].input-medium:-ms-input-placeholder,
+input[type="email"].input-medium:-ms-input-placeholder,
+input[type="search"].input-medium:-ms-input-placeholder,
+input[type="tel"].input-medium:-ms-input-placeholder,
+input[type="url"].input-medium:-ms-input-placeholder,
+input[type="password"].input-medium:-ms-input-placeholder,
+input[type="number"].input-medium:-ms-input-placeholder,
+input[type="date"].input-medium:-ms-input-placeholder,
+input[type="month"].input-medium:-ms-input-placeholder,
+input[type="week"].input-medium:-ms-input-placeholder,
+input[type="datetime"].input-medium:-ms-input-placeholder,
+input[type="datetime-local"].input-medium:-ms-input-placeholder,
+textarea.input-medium:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5257,10 +5619,34 @@ input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder 
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-medium:focus:-ms-input-placeholder {
+input[type="text"].input-medium:focus:-ms-input-placeholder,
+input[type="email"].input-medium:focus:-ms-input-placeholder,
+input[type="search"].input-medium:focus:-ms-input-placeholder,
+input[type="tel"].input-medium:focus:-ms-input-placeholder,
+input[type="url"].input-medium:focus:-ms-input-placeholder,
+input[type="password"].input-medium:focus:-ms-input-placeholder,
+input[type="number"].input-medium:focus:-ms-input-placeholder,
+input[type="date"].input-medium:focus:-ms-input-placeholder,
+input[type="month"].input-medium:focus:-ms-input-placeholder,
+input[type="week"].input-medium:focus:-ms-input-placeholder,
+input[type="datetime"].input-medium:focus:-ms-input-placeholder,
+input[type="datetime-local"].input-medium:focus:-ms-input-placeholder,
+textarea.input-medium:focus:-ms-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeholder {
+input[type="text"].input-medium::-webkit-input-placeholder,
+input[type="email"].input-medium::-webkit-input-placeholder,
+input[type="search"].input-medium::-webkit-input-placeholder,
+input[type="tel"].input-medium::-webkit-input-placeholder,
+input[type="url"].input-medium::-webkit-input-placeholder,
+input[type="password"].input-medium::-webkit-input-placeholder,
+input[type="number"].input-medium::-webkit-input-placeholder,
+input[type="date"].input-medium::-webkit-input-placeholder,
+input[type="month"].input-medium::-webkit-input-placeholder,
+input[type="week"].input-medium::-webkit-input-placeholder,
+input[type="datetime"].input-medium::-webkit-input-placeholder,
+input[type="datetime-local"].input-medium::-webkit-input-placeholder,
+textarea.input-medium::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5270,16 +5656,52 @@ input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeho
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-medium:focus::-webkit-input-placeholder {
+input[type="text"].input-medium:focus::-webkit-input-placeholder,
+input[type="email"].input-medium:focus::-webkit-input-placeholder,
+input[type="search"].input-medium:focus::-webkit-input-placeholder,
+input[type="tel"].input-medium:focus::-webkit-input-placeholder,
+input[type="url"].input-medium:focus::-webkit-input-placeholder,
+input[type="password"].input-medium:focus::-webkit-input-placeholder,
+input[type="number"].input-medium:focus::-webkit-input-placeholder,
+input[type="date"].input-medium:focus::-webkit-input-placeholder,
+input[type="month"].input-medium:focus::-webkit-input-placeholder,
+input[type="week"].input-medium:focus::-webkit-input-placeholder,
+input[type="datetime"].input-medium:focus::-webkit-input-placeholder,
+input[type="datetime-local"].input-medium:focus::-webkit-input-placeholder,
+textarea.input-medium:focus::-webkit-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-large {
+input[type="text"].input-large,
+input[type="email"].input-large,
+input[type="search"].input-large,
+input[type="tel"].input-large,
+input[type="url"].input-large,
+input[type="password"].input-large,
+input[type="number"].input-large,
+input[type="date"].input-large,
+input[type="month"].input-large,
+input[type="week"].input-large,
+input[type="datetime"].input-large,
+input[type="datetime-local"].input-large,
+textarea.input-large {
   font-size: 16px;
   font-size: 1.6rem;
   height: 50px;
   padding: 10px 20px;
 }
-input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
+input[type="text"].input-large:-moz-placeholder,
+input[type="email"].input-large:-moz-placeholder,
+input[type="search"].input-large:-moz-placeholder,
+input[type="tel"].input-large:-moz-placeholder,
+input[type="url"].input-large:-moz-placeholder,
+input[type="password"].input-large:-moz-placeholder,
+input[type="number"].input-large:-moz-placeholder,
+input[type="date"].input-large:-moz-placeholder,
+input[type="month"].input-large:-moz-placeholder,
+input[type="week"].input-large:-moz-placeholder,
+input[type="datetime"].input-large:-moz-placeholder,
+input[type="datetime-local"].input-large:-moz-placeholder,
+textarea.input-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5289,10 +5711,34 @@ input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-large:focus:-moz-placeholder {
+input[type="text"].input-large:focus:-moz-placeholder,
+input[type="email"].input-large:focus:-moz-placeholder,
+input[type="search"].input-large:focus:-moz-placeholder,
+input[type="tel"].input-large:focus:-moz-placeholder,
+input[type="url"].input-large:focus:-moz-placeholder,
+input[type="password"].input-large:focus:-moz-placeholder,
+input[type="number"].input-large:focus:-moz-placeholder,
+input[type="date"].input-large:focus:-moz-placeholder,
+input[type="month"].input-large:focus:-moz-placeholder,
+input[type="week"].input-large:focus:-moz-placeholder,
+input[type="datetime"].input-large:focus:-moz-placeholder,
+input[type="datetime-local"].input-large:focus:-moz-placeholder,
+textarea.input-large:focus:-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
+input[type="text"].input-large::-moz-placeholder,
+input[type="email"].input-large::-moz-placeholder,
+input[type="search"].input-large::-moz-placeholder,
+input[type="tel"].input-large::-moz-placeholder,
+input[type="url"].input-large::-moz-placeholder,
+input[type="password"].input-large::-moz-placeholder,
+input[type="number"].input-large::-moz-placeholder,
+input[type="date"].input-large::-moz-placeholder,
+input[type="month"].input-large::-moz-placeholder,
+input[type="week"].input-large::-moz-placeholder,
+input[type="datetime"].input-large::-moz-placeholder,
+input[type="datetime-local"].input-large::-moz-placeholder,
+textarea.input-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5302,10 +5748,34 @@ input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-large:focus::-moz-placeholder {
+input[type="text"].input-large:focus::-moz-placeholder,
+input[type="email"].input-large:focus::-moz-placeholder,
+input[type="search"].input-large:focus::-moz-placeholder,
+input[type="tel"].input-large:focus::-moz-placeholder,
+input[type="url"].input-large:focus::-moz-placeholder,
+input[type="password"].input-large:focus::-moz-placeholder,
+input[type="number"].input-large:focus::-moz-placeholder,
+input[type="date"].input-large:focus::-moz-placeholder,
+input[type="month"].input-large:focus::-moz-placeholder,
+input[type="week"].input-large:focus::-moz-placeholder,
+input[type="datetime"].input-large:focus::-moz-placeholder,
+input[type="datetime-local"].input-large:focus::-moz-placeholder,
+textarea.input-large:focus::-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
+input[type="text"].input-large:-ms-input-placeholder,
+input[type="email"].input-large:-ms-input-placeholder,
+input[type="search"].input-large:-ms-input-placeholder,
+input[type="tel"].input-large:-ms-input-placeholder,
+input[type="url"].input-large:-ms-input-placeholder,
+input[type="password"].input-large:-ms-input-placeholder,
+input[type="number"].input-large:-ms-input-placeholder,
+input[type="date"].input-large:-ms-input-placeholder,
+input[type="month"].input-large:-ms-input-placeholder,
+input[type="week"].input-large:-ms-input-placeholder,
+input[type="datetime"].input-large:-ms-input-placeholder,
+input[type="datetime-local"].input-large:-ms-input-placeholder,
+textarea.input-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5315,10 +5785,34 @@ input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-large:focus:-ms-input-placeholder {
+input[type="text"].input-large:focus:-ms-input-placeholder,
+input[type="email"].input-large:focus:-ms-input-placeholder,
+input[type="search"].input-large:focus:-ms-input-placeholder,
+input[type="tel"].input-large:focus:-ms-input-placeholder,
+input[type="url"].input-large:focus:-ms-input-placeholder,
+input[type="password"].input-large:focus:-ms-input-placeholder,
+input[type="number"].input-large:focus:-ms-input-placeholder,
+input[type="date"].input-large:focus:-ms-input-placeholder,
+input[type="month"].input-large:focus:-ms-input-placeholder,
+input[type="week"].input-large:focus:-ms-input-placeholder,
+input[type="datetime"].input-large:focus:-ms-input-placeholder,
+input[type="datetime-local"].input-large:focus:-ms-input-placeholder,
+textarea.input-large:focus:-ms-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placeholder {
+input[type="text"].input-large::-webkit-input-placeholder,
+input[type="email"].input-large::-webkit-input-placeholder,
+input[type="search"].input-large::-webkit-input-placeholder,
+input[type="tel"].input-large::-webkit-input-placeholder,
+input[type="url"].input-large::-webkit-input-placeholder,
+input[type="password"].input-large::-webkit-input-placeholder,
+input[type="number"].input-large::-webkit-input-placeholder,
+input[type="date"].input-large::-webkit-input-placeholder,
+input[type="month"].input-large::-webkit-input-placeholder,
+input[type="week"].input-large::-webkit-input-placeholder,
+input[type="datetime"].input-large::-webkit-input-placeholder,
+input[type="datetime-local"].input-large::-webkit-input-placeholder,
+textarea.input-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5328,16 +5822,52 @@ input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placehol
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-large:focus::-webkit-input-placeholder {
+input[type="text"].input-large:focus::-webkit-input-placeholder,
+input[type="email"].input-large:focus::-webkit-input-placeholder,
+input[type="search"].input-large:focus::-webkit-input-placeholder,
+input[type="tel"].input-large:focus::-webkit-input-placeholder,
+input[type="url"].input-large:focus::-webkit-input-placeholder,
+input[type="password"].input-large:focus::-webkit-input-placeholder,
+input[type="number"].input-large:focus::-webkit-input-placeholder,
+input[type="date"].input-large:focus::-webkit-input-placeholder,
+input[type="month"].input-large:focus::-webkit-input-placeholder,
+input[type="week"].input-large:focus::-webkit-input-placeholder,
+input[type="datetime"].input-large:focus::-webkit-input-placeholder,
+input[type="datetime-local"].input-large:focus::-webkit-input-placeholder,
+textarea.input-large:focus::-webkit-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-extra-large {
+input[type="text"].input-extra-large,
+input[type="email"].input-extra-large,
+input[type="search"].input-extra-large,
+input[type="tel"].input-extra-large,
+input[type="url"].input-extra-large,
+input[type="password"].input-extra-large,
+input[type="number"].input-extra-large,
+input[type="date"].input-extra-large,
+input[type="month"].input-extra-large,
+input[type="week"].input-extra-large,
+input[type="datetime"].input-extra-large,
+input[type="datetime-local"].input-extra-large,
+textarea.input-extra-large {
   font-size: 18px;
   font-size: 1.8rem;
   height: 65px;
   padding: 10px 25px;
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder {
+input[type="text"].input-extra-large:-moz-placeholder,
+input[type="email"].input-extra-large:-moz-placeholder,
+input[type="search"].input-extra-large:-moz-placeholder,
+input[type="tel"].input-extra-large:-moz-placeholder,
+input[type="url"].input-extra-large:-moz-placeholder,
+input[type="password"].input-extra-large:-moz-placeholder,
+input[type="number"].input-extra-large:-moz-placeholder,
+input[type="date"].input-extra-large:-moz-placeholder,
+input[type="month"].input-extra-large:-moz-placeholder,
+input[type="week"].input-extra-large:-moz-placeholder,
+input[type="datetime"].input-extra-large:-moz-placeholder,
+input[type="datetime-local"].input-extra-large:-moz-placeholder,
+textarea.input-extra-large:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -5347,10 +5877,34 @@ input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder 
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:focus:-moz-placeholder {
+input[type="text"].input-extra-large:focus:-moz-placeholder,
+input[type="email"].input-extra-large:focus:-moz-placeholder,
+input[type="search"].input-extra-large:focus:-moz-placeholder,
+input[type="tel"].input-extra-large:focus:-moz-placeholder,
+input[type="url"].input-extra-large:focus:-moz-placeholder,
+input[type="password"].input-extra-large:focus:-moz-placeholder,
+input[type="number"].input-extra-large:focus:-moz-placeholder,
+input[type="date"].input-extra-large:focus:-moz-placeholder,
+input[type="month"].input-extra-large:focus:-moz-placeholder,
+input[type="week"].input-extra-large:focus:-moz-placeholder,
+input[type="datetime"].input-extra-large:focus:-moz-placeholder,
+input[type="datetime-local"].input-extra-large:focus:-moz-placeholder,
+textarea.input-extra-large:focus:-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder {
+input[type="text"].input-extra-large::-moz-placeholder,
+input[type="email"].input-extra-large::-moz-placeholder,
+input[type="search"].input-extra-large::-moz-placeholder,
+input[type="tel"].input-extra-large::-moz-placeholder,
+input[type="url"].input-extra-large::-moz-placeholder,
+input[type="password"].input-extra-large::-moz-placeholder,
+input[type="number"].input-extra-large::-moz-placeholder,
+input[type="date"].input-extra-large::-moz-placeholder,
+input[type="month"].input-extra-large::-moz-placeholder,
+input[type="week"].input-extra-large::-moz-placeholder,
+input[type="datetime"].input-extra-large::-moz-placeholder,
+input[type="datetime-local"].input-extra-large::-moz-placeholder,
+textarea.input-extra-large::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -5360,10 +5914,34 @@ input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:focus::-moz-placeholder {
+input[type="text"].input-extra-large:focus::-moz-placeholder,
+input[type="email"].input-extra-large:focus::-moz-placeholder,
+input[type="search"].input-extra-large:focus::-moz-placeholder,
+input[type="tel"].input-extra-large:focus::-moz-placeholder,
+input[type="url"].input-extra-large:focus::-moz-placeholder,
+input[type="password"].input-extra-large:focus::-moz-placeholder,
+input[type="number"].input-extra-large:focus::-moz-placeholder,
+input[type="date"].input-extra-large:focus::-moz-placeholder,
+input[type="month"].input-extra-large:focus::-moz-placeholder,
+input[type="week"].input-extra-large:focus::-moz-placeholder,
+input[type="datetime"].input-extra-large:focus::-moz-placeholder,
+input[type="datetime-local"].input-extra-large:focus::-moz-placeholder,
+textarea.input-extra-large:focus::-moz-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeholder {
+input[type="text"].input-extra-large:-ms-input-placeholder,
+input[type="email"].input-extra-large:-ms-input-placeholder,
+input[type="search"].input-extra-large:-ms-input-placeholder,
+input[type="tel"].input-extra-large:-ms-input-placeholder,
+input[type="url"].input-extra-large:-ms-input-placeholder,
+input[type="password"].input-extra-large:-ms-input-placeholder,
+input[type="number"].input-extra-large:-ms-input-placeholder,
+input[type="date"].input-extra-large:-ms-input-placeholder,
+input[type="month"].input-extra-large:-ms-input-placeholder,
+input[type="week"].input-extra-large:-ms-input-placeholder,
+input[type="datetime"].input-extra-large:-ms-input-placeholder,
+input[type="datetime-local"].input-extra-large:-ms-input-placeholder,
+textarea.input-extra-large:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -5373,10 +5951,34 @@ input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeho
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:focus:-ms-input-placeholder {
+input[type="text"].input-extra-large:focus:-ms-input-placeholder,
+input[type="email"].input-extra-large:focus:-ms-input-placeholder,
+input[type="search"].input-extra-large:focus:-ms-input-placeholder,
+input[type="tel"].input-extra-large:focus:-ms-input-placeholder,
+input[type="url"].input-extra-large:focus:-ms-input-placeholder,
+input[type="password"].input-extra-large:focus:-ms-input-placeholder,
+input[type="number"].input-extra-large:focus:-ms-input-placeholder,
+input[type="date"].input-extra-large:focus:-ms-input-placeholder,
+input[type="month"].input-extra-large:focus:-ms-input-placeholder,
+input[type="week"].input-extra-large:focus:-ms-input-placeholder,
+input[type="datetime"].input-extra-large:focus:-ms-input-placeholder,
+input[type="datetime-local"].input-extra-large:focus:-ms-input-placeholder,
+textarea.input-extra-large:focus:-ms-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-placeholder {
+input[type="text"].input-extra-large::-webkit-input-placeholder,
+input[type="email"].input-extra-large::-webkit-input-placeholder,
+input[type="search"].input-extra-large::-webkit-input-placeholder,
+input[type="tel"].input-extra-large::-webkit-input-placeholder,
+input[type="url"].input-extra-large::-webkit-input-placeholder,
+input[type="password"].input-extra-large::-webkit-input-placeholder,
+input[type="number"].input-extra-large::-webkit-input-placeholder,
+input[type="date"].input-extra-large::-webkit-input-placeholder,
+input[type="month"].input-extra-large::-webkit-input-placeholder,
+input[type="week"].input-extra-large::-webkit-input-placeholder,
+input[type="datetime"].input-extra-large::-webkit-input-placeholder,
+input[type="datetime-local"].input-extra-large::-webkit-input-placeholder,
+textarea.input-extra-large::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -5386,15 +5988,51 @@ input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-pl
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-extra-large:focus::-webkit-input-placeholder {
+input[type="text"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="email"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="search"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="tel"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="url"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="password"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="number"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="date"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="month"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="week"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="datetime"].input-extra-large:focus::-webkit-input-placeholder,
+input[type="datetime-local"].input-extra-large:focus::-webkit-input-placeholder,
+textarea.input-extra-large:focus::-webkit-input-placeholder {
   color: rgba(72, 83, 100, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-inverse {
+input[type="text"].input-inverse,
+input[type="email"].input-inverse,
+input[type="search"].input-inverse,
+input[type="tel"].input-inverse,
+input[type="url"].input-inverse,
+input[type="password"].input-inverse,
+input[type="number"].input-inverse,
+input[type="date"].input-inverse,
+input[type="month"].input-inverse,
+input[type="week"].input-inverse,
+input[type="datetime"].input-inverse,
+input[type="datetime-local"].input-inverse,
+textarea.input-inverse {
   color: #ffffff;
   border: none;
   background-color: #485364;
 }
-input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
+input[type="text"].input-inverse:-moz-placeholder,
+input[type="email"].input-inverse:-moz-placeholder,
+input[type="search"].input-inverse:-moz-placeholder,
+input[type="tel"].input-inverse:-moz-placeholder,
+input[type="url"].input-inverse:-moz-placeholder,
+input[type="password"].input-inverse:-moz-placeholder,
+input[type="number"].input-inverse:-moz-placeholder,
+input[type="date"].input-inverse:-moz-placeholder,
+input[type="month"].input-inverse:-moz-placeholder,
+input[type="week"].input-inverse:-moz-placeholder,
+input[type="datetime"].input-inverse:-moz-placeholder,
+input[type="datetime-local"].input-inverse:-moz-placeholder,
+textarea.input-inverse:-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5404,10 +6042,34 @@ input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-inverse:focus:-moz-placeholder {
+input[type="text"].input-inverse:focus:-moz-placeholder,
+input[type="email"].input-inverse:focus:-moz-placeholder,
+input[type="search"].input-inverse:focus:-moz-placeholder,
+input[type="tel"].input-inverse:focus:-moz-placeholder,
+input[type="url"].input-inverse:focus:-moz-placeholder,
+input[type="password"].input-inverse:focus:-moz-placeholder,
+input[type="number"].input-inverse:focus:-moz-placeholder,
+input[type="date"].input-inverse:focus:-moz-placeholder,
+input[type="month"].input-inverse:focus:-moz-placeholder,
+input[type="week"].input-inverse:focus:-moz-placeholder,
+input[type="datetime"].input-inverse:focus:-moz-placeholder,
+input[type="datetime-local"].input-inverse:focus:-moz-placeholder,
+textarea.input-inverse:focus:-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
+input[type="text"].input-inverse::-moz-placeholder,
+input[type="email"].input-inverse::-moz-placeholder,
+input[type="search"].input-inverse::-moz-placeholder,
+input[type="tel"].input-inverse::-moz-placeholder,
+input[type="url"].input-inverse::-moz-placeholder,
+input[type="password"].input-inverse::-moz-placeholder,
+input[type="number"].input-inverse::-moz-placeholder,
+input[type="date"].input-inverse::-moz-placeholder,
+input[type="month"].input-inverse::-moz-placeholder,
+input[type="week"].input-inverse::-moz-placeholder,
+input[type="datetime"].input-inverse::-moz-placeholder,
+input[type="datetime-local"].input-inverse::-moz-placeholder,
+textarea.input-inverse::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5417,10 +6079,34 @@ input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-inverse:focus::-moz-placeholder {
+input[type="text"].input-inverse:focus::-moz-placeholder,
+input[type="email"].input-inverse:focus::-moz-placeholder,
+input[type="search"].input-inverse:focus::-moz-placeholder,
+input[type="tel"].input-inverse:focus::-moz-placeholder,
+input[type="url"].input-inverse:focus::-moz-placeholder,
+input[type="password"].input-inverse:focus::-moz-placeholder,
+input[type="number"].input-inverse:focus::-moz-placeholder,
+input[type="date"].input-inverse:focus::-moz-placeholder,
+input[type="month"].input-inverse:focus::-moz-placeholder,
+input[type="week"].input-inverse:focus::-moz-placeholder,
+input[type="datetime"].input-inverse:focus::-moz-placeholder,
+input[type="datetime-local"].input-inverse:focus::-moz-placeholder,
+textarea.input-inverse:focus::-moz-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder {
+input[type="text"].input-inverse:-ms-input-placeholder,
+input[type="email"].input-inverse:-ms-input-placeholder,
+input[type="search"].input-inverse:-ms-input-placeholder,
+input[type="tel"].input-inverse:-ms-input-placeholder,
+input[type="url"].input-inverse:-ms-input-placeholder,
+input[type="password"].input-inverse:-ms-input-placeholder,
+input[type="number"].input-inverse:-ms-input-placeholder,
+input[type="date"].input-inverse:-ms-input-placeholder,
+input[type="month"].input-inverse:-ms-input-placeholder,
+input[type="week"].input-inverse:-ms-input-placeholder,
+input[type="datetime"].input-inverse:-ms-input-placeholder,
+input[type="datetime-local"].input-inverse:-ms-input-placeholder,
+textarea.input-inverse:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5430,10 +6116,34 @@ input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-inverse:focus:-ms-input-placeholder {
+input[type="text"].input-inverse:focus:-ms-input-placeholder,
+input[type="email"].input-inverse:focus:-ms-input-placeholder,
+input[type="search"].input-inverse:focus:-ms-input-placeholder,
+input[type="tel"].input-inverse:focus:-ms-input-placeholder,
+input[type="url"].input-inverse:focus:-ms-input-placeholder,
+input[type="password"].input-inverse:focus:-ms-input-placeholder,
+input[type="number"].input-inverse:focus:-ms-input-placeholder,
+input[type="date"].input-inverse:focus:-ms-input-placeholder,
+input[type="month"].input-inverse:focus:-ms-input-placeholder,
+input[type="week"].input-inverse:focus:-ms-input-placeholder,
+input[type="datetime"].input-inverse:focus:-ms-input-placeholder,
+input[type="datetime-local"].input-inverse:focus:-ms-input-placeholder,
+textarea.input-inverse:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
 }
-input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeholder {
+input[type="text"].input-inverse::-webkit-input-placeholder,
+input[type="email"].input-inverse::-webkit-input-placeholder,
+input[type="search"].input-inverse::-webkit-input-placeholder,
+input[type="tel"].input-inverse::-webkit-input-placeholder,
+input[type="url"].input-inverse::-webkit-input-placeholder,
+input[type="password"].input-inverse::-webkit-input-placeholder,
+input[type="number"].input-inverse::-webkit-input-placeholder,
+input[type="date"].input-inverse::-webkit-input-placeholder,
+input[type="month"].input-inverse::-webkit-input-placeholder,
+input[type="week"].input-inverse::-webkit-input-placeholder,
+input[type="datetime"].input-inverse::-webkit-input-placeholder,
+input[type="datetime-local"].input-inverse::-webkit-input-placeholder,
+textarea.input-inverse::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5443,8 +6153,23 @@ input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeh
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-placeholder {
+input[type="text"].input-inverse:focus::-webkit-input-placeholder,
+input[type="email"].input-inverse:focus::-webkit-input-placeholder,
+input[type="search"].input-inverse:focus::-webkit-input-placeholder,
+input[type="tel"].input-inverse:focus::-webkit-input-placeholder,
+input[type="url"].input-inverse:focus::-webkit-input-placeholder,
+input[type="password"].input-inverse:focus::-webkit-input-placeholder,
+input[type="number"].input-inverse:focus::-webkit-input-placeholder,
+input[type="date"].input-inverse:focus::-webkit-input-placeholder,
+input[type="month"].input-inverse:focus::-webkit-input-placeholder,
+input[type="week"].input-inverse:focus::-webkit-input-placeholder,
+input[type="datetime"].input-inverse:focus::-webkit-input-placeholder,
+input[type="datetime-local"].input-inverse:focus::-webkit-input-placeholder,
+textarea.input-inverse:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
+}
+input[type="search"] {
+  border-radius: 20px;
 }
 /* Select */
 .select {

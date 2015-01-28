@@ -96,6 +96,16 @@ array (
 	'code' => '<label for="datetime-local">Datetime-local Input</label>
 <input type="datetime-local" id="datetime-local">',
 ),
+array (
+	'title' => 'Checkbox Input',
+	'code' => '<input id="checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
+<label for="checkbox">Checkbox Input</label>',
+),
+array (
+	'title' => 'Radio Input',
+	'code' => '<input id="radio" type="radio" name="radio" value="Radio Input">
+<label for="radio">Radio Input</label>',
+),
 );
 
 $inputs_states = array(
