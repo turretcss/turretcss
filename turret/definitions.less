@@ -421,7 +421,8 @@
 @input-border-color: @light-grey;
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
-@input-button-small-padding: 10px 15px;
+
+@input-button-small-padding: @button-small-padding-vertical @button-small-padding-horizontal;
 
 //Focus
 @input-focus-border: 1px solid darken(@input-border-color, 15%);
@@ -562,7 +563,7 @@
 @button-hover-border: 1px solid darken(@button-background, 15%);
 
 //Button Sizes
-@button-small-padding-vertical: 10px;
+@button-small-padding-vertical: 8px;
 @button-small-padding-horizontal: 15px;
 @button-small-height: 30px;
 @button-small-font-size: 1;
@@ -589,7 +590,7 @@
 @button-primary-color: @white;
 @button-primary-background: @primary;
 @button-primary-border: 1px solid darken(@primary, 5%);
-@button-primary-hover-color: @button-hover-color;
+@button-primary-hover-color: @button-primary-color;
 @button-primary-hover-background: darken(@primary, 10%);
 @button-primary-hover-border: 1px solid darken(@primary, 15%);
 
@@ -597,7 +598,7 @@
 @button-secondary-color: @white;
 @button-secondary-background: @secondary;
 @button-secondary-border: 1px solid darken(@secondary, 5%);
-@button-secondary-hover-color: @button-hover-color;
+@button-secondary-hover-color: @button-secondary-color;
 @button-secondary-hover-background: darken(@secondary, 10%);
 @button-secondary-hover-border: 1px solid darken(@secondary, 15%);
 
@@ -605,7 +606,7 @@
 @button-tertiary-color: @white;
 @button-tertiary-background: @tertiary;
 @button-tertiary-border: 1px solid darken(@tertiary, 5%);
-@button-tertiary-hover-color: @button-hover-color;
+@button-tertiary-hover-color: @button-tertiary-color;
 @button-tertiary-hover-background: darken(@tertiary, 10%);
 @button-tertiary-hover-border: 1px solid darken(@tertiary, 5%);
 

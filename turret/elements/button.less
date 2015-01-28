@@ -34,6 +34,67 @@ button,
 		background: @button-disabled-background;
 		border: @button-disabled-border;
 	}
+	
+	
+	/*
+	 * Button Indicators
+	 */
+	
+	//Button Error
+	&.error {
+		color: @button-error-color;
+		background: @button-error-background;
+		border: @button-error-border;
+	
+		&:hover,
+		&:focus {
+			color: @button-error-hover-color;
+			background: @button-error-hover-background;
+			border: @button-error-border;
+		}
+	}
+	
+	//Button Warning
+	&.warning {
+		color: @button-warning-color;
+		background: @button-warning-background;
+		border: @button-warning-border;
+	
+		&:hover,
+		&:focus {
+			color: @button-warning-hover-color;
+			background: @button-warning-hover-background;
+			border: @button-warning-border;
+		}
+	}
+	
+	//Button Success
+	&.success {
+		color: @button-success-color;
+		background: @button-success-background;
+		border: @button-success-border;
+	
+		&:hover,
+		&:focus {
+			color: @button-success-hover-color;
+			background: @button-success-hover-background;
+			border: @button-success-border;
+		}
+	}
+	
+	//Button Info
+	&.info {
+		color: @button-info-color;
+		background: @button-info-background;
+		border: @button-info-border;
+	
+		&:hover,
+		&:focus {
+			color: @button-info-hover-color;
+			background: @button-info-hover-background;
+			border: @button-info-border;
+		}
+	}
 }
 
 
@@ -149,67 +210,6 @@ button,
 		color: @button-border-hover-color;
 		border: @button-border-hover-border;
 		background: @button-border-hover-background;
-	}
-}
-
-
-/*
- * Button Indicators
- */
-
-//Button Error
-.button-error {
-	color: @button-error-color;
-	background: @button-error-background;
-	border: @button-error-border;
-
-	&:hover,
-	&:focus {
-		color: @button-error-hover-color;
-		background: @button-error-hover-background;
-		border: @button-error-border;
-	}
-}
-
-//Button Warning
-.button-warning {
-	color: @button-warning-color;
-	background: @button-warning-background;
-	border: @button-warning-border;
-
-	&:hover,
-	&:focus {
-		color: @button-warning-hover-color;
-		background: @button-warning-hover-background;
-		border: @button-warning-border;
-	}
-}
-
-//Button Success
-.button-success {
-	color: @button-success-color;
-	background: @button-success-background;
-	border: @button-success-border;
-
-	&:hover,
-	&:focus {
-		color: @button-success-hover-color;
-		background: @button-success-hover-background;
-		border: @button-success-border;
-	}
-}
-
-//Button Info
-.button-info {
-	color: @button-info-color;
-	background: @button-info-background;
-	border: @button-info-border;
-
-	&:hover,
-	&:focus {
-		color: @button-info-hover-color;
-		background: @button-info-hover-background;
-		border: @button-info-border;
 	}
 }
 

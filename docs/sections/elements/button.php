@@ -24,15 +24,15 @@
 <button class="button" disabled>disabled</button>'); ?></code></pre>
 
 	<h3 class="section-sub-title">Button Indicators</h3>
-	<button class="button button-error">Error</button>
-	<button class="button button-warning">Warning</button>
-	<button class="button button-success">Success</button>
-	<button class="button button-info">Info</button>
+	<button class="button error">Error</button>
+	<button class="button warning">Warning</button>
+	<button class="button success">Success</button>
+	<button class="button info">Info</button>
 	
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button button-error">Error</button>
-<button class="button button-warning">Warning</button>
-<button class="button button-success">Success</button>
-<button class="button button-info">Info</button>'); ?></code></pre>
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button error">Error</button>
+<button class="button warning">Warning</button>
+<button class="button success">Success</button>
+<button class="button info">Info</button>'); ?></code></pre>
 	
 	<h3 class="section-sub-title">Button Sizes</h3>
 	<button class="button button-small">Small</button>

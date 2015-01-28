@@ -54,10 +54,6 @@
 		&:active {
 			z-index: 2;
 		}
-		
-		@media @medium {
-			padding: @input-button-small-padding;
-		}
 	}
 
 	// Negative margin to only have a 1px border between the two
@@ -71,6 +67,7 @@
 
 	//Button Sizes
 	&.input-group-button-small > .button {
+		padding: @input-button-small-padding;
 		.font-size(@label-small-font-size);
 		height: @input-small-height;
 		min-width: @input-small-height;
