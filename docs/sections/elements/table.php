@@ -7,9 +7,9 @@ array (
 	<caption>Table Caption</caption>
 	<thead>
 		<tr>
-			<th>Vestibulum Sem Ipsum</th>
-			<th>Dolor Fringilla</th>
-			<th>Amet Mattis</th>
+			<th scope="col">Vestibulum Sem Ipsum</th>
+			<th scope="col">Dolor Fringilla</th>
+			<th scope="col">Amet Mattis</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -36,9 +36,9 @@ array (
 	'code' => '<table class="table-bordered">
 	<thead>
 		<tr>
-			<th>Vestibulum Sem Ipsum</th>
-			<th>Dolor Fringilla</th>
-			<th>Amet Mattis</th>
+			<th scope="col">Vestibulum Sem Ipsum</th>
+			<th scope="col">Dolor Fringilla</th>
+			<th scope="col">Amet Mattis</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -65,9 +65,9 @@ array (
 	'code' => '<table class="table-bordered table-block">
 	<thead>
 		<tr>
-			<th>Vestibulum Sem Ipsum</th>
-			<th>Dolor Fringilla</th>
-			<th>Amet Mattis</th>
+			<th scope="col">Vestibulum Sem Ipsum</th>
+			<th scope="col">Dolor Fringilla</th>
+			<th scope="col">Amet Mattis</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -94,9 +94,9 @@ array (
 	'code' => '<table class="table-bordered table-block table-responsive">
 	<thead>
 		<tr>
-			<th>Vestibulum Sem Ipsum</th>
-			<th>Dolor Fringilla</th>
-			<th>Amet Mattis</th>
+			<th scope="col">Vestibulum Sem Ipsum</th>
+			<th scope="col">Dolor Fringilla</th>
+			<th scope="col">Amet Mattis</th>
 		</tr>
 	</thead>
 	<tbody>
