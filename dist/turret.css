@@ -1,5 +1,5 @@
 /*!
- * Turret v2.0 (http://turret.bigfish.tv)
+ * Turret v2.0.6 (http://turret.bigfish.tv)
  * Copyright 2014 Bigfish
  * Licensed under MIT
  */
@@ -4984,11 +4984,6 @@ form fieldset legend {
 .input-group-button > .button:active {
   z-index: 2;
 }
-@media (max-width:  1024px) {
-  .input-group-button > .button {
-    padding: 10px 15px;
-  }
-}
 .input-group-button:first-child > .button {
   margin-right: -1px;
 }
@@ -4996,6 +4991,7 @@ form fieldset legend {
   margin-left: -1px;
 }
 .input-group-button.input-group-button-small > .button {
+  padding: 8px 15px;
   font-size: 12px;
   font-size: 1.2rem;
   height: 30px;
@@ -5635,6 +5631,9 @@ button,
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  /*
+	 * Button Indicators
+	 */
 }
 button:hover,
 .button:hover,
@@ -5651,11 +5650,67 @@ button:disabled,
   background: #fafbfb;
   border: #dee4e4;
 }
+button.error,
+.button.error {
+  color: #ffffff;
+  background: #e7555d;
+  border: 1px solid #e43f48;
+}
+button.error:hover,
+.button.error:hover,
+button.error:focus,
+.button.error:focus {
+  color: #ffffff;
+  background: #e12832;
+  border: 1px solid #e43f48;
+}
+button.warning,
+.button.warning {
+  color: #ffffff;
+  background: #f7ca2e;
+  border: 1px solid #f6c415;
+}
+button.warning:hover,
+.button.warning:hover,
+button.warning:focus,
+.button.warning:focus {
+  color: #ffffff;
+  background: #e9b709;
+  border: 1px solid #f6c415;
+}
+button.success,
+.button.success {
+  color: #ffffff;
+  background: #4bb7ae;
+  border: 1px solid #42a69e;
+}
+button.success:hover,
+.button.success:hover,
+button.success:focus,
+.button.success:focus {
+  color: #ffffff;
+  background: #3b948c;
+  border: 1px solid #42a69e;
+}
+button.info,
+.button.info {
+  color: #ffffff;
+  background: #69c3dd;
+  border: 1px solid #54bbd8;
+}
+button.info:hover,
+.button.info:hover,
+button.info:focus,
+.button.info:focus {
+  color: #ffffff;
+  background: #3fb2d4;
+  border: 1px solid #54bbd8;
+}
 /*
  * Button Sizes
  */
 .button-small {
-  padding: 10px 15px;
+  padding: 8px 15px;
   height: 30px;
   font-size: 10px;
   font-size: 1rem;
@@ -5703,7 +5758,7 @@ button:disabled,
 }
 .button-primary:hover,
 .button-primary:focus {
-  color: #485364;
+  color: #ffffff;
   background: #2c9cc2;
   border: 1px solid #278bad;
 }
@@ -5714,7 +5769,7 @@ button:disabled,
 }
 .button-secondary:hover,
 .button-secondary:focus {
-  color: #485364;
+  color: #ffffff;
   background: #2f999c;
   border: 1px solid #298688;
 }
@@ -5725,7 +5780,7 @@ button:disabled,
 }
 .button-tertiary:hover,
 .button-tertiary:focus {
-  color: #485364;
+  color: #ffffff;
   background: #0073a6;
   border: 1px solid #0084c0;
 }
@@ -5739,53 +5794,6 @@ button:disabled,
   color: #ffffff;
   border: 1px solid #485364;
   background: #485364;
-}
-/*
- * Button Indicators
- */
-.button-error {
-  color: #ffffff;
-  background: #e7555d;
-  border: 1px solid #e43f48;
-}
-.button-error:hover,
-.button-error:focus {
-  color: #ffffff;
-  background: #e12832;
-  border: 1px solid #e43f48;
-}
-.button-warning {
-  color: #ffffff;
-  background: #f7ca2e;
-  border: 1px solid #f6c415;
-}
-.button-warning:hover,
-.button-warning:focus {
-  color: #ffffff;
-  background: #e9b709;
-  border: 1px solid #f6c415;
-}
-.button-success {
-  color: #ffffff;
-  background: #4bb7ae;
-  border: 1px solid #42a69e;
-}
-.button-success:hover,
-.button-success:focus {
-  color: #ffffff;
-  background: #3b948c;
-  border: 1px solid #42a69e;
-}
-.button-info {
-  color: #ffffff;
-  background: #69c3dd;
-  border: 1px solid #54bbd8;
-}
-.button-info:hover,
-.button-info:focus {
-  color: #ffffff;
-  background: #3fb2d4;
-  border: 1px solid #54bbd8;
 }
 /*
  * Button Modifiers
