@@ -19,8 +19,8 @@
 			<div class="column-1-3">
 				<figure>
 					<div class="media media-1">
-						<a href="templates/page.html" target="_blank">
-							<img src="http://placehold.it/200" class="responsive">
+						<a href="/templates/page.html" target="_blank">
+							<img src="http://placehold.it/200/4BB3D6/FFFFFF" class="responsive">
 						</a>
 					</div>
 					<figcaption><a href="/templates/page.html" target="_blank">Page</a></figcaption>

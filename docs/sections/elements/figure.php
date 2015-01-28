@@ -5,7 +5,7 @@
 	<div class="column-1-3 column-center">
 		<figure>
 			<div class="media media-1">
-				<img src="http://placehold.it/200" class="responsive">
+				<img src="http://placehold.it/400/4BB3D6/FFFFFF" class="responsive">
 			</div>
 			<figcaption>Caption</figcaption>
 		</figure>

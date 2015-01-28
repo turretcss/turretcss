@@ -19,7 +19,7 @@
 <div class="row">
 	<div class="column-1-4">
 		<div class="media media-1">
-			<img src="http://placehold.it/200" class="responsive">
+			<img src="http://placehold.it/200/4BB3D6/FFFFFF" class="responsive">
 		</div>
 	</div>
 	<div class="column-1-4">
