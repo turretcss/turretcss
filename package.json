@@ -1,8 +1,19 @@
 {
 	"name": "bigfishtv-turret",
 	"version": "2.0.7",
-	"author": "Scott de Jonge",
+	"author": "Bigfish.tv",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
+	"keywords": [
+		"css",
+		"less",
+		"responsive",
+		"front-end",
+		"framework",
+		"web"
+	],
+	"homepage": "http://turret.bigfish.tv",
+	"style": "dist/turret.css",
+	"less": "turret/turret.less",
 	"repository": {
 		"type": "git",
 		"url": "git@code.bigfish.tv:turret.git"
