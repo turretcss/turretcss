@@ -1,6 +1,6 @@
 {
 	"name": "bigfishtv-turret",
-	"version": "2.0.7",
+	"version": "2.0.8",
 	"author": "Bigfish.tv",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
 	"keywords": [
@@ -16,7 +16,7 @@
 	"less": "turret/turret.less",
 	"repository": {
 		"type": "git",
-		"url": "git@code.bigfish.tv:turret.git"
+		"url": "https://github.com/bigfishtv/turret"
 	},
 	"dependencies": {
 		"less": "2.2.0"
