@@ -7,7 +7,7 @@
 		</svg>
 		<h1 class="home-header-title">Turret</h1>
 		<a class="button button-large button-border" href="/docs">Docs</a>
-		<a class="button button-large button-border" href="#">Github</a>
+		<a class="button button-large button-border" href="https://github.com/bigfishtv/turret">Github</a>
 		<p class="text-white"><strong>Version 2.0.7</strong></p>
 	</div>
 </header>
