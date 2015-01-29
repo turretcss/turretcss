@@ -1,6 +1,6 @@
 {
 	"name": "turret",
-	"version": "2.0.6",
+	"version": "2.0.7",
 	"author": "Scott de Jonge",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
 	"repository": {
@@ -8,12 +8,9 @@
 		"url": "git@code.bigfish.tv:turret.git"
 	},
 	"dependencies": {
-		"browserify": "latest",
-		"uglify-js": "latest",
 		"less": "2.2.0"
 	},
 	"devDependencies": {
-		"watchify": "latest",
 		"catw": "latest"
 	},
 	"scripts": {
