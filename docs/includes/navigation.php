@@ -2,11 +2,11 @@
 
 	$sections = array(
 		array(
-			'title' => 'Introduction',
-			'link' => 'introduction',
+			'title' => 'Getting Started',
+			'link' => 'getting-started',
 			'children' => array(
-				//'Usage' => 'usage',
-				//'Getting Started' => 'getting-started',
+				'Download' => 'download',
+				'Usage' => 'usage',
 				'Templates' => 'templates',
 			),
 		),
@@ -80,6 +80,11 @@
 		array(
 			'title' => 'Notes',
 			'link' => 'notes',
+			'children' => array(
+				'Contributors' => 'contributors',
+				'Licence' => 'licence',
+				'Licence Notes' => 'licence-notes',
+			),
 		),
 	);
 

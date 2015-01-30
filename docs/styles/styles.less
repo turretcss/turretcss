@@ -38,88 +38,11 @@ body {
 	.animation(gradient 30s infinite);
 }
 
-//Hero
-.home-header {
-	padding: 150px 0px;
-	text-align: center;
-	
-	.button-border {
-		color: @white;
-		border: 1px solid @white;
-		
-		&:hover,
-		&:focus {
-			color: @secondary;
-			background: @white;
-			border: 1px solid @white;
-		}
-	}
-}
-
-.home-header-icon {
-	
-}
-
-.home-header-title {
-	margin: 30px 0px;
-	.bold-font();
-	.font-size(3.6);
-	color: @white;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-}
-
-.home-section {
-	padding: 65px 0px;
-}
-
-.home-section-icon {
-	width: 50%;
-	height: 50%;
-	
-	path {
-		fill: @grey;
-	}
-}
-
-//Content
-#sidebar,
-#content {
-	float: left;
-	height: 100%;
-	.overflow-scroll();
-}
-
-#sidebar {
-	width: 270px;
-	color: @white;
-}
-
-#content {
-	padding: 0px 30px;
-	width: ~"calc(100% - 270px)";
-	background: @white;
-}
-
-h1.title {
-	margin: 100px 0px 50px;
-}
-
-.title-group {
-	
-	h1.title {
-		margin: 100px 0px 20px;
-	}
-	
-	p.lead {
-		margin: 20px 0px 50px;
-	}
-}
-
 //General
 code {
-	font-size: 12px !important;
+	font-size: 13px !important;
 	color: #07a;
+	vertical-align: middle;
 }
 
 small {
@@ -130,7 +53,7 @@ small {
 }
 
 pre {
-	margin: 30px 0px !important;
+	margin: 15px 0px !important;
 	padding: 10px !important;
 	background: transparent !important;
 	border: 1px solid @light-grey;
@@ -206,6 +129,99 @@ svg {
 	}
 }
 
+//Content
+#sidebar,
+#content {
+	float: left;
+	min-height: 100%;
+	.overflow-scroll();
+}
+
+#sidebar {
+	position: fixed;
+	width: 270px;
+	height: 100%;
+	color: @white;
+	.overflow-scroll();
+	
+	@media @mobile {
+		.translateX(-270px);
+		.transition-transform(@transition-fast ease-in-out);
+		
+		&.open {
+			.translateX(0);
+		}
+	}
+}
+
+#content {
+	padding: 0px 30px;
+	padding-left: 300px;
+	width: 100%;
+	background: @white;
+	
+	@media @mobile {
+		padding: 0px 15px;
+		width: 100%;
+		.transition-transform(@transition-fast ease-in-out);
+		
+		&.open {
+			.translateX(270px);
+		}
+	}
+}
+
+h1.title {
+	margin: 100px 0px 50px;
+	
+	@media @mobile {
+		margin: 35px 0px 35px;
+	}
+}
+
+.title-group {
+	
+	h1.title {
+		margin-bottom: 20px
+	}
+	
+	p.lead {
+		margin: 20px 0px 50px;
+	}
+}
+
+//Navigaiton Toggle
+.navigation-toggle {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	padding: 15px 13px;
+	background: @dark;
+	border: none;
+	border-radius: 0;
+	
+	.icon-bar {
+		display: block;
+		margin-bottom: 4px;
+		width: 24px;
+		height: 2px;
+		background: @white;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	&:hover,
+	&:focus {
+		background: @dark;
+		border: none;
+	}
+}
+
 //Navigation
 .navigation {
 	padding: 30px 0px;
@@ -258,6 +274,50 @@ svg {
 	}
 }
 
+//Hero
+.home-header {
+	padding: 150px 0px;
+	text-align: center;
+	
+	.button-border {
+		color: @white;
+		border: 1px solid @white;
+		
+		&:hover,
+		&:focus {
+			color: @secondary;
+			background: @white;
+			border: 1px solid @white;
+		}
+	}
+}
+
+.home-header-icon {
+	
+}
+
+.home-header-title {
+	margin: 30px 0px;
+	.bold-font();
+	.font-size(3.6);
+	color: @white;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.home-section {
+	padding: 65px 0px;
+}
+
+.home-section-icon {
+	width: 50%;
+	height: 50%;
+	
+	path {
+		fill: @grey;
+	}
+}
+
 //Section
 .section {
 	margin: 50px auto;
@@ -272,9 +332,9 @@ svg {
 		code {
 			margin-left: 15px;
 			padding: 0;
-			font-size: 12px;
 			background: none !important;
 			border: none;
+			vertical-align: baseline;
 		}
 	}
 	

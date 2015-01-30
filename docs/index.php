@@ -1,15 +1,48 @@
 <?php include('includes/head.php'); ?>
 
-
 <aside id="sidebar" class="gradient">
 	<?php include('includes/navigation.php'); ?>
 </aside>
 
 <main id="content">
 	
-	<section id="introduction" class="section">
-		<h1 class="title">Introduction</h1>
-		<p class="lead">A library of Documentation, Elements, and a Grid for rapid responsive website development.</p>
+	<button id="sidebar-toggle" class="navigation-toggle visible-mobile">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+
+	<section id="getting-started" class="section">
+		<h1 class="title">Getting Started</h1>
+		<p class="lead">A introduction to Turret, how to get started, how to download and use, as well as some simple templates.</p>
+	</section>
+	
+	<section id="download" class="section">
+		<h2 class="section-title">Download</h2>
+		<p>There are three quick start ways to download Turret available:</p>
+		<p><strong>Download the latest release</strong></p>
+		<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
+		<p><strong>Clone the repo</strong></p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('git clone https://github.com/bigfishtv/turret.git'); ?></code></pre>
+		<p><strong>Install with <a href="https://www.npmjs.org">npm</a></strong></p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm install bigfishtv-turret'); ?></code></pre>
+	</section>
+	
+	<section id="usage" class="section">
+		<h2 class="section-title">Usage</h2>
+		<p>Turret uses npm for it's build system with watch and build scripts for working locally and for deployment:</p>
+		<p><strong>Watch</strong></p>
+		<p>Watch Less files in <code>turret</code> concatenate and compile</p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run watch'); ?></code></pre>
+		<p><strong>Dist CSS</strong></p>
+		<p>Build Less files in <code>turret</code> concatenate and compile into <code>dist</code></p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist:css'); ?></code></pre>
+		<p><strong>Dist Min</strong></p>
+		<p>Build Less files in <code>turret</code> concatenate, compile, and minimise into <code>dist</code></p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist:min'); ?></code></pre>
+		<p><strong>Dist</strong></p>
+		<p>Run Dist CSS and Dist Min</p>
+		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist'); ?></code></pre>
 	</section>
 	
 	<section id="templates" class="section">
@@ -76,8 +109,11 @@
 		//Accessibility
 		include('sections/accessibility.php');
 		
-		//Notes
+		//Licence
 		include('sections/notes/notes.php');
+		include('sections/notes/contributors.php');
+		include('sections/notes/licence.php');
+		include('sections/notes/licence-notes.php');
 	?>
 	
 	<footer>
@@ -87,5 +123,7 @@
 </main>
 
 <div class="clearfix"></div>
+
+<script type="text/javascript" src="js/toggle.js"></script>
 
 <?php include('includes/footer.php'); ?>
