@@ -509,7 +509,7 @@
  */
 
 @select-margin: @input-margin;
-@select-padding: 12px 35px 12px 15px;
+@select-padding: 0px 12px;
 @select-height: @input-height;
 @select-font-family: @input-font-family;
 @select-font-size: @input-font-size;
@@ -522,10 +522,25 @@
 @select-arrow-size: 5px;
 @select-arrow-background: @primary;
 
+//Select Small
+@select-small-padding: 0px 10px;
+@select-small-height: @input-small-height;
+@select-small-font-size: @input-small-font-size;
+
+//Select Medium
+@select-medium-padding: @select-padding;
+@select-medium-height: @select-height;
+@select-medium-font-size: @select-font-size;
+
 //Select Large
-@select-large-padding: 16px 35px 16px 15px;
+@select-large-padding: 0px 20px;
 @select-large-height: @input-large-height;
-@select-large-font-size: @input-font-size;
+@select-large-font-size: @input-large-font-size;
+
+//Select Large
+@select-extra-large-padding: 0px 25px;
+@select-extra-large-height: @input-extra-large-height;
+@select-extra-large-font-size: @input-extra-large-font-size;
 
 //Select Inverse
 @select-inverse-color: @input-inverse-color;
