@@ -1,6 +1,6 @@
 <?php include('includes/head.php'); ?>
 
-<aside id="sidebar" class="gradient">
+<aside id="sidebar" class="sidebar gradient">
 	<?php include('includes/navigation.php'); ?>
 </aside>
 

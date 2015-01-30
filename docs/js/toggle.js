@@ -24,11 +24,13 @@
 var SidebarMenuEffects = (function() {
 
 	function hasParentClass( e, classname ) {
-		if(e === document) return false;
-		if( classie.has( e, classname ) ) {
+		if (e === document) return false;
+		
+		if (classie.has( e, classname)) {
 			return true;
 		}
-		return e.parentNode && hasParentClass( e.parentNode, classname );
+		
+		return e.parentNode && hasParentClass(e.parentNode, classname);
 	}
 
 	function mobilecheck() {
@@ -54,7 +56,7 @@ var SidebarMenuEffects = (function() {
 		},
 		
 		bodyClickFn = function(evt) {
-			if(!hasParentClass(evt.target, 'oc-menu')) {
+			if(!hasParentClass(evt.target, 'sidebar')) {
 				resetMenu();
 				document.removeEventListener(eventtype, bodyClickFn);
 			}
@@ -66,7 +68,7 @@ var SidebarMenuEffects = (function() {
 
 			container.className = ''; // clear
 			
-			setTimeout( function() {
+			setTimeout(function() {
 				classie.add(menu, 'open');
 				classie.add(container, 'open');
 			}, 25 );
