@@ -1,5 +1,5 @@
 /*!
- * Turret v2.0.8 (http://turret.bigfish.tv)
+ * Turret v2.0.9 (http://turret.bigfish.tv)
  * Copyright 2014 Bigfish
  * Licensed under MIT
  */
@@ -552,7 +552,7 @@ html {
 }
 @media (max-width: 767px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
 body {
@@ -6177,11 +6177,17 @@ input[type="search"] {
   display: block;
   margin: 15px 0px;
   color: #ffffff;
+  /*
+	 * Select Sizes
+	 */
+  /*
+	 * Select Styles
+	 */
 }
 .select select {
   display: block;
   margin: 0;
-  padding: 12px 35px 12px 15px;
+  padding: 0px 12px;
   width: 100%;
   height: 40px;
   line-height: 1;
@@ -6218,11 +6224,29 @@ input[type="search"] {
   border-right: 5px solid transparent;
   border-top: 5px solid #4bb3d6;
 }
-.select.select-large select {
-  padding: 16px 35px 16px 15px;
-  height: 50px;
+.select.select-small select {
+  padding: 0px 10px;
+  height: 30px;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.select.select-medium select {
+  padding: 0px 12px;
+  height: 40px;
   font-size: 14px;
   font-size: 1.4rem;
+}
+.select.select-large select {
+  padding: 0px 20px;
+  height: 50px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.select.select-extra-large select {
+  padding: 0px 25px;
+  height: 65px;
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 .select.select-inverse select {
   color: #ffffff;
