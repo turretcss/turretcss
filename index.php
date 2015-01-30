@@ -17,27 +17,32 @@
 		<div class="row">
 			<div class="column-1-2 column-medium-2-3 column-center">
 				<h1>Simple and Stylish</h1>
-				<p class="lead">Turret is a front-end styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
-				<p class="no-margin">Create accessible, semantic, and responsive websites easily with the power of Less and Turret.</p>
+				<p class="lead">Create accessible, semantic, and responsive websites easily with Turret.</p>
+				<p class="no-margin">Turret is a front-end styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
 			</div>
 		</div>
 		<hr class="divider">
 		<div class="row">
-			<div class="column-1-4">
+			<div class="column-1-4 gutter-bottom">
 				<h2>Responsive</h2>
 				<p>Turret has a simple and intuitive grid system and responsive utility classes for quick development using logical and legible markup.</p>
 			</div>
-			<div class="column-1-4">
+			<div class="column-1-4 gutter-bottom">
 				<h2>Design First</h2>
 				<p>Turret is focused on typography, font definitions, colour palettes, and indicators for intuitive user interfaces.</p>
 			</div>
-			<div class="column-1-4">
+			<div class="column-1-4 gutter-bottom">
 				<h2>No Javascript</h2>
 				<p>Turret is Less framework for styling native web elements. That's about it, no javascript, no custom markup, just semantic web elements.</p>
 			</div>
-			<div class="column-1-4">
+			<div class="column-1-4 gutter-bottom">
 				<h2>Semantic</h2>
-				<p>Turret is a </p>
+				<p>Write markup that is modular, maintainable, and semantic without having to inject classes or markup for the sake of styles.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-1-4 column-center gutter-bottom">
+				<a class="button button-large button-block button-border" href="/docs">Get started</a>
 			</div>
 		</div>
 	</div>

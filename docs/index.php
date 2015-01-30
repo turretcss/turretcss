@@ -45,7 +45,8 @@
 		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist'); ?></code></pre>
 	</section>
 	
-	<section id="templates" class="section">
+	<!--
+<section id="templates" class="section">
 		<h2 class="section-title">Templates</h2>
 		<p>For an example of HTML markup using Turret styles here are a few templates:</p>
 		<div class="row">
@@ -61,6 +62,7 @@
 			</div>
 		</div>
 	</section>
+-->
 	
 	<?php
 	

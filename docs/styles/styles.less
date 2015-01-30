@@ -224,7 +224,7 @@ h1.title {
 
 //Navigation
 .navigation {
-	padding: 30px 0px;
+	padding: 20px 0px;
 	
 	ul {
 		margin: 0;
@@ -239,7 +239,7 @@ h1.title {
 				display: block;
 				margin-left: 0;
 				padding: 10px 20px;
-				.font-size(1.4);
+				font-size: 15px;
 				font-weight: 600;
 				color: @light;
 				text-transform: uppercase;
@@ -264,8 +264,8 @@ h1.title {
 				li {
 				
 					a {
-						padding: 5px 12px;
-						.font-size(1.2);
+						padding: 6px 12px;
+						font-size: 13px;
 						text-transform: none;
 					}
 				}
@@ -276,8 +276,12 @@ h1.title {
 
 //Hero
 .home-header {
-	padding: 150px 0px;
+	padding: 80px 0px;
 	text-align: center;
+	
+	@media @large {
+		padding: 150px 0px;
+	}
 	
 	.button-border {
 		color: @white;
@@ -306,7 +310,7 @@ h1.title {
 }
 
 .home-section {
-	padding: 65px 0px;
+	padding-top: 65px;
 }
 
 .home-section-icon {
