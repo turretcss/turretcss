@@ -1,5 +1,5 @@
 /*!
- * Turret v2.0.9 (http://turret.bigfish.tv)
+ * Turret v2.0.10 (http://turret.bigfish.tv)
  * Copyright 2014 Bigfish
  * Licensed under MIT
  */
@@ -609,6 +609,52 @@ img.responsive {
 .no-border {
   border: none !important;
 }
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 1280px) {
+  .no-gutter-extra-large {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .no-gutter-large {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width:  1024px) {
+  .no-gutter-medium {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .no-gutter-medium-only {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .no-gutter-medium-landscape {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width:  1024px) and (orientation: portrait) {
+  .no-gutter-medium-portrait {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .no-gutter-small {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 /*
  * Display
  */
@@ -1063,6 +1109,11 @@ img.responsive {
 /*
  * Filters
  */
+/*
+ * Flexbox
+ * via: https://gist.github.com/jayj
+ * url: https://gist.github.com/jayj/4012969
+ */
 /* 
  * Typography 
  */
@@ -1296,12 +1347,6 @@ dl dd {
   margin-left: -15px;
   margin-right: -15px;
 }
-@media (max-width: 767px) {
-  .row {
-    margin-left: -7.5px;
-    margin-right: -7.5px;
-  }
-}
 .row:after {
   display: table;
   clear: both;
@@ -1432,10 +1477,6 @@ dl dd {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-}
-[class*='column-'].no-gutter {
-  padding-left: 0;
-  padding-right: 0;
 }
 [class*='column-'].column-center {
   float: none;
@@ -4844,6 +4885,7 @@ form fieldset legend {
   font-weight: 400;
   font-size: 12px;
   font-size: 1.2rem;
+  color: #485364;
   line-height: 1.5;
 }
 .form-message.error {
@@ -6411,7 +6453,7 @@ button.error:focus,
 .button.error:focus {
   color: #ffffff;
   background: #e12832;
-  border: 1px solid #e43f48;
+  border: 1px solid #d21e28;
 }
 button.warning,
 .button.warning {
@@ -6425,7 +6467,7 @@ button.warning:focus,
 .button.warning:focus {
   color: #ffffff;
   background: #e9b709;
-  border: 1px solid #f6c415;
+  border: 1px solid #d1a408;
 }
 button.success,
 .button.success {
@@ -6439,7 +6481,7 @@ button.success:focus,
 .button.success:focus {
   color: #ffffff;
   background: #3b948c;
-  border: 1px solid #42a69e;
+  border: 1px solid #34827b;
 }
 button.info,
 .button.info {
@@ -6453,7 +6495,7 @@ button.info:focus,
 .button.info:focus {
   color: #ffffff;
   background: #3fb2d4;
-  border: 1px solid #54bbd8;
+  border: 1px solid #2ea8cb;
 }
 /*
  * Button Sizes
