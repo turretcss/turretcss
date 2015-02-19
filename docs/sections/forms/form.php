@@ -112,6 +112,9 @@
 
 <h3 class="section-sub-title">Form Messages</h3>
 <form role="form">
+	<label for="title">Title</label>
+	<input type="text" id="title" placeholder="Title">
+	<p class="form-message">Title description</p>
 	<label for="first-name">First Name</label>
 	<input type="text" id="first-name" placeholder="Enter First Name" value="Scott">
 	<p class="form-message success">Cool first name</p>

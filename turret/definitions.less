@@ -16,10 +16,10 @@
 //Images
 @image-rounded-border-radius: 8px;
 
-//Z-Index Declarations
-@navigation-z-index: 100;
-@navigation-fixed-z-index: 100;
-@video-wrapper-z-index: 1900;
+//Z-Index
+@z-index-high: 999;
+@z-index-medium: 99;
+@z-index-low: 9;
 
 //Transitions
 @transition-fast: 0.2s;
@@ -370,6 +370,7 @@
 @form-message-font-family: @paragraph-font-family;
 @form-message-font-weight: @paragraph-font-weight;
 @form-message-font-size: 1.2;
+@form-message-color: @body-color;
 @form-message-line-height: @paragraph-line-height;
 
 //Form message Indicators
@@ -666,9 +667,10 @@
 //Button Info
 @button-info-color: @white;
 @button-info-background: @info;
+@button-info-border: 1px solid darken(@button-info-background, 5%);
 @button-info-hover-color: @button-info-color;
 @button-info-hover-background: darken(@button-info-background, 10%);
-@button-info-border: 1px solid darken(@button-info-background, 5%);
+@button-info-hover-border: 1px solid darken(@info, 15%);
 
 //Button Block
 @button-block-text-align: center;

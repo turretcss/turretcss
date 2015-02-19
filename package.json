@@ -1,6 +1,6 @@
 {
 	"name": "bigfishtv-turret",
-	"version": "2.0.9",
+	"version": "2.0.10",
 	"author": "Bigfish.tv",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
 	"keywords": [
@@ -22,13 +22,13 @@
 		"less": "2.2.0"
 	},
 	"devDependencies": {
-		"catw": "latest"
+		"watch": "^0.13.0"
 	},
 	"scripts": {
-		"watch": "catw -c 'lessc -' 'docs/styles/styles.less' -o docs/css/styles.css -v",
+		"watch": "watch \"npm run build\" \"docs/styles\"",
+		"build": "lessc -x docs/styles/styles.less > docs/css/styles.css",
 		"dist:css": "lessc turret/turret.less > dist/turret.css",
 		"dist:min": "lessc -x turret/turret.less > dist/turret.min.css",
-		"dist": "npm run dist:css && npm run dist:min",
-		"build": "lessc -x docs/styles/styles.less > docs/css/styles.css"
+		"dist": "npm run dist:css && npm run dist:min"
 	}
 }

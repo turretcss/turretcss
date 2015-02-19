@@ -241,8 +241,8 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Responsive Visiblity</h2>
-		<p>Define content to be <code>visible</code> or <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+	<h3 class="section-sub-title">Responsive Visibility</h2>
+	<p>Define content to be <code>visible</code> or <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -311,6 +311,50 @@
 				<td class="is-visible">Visible</td>
 				<td class="is-visible">Visible</td>
 				<td class="is-hidden">Hidden</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3 class="section-sub-title">Responsive Gutters</h2>
+	<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
+	<table class="table table-bordered table-block table-responsive">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
+				<th>Medium devices<br><small>Tablets (≥768px)</small></th>
+				<th>Large devices<br><small>Desktops (≥1024)</small></th>
+				<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><code>.no-gutter-small</code></td>
+				<td class="is-hidden">No gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+			</tr>
+			<tr>
+				<td><code>.no-gutter-medium</code></td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-hidden">No gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+			</tr>
+			<tr>
+				<td><code>.no-gutter-large</code></td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-hidden">No gutter</td>
+				<td class="is-visible">Gutter</td>
+			</tr>
+			<tr>
+				<td><code>.no-gutter-extra-large</code></td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-visible">Gutter</td>
+				<td class="is-hidden">No gutter</td>
 			</tr>
 		</tbody>
 	</table>
