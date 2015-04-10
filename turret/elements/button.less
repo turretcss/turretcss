@@ -20,8 +20,8 @@ button,
 	.transition(all @transition-fast ease-in-out);
 	
 	//Button Hover Styles
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-hover-color;
 		background: @button-hover-background;
 		border: @button-hover-border;
@@ -44,8 +44,8 @@ button,
 		background: @button-error-background;
 		border: @button-error-border;
 	
-		&:hover,
-		&:focus {
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
 			color: @button-error-hover-color;
 			background: @button-error-hover-background;
 			border: @button-error-hover-border;
@@ -58,8 +58,8 @@ button,
 		background: @button-warning-background;
 		border: @button-warning-border;
 	
-		&:hover,
-		&:focus {
+		&:hover:not(:disabled),
+		&:focus:not(:disabled):not(:disabled) {
 			color: @button-warning-hover-color;
 			background: @button-warning-hover-background;
 			border: @button-warning-hover-border;
@@ -72,8 +72,8 @@ button,
 		background: @button-success-background;
 		border: @button-success-border;
 	
-		&:hover,
-		&:focus {
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
 			color: @button-success-hover-color;
 			background: @button-success-hover-background;
 			border: @button-success-hover-border;
@@ -86,8 +86,8 @@ button,
 		background: @button-info-background;
 		border: @button-info-border;
 	
-		&:hover,
-		&:focus {
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
 			color: @button-info-hover-color;
 			background: @button-info-hover-background;
 			border: @button-info-hover-border;
@@ -133,8 +133,8 @@ button,
 	background: @button-inverse-background;
 	border: @button-inverse-border;
 
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-inverse-hover-color;
 		background: @button-inverse-hover-background;
 		border: @button-inverse-hover-border;
@@ -148,8 +148,8 @@ button,
 	background: transparent !important;
 	border: none !important;
 
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-text-hover-color;
 	}
 }
@@ -160,8 +160,8 @@ button,
 	background: @button-primary-background;
 	border: @button-primary-border;
 
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-primary-hover-color;
 		background: @button-primary-hover-background;
 		border: @button-primary-hover-border;
@@ -174,8 +174,8 @@ button,
 	background: @button-secondary-background;
 	border: @button-secondary-border;
 	
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-secondary-hover-color;
 		background: @button-secondary-hover-background;
 		border: @button-secondary-hover-border;
@@ -188,8 +188,8 @@ button,
 	background: @button-tertiary-background;
 	border: @button-tertiary-border;
 	
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-tertiary-hover-color;
 		background: @button-tertiary-hover-background;
 		border: @button-tertiary-hover-border;
@@ -203,8 +203,8 @@ button,
 	background: @button-border-background;
 	border: @button-border-border;
 	
-	&:hover,
-	&:focus {
+	&:hover:not(:disabled),
+	&:focus:not(:disabled) {
 		color: @button-border-hover-color;
 		border: @button-border-hover-border;
 		background: @button-border-hover-background;
