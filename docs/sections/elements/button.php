@@ -12,7 +12,6 @@
 	<button class="button button-tertiary">Tertiary</button>
 	<button class="button button-text">Text</button>
 	<button class="button button-border">Border</button>
-	<button class="button" disabled>disabled</button>
 	
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button">Button</button>
 <button class="button button-inverse">Inverse</button>
@@ -20,8 +19,24 @@
 <button class="button button-secondary">Secondary</button>
 <button class="button button-tertiary">Tertiary</button>
 <button class="button button-text">Text</button>
-<button class="button button-border">Border</button>
-<button class="button" disabled>disabled</button>'); ?></code></pre>
+<button class="button button-border">Border</button>'); ?></code></pre>
+
+	<h3 class="section-sub-title">Button Disabled</h3>
+	<button class="button" disabled>Button</button>
+	<button class="button button-inverse" disabled>Inverse</button>
+	<button class="button button-primary" disabled>Primary</button>
+	<button class="button button-secondary" disabled>Secondary</button>
+	<button class="button button-tertiary" disabled>Tertiary</button>
+	<button class="button button-text" disabled>Text</button>
+	<button class="button button-border" disabled>Border</button>
+	
+<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<button class="button" disabled>Button</button>
+<button class="button button-inverse" disabled>Inverse</button>
+<button class="button button-primary" disabled>Primary</button>
+<button class="button button-secondary" disabled>Secondary</button>
+<button class="button button-tertiary" disabled>Tertiary</button>
+<button class="button button-text" disabled>Text</button>
+<button class="button button-border" disabled>Border</button>'); ?></code></pre>
 
 	<h3 class="section-sub-title">Button Indicators</h3>
 	<button class="button error">Error</button>
