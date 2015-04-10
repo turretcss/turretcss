@@ -460,6 +460,12 @@
  * Transformations
  */
 
+.transform(@transform) {
+	-webkit-transform: @transform;
+	-ms-transform: @transform;
+	transform: @transform;
+}
+
 .rotate(@degrees) {
 	-webkit-transform: rotate(@degrees);
 	-ms-transform: rotate(@degrees);
