@@ -1,6 +1,6 @@
 {
 	"name": "bigfishtv-turret",
-	"version": "2.0.11",
+	"version": "2.0.12",
 	"author": "Bigfish.tv",
 	"description": "A responsive frontend framework build with LESS to normalize styles for default HTML elements",
 	"keywords": [
