@@ -28,14 +28,22 @@ small {
 pre {
 	margin: 15px 0px !important;
 	padding: 10px !important;
-	background: transparent !important;
-	border: 1px solid @light-grey;
+	background: @light !important;
+	//border: 1px solid @light !important;
 	
 	code {
 		padding: 0;
 		font-size: 12px !important;
-		color: @dark-grey !important;
+		color: @dark !important;
 		background: transparent !important;
+		text-shadow: none !important;
+
+		&:before {
+			padding: 2px 4px !important;
+			font-size: 10px !important;
+			color: @dark !important;
+			background: darken(@light, 5%) !important;
+		}
 	}
 }
 

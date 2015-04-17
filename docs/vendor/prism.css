@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+css-extras+clike+javascript+php */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+git+less&plugins=show-language */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -123,11 +123,36 @@ pre[class*="language-"] {
 	color: #e90;
 }
 
-.token.important {
+.token.important,
+.token.bold {
 	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
 }
 
 .token.entity {
 	cursor: help;
 }
 
+pre[class*='language-'] {
+	position: relative;
+}
+pre[class*='language-'] > code[data-language] {
+	overflow: auto;
+	max-height: 28em;
+	display: block;
+}
+pre[class*='language-'] > code[data-language]::before {
+	content: attr(data-language);
+	color: black;
+	background-color: #CFCFCF;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0.9em;
+	border-radius: 0 0 0 5px;
+	padding: 0 0.5em;
+	text-shadow: none;
+}

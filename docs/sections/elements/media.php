@@ -71,7 +71,7 @@
 
 <h3 class="section-sub-title">Media Ratio Mixin</h3>
 <p>To add custom media ratios use the <code>.media-ratio()</code> mixin.</p>
-<pre class="language-css"><code class="language-css"><?php echo htmlentities('.media-ratio(@width, @height) {
+<pre class="language-less"><code class="language-less"><?php echo htmlentities('.media-ratio(@width, @height) {
 	padding-top: (@height/@width) * 100%;
 }'); ?></code></pre>
 

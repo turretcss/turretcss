@@ -23,9 +23,9 @@
 		<p><strong>Download the latest release</strong></p>
 		<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
 		<p><strong>Clone the repo</strong></p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('git clone https://github.com/bigfishtv/turret.git'); ?></code></pre>
+		<pre class="language-git"><code class="language-git"><?php echo htmlentities('git clone https://github.com/bigfishtv/turret.git'); ?></code></pre>
 		<p><strong>Install with <a href="https://www.npmjs.org">npm</a></strong></p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm install bigfishtv-turret'); ?></code></pre>
+		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm install bigfishtv-turret'); ?></code></pre>
 	</section>
 	
 	<section id="usage" class="section">
@@ -33,16 +33,16 @@
 		<p>Turret uses npm for it's build system with watch and build scripts for working locally and for deployment:</p>
 		<p><strong>Watch</strong></p>
 		<p>Watch Less files in <code>turret</code> concatenate and compile</p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run watch'); ?></code></pre>
+		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run watch'); ?></code></pre>
 		<p><strong>Dist CSS</strong></p>
 		<p>Build Less files in <code>turret</code> concatenate and compile into <code>dist</code></p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist:css'); ?></code></pre>
+		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist:css'); ?></code></pre>
 		<p><strong>Dist Min</strong></p>
 		<p>Build Less files in <code>turret</code> concatenate, compile, and minimise into <code>dist</code></p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist:min'); ?></code></pre>
+		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist:min'); ?></code></pre>
 		<p><strong>Dist</strong></p>
 		<p>Run Dist CSS and Dist Min</p>
-		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('npm run dist'); ?></code></pre>
+		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist'); ?></code></pre>
 	</section>
 	
 	<!--
