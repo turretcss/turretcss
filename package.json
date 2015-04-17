@@ -25,7 +25,9 @@
     "watch": "^0.13.0"
   },
   "scripts": {
-    "watch": "watch \"npm run build\" \"docs/styles\"",
+    "watch:turret": "watch \"npm run build\" \"turret\"",
+    "watch:docs": "watch \"npm run build\" \"docs/styles/\"",
+    "watch": "npm run watch:turret && npm run watch:docs",
     "build": "lessc -x docs/styles/styles.less > docs/css/styles.css",
     "dist:css": "lessc turret/turret.less > dist/turret.css",
     "dist:min": "lessc -x turret/turret.less > dist/turret.min.css",
