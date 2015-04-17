@@ -7,7 +7,6 @@
 			'children' => array(
 				'Download' => 'download',
 				'Usage' => 'usage',
-				'Templates' => 'templates',
 			),
 		),
 		array(
