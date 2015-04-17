@@ -10,7 +10,7 @@
 		<li><a href="#">Item 4</a></li>
 	</ul>
 </nav>
-
+<pre class="language-less"><code class="language-less"><?php echo htmlentities('@nav-item-margin: 10px 0px;'); ?></code></pre>
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<nav>
 	<ul>
 		<li><a href="#">...</a></li>
@@ -27,7 +27,7 @@
 		<li><a href="#">Item 4</a></li>
 	</ul>
 </nav>
-
+<pre class="language-less"><code class="language-less"><?php echo htmlentities('@nav-inline-item-margin: 10px;'); ?></code></pre>
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<nav class="nav-inline">
 	<ul>
 		<li><a href="#">...</a></li>
