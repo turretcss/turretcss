@@ -33,6 +33,7 @@ array (
 ),
 array (
 	'title' => 'Search Input',
+	'definition' => '@input-search-border-radius: 20px;',
 	'code' => '<label for="search">Search Input</label>
 <input type="search" id="search" placeholder="Search" />',
 ),
@@ -161,7 +162,6 @@ array (
 @input-border: 1px solid @input-border-color;
 @input-border-color: @light-grey;
 @input-border-radius: @border-radius;
-@input-search-border-radius: 20px;
 
 @input-focus-border: 1px solid darken(@input-border-color, 15%);
 @input-focus-background: darken(@input-background, 2%);
