@@ -12,6 +12,7 @@
 <div class="row">
 	<div class="column-1-2 text-center">
 		<img src="http://placehold.it/200x200/4BB3D6/FFFFFF" class="rounded">
+		<pre class="language-less"><code class="language-less"><?php echo htmlentities('@image-rounded-border-radius: 8px;'); ?></code></pre>
 		<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<img src="..." class="rounded">'); ?></code></pre>
 	</div>
 	<div class="column-1-2 text-center">
