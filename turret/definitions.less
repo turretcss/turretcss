@@ -448,16 +448,40 @@
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
 
-@input-button-small-padding: @button-small-padding-vertical @button-small-padding-horizontal;
-
 //Focus
 @input-focus-border: 1px solid darken(@input-border-color, 15%);
 @input-focus-background: darken(@input-background, 2%);
 
+//Placeholder
+@input-placeholder-color: @input-color;
+@input-placeholder-font-size: @input-font-size;
+@input-placeholder-font-family: @input-font-family;
+@input-placeholder-line-height: @input-line-height;
+@input-placeholder-letter-spacing: 0px;
+@input-placeholder-text-transform: none;
+
+//Inverse
+@input-inverse-color: @white;
+@input-inverse-border: none;
+@input-inverse-background: @inverse;
+@input-inverse-focus-color: @input-inverse-color;
+@input-inverse-focus-border: @input-inverse-border;
+@input-inverse-focus-background: darken(@input-inverse-background, 2%);
+
+//Disabled
+@input-disabled-background: @light;
+@input-disabled-border: 1px solid darken(@light, 10%);
+@input-disabled-color: @light;
+
+
+/*
+ * Input Sizes
+ */
+
 //Input Small
 @input-small-height: 30px;
 @input-small-padding: 10px;
-@input-small-font-size: @label-small-font-size;
+@input-small-font-size: @font-size-small;
 
 //Input Medium
 @input-medium-height: @input-height;
