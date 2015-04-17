@@ -9,7 +9,14 @@
 		<div class="swatch background-dark-grey"><small>Dark Grey</small></div>
 		<div class="swatch background-black"><small>Black</small></div>
 	</div>
-	
+
+	<pre class="language-less"><code class="language-less"><?php echo htmlentities('@white: #FFFFFF;
+@black: #000000;
+@light-grey: #CCD1D9;
+@grey: #656D78;
+@dark-grey: #434A54;'); ?>
+	</code></pre>
+
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-white">...</div>
 <div class="background-light-grey">...</div>
 <div class="background-grey">...</div>
@@ -20,16 +27,22 @@
 	<!-- Indicators -->
 	<h3 class="section-sub-title">Indicators</h3>
 	<div class="swatches">
+		<div class="swatch background-info"><small>Info</small></div>
 		<div class="swatch background-error"><small>Error</small></div>
 		<div class="swatch background-warning"><small>Warning</small></div>
 		<div class="swatch background-success"><small>Success</small></div>
-		<div class="swatch background-info"><small>Info</small></div>
 	</div>
+
+	<pre class="language-less"><code class="language-less"><?php echo htmlentities('@info: #3BAFDA;
+@error: #DA4453;
+@warning: #F6BB42;
+@success: #2ECC71;'); ?>
+	</code></pre>
 	
-	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-error">...</div>
+	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-info">...</div>
+<div class="background-error">...</div>
 <div class="background-warning">...</div>
-<div class="background-success">...</div>
-<div class="background-info">...</div>'); ?>
+<div class="background-success">...</div>'); ?>
 	</code></pre>
 
 	<!-- Palette -->
@@ -41,6 +54,13 @@
 		<div class="swatch background-tertiary"><small>Tertiary</small></div>
 		<div class="swatch background-dark"><small>Dark</small></div>
 	</div>
+
+	<pre class="language-less"><code class="language-less"><?php echo htmlentities('@light: #F5F7FA;
+@dark: @dark-grey;
+@primary: #4BB3D6;
+@secondary: #967ADC;
+@tertiary: #D770AD;'); ?>
+	</code></pre>
 	
 	<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="background-light">...</div>
 <div class="background-primary">...</div>
