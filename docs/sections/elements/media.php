@@ -9,7 +9,7 @@
 		</div>
 	</div>
 </div>
-
+<pre class="language-less"><code class="language-less"><?php echo htmlentities('@media-background: @light;'); ?></code></pre>
 <pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<div class="media media-16-9">
 	<iframe>...</iframe>
 </div>'); ?></code></pre>
