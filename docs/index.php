@@ -85,6 +85,8 @@
 		
 		//Forms
 		include('sections/forms/form.php');
+		include('sections/forms/fieldset.php');
+		include('sections/forms/form-message.php');
 		include('sections/forms/input.php');
 		include('sections/forms/input-group.php');
 		include('sections/forms/control.php');

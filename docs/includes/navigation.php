@@ -40,6 +40,8 @@
 			'title' => 'Form',
 			'link' => 'form',
 			'children' => array(
+				'Fieldset' => 'fieldset',
+				'Form Message' => 'form-message',
 				'Input' => 'input',
 				'Input Group' => 'input-group',
 				'Control' => 'control',
