@@ -2,15 +2,15 @@
 
 table {
 	border-collapse: collapse;
-	background: @tables-background;
-	border-radius: @tables-border-radius;
+	background: @table-background;
+	border-radius: @table-border-radius;
 	
 	caption {
-		margin: @tables-caption-margin;
-		.font-size(@tables-caption-font-size);
-		font-weight: @tables-caption-font-weight;
-		color: @tables-caption-color;
-		text-align: @tables-caption-text-align;
+		margin: @table-caption-margin;
+		.font-size(@table-caption-font-size);
+		font-weight: @table-caption-font-weight;
+		color: @table-caption-color;
+		text-align: @table-caption-text-align;
 	}
 	
 	//Table Head
@@ -19,13 +19,13 @@ table {
 		tr {
 
 			th {
-				padding: @tables-head-padding;
-				font-family: @tables-head-font-family;
-				font-weight: @tables-head-font-weight;
-				.font-size(@tables-head-font-size);
-				color: @tables-head-color;
-				text-align: @tables-head-text-align;
-				text-transform: @tables-head-text-transform;
+				padding: @table-head-padding;
+				font-family: @table-head-font-family;
+				font-weight: @table-head-font-weight;
+				.font-size(@table-head-font-size);
+				color: @table-head-color;
+				text-align: @table-head-text-align;
+				text-transform: @table-head-text-transform;
 			}
 		}
 	}
@@ -36,11 +36,11 @@ table {
 		tr {
 
 			td {
-				padding: @tables-cell-padding;
-				.font-size(@tables-cell-font-size);
-				color: @tables-cell-color;
-				line-height: @tables-cell-line-height;
-				vertical-align: @tables-cell-vertical-align;
+				padding: @table-cell-padding;
+				.font-size(@table-cell-font-size);
+				color: @table-cell-color;
+				line-height: @table-cell-line-height;
+				vertical-align: @table-cell-vertical-align;
 			}
 		}
 	}
@@ -51,8 +51,8 @@ table {
 
 	th,
 	td {
-		border: @tables-border;
-		border-width: @tables-border-width;
+		border: @table-border;
+		border-width: @table-border-width;
 	}
 }
 
@@ -61,14 +61,14 @@ table {
 	width: 100%;
 
 	th {
-		background: @tables-head-background;
+		background: @table-block-head-background;
 	}
 }
 
 //Table Responsive
 .table-responsive {
 
-	@media @mobile {
+	@media @table-responsive-breakpoint {
 
 		//Force table to not be like tables anymore
 		table, thead, tbody, th, td, tr {
@@ -83,48 +83,16 @@ table {
 		}
 
 		tr {
-			margin-bottom: @gutter;
+			margin: @table-responsive-row-margin;
 			border: @table-responsive-border;
 			border-width: @table-responsive-border-width;
 		}
 
 		td {
 			//Behave  like a "row"
-			border: none;
-			padding: @table-responsive-padding;
 			position: relative;
-
-			//Display Title
-			&:first-child {
-				padding-top: @gutter;
-			}
+			padding: @table-responsive-cell-padding;
+			border: none;
 		}
-
-		td:before {
-			//Now like a table header
-			position: absolute;
-			//Top/left values mimic padding
-			top: @gutter;
-			left: @gutter;
-			width: 100%;
-			white-space: nowrap;
-			color: @primary;
-
-			//Display Title
-			&:first-child {
-				display: none;
-			}
-		}
-
-		/// Label the data
-		//td:nth-of-type(1):before { content: attr(data-label); }
-		td:nth-of-type(2):before { content: attr(data-label); }
-		td:nth-of-type(3):before { content: attr(data-label); }
-		td:nth-of-type(4):before { content: attr(data-label); }
-		td:nth-of-type(5):before { content: attr(data-label); }
-		td:nth-of-type(6):before { content: attr(data-label); }
-		td:nth-of-type(7):before { content: attr(data-label); }
-		td:nth-of-type(8):before { content: attr(data-label); }
-		td:nth-of-type(9):before { content: attr(data-label); }
 	}
 }
