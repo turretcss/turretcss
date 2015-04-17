@@ -14,7 +14,7 @@
 
 	<section id="getting-started" class="section">
 		<h1 class="title">Getting Started</h1>
-		<p class="lead">A introduction to Turret, how to get started, how to download and use, as well as some simple templates.</p>
+		<p class="lead">A introduction to Turret, how to get started, how to download and use.</p>
 	</section>
 	
 	<section id="download" class="section">
@@ -44,26 +44,7 @@
 		<p>Run Dist CSS and Dist Min</p>
 		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist'); ?></code></pre>
 	</section>
-	
-	<!--
-<section id="templates" class="section">
-		<h2 class="section-title">Templates</h2>
-		<p>For an example of HTML markup using Turret styles here are a few templates:</p>
-		<div class="row">
-			<div class="column-1-3">
-				<figure>
-					<div class="media media-1">
-						<a href="/templates/page.html" target="_blank">
-							<img src="http://placehold.it/200/4BB3D6/FFFFFF" class="responsive">
-						</a>
-					</div>
-					<figcaption><a href="/templates/page.html" target="_blank">Page</a></figcaption>
-				</figure>
-			</div>
-		</div>
-	</section>
--->
-	
+
 	<?php
 	
 		//General

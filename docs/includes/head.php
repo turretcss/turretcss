@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="shortcut icon" href="/docs/ico/favicon.ico" type="image/x-icon" />
 	<link rel="icon" href="/docs/ico/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="/docs/vendor/prism.css">
+	<link rel="stylesheet" href="/docs/css/prism.css">
 	<script src="/docs/vendor/prism.js"></script>
 	<link rel="stylesheet" type="text/css" href="/docs/css/styles.css" />
 	
