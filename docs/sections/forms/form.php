@@ -6,32 +6,15 @@
 </div>
 
 <h2 class="section-title">Form<code>forms/form.less</code></h2>
-<p>The styles within <code>form.less</code> include the fieldset styles as well as normalising form element behaviours, making controls display <code>inline-block</code>, <code>height: auto</code> for textareas, and making selects<code>display: block</code>.</p>
+<p>The styles within <code>form.less</code> include the fieldset styles as well as normalising form element behaviours, making controls display <code>inline-block</code>, <code>height: auto</code> for textareas, and making selects <code>display: block</code>.</p>
 
-<h3 class="section-sub-title">Fieldset</h3>
+<h3 class="section-sub-title">Label</h3>
 
-<form role="form">
-	<fieldset>
-		<legend>Login</legend>
-		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="Enter Email">
-		<label for="password">Password</label>
-		<input type="password" id="password" placeholder="Enter Password">
-		<button type="submit" class="button gutter-top">Submit</button>
-	</fieldset>
-</form>
-
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<form role="form">
-	<fieldset>
-		<legend>Login</legend>
-		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="Enter Email">
-		<label for="password">Password</label>
-		<input type="password" id="password" placeholder="Enter Password">
-		<button type="submit" class="button gutter-top">Submit</button>
-	</fieldset>
-</form>'); ?></code></pre>
-
+<pre class="language-less"><code class="language-less"><?php echo htmlentities('@label-margin: 15px 0px;
+@label-font-family: @semibold-font-family;
+@label-font-weight: @semibold-font-weight;
+@label-font-size: 1.2;
+@label-color: @dark;'); ?></code></pre>
 
 <h3 class="section-sub-title">Simple Example</h3>
 <form role="form">
@@ -108,42 +91,6 @@
 			<button type="submit" class="button">Submit</button>
 		</div>
 	</div>
-</form>'); ?></code></pre>
-
-<h3 class="section-sub-title">Form Messages</h3>
-<form role="form">
-	<label for="title">Title</label>
-	<input type="text" id="title" placeholder="Title">
-	<p class="form-message">Title description</p>
-	<label for="first-name">First Name</label>
-	<input type="text" id="first-name" placeholder="Enter First Name" value="Scott">
-	<p class="form-message success">Cool first name</p>
-	<label for="last-name">Last Name</label>
-	<input type="text" id="last-name" placeholder="Enter Last Name">
-	<p class="form-message error">Please enter a last name</p>
-	<label for="email">Email</label>
-	<input type="email" id="email" placeholder="Enter Email">
-	<p class="form-message info">Email address must include "@"</p>
-	<label for="password">Password</label>
-	<input type="password" id="password" placeholder="Enter Password" value="password">
-	<p class="form-message warning">Medium strengh password</p>
-	<button type="submit" class="button">Submit</button>
-</form>
-
-<pre class="language-markup"><code class="language-markup"><?php echo htmlentities('<form role="form">
-	<label for="first-name">First Name</label>
-	<input type="text" id="first-name" placeholder="Enter First Name" value="Scott">
-	<p class="form-message success">Cool first name</p>
-	<label for="last-name">Last Name</label>
-	<input type="text" id="last-name" placeholder="Enter Last Name">
-	<p class="form-message error">Please enter a last name</p>
-	<label for="email">Email</label>
-	<input type="email" id="email" placeholder="Enter Email">
-	<p class="form-message info">Email address must include "@"</p>
-	<label for="password">Password</label>
-	<input type="password" id="password" placeholder="Enter Password" value="password">
-	<p class="form-message warning">Medium strengh password</p>
-	<button type="submit" class="button">Submit</button>
 </form>'); ?></code></pre>
 
 </section>
