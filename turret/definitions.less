@@ -542,7 +542,6 @@
 @select-arrow-size: 5px;
 @select-arrow-background: @primary;
 
-
 //Select Inverse
 @select-inverse-color: @input-inverse-color;
 @select-inverse-border: @input-inverse-border;
@@ -583,7 +582,7 @@
 
 
 /*
- * Buttons
+ * Button
  */
 
 @button-padding-vertical: 12px;
@@ -604,11 +603,21 @@
 @button-hover-background: darken(@button-background, 10%);
 @button-hover-border: 1px solid darken(@button-background, 15%);
 
+
+/*
+ * Button Sizes
+ */
+
 //Button Sizes
 @button-small-padding-vertical: 8px;
 @button-small-padding-horizontal: 15px;
 @button-small-height: 30px;
 @button-small-font-size: 1;
+
+@button-medium-padding-vertical: @button-padding-vertical;
+@button-medium-padding-horizontal: @button-padding-horizontal;
+@button-medium-height: @button-height;
+@button-medium-font-size: @button-font-size;
 
 @button-large-padding-vertical: 15px;
 @button-large-padding-horizontal: 24px;
@@ -619,6 +628,11 @@
 @button-extra-large-padding-horizontal: 30px;
 @button-extra-large-height: 65px;
 @button-extra-large-font-size: 2;
+
+
+/*
+ * Button Themes
+ */
 
 //Button Inverse
 @button-inverse-color: @light;
@@ -666,6 +680,11 @@
 @button-text-color: @dark;
 @button-text-hover-color: @primary;
 
+
+/*
+ * Button States
+ */
+
 //Button Error
 @button-error-color: @white;
 @button-error-background: @error;
@@ -698,8 +717,18 @@
 @button-info-hover-background: darken(@button-info-background, 10%);
 @button-info-hover-border: 1px solid darken(@info, 15%);
 
+
+/*
+ * Button Block
+ */
+
 //Button Block
 @button-block-text-align: center;
+
+
+/*
+ * Button Disabled
+ */
 
 //Button Disabled
 @button-disabled-opacity: 0.5;
