@@ -103,11 +103,11 @@ svg {
 	font-weight: 600;
 	color: @white;
 	text-align: center;
-	background: @secondary;
+	background: @primary;
 	
 	&.grid-item-nested {
 		margin-bottom: 0;
-		background: @primary;
+		background: @tertiary;
 	}
 }
 
@@ -138,13 +138,15 @@ svg {
 }
 
 #content {
-	margin-left: 270px;
 	width: 100%;
-	max-width: 900px;
 	background: @white;
+
+	@media @large {
+		margin-left: 270px;
+		max-width: 900px;
+	}
 	
 	@media @mobile {
-		margin-left: 0;
 		padding: 0px 15px;
 		.transition-transform(@transition-fast ease-in-out);
 		
@@ -205,17 +207,13 @@ svg {
 				padding: 15px 20px;
 				.regular-font();
 				.font-size(1.6);
-				color: @primary;
+				color: @white;
 				.transition(all @transition-fast ease-in-out);
 				
 				&:hover,
 				&:focus {
 					color: @white;
 					margin-left: 2px;
-				}
-				
-				&:visited {
-					color: @primary;
 				}
 			}
 			
@@ -228,15 +226,10 @@ svg {
 					a {
 						padding: 6px 12px;
 						.font-size(1.3);
-						color: @white;
 
 						&:hover,
 						&:focus {
 							color: @primary;
-						}
-
-						&:visited {
-							color: @white;
 						}
 					}
 				}
@@ -289,7 +282,10 @@ svg {
 //Section
 .section {
 	margin: 35px 0px;
-	padding: 30px 50px;
+
+	@media @large {
+		padding: 30px 50px;
+	}
 	
 	.section-title {
 		margin-bottom: 35px;
@@ -313,56 +309,24 @@ svg {
 }
 
 //Tables
-table {
+.is-clear,
+.is-float {
+	text-transform: capitalize;
+}
 
-	&.table-block {
+.is-hidden,
+.is-float,
+.is-unsupported {
+	color: darken(@light, 30%) !important;
+	background: @light;
+}
 
-		th {
-			background: @light !important;
-		}
-
-		td {
-
-		}
-	}
-
-	th {
-		
-	}
+.is-hidden,
+.is-unsupported {
 	
-	tbody {
-		
-		th {
-			padding: 10px;
-		}
-	}
+}
 
-	tr {
-
-
-		td {
-
-			&.is-clear,
-			&.is-float {
-				text-transform: capitalize;
-			}
-
-			&.is-hidden,
-			&.is-float,
-			&.is-unsupported {
-				color: darken(@light, 30%) !important;
-				background: @light;
-			}
-
-			&.is-hidden,
-			&.is-unsupported {
-				
-			}
-
-			&.is-visible,
-			&.is-supported {
-				
-			}
-		}
-	}
+.is-visible,
+.is-supported {
+	
 }
