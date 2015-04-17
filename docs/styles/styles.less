@@ -13,7 +13,7 @@
 
 //General
 code {
-	font-size: 13px !important;
+	font-size: 13px;
 	color: #07a;
 	vertical-align: middle;
 }
@@ -22,28 +22,6 @@ small {
 	
 	code {
 		font-size: 10px !important;
-	}
-}
-
-pre {
-	margin: 15px 0px !important;
-	padding: 10px !important;
-	background: @light !important;
-	//border: 1px solid @light !important;
-	
-	code {
-		padding: 0;
-		font-size: 12px !important;
-		color: @dark !important;
-		background: transparent !important;
-		text-shadow: none !important;
-
-		&:before {
-			padding: 2px 4px !important;
-			font-size: 10px !important;
-			color: @dark !important;
-			background: darken(@light, 5%) !important;
-		}
 	}
 }
 
@@ -143,7 +121,7 @@ svg {
 
 	@media @large {
 		margin-left: 270px;
-		max-width: 900px;
+		max-width: 1024px;
 	}
 	
 	@media @mobile {
