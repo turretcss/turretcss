@@ -1,5 +1,4 @@
 .DS_Store
-docs/css
 docs/css/styles.css
 npm-debug.log
 node_modules
