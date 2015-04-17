@@ -1,5 +1,4 @@
-/* Form */
-
+// Form
 form {
 
 	//Reset height for `textarea`s
@@ -39,46 +38,5 @@ form {
 	select {
 		display: block;
 		width: 100%;
-	}
-	
-	//Fieldset
-	fieldset {
-		display: block;
-		margin: @fieldset-margin;
-		padding: @fieldset-padding;
-		border: @fieldset-border;
-
-		legend {
-			display: inline-block;
-			padding: @fieldset-label-padding;
-			.font-size(@fieldset-label-font-size);
-			color: @fieldset-label-color;
-		}
-	}
-}
-
-//Form Message
-.form-message {
-	margin: @form-message-margin;
-	font-size: @form-message-font-family;
-	font-weight: @form-message-font-weight;
-	.font-size(@form-message-font-size);
-	color: @form-message-color;
-	line-height: @form-message-line-height;
-	
-	&.error {
-		color: @form-message-error-color;
-	}
-	
-	&.warning {
-		color: @form-message-warning-color;
-	}
-	
-	&.success {
-		color: @form-message-success-color;
-	}
-	
-	&.info {
-		color: @form-message-info-color;
 	}
 }

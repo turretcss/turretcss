@@ -1,0 +1,14 @@
+//Fieldset
+fieldset {
+	display: block;
+	margin: @fieldset-margin;
+	padding: @fieldset-padding;
+	border: @fieldset-border;
+
+	legend {
+		display: inline-block;
+		padding: @fieldset-legend-padding;
+		.font-size(@fieldset-legend-font-size);
+		color: @fieldset-legend-color;
+	}
+}
