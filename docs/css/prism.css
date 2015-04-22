@@ -7,9 +7,9 @@ code[class*="language-"],
 pre[class*="language-"] {
 	direction: ltr;
 	font-family: monaco,Consolas,"Lucida Console",monospace;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 12px;
-	color: #656D78;
+	color: #F5F7FA;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -35,7 +35,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #F5F7FA;
+	background: #434A54;
 }
 
 /* Inline code */
@@ -52,7 +52,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-	color: #656D78;
+	color: #F5F7FA;
 }
 
 .namespace {
