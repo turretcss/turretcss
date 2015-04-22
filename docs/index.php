@@ -281,11 +281,49 @@
 		<pre class="language-less"><code class="language-less"><?php echo htmlentities('.media-ratio(@width, @height);'); ?></code></pre>
 	</section>
 
+	<!-- Figure -->
+	<section id="nav" class="section">
+		<h2 class="section-title">Nav<code>elements/nav.less</code></h2>
+		<?php definitions('nav'); ?>
+		<h3 class="section-sub-title">Nav</h3>
+		<p>For menu and navigation components use the <code><?php echo htmlentities('<nav>'); ?></code> element wrapped around an unordered list <code><?php echo htmlentities('<ul>'); ?></code>.</p>
+		<?php sample('nav'); ?>
+		<?php sample_code('nav'); ?>
+		<h3 class="section-sub-title">Nav Inline</h3>
+		<p>To display navigaiton inline add the <code><?php echo htmlentities('nav-inline'); ?></code> class to the <code><?php echo htmlentities('<nav>'); ?></code> element.</p>
+		<?php sample('nav-inline'); ?>
+		<?php sample_code('nav-inline'); ?>
+	</section>
+
+	<!-- Table -->
+	<section id="table" class="section">
+		<h2 class="section-title">Table<code>elements/table.less</code></h2>
+		<?php definitions('table'); ?>
+		<h3 class="section-sub-title">Table</h3>
+		<?php sample('table'); ?>
+		<?php sample_code('table'); ?>
+		<h3 class="section-sub-title">Table Border</h3>
+		<?php sample('table-border'); ?>
+		<?php sample_code('table-border'); ?>
+		<h3 class="section-sub-title">Table Block</h3>
+		<?php sample('table-block'); ?>
+		<?php sample_code('table-block'); ?>
+		<h3 class="section-sub-title">Table Responsive</h3>
+		<?php sample('table-responsive'); ?>
+		<?php sample_code('table-responsive'); ?>
+	</section>
+	
+	<!-- Utilities -->
+	<section id="utilities" class="section">
+		<div class="title-group">
+			<h1 class="title">Utilities</h1>
+			<p class="lead">Utility classes and mixins for normalisation and rapid frontend development.</p>
+		</div>
+		<h2 class="section-title">Utilities <code>utilities.less</code></h2>
+		<p>HI</p>
+	</section>
+
 	<?php
-		
-		//Elements
-		include('sections/elements/nav.php');
-		include('sections/elements/table.php');
 		
 		//Utilities
 		include('sections/utilities/utilities.php');
