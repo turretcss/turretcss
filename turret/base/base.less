@@ -1,0 +1,27 @@
+//General Styles
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+//Base Font Sizes
+html {
+	font-size: @base-font-size;
+	
+	@media @medium {
+		font-size: @base-medium-font-size;
+	}
+	
+	@media @small {
+		font-size: @base-small-font-size;
+	}
+}
+
+//Body Font and Color
+body {
+	font-family: @body-font-family;
+	color: @body-color;
+	background: @body-background;
+}
