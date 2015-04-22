@@ -1,7 +1,11 @@
-<?php include('includes/head.php'); ?>
+<?php
+	include_once('config.php');
+	include_once('functions.php');
+	include_once('includes/head.html'); 
+ ?>
 
-<aside id="sidebar" class="sidebar gradient">
-	<?php include('includes/navigation.php'); ?>
+<aside id="sidebar" class="sidebar">
+	<?php include('includes/navigation.html'); ?>
 </aside>
 
 <main id="content">
@@ -111,4 +115,4 @@
 
 <script type="text/javascript" src="js/toggle.js"></script>
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.html'); ?>
