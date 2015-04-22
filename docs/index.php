@@ -247,12 +247,43 @@
 		<?php sample_code('button-group-block'); ?>
 	</section>
 
+	<!-- Figure -->
+	<section id="figure" class="section">
+		<h2 class="section-title">Figure<code>elements/figure.less</code></h2>
+		<?php sample('figure'); ?>
+		<?php definitions('figure'); ?>
+		<?php sample_code('figure'); ?>
+	</section>
+
+	<!-- Media -->
+	<section id="media" class="section">
+		<h2 class="section-title">Media<code>elements/media.less</code></h2>
+		<p>The media frame is for content loaded after the document is ready. It stops layouts from jumping when media is being loaded.</p>
+		<p>The media frame wraps <code><?php echo htmlentities('<img>'); ?></code>, <code><?php echo htmlentities('<svg>'); ?></code>, <code><?php echo htmlentities('<video>'); ?></code>, and <code><?php echo htmlentities('<iframe>'); ?></code> by default, to wrap other content in a media container use the <code>media-inner</code> class. The <code>media-transparent</code> class removes the default background color on the media element.</p>
+		<?php sample('media'); ?>
+		<?php definitions('media'); ?>
+		<?php sample_code('media'); ?>
+		<h3 class="section-sub-title">Media Ratios</h3>
+		<p>By default the <code>media</code> element has the following common media type ratios:</p>
+		<ul class="list list-unstyled">
+			<li><code>media-1-2</code></li>
+			<li><code>media-9-16</code></li>
+			<li><code>media-9-14</code></li>
+			<li><code>media-2-3</code></li>
+			<li><code>media-3-4</code></li>
+			<li><code>media-1</code></li>
+			<li><code>media-4-3</code></li>
+			<li><code>media-3-2</code></li>
+			<li><code>media-16-9</code></li>
+			<li><code>media-2-1</code></li>
+		</ul>
+		<p>To add custom media ratios use the <code>.media-ratio()</code> mixin.</p>
+		<pre class="language-less"><code class="language-less"><?php echo htmlentities('.media-ratio(@width, @height);'); ?></code></pre>
+	</section>
 
 	<?php
 		
 		//Elements
-		include('sections/elements/figure.php');
-		include('sections/elements/media.php');
 		include('sections/elements/nav.php');
 		include('sections/elements/table.php');
 		
