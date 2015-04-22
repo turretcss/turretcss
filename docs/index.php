@@ -190,7 +190,7 @@
 
 	<!-- Button -->
 	<section id="button" class="section">
-		<h2 class="section-title">Button<code>forms/button.less</code></h2>
+		<h2 class="section-title">Button<code>elements/button.less</code></h2>
 		<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the element.</p>
 		<?php sample('button'); ?>
 		<?php definitions('button'); ?>
@@ -199,31 +199,58 @@
 		<?php sample('button-disabled'); ?>
 		<?php definitions('button-disabled'); ?>
 		<?php sample_code('button-disabled'); ?>
+		<h3 class="section-sub-title">Button Block</h3>
+		<?php sample('button-block'); ?>
+		<?php definitions('button-block'); ?>
+		<?php sample_code('button-block'); ?>
+		<h3 class="section-sub-title">Button Center</h3>
+		<p><strong>Note:</strong> for <code>.button-center</code> to work the containing element needs to have <code>text-align: center;</code></p>
+		<div class="text-center">
+			<?php sample('button-center'); ?>
+		</div>
+		<?php sample_code('button-center'); ?>
 	</section>
 
 	<!-- Button Styles -->
 	<section id="button-styles" class="section">
-		<h2 class="section-title">Button Styles<code>forms/button-styles.less</code></h2>
-		<?php sample('button-styles'); ?>
+		<h2 class="section-title">Button Styles<code>elements/button-styles.less</code></h2>
+		<?php sample('button-styles'); ?><br><br>
+		<?php sample('button-styles-disabled'); ?>
 		<?php definitions('button-styles'); ?>
 		<?php sample_code('button-styles'); ?>
 	</section>
 
 	<!-- Button Indicators -->
 	<section id="button-indicators" class="section">
-		<h2 class="section-title">Button Indicators<code>forms/button-indicators.less</code></h2>
-		<?php sample('button-indicators'); ?>
+		<h2 class="section-title">Button Indicators<code>elements/button-indicators.less</code></h2>
+		<?php sample('button-indicators'); ?><br><br>
+		<?php sample('button-indicators-disabled'); ?>
 		<?php definitions('button-indicators'); ?>
 		<?php sample_code('button-indicators'); ?>
+	</section>
+
+	<!-- Button Sizes -->
+	<section id="button-sizes" class="section">
+		<h2 class="section-title">Button Sizes<code>elements/button-sizes.less</code></h2>
+		<?php sample('button-sizes'); ?>
+		<?php definitions('button-sizes'); ?>
+		<?php sample_code('button-sizes'); ?>
+	</section>
+
+	<!-- Button Group -->
+	<section id="button-group" class="section">
+		<h2 class="section-title">Button Group<code>elements/button-group.less</code></h2>
+		<?php sample('button-group'); ?>
+		<?php sample_code('button-group'); ?>
+		<h3 class="section-sub-title">Button Group Block</h3>
+		<?php sample('button-group-block'); ?>
+		<?php sample_code('button-group-block'); ?>
 	</section>
 
 
 	<?php
 		
 		//Elements
-		//include('sections/elements/elements.php');
-		include('sections/elements/button.php');
-		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
 		include('sections/elements/media.php');
 		include('sections/elements/nav.php');
