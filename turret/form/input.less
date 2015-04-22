@@ -87,43 +87,6 @@ textarea {
 	
 	
 	/*
-	 * Input Sizes
-	 */
-	
-	//Input Small
-	&.input-small {
-		.font-size(@input-small-font-size);
-		height: @input-small-height;
-		padding: @input-small-padding;
-		.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Medium
-	&.input-medium {
-		.font-size(@input-medium-font-size);
-		height: @input-medium-height;
-		padding: @input-medium-padding;
-		.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Large
-	&.input-large {
-		.font-size(@input-large-font-size);
-		height: @input-large-height;
-		padding: @input-large-padding;
-		.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Extra Large
-	&.input-extra-large {
-		.font-size(@input-extra-large-font-size);
-		height: @input-extra-large-height;
-		padding: @input-extra-large-padding;
-		.placeholder(@input-placeholder-color, @input-extra-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	
-	/*
 	 * Input Styles
 	 */
 	
@@ -141,3 +104,24 @@ input[type="search"] {
 	border-radius: @input-search-border-radius;
 }
 
+//Checkbox and Radio Buttons
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: 10px;
+	display: inline-block;
+
+	& + p {
+		margin: 0;
+		display: inline-block;
+	}
+
+	& + label {
+		display: inline-block;
+	}
+}
+
+//Reset height for `textarea`s
+textarea {
+	height: auto;
+	line-height: @line-height;
+}

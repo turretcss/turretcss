@@ -1,5 +1,11 @@
 /* Select */
 
+
+select {
+	display: block;
+	width: 100%;
+}
+
 .select {
 	position: relative;
 	display: block;
@@ -8,10 +14,8 @@
 	
 	//Select
 	select {
-		display: block;
 		margin: 0;
 		padding: @select-padding;
-		width: 100%;
 		height: @select-height;
 		line-height: 1;
 		font-family: @select-font-family;
@@ -49,51 +53,6 @@
 		border-left: @select-arrow-size solid transparent;
 		border-right: @select-arrow-size solid transparent;
 		border-top: @select-arrow-size solid @select-arrow-background;
-	}
-	
-	
-	/*
-	 * Select Sizes
-	 */
-	
-	//Select Small
-	&.select-small {
-	
-		select {
-			padding: @select-small-padding;
-			height: @select-small-height;
-			.font-size(@select-small-font-size);
-		}
-	}
-	
-	//Select Medium
-	&.select-medium {
-	
-		select {
-			padding: @select-medium-padding;
-			height: @select-medium-height;
-			.font-size(@select-medium-font-size);
-		}
-	}
-	
-	//Select Large
-	&.select-large {
-	
-		select {
-			padding: @select-large-padding;
-			height: @select-large-height;
-			.font-size(@select-large-font-size);
-		}
-	}
-	
-	//Select Extra Large
-	&.select-extra-large {
-	
-		select {
-			padding: @select-extra-large-padding;
-			height: @select-extra-large-height;
-			.font-size(@select-extra-large-font-size);
-		}
 	}
 	
 	
