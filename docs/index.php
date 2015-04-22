@@ -86,8 +86,21 @@
 		<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 		<?php markup('<p class="lead">...</p>'); ?>
 		<h3>Text Align</h3>
-		<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
-		<?php markup('<p class="lead">...</p>'); ?>
+		<p class="text-left">Text Left</p>
+		<p class="text-center">Text Center</p>
+		<p class="text-right">Text Right</p>
+		<p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+		<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		<?php sample_code('text-align'); ?>
+		<h3>Text Transform</h3>
+		<?php sample('text-transform'); ?>
+		<?php sample_code('text-transform'); ?>
+		<h3>Strong</h3>
+		<p><strong>strong</strong></p>
+		<?php markup('<strong>...</strong>'); ?>
+		<h3>Emphasis</h3>
+		<p><em>emphasis</em></p>
+		<?php markup('<em>...</em>'); ?>
 	</section>
 
 	<?php
