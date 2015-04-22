@@ -5,6 +5,10 @@
 		echo '<code>' . htmlentities($string) . '</code>';
 	}
 
+	function markup($string) {
+		echo '<pre class="language-markup"><code class="language-markup">' . htmlentities($string) . '</code></pre>';
+	}
+
 	function sample($path) {
 		echo file_get_contents(SAMPLES . $path . '.html');
 	}

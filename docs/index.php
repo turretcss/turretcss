@@ -56,11 +56,37 @@
 		include('sections/general/images.php');
 		include('sections/general/colors.php');
 		include('sections/general/media-queries.php');
-		
-		//Base
-		include('sections/base/base.php');
-		include('sections/base/typography.php');
-		
+	?>
+
+	<!-- Base -->
+	<section id="base" class="section">
+		<div class="title-group">
+			<h1 class="title">Base</h1>
+			<p class="lead">Turret base styles for body, images, typography, basic generic typographic styles and responsive text scaling behaviour.</p>
+		</div>
+	</section>
+
+	<!-- Body -->
+	<section id="body" class="section">
+		<h2 class="section-title">Body<code>base/body.less</code></h2>
+		<p>Some top level defintions for general styles on the <?php code('<body>'); ?> tag.</p>
+		<?php definitions('body'); ?>
+	</section>
+
+	<!-- Typography -->
+	<section id="typography" class="section">
+		<h2 class="section-title">Typography<code>base/typography.less</code></h2>
+
+		<?php sample('typography'); ?>
+		<?php definitions('typography'); ?>
+		<?php sample_code('typography'); ?>
+		<h3 class="section-sub-title">Paragraph</h3>
+		<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+		<?php markup('<p>...</p>'); ?>
+	</section>
+
+	<?php
+
 		//Grid
 		include('sections/grid/grid.php');
 		include('sections/grid/column.php');
