@@ -1,0 +1,59 @@
+button,
+.button {
+	
+	//Button Error
+	&.error {
+		color: @button-error-color;
+		background: @button-error-background;
+		border: @button-error-border;
+	
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
+			color: @button-error-hover-color;
+			background: @button-error-hover-background;
+			border: @button-error-hover-border;
+		}
+	}
+	
+	//Button Warning
+	&.warning {
+		color: @button-warning-color;
+		background: @button-warning-background;
+		border: @button-warning-border;
+	
+		&:hover:not(:disabled),
+		&:focus:not(:disabled):not(:disabled) {
+			color: @button-warning-hover-color;
+			background: @button-warning-hover-background;
+			border: @button-warning-hover-border;
+		}
+	}
+	
+	//Button Success
+	&.success {
+		color: @button-success-color;
+		background: @button-success-background;
+		border: @button-success-border;
+	
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
+			color: @button-success-hover-color;
+			background: @button-success-hover-background;
+			border: @button-success-hover-border;
+		}
+	}
+	
+	//Button Info
+	&.info {
+		color: @button-info-color;
+		background: @button-info-background;
+		border: @button-info-border;
+	
+		&:hover:not(:disabled),
+		&:focus:not(:disabled) {
+			color: @button-info-hover-color;
+			background: @button-info-hover-background;
+			border: @button-info-hover-border;
+		}
+	}
+}

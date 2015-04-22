@@ -179,9 +179,49 @@
 		<?php definitions('select-sizes'); ?>
 		<?php sample_code('select-sizes'); ?>
 	</section>
+	
+	<!-- Elements -->
+	<section id="elements" class="section">
+		<div class="title-group">
+			<h1 class="title">Elements</h1>
+			<p class="lead">Set of elements including buttons, button-groups, figure, media, nav, and tables.</p>
+		</div>
+	</section>
+
+	<!-- Button -->
+	<section id="button" class="section">
+		<h2 class="section-title">Button<code>forms/button.less</code></h2>
+		<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the element.</p>
+		<?php sample('button'); ?>
+		<?php definitions('button'); ?>
+		<?php sample_code('button'); ?>
+		<h3 class="section-sub-title">Button Disabled</h3>
+		<?php sample('button-disabled'); ?>
+		<?php definitions('button-disabled'); ?>
+		<?php sample_code('button-disabled'); ?>
+	</section>
+
+	<!-- Button Styles -->
+	<section id="button-styles" class="section">
+		<h2 class="section-title">Button Styles<code>forms/button-styles.less</code></h2>
+		<?php sample('button-styles'); ?>
+		<?php definitions('button-styles'); ?>
+		<?php sample_code('button-styles'); ?>
+	</section>
+
+	<!-- Button Indicators -->
+	<section id="button-indicators" class="section">
+		<h2 class="section-title">Button Indicators<code>forms/button-indicators.less</code></h2>
+		<?php sample('button-indicators'); ?>
+		<?php definitions('button-indicators'); ?>
+		<?php sample_code('button-indicators'); ?>
+	</section>
+
+
+	<?php
 		
 		//Elements
-		include('sections/elements/elements.php');
+		//include('sections/elements/elements.php');
 		include('sections/elements/button.php');
 		include('sections/elements/button-group.php');
 		include('sections/elements/figure.php');
@@ -209,7 +249,12 @@
 	?>
 	
 	<footer>
-		<p class="text-center">Version 2.1 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
+		<p class="text-center">
+			Version 2.1 &middot; 
+			<a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> 
+			made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> 
+			at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a>
+		</p>
 	</footer>
 
 </main>
