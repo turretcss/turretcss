@@ -191,7 +191,7 @@
 	<!-- Button -->
 	<section id="button" class="section">
 		<h2 class="section-title">Button<code>elements/button.less</code></h2>
-		<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the element.</p>
+		<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the button element. Button styles can be set on an achor tag by using the <code>.button</code> class.</p>
 		<?php sample('button'); ?>
 		<?php definitions('button'); ?>
 		<?php sample_code('button'); ?>

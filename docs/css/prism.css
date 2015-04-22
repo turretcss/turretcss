@@ -6,7 +6,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	direction: ltr;
-	font-family: monaco,Consolas,"Lucida Console",monospace;
+	font-family: monaco,Consolas, "Lucida Console", monospace;
 	font-weight: bold;
 	font-size: 12px;
 	color: #F5F7FA;
