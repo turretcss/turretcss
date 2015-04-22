@@ -67,15 +67,118 @@
 		include('sections/grid/offset.php');
 		include('sections/grid/push.php');
 		include('sections/grid/pull.php');
-		
-		//Forms
-		include('sections/forms/form.php');
-		include('sections/forms/fieldset.php');
-		include('sections/forms/form-message.php');
-		include('sections/forms/input.php');
-		include('sections/forms/input-group.php');
-		include('sections/forms/control.php');
-		include('sections/forms/select.php');
+	?>
+	
+	<!-- Form -->
+	<section id="form" class="section">
+		<div class="title-group">
+			<h1 class="title">Form</h1>
+			<p class="lead">A collection of form elements including inputs, input-groups, radio and checkbox controls, and selects.</p>
+		</div>
+		<h3 class="section-sub-title">Simple Example</h3>
+		<?php sample('form-simple'); ?>
+		<?php sample_code('form-simple'); ?>
+		<h3 class="section-sub-title">Multi-Column Example</h3>
+		<?php sample('form-multi-column'); ?>
+		<?php sample_code('form-multi-column'); ?>
+	</section>
+
+	<!-- Label -->
+	<section id="label" class="section">
+		<h2 class="section-title">Label<code>forms/label.less</code></h2>
+		<?php sample('label'); ?>
+		<?php definitions('label'); ?>
+		<?php sample_code('label'); ?>
+	</section>
+	
+	<!-- Fieldset -->
+	<section id="fieldset" class="section">
+		<h2 class="section-title">Fieldset<code>forms/fieldset.less</code></h2>
+		<?php sample('fieldset'); ?>
+		<?php definitions('fieldset'); ?>
+		<?php sample_code('fieldset'); ?>
+	</section>
+
+	<!-- Form Message -->
+	<section id="form-message" class="section">
+		<h2 class="section-title">Form Message<code>forms/form-message.less</code></h2>
+		<?php sample('form-message'); ?>
+		<?php definitions('form-message'); ?>
+		<?php sample_code('form-message'); ?>
+	</section>
+
+	<!-- Input -->
+	<section id="input" class="section">
+		<h2 class="section-title">Input<code>forms/input.less</code></h2>
+		<?php sample('input'); ?>
+		<?php definitions('input'); ?>
+		<?php sample_code('input'); ?>
+	</section>
+
+	<!-- Input Sizes -->
+	<section id="input-sizes" class="section">
+		<h2 class="section-title">Input Sizes<code>forms/input-sizes.less</code></h2>
+		<?php sample('input-sizes'); ?>
+		<?php definitions('input-sizes'); ?>
+		<?php sample_code('input-sizes'); ?>
+	</section>
+
+	<!-- Input Group -->
+	<section id="input-group" class="section">
+		<h2 class="section-title">Input Group<code>forms/input-group.less</code></h2>
+		<h3 class="section-sub-title">Input Group</h3>
+		<?php sample('input-group'); ?>
+		<?php sample_code('input-group'); ?>
+		<h3 class="section-sub-title">Input Group Sizes</h3>
+		<?php sample('input-group-sizes'); ?>
+		<?php sample_code('input-group-sizes'); ?>
+		<h3 class="section-sub-title">Input Group Search</h3>
+		<?php sample('input-group-search'); ?>
+		<?php sample_code('input-group-search'); ?>
+	</section>
+
+	<!-- Control -->
+	<section id="control" class="section">
+		<h2 class="section-title">Control<code>forms/control.less</code></h2>
+		<?php definitions('control'); ?>
+		<h3 class="section-sub-title">Checkbox</h3>
+		<?php sample('control-checkbox'); ?>
+		<?php sample_code('control-checkbox'); ?>
+		<h3 class="section-sub-title">Radio</h3>
+		<?php sample('control-radio'); ?>
+		<?php sample_code('control-radio'); ?>
+		<h3 class="section-sub-title">Control Inline</h3>
+		<div class="row">
+			<div class="column-1-2">
+				<?php sample('control-inline-checkbox'); ?>
+				<?php sample_code('control-inline-checkbox'); ?>
+			</div>
+			<div class="column-1-2">
+				<?php sample('control-inline-radio'); ?>
+				<?php sample_code('control-inline-radio'); ?>
+			</div>
+		</div>
+	</section>
+
+	<!-- Select -->
+	<section id="select" class="section">
+		<h2 class="section-title">Select<code>forms/select.less</code></h2>
+		<?php definitions('select'); ?>
+		<h3 class="section-sub-title">Select</h3>
+		<?php sample('select'); ?>
+		<?php sample_code('select'); ?>
+		<h3 class="section-sub-title">Select Inverse</h3>
+		<?php sample('select-inverse'); ?>
+		<?php sample_code('select-inverse'); ?>
+	</section>
+
+	<!-- Select Sizes -->
+	<section id="select-sizes" class="section">
+		<h2 class="section-title">Select Sizes<code>forms/select-sizes.less</code></h2>
+		<?php sample('select-sizes'); ?>
+		<?php definitions('select-sizes'); ?>
+		<?php sample_code('select-sizes'); ?>
+	</section>
 		
 		//Elements
 		include('sections/elements/elements.php');
