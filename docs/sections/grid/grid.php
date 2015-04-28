@@ -1,10 +1,4 @@
 <section id="grid" class="section">
-
-<div class="title-group">
-	<h1 class="title">Grid</h1>
-	<p class="lead">A demonstration of the 12 column grid system with columns, nested columns, offsets, and push/pull examples.</p>
-</div>
-
 <h2 class="section-title">Grid<code>grid/grid.less</code></h2>
 
 <h3 class="section-sub-title">Container</h3>
