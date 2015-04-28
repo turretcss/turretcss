@@ -136,18 +136,18 @@
 
 		<h3>Responsive Images</h3>
 		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
-		<img src="http://placehold.it/800x200/4BB3D6/FFFFFF" class="responsive">
+		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
 		<?php markup('<img src="..." class="responsive">'); ?>
 
 		<h3>Image Styles</h3>
 		<div class="row">
 			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/4BB3D6/FFFFFF" class="rounded">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="rounded">
 				<?php less('@image-rounded-border-radius: 8px;'); ?>
 				<?php markup('<img src="..." class="rounded">'); ?>
 			</div>
 			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/4BB3D6/FFFFFF" class="circle">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="circle">
 				<?php markup('<img src="..." class="circle">'); ?>
 			</div>
 		</div>
