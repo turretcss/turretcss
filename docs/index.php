@@ -377,16 +377,69 @@
 		//Support
 		include('sections/support/support.php');
 		include('sections/support/css.php');
+	<!-- Notes -->
+	<section id="notes" class="section section-header">
+		<div class="title-group">
+			<h1 class="title">Notes</h1>
+			<p class="lead">Contributors, Licence, and Licence Notes.</p>
+		</div>
+	</section>
+	
+	<!-- Contributors -->
+	<section id="contributors" class="section">
+		<h2>Contributors</h2>
+		<h3>Scott de Jonge</h3>
+		<ul>
+			<li>Twitter: <a href="https://twitter.com/scottdejonge">@scottdejonge</a></li>
+			<li>Github: <a href="https://github.com/scottdejonge">@scottdejonge</a></li>
+		</ul>
+	</section>
+	
+	<!-- Licence -->
+	<section id="licence" class="section">
+		<h2>Licence</h2>
 		
-		//Accessibility
-		include('sections/accessibility.php');
+		<h3>Code License</h3>
+		<p>Applies to code inside the <code>turret</code> directory.</p>
+		<p>Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a></p>
 		
-		//Licence
-		include('sections/notes/notes.php');
-		include('sections/notes/contributors.php');
-		include('sections/notes/licence.php');
-		include('sections/notes/licence-notes.php');
-	?>
+		<h3>Documentation License</h3>
+		<p>Applies to files inside the <code>docs</code> excluding files located in the <code>lib</code> directory.</p>
+		<p>Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+	</section>
+	
+	<!-- License Notes -->
+	<section id="licence-notes" class="section">	
+		<h2>License Notes</h2>
+
+		<p>Turret is released under the MIT license and is copyright 2015 Twitter. Boiled down to smaller chunks, it can be described with the following conditions.</p>
+		
+		<p><strong>It requires you to:</strong></p>
+		<ul>
+			<li>Include the license and copyright notice in your works</li>
+		</ul>
+		<p><strong>It permits you to:</strong></p>
+		<ul>
+			<li>Freely download and use Turret, in whole or in part, for personal, private, company internal, or commercial purposes</li>
+			<li>Use Turret in packages or distributions that you create</li>
+			<li>Modify the source code</li>
+			<li>Grant a sublicense to modify and distribute Turret to third parties not included in the license</li>
+		</ul>
+		<p><strong>It forbids you to:</strong></p>
+		<ul>
+			<li>Hold the authors and license owners liable for damages as Turret is provided without warranty</li>
+			<li>Hold the creators or copyright holders of Turret liable</li>
+			<li>Redistribute any piece of Turret without proper attribution</li>
+			<li>Use any marks owned by Bigfish.tv in any way that might state or imply that Bigfish.tv endorses your distribution</li>
+			<li>Use any marks owned by Bigfish.tv in any way that might state or imply that you created the Bigfish.tv software in question</li>
+		</ul>
+		<p><strong>It does not require you to:</strong></p>
+		<ul>
+			<li>Include the source of Turret itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it</li>
+			<li>Submit changes that you make to Turret back to the Turret project (though such feedback is encouraged)</li>
+			<li>The full Turret license is located in the project repository for more information.</li>
+		</ul>
+	</section>
 	
 	<footer>
 		<p class="text-center">
