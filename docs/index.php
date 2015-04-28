@@ -24,29 +24,36 @@
 	<section id="download" class="section">
 		<h2>Download</h2>
 		<p>There are three quick start ways to download Turret available:</p>
+		
 		<p><strong>Download the latest release</strong></p>
 		<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
+		
 		<p><strong>Clone the repo</strong></p>
-		<pre class="language-git"><code class="language-git"><?php echo htmlentities('git clone https://github.com/bigfishtv/turret.git'); ?></code></pre>
+		<?php git('git clone https://github.com/bigfishtv/turret.git'); ?>
+		
 		<p><strong>Install with <a href="https://www.npmjs.org">npm</a></strong></p>
-		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm install bigfishtv-turret'); ?></code></pre>
+		<?php bash('npm install bigfishtv-turret'); ?>
 	</section>
 	
 	<section id="usage" class="section">
 		<h2>Usage</h2>
 		<p>Turret uses npm for it's build system with watch and build scripts for working locally and for deployment:</p>
+		
 		<p><strong>Watch</strong></p>
 		<p>Watch Less files in <code>turret</code> concatenate and compile</p>
-		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run watch'); ?></code></pre>
+		<?php bash('npm run watch'); ?>
+		
 		<p><strong>Dist CSS</strong></p>
 		<p>Build Less files in <code>turret</code> concatenate and compile into <code>dist</code></p>
-		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist:css'); ?></code></pre>
+		<?php bash('npm run dist:css'); ?>
+		
 		<p><strong>Dist Min</strong></p>
 		<p>Build Less files in <code>turret</code> concatenate, compile, and minimise into <code>dist</code></p>
-		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist:min'); ?></code></pre>
+		<?php bash('npm run dist:min'); ?>
+		
 		<p><strong>Dist</strong></p>
 		<p>Run Dist CSS and Dist Min</p>
-		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist'); ?></code></pre>
+		<?php bash('npm run dist'); ?>
 	</section>
 
 	<!-- General -->
@@ -307,7 +314,7 @@
 	<!-- Button -->
 	<section id="button" class="section">
 		<h2>Button<code>elements/button.less</code></h2>
-		<p>Button styles are applied directly to the <code><?php echo htmlentities('<button>'); ?></code> element, button style and size modifiers do not require the <code>button</code> class added to the button element. Button styles can be set on an achor tag by using the <code>.button</code> class.</p>
+		<p>Button styles are applied directly to the <?php code('<button>'); ?> element, button style and size modifiers do not require the <code>button</code> class added to the button element. Button styles can be set on an achor tag by using the <code>.button</code> class.</p>
 		<?php sample('button'); ?>
 		<?php definitions('button'); ?>
 		<?php sample_code('button'); ?>
@@ -379,7 +386,7 @@
 	<section id="media" class="section">
 		<h2>Media<code>elements/media.less</code></h2>
 		<p>The media frame is for content loaded after the document is ready. It stops layouts from jumping when media is being loaded.</p>
-		<p>The media frame wraps <code><?php echo htmlentities('<img>'); ?></code>, <code><?php echo htmlentities('<svg>'); ?></code>, <code><?php echo htmlentities('<video>'); ?></code>, and <code><?php echo htmlentities('<iframe>'); ?></code> by default, to wrap other content in a media container use the <code>media-inner</code> class. The <code>media-transparent</code> class removes the default background color on the media element.</p>
+		<p>The media frame wraps <?php code('<img>'); ?>, <?php code('<svg>'); ?>, <?php code('<video>'); ?>, and <?php code('<iframe>'); ?> by default, to wrap other content in a media container use the <code>media-inner</code> class. The <code>media-transparent</code> class removes the default background color on the media element.</p>
 		<?php sample('media'); ?>
 		<?php definitions('media'); ?>
 		<?php sample_code('media'); ?>
@@ -399,7 +406,7 @@
 			<li><code>media-2-1</code></li>
 		</ul>
 		<p>To add custom media ratios use the <code>.media-ratio()</code> mixin.</p>
-		<pre class="language-less"><code class="language-less"><?php echo htmlentities('.media-ratio(@width, @height);'); ?></code></pre>
+		<?php less('.media-ratio(@width, @height);'); ?>
 	</section>
 
 	<!-- Figure -->
@@ -408,12 +415,12 @@
 		<?php definitions('nav'); ?>
 
 		<h3>Nav</h3>
-		<p>For menu and navigation components use the <code><?php echo htmlentities('<nav>'); ?></code> element wrapped around an unordered list <code><?php echo htmlentities('<ul>'); ?></code>.</p>
+		<p>For menu and navigation components use the <?php code('<nav>'); ?> element wrapped around an unordered list <?php code('<ul>'); ?>.</p>
 		<?php sample('nav'); ?>
 		<?php sample_code('nav'); ?>
 
 		<h3>Nav Inline</h3>
-		<p>To display navigaiton inline add the <code><?php echo htmlentities('nav-inline'); ?></code> class to the <code><?php echo htmlentities('<nav>'); ?></code> element.</p>
+		<p>To display navigaiton inline add the <?php code('nav-inline'); ?> class to the <?php code('<nav>'); ?> element.</p>
 		<?php sample('nav-inline'); ?>
 		<?php sample_code('nav-inline'); ?>
 	</section>

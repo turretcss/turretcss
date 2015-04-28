@@ -13,6 +13,14 @@
 		echo '<pre class="language-less"><code class="language-less">' . htmlentities($string) . '</code></pre>';
 	}
 
+	function git($string) {
+		echo '<pre class="language-git"><code class="language-git">' . htmlentities($string) . '</code></pre>';
+	}
+
+	function bash($string) {
+		echo '<pre class="language-bash"><code class="language-bash">' . htmlentities($string) . '</code></pre>';
+	}
+
 	function sample($path) {
 		echo file_get_contents(SAMPLES . $path . '.html');
 	}
