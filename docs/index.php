@@ -49,10 +49,33 @@
 		<pre class="language-bash"><code class="language-bash"><?php echo htmlentities('npm run dist'); ?></code></pre>
 	</section>
 
-	<?php
+	<!-- General -->
+	<section id="general" class="section section-header">
+		<div class="title-group">
+			<h1 class="title">General</h1>
+			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries.</p>
+		</div>
+	</section>
 
-		//General
-		include('sections/general/general.php');
+	<section id="structure" class="section">
+		<h2>Structure</h2>
+
+		<h3>Selectors</h3>
+		<?php markup('<div class="[element] [element-behaviour] [element-style]">...</div>'); ?>
+		
+		<h3>Viewport</h3>
+		<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <code>&lt;head&gt;</code>.</p>
+		<?php markup('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?>
+	
+		<h3>HTML5 Doctype</h2>
+		<p>Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype.</p>
+		<?php markup('<!DOCTYPE html>'); ?>
+		<h3>Normalize</h2>
+		<p>For improved cross-browser rendering, Turret uses <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>, a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a>.</p>
+
+	</section>
+
+	<?php
 		include('sections/general/colors.php');
 		include('sections/general/media-queries.php');
 	?>
@@ -75,16 +98,18 @@
 	<!-- Typography -->
 	<section id="typography" class="section">
 		<h2>Typography<code>base/typography.less</code></h2>
-
 		<?php sample('typography'); ?>
 		<?php definitions('typography'); ?>
 		<?php sample_code('typography'); ?>
+
 		<h3>Paragraph</h3>
 		<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 		<?php markup('<p>...</p>'); ?>
+
 		<h3>Lead</h3>
 		<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 		<?php markup('<p class="lead">...</p>'); ?>
+
 		<h3>Text Align</h3>
 		<p class="text-left">Text Left</p>
 		<p class="text-center">Text Center</p>
@@ -92,12 +117,15 @@
 		<p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 		<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 		<?php sample_code('text-align'); ?>
+
 		<h3>Text Transform</h3>
 		<?php sample('text-transform'); ?>
 		<?php sample_code('text-transform'); ?>
+
 		<h3>Strong</h3>
 		<p><strong>strong</strong></p>
 		<?php markup('<strong>...</strong>'); ?>
+
 		<h3>Emphasis</h3>
 		<p><em>emphasis</em></p>
 		<?php markup('<em>...</em>'); ?>
@@ -124,6 +152,7 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- Grid -->
 	<section id="grid" class="section section-header">
 		<div class="title-group">
@@ -152,9 +181,11 @@
 
 	<section id="form-examples" class="section">
 		<h2>Examples</h2>
+
 		<h3>Simple Example</h3>
 		<?php sample('form-simple'); ?>
 		<?php sample_code('form-simple'); ?>
+
 		<h3>Multi-Column Example</h3>
 		<?php sample('form-multi-column'); ?>
 		<?php sample_code('form-multi-column'); ?>
@@ -203,12 +234,15 @@
 	<!-- Input Group -->
 	<section id="input-group" class="section">
 		<h2>Input Group<code>forms/input-group.less</code></h2>
+
 		<h3>Input Group</h3>
 		<?php sample('input-group'); ?>
 		<?php sample_code('input-group'); ?>
+
 		<h3>Input Group Sizes</h3>
 		<?php sample('input-group-sizes'); ?>
 		<?php sample_code('input-group-sizes'); ?>
+
 		<h3>Input Group Search</h3>
 		<?php sample('input-group-search'); ?>
 		<?php sample_code('input-group-search'); ?>
@@ -218,12 +252,15 @@
 	<section id="control" class="section">
 		<h2>Control<code>forms/control.less</code></h2>
 		<?php definitions('control'); ?>
+
 		<h3>Checkbox</h3>
 		<?php sample('control-checkbox'); ?>
 		<?php sample_code('control-checkbox'); ?>
+
 		<h3>Radio</h3>
 		<?php sample('control-radio'); ?>
 		<?php sample_code('control-radio'); ?>
+
 		<h3>Control Inline</h3>
 		<div class="row">
 			<div class="column-1-2">
@@ -241,9 +278,11 @@
 	<section id="select" class="section">
 		<h2>Select<code>forms/select.less</code></h2>
 		<?php definitions('select'); ?>
+
 		<h3>Select</h3>
 		<?php sample('select'); ?>
 		<?php sample_code('select'); ?>
+
 		<h3>Select Inverse</h3>
 		<?php sample('select-inverse'); ?>
 		<?php sample_code('select-inverse'); ?>
@@ -272,14 +311,17 @@
 		<?php sample('button'); ?>
 		<?php definitions('button'); ?>
 		<?php sample_code('button'); ?>
+
 		<h3>Button Disabled</h3>
 		<?php sample('button-disabled'); ?>
 		<?php definitions('button-disabled'); ?>
 		<?php sample_code('button-disabled'); ?>
+
 		<h3>Button Block</h3>
 		<?php sample('button-block'); ?>
 		<?php definitions('button-block'); ?>
 		<?php sample_code('button-block'); ?>
+
 		<h3>Button Center</h3>
 		<p><strong>Note:</strong> for <code>.button-center</code> to work the containing element needs to have <code>text-align: center;</code></p>
 		<div class="text-center">
@@ -319,6 +361,7 @@
 		<h2>Button Group<code>elements/button-group.less</code></h2>
 		<?php sample('button-group'); ?>
 		<?php sample_code('button-group'); ?>
+
 		<h3>Button Group Block</h3>
 		<?php sample('button-group-block'); ?>
 		<?php sample_code('button-group-block'); ?>
@@ -340,6 +383,7 @@
 		<?php sample('media'); ?>
 		<?php definitions('media'); ?>
 		<?php sample_code('media'); ?>
+
 		<h3>Media Ratios</h3>
 		<p>By default the <code>media</code> element has the following common media type ratios:</p>
 		<ul class="list list-unstyled">
@@ -362,10 +406,12 @@
 	<section id="nav" class="section">
 		<h2>Nav<code>elements/nav.less</code></h2>
 		<?php definitions('nav'); ?>
+
 		<h3>Nav</h3>
 		<p>For menu and navigation components use the <code><?php echo htmlentities('<nav>'); ?></code> element wrapped around an unordered list <code><?php echo htmlentities('<ul>'); ?></code>.</p>
 		<?php sample('nav'); ?>
 		<?php sample_code('nav'); ?>
+
 		<h3>Nav Inline</h3>
 		<p>To display navigaiton inline add the <code><?php echo htmlentities('nav-inline'); ?></code> class to the <code><?php echo htmlentities('<nav>'); ?></code> element.</p>
 		<?php sample('nav-inline'); ?>
@@ -376,15 +422,19 @@
 	<section id="table" class="section">
 		<h2>Table<code>elements/table.less</code></h2>
 		<?php definitions('table'); ?>
+
 		<h3>Table</h3>
 		<?php sample('table'); ?>
 		<?php sample_code('table'); ?>
+
 		<h3>Table Border</h3>
 		<?php sample('table-border'); ?>
 		<?php sample_code('table-border'); ?>
+
 		<h3>Table Block</h3>
 		<?php sample('table-block'); ?>
 		<?php sample_code('table-block'); ?>
+
 		<h3>Table Responsive</h3>
 		<?php sample('table-responsive'); ?>
 		<?php sample_code('table-responsive'); ?>
