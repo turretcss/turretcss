@@ -9,6 +9,10 @@
 		echo '<pre class="language-markup"><code class="language-markup">' . htmlentities($string) . '</code></pre>';
 	}
 
+	function less($string) {
+		echo '<pre class="language-less"><code class="language-less">' . htmlentities($string) . '</code></pre>';
+	}
+
 	function sample($path) {
 		echo file_get_contents(SAMPLES . $path . '.html');
 	}
