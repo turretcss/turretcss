@@ -87,8 +87,31 @@
 
 	<?php
 		include('sections/general/colors.php');
-		include('sections/general/media-queries.php');
 	?>
+
+	<!-- Breakpoints -->
+	<section id="breakpoints" class="section">
+		<h2 class="section-title">Breakpoints</h2>
+		<?php definitions('breakpoints'); ?>
+	</section>
+
+	<!-- Media Queries -->
+	<section id="media-queries" class="section">
+		<h2 class="section-title">Media Queries</h2>
+		<?php definitions('media-queries'); ?>
+	</section>
+
+	<!-- Transitions -->
+	<section id="transitions" class="section">
+		<h2 class="section-title">Transitions</h2>
+		<?php definitions('transitions'); ?>
+	</section>
+
+	<!-- Animations -->
+	<section id="animations" class="section">
+		<h2 class="section-title">Animations</h2>
+		<?php definitions('animations'); ?>
+	</section>
 
 	<!-- Base -->
 	<section id="base" class="section section-header">
@@ -206,7 +229,8 @@
 		</dl>
 		<?php sample_code('defintion-list'); ?>
 	</section>
-
+	
+	<!-- Images -->
 	<section id="images" class="section">
 		<h2 class="section-title">Images</h2>
 

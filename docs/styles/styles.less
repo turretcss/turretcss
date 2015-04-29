@@ -123,11 +123,9 @@ svg {
 	@media @large {
 		margin-left: 270px;
 		width: ~"calc(100% - 270px)";
-		//max-width: 1024px;
 	}
 	
 	@media @mobile {
-		padding: 0px 15px;
 		.transition-transform(@transition-fast ease-in-out);
 		
 		&.open {
@@ -262,7 +260,8 @@ svg {
 //Section
 .section {
 	margin: 35px 0px;
-
+	padding: 0px 15px;
+	
 	@media @large {
 		padding: 30px 50px;
 	}
@@ -290,10 +289,14 @@ svg {
 
 .section-header {
 	margin-top: 0;
-	padding: 50px;
+	padding: 30px 15px;
 	background: #4BB3D6;
+	
+	@media @large {
+		padding: 50px;
+	}
 
-	 h1,
+	h1,
 	.lead {
 		color: @white;
 	}
