@@ -103,8 +103,7 @@ svg {
 	position: fixed;
 	width: 270px;
 	height: 100%;
-	color: @white;
-	background: @dark;
+	background: @light-grey;
 	.overflow-scroll();
 	
 	@media @mobile {
@@ -185,14 +184,14 @@ svg {
 				display: block;
 				margin-left: 0;
 				padding: 15px 20px;
-				.regular-font();
+				.semibold-font();
 				.font-size(1.6);
-				color: @white;
+				color: @dark;
 				.transition(all @transition-fast ease-in-out);
 				
 				&:hover,
 				&:focus {
-					color: @white;
+					color: @primary;
 					margin-left: 2px;
 				}
 			}
@@ -267,7 +266,7 @@ svg {
 		padding: 30px 50px;
 	}
 	
-	h2 {
+	.section-title {
 		margin-bottom: 35px;
 		line-height: 2;
 		color: @dark;
@@ -282,7 +281,7 @@ svg {
 		}
 	}
 	
-	h3 {
+	.section-block-title {
 		margin: 50px 0px 30px;
 		font-weight: 500;
 	}
