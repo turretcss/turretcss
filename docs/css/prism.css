@@ -123,7 +123,6 @@ pre[class*='language-'] {
 
 pre[class*='language-'] > code[data-language] {
 	overflow: auto;
-	max-height: 28em;
 	display: block;
 }
 
