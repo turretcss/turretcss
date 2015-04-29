@@ -172,74 +172,126 @@
 	<!-- Body -->
 	<section id="body" class="section">
 		<h2 class="section-title">Body<code>base/body.less</code></h2>
-		<p>Some top level defintions for general styles on the <?php code('<body>'); ?> tag.</p>
+		<p>Some top level definitions for general styles on the <?php code('<body>'); ?> tag.</p>
 		<?php definitions('body'); ?>
+	</section>
+
+	<!-- Images -->
+	<section id="images" class="section">
+		<h2 class="section-title">Images</h2>
+
+		<h3 class="section-block-title">Responsive Images</h3>
+		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
+		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
+		<?php markup('<img src="..." class="responsive">'); ?>
+
+		<h3 class="section-block-title">Image Styles</h3>
+		<div class="row">
+			<div class="column-1-2 text-center">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="rounded">
+				<?php less('@image-rounded-border-radius: 8px;'); ?>
+				<?php markup('<img src="..." class="rounded">'); ?>
+			</div>
+			<div class="column-1-2 text-center">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="circle">
+				<?php markup('<img src="..." class="circle">'); ?>
+			</div>
+		</div>
+	</section>
+
+	<!-- Typography -->
+	<section id="grid" class="section section-header">
+		<div class="title-group">
+			<h1 class="title">Typography</h1>
+			<p class="lead">...</p>
+		</div>
 	</section>
 
 	<!-- Typography -->
 	<section id="typography" class="section">
-		<h2 class="section-title">Typography<code>base/typography.less</code></h2>
+		<h2 class="section-title">Typography<code>typography/typography.less</code></h2>
 		<?php definitions('typography/typography'); ?>
-		
-		<h3 class="section-block-title">Headings</h3>
+	</section>
+
+	<!-- Headings -->
+	<section id="headings" class="section">
+		<h2 class="section-title">Headings<code>typography/headings.less</code></h2>
 		<?php sample('headings'); ?>
 		<?php definitions('typography/headings'); ?>
 		<?php sample_code('headings'); ?>
+	</section>
 
-		<h3 class="section-block-title">Link</h3>
+	<!-- Link -->
+	<section id="link" class="section">
+		<h2 class="section-title">Link<code>typography/link.less</code></h2>
 		<p><a href="">Link</a></p>
 		<?php definitions('typography/link'); ?>
 		<?php markup('<a href="">...</a>'); ?>
+	</section>
 
-		<h3 class="section-block-title">Paragraph</h3>
-		<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-		<?php definitions('typography/paragraph'); ?>
-		<?php markup('<p>...</p>'); ?>
-
-		<h3 class="section-block-title">Lead</h3>
-		<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
-		<?php definitions('typography/lead'); ?>
-		<?php markup('<p class="lead">...</p>'); ?>
-
-		<h3 class="section-block-title">Text Align</h3>
-		<p class="text-left">Text Left</p>
-		<p class="text-center">Text Center</p>
-		<p class="text-right">Text Right</p>
-		<p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-		<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		<?php sample_code('text-align'); ?>
-
-		<h3 class="section-block-title">Text Transform</h3>
-		<?php sample('text-transform'); ?>
-		<?php sample_code('text-transform'); ?>
-
-		<h3 class="section-block-title">Strong</h3>
+	<!-- Strong -->
+	<section id="strong" class="section">
+		<h2 class="section-title">Strong<code>typography/strong.less</code></h2>
 		<p><strong>strong</strong></p>
 		<?php definitions('typography/strong'); ?>
 		<?php markup('<strong>...</strong>'); ?>
+	</section>
 
-		<h3 class="section-block-title">Emphasis</h3>
+	<!-- Emphasis -->
+	<section id="emphasis" class="section">
+		<h2 class="section-title">Emphasis<code>typography/emphasis.less</code></h2>
 		<p><em>emphasis</em></p>
 		<?php definitions('typography/emphasis'); ?>
 		<?php markup('<em>...</em>'); ?>
+	</section>
 
-		<h3 class="section-block-title">Horizontal Rule</h3>
+	<!-- Paragraph -->
+	<section id="paragraph" class="section">
+		<h2 class="section-title">Paragraph<code>typography/paragraph.less</code></h2>
+		<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+		<?php definitions('typography/paragraph'); ?>
+		<?php markup('<p>...</p>'); ?>
+	</section>
+
+	<!-- Lead -->
+	<section id="lead" class="section">
+		<h2 class="section-title">Lead<code>typography/lead.less</code></h2>
+		<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
+		<?php definitions('typography/lead'); ?>
+		<?php markup('<p class="lead">...</p>'); ?>
+	</section>
+
+	<!-- hr -->
+	<section id="hr" class="section">
+		<h2 class="section-title">Horizontal Rule<code>typography/hr.less</code></h2>
 		<hr>
 		<?php definitions('typography/hr'); ?>
 		<?php markup('<hr>'); ?>
+	</section>
 
-		<h3 class="section-block-title">Blockquote</h3>
+	<!-- Blockquote -->
+	<section id="blockquote" class="section">
+		<h2 class="section-title">Blockquote<code>typography/blockquote.less</code></h2>
 		<blockquote>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<cite>Name</cite>
 		</blockquote>
 		<?php definitions('typography/blockquote'); ?>
 		<?php sample_code('blockquote'); ?>
+	</section>
 
-		<h3 class="section-block-title">Pullout</h3>
+	<!-- Pullout -->
+	<section id="pullout" class="section">
+		<h2 class="section-title">Pullout<code>typography/pullout.less</code></h2>
 		<p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+		<?php definitions('typography/pullout'); ?>
 		<?php markup('<p class="pullout">...</p>'); ?>
+	</section>
 
+	<!-- List -->
+	<section id="paragraph" class="section">
+		<h2 class="section-title">List<code>typography/list.less</code></h2>
+		<?php definitions('typography/list'); ?>
 		<h3 class="section-block-title">Unordered List</h3>
 		<ul>
 			<li>Vehicula Dapibus Tellus Fermentum</li>
@@ -265,8 +317,11 @@
 			</li>
 		</ol>
 		<?php sample_code('ordered-list'); ?>
+	</section>
 
-		<h3 class="section-block-title">Defintion List</h3>
+	<!-- Definition List -->
+	<section id="definition-list" class="section">
+		<h2 class="section-title">Definition List<code>typography/definition-list.less</code></h2>
 		<dl>
 			<dt>Fringilla Ipsum Tellus</dt>
 			<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
@@ -275,30 +330,24 @@
 			<dt>Fringilla Ipsum Tellus</dt>
 			<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
 		</dl>
-		<?php sample_code('defintion-list'); ?>
+		<?php definitions('typography/definition-list'); ?>
+		<?php sample_code('definition-list'); ?>
 	</section>
 	
-	<!-- Images -->
-	<section id="images" class="section">
-		<h2 class="section-title">Images</h2>
+	<section>
 
-		<h3 class="section-block-title">Responsive Images</h3>
-		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
-		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
-		<?php markup('<img src="..." class="responsive">'); ?>
+		<!-- <h3 class="section-block-title">Text Align</h3>
+		<p class="text-left">Text Left</p>
+		<p class="text-center">Text Center</p>
+		<p class="text-right">Text Right</p>
+		<p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+		<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		<?php sample_code('text-align'); ?>
 
-		<h3 class="section-block-title">Image Styles</h3>
-		<div class="row">
-			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="rounded">
-				<?php less('@image-rounded-border-radius: 8px;'); ?>
-				<?php markup('<img src="..." class="rounded">'); ?>
-			</div>
-			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="circle">
-				<?php markup('<img src="..." class="circle">'); ?>
-			</div>
-		</div>
+		<h3 class="section-block-title">Text Transform</h3>
+		<?php sample('text-transform'); ?>
+		<?php sample_code('text-transform'); ?>
+ -->
 	</section>
 
 	<!-- Grid -->
@@ -532,17 +581,17 @@
 		<h2 class="section-title">Button<code>elements/button.less</code></h2>
 		<p>Button styles are applied directly to the <?php code('<button>'); ?> element, button style and size modifiers do not require the <code>button</code> class added to the button element. Button styles can be set on an achor tag by using the <code>.button</code> class.</p>
 		<?php sample('button'); ?>
-		<?php definitions('button'); ?>
+		<?php definitions('button/button'); ?>
 		<?php sample_code('button'); ?>
 
 		<h3 class="section-block-title">Button Disabled</h3>
 		<?php sample('button-disabled'); ?>
-		<?php definitions('button-disabled'); ?>
+		<?php definitions('button/button-disabled'); ?>
 		<?php sample_code('button-disabled'); ?>
 
 		<h3 class="section-block-title">Button Block</h3>
 		<?php sample('button-block'); ?>
-		<?php definitions('button-block'); ?>
+		<?php definitions('button/button-block'); ?>
 		<?php sample_code('button-block'); ?>
 
 		<h3 class="section-block-title">Button Center</h3>
@@ -558,7 +607,7 @@
 		<h2 class="section-title">Button Styles<code>elements/button-styles.less</code></h2>
 		<?php sample('button-styles'); ?><br><br>
 		<?php sample('button-styles-disabled'); ?>
-		<?php definitions('button-styles'); ?>
+		<?php definitions('button/button-styles'); ?>
 		<?php sample_code('button-styles'); ?>
 	</section>
 
@@ -567,7 +616,7 @@
 		<h2 class="section-title">Button Indicators<code>elements/button-indicators.less</code></h2>
 		<?php sample('button-indicators'); ?><br><br>
 		<?php sample('button-indicators-disabled'); ?>
-		<?php definitions('button-indicators'); ?>
+		<?php definitions('button/button-indicators'); ?>
 		<?php sample_code('button-indicators'); ?>
 	</section>
 
@@ -575,7 +624,7 @@
 	<section id="button-sizes" class="section">
 		<h2 class="section-title">Button Sizes<code>elements/button-sizes.less</code></h2>
 		<?php sample('button-sizes'); ?>
-		<?php definitions('button-sizes'); ?>
+		<?php definitions('button/button-sizes'); ?>
 		<?php sample_code('button-sizes'); ?>
 	</section>
 

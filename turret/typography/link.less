@@ -1,0 +1,11 @@
+//Link
+a {
+	text-decoration: none;
+	color: @link-color;
+	.transition(color @transition-fast ease-in-out);
+	
+	&:hover,
+	&:focus {
+		color: @link-hover-color;
+	}
+}

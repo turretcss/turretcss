@@ -1,0 +1,27 @@
+//Blockquote
+blockquote {
+	margin: @blockquote-margin;
+	padding: @blockquote-padding;
+
+	//Blockquote Quote
+	p {
+		margin: @blockquote-quote-margin;
+		font-family: @blockquote-quote-font-family;
+		font-weight: @blockquote-quote-font-weight;
+		.font-size(@blockquote-quote-font-size);
+		font-style: @blockquote-quote-font-style;
+		line-height: @blockquote-quote-line-height;
+		color: @blockquote-quote-color;
+	}
+	
+	//Blockquote Cite
+	cite {
+		display: block;
+		margin: @blockquote-cite-margin;
+		font-family: @blockquote-cite-font-family;
+		.font-size(@blockquote-cite-font-size);
+		font-style: @blockquote-cite-font-style;
+		color: @blockquote-cite-color;
+		text-align: @blockquote-cite-text-align;
+	}
+}
