@@ -158,7 +158,7 @@ array (
 <h2 class="section-title">Table <code>table.less</code></h2>
 
 	<?php foreach ($tables as $table) : ?>
-		<h3 class="section-sub-title"><?php echo $table['title']; ?></h3>
+		<h3 class="section-block-title"><?php echo $table['title']; ?></h3>
 		<form class="gutter-top"><?php echo $table['code']; ?></form>
 		<?php if ($table['definition']) : ?>
 			<pre class="language-less"><code class="language-less"><?php echo htmlentities($table['definition']); ?></code></pre>

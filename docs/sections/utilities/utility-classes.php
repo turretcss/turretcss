@@ -2,7 +2,7 @@
 	<h2 class="section-title">Utility Classes <code>utility-classes.less</code></h2>
 	<p>For text and background color utility classes check out the <a href="#colors">color</a> section. Text align utility classes are demonstrated in the <a href="#typography">typography</a> section.</p>
 	
-	<h3 class="section-sub-title">General</h3>
+	<h3 class="section-block-title">General</h3>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -46,7 +46,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Display</h3>
+	<h3 class="section-block-title">Display</h3>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -74,7 +74,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Positioning</h3>
+	<h3 class="section-block-title">Positioning</h3>
 	<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
@@ -103,7 +103,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Floats</h3>
+	<h3 class="section-block-title">Floats</h3>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -123,7 +123,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Responsive Clear Floats</h3>
+	<h3 class="section-block-title">Responsive Clear Floats</h3>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
 			<tr>
@@ -196,7 +196,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Visiblity</h2>
+	<h3 class="section-block-title">Visiblity</h2>
 	<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
@@ -241,7 +241,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Responsive Visibility</h2>
+	<h3 class="section-block-title">Responsive Visibility</h2>
 	<p>Define content to be <code>visible</code> or <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>
@@ -315,7 +315,7 @@
 		</tbody>
 	</table>
 	
-	<h3 class="section-sub-title">Responsive Gutters</h2>
+	<h3 class="section-block-title">Responsive Gutters</h2>
 	<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
 	<table class="table table-bordered table-block table-responsive">
 		<thead>

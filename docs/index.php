@@ -85,9 +85,56 @@
 		<?php sample_code('template'); ?>
 	</section>
 
-	<?php
-		include('sections/general/colors.php');
-	?>
+	<section id="colors" class="section">
+		<h2 class="section-title">Colours</h2>
+		
+		<h3 class="section-block-title">Shades</h3>
+		<div class="swatches">
+			<div class="swatch background-white"><small>White</small></div>
+			<div class="swatch background-light-grey"><small>Light Grey</small></div>
+			<div class="swatch background-grey"><small>Grey</small></div>
+			<div class="swatch background-dark-grey"><small>Dark Grey</small></div>
+			<div class="swatch background-black"><small>Black</small></div>
+		</div>
+
+		<!-- Indicators -->
+		<h3 class="section-block-title">Indicators</h3>
+		<div class="swatches">
+			<div class="swatch background-info"><small>Info</small></div>
+			<div class="swatch background-error"><small>Error</small></div>
+			<div class="swatch background-warning"><small>Warning</small></div>
+			<div class="swatch background-success"><small>Success</small></div>
+		</div>
+
+		<!-- Palette -->
+		<h3 class="section-block-title">Palette</h3>
+		<div class="swatches">
+			<div class="swatch background-light"><small>Light</small></div>
+			<div class="swatch background-primary"><small>Primary</small></div>
+			<div class="swatch background-secondary"><small>Secondary</small></div>
+			<div class="swatch background-tertiary"><small>Tertiary</small></div>
+			<div class="swatch background-dark"><small>Dark</small></div>
+		</div>
+		<?php definitions('colors'); ?>
+		
+		<!-- Text Colors -->
+		<h3 class="section-block-title">Text Colors</h3>
+		<p class="text-color text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-light-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-dark-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-black">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-error">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-warning">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-success">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-light">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-primary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-secondary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-tertiary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<p class="text-color text-dark">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		<?php sample_code('text-colors'); ?>
+	</section>
 
 	<!-- Breakpoints -->
 	<section id="breakpoints" class="section">
