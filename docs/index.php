@@ -15,7 +15,8 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-
+	
+	<!-- Getting Started -->
 	<section id="getting-started" class="section section-header">
 		<h1 class="title">Getting Started</h1>
 		<p class="lead">A introduction to Turret, how to get started, how to download and use.</p>
@@ -308,15 +309,90 @@
 		</div>
 	</section>
 
-	<?php
+	<!-- Grid -->
+	<section id="grid" class="section">
+		<h2 class="section-title">Grid<code>grid/grid.less</code></h2>
 
-		//Grid
-		include('sections/grid/grid.php');
-		include('sections/grid/column.php');
-		include('sections/grid/offset.php');
-		include('sections/grid/push.php');
-		include('sections/grid/pull.php');
-	?>
+		<h3 class="section-block-title">Container</h3>
+		<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
+		<?php markup('<div class="container">...</div>'); ?>
+
+		<h3 class="section-block-title">Row</h3>
+		<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
+		<?php markup('<div class="row">...</div>'); ?>
+
+		<h3 class="section-block-title">Grid</h3>
+		<?php sample_code('grid'); ?>
+
+		<h3 class="section-block-title">Gutters</h3>
+		<div class="grid">
+			<div class="row">
+				<div class="column-1 no-gutter"><div class="grid-item">No Gutter</div></div>
+				<div class="column-1 gutter-top"><div class="grid-item">Top Gutter</div></div>
+				<div class="column-1 gutter-left"><div class="grid-item">Left Gutter</div></div>
+				<div class="column-1 gutter-bottom"><div class="grid-item">Bottom Gutter</div></div>
+				<div class="column-1 gutter-right"><div class="grid-item">Right Gutter</div></div>
+			</div>
+		</div>
+		<?php sample_code('gutters'); ?>
+	</section>
+
+	<!-- Column -->
+	<section id="column" class="section">
+		<h2 class="section-title">Column<code>grid/column.less</code></h2>
+
+		<h3 class="section-block-title">Columns</h3>
+		<?php sample('columns'); ?>
+
+		<h3 class="section-block-title">Responsive Breakpoint Columns</h3>
+		<div class="row">
+			<div class="column-1-2 column-extra-large-3-4 column-medium-1">
+				<div class="grid-item">Responsive Breakpoints</div>
+			</div>
+		</div>
+		<?php markup('<div class="column-1-2 column-extra-large-3-4 column-medium-1">...</div>'); ?>
+
+		<h3 class="section-block-title">Nested Columns</h3>
+		<div class="row">
+			<div class="column-1">
+				<div class="grid-item">
+					<div class="row">
+						<div class="column-1-2"><div class="grid-item grid-item-nested">Column-1-2</div></div>
+						<div class="column-1-2"><div class="grid-item grid-item-nested">Column-1-2</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php sample_code('nested-columns'); ?>
+	</section>
+
+	<!-- Offset -->
+	<section id="offset" class="section">
+		<h2 class="section-title">Offset<code>grid/offset.less</code></h2>
+		<p>Column offset classes can be added to columns to add a <code>margin-left</code> value that corresponds to the offset column class width.</p>
+		<div class="grid-item column-1-2 column-offset-1-2">Column Offset</div>
+		<?php markup('<div class="column-1-2 column-offset-1-2">...</div>'); ?>
+	</section>
+
+	<!-- Push -->
+	<section id="push" class="section">
+		<h2 class="section-title">Push<code>grid/push.less</code></h2>
+		<p>Column push classes can be added to columns to add a <code>left</code> value that corresponds to the push column class width.</p>
+		<div class="row">
+			<div class="grid-item column-1-2 column-push-1-12">Column Push</div>
+		</div>
+		<?php markup('<div class="column-1-2 column-push-1-12">...</div>'); ?>
+	</section>
+	
+	<!-- Pull -->
+	<section id="pull" class="section">
+		<h2 class="section-title">Pull<code>grid/pull.less</code></h2>
+		<p>Column pull classes can be added to columns to add a <code>left</code> value that corresponds to the pull column class width.</p>
+		<div class="row">
+			<div class="grid-item column-1-2 column-pull-1-12">Column Pull</div>
+		</div>
+		<?php markup('<div class="column-1-2 column-pull-1-12">...</div>'); ?>
+	</section>
 	
 	<!-- Form -->
 	<section id="form" class="section section-header">
