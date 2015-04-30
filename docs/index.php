@@ -196,7 +196,7 @@
 	</section>
 
 	<!-- Typography -->
-	<section id="grid" class="section section-header">
+	<section id="typography" class="section section-header">
 		<div class="title-group">
 			<h1 class="title">Typography</h1>
 			<p class="lead">...</p>
