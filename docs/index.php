@@ -22,6 +22,7 @@
 		<p class="lead">A introduction to Turret, how to get started, how to download and use.</p>
 	</section>
 	
+	<!-- Download -->
 	<section id="download" class="section">
 		<h2 class="section-title">Download</h2>
 		<p>There are three quick start ways to download Turret available:</p>
@@ -35,7 +36,30 @@
 		<p><strong>Install with <a href="https://www.npmjs.org">npm</a></strong></p>
 		<?php bash('npm install bigfishtv-turret'); ?>
 	</section>
+
+	<!-- Structure -->
+	<section id="structure" class="section">
+		<h2 class="section-title">Structure</h2>
+
+		<h3 class="section-block-title">Selectors</h3>
+		<?php markup('<div class="[element] [element-behaviour] [element-style]">...</div>'); ?>
+		
+		<h3 class="section-block-title">Viewport</h3>
+		<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <?php code('<head>'); ?>.</p>
+		<?php markup('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?>
 	
+		<h3 class="section-block-title">HTML5 Doctype</h2>
+		<p>Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype.</p>
+		<?php markup('<!DOCTYPE html>'); ?>
+		<h3 class="section-block-title">Normalize</h2>
+		<p>For improved cross-browser rendering, Turret uses <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>, a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a>.</p>
+		
+
+		<h3 class="section-block-title">Template</h3>
+		<?php sample_code('template'); ?>
+	</section>
+	
+	<!-- Usage -->
 	<section id="usage" class="section">
 		<h2 class="section-title">Usage</h2>
 		<p>Turret uses npm for it's build system with watch and build scripts for working locally and for deployment:</p>
@@ -63,28 +87,6 @@
 			<h1 class="title">General</h1>
 			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries.</p>
 		</div>
-	</section>
-	
-	<!-- Structure -->
-	<section id="structure" class="section">
-		<h2 class="section-title">Structure</h2>
-
-		<h3 class="section-block-title">Selectors</h3>
-		<?php markup('<div class="[element] [element-behaviour] [element-style]">...</div>'); ?>
-		
-		<h3 class="section-block-title">Viewport</h3>
-		<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <?php code('<head>'); ?>.</p>
-		<?php markup('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?>
-	
-		<h3 class="section-block-title">HTML5 Doctype</h2>
-		<p>Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype.</p>
-		<?php markup('<!DOCTYPE html>'); ?>
-		<h3 class="section-block-title">Normalize</h2>
-		<p>For improved cross-browser rendering, Turret uses <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>, a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a>.</p>
-		
-
-		<h3 class="section-block-title">Template</h3>
-		<?php sample_code('template'); ?>
 	</section>
 
 	<!-- Global -->
