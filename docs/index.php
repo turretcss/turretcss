@@ -463,7 +463,7 @@
 
 	<!-- Input Indicators -->
 	<section id="input-indicators" class="section">
-		<h2 class="section-title">Input<code>forms/input-indicators.less</code></h2>
+		<h2 class="section-title">Input Indicators<code>forms/input-indicators.less</code></h2>
 		<?php sample('input-indicators'); ?>
 		<?php definitions('form/input-indicators'); ?>
 		<?php sample_code('input-indicators'); ?>
