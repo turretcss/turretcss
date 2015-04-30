@@ -203,10 +203,10 @@
 		</div>
 	</section>
 
-	<!-- Typography -->
-	<section id="typography" class="section">
-		<h2 class="section-title">Typography<code>typography/typography.less</code></h2>
-		<?php definitions('typography/typography'); ?>
+	<!-- Font -->
+	<section id="font" class="section">
+		<h2 class="section-title">Font<code>typography/font.less</code></h2>
+		<?php definitions('typography/font'); ?>
 	</section>
 
 	<!-- Headings -->
