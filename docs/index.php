@@ -617,7 +617,7 @@
 	<section id="figure" class="section">
 		<h2 class="section-title">Figure<code>elements/figure.less</code></h2>
 		<?php sample('figure'); ?>
-		<?php definitions('figure'); ?>
+		<?php definitions('elements/figure'); ?>
 		<?php sample_code('figure'); ?>
 	</section>
 
@@ -627,7 +627,7 @@
 		<p>The media frame is for content loaded after the document is ready. It stops layouts from jumping when media is being loaded.</p>
 		<p>The media frame wraps <?php code('<img>'); ?>, <?php code('<svg>'); ?>, <?php code('<video>'); ?>, and <?php code('<iframe>'); ?> by default, to wrap other content in a media container use the <code>media-inner</code> class. The <code>media-transparent</code> class removes the default background color on the media element.</p>
 		<?php sample('media'); ?>
-		<?php definitions('media'); ?>
+		<?php definitions('elements/media'); ?>
 		<?php sample_code('media'); ?>
 
 		<h3 class="section-block-title">Media Ratios</h3>
@@ -651,7 +651,7 @@
 	<!-- Figure -->
 	<section id="nav" class="section">
 		<h2 class="section-title">Nav<code>elements/nav.less</code></h2>
-		<?php definitions('nav'); ?>
+		<?php definitions('elements/nav'); ?>
 
 		<h3 class="section-block-title">Nav</h3>
 		<p>For menu and navigation components use the <?php code('<nav>'); ?> element wrapped around an unordered list <?php code('<ul>'); ?>.</p>
@@ -667,7 +667,7 @@
 	<!-- Table -->
 	<section id="table" class="section">
 		<h2 class="section-title">Table<code>elements/table.less</code></h2>
-		<?php definitions('table'); ?>
+		<?php definitions('elements/table'); ?>
 
 		<h3 class="section-block-title">Table</h3>
 		<?php sample('table'); ?>
