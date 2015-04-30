@@ -155,14 +155,21 @@
 	<section id="body" class="section">
 		<h2 class="section-title">Body<code>base/body.less</code></h2>
 		<p>Some top level definitions for general styles on the <?php code('<body>'); ?> tag.</p>
-		<?php definitions('body'); ?>
+		<?php definitions('base/body'); ?>
 	</section>
 
-	<!-- Images -->
-	<section id="images" class="section">
-		<h2 class="section-title">Images</h2>
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<h2 class="section-title">Base Font Size<code>base/font-size.less</code></h2>
+		<p>Some top level definitions for general styles on the <?php code('<html>'); ?> tag.</p>
+		<?php definitions('base/font-size'); ?>
+	</section>
 
-		<h3 class="section-block-title">Responsive Images</h3>
+	<!-- Image -->
+	<section id="image" class="section">
+		<h2 class="section-title">Image</h2>
+
+		<h3 class="section-block-title">Responsive Image</h3>
 		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
 		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
 		<?php markup('<img src="..." class="responsive">'); ?>
