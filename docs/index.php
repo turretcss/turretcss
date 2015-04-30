@@ -64,7 +64,8 @@
 			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries.</p>
 		</div>
 	</section>
-
+	
+	<!-- Structure -->
 	<section id="structure" class="section">
 		<h2 class="section-title">Structure</h2>
 
@@ -86,6 +87,26 @@
 		<?php sample_code('template'); ?>
 	</section>
 
+	<!-- Global -->
+	<section id="global" class="section">
+		<h2 class="section-title">Global</h2>
+		<?php definitions('general/global'); ?>
+
+		<h3 class="section-block-title">Border Radius</h3>
+
+		<h3 class="section-block-title">Animations</h3>
+
+		<h3 class="section-block-title">Transitions</h3>
+
+		<h3 class="section-block-title">Z-Index</h3>
+
+		<h3 class="section-block-title">Font Size</h3>
+
+		<h3 class="section-block-title">Line Height</h3>
+		
+	</section>
+
+	<!-- Colors -->
 	<section id="colors" class="section">
 		<h2 class="section-title">Colours</h2>
 		
@@ -116,38 +137,19 @@
 			<div class="swatch background-tertiary"><small>Tertiary</small></div>
 			<div class="swatch background-dark"><small>Dark</small></div>
 		</div>
-		<?php definitions('colors'); ?>
+		<?php definitions('general/colors'); ?>
 	</section>
 
 	<!-- Breakpoints -->
 	<section id="breakpoints" class="section">
 		<h2 class="section-title">Breakpoints</h2>
-		<?php definitions('breakpoints'); ?>
+		<?php definitions('general/breakpoints'); ?>
 	</section>
 
 	<!-- Media Queries -->
 	<section id="media-queries" class="section">
 		<h2 class="section-title">Media Queries</h2>
-		<?php definitions('media-queries'); ?>
-	</section>
-
-	<!-- Global -->
-	<section id="global" class="section">
-		<h2 class="section-title">Global</h2>
-		<?php definitions('global'); ?>
-
-		<h3 class="section-block-title">Border Radius</h3>
-
-		<h3 class="section-block-title">Animations</h3>
-
-		<h3 class="section-block-title">Transitions</h3>
-
-		<h3 class="section-block-title">Z-Index</h3>
-
-		<h3 class="section-block-title">Font Size</h3>
-
-		<h3 class="section-block-title">Line Height</h3>
-		
+		<?php definitions('general/media-queries'); ?>
 	</section>
 
 	<!-- Base -->
@@ -341,6 +343,7 @@
 	<!-- Grid -->
 	<section id="grid" class="section">
 		<h2 class="section-title">Grid<code>grid/grid.less</code></h2>
+		<?php definitions('grid/grid'); ?>
 
 		<h3 class="section-block-title">Container</h3>
 		<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
