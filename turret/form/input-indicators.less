@@ -1,0 +1,39 @@
+//Input Indicators 
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="datetime"],
+input[type="datetime-local"],
+textarea {
+
+	//Input Error
+	&.error {
+		color: @input-error-color;
+		border-color: @input-error-color;
+	}
+	
+	//Input Warning
+	&.warning {
+		color: @input-warning-color;
+		border-color: @input-warning-color;
+	}
+	
+	//Input Success
+	&.success {
+		color: @input-success-color;
+		border-color: @input-success-color;
+	}
+	
+	//Input Info
+	&.info {
+		color: @input-info-color;
+		border-color: @input-info-color;
+	}
+}

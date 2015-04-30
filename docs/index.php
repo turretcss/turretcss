@@ -433,7 +433,7 @@
 	<section id="label" class="section">
 		<h2 class="section-title">Label<code>forms/label.less</code></h2>
 		<?php sample('label'); ?>
-		<?php definitions('label'); ?>
+		<?php definitions('form/label'); ?>
 		<?php sample_code('label'); ?>
 	</section>
 	
@@ -441,7 +441,7 @@
 	<section id="fieldset" class="section">
 		<h2 class="section-title">Fieldset<code>forms/fieldset.less</code></h2>
 		<?php sample('fieldset'); ?>
-		<?php definitions('fieldset'); ?>
+		<?php definitions('form/fieldset'); ?>
 		<?php sample_code('fieldset'); ?>
 	</section>
 
@@ -449,7 +449,7 @@
 	<section id="form-message" class="section">
 		<h2 class="section-title">Form Message<code>forms/form-message.less</code></h2>
 		<?php sample('form-message'); ?>
-		<?php definitions('form-message'); ?>
+		<?php definitions('form/form-message'); ?>
 		<?php sample_code('form-message'); ?>
 	</section>
 
@@ -457,15 +457,23 @@
 	<section id="input" class="section">
 		<h2 class="section-title">Input<code>forms/input.less</code></h2>
 		<?php sample('input'); ?>
-		<?php definitions('input'); ?>
+		<?php definitions('form/input'); ?>
 		<?php sample_code('input'); ?>
+	</section>
+
+	<!-- Input Indicators -->
+	<section id="input-indicators" class="section">
+		<h2 class="section-title">Input<code>forms/input-indicators.less</code></h2>
+		<?php sample('input-indicators'); ?>
+		<?php definitions('form/input-indicators'); ?>
+		<?php sample_code('input-indicators'); ?>
 	</section>
 
 	<!-- Input Sizes -->
 	<section id="input-sizes" class="section">
 		<h2 class="section-title">Input Sizes<code>forms/input-sizes.less</code></h2>
 		<?php sample('input-sizes'); ?>
-		<?php definitions('input-sizes'); ?>
+		<?php definitions('form/input-sizes'); ?>
 		<?php sample_code('input-sizes'); ?>
 	</section>
 
@@ -489,7 +497,7 @@
 	<!-- Control -->
 	<section id="control" class="section">
 		<h2 class="section-title">Control<code>forms/control.less</code></h2>
-		<?php definitions('control'); ?>
+		<?php definitions('form/control'); ?>
 
 		<h3 class="section-block-title">Checkbox</h3>
 		<?php sample('control-checkbox'); ?>
@@ -515,7 +523,7 @@
 	<!-- Select -->
 	<section id="select" class="section">
 		<h2 class="section-title">Select<code>forms/select.less</code></h2>
-		<?php definitions('select'); ?>
+		<?php definitions('form/select'); ?>
 
 		<h3 class="section-block-title">Select</h3>
 		<?php sample('select'); ?>
@@ -530,7 +538,7 @@
 	<section id="select-sizes" class="section">
 		<h2 class="section-title">Select Sizes<code>forms/select-sizes.less</code></h2>
 		<?php sample('select-sizes'); ?>
-		<?php definitions('select-sizes'); ?>
+		<?php definitions('form/select-sizes'); ?>
 		<?php sample_code('select-sizes'); ?>
 	</section>
 	

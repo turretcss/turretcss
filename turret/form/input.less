@@ -24,10 +24,9 @@ textarea {
 	color: @input-color;
 	line-height: @input-line-height;
 	border: @input-border;
-	background-color: @input-background;
-	background-image: none;
+	background: @input-background;
 	border-radius: @input-border-radius;
-	.transition(border @transition-fast ease-in-out);
+	.transition(all @transition-fast ease-in-out);
 	.appearance(none);
 
 	//Override Normalise for Input Types
@@ -55,36 +54,6 @@ textarea {
 			background: @input-inverse-focus-background;
 		}
 	}
-	
-	
-	/*
-	 * Input Indicators
-	 */
-	
-	//Input Error
-	&.error {
-		color: @input-error-color;
-		border-color: @input-error-color;
-	}
-	
-	//Input Warning
-	&.warning {
-		color: @input-warning-color;
-		border-color: @input-warning-color;
-	}
-	
-	//Input Success
-	&.success {
-		color: @input-success-color;
-		border-color: @input-success-color;
-	}
-	
-	//Input Info
-	&.info {
-		color: @input-info-color;
-		border-color: @input-info-color;
-	}
-	
 	
 	/*
 	 * Input Styles
