@@ -1,0 +1,768 @@
+/*--------------------------------------------------------------------------*/
+/*                               GENERAL                                    */
+/*--------------------------------------------------------------------------*/
+
+//Mobile Breakpoint
+@mobile: @medium;
+
+//Border Radius
+@border-radius: 2px;
+
+//Z-Index
+@z-index-high: 999;
+@z-index-medium: 99;
+@z-index-low: 9;
+
+//Transitions
+@transition-fast: 0.2s;
+@transition-medium: 0.3s;
+@transition-slow: 0.5s;
+
+//Animations
+@animation-fast: 0.5s;
+@animation-medium: 1s;
+@animation-slow: 2s;
+
+
+/*--------------------------------------------------------------------------*/
+/*                                 BASE                                     */
+/*--------------------------------------------------------------------------*/
+
+
+//Body
+@body-color: @dark;
+@body-background: @light;
+@body-font-family: @regular-font-family;
+
+//Images
+@image-rounded-border-radius: 8px;
+
+
+/*--------------------------------------------------------------------------*/
+/*                                COLORS                                    */
+/*--------------------------------------------------------------------------*/
+
+
+//Shades
+@white: #FFFFFF;
+@black: #000000;
+@light-grey: #CCD1D9;
+@grey: #656D78;
+@dark-grey: #434A54;
+
+//Indicators
+@info: #3BAFDA;
+@error: #DA4453;
+@warning: #F6BB42;
+@success: #2ECC71;
+
+//Palette
+@light: #F5F7FA;
+@dark: @dark-grey;
+@primary: #4BB3D6;
+@secondary: #967ADC;
+@tertiary: #D770AD;
+
+//Utility
+@inverse: @dark;
+
+
+/*--------------------------------------------------------------------------*/
+/*                                  GRID                                    */
+/*--------------------------------------------------------------------------*/
+
+
+//Container Widths
+@small-container-width: 100%;
+@medium-container-width: 768px;
+@medium-landscape-container-width: @large-container-width;
+@large-container-width: 1024px;
+@extra-large-container-width: 1280px;
+
+//Screen Sizes
+@screen-small: 480px;
+@screen-medium: 768px;
+@screen-medium-landscape: 1024px;
+@screen-large: 1025px;
+@screen-extra-large: 1280px;
+
+//Gutters
+@gutter: 15px;
+@gutter-top: (@gutter * 2);
+@gutter-bottom:  (@gutter * 2);
+@gutter-left: (@gutter * 4);
+@gutter-right: (@gutter * 5);
+
+
+/*--------------------------------------------------------------------------*/
+/*                             TYPOGRAPHY                                   */
+/*--------------------------------------------------------------------------*/
+
+
+//Base Font Size
+@base-font-size: 10px;
+@base-medium-font-size: 9px;
+@base-small-font-size: 9px;
+
+//Fonts
+@font-path: '../fonts';
+
+//Generic Font Families
+@thin-font-family: @font-family-sans-serif;
+@regular-font-family: @font-family-sans-serif;
+@medium-font-family: @font-family-sans-serif;
+@semibold-font-family: @font-family-sans-serif;
+@bold-font-family: @font-family-sans-serif;
+
+//Generic Font Weights
+@thin-font-weight: 300;
+@regular-font-weight: 400;
+@medium-font-weight: 400;
+@semibold-font-weight: 500;
+@bold-font-weight: 600;
+
+//Generic Font Sizes
+@font-size-extra-large: 1.8;
+@font-size-large: 1.6;
+@font-size-medium: 1.4;
+@font-size-small: 1.2;
+
+
+/*
+ * Line height
+ */
+
+//Line height
+@line-height-extra-large: 2;
+@line-height-large: 1.8;
+@line-height: 1.5;
+@line-height-small: 1.2;
+
+
+/*
+ * Links
+ */
+
+//Links
+@link-color: @primary;
+@link-hover-color: @dark;
+
+
+/*
+ * Headings
+ */
+
+//Headings
+@headings-margin: 0px 0px 20px 0px;
+@headings-font-family: @medium-font-family;
+@headings-font-weight: @medium-font-weight;
+@headings-color: @body-color;
+@headings-line-height: 1.1;
+
+//Headings Small
+@headings-small-font-family: @medium-font-family;
+@headings-small-size: 0.6em;
+@headings-small-color: @grey;
+
+//Heading Font Sizes
+@h1-font-size: 3.2;
+@h2-font-size: 2.4;
+@h3-font-size: 1.6;
+@h4-font-size: 1.4;
+@h5-font-size: 1.2;
+@h6-font-size: 1;
+
+
+/*
+ * Paragraph
+ */
+
+//Paragraph
+@paragraph-font-family: @regular-font-family;
+@paragraph-font-weight: @regular-font-weight;
+@paragraph-font-size: @font-size-medium;
+@paragraph-color: @body-color;
+@paragraph-line-height: @line-height;
+
+
+/*
+ * Lead
+ */
+
+//Lead
+@lead-font-family: @thin-font-family;
+@lead-font-weight: @thin-font-weight;
+@lead-font-size: 2;
+@lead-color: @body-color;
+@lead-line-height: @line-height;
+
+
+/*
+ * Strong
+ */
+
+//Strong
+@strong-font-family: @bold-font-family;
+@strong-font-weight: @bold-font-weight;
+
+
+/*
+ * Emphasis
+ */
+
+//Emphasis
+@em-font-style: italic;
+
+
+/*
+ * Horizontal Rule
+ */
+
+//Horizontal Rule
+@hr-margin: 35px auto;
+@hr-height: 1px;
+@hr-background: @light-grey;
+
+
+/*
+ * Blockquote
+ */
+
+//Blockquote
+@blockquote-margin: 35px 0px;
+@blockquote-padding: 0px 30px;
+
+//Blockquote Quote
+@blockquote-quote-margin: 0;
+@blockquote-quote-font-family: @lead-font-family;
+@blockquote-quote-font-weight: @lead-font-weight;
+@blockquote-quote-font-size: @lead-font-size;
+@blockquote-quote-font-style: normal;
+@blockquote-quote-line-height: @line-height;
+@blockquote-quote-color: @primary;
+
+//Blockquote Cite
+@blockquote-cite-margin: 10px 0px;
+@blockquote-cite-font-family: @regular-font-family;
+@blockquote-cite-font-weight: @regular-font-family;
+@blockquote-cite-font-size: @font-size-medium;
+@blockquote-cite-font-style: normal;
+@blockquote-cite-color: @blockquote-quote-color;
+@blockquote-cite-text-align: right;
+
+
+/*
+ * Pullout
+ */
+
+//Pullout
+@pullout-margin: @blockquote-margin;
+@pullout-padding: @blockquote-padding;
+@pullout-font-family: @blockquote-quote-font-family;
+@pullout-font-weight: @blockquote-quote-font-weight;
+@pullout-font-size: @blockquote-quote-font-size;
+@pullout-border: solid @primary;
+@pullout-border-width:  0px 0px 0px 5px;
+
+
+/*
+ * List
+ */
+
+//List
+@list-margin: 20px 0px;
+@list-padding: 0;
+
+//Lists Item
+@list-item-margin: 10px 0px 10px 20px;
+@list-item-font-family: @paragraph-font-family;
+@list-item-font-weight: @paragraph-font-weight;
+@list-item-font-size: @paragraph-font-size;
+@list-item-color: @paragraph-color;
+
+//Child List
+@child-list-margin: 10px 0px;
+@child-list-padding: 0;
+@child-list-item-margin: @list-item-margin;
+
+//Unordered List
+@unordered-list-icon: disc;
+@unordered-child-list-icon: disc;
+
+
+/*
+ * Defintion List
+ */
+
+@definition-list-margin: 0;
+@definition-list-padding: 0;
+@definition-list-font-family: @regular-font-family;
+@definition-list-font-size: @font-size-medium;
+
+//Definition Term
+@definition-term-margin: 10px 0px;
+@definition-term-font-weight: @bold-font-weight;
+@definition-term-color: @paragraph-color;
+
+//Defintion Description
+@definition-description-margin: 0px 0px 20px 0px;
+@definition-description-color: @paragraph-color;
+
+
+/*--------------------------------------------------------------------------*/
+/*                                FORMS                                     */
+/*--------------------------------------------------------------------------*/
+
+
+/*
+ * Label
+ */
+
+//Label
+@label-margin: 15px 0px;
+@label-font-family: @semibold-font-family;
+@label-font-weight: @semibold-font-weight;
+@label-font-size: 1.2;
+@label-color: @dark;
+
+
+/*
+ * Fieldset
+ */
+
+//Fieldset
+@fieldset-margin: 0;
+@fieldset-padding: 20px;
+@fieldset-border: 1px solid @grey;
+
+//Feildset Label
+@fieldset-legend-padding: 10px;
+@fieldset-legend-font-size: @font-size-medium;
+@fieldset-legend-color: @grey;
+
+
+/*
+ * Form Message
+ */
+
+//Form Message
+@form-message-margin: @label-margin;
+@form-message-font-family: @paragraph-font-family;
+@form-message-font-weight: @paragraph-font-weight;
+@form-message-font-size: 1.2;
+@form-message-color: @body-color;
+@form-message-line-height: @paragraph-line-height;
+
+//Form message Indicators
+@form-message-error-color: @error;
+@form-message-warning-color: @warning;
+@form-message-success-color: @success;
+@form-message-info-color: @info;
+
+
+/*
+ * Input
+ */
+
+//Input
+@input-height: 40px;
+@input-margin: @label-margin;
+@input-padding: 8px 12px;
+@input-color: @body-color;
+@input-font-family: @regular-font-family;
+@input-font-weight: @regular-font-weight;
+@input-font-size: @font-size-medium;
+@input-line-height: @line-height;
+@input-background: @white;
+@input-border: 1px solid @input-border-color;
+@input-border-color: @light-grey;
+@input-border-radius: @border-radius;
+
+//Focus
+@input-focus-border: 1px solid darken(@input-border-color, 15%);
+@input-focus-background: darken(@input-background, 2%);
+
+//Placeholder
+@input-placeholder-color: @input-color;
+@input-placeholder-font-size: @input-font-size;
+@input-placeholder-font-family: @input-font-family;
+@input-placeholder-line-height: @input-line-height;
+@input-placeholder-letter-spacing: 0px;
+@input-placeholder-text-transform: none;
+
+//Inverse
+@input-inverse-color: @white;
+@input-inverse-border: none;
+@input-inverse-background: @inverse;
+@input-inverse-focus-color: @input-inverse-color;
+@input-inverse-focus-border: @input-inverse-border;
+@input-inverse-focus-background: darken(@input-inverse-background, 2%);
+
+//Disabled
+@input-disabled-background: @light;
+@input-disabled-border: 1px solid darken(@light, 10%);
+@input-disabled-color: @light;
+
+//Search
+@input-search-border-radius: 20px;
+
+
+/*
+ * Input Indicators
+ */
+
+//Indicators
+@input-error-color: @error;
+@input-warning-color: @warning;
+@input-success-color: @success;
+@input-info-color: @info;
+
+
+/*
+ * Input Sizes
+ */
+
+//Input Small
+@input-small-height: 30px;
+@input-small-padding: 10px;
+@input-small-font-size: @font-size-small;
+
+//Input Medium
+@input-medium-height: @input-height;
+@input-medium-padding: @input-padding;
+@input-medium-font-size: @input-font-size;
+
+//Input Large
+@input-large-height: 50px;
+@input-large-padding: 10px 20px;
+@input-large-font-size: @font-size-large;
+
+//Input Extra Large
+@input-extra-large-height: 65px;
+@input-extra-large-padding: 10px 25px;
+@input-extra-large-font-size: @font-size-extra-large;
+
+
+/*
+ * Control
+ */
+
+@control-margin: @label-margin;
+@control-padding: 0px 0px 0px 1.5em;
+@control-color: @input-color;
+
+//Control Indicator
+@control-indicator-size: 16px;
+@control-indicator-color: @primary;
+@control-indicator-background: @input-background;
+@control-indicator-border: @input-border;
+
+//Control Checked
+@control-indicator-checked-background: @primary;
+@control-indicator-checked-border: 1px solid @primary;
+@control-label-checked-color: @control-label-color;
+
+//Control Label
+@control-label-margin: 0px 0px 0px 10px;
+@control-label-font-family: @label-font-family;
+@control-label-font-size: @label-font-size;
+@control-label-color: @label-color;
+@control-label-line-height: 1.5;
+
+//Control Inline
+@control-inline-margin-right: 20px;
+
+//Checkbox
+@checkbox-border-radius: none;
+
+//Radio
+@radio-border-radius: 50%;
+
+
+/*
+ * Select
+ */
+
+@select-margin: @input-margin;
+@select-padding: 0px 12px;
+@select-height: @input-height;
+@select-font-family: @input-font-family;
+@select-font-size: @input-font-size;
+@select-color: @input-color;
+@select-background: @input-background;
+@select-border: @input-border;
+@select-border-radius: @border-radius;
+
+//Select Arrow
+@select-arrow-size: 5px;
+@select-arrow-background: @primary;
+
+//Select Inverse
+@select-inverse-color: @input-inverse-color;
+@select-inverse-border: @input-inverse-border;
+@select-inverse-background: @input-inverse-background;
+@select-inverse-arrow-background: @select-arrow-background;
+
+
+/*
+ * Select Sizes
+ */
+
+//Select Small
+@select-small-padding: 0px 10px;
+@select-small-height: @input-small-height;
+@select-small-font-size: @input-small-font-size;
+
+//Select Medium
+@select-medium-padding: @select-padding;
+@select-medium-height: @select-height;
+@select-medium-font-size: @select-font-size;
+
+//Select Large
+@select-large-padding: 0px 20px;
+@select-large-height: @input-large-height;
+@select-large-font-size: @input-large-font-size;
+
+//Select Large
+@select-extra-large-padding: 0px 25px;
+@select-extra-large-height: @input-extra-large-height;
+@select-extra-large-font-size: @input-extra-large-font-size;
+
+
+
+/*--------------------------------------------------------------------------*/
+/*                               ELEMENTS                                   */
+/*--------------------------------------------------------------------------*/
+
+
+
+/*
+ * Button
+ */
+
+@button-padding-vertical: 12px;
+@button-padding-horizontal: 15px;
+@button-height: 40px;
+@button-font-family: @bold-font-family;
+@button-font-weight: @bold-font-weight;
+@button-font-size: 1.4;
+@button-color: @dark-grey;
+@button-line-height: 1;
+@button-text-align: center;
+@button-text-transform: none;
+@button-background: @light-grey;
+@button-border: 1px solid darken(@button-background, 5%);
+
+//Button Hover
+@button-hover-color: @dark-grey;
+@button-hover-background: darken(@button-background, 10%);
+@button-hover-border: 1px solid darken(@button-background, 15%);
+
+
+/*
+ * Button Sizes
+ */
+
+//Button Sizes
+@button-small-padding-vertical: 8px;
+@button-small-padding-horizontal: 15px;
+@button-small-height: 30px;
+@button-small-font-size: 1;
+
+@button-medium-padding-vertical: @button-padding-vertical;
+@button-medium-padding-horizontal: @button-padding-horizontal;
+@button-medium-height: @button-height;
+@button-medium-font-size: @button-font-size;
+
+@button-large-padding-vertical: 15px;
+@button-large-padding-horizontal: 24px;
+@button-large-height: 50px;
+@button-large-font-size: 1.6;
+
+@button-extra-large-padding-vertical: 20px;
+@button-extra-large-padding-horizontal: 30px;
+@button-extra-large-height: 65px;
+@button-extra-large-font-size: 2;
+
+
+/*
+ * Button Themes
+ */
+
+//Button Inverse
+@button-inverse-color: @light;
+@button-inverse-background: @inverse;
+@button-inverse-border: 1px solid darken(@inverse, 5%);
+@button-inverse-hover-color: @button-inverse-color;
+@button-inverse-hover-background: darken(@button-inverse-background, 10%);
+@button-inverse-hover-border: 1px solid darken(@inverse, 15%);
+
+//Button Primary
+@button-primary-color: @white;
+@button-primary-background: @primary;
+@button-primary-border: 1px solid darken(@primary, 5%);
+@button-primary-hover-color: @button-primary-color;
+@button-primary-hover-background: darken(@primary, 10%);
+@button-primary-hover-border: 1px solid darken(@primary, 15%);
+
+//Button Secondary
+@button-secondary-color: @white;
+@button-secondary-background: @secondary;
+@button-secondary-border: 1px solid darken(@secondary, 5%);
+@button-secondary-hover-color: @button-secondary-color;
+@button-secondary-hover-background: darken(@secondary, 10%);
+@button-secondary-hover-border: 1px solid darken(@secondary, 15%);
+
+//Button Tertiary
+@button-tertiary-color: @white;
+@button-tertiary-background: @tertiary;
+@button-tertiary-border: 1px solid darken(@tertiary, 5%);
+@button-tertiary-hover-color: @button-tertiary-color;
+@button-tertiary-hover-background: darken(@tertiary, 10%);
+@button-tertiary-hover-border: 1px solid darken(@tertiary, 5%);
+
+//Button Border
+@button-border-color: @dark;
+@button-border-border: 1px solid @button-border-color;
+@button-border-background: transparent;
+@button-border-radius: @border-radius;
+@button-border-hover-color: @white;
+@button-border-hover-border: 1px solid @button-border-color;
+@button-border-hover-background: @button-border-color;
+
+//Button Text
+@button-text-padding-horizontal: @button-padding-horizontal;
+@button-text-color: @dark;
+@button-text-hover-color: @primary;
+
+
+/*
+ * Button States
+ */
+
+//Button Error
+@button-error-color: @white;
+@button-error-background: @error;
+@button-error-border: 1px solid darken(@error, 5%);
+@button-error-hover-color: @button-error-color;
+@button-error-hover-background: darken(@error, 10%);
+@button-error-hover-border: 1px solid darken(@error, 15%);
+
+//Button Warning
+@button-warning-color: @white;
+@button-warning-background: @warning;
+@button-warning-border: 1px solid darken(@warning, 5%);
+@button-warning-hover-color: @button-warning-color;
+@button-warning-hover-background: darken(@warning, 10%);
+@button-warning-hover-border: 1px solid darken(@warning, 15%);
+
+//Button Success
+@button-success-color: @white;
+@button-success-background: @success;
+@button-success-border: 1px solid darken(@success, 5%);
+@button-success-hover-color: @button-success-color;
+@button-success-hover-background: darken(@success, 10%);
+@button-success-hover-border: 1px solid darken(@success, 15%);
+
+//Button Info
+@button-info-color: @white;
+@button-info-background: @info;
+@button-info-border: 1px solid darken(@button-info-background, 5%);
+@button-info-hover-color: @button-info-color;
+@button-info-hover-background: darken(@button-info-background, 10%);
+@button-info-hover-border: 1px solid darken(@info, 15%);
+
+
+/*
+ * Button Block
+ */
+
+//Button Block
+@button-block-text-align: center;
+
+
+/*
+ * Button Disabled
+ */
+
+//Button Disabled
+@button-disabled-opacity: 0.5;
+
+
+/*
+ * Figure
+ */
+
+@figure-margin: 0;
+@figure-padding: @gutter;
+@figure-border: 1px solid @light-grey;
+
+//Figure Caption
+@figure-caption-margin: 10px 0px;
+@figure-caption-font-family: @paragraph-font-family;
+@figure-caption-font-weight: @paragraph-font-weight;
+@figure-caption-font-size: @paragraph-font-size;
+@figure-caption-color: @body-color;
+@figure-caption-text-align: center;
+
+
+/*
+ * Media
+ */
+
+@media-background: @light;
+
+
+/*
+ * Nav
+ */
+
+@nav-item-margin: 10px 0px;
+
+//Nav Inline
+@nav-inline-item-margin: 10px;
+
+
+/*
+ * Tables
+ */
+
+@table-background: none;
+@table-border-radius: @border-radius;
+
+//Table Caption
+@table-caption-margin: 5px 10px;
+@table-caption-font-size: @font-size-medium;
+@table-caption-font-weight: @bold-font-weight;
+@table-caption-color: @body-color;
+@table-caption-text-align: left;
+
+//Table Head
+@table-head-padding: 10px;
+@table-head-font-family: @bold-font-family;
+@table-head-font-weight: @bold-font-weight;
+@table-head-font-size: @paragraph-font-size;
+@table-head-text-align: left;
+@table-head-text-transform: none;
+@table-head-color: @body-color;
+
+//Table Body
+@table-cell-padding: 10px;
+@table-cell-font-size: @paragraph-font-size;
+@table-cell-color: @body-color;
+@table-cell-line-height: @line-height;
+@table-cell-vertical-align: middle;
+
+//Table Border
+@table-border: solid @light-grey;
+@table-border-width: 1px;
+
+//Table Block
+@table-block-head-background: @light;
+
+//Table Reponsive
+@table-responsive-breakpoint: @small;
+@table-responsive-row-margin: 10px 0px;
+@table-responsive-cell-padding: 10px 0px;
+@table-responsive-border: solid @light;
+@table-responsive-border-width: 0px 0px 1px 0px;
