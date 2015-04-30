@@ -581,17 +581,17 @@
 		<h2 class="section-title">Button<code>elements/button.less</code></h2>
 		<p>Button styles are applied directly to the <?php code('<button>'); ?> element, button style and size modifiers do not require the <code>button</code> class added to the button element. Button styles can be set on an achor tag by using the <code>.button</code> class.</p>
 		<?php sample('button'); ?>
-		<?php definitions('button/button'); ?>
+		<?php definitions('elements/button'); ?>
 		<?php sample_code('button'); ?>
 
 		<h3 class="section-block-title">Button Disabled</h3>
 		<?php sample('button-disabled'); ?>
-		<?php definitions('button/button-disabled'); ?>
+		<?php definitions('elements/button-disabled'); ?>
 		<?php sample_code('button-disabled'); ?>
 
 		<h3 class="section-block-title">Button Block</h3>
 		<?php sample('button-block'); ?>
-		<?php definitions('button/button-block'); ?>
+		<?php definitions('elements/button-block'); ?>
 		<?php sample_code('button-block'); ?>
 
 		<h3 class="section-block-title">Button Center</h3>
@@ -607,7 +607,7 @@
 		<h2 class="section-title">Button Styles<code>elements/button-styles.less</code></h2>
 		<?php sample('button-styles'); ?><br><br>
 		<?php sample('button-styles-disabled'); ?>
-		<?php definitions('button/button-styles'); ?>
+		<?php definitions('elements/button-styles'); ?>
 		<?php sample_code('button-styles'); ?>
 	</section>
 
@@ -616,7 +616,7 @@
 		<h2 class="section-title">Button Indicators<code>elements/button-indicators.less</code></h2>
 		<?php sample('button-indicators'); ?><br><br>
 		<?php sample('button-indicators-disabled'); ?>
-		<?php definitions('button/button-indicators'); ?>
+		<?php definitions('elements/button-indicators'); ?>
 		<?php sample_code('button-indicators'); ?>
 	</section>
 
@@ -624,7 +624,7 @@
 	<section id="button-sizes" class="section">
 		<h2 class="section-title">Button Sizes<code>elements/button-sizes.less</code></h2>
 		<?php sample('button-sizes'); ?>
-		<?php definitions('button/button-sizes'); ?>
+		<?php definitions('elements/button-sizes'); ?>
 		<?php sample_code('button-sizes'); ?>
 	</section>
 
