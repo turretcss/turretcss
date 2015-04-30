@@ -131,16 +131,23 @@
 		<?php definitions('media-queries'); ?>
 	</section>
 
-	<!-- Transitions -->
-	<section id="transitions" class="section">
-		<h2 class="section-title">Transitions</h2>
-		<?php definitions('transitions'); ?>
-	</section>
+	<!-- Global -->
+	<section id="global" class="section">
+		<h2 class="section-title">Global</h2>
+		<?php definitions('global'); ?>
 
-	<!-- Animations -->
-	<section id="animations" class="section">
-		<h2 class="section-title">Animations</h2>
-		<?php definitions('animations'); ?>
+		<h3 class="section-block-title">Border Radius</h3>
+
+		<h3 class="section-block-title">Animations</h3>
+
+		<h3 class="section-block-title">Transitions</h3>
+
+		<h3 class="section-block-title">Z-Index</h3>
+
+		<h3 class="section-block-title">Font Size</h3>
+
+		<h3 class="section-block-title">Line Height</h3>
+		
 	</section>
 
 	<!-- Base -->
