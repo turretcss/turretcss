@@ -1,7 +1,7 @@
 <section id="licence-notes" class="section">	
 	<h2 class="section-title">License Notes</h2>
 
-	<p>Turret is released under the MIT license and is copyright 2015 Twitter. Boiled down to smaller chunks, it can be described with the following conditions.</p>
+	<p>Turret is released under the MIT license and is copyright 2015 Bigfish.tv. Boiled down to smaller chunks, it can be described with the following conditions.</p>
 	
 	<p><strong>It requires you to:</strong></p>
 	<ul>
