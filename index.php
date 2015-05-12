@@ -1,4 +1,8 @@
-<?php include('docs/includes/head.html'); ?>
+<?php 
+	include_once('docs/config.php');
+	include_once('docs/functions.php');
+	include_once('docs/includes/head.html');
+?>
 
 <header class="home-header gradient">
 	<div class="container">
@@ -52,4 +56,4 @@
 	<p class="text-center">Version 2.1 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
 </footer>
 
-<?php include('docs/includes/footer.html'); ?>
+<?php include_once('docs/includes/footer.html'); ?>
