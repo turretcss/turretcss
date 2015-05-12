@@ -126,6 +126,7 @@ svg {
 	}
 	
 	@media @mobile {
+		padding-top: 50px;
 		.transition-transform(@transition-fast ease-in-out);
 		
 		&.open {
@@ -134,25 +135,44 @@ svg {
 	}
 }
 
-//Navigaiton Toggle
-.navigation-toggle {
+//Header
+.header {
 	z-index: 999;
 	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	text-align: center;
+	background: @white;
+}
+
+.header-title {
+	margin: 0;
+	.bold-font();
+	.font-size(1.6);
+	color: @dark;
+	line-height: 50px;
+}
+
+//Navigaiton Toggle
+.navigation-toggle {
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 50px;
 	height: 50px;
 	padding: 15px 13px;
-	background: @dark;
+	background: transparent;
 	border: none;
 	border-radius: 0;
 	
-	.icon-bar {
+	.bar {
 		display: block;
 		margin-bottom: 4px;
 		width: 24px;
 		height: 2px;
-		background: @white;
+		background: @dark;
 		
 		&:last-child {
 			margin-bottom: 0;
@@ -178,6 +198,13 @@ svg {
 		li {
 			margin: 0;
 			padding: 0;
+
+			&.active {
+
+				ul {
+					display: block;
+				}
+			}
 			
 			a {
 				display: block;
@@ -188,6 +215,7 @@ svg {
 				color: @dark;
 				.transition(all @transition-fast ease-in-out);
 				
+				&.active,
 				&:hover,
 				&:focus {
 					color: @primary;
@@ -196,6 +224,7 @@ svg {
 			}
 			
 			ul {
+				//display: none;
 				margin-left: 20px;
 				border-left: 1px solid @light-grey;
 				
@@ -301,6 +330,10 @@ svg {
 	h1,
 	.lead {
 		color: @white;
+	}
+
+	.lead {
+		margin: 0;
 	}
 }
 

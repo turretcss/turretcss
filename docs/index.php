@@ -10,11 +10,14 @@
 
 <main id="content">
 	
-	<button id="sidebar-toggle" class="navigation-toggle visible-mobile">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button>
+	<header class="header visible-mobile">
+		<button id="sidebar-toggle" class="navigation-toggle">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</button>
+		<h1 class="header-title">Turret</h1>
+	</header>
 	
 	<!-- Getting Started -->
 	<section id="getting-started" class="section section-header">
@@ -1294,7 +1297,7 @@
 </main>
 
 <div class="clearfix"></div>
-
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/toggle.js"></script>
-
-<?php include('includes/footer.html'); ?>
+<script type="text/javascript" src="js/spy.js"></script>
+<?php include_once('includes/footer.html'); ?>
