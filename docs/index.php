@@ -337,10 +337,10 @@
 		<?php sample_code('definition-list'); ?>
 	</section>
 
-	<!-- Grid -->
-	<section id="grid" class="section section-header">
+	<!-- Layout -->
+	<section id="layout" class="section section-header">
 		<div class="title-group">
-			<h1 class="title">Grid</h1>
+			<h1 class="title">Layout</h1>
 			<p class="lead">A demonstration of the 12 column grid system with columns, nested columns, offsets, and push/pull examples.</p>
 		</div>
 	</section>
