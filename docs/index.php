@@ -348,7 +348,7 @@
 	<!-- Grid -->
 	<section id="grid" class="section">
 		<h2 class="section-title">Grid<code>grid/grid.less</code></h2>
-		<?php definitions('grid/grid'); ?>
+		<?php definitions('layout/grid'); ?>
 
 		<h3 class="section-block-title">Container</h3>
 		<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
