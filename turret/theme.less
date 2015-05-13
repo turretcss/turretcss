@@ -134,9 +134,10 @@
  */
 
 //Line height
+@line-height: 1.5;
 @line-height-extra-large: 2;
 @line-height-large: 1.8;
-@line-height: 1.5;
+@line-height-medium: @line-height-medium;
 @line-height-small: 1.2;
 
 
@@ -183,7 +184,7 @@
 @paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-medium;
 @paragraph-color: @body-color;
-@paragraph-line-height: @line-height;
+@paragraph-line-height: @line-height-medium;
 
 
 /*
@@ -195,7 +196,7 @@
 @lead-font-weight: @thin-font-weight;
 @lead-font-size: 2;
 @lead-color: @body-color;
-@lead-line-height: @line-height;
+@lead-line-height: @line-height-medium;
 
 
 /*
@@ -239,7 +240,7 @@
 @blockquote-quote-font-weight: @lead-font-weight;
 @blockquote-quote-font-size: @lead-font-size;
 @blockquote-quote-font-style: normal;
-@blockquote-quote-line-height: @line-height;
+@blockquote-quote-line-height: @line-height-medium;
 @blockquote-quote-color: @primary;
 
 //Blockquote Cite
@@ -325,6 +326,7 @@
 @label-font-weight: @semibold-font-weight;
 @label-font-size: 1.2;
 @label-color: @dark;
+@label-line-height: @line-height-medium;
 
 
 /*
@@ -373,7 +375,7 @@
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
 @input-font-size: @font-size-medium;
-@input-line-height: @line-height;
+@input-line-height: @line-height-medium;
 @input-background: @white;
 @input-border: 1px solid @input-border-color;
 @input-border-color: @light-grey;
@@ -406,6 +408,9 @@
 
 //Search
 @input-search-border-radius: 20px;
+
+//Textarea
+@textarea-line-height: @line-height-medium;
 
 
 /*
@@ -751,7 +756,7 @@
 @table-cell-padding: 10px;
 @table-cell-font-size: @paragraph-font-size;
 @table-cell-color: @body-color;
-@table-cell-line-height: @line-height;
+@table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
 
 //Table Border
