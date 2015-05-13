@@ -1,52 +1,35 @@
-/* Input */
+/*
+ * Input Sizes
+ */
 
-input[type="text"],
-input[type="email"],
-input[type="search"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-input[type="number"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="datetime"],
-input[type="datetime-local"],
-textarea {
-	
-	/*
-	 * Input Sizes
-	 */
-	
-	//Input Small
-	&.input-small {
-		.font-size(@input-small-font-size);
-		height: @input-small-height;
-		padding: @input-small-padding;
-		.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Medium
-	&.input-medium {
-		.font-size(@input-medium-font-size);
-		height: @input-medium-height;
-		padding: @input-medium-padding;
-		.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Large
-	&.input-large {
-		.font-size(@input-large-font-size);
-		height: @input-large-height;
-		padding: @input-large-padding;
-		.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
-	
-	//Input Extra Large
-	&.input-extra-large {
-		.font-size(@input-extra-large-font-size);
-		height: @input-extra-large-height;
-		padding: @input-extra-large-padding;
-		.placeholder(@input-placeholder-color, @input-extra-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-	}
+//Input Small
+.input-small {
+	.font-size(@input-small-font-size);
+	height: @input-small-height;
+	padding: @input-small-padding;
+	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+//Input Medium
+.input-medium {
+	.font-size(@input-medium-font-size);
+	height: @input-medium-height;
+	padding: @input-medium-padding;
+	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+//Input Large
+.input-large {
+	.font-size(@input-large-font-size);
+	height: @input-large-height;
+	padding: @input-large-padding;
+	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+//Input Extra Large
+.input-extra-large {
+	.font-size(@input-extra-large-font-size);
+	height: @input-extra-large-height;
+	padding: @input-extra-large-padding;
+	.placeholder(@input-placeholder-color, @input-extra-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
