@@ -1,17 +1,18 @@
-/* Button Group */
+/*
+ * Button Group
+ */
 
-//Make the div behave like a button
 .button-group {
 	position: relative;
 	display: inline-block;
-	vertical-align: middle; // match .button alignment given font-size hack above
+	vertical-align: middle;
 	
 	> button,
 	> .button {
 		position: relative;
 		float: left;
 		
-		//Bring the "active" button to the front
+		// Bring the "active" button to the front
 		&:hover,
 		&:focus,
 		&:active,
@@ -20,7 +21,7 @@
 		}
 	}
 	
-	//Prevent double borders when buttons are next to each other
+	// Prevent double borders when buttons are next to each other
 	button + button,
 	.button + .button,
 	button + .button-group,
@@ -31,7 +32,7 @@
 		margin-left: -1px;
 	}
 	
-	//Custom edits for including button-groups within button-groups
+	// Custom edits for including button-groups within button-groups
 	> .button-group {
 		float: left;
 	}
@@ -56,7 +57,7 @@
 		.border-left-radius(0);
 	}
 
-	//Set corners individual because sometimes a single button can be in a .button-group and we need :first-child and :last-child to both match
+	// Set corners individual because sometimes a single button can be in a .button-group and we need :first-child and :last-child to both match
 	> button:first-child,
 	> .button:first-child {
 		margin-left: 0;
@@ -72,7 +73,7 @@
 	}
 }
 
-//Button Group Block
+// Button Group Block
 .button-group-block {
 	display: table;
 	width: 100%;
