@@ -8,7 +8,7 @@
 	color: @color;
 	letter-spacing: @letter-spacing;
 	text-transform: @text-transform;
-	.transition(color 0.2s ease-in-out);
+	.transition(color @transition-fast ease-in-out);
 }
 
 .placeholder-input-focus(@color) {
@@ -17,12 +17,6 @@
 
 //Placeholder
 .placeholder(@color, @font-size, @font-family, @letter-spacing, @text-transform) {
-	&:-moz-placeholder {
-		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
-	}
-	&:focus:-moz-placeholder {
-		.placeholder-input-focus(@color);
-	}
 	&::-moz-placeholder {
 		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
 	}
