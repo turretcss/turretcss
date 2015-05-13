@@ -1,5 +1,6 @@
-/* Select */
-
+/*
+ * Select
+ */
 
 select {
 	display: block;
@@ -54,24 +55,24 @@ select {
 		border-right: @select-arrow-size solid transparent;
 		border-top: @select-arrow-size solid @select-arrow-background;
 	}
+}
+
+
+/*
+ * Select Styles
+ */
+
+//Inverse
+.select-inverse {
+
+	select {
+		color: @select-inverse-color;
+		border: @select-inverse-border;
+		background-color: @select-inverse-background;
+	}
 	
-	
-	/*
-	 * Select Styles
-	 */
-	
-	//Inverse
-	&.select-inverse {
-	
-		select {
-			color: @select-inverse-color;
-			border: @select-inverse-border;
-			background-color: @select-inverse-background;
-		}
-		
-		&:after {
-			border-top: @select-arrow-size solid @select-inverse-arrow-background;
-		}
+	&:after {
+		border-top: @select-arrow-size solid @select-inverse-arrow-background;
 	}
 }
 
