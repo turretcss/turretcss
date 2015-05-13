@@ -1,20 +1,24 @@
-//Definition List
-dl {
+/*
+ * Definition List
+ */
 
-	dt,
-	dd {
-		font-family: @definition-list-font-family;
-		.font-size(@definition-list-font-size);
-	}
-	
-	dt {
-		margin: @definition-term-margin;
-		font-weight: @definition-term-font-weight;
-		color: @definition-term-color;
-	}
-	
-	dd {
-		margin: @definition-description-margin;
-		color: @definition-description-color;
-	}
+dl {
+	margin: @definition-list-margin;
+	padding: @definition-list-padding;
+}
+
+dt {
+	margin: @definition-term-margin;
+	font-family: @definition-term-font-family;
+	font-weight: @definition-term-font-weight;
+	.font-size(@definition-term-font-size);
+	color: @definition-term-color;
+}
+
+dd {
+	margin: @definition-description-margin;
+	font-family: @definition-description-font-family;
+	font-weight: @definition-description-font-weight;
+	.font-size(@definition-description-font-size);
+	color: @definition-description-color;
 }
