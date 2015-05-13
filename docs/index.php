@@ -1325,7 +1325,7 @@
 	
 	<footer>
 		<p class="text-center">
-			Version 2.1 &middot; 
+			Version 3.0 &middot; 
 			<a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> 
 			made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> 
 			at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a>
