@@ -716,11 +716,6 @@
 		</div>
 	</section>
 	
-	<!-- Utilities -->
-	<section id="utilities" class="section">
-		<h2 class="section-title">Utilities<code>utilities/utilities.less</code></h2>
-	</section>
-	
 	<!-- Utility Classes -->
 	<section id="utility-classes" class="section">
 		<h2 class="section-title">Utility Classes<code>utilities/utility-classes.less</code></h2>
