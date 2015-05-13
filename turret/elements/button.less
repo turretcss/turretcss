@@ -20,8 +20,8 @@ button,
 	.transition(all @transition-fast ease-in-out);
 	
 	//Button Hover Styles
-	&:hover:not(:disabled),
-	&:focus:not(:disabled) {
+	&:hover,
+	&:focus {
 		color: @button-hover-color;
 		background: @button-hover-background;
 		border: @button-hover-border;
@@ -31,6 +31,11 @@ button,
 	&:disabled {
 		cursor: no-drop;
 		opacity: @button-disabled-opacity;
+
+		&:hover,
+		&:focus {
+			opacity: @button-disabled-opacity;
+		}
 	}
 }
 	
