@@ -20,13 +20,16 @@ textarea {
 	.transition(all @transition-fast ease-in-out);
 	.appearance(none);
 
-	//Override Normalise for Input Types
+	// Remove Webkit Glow
+	outline: none;
+
+	// Override Normalise for Input Types
 	.box-sizing(border-box);
 
-	//Input Placeholder
+	// Input Placeholder
 	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 
-	//Input Disabled
+	// Input Disabled
 	&:disabled {
 		cursor: no-drop;
 		color: @input-disabled-color;
@@ -34,7 +37,7 @@ textarea {
 		background: @input-disabled-background;
 	}
 	
-	//Input Focus
+	// Input Focus
 	&:focus {
 		border: @input-focus-border;
 		background: @input-focus-background;
@@ -52,7 +55,7 @@ textarea {
  * Input Styles
  */
 
-//Input Inverse
+// Input Inverse
 .input-inverse {
 	color: @input-inverse-color;
 	border: @input-inverse-border;
@@ -64,7 +67,7 @@ textarea {
  * Input Search
  */
 
-//Input Search
+// Input Search
 input[type="search"] {
 	border-radius: @input-search-border-radius;
 }
@@ -74,7 +77,7 @@ input[type="search"] {
  * Checkbox and Radio
  */
 
-//Checkbox and Radio Buttons
+// Checkbox and Radio Buttons
 input[type="checkbox"],
 input[type="radio"] {
 	display: inline-block;
@@ -105,7 +108,7 @@ input[type="radio"] {
  * Textarea
  */
 
-//Reset height for `textarea`s
+// Reset height for `textarea`s
 textarea {
 	height: auto;
 	line-height: @textarea-line-height;
