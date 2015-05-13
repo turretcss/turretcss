@@ -723,7 +723,7 @@
 	
 	<!-- Utility Classes -->
 	<section id="utility-classes" class="section">
-		<h2 class="section-title">Utility Classes<code>utility-classes.less</code></h2>
+		<h2 class="section-title">Utility Classes<code>utilities/utility-classes.less</code></h2>
 		<p>For text and background color utility classes check out the <a href="#colors">color</a> section. Text align utility classes are demonstrated in the <a href="#typography">typography</a> section.</p>
 		
 		<h3 class="section-block-title">General</h3>
@@ -1115,39 +1115,77 @@
 	</section>
 	
 	<!-- Mixins -->
-	<section id="mixins" class="section">
-		<h2 class="section-title">Mixins<code>mixins.less</code></h2>
-		
-		<h3 class="section-block-title">General</h2>
-		<?php include('includes/mixins-general.html'); ?>
-		
-		<h3 class="section-block-title">Border Radius</h2>
-		<?php include('includes/mixins-border-radius.html'); ?>
-		
-		<h3 class="section-block-title">Typography</h2>
-		<?php include('includes/mixins-typography.html'); ?>
-		
-		<h3 class="section-block-title">Background</h2>
-		<?php include('includes/mixins-background.html'); ?>
-		
-		<h3 class="section-block-title">Placeholder</h2>
-		<?php include('includes/mixins-placeholder.html'); ?>
-		
-		<h3 class="section-block-title">Arrows</h2>
-		<?php include('includes/mixins-arrows.html'); ?>
-		
-		<h3 class="section-block-title">Transitions</h2>
-		<?php include('includes/mixins-transitions.html'); ?>
-		
-		<h3 class="section-block-title">Transforms</h2>
-		<?php include('includes/mixins-transforms.html'); ?>
-		
-		<h3 class="section-block-title">Animations</h2>
-		<?php include('includes/mixins-animations.html'); ?>
-		
-		<h3 class="section-block-title">Filters</h2>
-		<?php include('includes/mixins-filters.html'); ?>
+	<section id="mixins" class="section section-header">
+		<div class="title-group">
+			<h1 class="title">Mixins</h1>
+			<p class="lead">...</p>
+		</div>
+	</section>
 
+	<!-- Mixins General -->
+	<section id="mixins-general" class="section">
+		<h2 class="section-title">General<code>mixins/general.less</code></h2>
+		<?php include('includes/mixins-general.html'); ?>
+	</section>
+
+	<!-- Mixins Typography -->
+	<section id="mixins-typography" class="section">
+		<h2 class="section-title">Typography<code>utilities/typography.less</code></h2>
+		<?php include('includes/mixins-typography.html'); ?>
+	</section>
+
+	<!-- Mixins Border Radius -->
+	<section id="mixins-border-radius" class="section">
+		<h2 class="section-title">Border Radius<code>utilities/border-radius.less</code></h2>
+		<?php include('includes/mixins-border-radius.html'); ?>
+	</section>
+
+	<!-- Mixins Background -->
+	<section id="mixins-background" class="section">
+		<h2 class="section-title">Background<code>utilities/background.less</code></h2>
+		<?php include('includes/mixins-background.html'); ?>
+	</section>
+
+	<!-- Mixins Placeholder -->
+	<section id="mixins-placeholder" class="section">	
+		<h2 class="section-title">Placeholder<code>utilities/placeholder.less</code></h2>
+		<?php include('includes/mixins-placeholder.html'); ?>
+	</section>
+
+	<!-- Mixins Arrows -->
+	<section id="mixins-arrows" class="section">
+		<h2 class="section-title">Arrows<code>utilities/arrows.less</code></h2>
+		<?php include('includes/mixins-arrows.html'); ?>
+	</section>
+
+	<!-- Mixins Transitions -->
+	<section id="mixins-transitions" class="section">
+		<h2 class="section-title">Transitions<code>utilities/transitions.less</code></h2>
+		<?php include('includes/mixins-transitions.html'); ?>
+	</section>
+
+	<!-- Mixins Transforms -->
+	<section id="mixins-transforms" class="section">
+		<h2 class="section-title">Transforms<code>utilities/transforms.less</code></h2>
+		<?php include('includes/mixins-transforms.html'); ?>
+	</section>
+
+	<!-- Mixins Animations -->
+	<section id="mixins-animations" class="section">
+		<h2 class="section-title">Animations<code>utilities/animations.less</code></h2>
+		<?php include('includes/mixins-animations.html'); ?>
+	</section>
+
+	<!-- Mixins Filters -->
+	<section id="mixins-filters" class="section">
+		<h2 class="section-title">Filters<code>utilities/filters.less</code></h2>
+		<?php include('includes/mixins-filters.html'); ?>
+	</section>
+
+	<!-- Mixins Flexbox -->
+	<section id="mixins-flexbox" class="section">
+		<h2 class="section-title">Flexbox<code>utilities/flexbox.less</code></h2>
+		<?php include('includes/mixins-flexbox.html'); ?>
 	</section>
 	
 	<!-- Support -->

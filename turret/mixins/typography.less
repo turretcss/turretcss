@@ -1,0 +1,61 @@
+/*
+ * Typography
+ */
+ 
+//Font Family
+.font-family(@font-family, @font-weight) {
+	font-family: @font-family;
+	font-weight: @font-weight;
+	font-style: normal;
+}
+
+.thin-font() {
+	.font-family(@thin-font-family, @thin-font-weight);
+}
+
+.regular-font() {
+	.font-family(@regular-font-family, @regular-font-weight);
+}
+
+.medium-font() {
+	.font-family(@medium-font-family, @medium-font-weight);
+}
+
+.semibold-font() {
+	.font-family(@semibold-font-family, @semibold-font-weight);
+}
+
+.bold-font() {
+	.font-family(@bold-font-family, @bold-font-weight);
+}
+
+//Font Face
+.font-face(@family: arial, @weight: normal, @style: normal) {
+	@font-face {
+		font-family: '@{family}';
+		src:url('@{font-path}/@{family}.eot');
+		src:url('@{font-path}/@{family}.eot?#iefix') format('embedded-opentype'),
+			url('@{font-path}/@{family}.svg#icon') format('svg'),
+			url('@{font-path}/@{family}.woff') format('woff'),
+			url('@{font-path}/@{family}.ttf') format('truetype'),
+			url('@{font-path}/@{family}.svg#icon') format('svg');
+		font-weight: @weight;
+		font-style: @style;
+	}
+}
+
+//Font Size
+.font-size(@size) {
+	@remValue: @size;
+	@pxValue: (@size * 10);
+	font-size: ~"@{pxValue}px"; 
+	font-size: ~"@{remValue}rem";
+}
+
+//Truncate
+.truncate() {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
