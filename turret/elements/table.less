@@ -1,4 +1,6 @@
-/* Tables */
+/*
+ * Table
+ */
 
 table {
 	border-collapse: collapse;
@@ -12,41 +14,29 @@ table {
 		color: @table-caption-color;
 		text-align: @table-caption-text-align;
 	}
-	
-	//Table Head
-	thead {
-
-		tr {
-
-			th {
-				padding: @table-head-padding;
-				font-family: @table-head-font-family;
-				font-weight: @table-head-font-weight;
-				.font-size(@table-head-font-size);
-				color: @table-head-color;
-				text-align: @table-head-text-align;
-				text-transform: @table-head-text-transform;
-			}
-		}
-	}
-	
-	//Table Body
-	tbody {
-
-		tr {
-
-			td {
-				padding: @table-cell-padding;
-				.font-size(@table-cell-font-size);
-				color: @table-cell-color;
-				line-height: @table-cell-line-height;
-				vertical-align: @table-cell-vertical-align;
-			}
-		}
-	}
 }
 
-//Table Bordered
+// Table Head
+th {
+	padding: @table-head-padding;
+	font-family: @table-head-font-family;
+	font-weight: @table-head-font-weight;
+	.font-size(@table-head-font-size);
+	color: @table-head-color;
+	text-align: @table-head-text-align;
+	text-transform: @table-head-text-transform;
+}
+
+// Table Cell
+td {
+	padding: @table-cell-padding;
+	.font-size(@table-cell-font-size);
+	color: @table-cell-color;
+	line-height: @table-cell-line-height;
+	vertical-align: @table-cell-vertical-align;
+}
+
+// Table Bordered
 .table-bordered {
 
 	th,
@@ -56,7 +46,7 @@ table {
 	}
 }
 
-//Table Block
+// Table Block
 .table-block {
 	width: 100%;
 
@@ -65,7 +55,7 @@ table {
 	}
 }
 
-//Table Responsive
+// Table Responsive
 .table-responsive {
 
 	@media @table-responsive-breakpoint {
