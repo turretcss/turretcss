@@ -463,7 +463,25 @@ table {
  * Definitions
  */
 /*
+ * Global
+ */
+/*
+ * Colors
+ */
+/*
+ * Breakpoints
+ */
+/*
+ * Media Queries
+ */
+/*
  * Base
+ */
+/*
+ * Definitions
+ */
+/*
+ * Body
  */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -490,6 +508,34 @@ body {
   color: #434a54;
   background: #f5f7fa;
 }
+/*
+ * Definitions
+ */
+/*
+ * Image
+ */
+img {
+  vertical-align: bottom;
+}
+img.rounded {
+  border-radius: 8px;
+}
+img.circle {
+  border-radius: 50%;
+}
+img.responsive {
+  width: 100%;
+  height: auto;
+}
+/*
+ * Typography
+ */
+/*
+ * Definitions
+ */
+/*
+ * Font Size
+ */
 html {
   font-size: 10px;
 }
@@ -513,21 +559,8 @@ html {
     font-size: 10px;
   }
 }
-img {
-  vertical-align: bottom;
-}
-img.rounded {
-  border-radius: 8px;
-}
-img.circle {
-  border-radius: 50%;
-}
-img.responsive {
-  width: 100%;
-  height: auto;
-}
 /*
- * Typography
+ * Definitions
  */
 /*
  * Headings
@@ -580,6 +613,9 @@ h6 {
   font-size: 1rem;
 }
 /*
+ * Definitions
+ */
+/*
  * Link
  */
 a {
@@ -593,6 +629,9 @@ a:focus {
   color: #434a54;
 }
 /*
+ * Definitions
+ */
+/*
  * Paragraph
  */
 p {
@@ -603,6 +642,9 @@ p {
   color: #434a54;
   line-height: 1.5;
 }
+/*
+ * Definitions
+ */
 /*
  * Lead
  */
@@ -616,15 +658,27 @@ p {
   line-height: 1.5;
 }
 /*
+ * Definitions
+ */
+/*
  * Strong
  */
 strong {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
+/*
+ * Definitions
+ */
+/*
+ * Emphasis
+ */
 em {
   font-style: italic;
 }
+/*
+ * Definitions
+ */
 /*
  * Horizontal Rule
  */
@@ -635,6 +689,9 @@ hr {
   height: 1px;
   background: #ccd1d9;
 }
+/*
+ * Definitions
+ */
 /*
  * Blockquote
  */
@@ -663,6 +720,9 @@ blockquote cite {
   text-align: right;
 }
 /*
+ * Definitions
+ */
+/*
  * Pullout
  */
 .pullout {
@@ -675,6 +735,9 @@ blockquote cite {
   border: solid #4bb3d6;
   border-width: 0px 0px 0px 5px;
 }
+/*
+ * Definitions
+ */
 /*
  * Lists
  */
@@ -721,6 +784,9 @@ ul li ul {
   display: inline-block;
 }
 /*
+ * Definitions
+ */
+/*
  * Definition List
  */
 dl {
@@ -745,6 +811,9 @@ dd {
 }
 /*
  * Layout
+ */
+/*
+ * Definitions
  */
 /*
  * Container
@@ -4274,6 +4343,9 @@ dd {
  * Form
  */
 /*
+ * Definitions
+ */
+/*
  * Label
  */
 label {
@@ -4286,6 +4358,9 @@ label {
   color: #434a54;
   line-height: 1.5;
 }
+/*
+ * Definitions
+ */
 /*
  * Fieldset
  */
@@ -4302,6 +4377,9 @@ fieldset legend {
   font-size: 1.4rem;
   color: #656d78;
 }
+/*
+ * Definitions
+ */
 /*
  * Form Message
  */
@@ -4326,6 +4404,9 @@ fieldset legend {
 .form-message.info {
   color: #3bafda;
 }
+/*
+ * Definitions
+ */
 /*
  * Controls (Radio + Checkbox)
  */
@@ -4462,31 +4543,31 @@ fieldset legend {
 .input-group-button:last-child > .button {
   margin-left: -1px;
 }
-.input-group-button.input-group-button-small > button,
-.input-group-button.input-group-button-small > .button {
+.input-group-button-small > button,
+.input-group-button-small > .button {
   padding: 8px 15px;
   font-size: 12px;
   font-size: 1.2rem;
   height: 30px;
   min-width: 30px;
 }
-.input-group-button.input-group-button-medium > button,
-.input-group-button.input-group-button-medium > .button {
+.input-group-button-medium > button,
+.input-group-button-medium > .button {
   font-size: 14px;
   font-size: 1.4rem;
   height: 40px;
   min-width: 40px;
 }
-.input-group-button.input-group-button-large > button,
-.input-group-button.input-group-button-large > .button {
+.input-group-button-large > button,
+.input-group-button-large > .button {
   padding: 15px 24px;
   font-size: 16px;
   font-size: 1.6rem;
   height: 50px;
   min-width: 50px;
 }
-.input-group-button.input-group-button-extra-large > button,
-.input-group-button.input-group-button-extra-large > .button {
+.input-group-button-extra-large > button,
+.input-group-button-extra-large > .button {
   padding: 20px 30px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -4507,6 +4588,9 @@ fieldset legend {
   border-radius: 0 20px 20px 0;
   background-clip: padding-box;
 }
+/*
+ * Definitions
+ */
 /*
  * Input
  */
@@ -4692,6 +4776,9 @@ textarea {
   line-height: 1.5;
 }
 /*
+ * Definitions
+ */
+/*
  * Input Indicators 
  */
 input.error,
@@ -4714,6 +4801,9 @@ textarea.info {
   color: #3bafda;
   border-color: #3bafda;
 }
+/*
+ * Definitions
+ */
 /*
  * Input Sizes
  */
@@ -4898,6 +4988,9 @@ textarea.info {
   color: rgba(67, 74, 84, 0.25);
 }
 /*
+ * Definitions
+ */
+/*
  * Select
  */
 select {
@@ -4949,7 +5042,7 @@ select {
   border-top: 5px solid #4bb3d6;
 }
 /*
- * Select Styles
+ * Select Inverse
  */
 .select-inverse select {
   color: #ffffff;
@@ -4996,6 +5089,9 @@ select {
     background: #434a54;
   }
 }
+/*
+ * Definitions
+ */
 /*
  * Select Sizes
  */
@@ -5085,6 +5181,9 @@ button:disabled:focus,
   display: inline-block;
 }
 /*
+ * Definitions
+ */
+/*
  * Button Styles
  */
 .button-inverse {
@@ -5153,6 +5252,9 @@ button:disabled:focus,
   background: #434a54;
 }
 /*
+ * Definitions
+ */
+/*
  * Button Indicators
  */
 button.error,
@@ -5211,6 +5313,9 @@ button.info:focus,
   background: #2494be;
   border: 1px solid #2084a9;
 }
+/*
+ * Definitions
+ */
 /*
  * Button Sizes
  */
@@ -5321,6 +5426,9 @@ button.info:focus,
   width: 100%;
 }
 /*
+ * Definitions
+ */
+/*
  * Figure
  */
 figure {
@@ -5328,7 +5436,7 @@ figure {
   padding: 15px;
   border: 1px solid #ccd1d9;
 }
-figure figcaption {
+figcaption {
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -5337,6 +5445,9 @@ figure figcaption {
   color: #434a54;
   text-align: center;
 }
+/*
+ * Definitions
+ */
 /*
  * Media
  */
@@ -5391,10 +5502,14 @@ figure figcaption {
   padding-top: 50%;
 }
 /*
+ * Definitions
+ */
+/*
  * Nav
  */
 nav ul,
 .nav ul {
+  margin: 0;
   list-style: none;
 }
 nav ul li,
@@ -5403,8 +5518,11 @@ nav ul li,
 }
 .nav-inline ul li {
   display: inline-block;
-  margin: 10px;
+  margin: 0px 10px;
 }
+/*
+ * Definitions
+ */
 /*
  * Table
  */
