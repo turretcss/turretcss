@@ -171,6 +171,13 @@
 		<p>Some top level definitions for general styles on the <?php code('<body>'); ?> tag.</p>
 		<?php definitions('base/body'); ?>
 	</section>
+	
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<h2 class="section-title">Font Size<code>base/font-size.less</code></h2>
+		<p>Some top level definitions for the base font-size styles on the <?php code('<html>'); ?> tag, with breakpoints.</p>
+		<?php definitions('base/font-size'); ?>
+	</section>
 
 	<!-- Image -->
 	<section id="image" class="section">
@@ -201,14 +208,6 @@
 			<h1 class="title">Typography</h1>
 			<p class="lead">...</p>
 		</div>
-	</section>
-
-	<!-- Font -->
-	<section id="font" class="section">
-		<h2 class="section-title">Font<code>typography/font.less</code></h2>
-		<?php definitions('typography/font'); ?>
-		<h3 class="section-block-title">Base Font Size</h3>
-		<p>Some top level definitions for general styles on the <?php code('<html>'); ?> tag.</p>
 	</section>
 
 	<!-- Headings -->

@@ -1,0 +1,35 @@
+/*
+ * Definitions
+ */
+
+// Base Font Size
+@base-font-size: 10px;
+@base-font-size-extra-large: @base-font-size;
+@base-font-size-large: @base-font-size;
+@base-font-size-medium: @base-font-size;
+@base-font-size-small: @base-font-size;
+
+
+/*
+ * Font Size
+ */
+
+html {
+	font-size: @base-font-size;
+
+	@media @large-only {
+		font-size: @base-font-size-extra-large;
+	}
+	
+	@media @large-only {
+		font-size: @base-font-size-large;
+	}
+
+	@media @medium-only {
+		font-size: @base-font-size-medium;
+	}
+	
+	@media @small {
+		font-size: @base-font-size-small;
+	}
+}
