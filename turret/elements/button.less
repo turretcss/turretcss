@@ -1,7 +1,38 @@
 /*
+ * Definitions
+ */
+
+// Button
+@button-padding-vertical: 12px;
+@button-padding-horizontal: 15px;
+@button-height: 40px;
+@button-font-family: @bold-font-family;
+@button-font-weight: @bold-font-weight;
+@button-font-size: 1.4;
+@button-color: @dark-grey;
+@button-line-height: 1;
+@button-text-align: center;
+@button-text-transform: none;
+@button-background: @light-grey;
+@button-border: 1px solid darken(@button-background, 5%);
+
+// Button Hover
+@button-hover-color: @dark-grey;
+@button-hover-background: darken(@button-background, 10%);
+@button-hover-border: 1px solid darken(@button-background, 15%);
+
+// Button Disabled
+@button-disabled-opacity: 0.5;
+
+// Button Block
+@button-block-text-align: center;
+
+
+/*
  * Button
  */
 
+// Button
 button,
 .button {
 	display: inline-block;
@@ -21,7 +52,7 @@ button,
 	border-radius: @button-border-radius;
 	.transition(all @transition-fast ease-in-out);
 	
-	//Button Hover Styles
+	// Button Hover Styles
 	&:hover,
 	&:focus {
 		color: @button-hover-color;
@@ -29,7 +60,7 @@ button,
 		border: @button-hover-border;
 	}
 
-	//Button Disabled
+	// Button Disabled
 	&:disabled {
 		cursor: no-drop;
 		opacity: @button-disabled-opacity;
@@ -45,14 +76,14 @@ button,
  * Button Modifiers
  */
 
-//Button Block
+// Button Block
 .button-block {
 	width: 100%;
 	text-align: @button-block-text-align;
 	display: block;
 }
 
-//Button Center
+// Button Center
 .button-center {
 	margin: 0 auto;
 	display: inline-block;

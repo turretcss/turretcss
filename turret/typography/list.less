@@ -1,4 +1,29 @@
 /*
+ * Definitions
+ */
+
+// List
+@list-margin: 20px 0px;
+@list-padding: 0;
+
+// Lists Item
+@list-item-margin: 10px 0px 10px 20px;
+@list-item-font-family: @paragraph-font-family;
+@list-item-font-weight: @paragraph-font-weight;
+@list-item-font-size: @paragraph-font-size;
+@list-item-color: @paragraph-color;
+
+// Child List
+@child-list-margin: 10px 0px;
+@child-list-padding: 0;
+@child-list-item-margin: @list-item-margin;
+
+// Unordered List
+@unordered-list-icon: disc;
+@unordered-child-list-icon: disc;
+
+
+/*
  * Lists
  */
 
@@ -26,7 +51,7 @@ ol,
 	}
 }
 
-//Unordered List
+// Unordered List
 ul {
 	list-style: @unordered-list-icon;
 	
@@ -38,7 +63,7 @@ ul {
 	}
 }
 
-//Ordered List
+// Ordered List
 ol {
 	
 	li {
@@ -46,7 +71,7 @@ ol {
 	}
 }
 
-//List Unstyled
+// List Unstyled
 .list-unstyled {
 	list-style: none;
 	
@@ -55,7 +80,7 @@ ol {
 	}
 }
 
-//List Inline
+// List Inline
 .list-inline {
 	
 	li {

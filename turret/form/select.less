@@ -1,4 +1,30 @@
 /*
+ * Definitions
+ */
+
+// Select
+@select-margin: @input-margin;
+@select-padding: 0px 12px;
+@select-height: @input-height;
+@select-font-family: @input-font-family;
+@select-font-size: @input-font-size;
+@select-color: @input-color;
+@select-background: @input-background;
+@select-border: @input-border;
+@select-border-radius: @border-radius;
+
+// Select Arrow
+@select-arrow-size: 5px;
+@select-arrow-background: @primary;
+
+// Select Inverse
+@select-inverse-color: @input-inverse-color;
+@select-inverse-border: @input-inverse-border;
+@select-inverse-background: @input-inverse-background;
+@select-inverse-arrow-background: @select-arrow-background;
+
+
+/*
  * Select
  */
 
@@ -13,7 +39,7 @@ select {
 	margin: @select-margin;
 	color: @select-background;
 	
-	//Select
+	// Select
 	select {
 		margin: 0;
 		padding: @select-padding;
@@ -29,19 +55,19 @@ select {
 		border-radius: @select-border-radius;
 		.appearance(none);
 		
-		//Undo the Firefox inner focus ring
+		// Undo the Firefox inner focus ring
 		&::-moz-focusring {
 			color: transparent;
 			text-shadow: 0 0 0 #000;
 		}
 		
-		//Hide the arrow in IE10 and up
+		// Hide the arrow in IE10 and up
 		&::-ms-expand {
 			display: none;
 		}
 	}
 	
-	//Dropdown Arrow
+	// Dropdown Arrow
 	&:after {
 		position: absolute;
 		top: 50%;
@@ -59,10 +85,9 @@ select {
 
 
 /*
- * Select Styles
+ * Select Inverse
  */
 
-//Inverse
 .select-inverse {
 
 	select {
@@ -76,7 +101,7 @@ select {
 	}
 }
 
-//IE9 hide the arrow
+// IE9 hide the arrow
 @media @ie9-10 {
 
 	.select {
@@ -92,17 +117,17 @@ select {
 	}
 }
 
-//Firefox hack to hide the arrow
+// Firefox hack to hide the arrow
 @-moz-document url-prefix() {
 	
-	//Firefox hack to hide the arrow (FF < 30)
+	// Firefox hack to hide the arrow (FF < 30)
 	.select select {
 		text-indent: 0.01px;
 		text-overflow: '';
 		padding-right: 1rem;
 	}
 	
-	//Firefox hack to hide the arrow (FF => 30)
+	// Firefox hack to hide the arrow (FF => 30)
 	.select:before {
 		z-index: 2;
 		position: absolute;

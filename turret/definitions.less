@@ -1,50 +1,85 @@
-//General
-@import 'definitions/general/global.less';
-@import 'definitions/general/breakpoints.less';
-@import 'definitions/general/media-queries.less';
-@import 'definitions/general/colors.less';
+/*
+ * Global
+ */
 
-//Base
-@import 'definitions/base/body.less';
-@import 'definitions/base/font-size.less';
-@import 'definitions/base/image.less';
+// Border Radius
+@border-radius: 2px;
 
-//Typography
-@import 'definitions/typography/font.less';
-@import 'definitions/typography/headings.less';
-@import 'definitions/typography/link.less';
-@import 'definitions/typography/paragraph.less';
-@import 'definitions/typography/lead.less';
-@import 'definitions/typography/strong.less';
-@import 'definitions/typography/emphasis.less';
-@import 'definitions/typography/hr.less';
-@import 'definitions/typography/blockquote.less';
-@import 'definitions/typography/pullout.less';
-@import 'definitions/typography/list.less';
-@import 'definitions/typography/definition-list.less';
+// Z-Index
+@z-index-high: 999;
+@z-index-medium: 99;
+@z-index-low: 9;
 
-//Grid
-@import 'definitions/layout/grid.less';
+// Animations
+@animation-fast: 0.5s;
+@animation-medium: 1s;
+@animation-slow: 2s;
 
-//Form
-@import 'definitions/form/label.less';
-@import 'definitions/form/fieldset.less';
-@import 'definitions/form/form-message.less';
-@import 'definitions/form/input.less';
-@import 'definitions/form/input-indicators.less';
-@import 'definitions/form/input-sizes.less';
-@import 'definitions/form/control.less';
-@import 'definitions/form/select.less';
-@import 'definitions/form/select-sizes.less';
+// Transitions
+@transition-fast: 0.2s;
+@transition-medium: 0.3s;
+@transition-slow: 0.5s;
 
-//Elements
-@import 'definitions/elements/button.less';
-@import 'definitions/elements/button-block.less';
-@import 'definitions/elements/button-disabled.less';
-@import 'definitions/elements/button-styles.less';
-@import 'definitions/elements/button-indicators.less';
-@import 'definitions/elements/button-sizes.less';
-@import 'definitions/elements/figure.less';
-@import 'definitions/elements/media.less';
-@import 'definitions/elements/nav.less';
-@import 'definitions/elements/table.less';
+// Font Sizes
+@font-size-extra-large: 1.8;
+@font-size-large: 1.6;
+@font-size-medium: 1.4;
+@font-size-small: 1.2;
+
+// Line height
+@line-height-extra-large: 2;
+@line-height-large: 1.8;
+@line-height-medium: 1.5;
+@line-height-small: 1.2;
+
+
+/*
+ * Colors
+ */
+
+// Shades
+@white: #FFFFFF;
+@black: #000000;
+@light-grey: #CCD1D9;
+@grey: #656D78;
+@dark-grey: #434A54;
+
+// Indicators
+@info: #3BAFDA;
+@error: #DA4453;
+@warning: #F6BB42;
+@success: #2ECC71;
+
+// Palette
+@light: #F5F7FA;
+@dark: @dark-grey;
+@primary: #4BB3D6;
+@secondary: #967ADC;
+@tertiary: #D770AD;
+
+// Inverse
+@inverse: @dark;
+
+
+/*
+ * Breakpoints
+ */
+
+// Container Widths
+@container-small: 100%;
+@container-medium: 768px;
+@container-large: 1024px;
+@container-extra-large: 1280px;
+
+// Screen Sizes
+@screen-small: 480px;
+@screen-small-min: @screen-small;
+@screen-small-max: (@screen-medium-min - 1);
+@screen-medium: 768px;
+@screen-medium-min: @screen-medium;
+@screen-medium-max: (@screen-large-min - 1);
+@screen-large: 1025px;
+@screen-large-min: @screen-large;
+@screen-large-max: (@screen-extra-large-min - 1);
+@screen-extra-large: 1280px;
+@screen-extra-large-min: @screen-extra-large;

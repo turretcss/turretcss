@@ -1,4 +1,41 @@
 /*
+ * Definitions
+ */
+
+// Control
+@control-margin: @label-margin;
+@control-padding: 0px 0px 0px 1.5em;
+@control-color: @input-color;
+
+// Control Indicator
+@control-indicator-size: 16px;
+@control-indicator-color: @primary;
+@control-indicator-background: @input-background;
+@control-indicator-border: @input-border;
+
+// Control Checked
+@control-indicator-checked-background: @primary;
+@control-indicator-checked-border: 1px solid @primary;
+@control-label-checked-color: @control-label-color;
+
+// Control Label
+@control-label-margin: 0px 0px 0px 10px;
+@control-label-font-family: @label-font-family;
+@control-label-font-size: @label-font-size;
+@control-label-color: @label-color;
+@control-label-line-height: 1.5;
+
+// Control Inline
+@control-inline-margin-right: 20px;
+
+// Checkbox
+@checkbox-border-radius: none;
+
+// Radio
+@radio-border-radius: 50%;
+
+
+/*
  * Controls (Radio + Checkbox)
  */
 
@@ -15,7 +52,7 @@
 		margin-right: @control-inline-margin-right;
 	}
 	
-	//Visually Hide Input
+	// Visually Hide Input
 	input {
 		z-index: -1;
 		position: absolute;
@@ -34,7 +71,7 @@
 		}
 	}
 
-	//Checkbox
+	// Checkbox
 	&.checkbox {
 		
 		.control-indicator {
@@ -49,7 +86,7 @@
 		}
 	}
 	
-	//Radio
+	// Radio
 	&.radio {
 		
 		.control-indicator {
@@ -66,7 +103,7 @@
 	}
 }
 
-//Control Indicator
+// Control Indicator
 .control-indicator {
 	position: absolute;
 	top: 0;
@@ -84,7 +121,7 @@
 	.user-select(none);
 }
 
-//Control Label
+// Control Label
 .control-label {
 	display: block;
 	margin: @control-label-margin;

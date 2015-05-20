@@ -1,22 +1,36 @@
-//Font Rendering
+/*
+ * Definitions
+ */
+
+//Body
+@body-color: @dark;
+@body-background: @light;
+@body-font-family: @regular-font-family;
+
+
+/*
+ * Body
+ */
+
+// Font Rendering
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-//Box Sizing
+// Box Sizing
 *,
 *:before,
 *:after {
 	.box-sizing(border-box);
 }
 
-//Removes Dotted Border
+// Removes Dotted Border
 :focus {
 	outline: 0;
 }
 
-//General Styles
+// General Styles
 html,
 body {
 	margin: 0;
@@ -24,7 +38,7 @@ body {
 	width: 100%;
 }
 
-//Body Font and Color
+// Body Font and Color
 body {
 	font-family: @body-font-family;
 	color: @body-color;
