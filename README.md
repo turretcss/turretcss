@@ -1,6 +1,6 @@
 # [Turret](http://turret.bigfish.tv)
 
-Turret is a responsive frontend framework build with LESS to normalize styles for default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
+Turret is a responsive frontend framework built with Less to normalize styles for default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
 
 
 ## Quick start
