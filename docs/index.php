@@ -8,7 +8,7 @@
 	<?php include('includes/navigation.html'); ?>
 </aside>
 
-<main id="content">
+<main id="content" class="content">
 	
 	<header class="header visible-mobile">
 		<button id="sidebar-toggle" class="navigation-toggle">

@@ -1,4 +1,5 @@
 @import '/turret/turret.less';
+@import '/docs/styles/theme.less';
 
 .divider {
 	margin: 50px auto;
@@ -92,18 +93,19 @@ svg {
 }
 
 //Content
-#sidebar,
-#content {
+.sidebar,
+.content {
 	float: left;
 	min-height: 100%;
 	.overflow-scroll();
 }
 
-#sidebar {
+.sidebar {
 	position: fixed;
 	width: 270px;
 	height: 100%;
-	background: @light;
+	background: @white;
+	border-right: 1px solid @light-grey;
 	.overflow-scroll();
 	
 	@media @mobile {
@@ -116,7 +118,7 @@ svg {
 	}
 }
 
-#content {
+.content {
 	width: 100%;
 	background: @white;
 
@@ -210,29 +212,29 @@ svg {
 				display: block;
 				margin-left: 0;
 				padding: 15px 20px;
-				.semibold-font();
-				.font-size(1.6);
+				.medium-font();
+				.font-size(1.4);
 				color: @dark;
 				.transition(all @transition-fast ease-in-out);
 				
-				&.active,
+				&.active {
+					.medium-font();
+					color: @primary;
+				}
+
 				&:hover,
 				&:focus {
 					color: @primary;
-					margin-left: 2px;
 				}
 			}
 			
 			ul {
-				//display: none;
-				margin-left: 20px;
-				border-left: 1px solid @light-grey;
 				
 				li {
 				
 					a {
-						padding: 6px 12px;
-						.font-size(1.3);
+						padding: 5px 30px 5px 35px;
+						.regular-font();
 
 						&:hover,
 						&:focus {
@@ -296,26 +298,25 @@ svg {
 	@media @large {
 		padding: 30px 50px;
 	}
+}
+
+.section-title {
+	margin-bottom: 35px;
+	line-height: 2;
+	color: @dark;
+	border-bottom: 1px solid @light-grey;
 	
-	.section-title {
-		margin-bottom: 35px;
-		line-height: 2;
-		color: @dark;
-		border-bottom: 1px solid @light-grey;
-		
-		code {
-			margin-left: 15px;
-			padding: 0;
-			background: none !important;
-			border: none;
-			vertical-align: baseline;
-		}
+	code {
+		margin-left: 15px;
+		padding: 0;
+		background: none !important;
+		border: none;
+		vertical-align: baseline;
 	}
-	
-	.section-block-title {
-		margin: 50px 0px 30px;
-		font-weight: 500;
-	}
+}
+
+.section-block-title {
+	margin: 50px 0px 20px;
 }
 
 .section-header {
