@@ -15,7 +15,7 @@
 //General
 code {
 	font-family: monaco,Consolas, "Lucida Console", monospace;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 12px;
 	color: @primary;
 }
@@ -229,6 +229,7 @@ svg {
 			}
 			
 			ul {
+				display: none;
 				
 				li {
 				
@@ -359,4 +360,131 @@ svg {
 .is-visible,
 .is-supported {
 	
+}
+
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * @author Scott de Jonge
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	direction: ltr;
+	font-family: monaco,Consolas, "Lucida Console", monospace;
+	font-weight: normal;
+	font-size: 12px;
+	color: @body-color;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	margin: 20px 0px;
+	padding: 10px;
+	overflow: auto;
+	background: @white;
+	border: 1px solid @light-grey;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: darken(@light-grey, 20%);
+}
+
+.token.punctuation {
+	color: @grey;
+}
+
+.namespace {
+	
+}
+
+.token.variable,
+.token.atrule,
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: darken(@secondary, 5%);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: darken(@light-grey, 20%);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: @grey;
+}
+
+.token.attr-value,
+.token.keyword {
+	color: darken(@primary, 10%);
+}
+
+.token.function {
+	color: darken(@tertiary, 10%);
+}
+
+.token.regex,
+.token.important {
+	color: @error;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+pre[class*='language-'] {
+	position: relative;
+}
+
+pre[class*='language-'] > code[data-language] {
+	overflow: auto;
+	display: block;
+}
+
+pre[class*='language-'] > code[data-language]:before {
+	content: attr(data-language);
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 2px 4px;
+	font-size: 10px;
+	color: @grey;
 }
