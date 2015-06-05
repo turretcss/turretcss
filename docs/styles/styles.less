@@ -12,7 +12,7 @@
 	vertical-align: middle;
 }
 
-//General
+// General
 code {
 	font-family: monaco,Consolas, "Lucida Console", monospace;
 	font-weight: normal;
@@ -28,12 +28,13 @@ small {
 }
 
 svg {
+
 	rect {
 		fill: @primary;
 	}
 }
 
-//Color
+// Color
 .color {
 	text-align: center;
 	
@@ -48,7 +49,7 @@ svg {
 	padding: 5px;
 }
 
-//Swatch
+// Swatch
 .swatches {
 	margin-left: -5px;
 	margin-right: -5px;
@@ -75,7 +76,7 @@ svg {
 	}
 }
 
-//Grid Item
+// Grid Item
 .grid-item {
 	padding: 15px;
 	margin-bottom: 20px;
@@ -92,7 +93,6 @@ svg {
 	}
 }
 
-//Content
 .sidebar,
 .content {
 	float: left;
@@ -100,11 +100,13 @@ svg {
 	.overflow-scroll();
 }
 
+// Sidebar
 .sidebar {
 	position: fixed;
 	width: 270px;
 	height: 100%;
-	background: @light;
+	background: @white;
+	border-right: 1px solid @light;
 	.overflow-scroll();
 	
 	@media @mobile {
@@ -117,6 +119,25 @@ svg {
 	}
 }
 
+// Sidebar Title
+.sidebar-title {
+	margin: 0;
+	padding: 20px;
+	.medium-font();
+	text-transform: uppercase;
+
+	a {
+		color: @dark;
+	}
+	
+	code {
+		margin-left: 15px;
+		vertical-align: baseline;
+		text-transform: none;
+	}
+}
+
+// Content
 .content {
 	width: 100%;
 	background: @white;
@@ -136,7 +157,7 @@ svg {
 	}
 }
 
-//Header
+// Header
 .header {
 	z-index: 999;
 	position: fixed;
@@ -156,7 +177,7 @@ svg {
 	line-height: 50px;
 }
 
-//Navigaiton Toggle
+// Navigaiton Toggle
 .navigation-toggle {
 	position: absolute;
 	top: 0;
@@ -187,9 +208,8 @@ svg {
 	}
 }
 
-//Navigation
+// Navigation
 .navigation {
-	padding: 20px 0px;
 	
 	ul {
 		margin: 0;
@@ -247,7 +267,7 @@ svg {
 	}
 }
 
-//Hero
+// Hero
 .home-header {
 	padding: 80px 0px;
 	text-align: center;
@@ -290,37 +310,21 @@ svg {
 }
 
 
-//Section
+// Section
 .section {
-	margin: 35px 0px;
-	padding: 0px 15px;
+	margin: 0;
+	padding: 30px 15px;
 
 	@media @large {
-		padding: 30px 50px;
+		padding: 60px 50px;
 	}
-}
 
-.section-title {
-	margin-bottom: 35px;
-	line-height: 2;
-	color: @dark;
-	border-bottom: 1px solid @light-grey;
-	
-	code {
-		margin-left: 15px;
-		padding: 0;
-		background: none !important;
-		border: none;
-		vertical-align: baseline;
+	+ hr {
+		margin: 0 auto;
 	}
-}
-
-.section-block-title {
-	margin: 50px 0px 20px;
 }
 
 .section-header {
-	margin-top: 0;
 	padding: 30px 15px;
 	background: @primary;
 	
@@ -338,7 +342,21 @@ svg {
 	}
 }
 
-//Tables
+// Section Title
+.section-title {
+	margin-bottom: 35px;
+	
+	code {
+		margin-left: 15px;
+		vertical-align: baseline;
+	}
+}
+
+.section-block-title {
+	margin: 50px 0px 20px;
+}
+
+// Tables
 .is-clear,
 .is-float {
 	text-transform: capitalize;
@@ -347,8 +365,8 @@ svg {
 .is-hidden,
 .is-float,
 .is-unsupported {
-	color: darken(@light, 30%) !important;
-	background: @light;
+	color: darken(@light, 15%);
+	background: lighten(@light, 5%);
 }
 
 .is-hidden,
@@ -389,13 +407,13 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 
-/* Code blocks */
+// Code Blocks
 pre[class*="language-"] {
-	margin: 20px 0px;
+	margin-top: 20px;
 	padding: 10px;
 	overflow: auto;
 	background: @white;
-	border: 1px solid @light-grey;
+	border: 1px solid @light;
 }
 
 .token.comment,
