@@ -329,7 +329,7 @@ svg {
 	background: @primary;
 	
 	@media @large {
-		padding: 50px;
+		padding: 80px 50px;
 	}
 
 	h1,
@@ -339,6 +339,12 @@ svg {
 
 	.lead {
 		margin: 0;
+		.regular-font();
+		color: darken(@primary, 30%);
+
+		@media @large {
+			max-width: 50%;
+		}
 	}
 }
 
