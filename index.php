@@ -12,7 +12,7 @@
 		<h1 class="home-header-title">Turret</h1>
 		<a class="button button-large button-border" href="/docs">Docs</a>
 		<a class="button button-large button-border" href="https://github.com/bigfishtv/turret">Github</a>
-		<p class="text-white"><strong>Version 3.0</strong></p>
+		<p class="text-white"><strong>v3.0.0</strong></p>
 	</div>
 </header>
 
@@ -53,7 +53,7 @@
 </section>
 
 <footer>
-	<p class="text-center">Version 3.0 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
+	<p class="text-center">v3.0.0 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
 </footer>
 
 <?php include_once('docs/includes/footer.html'); ?>
