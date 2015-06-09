@@ -1,0 +1,31 @@
+/*
+ * Container
+ */
+ 
+.container {
+	position: relative;
+	margin: 0 auto;
+	padding-left: @gutter;
+	padding-right: @gutter;
+	width: 100%;
+
+	@media @xlarge {
+		max-width: @container-xlarge;
+	}
+
+	@media @large {
+		max-width: @container-large;
+	}
+
+	@media @medium {
+		max-width: @container-medium;
+	}
+	
+	@media @small {
+		max-width: @container-small;
+	}
+
+	@media @xsmall {
+		max-width: @container-xsmall;
+	}
+}
