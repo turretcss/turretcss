@@ -1037,37 +1037,50 @@
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
-					<th></th>
-					<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
-					<th>Medium devices<br><small>Tablets (≥768px)</small></th>
-					<th>Large devices<br><small>Desktops (≥1024)</small></th>
-					<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
+					<th width="25%"></th>
+					<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
+					<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
+					<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
+					<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+					<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><code>.small-clear-right</code></td>
+					<td><code>.clear-right-xsmall</code></td>
+					<td class="is-clear">clear</td>
+					<td class="is-float">right</td>
+					<td class="is-float">right</td>
+					<td class="is-float">right</td>
+					<td class="is-float">right</td>
+				</tr>
+				<tr>
+					<td><code>.clear-right-small</code></td>
+					<td class="is-float">right</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 				</tr>
 				<tr>
-					<td><code>.medium-clear-right</code></td>
+					<td><code>.clear-right-medium</code></td>
+					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 				</tr>
 				<tr>
-					<td><code>.large-clear-right</code></td>
+					<td><code>.clear-right-large</code></td>
+					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">right</td>
 				</tr>
 				<tr>
-					<td><code>.extra-large-clear-right</code></td>
+					<td><code>.clear-right-xlarge</code></td>
+					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
 					<td class="is-float">right</td>
@@ -1076,28 +1089,40 @@
 			</tbody>
 			<tbody>
 				<tr>
-					<td><code>.small-clear-left</code></td>
+					<td><code>.clear-left-xsmall</code></td>
+					<td class="is-clear">clear</td>
+					<td class="is-float">left</td>
+					<td class="is-float">left</td>
+					<td class="is-float">left</td>
+					<td class="is-float">left</td>
+				</tr>
+				<tr>
+					<td><code>.clear-left-small</code></td>
+					<td class="is-float">left</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 				</tr>
 				<tr>
-					<td><code>.medium-clear-left</code></td>
+					<td><code>.clear-left-medium</code></td>
+					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 				</tr>
 				<tr>
-					<td><code>.large-clear-left</code></td>
+					<td><code>.clear-left-large</code></td>
+					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-clear">clear</td>
 					<td class="is-float">left</td>
 				</tr>
 				<tr>
-					<td><code>.extra-large-clear-left</code></td>
+					<td><code>.clear-left-xlarge</code></td>
+					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
 					<td class="is-float">left</td>
@@ -1158,21 +1183,47 @@
 			</tbody>
 		</table>
 		
-		<h3 class="section-block-title">Responsive Visibility</h3>
-		<p>Define content to be <code>visible</code> or <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+		<h3 class="section-block-title">Visibile Breakpoint Classes</h3>
+		<p>Define content to be <code>visible</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
-					<th></th>
-					<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
-					<th>Medium devices<br><small>Tablets (≥768px)</small></th>
-					<th>Large devices<br><small>Desktops (≥1024)</small></th>
-					<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
+					<th width="25%"></th>
+					<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
+					<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
+					<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
+					<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+					<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
+					<td><code>.visible-xsmall</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
 					<td><code>.visible-small</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.visible-small-up</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.visible-small-down</code></td>
+					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
@@ -1181,6 +1232,23 @@
 				<tr>
 					<td><code>.visible-medium</code></td>
 					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.visible-medium-up</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.visible-medium-down</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
@@ -1189,20 +1257,78 @@
 					<td><code>.visible-large</code></td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-hidden">Hidden</td>
 				</tr>
 				<tr>
-					<td><code>.visible-extra-large</code></td>
+					<td><code>.visible-large-up</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.visible-large-down</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.visible-xlarge</code></td>
+					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-visible">Visible</td>
 				</tr>
 			</tbody>
+		</table>
+	
+		<h3 class="section-block-title">Hidden Breakpoint Classes</h3>
+		<p>Define content to be <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+		<table class="table table-bordered table-block table-responsive">
+			<thead>
+				<tr>
+					<th width="25%"></th>
+					<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
+					<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
+					<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
+					<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+					<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
+				</tr>
+			</thead>
 			<tbody>
 				<tr>
+					<td><code>.hidden-xsmall</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
 					<td><code>.hidden-small</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-small-up</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-small-down</code></td>
+					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
@@ -1211,6 +1337,23 @@
 				<tr>
 					<td><code>.hidden-medium</code></td>
 					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-medium-up</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-medium-down</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
@@ -1219,11 +1362,29 @@
 					<td><code>.hidden-large</code></td>
 					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
 					<td class="is-hidden">Hidden</td>
 					<td class="is-visible">Visible</td>
 				</tr>
 				<tr>
-					<td><code>.hidden-extra-large</code></td>
+					<td><code>.hidden-large-up</code></td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-visible">Visible</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-large-down</code></td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-hidden">Hidden</td>
+					<td class="is-visible">Visible</td>
+				</tr>
+				<tr>
+					<td><code>.hidden-xlarge</code></td>
+					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
 					<td class="is-visible">Visible</td>
