@@ -91,12 +91,6 @@ textarea {
 	&:focus {
 		border: @input-focus-border;
 		background: @input-focus-background;
-		
-		&.inverse {
-			color: @input-inverse-focus-color;
-			border: @input-inverse-focus-border;
-			background: @input-inverse-focus-background;
-		}
 	}
 
 }
@@ -111,6 +105,12 @@ textarea {
 	border: @input-inverse-border;
 	background-color: @input-inverse-background;
 	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+
+	&:focus {
+		color: @input-inverse-focus-color;
+		border: @input-inverse-focus-border;
+		background: @input-inverse-focus-background;
+	}
 }
 	
 /*
