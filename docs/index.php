@@ -165,6 +165,48 @@
 	<section id="breakpoints" class="section">
 		<h2 class="section-title">Breakpoints</h2>
 		<?php definitions('general/breakpoints'); ?>
+		<table class="table table-bordered table-block table-responsive">
+			<thead>
+				<tr>
+					<th width="25%">Breakpoint</th>
+					<th width="25%">Device</th>
+					<th width="25%">Min Width</th>
+					<th width="25%">Max Width</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>xsmall</td>
+					<td>Phone</td>
+					<td class="is-null"></td>
+					<td>768px</td>
+				</tr>
+				<tr>
+					<td>small</td>
+					<td>Tablet</td>
+					<td>768px</td>
+					<td>1024px</td>
+				</tr>
+				<tr>
+					<td>medium</td>
+					<td>Laptop</td>
+					<td>1024px</td>
+					<td>1280px</td>
+				</tr>
+				<tr>
+					<td>large</td>
+					<td>Desktop</td>
+					<td>1280px</td>
+					<td>1680px</td>
+				</tr>
+				<tr>
+					<td>xlarge</td>
+					<td>Large Screen</td>
+					<td>1680px</td>
+					<td class="is-null"></td>
+				</tr>
+			</tbody>
+		</table>
 	</section>
 
 	<hr>
@@ -381,23 +423,29 @@
 		</div>
 	</section>
 
-	<!-- Grid -->
-	<section id="grid" class="section">
-		<h2 class="section-title">Grid<code>grid/grid.less</code></h2>
-		<?php definitions('layout/grid'); ?>
-
-		<h3 class="section-block-title">Container</h3>
+	<!-- Container -->
+	<section id="container" class="section">
+		<h2 class="section-title">Container<code>layout/container.less</code></h2>
 		<p>Content wrapper with <code>max-width</code> set at differing sizes at various media query breakpoints.</p>
-		<?php markup('<div class="container">...</div>'); ?>
+		<p>By default the container has <code>@gutter</code> padding applied to the left and right of the container <?php code('<div>'); ?>, this is configurable for each breakpoint as needed.</p>
+		<?php definitions('layout/container'); ?>
+		<?php sample_code('container'); ?>
+	</section>
 
-		<h3 class="section-block-title">Row</h3>
-		<p>Containing element for children with <code>.column-1*</code> attributes set.</p>
+	<hr>
+
+	<!-- Row -->
+	<section id="row" class="section">
+		<h2 class="section-title">Row<code>layout/row.less</code></h2>
+		<p>Containing element for children with <code>.column-1*</code> attributes set, used for a clearfix for column floats as well as negating the outer gutters applied to columns.</p>
 		<?php markup('<div class="row">...</div>'); ?>
+	</section>
 
-		<h3 class="section-block-title">Grid</h3>
-		<?php sample_code('grid'); ?>
+	<hr>
 
-		<h3 class="section-block-title">Gutters</h3>
+	<!-- Gutter -->
+	<section id="gutter" class="section">
+		<h2 class="section-title">Gutter<code>layout/gutter.less</code></h2>
 		<div class="grid">
 			<div class="row">
 				<div class="column-1 no-gutter"><div class="grid-item">No Gutter</div></div>
@@ -407,30 +455,34 @@
 				<div class="column-1 gutter-right"><div class="grid-item">Right Gutter</div></div>
 			</div>
 		</div>
+		<?php definitions('layout/gutter'); ?>
 		<?php sample_code('gutters'); ?>
-	</section>
-
-	<hr>
-
-	<!-- Gutter -->
-	<section id="gutter" class="section">
-		<h2 class="section-title">Gutter<code>utilities/gutter.less</code></h2>
 		
-		<h3 class="section-block-title">Responsive Gutters</h2>
+		<h3 class="section-block-title">Responsive Gutters</h3>
 		<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
-					<th></th>
-					<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
-					<th>Medium devices<br><small>Tablets (≥768px)</small></th>
-					<th>Large devices<br><small>Desktops (≥1024)</small></th>
-					<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
+					<th width="25%"></th>
+					<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
+					<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
+					<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
+					<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+					<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
+					<td><code>.no-gutter-xsmall</code></td>
+					<td class="is-hidden">No gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+				</tr>
+				<tr>
 					<td><code>.no-gutter-small</code></td>
+					<td class="is-visible">Gutter</td>
 					<td class="is-hidden">No gutter</td>
 					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
@@ -438,6 +490,7 @@
 				</tr>
 				<tr>
 					<td><code>.no-gutter-medium</code></td>
+					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
 					<td class="is-hidden">No gutter</td>
 					<td class="is-visible">Gutter</td>
@@ -447,11 +500,13 @@
 					<td><code>.no-gutter-large</code></td>
 					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
 					<td class="is-hidden">No gutter</td>
 					<td class="is-visible">Gutter</td>
 				</tr>
 				<tr>
-					<td><code>.no-gutter-extra-large</code></td>
+					<td><code>.no-gutter-xlarge</code></td>
+					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
 					<td class="is-visible">Gutter</td>
@@ -466,17 +521,20 @@
 	<!-- Column -->
 	<section id="column" class="section">
 		<h2 class="section-title">Column<code>grid/column.less</code></h2>
-
-		<h3 class="section-block-title">Columns</h3>
-		<?php sample('columns'); ?>
+		<p>Columns can be applied to html elements as classes in order to position elements, columns are floated left with <code>@gutter</code> padding applied to the left and right of the element. Columns are realtively positioned and have a min-height of 1px.</p>
+		
+		<h3 class="section-block-title hidden-small-down">Columns</h3>
+		<div class="hidden-small-down">
+			<?php sample('columns'); ?>
+		</div>
 
 		<h3 class="section-block-title">Responsive Breakpoint Columns</h3>
 		<div class="row">
-			<div class="column-1-2 column-extra-large-3-4 column-medium-1">
+			<div class="column-1-5 column-xlarge-1-6 column-medium-1-3 column-small-1-2">
 				<div class="grid-item">Responsive Breakpoints</div>
 			</div>
 		</div>
-		<?php markup('<div class="column-1-2 column-extra-large-3-4 column-medium-1">...</div>'); ?>
+		<?php markup('<div class="column-1-5 column-xlarge-1-6 column-medium-1-3 column-small-1-2">...</div>'); ?>
 
 		<h3 class="section-block-title">Nested Columns</h3>
 		<div class="row">
@@ -490,6 +548,15 @@
 			</div>
 		</div>
 		<?php sample_code('nested-columns'); ?>
+
+		<h3 class="section-block-title">Column Center</h3>
+		<p>Adding the <code>column-center</code> class to a column removes it's float and sets an auto margin left and right to center.</p>
+		<div class="row">
+			<div class="column-1-2 column-center">
+				<div class="grid-item">Column Center</div>
+			</div>
+		</div>
+		<?php sample_code('column-center'); ?>
 	</section>
 
 	<hr>
