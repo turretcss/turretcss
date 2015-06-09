@@ -125,7 +125,7 @@
 
 	<!-- Colors -->
 	<section id="colors" class="section">
-		<h2 class="section-title">Colours<code>general/colors.less</code></h2>
+		<h2 class="section-title">Colors<code>general/colors.less</code></h2>
 		
 		<h3 class="section-block-title">Shades</h3>
 		<div class="swatches">
