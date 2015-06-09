@@ -1057,8 +1057,6 @@
 	<!-- Positioning -->
 	<section id="positioning" class="section">
 		<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
-		
-		<h3 class="section-block-title">Positioning</h3>
 		<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
@@ -1093,8 +1091,6 @@
 	<!-- Float -->
 	<section id="positioning" class="section">
 		<h2 class="section-title">Float<code>utilities/float.less</code></h2>
-		
-		<h3 class="section-block-title">Floats</h3>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
@@ -1218,8 +1214,6 @@
 	<!-- Visiblity -->
 	<section id="visiblity" class="section">
 		<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
-		
-		<h3 class="section-block-title">Visiblity</h3>
 		<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
