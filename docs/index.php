@@ -616,7 +616,7 @@
 	</section>
 
 	<section id="form-examples" class="section">
-		<h2 class="section-title">Examples</h2>
+		<h2 class="section-title">Form Examples</h2>
 
 		<h3 class="section-block-title">Simple Example</h3>
 		<?php sample('form-simple'); ?>
