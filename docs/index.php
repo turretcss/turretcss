@@ -30,15 +30,22 @@
 	<section id="download" class="section">
 		<h2 class="section-title">Download</h2>
 		<p>There are three quick start ways to download Turret available:</p>
-		
-		<p><strong>Download the latest release</strong></p>
-		<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
-		
-		<p><strong>Clone the repo</strong></p>
-		<?php git('git clone https://github.com/bigfishtv/turret.git'); ?>
-		
-		<p><strong>Install with <a href="https://www.npmjs.org">npm</a></strong></p>
-		<?php bash('npm install bigfishtv-turret'); ?>
+		<div class="row">
+			<div class="column-1-3">
+				<h3 class="section-block-title">NPM</h3>
+				<p>Install with <a href="https://www.npmjs.com/package/bigfishtv-turret">npm</a></p>
+				<?php bash('npm install bigfishtv-turret'); ?>
+			</div>
+			<div class="column-1-3">
+				<h3 class="section-block-title">Clone</h3>
+				<p>Clone the repo from GitHub</p>
+				<?php git('git clone https://github.com/bigfishtv/turret.git'); ?>
+			</div>
+			<div class="column-1-3">
+				<h3 class="section-block-title">Download</h3>
+				<p>Download the latest release</p>
+				<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
+			</div>
 	</section>
 
 	<hr>
