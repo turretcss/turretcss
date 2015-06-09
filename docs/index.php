@@ -104,7 +104,7 @@
 
 	<!-- Global -->
 	<section id="global" class="section">
-		<h2 class="section-title">Global</h2>
+		<h2 class="section-title">Global<code>general/global.less</code></h2>
 		<?php definitions('general/global'); ?>
 
 		<h3 class="section-block-title">Border Radius</h3>
@@ -125,7 +125,7 @@
 
 	<!-- Colors -->
 	<section id="colors" class="section">
-		<h2 class="section-title">Colours</h2>
+		<h2 class="section-title">Colours<code>general/colors.less</code></h2>
 		
 		<h3 class="section-block-title">Shades</h3>
 		<div class="swatches">
@@ -159,9 +159,17 @@
 
 	<hr>
 
+	<!-- Fonts -->
+	<section id="fonts" class="section">
+		<h2 class="section-title">Fonts<code>general/fonts.less</code></h2>
+		<?php definitions('general/fonts'); ?>
+	</section>
+
+	<hr>
+
 	<!-- Breakpoints -->
 	<section id="breakpoints" class="section">
-		<h2 class="section-title">Breakpoints</h2>
+		<h2 class="section-title">Breakpoints<code>general/breakpoints.less</code></h2>
 		<?php definitions('general/breakpoints'); ?>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
@@ -211,7 +219,7 @@
 
 	<!-- Media Queries -->
 	<section id="media-queries" class="section">
-		<h2 class="section-title">Media Queries</h2>
+		<h2 class="section-title">Media Queries<code>general/media-queries.less</code></h2>
 		<?php definitions('general/media-queries'); ?>
 	</section>
 
@@ -1716,5 +1724,4 @@
 <div class="clearfix"></div>
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/toggle.js"></script>
-<script type="text/javascript" src="js/spy.js"></script>
 <?php include_once('includes/footer.html'); ?>
