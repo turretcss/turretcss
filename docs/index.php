@@ -553,7 +553,7 @@
 		<p>Adding the <code>column-center</code> class to a column removes it's float and sets an auto margin left and right to center.</p>
 		<div class="row">
 			<div class="column-1-2 column-center">
-				<div class="grid-item">Column Center</div>
+				<div class="grid-item no-margin">Column Center</div>
 			</div>
 		</div>
 		<?php sample_code('column-center'); ?>
@@ -565,7 +565,11 @@
 	<section id="offset" class="section">
 		<h2 class="section-title">Offset<code>grid/offset.less</code></h2>
 		<p>Column offset classes can be added to columns to add a <code>margin-left</code> value that corresponds to the offset column class width.</p>
-		<div class="grid-item column-1-2 column-offset-1-2">Column Offset</div>
+		<div class="row">
+			<div class="column-1-2 column-offset-1-2">
+				<div class="grid-item no-margin">Column Offset</div>
+			</div>
+		</div>
 		<?php markup('<div class="column-1-2 column-offset-1-2">...</div>'); ?>
 	</section>
 
@@ -576,7 +580,9 @@
 		<h2 class="section-title">Push<code>grid/push.less</code></h2>
 		<p>Column push classes can be added to columns to add a <code>left</code> value that corresponds to the push column class width.</p>
 		<div class="row">
-			<div class="grid-item column-1-2 column-push-1-12">Column Push</div>
+			<div class="column-1-2 column-push-1-12">
+				<div class="grid-item no-margin">Column Push</div>
+			</div>
 		</div>
 		<?php markup('<div class="column-1-2 column-push-1-12">...</div>'); ?>
 	</section>
@@ -588,7 +594,9 @@
 		<h2 class="section-title">Pull<code>grid/pull.less</code></h2>
 		<p>Column pull classes can be added to columns to add a <code>left</code> value that corresponds to the pull column class width.</p>
 		<div class="row">
-			<div class="grid-item column-1-2 column-pull-1-12">Column Pull</div>
+			<div class="column-1-2 column-pull-1-12">
+				<div class="grid-item no-margin">Column Pull</div>
+			</div>
 		</div>
 		<?php markup('<div class="column-1-2 column-pull-1-12">...</div>'); ?>
 	</section>
