@@ -1,9 +1,22 @@
 /*
+ * Definitions
+ */
+
+// Gutters
+@gutter: 15px;
+@gutter-top: (@gutter * 2);
+@gutter-bottom:  (@gutter * 2);
+@gutter-left: (@gutter * 4);
+@gutter-right: (@gutter * 5);
+
+
+/*
  * Gutter
  */
 
 .no-gutter {
-	padding: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .gutter-top {
@@ -25,8 +38,8 @@
 @media @xlarge {
 
 	&.no-gutter-xlarge {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	
 	.gutter-top-xlarge {
@@ -49,8 +62,8 @@
 @media @large {
 
 	&.no-gutter-large {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	
 	.gutter-top-large {
@@ -73,8 +86,8 @@
 @media @medium {
 
 	&.no-gutter-medium {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	
 	.gutter-top-medium {
@@ -97,8 +110,8 @@
 @media @small {
 
 	&.no-gutter-small {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	
 	.gutter-top-small {
@@ -121,7 +134,8 @@
 @media @xsmall {
 	
 	&.no-gutter-xsmall {
-		padding: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	
 	.gutter-top-xsmall {
