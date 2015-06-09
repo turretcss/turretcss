@@ -91,20 +91,23 @@
  */
 
 // Container Widths
+@container-xsmall: 100%;
 @container-small: 100%;
-@container-medium: 768px;
-@container-large: 1024px;
-@container-extra-large: 1280px;
+@container-medium: 1024px;
+@container-large: 1280px;
+@container-xlarge: 1680px;
 
 // Screen Sizes
-@screen-small: 480px;
+@screen-xsmall: 480px;
+@screen-xsmall-max: (@screen-small-min - 1);
+@screen-small: 768px;
 @screen-small-min: @screen-small;
 @screen-small-max: (@screen-medium-min - 1);
-@screen-medium: 768px;
+@screen-medium: 1024px;
 @screen-medium-min: @screen-medium;
 @screen-medium-max: (@screen-large-min - 1);
-@screen-large: 1025px;
+@screen-large: 1280px;
 @screen-large-min: @screen-large;
-@screen-large-max: (@screen-extra-large-min - 1);
-@screen-extra-large: 1280px;
-@screen-extra-large-min: @screen-extra-large;
+@screen-large-max: (@screen-xlarge-min - 1);
+@screen-xlarge: 1680px;
+@screen-xlarge-min: @screen-xlarge;

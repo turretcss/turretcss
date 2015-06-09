@@ -4,10 +4,11 @@
 
 // Base Font Size
 @base-font-size: 10px;
-@base-font-size-extra-large: @base-font-size;
+@base-font-size-xlarge: @base-font-size;
 @base-font-size-large: @base-font-size;
 @base-font-size-medium: @base-font-size;
 @base-font-size-small: @base-font-size;
+@base-font-size-xsmall: @base-font-size;
 
 
 /*
@@ -17,19 +18,23 @@
 html {
 	font-size: @base-font-size;
 
-	@media @large-only {
-		font-size: @base-font-size-extra-large;
+	@media @xlarge {
+		font-size: @base-font-size-xlarge;
 	}
 	
-	@media @large-only {
+	@media @large {
 		font-size: @base-font-size-large;
 	}
 
-	@media @medium-only {
+	@media @medium {
 		font-size: @base-font-size-medium;
 	}
 	
 	@media @small {
 		font-size: @base-font-size-small;
+	}
+
+	@media @xsmall {
+		font-size: @base-font-size-xsmall;
 	}
 }

@@ -39,15 +39,15 @@
 	padding-right: 0 !important;
 }
 
-@media @extra-large {
+@media @xlarge {
 	
-	.no-gutter-extra-large {
+	.no-gutter-xlarge {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
 }
 
-@media @large-only {
+@media @large {
 	
 	.no-gutter-large {
 		padding-left: 0 !important;
@@ -63,33 +63,17 @@
 	}
 }
 
-@media @medium-only {
-	
-	.no-gutter-medium-only {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-}
-
-@media @medium-landscape {
-	
-	.no-gutter-medium-landscape {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-}
-
-@media @medium-portrait {
-	
-	.no-gutter-medium-portrait {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-}
-
 @media @small {
 	
 	.no-gutter-small {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+@media @xsmall {
+	
+	.no-gutter-xsmall {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
@@ -350,26 +334,37 @@
 	float: right !important;
 }
 
-.extra-large-clear-right {
-	@media @extra-large {
+.clear-right-xlarge {
+
+	@media @xlarge {
 		float: none !important;
 	}
 }
 
-.large-clear-right {
-	@media @large-only {
+.clear-right-large {
+
+	@media @large {
 		float: none !important;
 	}
 }
 
-.medium-clear-right {
-	@media @medium-only {
+.clear-right-medium {
+
+	@media @medium {
 		float: none !important;
 	}
 }
 
-.small-clear-right {
+.clear-right-small {
+
 	@media @small {
+		float: none !important;
+	}
+}
+
+.clear-right-xsmall {
+
+	@media @xsmall {
 		float: none !important;
 	}
 }
@@ -379,26 +374,37 @@
 	float: left !important;
 }
 
-.extra-large-clear-left {
-	@media @extra-large {
+.clear-left-xlarge {
+
+	@media @xlarge {
 		float: none !important;
 	}
 }
 
-.large-clear-left {
-	@media @large-only {
+.clear-left-large {
+
+	@media @large {
 		float: none !important;
 	}
 }
 
-.medium-clear-left {
-	@media @medium-only {
+.clear-left-medium {
+
+	@media @medium {
 		float: none !important;
 	}
 }
 
-.small-clear-left {
+.clear-left-small {
+
 	@media @small {
+		float: none !important;
+	}
+}
+
+.clear-left-xsmall {
+	
+	@media @xsmall {
 		float: none !important;
 	}
 }
@@ -424,115 +430,18 @@
 	visibility: hidden;
 }
 
-//Hidden Classes
-.hidden-extra-large {
-	@media @extra-large {
-		.hide();
-	}
-}
-
-.hidden-large {
-	@media @large-only {
-		.hide();
-	}
-}
-
-.hidden-medium {
-	@media @medium-only {
-		.hide();
-	}
-}
-
-.hidden-mobile {
-	@media @medium {
-		.hide();
-	}
-}
-
-.hidden-medium-landscape {
-	@media @medium-landscape {
-		.hide();
-	}
-}
-
-.hidden-medium-portrait {
-	@media @medium-portrait {
-		.hide();
-	}
-}
-
-.hidden-small {
-	@media @small {
-		.hide();
-	}
-}
-
+// Print/Screen
 .hidden-print {
+
 	@media print {
 		.hide();
 	}
 }
 
 .hidden-screen {
+
 	@media screen {
 		.hide();
-	}
-}
-
-//Visible Classes
-.visible-extra-large {
-	.hide();
-
-	@media @extra-large {
-		.show();
-	}
-}
-
-.visible-large {
-	.hide();
-
-	@media @large-only {
-		.show();
-	}
-}
-
-.visible-mobile {
-	.hide();
-
-	@media @medium {
-		.show();
-	}
-}
-
-.visible-medium {
-	.hide();
-
-	@media @medium-only {
-		.show();
-	}
-}
-
-.visible-medium-landscape {
-	.hide();
-
-	@media @medium-landscape {
-		.show();
-	}
-}
-
-.visible-medium-portrait {
-	.hide();
-
-	@media @medium-portrait {
-		.show();
-	}
-}
-
-.visible-small {
-	.hide();
-
-	@media @small {
-		.show();
 	}
 }
 
@@ -548,6 +457,83 @@
 	.hide();
 
 	@media screen {
+		.show();
+	}
+}
+
+//Hidden Breakpoint Classes
+.hidden-xlarge {
+
+	@media @xlarge {
+		.hide();
+	}
+}
+
+.hidden-large {
+
+	@media @large {
+		.hide();
+	}
+}
+
+.hidden-medium {
+
+	@media @medium {
+		.hide();
+	}
+}
+
+.hidden-small {
+
+	@media @small {
+		.hide();
+	}
+}
+
+.hidden-xsmall {
+
+	@media @xsmall {
+		.hide();
+	}
+}
+
+//Visible Breakpoint Classes
+.visible-xlarge {
+	.hide();
+
+	@media @xlarge {
+		.show();
+	}
+}
+
+.visible-large {
+	.hide();
+
+	@media @large {
+		.show();
+	}
+}
+
+.visible-medium {
+	.hide();
+
+	@media @medium {
+		.show();
+	}
+}
+
+.visible-small {
+	.hide();
+
+	@media @small {
+		.show();
+	}
+}
+
+.visible-xsmall {
+	.hide();
+
+	@media @xsmall {
 		.show();
 	}
 }
