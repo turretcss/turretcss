@@ -116,7 +116,7 @@ svg {
 	border-right: 1px solid @light;
 	.overflow-scroll();
 	
-	@media @small {
+	@media @small-down {
 		.translateX(-270px);
 		.transition-transform(@transition-fast ease-in-out);
 		
@@ -149,12 +149,12 @@ svg {
 	width: 100%;
 	background: @white;
 
-	@media @large {
+	@media @medium-up {
 		margin-left: 270px;
 		width: ~"calc(100% - 270px)";
 	}
 	
-	@media @small {
+	@media @small-down {
 		padding-top: 50px;
 		.transition-transform(@transition-fast ease-in-out);
 		
@@ -280,7 +280,7 @@ svg {
 	text-align: center;
 	background: @primary;
 	
-	@media @large {
+	@media @medium-up {
 		padding: 150px 0px;
 	}
 	
@@ -319,7 +319,7 @@ svg {
 .section {
 	padding: 30px 15px;
 
-	@media @large {
+	@media @medium-up {
 		padding: 60px 50px;
 	}
 
@@ -341,7 +341,7 @@ svg {
 		.regular-font();
 		color: @dark;
 
-		@media @large {
+		@media @medium-up {
 			max-width: 50%;
 		}
 	}

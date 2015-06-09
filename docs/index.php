@@ -11,7 +11,7 @@
 
 <main id="content" class="content">
 	
-	<header class="header visible-mobile">
+	<header class="header visible-small-down">
 		<button id="sidebar-toggle" class="navigation-toggle">
 			<span class="bar"></span>
 			<span class="bar"></span>
