@@ -412,6 +412,57 @@
 
 	<hr>
 
+	<!-- Gutter -->
+	<section id="gutter" class="section">
+		<h2 class="section-title">Gutter<code>utilities/gutter.less</code></h2>
+		
+		<h3 class="section-block-title">Responsive Gutters</h2>
+		<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
+		<table class="table table-bordered table-block table-responsive">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
+					<th>Medium devices<br><small>Tablets (≥768px)</small></th>
+					<th>Large devices<br><small>Desktops (≥1024)</small></th>
+					<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><code>.no-gutter-small</code></td>
+					<td class="is-hidden">No gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+				</tr>
+				<tr>
+					<td><code>.no-gutter-medium</code></td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-hidden">No gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+				</tr>
+				<tr>
+					<td><code>.no-gutter-large</code></td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-hidden">No gutter</td>
+					<td class="is-visible">Gutter</td>
+				</tr>
+				<tr>
+					<td><code>.no-gutter-extra-large</code></td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-visible">Gutter</td>
+					<td class="is-hidden">No gutter</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+	<hr>
+	
 	<!-- Column -->
 	<section id="column" class="section">
 		<h2 class="section-title">Column<code>grid/column.less</code></h2>
@@ -844,6 +895,13 @@
 				</tr>
 			</tbody>
 		</table>
+	</section>
+
+	<hr>
+		
+	<!-- Text -->
+	<section id="text" class="section">
+		<h2 class="section-title">Text<code>utilities/text.less</code></h2>
 
 		<h3 class="section-block-title">Text Align</h3>
 		<p class="text-left">Text Left</p>
@@ -856,9 +914,13 @@
 		<h3 class="section-block-title">Text Transform</h3>
 		<?php sample('text-transform'); ?>
 		<?php sample_code('text-transform'); ?>
+	</section>
+	
+	<hr>
 
-		<!-- Text Colors -->
-		<h3 class="section-block-title">Text Colors</h3>
+	<!-- Text Color -->
+	<section id="text-color" class="section">
+		<h2 class="section-title">Text Color<code>utilities/text-color.less</code></h2>
 		<p class="text-color text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 		<p class="text-color text-light-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 		<p class="text-color text-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -874,8 +936,13 @@
 		<p class="text-color text-tertiary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 		<p class="text-color text-dark">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 		<?php sample_code('text-colors'); ?>
-		
-		<h3 class="section-block-title">Display</h3>
+	</section>
+
+	<hr>
+
+	<!-- Display -->
+	<section id="display" class="section">
+		<h2 class="section-title">Display<code>utilities/display.less</code></h2>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
@@ -902,6 +969,13 @@
 				</tr>
 			</tbody>
 		</table>
+	</section>
+
+	<hr>
+
+	<!-- Positioning -->
+	<section id="positioning" class="section">
+		<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
 		
 		<h3 class="section-block-title">Positioning</h3>
 		<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
@@ -931,6 +1005,13 @@
 				</tr>
 			</tbody>
 		</table>
+	</section>
+
+	<hr>
+
+	<!-- Float -->
+	<section id="positioning" class="section">
+		<h2 class="section-title">Float<code>utilities/float.less</code></h2>
 		
 		<h3 class="section-block-title">Floats</h3>
 		<table class="table table-bordered table-block table-responsive">
@@ -1024,8 +1105,15 @@
 				</tr>
 			</tbody>
 		</table>
+	</section>
+
+	<hr>
+
+	<!-- Visiblity -->
+	<section id="visiblity" class="section">
+		<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
 		
-		<h3 class="section-block-title">Visiblity</h2>
+		<h3 class="section-block-title">Visiblity</h3>
 		<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
@@ -1070,7 +1158,7 @@
 			</tbody>
 		</table>
 		
-		<h3 class="section-block-title">Responsive Visibility</h2>
+		<h3 class="section-block-title">Responsive Visibility</h3>
 		<p>Define content to be <code>visible</code> or <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
@@ -1143,52 +1231,8 @@
 				</tr>
 			</tbody>
 		</table>
-		
-		<h3 class="section-block-title">Responsive Gutters</h2>
-		<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
-		<table class="table table-bordered table-block table-responsive">
-			<thead>
-				<tr>
-					<th></th>
-					<th>Small Devices<br><small>Phones (&lt;768px)</small></th>
-					<th>Medium devices<br><small>Tablets (≥768px)</small></th>
-					<th>Large devices<br><small>Desktops (≥1024)</small></th>
-					<th>Extra Large devices<br><small>Desktops (≥1280px)</small></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><code>.no-gutter-small</code></td>
-					<td class="is-hidden">No gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-				</tr>
-				<tr>
-					<td><code>.no-gutter-medium</code></td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-hidden">No gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-				</tr>
-				<tr>
-					<td><code>.no-gutter-large</code></td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-hidden">No gutter</td>
-					<td class="is-visible">Gutter</td>
-				</tr>
-				<tr>
-					<td><code>.no-gutter-extra-large</code></td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-visible">Gutter</td>
-					<td class="is-hidden">No gutter</td>
-				</tr>
-			</tbody>
-		</table>
 	</section>
-	
+
 	<!-- Mixins -->
 	<section id="mixins" class="section section-header">
 		<div class="title-group">
