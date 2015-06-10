@@ -1,0 +1,24 @@
+/*
+ * Content
+ */
+
+// Content
+.content {
+	float: left;
+	width: 100%;
+	background: @white;
+
+	@media @medium-up {
+		margin-left: 270px;
+		width: ~"calc(100% - 270px)";
+	}
+	
+	@media @small-down {
+		padding-top: 50px;
+		.transition-transform(@transition-fast ease-in-out);
+		
+		&.open {
+			.translateX(270px);
+		}
+	}
+}

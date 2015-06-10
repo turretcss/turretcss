@@ -1,0 +1,47 @@
+/*
+ * Home
+ */
+
+// Home
+.home-header {
+	padding: 80px 0px;
+	text-align: center;
+	background: @primary;
+	
+	@media @medium-up {
+		padding: 150px 0px;
+	}
+}
+
+.home-header-icon {
+	
+}
+
+.home-header-title {
+	margin: 30px 0px;
+	.logo-font();
+	.font-size(3.6);
+	color: @white;
+}
+
+.home-section {
+	padding: 50px 0px;
+}
+
+.home-block-title {
+	margin-top: 20px;
+}
+
+.home-button {
+	margin: 10px;
+	min-width: 200px;
+	color: @white;
+	border: 1px solid @white;
+	
+	&:hover,
+	&:focus {
+		color: @primary;
+		background: @white;
+		border: 1px solid @white;
+	}
+}
