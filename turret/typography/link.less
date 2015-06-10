@@ -5,6 +5,7 @@
 // Links
 @link-color: @primary;
 @link-hover-color: @dark;
+@link-text-decoration: none;
 
 
 /*
@@ -12,8 +13,8 @@
  */
 
 a {
-	text-decoration: none;
 	color: @link-color;
+	text-decoration: @link-text-decoration;
 	.transition(color @transition-fast ease-in-out);
 	
 	&:hover,
