@@ -27,7 +27,7 @@
 		<div class="home-block row">
 			<div class="column-1-2 column-push-1-2">
 				<div class="media media-4-3">
-					<img src="/docs/img/responsive.svg">
+					<img src="docs/img/responsive.svg">
 				</div>
 			</div>
 			<div class="column-1-2 column-pull-1-2">
@@ -39,7 +39,7 @@
 		<div class="home-block row">
 			<div class="column-1-2">
 				<div class="media media-4-3">
-					<img src="/docs/img/design.svg">
+					<img src="docs/img/design.svg">
 				</div>
 			</div>
 			<div class="column-1-2">
@@ -51,7 +51,7 @@
 		<div class="home-block row">
 			<div class="column-1-2 column-push-1-2">
 				<div class="media media-4-3">
-					<img src="/docs/img/styles.svg">
+					<img src="docs/img/styles.svg">
 				</div>
 			</div>
 			<div class="column-1-2 column-pull-1-2">
@@ -63,7 +63,7 @@
 		<div class="home-block row">
 			<div class="column-1-2">
 				<div class="media media-4-3">
-					<img src="/docs/img/semantic.svg">
+					<img src="docs/img/semantic.svg">
 				</div>
 			</div>
 			<div class="column-1-2">
