@@ -354,7 +354,7 @@
 	<section id="blockquote" class="section">
 		<h2 class="section-title">Blockquote<code>typography/blockquote.less</code></h2>
 		<blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 			<cite>Name</cite>
 		</blockquote>
 		<?php definitions('typography/blockquote'); ?>
