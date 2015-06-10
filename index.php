@@ -10,46 +10,74 @@
 			<path fill="#FFFFFF" d="M36.7 52l-3.1-28.1 8.4-6v-17.9h-8v7h-6v-7h-12v7h-6v-7h-8v17.9l8.4 6-3.1 28.1h-7.3v12h44v-12z"/>
 		</svg>
 		<h1 class="home-header-title">Turret</h1>
-		<a class="button button-large button-border" href="/docs">Docs</a>
-		<a class="button button-large button-border" href="https://github.com/bigfishtv/turret">Github</a>
+		<a class="button button-large button-border home-button" href="/docs">Docs</a>
+		<a class="button button-large button-border home-button" href="https://github.com/bigfishtv/turret">Github</a>
 		<p class="text-white"><strong>v3.0.0</strong></p>
 	</div>
 </header>
 
-<section class="home-section text-center">
+<section class="home-section">
 	<div class="container">
-		<div class="row">
-			<div class="column-1-2 column-medium-2-3 column-center">
+		<div class="column-2-3 column-small-1 column-xlarge-1-2 column-center no-gutter">
+			<div class="column-4-5 column-small-1 column-center no-gutter text-center">
 				<h1>Simple and Stylish</h1>
 				<p class="lead">Create accessible, semantic, and responsive websites easily with Turret.</p>
 				<p class="no-margin">Turret is a front-end styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
 			</div>
-		</div>
-		<hr class="divider">
-		<div class="row">
-			<div class="column-1-4 gutter-bottom">
-				<h2>Responsive</h2>
-				<p>Turret has a simple and intuitive grid system and responsive utility classes for quick development using logical and legible markup.</p>
+			<hr class="divider">
+			<div class="row">
+				<div class="column-1-2 column-push-1-2">
+					<div class="media media-16-9">
+
+					</div>
+				</div>
+				<div class="column-1-2 column-pull-1-2">
+					<h2 class="home-block-title">Responsive</h2>
+					<p>Turret has been developed for responsive web design and has an intuitive grid system and responsive utilities for rapid development using logical and legible markup.</p>
+				</div>
 			</div>
-			<div class="column-1-4 gutter-bottom">
-				<h2>Design First</h2>
-				<p>Turret is focused on typography, font definitions, colour palettes, and indicators for intuitive user interfaces.</p>
+			<hr class="divider">
+			<div class="row">
+				<div class="column-1-2">
+					<div class="media media-16-9">
+
+					</div>
+				</div>
+				<div class="column-1-2">
+					<h2 class="home-block-title">Design Focus</h2>
+					<p>Turret is focused on typography, font definitions, colour palettes, and indicators for simple and stylish user interfaces.</p>
+				</div>
 			</div>
-			<div class="column-1-4 gutter-bottom">
-				<h2>No Javascript</h2>
-				<p>Turret is Less framework for styling native web elements. That's about it, no javascript, no custom markup, just semantic web elements.</p>
+			<hr class="divider">
+			<div class="row">
+				<div class="column-1-2 column-push-1-2">
+					<div class="media media-16-9">
+
+					</div>
+				</div>
+				<div class="column-1-2 column-pull-1-2">
+					<h2 class="home-block-title">Just Styles</h2>
+					<p>Turret is Less framework for styling native web elements. That's about it, no javascript, no custom markup, just semantic HTML5 elements.</p>
+				</div>
 			</div>
-			<div class="column-1-4 gutter-bottom">
-				<h2>Semantic</h2>
-				<p>Write markup that is modular, maintainable, and semantic without having to inject classes or markup for the sake of styles.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column-1-4 column-center gutter-bottom">
-				<a class="button button-large button-block button-border" href="/docs">Get started</a>
+			<hr class="divider">
+			<div class="row">
+				<div class="column-1-2">
+					<div class="media media-16-9">
+
+					</div>
+				</div>
+				<div class="column-1-2">
+					<h2 class="home-block-title">Semantic</h2>
+					<p>Write markup that is modular, maintainable, and semantic. Turret turns semantic HTML5 markup into styled and responsive elements without the headache.</p>
+				</div>
 			</div>
 		</div>
 	</div>
+</section>
+
+<section class="home-section text-center background-primary">
+	<a class="button button-large button-border home-button" href="/docs">Get started</a>
 </section>
 
 <footer>
