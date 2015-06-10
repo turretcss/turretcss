@@ -2,59 +2,67 @@
  * Definitions
  */
 
-// Button Small
-@button-small-padding-vertical: 8px;
-@button-small-padding-horizontal: 15px;
-@button-small-height: 30px;
-@button-small-font-size: 1;
+// Button Extra Large
+@button-xlarge-padding: @padding-xlarge;
+@button-xlarge-height: @height-xlarge;
+@button-xlarge-font-size: @font-size-xlarge;
+
+// Button Large
+@button-large-padding: @padding-large;
+@button-large-height: @height-large;
+@button-large-font-size: @font-size-large;
 
 // Button Medium
-@button-medium-padding-vertical: @button-padding-vertical;
-@button-medium-padding-horizontal: @button-padding-horizontal;
+@button-medium-padding: @button-padding;
 @button-medium-height: @button-height;
 @button-medium-font-size: @button-font-size;
 
-// Button Large
-@button-large-padding-vertical: 15px;
-@button-large-padding-horizontal: 24px;
-@button-large-height: 50px;
-@button-large-font-size: 1.6;
+// Button Extra Small
+@button-xsmall-padding: @padding-xsmall;
+@button-xsmall-height: @height-xsmall;
+@button-xsmall-font-size: @font-size-xsmall;
 
-// Button Extra Large
-@button-xlarge-padding-vertical: 20px;
-@button-xlarge-padding-horizontal: 30px;
-@button-xlarge-height: 65px;
-@button-xlarge-font-size: 2;
+// Button Small
+@button-small-padding: @padding-small;
+@button-small-height: @height-small;
+@button-small-font-size: @font-size-small;
 
 
 /*
  * Button Sizes
  */
 
+// Button Extra Small
+.button-xsmall {
+	padding: @button-xsmall-padding;
+	height: @button-xsmall-height;
+	.font-size(@button-xsmall-font-size);
+}
+
 // Button Small
 .button-small {
-	padding: @button-small-padding-vertical @button-small-padding-horizontal;
+	padding: @button-small-padding;
 	height: @button-small-height;
 	.font-size(@button-small-font-size);
 }
 
 // Button Medium
 .button-medium {
-	padding: @button-medium-padding-vertical @button-medium-padding-horizontal;
+	padding: @button-medium-padding;
 	height: @button-medium-height;
 	.font-size(@button-medium-font-size);
 }
 
 // Button Large
 .button-large {
-	padding: @button-large-padding-vertical @button-large-padding-horizontal;
+	padding: @button-large-padding;
 	height: @button-large-height;
 	.font-size(@button-large-font-size);
 }
 
 // Button Extra Large
 .button-xlarge {
-	padding: @button-xlarge-padding-vertical @button-xlarge-padding-horizontal;
+	padding: @button-xlarge-padding;
 	height: @button-xlarge-height;
 	.font-size(@button-xlarge-font-size);
 }

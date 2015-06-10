@@ -68,26 +68,15 @@
 	}
 }
 
-// Input Group Button Small
-.input-group-button-small {
+// Input Group Button Extra Large
+.input-group-button-xlarge {
 
 	> button,
 	> .button {
-		padding: @button-small-padding-vertical @button-small-padding-horizontal;
-		.font-size(@input-small-font-size);
-		height: @input-small-height;
-		min-width: @input-small-height;
-	}
-}
-
-// Input Group Button Medium
-.input-group-button-medium {
-
-	> button,
-	> .button {
-		.font-size(@input-medium-font-size);
-		height: @input-medium-height;
-		min-width: @input-medium-height;
+		padding: @button-xlarge-padding;
+		height: @input-xlarge-height;
+		min-width: @input-xlarge-height;
+		.font-size(@input-xlarge-font-size);
 	}
 }
 
@@ -96,22 +85,45 @@
 
 	> button,
 	> .button {
-		padding: @button-large-padding-vertical @button-large-padding-horizontal;
-		.font-size(@input-large-font-size);
+		padding: @button-large-padding;
 		height: @input-large-height;
 		min-width: @input-large-height;
+		.font-size(@input-large-font-size);
 	}
 }
 
-// Input Group Button Extra Large
-.input-group-button-xlarge {
+// Input Group Button Medium
+.input-group-button-medium {
 
 	> button,
 	> .button {
-		padding: @button-xlarge-padding-vertical @button-xlarge-padding-horizontal;
-		.font-size(@input-xlarge-font-size);
-		height: @input-xlarge-height;
-		min-width: @input-xlarge-height;
+		height: @input-medium-height;
+		min-width: @input-medium-height;
+		.font-size(@input-medium-font-size);
+	}
+}
+
+// Input Group Button Small
+.input-group-button-small {
+
+	> button,
+	> .button {
+		padding: @button-small-padding;
+		height: @input-small-height;
+		min-width: @input-small-height;
+		.font-size(@input-small-font-size);
+	}
+}
+
+// Input Group Button Extra Small
+.input-group-button-xsmall {
+
+	> button,
+	> .button {
+		padding: @button-xsmall-padding;
+		height: @input-xsmall-height;
+		min-width: @input-xsmall-height;
+		.font-size(@input-xsmall-font-size);
 	}
 }
 

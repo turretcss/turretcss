@@ -2,25 +2,30 @@
  * Definitions
  */
 
-// Input Small
-@input-small-height: 30px;
-@input-small-padding: 10px;
-@input-small-font-size: @font-size-small;
-
-// Input Medium
-@input-medium-height: @input-height;
-@input-medium-padding: @input-padding;
-@input-medium-font-size: @input-font-size;
+// Input Extra Large
+@input-xlarge-padding: @padding-xlarge;
+@input-xlarge-height: @height-xlarge;
+@input-xlarge-font-size: @font-size-xlarge;
 
 // Input Large
-@input-large-height: 50px;
-@input-large-padding: 10px 20px;
+@input-large-padding: @padding-large;
+@input-large-height: @height-large;
 @input-large-font-size: @font-size-large;
 
-// Input Extra Large
-@input-xlarge-height: 65px;
-@input-xlarge-padding: 10px 25px;
-@input-xlarge-font-size: @font-size-xlarge;
+// Input Medium
+@input-medium-padding: @input-padding;
+@input-medium-height: @input-height;
+@input-medium-font-size: @input-font-size;
+
+// Input Small
+@input-small-padding: @padding-small;
+@input-small-height: @height-small;
+@input-small-font-size: @font-size-small;
+
+// Input Extra Small
+@input-xsmall-padding: @padding-xsmall;
+@input-xsmall-height: @height-xsmall;
+@input-xsmall-font-size: @font-size-xsmall;
 
 
 /*
@@ -28,33 +33,41 @@
  */
 
 // Input Small
+.input-xsmall {
+	padding: @input-xsmall-padding;
+	height: @input-xsmall-height;
+	.font-size(@input-xsmall-font-size);
+	.placeholder(@input-placeholder-color, @input-xsmall-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Small
 .input-small {
-	.font-size(@input-small-font-size);
-	height: @input-small-height;
 	padding: @input-small-padding;
+	height: @input-small-height;
+	.font-size(@input-small-font-size);
 	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 // Input Medium
 .input-medium {
-	.font-size(@input-medium-font-size);
-	height: @input-medium-height;
 	padding: @input-medium-padding;
+	height: @input-medium-height;
+	.font-size(@input-medium-font-size);
 	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 // Input Large
 .input-large {
-	.font-size(@input-large-font-size);
-	height: @input-large-height;
 	padding: @input-large-padding;
+	height: @input-large-height;
+	.font-size(@input-large-font-size);
 	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 // Input Extra Large
 .input-xlarge {
-	.font-size(@input-xlarge-font-size);
-	height: @input-xlarge-height;
 	padding: @input-xlarge-padding;
+	height: @input-xlarge-height;
+	.font-size(@input-xlarge-font-size);
 	.placeholder(@input-placeholder-color, @input-xlarge-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
