@@ -697,13 +697,18 @@
 		<?php sample('input-group'); ?>
 		<?php sample_code('input-group'); ?>
 
-		<h3 class="section-block-title">Input Group Sizes</h3>
-		<?php sample('input-group-sizes'); ?>
-		<?php sample_code('input-group-sizes'); ?>
-
 		<h3 class="section-block-title">Input Group Search</h3>
 		<?php sample('input-group-search'); ?>
 		<?php sample_code('input-group-search'); ?>
+	</section>
+
+	<hr>
+
+	<!-- Input Group Sizes -->
+	<section id="input-group-sizes" class="section">
+		<h2 class="section-title">Input Group Sizes<code>forms/input-group-sizes.less</code></h2>
+		<?php sample('input-group-sizes'); ?>
+		<?php sample_code('input-group-sizes'); ?>
 	</section>
 
 	<hr>
