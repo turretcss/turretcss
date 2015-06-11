@@ -1,7 +1,6 @@
 // Button
-@button-padding-vertical: 12px;
-@button-padding-horizontal: 15px;
-@button-height: 40px;
+@button-padding: @padding-medium;
+@button-height: @height-medium;
 @button-font-family: @bold-font-family;
 @button-font-weight: @bold-font-weight;
 @button-font-size: 1.4;
@@ -9,10 +8,10 @@
 @button-line-height: 1;
 @button-text-align: center;
 @button-text-transform: none;
-@button-background: @light-grey;
-@button-border: 1px solid darken(@button-background, 5%);
+@button-background: @light;
+@button-border: 1px solid @light-grey;
 
 // Button Hover
 @button-hover-color: @dark-grey;
 @button-hover-background: darken(@button-background, 10%);
-@button-hover-border: 1px solid darken(@button-background, 15%);
+@button-hover-border: 1px solid darken(@light-grey, 10%);
