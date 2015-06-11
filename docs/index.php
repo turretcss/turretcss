@@ -168,19 +168,11 @@
 
 	<hr>
 
-	<!-- Fonts -->
-	<section id="fonts" class="section">
-		<h2 class="section-title">Fonts<code>general/fonts.less</code></h2>
-		<?php definitions('general/fonts'); ?>
-	</section>
-
-	<hr>
-	
-	<!-- Font Size -->
-	<section id="font-size" class="section">
-		<h2 class="section-title">Font Size<code>base/font-size.less</code></h2>
+	<!-- Font -->
+	<section id="font" class="section">
+		<h2 class="section-title">Font<code>base/font.less</code></h2>
 		<p>Some top level definitions for the base font-size styles on the <?php code('<html>'); ?> tag, with breakpoints.</p>
-		<?php definitions('base/font-size'); ?>
+		<?php definitions('base/font'); ?>
 	</section>
 
 	<hr>
