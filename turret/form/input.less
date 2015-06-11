@@ -5,7 +5,7 @@
 // Input
 @input-height: @height-medium;
 @input-margin: @label-margin;
-@input-padding: @padding-medium;
+@input-padding: 0 @padding-horizontal-medium;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
@@ -44,6 +44,7 @@
 @input-search-border-radius: 20px;
 
 // Textarea
+@textarea-padding: @padding-vertical-medium @padding-horizontal-medium;
 @textarea-line-height: @line-height-medium;
 
 
@@ -91,7 +92,6 @@ textarea {
 		border: @input-focus-border;
 		background: @input-focus-background;
 	}
-
 }
 	
 /*
@@ -179,6 +179,7 @@ input[type="radio"] {
 
 // Reset height for `textarea`s
 textarea {
+	padding: @textarea-padding;
 	height: auto;
 	line-height: @textarea-line-height;
 }
