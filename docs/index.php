@@ -1668,11 +1668,11 @@
 	<section id="screen-reader" class="section">
 		<h2 class="section-title">Screen Reader</h2>
 		<p>Use the <code>screen-reader</code> class to display content only for screen readers, based from the A11y Project post: <a href="http://a11yproject.com/posts/how-to-hide-content/">How-to: Hide Content</a></p>
-		<?php markup('<div href="screen-reader">...</div>'); ?>
+		<?php markup('<div class="screen-reader">...</div>'); ?>
 
 		<h3 class="section-block-title">Screen Reader Focusable</h3>
 		<p>In conjunction with the <code>screen-reader</code> class, the <code>screen-reader-focusable</code> class can be added to only display content when it's focused. Useful for "Skip to main content" links.</p>
-		<?php markup('<div href="screen-reader screen-reader-focusable">...</div>'); ?>
+		<?php markup('<div class="screen-reader screen-reader-focusable">...</div>'); ?>
 	</section>
 
 	<hr>
