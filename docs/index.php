@@ -173,6 +173,12 @@
 		<h2 class="section-title">Font<code>base/font.less</code></h2>
 		<p>Some top level definitions for the base font-size styles on the <?php code('<html>'); ?> tag, with breakpoints.</p>
 		<?php definitions('base/font'); ?>
+
+		<h3 class="section-block-title">Font Families</h3>
+		<?php sample('font-family'); ?>
+
+		<h3 class="section-block-title">Font Sizes</h3>
+		<?php sample('font-size'); ?>
 	</section>
 
 	<hr>
@@ -967,6 +973,24 @@
 		</table>
 	</section>
 
+	<hr>
+
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<h2 class="section-title">Font Size<code>utilities/font-size.less</code></h2>
+		<?php sample('font-size'); ?>
+		<?php sample_code('font-size'); ?>
+	</section>
+	
+	<hr>
+
+	<!-- Font Family -->
+	<section id="font-family" class="section">
+		<h2 class="section-title">Font Family<code>utilities/font-family.less</code></h2>
+		<?php sample('font-family'); ?>
+		<?php sample_code('font-family'); ?>
+	</section>
+	
 	<hr>
 		
 	<!-- Text -->
