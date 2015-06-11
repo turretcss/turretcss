@@ -411,6 +411,27 @@
 		<?php sample_code('definition-list'); ?>
 	</section>
 
+	<hr>
+
+	<!-- Code -->
+	<section id="code" class="section">
+		<h2 class="section-title">Code<code>typography/code.less</code></h2>
+		<?php code('<p>code</p>'); ?>
+		<?php definitions('typography/code'); ?>
+		<?php markup('<code>...</code>'); ?>
+	</section>
+
+	<hr>
+
+	<!-- Pre -->
+	<section id="pre" class="section">
+		<h2 class="section-title">Pre<code>typography/pre.less</code></h2>
+		<pre><?php code('<p>pre</p>'); ?></pre>
+		<?php definitions('typography/pre'); ?>
+		<?php markup('<pre>...</pre>'); ?>
+	</section>
+
+
 	<!-- Grid -->
 	<section id="grid" class="section section-header">
 		<div class="title-group">
