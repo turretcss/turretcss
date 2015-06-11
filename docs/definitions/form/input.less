@@ -1,23 +1,22 @@
 // Input
-@input-height: 40px;
+@input-height: @height-medium;
 @input-margin: @label-margin;
-@input-padding: 8px 12px;
+@input-padding: @padding-medium;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
 @input-font-size: @font-size-medium;
 @input-line-height: @line-height-medium;
 @input-background: @white;
-@input-border: 1px solid @input-border-color;
-@input-border-color: @light-grey;
+@input-border: 1px solid @light-grey;
 @input-border-radius: @border-radius;
 
 // Input Focus
-@input-focus-border: 1px solid darken(@input-border-color, 15%);
+@input-focus-border: 1px solid darken(@light-grey, 10%);
 @input-focus-background: darken(@input-background, 2%);
 
 // Input Placeholder
-@input-placeholder-color: @input-color;
+@input-placeholder-color: fade(@input-color, 50%);
 @input-placeholder-font-size: @input-font-size;
 @input-placeholder-font-family: @input-font-family;
 @input-placeholder-line-height: @input-line-height;
