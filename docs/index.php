@@ -104,20 +104,20 @@
 
 	<!-- Global -->
 	<section id="global" class="section">
-		<h2 class="section-title">Global<code>general/global.less</code></h2>
-		<?php definitions('general/global'); ?>
+		<h2 class="section-title">Global<code>base/global.less</code></h2>
+		<?php definitions('base/global'); ?>
 
 		<h3 class="section-block-title">Border Radius</h3>
+
+		<h3 class="section-block-title">Z-Index</h3>
 
 		<h3 class="section-block-title">Animations</h3>
 
 		<h3 class="section-block-title">Transitions</h3>
 
-		<h3 class="section-block-title">Z-Index</h3>
+		<h3 class="section-block-title">Height</h3>
 
-		<h3 class="section-block-title">Font Size</h3>
-
-		<h3 class="section-block-title">Line Height</h3>
+		<h3 class="section-block-title">Padding</h3>
 		
 	</section>
 
@@ -134,7 +134,7 @@
 
 	<!-- Colors -->
 	<section id="colors" class="section">
-		<h2 class="section-title">Colors<code>general/colors.less</code></h2>
+		<h2 class="section-title">Colors<code>base/colors.less</code></h2>
 		
 		<h3 class="section-block-title">Shades</h3>
 		<div class="swatches">
@@ -163,7 +163,7 @@
 			<div class="swatch background-tertiary"><small>Tertiary</small></div>
 			<div class="swatch background-dark"><small>Dark</small></div>
 		</div>
-		<?php definitions('general/colors'); ?>
+		<?php definitions('base/colors'); ?>
 	</section>
 
 	<hr>
@@ -212,8 +212,8 @@
 
 	<!-- Breakpoints -->
 	<section id="breakpoints" class="section">
-		<h2 class="section-title">Breakpoints<code>general/breakpoints.less</code></h2>
-		<?php definitions('general/breakpoints'); ?>
+		<h2 class="section-title">Breakpoints<code>base/breakpoints.less</code></h2>
+		<?php definitions('base/breakpoints'); ?>
 		<table class="table table-bordered table-block table-responsive">
 			<thead>
 				<tr>
@@ -262,8 +262,8 @@
 
 	<!-- Media Queries -->
 	<section id="media-queries" class="section">
-		<h2 class="section-title">Media Queries<code>general/media-queries.less</code></h2>
-		<?php definitions('general/media-queries'); ?>
+		<h2 class="section-title">Media Queries<code>base/media-queries.less</code></h2>
+		<?php definitions('base/media-queries'); ?>
 	</section>
 
 	<!-- Typography -->
