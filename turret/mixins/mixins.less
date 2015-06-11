@@ -88,6 +88,21 @@
 	.hide-text();
 }
 
+// Hyphens
+.hyphens(@hyphens: none) {
+	-webkit-hyphens: @hyphens;
+	-moz-hyphens: @hyphens;
+	-ms-hyphens: @hyphens;
+	hyphens: @hyphens;
+}
+
+// Tab Size
+.tab-size(@tab-size: 4) {
+	-moz-tab-size: @tab-size;
+	-o-tab-size: @tab-size;
+	tab-size: @tab-size;
+}
+
 //Hide but keep in DOM for Screen Readers
 .hide-visually() {
 	border: 0;
