@@ -426,11 +426,20 @@
 	<!-- Pre -->
 	<section id="pre" class="section">
 		<h2 class="section-title">Pre<code>typography/pre.less</code></h2>
-		<pre><?php code('<p>pre</p>'); ?></pre>
+		<pre><code><?php code('<p>pre</p>'); ?></code></pre>
 		<?php definitions('typography/pre'); ?>
-		<?php markup('<pre>...</pre>'); ?>
+		<?php markup('<pre><code>...</code></pre>'); ?>
 	</section>
 
+	<hr>
+
+	<!-- Kbd -->
+	<section id="kbd" class="section">
+		<h2 class="section-title">Kbd<code>typography/kbd.less</code></h2>
+		<p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
+		<?php definitions('typography/kbd'); ?>
+		<?php markup('<kbd>...</kbd>'); ?>
+	</section>
 
 	<!-- Grid -->
 	<section id="grid" class="section section-header">
