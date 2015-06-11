@@ -4,10 +4,11 @@
 
 // Section
 .section {
-	padding: 30px 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 	@media @medium-up {
-		padding: 60px 50px;
+		padding: 60px 30px;
 	}
 
 	+ hr {
@@ -25,11 +26,8 @@
 
 	.lead {
 		margin: 0;
+		max-width: 800px;
 		.regular-font();
-
-		@media @medium-up {
-			max-width: 50%;
-		}
 	}
 }
 
