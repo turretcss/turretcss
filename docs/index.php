@@ -93,12 +93,12 @@
 		<p>Run Dist CSS and Dist Min</p>
 		<?php bash('npm run dist'); ?>
 	</section>
-
-	<!-- General -->
-	<section id="general" class="section section-header">
+	
+	<!-- Base -->
+	<section id="base" class="section section-header">
 		<div class="title-group">
-			<h1 class="title">General</h1>
-			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries.</p>
+			<h1 class="title">Base</h1>
+			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries. Turret base styles for body, images, typography, basic generic typographic styles and responsive text scaling behaviour.</p>
 		</div>
 	</section>
 
@@ -119,6 +119,15 @@
 
 		<h3 class="section-block-title">Line Height</h3>
 		
+	</section>
+
+	<hr>
+
+	<!-- Body -->
+	<section id="body" class="section">
+		<h2 class="section-title">Body<code>base/body.less</code></h2>
+		<p>Some top level definitions for general styles on the <?php code('<body>'); ?> tag.</p>
+		<?php definitions('base/body'); ?>
 	</section>
 
 	<hr>
@@ -166,6 +175,48 @@
 	</section>
 
 	<hr>
+	
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<h2 class="section-title">Font Size<code>base/font-size.less</code></h2>
+		<p>Some top level definitions for the base font-size styles on the <?php code('<html>'); ?> tag, with breakpoints.</p>
+		<?php definitions('base/font-size'); ?>
+	</section>
+
+	<hr>
+
+	<!-- Link -->
+	<section id="link" class="section">
+		<h2 class="section-title">Link<code>base/link.less</code></h2>
+		<p><a href="">Link</a></p>
+		<?php definitions('base/link'); ?>
+		<?php markup('<a href="">...</a>'); ?>
+	</section>
+
+	<hr>
+
+	<!-- Image -->
+	<section id="image" class="section">
+		<h2 class="section-title">Image<code>base/image.less</code></h2>
+
+		<h3 class="section-block-title">Responsive Image</h3>
+		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
+		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
+		<?php markup('<img src="..." class="responsive">'); ?>
+
+		<h3 class="section-block-title">Image Styles</h3>
+		<div class="row">
+			<div class="column-1-2 text-center">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="rounded">
+				<?php less('@image-rounded-border-radius: 8px;'); ?>
+				<?php markup('<img src="..." class="rounded">'); ?>
+			</div>
+			<div class="column-1-2 text-center">
+				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="circle">
+				<?php markup('<img src="..." class="circle">'); ?>
+			</div>
+		</div>
+	</section>
 
 	<!-- Breakpoints -->
 	<section id="breakpoints" class="section">
@@ -223,55 +274,6 @@
 		<?php definitions('general/media-queries'); ?>
 	</section>
 
-	<!-- Base -->
-	<section id="base" class="section section-header">
-		<div class="title-group">
-			<h1 class="title">Base</h1>
-			<p class="lead">Turret base styles for body, images, typography, basic generic typographic styles and responsive text scaling behaviour.</p>
-		</div>
-	</section>
-
-	<!-- Body -->
-	<section id="body" class="section">
-		<h2 class="section-title">Body<code>base/body.less</code></h2>
-		<p>Some top level definitions for general styles on the <?php code('<body>'); ?> tag.</p>
-		<?php definitions('base/body'); ?>
-	</section>
-
-	<hr>
-	
-	<!-- Font Size -->
-	<section id="font-size" class="section">
-		<h2 class="section-title">Font Size<code>base/font-size.less</code></h2>
-		<p>Some top level definitions for the base font-size styles on the <?php code('<html>'); ?> tag, with breakpoints.</p>
-		<?php definitions('base/font-size'); ?>
-	</section>
-
-	<hr>
-
-	<!-- Image -->
-	<section id="image" class="section">
-		<h2 class="section-title">Image<code>base/image.less</code></h2>
-
-		<h3 class="section-block-title">Responsive Image</h3>
-		<p>Images in Turret can be made responsive-friendly via the addition of the <code>.responsive</code> class. This applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image so that it scales nicely to the parent element.</p>
-		<img src="http://placehold.it/1024x600/CCD1D9/656D78" class="responsive">
-		<?php markup('<img src="..." class="responsive">'); ?>
-
-		<h3 class="section-block-title">Image Styles</h3>
-		<div class="row">
-			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="rounded">
-				<?php less('@image-rounded-border-radius: 8px;'); ?>
-				<?php markup('<img src="..." class="rounded">'); ?>
-			</div>
-			<div class="column-1-2 text-center">
-				<img src="http://placehold.it/200x200/CCD1D9/656D78" class="circle">
-				<?php markup('<img src="..." class="circle">'); ?>
-			</div>
-		</div>
-	</section>
-
 	<!-- Typography -->
 	<section id="typography" class="section section-header">
 		<div class="title-group">
@@ -286,16 +288,6 @@
 		<?php sample('headings'); ?>
 		<?php definitions('typography/headings'); ?>
 		<?php sample_code('headings'); ?>
-	</section>
-
-	<hr>
-
-	<!-- Link -->
-	<section id="link" class="section">
-		<h2 class="section-title">Link<code>typography/link.less</code></h2>
-		<p><a href="">Link</a></p>
-		<?php definitions('typography/link'); ?>
-		<?php markup('<a href="">...</a>'); ?>
 	</section>
 	
 	<hr>

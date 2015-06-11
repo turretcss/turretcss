@@ -2,10 +2,13 @@
  * Definitions
  */
 
-// Links
+// Link
 @link-color: @primary;
-@link-hover-color: @dark;
 @link-text-decoration: none;
+
+// Link Hover
+@link-hover-color: @dark;
+@link-hover-decoration: none;
 
 
 /*
@@ -20,5 +23,6 @@ a {
 	&:hover,
 	&:focus {
 		color: @link-hover-color;
+		text-decoration: @link-hover-decoration;
 	}
 }
