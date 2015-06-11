@@ -44,7 +44,7 @@
 				</div>
 				<div class="column-1-2 column-large-1-2 column-xlarge-1-3">
 					<p>Download the latest release</p>
-					<a class="button button-block button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
+					<a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from Github</a>
 				</div>
 			</div>
 		</div>
