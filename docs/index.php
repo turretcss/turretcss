@@ -1759,19 +1759,12 @@
 			<li>The full Turret license is located in the project repository for more information.</li>
 		</ul>
 	</section>
-	
-	<footer>
-		<p class="text-center">
-			v3.0.0 &middot; 
-			<a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> 
-			made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> 
-			at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a>
-		</p>
-	</footer>
+
+	<?php include_once('includes/footer.html'); ?>
 
 </main>
 
 <div class="clearfix"></div>
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/toggle.js"></script>
-<?php include_once('includes/footer.html'); ?>
+<?php include_once('includes/end.html'); ?>

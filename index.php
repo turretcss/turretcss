@@ -78,8 +78,5 @@
 	<a class="button button-xlarge button-primary home-button" href="/docs">Get started</a>
 </section>
 
-<footer>
-	<p class="text-center">v3.0.0 &middot; <a href="https://twitter.com/scottdejonge" target="_blank">@scottdejonge</a> made this <img class="emoji" draggable="false" alt="💩" src="https://twemoji.maxcdn.com/svg/1f4a9.svg"> at <a href="http://bigfish.tv/" target="_blank">bigfish.tv</a></p>
-</footer>
-
 <?php include_once('docs/includes/footer.html'); ?>
+<?php include_once('docs/includes/end.html'); ?>
