@@ -10,8 +10,8 @@
 			<path fill="#FFFFFF" d="M36.7 52l-3.1-28.1 8.4-6v-17.9h-8v7h-6v-7h-12v7h-6v-7h-8v17.9l8.4 6-3.1 28.1h-7.3v12h44v-12z"/>
 		</svg>
 		<h1 class="home-header-title">Turret</h1>
-		<a class="button button-xlarge button-border home-button" href="/docs">Docs</a>
-		<a class="button button-xlarge button-border home-button" href="https://github.com/bigfishtv/turret">Github</a>
+		<a class="button button-large home-button" href="/docs">Docs</a>
+		<a class="button button-large home-button" href="https://github.com/bigfishtv/turret">Github</a>
 		<p class="text-white"><strong>v3.0.0</strong></p>
 	</div>
 </header>
@@ -74,9 +74,8 @@
 	</div>
 </section>
 
-<section class="home-section text-center background-dark">
-	<a class="button button-xlarge button-primary home-button" href="/docs">Get started</a>
+<section class="home-section text-center background-secondary">
+	<a class="button button-large home-button home-button-secondary" href="/docs">Get started</a>
 </section>
-
 <?php include_once('docs/includes/footer.html'); ?>
 <?php include_once('docs/includes/end.html'); ?>

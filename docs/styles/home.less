@@ -56,17 +56,22 @@
 .home-button {
 	margin: 10px;
 	min-width: 260px;
-	
+	color: @white;
+	background: transparent;
+	border: 1px solid @white;
 
-	&.button-border {
-		color: @white;
+	&:hover,
+	&:focus {
+		color: @primary;
+		background: @white;
 		border: 1px solid @white;
+	}
+}
 
-		&:hover,
-		&:focus {
-			color: @primary;
-			background: @white;
-			border: 1px solid @white;
-		}
+.home-button-secondary {
+
+	&:hover,
+	&:focus {
+		color: @secondary;
 	}
 }
