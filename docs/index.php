@@ -50,8 +50,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Structure -->
 	<section id="structure" class="section">
 		<div class="container">
@@ -70,8 +68,6 @@
 			<?php sample_code('template'); ?>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- Usage -->
 	<section id="usage" class="section">
@@ -92,8 +88,6 @@
 			<?php bash('npm run dist'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Examples -->
 	<section id="examples" class="section">
@@ -152,8 +146,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Body -->
 	<section id="body" class="section">
 		<div class="container">
@@ -162,8 +154,6 @@
 			<?php definitions('base/body'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Colors -->
 	<section id="colors" class="section">
@@ -198,8 +188,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Font -->
 	<section id="font" class="section">
 		<div class="container">
@@ -213,8 +201,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Link -->
 	<section id="link" class="section">
 		<div class="container">
@@ -224,8 +210,6 @@
 			<?php markup('<a href="">...</a>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Image -->
 	<section id="image" class="section">
@@ -301,8 +285,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Media Queries -->
 	<section id="media-queries" class="section">
 		<div class="container">
@@ -328,8 +310,7 @@
 			<?php sample_code('headings'); ?>
 		</div>
 	</section>
-	
-	<hr>
+
 
 	<!-- Strong -->
 	<section id="strong" class="section">
@@ -341,8 +322,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Emphasis -->
 	<section id="emphasis" class="section">
 		<div class="container">
@@ -352,8 +331,6 @@
 			<?php markup('<em>...</em>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Paragraph -->
 	<section id="paragraph" class="section">
@@ -365,8 +342,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Lead -->
 	<section id="lead" class="section">
 		<div class="container">
@@ -377,8 +352,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- hr -->
 	<section id="hr" class="section">
 		<div class="container">
@@ -388,8 +361,6 @@
 			<?php markup('<hr>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Blockquote -->
 	<section id="blockquote" class="section">
@@ -404,8 +375,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Pullout -->
 	<section id="pullout" class="section">
 		<div class="container">
@@ -415,8 +384,6 @@
 			<?php markup('<p class="pullout">...</p>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- List -->
 	<section id="list" class="section">
@@ -450,8 +417,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Definition List -->
 	<section id="definition-list" class="section">
 		<div class="container">
@@ -469,8 +434,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Code -->
 	<section id="code" class="section">
 		<div class="container">
@@ -481,8 +444,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Pre -->
 	<section id="pre" class="section">
 		<div class="container">
@@ -492,8 +453,6 @@
 			<?php markup('<pre><code>...</code></pre>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Kbd -->
 	<section id="kbd" class="section">
@@ -524,8 +483,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Row -->
 	<section id="row" class="section">
 		<div class="container">
@@ -534,8 +491,6 @@
 			<?php markup('<div class="row">...</div>'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Gutter -->
 	<section id="gutter" class="section">
@@ -610,8 +565,7 @@
 			</table>
 		</div>
 	</section>
-	
-	<hr>
+
 	
 	<!-- Column -->
 	<section id="column" class="section">
@@ -652,8 +606,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Offset -->
 	<section id="offset" class="section">
 		<div class="container">
@@ -668,8 +620,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Push -->
 	<section id="push" class="section">
 		<div class="container">
@@ -683,8 +633,6 @@
 			<?php markup('<div class="column-1-2 column-push-1-12">...</div>'); ?>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- Pull -->
 	<section id="pull" class="section">
@@ -720,8 +668,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Label -->
 	<section id="label" class="section">
 		<div class="container">
@@ -731,8 +677,6 @@
 			<?php sample_code('label'); ?>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- Fieldset -->
 	<section id="fieldset" class="section">
@@ -744,8 +688,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Form Message -->
 	<section id="form-message" class="section">
 		<div class="container">
@@ -755,8 +697,6 @@
 			<?php sample_code('form-message'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Input -->
 	<section id="input" class="section">
@@ -768,8 +708,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Input Indicators -->
 	<section id="input-indicators" class="section">
 		<div class="container">
@@ -780,8 +718,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Input Sizes -->
 	<section id="input-sizes" class="section">
 		<div class="container">
@@ -791,8 +727,6 @@
 			<?php sample_code('input-sizes'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Input Group -->
 	<section id="input-group" class="section">
@@ -807,8 +741,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Input Group Sizes -->
 	<section id="input-group-sizes" class="section">
 		<div class="container">
@@ -817,8 +749,6 @@
 			<?php sample_code('input-group-sizes'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Control -->
 	<section id="control" class="section">
@@ -845,8 +775,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Select -->
 	<section id="select" class="section">
 		<div class="container">
@@ -860,8 +788,6 @@
 			<?php sample_code('select-inverse'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Select Sizes -->
 	<section id="select-sizes" class="section">
@@ -906,8 +832,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Button Styles -->
 	<section id="button-styles" class="section">
 		<div class="container">
@@ -918,8 +842,6 @@
 			<?php sample_code('button-styles'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Button Indicators -->
 	<section id="button-indicators" class="section">
@@ -932,8 +854,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Button Sizes -->
 	<section id="button-sizes" class="section">
 		<div class="container">
@@ -943,8 +863,6 @@
 			<?php sample_code('button-sizes'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Button Group -->
 	<section id="button-group" class="section">
@@ -958,8 +876,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Figure -->
 	<section id="figure" class="section">
 		<div class="container">
@@ -969,8 +885,6 @@
 			<?php sample_code('figure'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Media -->
 	<section id="media" class="section">
@@ -1000,8 +914,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Figure -->
 	<section id="nav" class="section">
 		<div class="container">
@@ -1017,8 +929,6 @@
 			<?php sample_code('nav-inline'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Table -->
 	<section id="table" class="section">
@@ -1099,8 +1009,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Font Size -->
 	<section id="font-size" class="section">
 		<div class="container">
@@ -1109,8 +1017,7 @@
 			<?php sample_code('font-size'); ?>
 		</div>
 	</section>
-	
-	<hr>
+
 
 	<!-- Font Family -->
 	<section id="font-family" class="section">
@@ -1120,8 +1027,7 @@
 			<?php sample_code('font-family'); ?>
 		</div>
 	</section>
-	
-	<hr>
+
 		
 	<!-- Text -->
 	<section id="text" class="section">
@@ -1139,8 +1045,7 @@
 			<?php sample_code('text-transform'); ?>
 		</div>
 	</section>
-	
-	<hr>
+
 
 	<!-- Text Color -->
 	<section id="text-color" class="section">
@@ -1163,8 +1068,6 @@
 			<?php sample_code('text-colors'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Display -->
 	<section id="display" class="section">
@@ -1199,8 +1102,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Positioning -->
 	<section id="positioning" class="section">
 		<div class="container">
@@ -1234,8 +1135,6 @@
 			</table>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Float -->
 	<section id="positioning" class="section">
@@ -1358,8 +1257,6 @@
 			</table>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Visiblity -->
 	<section id="visiblity" class="section">
@@ -1635,8 +1532,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Mixins Typography -->
 	<section id="mixins-font" class="section">
 		<div class="container">
@@ -1644,8 +1539,6 @@
 			<?php include('includes/mixins-font.html'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Mixins Border Radius -->
 	<section id="mixins-border-radius" class="section">
@@ -1655,8 +1548,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Mixins Background -->
 	<section id="mixins-background" class="section">
 		<div class="container">
@@ -1664,8 +1555,6 @@
 			<?php include('includes/mixins-background.html'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Mixins Placeholder -->
 	<section id="mixins-placeholder" class="section">
@@ -1675,8 +1564,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Mixins Arrows -->
 	<section id="mixins-arrows" class="section">
 		<div class="container">
@@ -1684,8 +1571,6 @@
 			<?php include('includes/mixins-arrows.html'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Mixins Transitions -->
 	<section id="mixins-transitions" class="section">
@@ -1695,8 +1580,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Mixins Transforms -->
 	<section id="mixins-transforms" class="section">
 		<div class="container">
@@ -1704,8 +1587,6 @@
 			<?php include('includes/mixins-transforms.html'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Mixins Animations -->
 	<section id="mixins-animations" class="section">
@@ -1715,8 +1596,6 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<!-- Mixins Filters -->
 	<section id="mixins-filters" class="section">
 		<div class="container">
@@ -1724,8 +1603,6 @@
 			<?php include('includes/mixins-filters.html'); ?>
 		</div>
 	</section>
-
-	<hr>
 
 	<!-- Mixins Flexbox -->
 	<section id="mixins-flexbox" class="section">
@@ -1785,8 +1662,6 @@
 			<p>IE8 does not fully support <code>box-sizing: border-box;</code> when combined with <code>min-width</code>, <code>max-width</code>, <code>min-height</code>, or <code>max-height</code>. Cannot use max-width on <code>.container</code>.</p>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- CSS -->
 	<section id="css" class="section">
@@ -1818,8 +1693,6 @@
 			<?php markup('<div class="screen-reader screen-reader-focusable">...</div>'); ?>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- Aria Roles -->
 	<section id="aria-roles" class="section">
@@ -1848,8 +1721,6 @@
 			</ul>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- Licence -->
 	<section id="licence" class="section">
@@ -1863,8 +1734,6 @@
 			<p>Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
 		</div>
 	</section>
-
-	<hr>
 	
 	<!-- License Notes -->
 	<section id="licence-notes" class="section">

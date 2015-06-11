@@ -6,6 +6,7 @@
 .section {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	border-top: 1px solid @light;
 
 	@media @medium-up {
 		padding: 60px 30px;
@@ -18,6 +19,11 @@
 
 .section-header {
 	background: @primary;
+	border-top: none;
+
+	+ .section {
+		border-top: none;
+	}
 
 	h1,
 	.lead {
