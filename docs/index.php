@@ -1475,16 +1475,16 @@
 	<hr>
 
 	<!-- Mixins Typography -->
-	<section id="mixins-typography" class="section">
-		<h2 class="section-title">Typography<code>utilities/typography.less</code></h2>
-		<?php include('includes/mixins-typography.html'); ?>
+	<section id="mixins-font" class="section">
+		<h2 class="section-title">Font<code>mixins/font.less</code></h2>
+		<?php include('includes/mixins-font.html'); ?>
 	</section>
 
 	<hr>
 
 	<!-- Mixins Border Radius -->
 	<section id="mixins-border-radius" class="section">
-		<h2 class="section-title">Border Radius<code>utilities/border-radius.less</code></h2>
+		<h2 class="section-title">Border Radius<code>mixins/border-radius.less</code></h2>
 		<?php include('includes/mixins-border-radius.html'); ?>
 	</section>
 
@@ -1492,7 +1492,7 @@
 
 	<!-- Mixins Background -->
 	<section id="mixins-background" class="section">
-		<h2 class="section-title">Background<code>utilities/background.less</code></h2>
+		<h2 class="section-title">Background<code>mixins/background.less</code></h2>
 		<?php include('includes/mixins-background.html'); ?>
 	</section>
 
@@ -1500,7 +1500,7 @@
 
 	<!-- Mixins Placeholder -->
 	<section id="mixins-placeholder" class="section">	
-		<h2 class="section-title">Placeholder<code>utilities/placeholder.less</code></h2>
+		<h2 class="section-title">Placeholder<code>mixins/placeholder.less</code></h2>
 		<?php include('includes/mixins-placeholder.html'); ?>
 	</section>
 
@@ -1508,7 +1508,7 @@
 
 	<!-- Mixins Arrows -->
 	<section id="mixins-arrows" class="section">
-		<h2 class="section-title">Arrows<code>utilities/arrows.less</code></h2>
+		<h2 class="section-title">Arrows<code>mixins/arrows.less</code></h2>
 		<?php include('includes/mixins-arrows.html'); ?>
 	</section>
 
@@ -1516,7 +1516,7 @@
 
 	<!-- Mixins Transitions -->
 	<section id="mixins-transitions" class="section">
-		<h2 class="section-title">Transitions<code>utilities/transitions.less</code></h2>
+		<h2 class="section-title">Transitions<code>mixins/transitions.less</code></h2>
 		<?php include('includes/mixins-transitions.html'); ?>
 	</section>
 
@@ -1524,7 +1524,7 @@
 
 	<!-- Mixins Transforms -->
 	<section id="mixins-transforms" class="section">
-		<h2 class="section-title">Transforms<code>utilities/transforms.less</code></h2>
+		<h2 class="section-title">Transforms<code>mixins/transforms.less</code></h2>
 		<?php include('includes/mixins-transforms.html'); ?>
 	</section>
 
@@ -1532,7 +1532,7 @@
 
 	<!-- Mixins Animations -->
 	<section id="mixins-animations" class="section">
-		<h2 class="section-title">Animations<code>utilities/animations.less</code></h2>
+		<h2 class="section-title">Animations<code>mixins/animations.less</code></h2>
 		<?php include('includes/mixins-animations.html'); ?>
 	</section>
 
@@ -1540,7 +1540,7 @@
 
 	<!-- Mixins Filters -->
 	<section id="mixins-filters" class="section">
-		<h2 class="section-title">Filters<code>utilities/filters.less</code></h2>
+		<h2 class="section-title">Filters<code>mixins/filters.less</code></h2>
 		<?php include('includes/mixins-filters.html'); ?>
 	</section>
 
@@ -1548,7 +1548,7 @@
 
 	<!-- Mixins Flexbox -->
 	<section id="mixins-flexbox" class="section">
-		<h2 class="section-title">Flexbox<code>utilities/flexbox.less</code></h2>
+		<h2 class="section-title">Flexbox<code>mixins/flexbox.less</code></h2>
 		<?php include('includes/mixins-flexbox.html'); ?>
 	</section>
 	
