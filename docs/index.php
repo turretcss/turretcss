@@ -95,19 +95,19 @@
 			<h2 class="section-title">Examples</h2>
 			<div class="row">
 				<div class="column-1-4 column-small-1-2">
-					<a class="example" href="/examples/template.html" target="_blank">
+					<a class="example" href="../examples/template.html" target="_blank">
 						<img src="img/examples/template.svg" class="responsive">
 						<p>Template</p>
 					</a>
 				</div>
 				<div class="column-1-4 column-small-1-2">
-					<a class="example" href="/examples/grid.html" target="_blank">
+					<a class="example" href="../examples/grid.html" target="_blank">
 						<img src="img/examples/grid.svg" class="responsive">
 						<p>Grid</p>
 					</a>
 				</div>
 				<div class="column-1-4 column-small-1-2">
-					<a class="example" href="/examples/theme.html" target="_blank">
+					<a class="example" href="../examples/theme.html" target="_blank">
 						<img src="img/examples/theme.svg" class="responsive">
 						<p>Theme</p>
 					</a>

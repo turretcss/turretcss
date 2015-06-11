@@ -10,7 +10,7 @@
 			<path fill="#FFFFFF" d="M36.7 52l-3.1-28.1 8.4-6v-17.9h-8v7h-6v-7h-12v7h-6v-7h-8v17.9l8.4 6-3.1 28.1h-7.3v12h44v-12z"/>
 		</svg>
 		<h1 class="home-header-title">Turret</h1>
-		<a class="button button-large home-button" href="/docs">Docs</a>
+		<a class="button button-large home-button" href="docs">Docs</a>
 		<a class="button button-large home-button" href="https://github.com/bigfishtv/turret">Github</a>
 		<p class="text-white"><strong>v3.0.0</strong></p>
 	</div>
