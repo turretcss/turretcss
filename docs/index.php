@@ -73,10 +73,160 @@
 	<section id="usage" class="section">
 		<div class="container">
 			<h2 class="section-title">Usage</h2>
-			<p>Turret uses npm for it's build system with watch and build scripts for working locally and for deployment:</p>
-			<p><strong>Watch</strong></p>
+			<h3 class="section-block-title">Repo File Structure</h3>
+			<ul class="files">
+				<li>turret/
+					<ul>
+						<li>dist/
+							<ul>
+								<li><code>turret.css</code></li>
+								<li><code>turret.min.css</code></li>
+							</ul>
+						</li>
+						<li>docs/</li>
+						<li>examples/
+							<ul>
+								<li><code>grid.html</code></li>
+								<li><code>template.html</code></li>
+								<li><code>theme.html</code></li>
+							</ul>
+						</li>
+						<li>turret/</li>
+					</ul>
+				</li>
+			</ul>
+
+			<h3 class="section-block-title">Turret File Structure</h3>
+			<ul class="files">
+				<li>turret/
+					<ul>
+						<li><code>turret.less</code></li>
+						<li>lib/
+							<ul>
+								<li><code>normalize.less</code></li>
+							</ul>
+						</li>
+						<li>base/
+							<ul>
+								<li><code>global.less</code></li>
+								<li><code>body.less</code></li>
+								<li><code>colors.less</code></li>
+								<li><code>font.less</code></li>
+								<li><code>link.less</code></li>
+								<li><code>image.less</code></li>
+								<li><code>breakpoints.less</code></li>
+								<li><code>media-queries.less</code></li>
+								<li><code>print.less</code></li>
+							</ul>
+						</li>
+						<li>typography/
+							<ul>
+								<li><code>headings.less</code></li>
+								<li><code>strong.less</code></li>
+								<li><code>emphasis.less</code></li>
+								<li><code>paragraph.less</code></li>
+								<li><code>lead.less</code></li>
+								<li><code>hr.less</code></li>
+								<li><code>blockquote.less</code></li>
+								<li><code>pullout.less</code></li>
+								<li><code>list.less</code></li>
+								<li><code>definition-list.less</code></li>
+								<li><code>code.less</code></li>
+								<li><code>pre.less</code></li>
+								<li><code>kbd.less</code></li>
+							</ul>
+						</li>
+						<li>grid/
+							<ul>
+								<li><code>container.less</code></li>
+								<li><code>row.less</code></li>
+								<li><code>column.less</code></li>
+								<li><code>offset.less</code></li>
+								<li><code>push.less</code></li>
+								<li><code>pull.less</code></li>
+							</ul>
+						</li>
+						<li>form/
+							<ul>
+								<li><code>label.less</code></li>
+								<li><code>fieldset.less</code></li>
+								<li><code>form-message.less</code></li>
+								<li><code>input.less</code></li>
+								<li><code>input-indicators.less</code></li>
+								<li><code>input-sizes.less</code></li>
+								<li><code>input-group.less</code></li>
+								<li><code>input-group-sizes.less</code></li>
+								<li><code>control.less</code></li>
+								<li><code>select.less</code></li>
+								<li><code>select-sizes.less</code></li>
+							</ul>
+						</li>
+						<li>elements/
+							<ul>
+								<li><code>button.less</code></li>
+								<li><code>button-styles.less</code></li>
+								<li><code>button-indicators.less</code></li>
+								<li><code>button-sizes.less</code></li>
+								<li><code>button-group.less</code></li>
+								<li><code>figure.less</code></li>
+								<li><code>media.less</code></li>
+								<li><code>nav.less</code></li>
+								<li><code>table.less</code></li>
+							</ul>
+						</li>	
+						<li>mixins/
+							<ul>
+								<li><code>mixins.less</code></li>
+								<li><code>font.less</code></li>
+								<li><code>border-radius.less</code></li>
+								<li><code>background.less</code></li>
+								<li><code>placeholder.less</code></li>
+								<li><code>arrows.less</code></li>
+								<li><code>transitions.less</code></li>
+								<li><code>transforms.less</code></li>
+								<li><code>animations.less</code></li>
+								<li><code>filters.less</code></li>
+								<li><code>flexbox.less</code></li>
+							</ul>
+						</li>
+						<li>utilities/
+							<ul>
+								<li><code>utility-classes.less</code></li>
+								<li><code>font-size.less</code></li>
+								<li><code>font-family.less</code></li>
+								<li><code>text.less</code></li>
+								<li><code>text-color.less</code></li>
+								<li><code>display.less</code></li>
+								<li><code>positioning.less</code></li>
+								<li><code>float.less</code></li>
+								<li><code>visiblity.less</code></li>
+							</ul>
+						</li>
+						<li>accessibility/
+							<ul>
+								<li><code>screen-reader.less</code></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Documentation -->
+	<section id="documentation" class="section">
+		<div class="container">
+			<h2 class="section-title">Documentation</h2>
+			<p>Turret uses npm for it's build system with watch and build scripts for documentation and for deployment:</p>
+			<p><strong>Watch Turret</strong></p>
 			<p>Watch Less files in <code>turret</code> concatenate and compile</p>
-			<?php bash('npm run watch'); ?>
+			<?php bash('npm run watch:turret'); ?>
+			<p><strong>Watch Docs</strong></p>
+			<p>Watch Less files in <code>docs/styles</code> concatenate and compile</p>
+			<?php bash('npm run watch:docs'); ?>
+			<p><strong>Build</strong></p>
+			<p>Build Less files concatenate and compile</p>
+			<?php bash('npm run build'); ?>
 			<p><strong>Dist CSS</strong></p>
 			<p>Build Less files in <code>turret</code> concatenate and compile into <code>dist</code></p>
 			<?php bash('npm run dist:css'); ?>
@@ -86,7 +236,6 @@
 			<p><strong>Dist</strong></p>
 			<p>Run Dist CSS and Dist Min</p>
 			<?php bash('npm run dist'); ?>
-		</div>
 	</section>
 
 	<!-- Examples -->
@@ -1534,47 +1683,47 @@
 	</section>
 
 	<!-- Mixins General -->
-	<section id="mixins-general" class="section">
+	<section id="general" class="section">
 		<div class="container">
 			<h2 class="section-title">General<code>mixins/general.less</code></h2>
-			<?php include('includes/mixins-general.html'); ?>
+			<?php include('includes/general.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Typography -->
-	<section id="mixins-font" class="section">
+	<section id="font" class="section">
 		<div class="container">
 			<h2 class="section-title">Font<code>mixins/font.less</code></h2>
-			<?php include('includes/mixins-font.html'); ?>
+			<?php include('includes/font.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Border Radius -->
-	<section id="mixins-border-radius" class="section">
+	<section id="border-radius" class="section">
 		<div class="container">
 			<h2 class="section-title">Border Radius<code>mixins/border-radius.less</code></h2>
-			<?php include('includes/mixins-border-radius.html'); ?>
+			<?php include('includes/border-radius.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Background -->
-	<section id="mixins-background" class="section">
+	<section id="background" class="section">
 		<div class="container">
 			<h2 class="section-title">Background<code>mixins/background.less</code></h2>
-			<?php include('includes/mixins-background.html'); ?>
+			<?php include('includes/background.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Placeholder -->
-	<section id="mixins-placeholder" class="section">
+	<section id="placeholder" class="section">
 		<div class="container">
 			<h2 class="section-title">Placeholder<code>mixins/placeholder.less</code></h2>
-			<?php include('includes/mixins-placeholder.html'); ?>
+			<?php include('includes/placeholder.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Arrows -->
-	<section id="mixins-arrows" class="section">
+	<section id="arrows" class="section">
 		<div class="container">
 			<h2 class="section-title">Arrows<code>mixins/arrows.less</code></h2>
 			<div class="arrow-boxes">
@@ -1587,47 +1736,47 @@
 				<div class="arrow-box arrow-left"></div>
 				<div class="arrow-box arrow-right"></div>
 			</div>
-			<?php include('includes/mixins-arrows.html'); ?>
+			<?php include('includes/arrows.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Transitions -->
-	<section id="mixins-transitions" class="section">
+	<section id="transitions" class="section">
 		<div class="container">
 			<h2 class="section-title">Transitions<code>mixins/transitions.less</code></h2>
-			<?php include('includes/mixins-transitions.html'); ?>
+			<?php include('includes/transitions.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Transforms -->
-	<section id="mixins-transforms" class="section">
+	<section id="transforms" class="section">
 		<div class="container">
 			<h2 class="section-title">Transforms<code>mixins/transforms.less</code></h2>
-			<?php include('includes/mixins-transforms.html'); ?>
+			<?php include('includes/transforms.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Animations -->
-	<section id="mixins-animations" class="section">
+	<section id="animations" class="section">
 		<div class="container">
 			<h2 class="section-title">Animations<code>mixins/animations.less</code></h2>
-			<?php include('includes/mixins-animations.html'); ?>
+			<?php include('includes/animations.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Filters -->
-	<section id="mixins-filters" class="section">
+	<section id="filters" class="section">
 		<div class="container">
 			<h2 class="section-title">Filters<code>mixins/filters.less</code></h2>
-			<?php include('includes/mixins-filters.html'); ?>
+			<?php include('includes/filters.html'); ?>
 		</div>
 	</section>
 
 	<!-- Mixins Flexbox -->
-	<section id="mixins-flexbox" class="section">
+	<section id="flexbox" class="section">
 		<div class="container">
 			<h2 class="section-title">Flexbox<code>mixins/flexbox.less</code></h2>
-			<?php include('includes/mixins-flexbox.html'); ?>
+			<?php include('includes/flexbox.html'); ?>
 		</div>
 	</section>
 	
