@@ -293,6 +293,15 @@
 		</div>
 	</section>
 
+	<!-- Print -->
+	<section id="print" class="section">
+		<div class="container">
+			<h2 class="section-title">Print<code>base/print.less</code></h2>
+			<p>By default Turret's print styles are formatted for <code>A4</code> page size with a margin of <code>1.5cm 2cm</code>. Print styles include making text <code>@black</code>, and removing backgrounds from elements by default. Links are displayed next to anchors using <code>:after</code> pseudo content.</p>
+			<?php definitions('base/print'); ?>
+		</div>
+	</section>
+
 	<!-- Typography -->
 	<section id="typography" class="section section-header">
 		<div class="container">
