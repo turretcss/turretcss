@@ -83,7 +83,8 @@
 				<li>Import <code>.less</code> files for each element as required.</li>
 			</ol>
 			<h3 class="section-block-title">Theming</h3>
-			<p>To theme Turret you can override default style defintions within your own project styles.</p>
+			<p>To theme Turret you can override default style defintions either within your own project styles or included as <code>theme.less</code> to <code>@import</code> in your styles.</p>
+			<?php definitions('theme'); ?>
 			<h3 class="section-block-title">Repo File Structure</h3>
 			<ul class="files">
 				<li>turret/
