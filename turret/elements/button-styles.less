@@ -54,83 +54,31 @@
 
 // Button Inverse
 .button-inverse {
-	color: @button-inverse-color;
-	background: @button-inverse-background;
-	border: @button-inverse-border;
-
-	&:hover,
-	&:focus {
-		color: @button-inverse-hover-color;
-		background: @button-inverse-hover-background;
-		border: @button-inverse-hover-border;
-	}
+	.button-theme(@button-inverse-color, @button-inverse-background, @button-inverse-border, @button-inverse-hover-color, @button-inverse-hover-background, @button-inverse-hover-border);
 }
 
 // Text Button
 .button-text {
-	color: @button-text-color;
-	background: transparent !important;
-	border: none !important;
-
-	&:hover,
-	&:focus {
-		color: @button-text-hover-color;
-	}
+	.button-theme(@button-text-color, transparent, none, @button-text-hover-color, transparent, none);
 }
 
 // Button Primary
 .button-primary {
-	color: @button-primary-color;
-	background: @button-primary-background;
-	border: @button-primary-border;
-
-	&:hover,
-	&:focus {
-		color: @button-primary-hover-color;
-		background: @button-primary-hover-background;
-		border: @button-primary-hover-border;
-	}
+	.button-theme(@button-primary-color, @button-primary-background, @button-primary-border, @button-primary-hover-color, @button-primary-hover-background, @button-primary-hover-border);
 }
 
 // Button Secondary
 .button-secondary {
-	color: @button-secondary-color;
-	background: @button-secondary-background;
-	border: @button-secondary-border;
-	
-	&:hover,
-	&:focus {
-		color: @button-secondary-hover-color;
-		background: @button-secondary-hover-background;
-		border: @button-secondary-hover-border;
-	}
+	.button-theme(@button-secondary-color, @button-secondary-background, @button-secondary-border, @button-secondary-hover-color, @button-secondary-hover-background, @button-secondary-hover-border);
 }
 
 // Button Tertiary
 .button-tertiary {
-	color: @button-tertiary-color;
-	background: @button-tertiary-background;
-	border: @button-tertiary-border;
-	
-	&:hover,
-	&:focus {
-		color: @button-tertiary-hover-color;
-		background: @button-tertiary-hover-background;
-		border: @button-tertiary-hover-border;
-	}
+	.button-theme(@button-tertiary-color, @button-tertiary-background, @button-tertiary-border, @button-tertiary-hover-color, @button-tertiary-hover-background, @button-tertiary-hover-border);
 }
 
 
 // Button Border
 .button-border {
-	color: @button-border-color;
-	background: @button-border-background;
-	border: @button-border-border;
-	
-	&:hover,
-	&:focus {
-		color: @button-border-hover-color;
-		border: @button-border-hover-border;
-		background: @button-border-hover-background;
-	}
+	.button-theme(@button-border-color, @button-border-background, @button-border-border, @button-border-hover-color, @button-border-hover-background, @button-border-hover-border);
 }

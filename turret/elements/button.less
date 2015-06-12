@@ -34,40 +34,13 @@
 // Button
 button,
 .button {
-	display: inline-block;
-	padding: @button-padding;
-	height: @button-height;
-	font-family: @button-font-family;
-	font-weight: @button-font-weight;
-	.font-size(@button-font-size);
-	line-height: @button-line-height;
-	color: @button-color;
-	text-align: @button-text-align;
-	text-transform: @button-text-transform;
-	white-space: nowrap;
-	cursor: pointer;
-	background: @button-background;
-	border: @button-border;
-	border-radius: @button-border-radius;
-	.transition(all @transition-fast ease-in-out);
-	
-	// Button Hover Styles
-	&:hover,
-	&:focus {
-		color: @button-hover-color;
-		background: @button-hover-background;
-		border: @button-hover-border;
-	}
+	.button();
+	.button-theme(@button-color, @button-background, @button-border, @button-hover-color, @button-hover-background, @button-hover-border);
 
 	// Button Disabled
 	&:disabled {
 		cursor: no-drop;
 		opacity: @button-disabled-opacity;
-
-		&:hover,
-		&:focus {
-			opacity: @button-disabled-opacity;
-		}
 	}
 }
 
@@ -82,13 +55,13 @@ button,
 
 // Button Block
 .button-block {
+	display: block;
 	width: 100%;
 	text-align: @button-block-text-align;
-	display: block;
 }
 
 // Button Center
 .button-center {
-	margin: 0 auto;
 	display: inline-block;
+	margin: 0 auto;
 }

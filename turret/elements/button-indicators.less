@@ -44,57 +44,21 @@ button,
 	
 	//Button Error
 	&.error {
-		color: @button-error-color;
-		background: @button-error-background;
-		border: @button-error-border;
-	
-		&:hover,
-		&:focus {
-			color: @button-error-hover-color;
-			background: @button-error-hover-background;
-			border: @button-error-hover-border;
-		}
+		.button-theme(@button-error-color, @button-error-background, @button-error-border, @button-error-hover-color, @button-error-hover-background, @button-error-hover-border);
 	}
 	
 	//Button Warning
 	&.warning {
-		color: @button-warning-color;
-		background: @button-warning-background;
-		border: @button-warning-border;
-	
-		&:hover,
-		&:focus {
-			color: @button-warning-hover-color;
-			background: @button-warning-hover-background;
-			border: @button-warning-hover-border;
-		}
+		.button-theme(@button-warning-color, @button-warning-background, @button-warning-border, @button-warning-hover-color, @button-warning-hover-background, @button-warning-hover-border);
 	}
 	
 	//Button Success
 	&.success {
-		color: @button-success-color;
-		background: @button-success-background;
-		border: @button-success-border;
-	
-		&:hover,
-		&:focus {
-			color: @button-success-hover-color;
-			background: @button-success-hover-background;
-			border: @button-success-hover-border;
-		}
+		.button-theme(@button-success-color, @button-success-background, @button-success-border, @button-success-hover-color, @button-success-hover-background, @button-success-hover-border);
 	}
 	
 	//Button Info
 	&.info {
-		color: @button-info-color;
-		background: @button-info-background;
-		border: @button-info-border;
-	
-		&:hover,
-		&:focus {
-			color: @button-info-hover-color;
-			background: @button-info-hover-background;
-			border: @button-info-hover-border;
-		}
+		.button-theme(@button-info-color, @button-info-background, @button-info-border, @button-info-hover-color, @button-info-hover-background, @button-info-hover-border);
 	}
 }
