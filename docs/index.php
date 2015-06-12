@@ -1568,6 +1568,16 @@
 	<section id="mixins-arrows" class="section">
 		<div class="container">
 			<h2 class="section-title">Arrows<code>mixins/arrows.less</code></h2>
+			<div class="arrow-boxes">
+				<div class="arrow-box arrow-top"></div>
+				<div class="arrow-box arrow-top-left"></div>
+				<div class="arrow-box arrow-top-right"></div>
+				<div class="arrow-box arrow-bottom"></div>
+				<div class="arrow-box arrow-bottom-left"></div>
+				<div class="arrow-box arrow-bottom-right"></div>
+				<div class="arrow-box arrow-left"></div>
+				<div class="arrow-box arrow-right"></div>
+			</div>
 			<?php include('includes/mixins-arrows.html'); ?>
 		</div>
 	</section>
