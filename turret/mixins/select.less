@@ -1,0 +1,14 @@
+/*
+ * Select
+ */
+
+// Select Size
+.select-size(@padding, @height, @font-size) {
+
+	select {
+		padding: @padding;
+		height: @height;
+		.font-size(@font-size);
+		line-height: @height;
+	}
+}

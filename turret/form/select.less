@@ -38,7 +38,6 @@ select {
 	position: relative;
 	display: block;
 	margin: @select-margin;
-	color: @select-background;
 	
 	// Select
 	select {
@@ -50,10 +49,10 @@ select {
 		font-weight: @select-font-weight;
 		.font-size(@select-font-size);
 		color: @select-color;
-		background: @select-background;
-		border: @select-border;
 		cursor: pointer;
 		outline: 0;
+		background: @select-background;
+		border: @select-border;
 		border-radius: @select-border-radius;
 		.appearance(none);
 		
@@ -95,7 +94,7 @@ select {
 	select {
 		color: @select-inverse-color;
 		border: @select-inverse-border;
-		background-color: @select-inverse-background;
+		background: @select-inverse-background;
 	}
 	
 	&:after {
