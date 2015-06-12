@@ -3,15 +3,15 @@
  */
  
 .row {
-	margin-left: -@gutter;
-	margin-right: -@gutter;
+	margin-left: -(@gutter / 2);
+	margin-right: -(@gutter / 2);
 
 	//Clearfix
 	&:after {
 		display: table;
 		clear: both;
-		margin-left: -@gutter;
-		margin-right: -@gutter;
+		margin-left: -(@gutter / 2);
+		margin-right: -(@gutter / 2);
 		content: '';
 	}
 
