@@ -289,20 +289,24 @@
 	<section id="global" class="section">
 		<div class="container">
 			<h2 class="section-title">Global<code>base/global.less</code></h2>
-			<?php definitions('base/global'); ?>
-
 			<h3 class="section-block-title">Border Radius</h3>
-
+			<p>Default <code>border-radius</code> definitions for buttons, inputs etc.</p>
+			<?php definitions('base/global/border-radius'); ?>
 			<h3 class="section-block-title">Z-Index</h3>
-
-			<h3 class="section-block-title">Animations</h3>
-
-			<h3 class="section-block-title">Transitions</h3>
-
+			<p>Z-index utility definitions for general use.</p>
+			<?php definitions('base/global/z-index'); ?>
+			<h3 class="section-block-title">Animation</h3>
+			<p>Default animation speeds.</p>
+			<?php definitions('base/global/animation'); ?>
+			<h3 class="section-block-title">Transition</h3>
+			<p>Default transition speeds.</p>
+			<?php definitions('base/global/transition'); ?>
 			<h3 class="section-block-title">Height</h3>
-
+			<p>Height sizes for buttons, inputs, input-groups, selects etc.</p>
+			<?php definitions('base/global/height'); ?>
 			<h3 class="section-block-title">Padding</h3>
-			
+			<p>Padding sizes, both vertical and horizontal for buttons, inputs, input-groups, selects etc.</p>
+			<?php definitions('base/global/padding'); ?>
 		</div>
 	</section>
 
