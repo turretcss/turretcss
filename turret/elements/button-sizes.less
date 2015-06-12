@@ -32,37 +32,27 @@
  * Button Sizes
  */
 
-// Button Extra Small
-.button-xsmall {
-	padding: @button-xsmall-padding;
-	height: @button-xsmall-height;
-	.font-size(@button-xsmall-font-size);
-}
-
-// Button Small
-.button-small {
-	padding: @button-small-padding;
-	height: @button-small-height;
-	.font-size(@button-small-font-size);
-}
-
-// Button Medium
-.button-medium {
-	padding: @button-medium-padding;
-	height: @button-medium-height;
-	.font-size(@button-medium-font-size);
+// Button Extra Large
+.button-xlarge {
+	.button-size(@button-xlarge-padding, @button-xlarge-height, @button-xlarge-font-size);
 }
 
 // Button Large
 .button-large {
-	padding: @button-large-padding;
-	height: @button-large-height;
-	.font-size(@button-large-font-size);
+	.button-size(@button-large-padding, @button-large-height, @button-large-font-size);
 }
 
-// Button Extra Large
-.button-xlarge {
-	padding: @button-xlarge-padding;
-	height: @button-xlarge-height;
-	.font-size(@button-xlarge-font-size);
+// Button Medium
+.button-medium {
+	.button-size(@button-medium-padding, @button-medium-height, @button-medium-font-size);
+}
+
+// Button Small
+.button-small {
+	.button-size(@button-small-padding, @button-small-height, @button-small-font-size);
+}
+
+// Button Extra Small
+.button-xsmall {
+	.button-size(@button-xsmall-padding, @button-xsmall-height, @button-xsmall-font-size);
 }

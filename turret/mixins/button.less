@@ -5,11 +5,8 @@
 // Button
 .button() {
 	display: inline-block;
-	padding: @button-padding;
-	height: @button-height;
 	font-family: @button-font-family;
 	font-weight: @button-font-weight;
-	.font-size(@button-font-size);
 	line-height: @button-line-height;
 	text-align: @button-text-align;
 	text-transform: @button-text-transform;
@@ -34,4 +31,11 @@
 	&:not(:disabled):focus {
 		.button-styles(@hover-color, @hover-background, @hover-border);
 	}
+}
+
+//Button Size
+.button-size(@padding, @height, @font-size) {
+	padding: @padding;
+	height: @height;
+	.font-size(@font-size);
 }
