@@ -22,7 +22,7 @@
 
 .arrow-top-left(@size, @color, @offset) {
 	.arrow-top(@size, @color);
-	left: @offset;
+	left: @size + @offset;
 }
 
 .arrow-top-right(@size, @color, @offset) {
@@ -43,7 +43,7 @@
 
 .arrow-bottom-left(@size, @color, @offset) {
 	.arrow-bottom(@size, @color);
-	left: @offset;
+	left: @size + @offset;
 }
 
 .arrow-bottom-right(@size, @color, @offset) {
