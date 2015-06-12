@@ -73,6 +73,17 @@
 	<section id="usage" class="section">
 		<div class="container">
 			<h2 class="section-title">Usage</h2>
+			<p>Turret is a collection of self-contained less files that include definitions and styles required for each element. These can be included and removed as required to minimise generated CSS styles.</p>
+			<h3 class="section-block-title">CSS</h3>
+			<p>To use Turret as CSS in your project include <code>turret.min.css</code> in your document <?php code('<head>'); ?></p>
+			<h3 class="section-block-title">Less</h3>
+			<p>To use Turret with Less in your project you will need to either:</p>
+			<ol>
+				<li>Import <code>turret.less</code> to include styles for all elements.</li>
+				<li>Import <code>.less</code> files for each element as required.</li>
+			</ol>
+			<h3 class="section-block-title">Theming</h3>
+			<p>To theme Turret you can override default style defintions within your own project styles.</p>
 			<h3 class="section-block-title">Repo File Structure</h3>
 			<ul class="files">
 				<li>turret/
@@ -95,7 +106,6 @@
 					</ul>
 				</li>
 			</ul>
-
 			<h3 class="section-block-title">Turret File Structure</h3>
 			<ul class="files">
 				<li>turret/
