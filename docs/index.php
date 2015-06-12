@@ -184,21 +184,6 @@
 								<li><code>nav.less</code></li>
 								<li><code>table.less</code></li>
 							</ul>
-						</li>	
-						<li>mixins/
-							<ul>
-								<li><code>mixins.less</code></li>
-								<li><code>font.less</code></li>
-								<li><code>border-radius.less</code></li>
-								<li><code>background.less</code></li>
-								<li><code>placeholder.less</code></li>
-								<li><code>arrows.less</code></li>
-								<li><code>transitions.less</code></li>
-								<li><code>transforms.less</code></li>
-								<li><code>animations.less</code></li>
-								<li><code>filters.less</code></li>
-								<li><code>flexbox.less</code></li>
-							</ul>
 						</li>
 						<li>utilities/
 							<ul>
@@ -211,6 +196,24 @@
 								<li><code>positioning.less</code></li>
 								<li><code>float.less</code></li>
 								<li><code>visiblity.less</code></li>
+							</ul>
+						</li>
+						<li>mixins/
+							<ul>
+								<li><code>mixins.less</code></li>
+								<li><code>input.less</code></li>
+								<li><code>select.less</code></li>
+								<li><code>button.less</code></li>
+								<li><code>font.less</code></li>
+								<li><code>border-radius.less</code></li>
+								<li><code>background.less</code></li>
+								<li><code>placeholder.less</code></li>
+								<li><code>arrows.less</code></li>
+								<li><code>transitions.less</code></li>
+								<li><code>transforms.less</code></li>
+								<li><code>animations.less</code></li>
+								<li><code>filters.less</code></li>
+								<li><code>flexbox.less</code></li>
 							</ul>
 						</li>
 						<li>accessibility/
@@ -1314,7 +1317,7 @@
 	</section>
 
 	<!-- Float -->
-	<section id="positioning" class="section">
+	<section id="float" class="section">
 		<div class="container">
 			<h2 class="section-title">Float<code>utilities/float.less</code></h2>
 			<table class="table table-bordered table-block table-responsive">
@@ -1702,15 +1705,39 @@
 	</section>
 
 	<!-- Mixins General -->
-	<section id="general" class="section">
+	<section id="mixins-general" class="section">
 		<div class="container">
 			<h2 class="section-title">General<code>mixins/general.less</code></h2>
 			<?php include('includes/mixins-general.html'); ?>
 		</div>
 	</section>
 
-	<!-- Mixins Typography -->
-	<section id="font" class="section">
+	<!-- Mixins Input -->
+	<section id="mixins-input" class="section">
+		<div class="container">
+			<h2 class="section-title">Input<code>mixins/input.less</code></h2>
+			<?php include('includes/mixins-input.html'); ?>
+		</div>
+	</section>
+
+	<!-- Mixins Select -->
+	<section id="mixins-select" class="section">
+		<div class="container">
+			<h2 class="section-title">Select<code>mixins/select.less</code></h2>
+			<?php include('includes/mixins-select.html'); ?>
+		</div>
+	</section>
+
+	<!-- Mixins Button -->
+	<section id="mixins-button" class="section">
+		<div class="container">
+			<h2 class="section-title">Button<code>mixins/button.less</code></h2>
+			<?php include('includes/mixins-button.html'); ?>
+		</div>
+	</section>
+
+	<!-- Mixins Font -->
+	<section id="mixins-font" class="section">
 		<div class="container">
 			<h2 class="section-title">Font<code>mixins/font.less</code></h2>
 			<?php include('includes/mixins-font.html'); ?>
@@ -1718,7 +1745,7 @@
 	</section>
 
 	<!-- Mixins Border Radius -->
-	<section id="border-radius" class="section">
+	<section id="mixins-border-radius" class="section">
 		<div class="container">
 			<h2 class="section-title">Border Radius<code>mixins/border-radius.less</code></h2>
 			<?php include('includes/mixins-border-radius.html'); ?>
@@ -1726,7 +1753,7 @@
 	</section>
 
 	<!-- Mixins Background -->
-	<section id="background" class="section">
+	<section id="mixins-background" class="section">
 		<div class="container">
 			<h2 class="section-title">Background<code>mixins/background.less</code></h2>
 			<?php include('includes/mixins-background.html'); ?>
@@ -1734,7 +1761,7 @@
 	</section>
 
 	<!-- Mixins Placeholder -->
-	<section id="placeholder" class="section">
+	<section id="mixins-placeholder" class="section">
 		<div class="container">
 			<h2 class="section-title">Placeholder<code>mixins/placeholder.less</code></h2>
 			<?php include('includes/mixins-placeholder.html'); ?>
@@ -1742,7 +1769,7 @@
 	</section>
 
 	<!-- Mixins Arrows -->
-	<section id="arrows" class="section">
+	<section id="mixins-arrows" class="section">
 		<div class="container">
 			<h2 class="section-title">Arrows<code>mixins/arrows.less</code></h2>
 			<div class="arrow-boxes">
@@ -1760,7 +1787,7 @@
 	</section>
 
 	<!-- Mixins Transitions -->
-	<section id="transitions" class="section">
+	<section id="mixins-transitions" class="section">
 		<div class="container">
 			<h2 class="section-title">Transitions<code>mixins/transitions.less</code></h2>
 			<?php include('includes/mixins-transitions.html'); ?>
@@ -1768,7 +1795,7 @@
 	</section>
 
 	<!-- Mixins Transforms -->
-	<section id="transforms" class="section">
+	<section id="mixins-transforms" class="section">
 		<div class="container">
 			<h2 class="section-title">Transforms<code>mixins/transforms.less</code></h2>
 			<?php include('includes/mixins-transforms.html'); ?>
@@ -1776,7 +1803,7 @@
 	</section>
 
 	<!-- Mixins Animations -->
-	<section id="animations" class="section">
+	<section id="mixins-animations" class="section">
 		<div class="container">
 			<h2 class="section-title">Animations<code>mixins/animations.less</code></h2>
 			<?php include('includes/mixins-animations.html'); ?>
@@ -1784,7 +1811,7 @@
 	</section>
 
 	<!-- Mixins Filters -->
-	<section id="filters" class="section">
+	<section id="mixins-filters" class="section">
 		<div class="container">
 			<h2 class="section-title">Filters<code>mixins/filters.less</code></h2>
 			<?php include('includes/mixins-filters.html'); ?>
@@ -1792,7 +1819,7 @@
 	</section>
 
 	<!-- Mixins Flexbox -->
-	<section id="flexbox" class="section">
+	<section id="mixins-flexbox" class="section">
 		<div class="container">
 			<h2 class="section-title">Flexbox<code>mixins/flexbox.less</code></h2>
 			<?php include('includes/mixins-flexbox.html'); ?>
