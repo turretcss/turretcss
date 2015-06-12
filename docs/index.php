@@ -665,18 +665,22 @@
 	<section id="gutter" class="section">
 		<div class="container">
 			<h2 class="section-title">Gutter<code>grid/gutter.less</code></h2>
-			<div class="grid">
-				<div class="row">
-					<div class="column-1 no-gutter"><div class="grid-item">No Gutter</div></div>
-					<div class="column-1 gutter-top"><div class="grid-item">Top Gutter</div></div>
-					<div class="column-1 gutter-left"><div class="grid-item">Left Gutter</div></div>
-					<div class="column-1 gutter-bottom"><div class="grid-item">Bottom Gutter</div></div>
-					<div class="column-1 gutter-right"><div class="grid-item">Right Gutter</div></div>
-				</div>
-			</div>
+			<h3 class="section-block-title">Gutters Classes</h3>
+			<div class="grid-item gutter-bottom">Gutter Bottom</div>
+			<div class="grid-item gutter-left">Gutter Left</div>
+			<div class="grid-item gutter-right">Gutter Right</div>
+			<div class="grid-item gutter-top">Gutter Top</div>
 			<?php definitions('grid/gutter'); ?>
 			<?php sample_code('gutters'); ?>
-			<h3 class="section-block-title">Responsive Gutters</h3>
+			<h3 class="section-block-title">No Gutter</h3>
+			<p>Add <code>no-gutter</code> utility class to remove default gutters applied to a container or columns.</p>
+			<div class="row">
+				<div class="column-1 no-gutter">
+					<div class="grid-item">No Gutter</div>
+				</div>
+			</div>
+			<?php markup('<div class="column-1 no-gutter">...</div>'); ?>
+			<h3 class="section-block-title">No Gutter Breakponts</h3>
 			<p>General <code>no-gutter</code> utility classes for each responsive breakpoint.</p>
 			<table class="table table-bordered table-block table-responsive">
 				<thead>
