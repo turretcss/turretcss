@@ -18,25 +18,21 @@ textarea {
 
 	// Input Error
 	&.error {
-		color: @input-error-color;
-		border-color: @input-error-color;
+		.input-indicator(@input-error-color);
 	}
 	
 	// Input Warning
 	&.warning {
-		color: @input-warning-color;
-		border-color: @input-warning-color;
+		.input-indicator(@input-warning-color);
 	}
 	
 	// Input Success
 	&.success {
-		color: @input-success-color;
-		border-color: @input-success-color;
+		.input-indicator(@input-success-color);
 	}
 	
 	// Input Info
 	&.info {
-		color: @input-info-color;
-		border-color: @input-info-color;
+		.input-indicator(@input-info-color);
 	}
 }

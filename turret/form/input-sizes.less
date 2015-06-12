@@ -32,42 +32,32 @@
  * Input Sizes
  */
 
-// Input Small
-.input-xsmall {
-	padding: @input-xsmall-padding;
-	height: @input-xsmall-height;
-	.font-size(@input-xsmall-font-size);
-	.placeholder(@input-placeholder-color, @input-xsmall-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-// Input Small
-.input-small {
-	padding: @input-small-padding;
-	height: @input-small-height;
-	.font-size(@input-small-font-size);
-	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
-}
-
-// Input Medium
-.input-medium {
-	padding: @input-medium-padding;
-	height: @input-medium-height;
-	.font-size(@input-medium-font-size);
-	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+// Input Extra Large
+.input-xlarge {
+	.input-size(@input-xlarge-padding, @input-xlarge-height, @input-xlarge-font-size);
+	.placeholder(@input-placeholder-color, @input-xlarge-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
 // Input Large
 .input-large {
-	padding: @input-large-padding;
-	height: @input-large-height;
-	.font-size(@input-large-font-size);
+	.input-size(@input-large-padding, @input-large-height, @input-large-font-size);
 	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 
-// Input Extra Large
-.input-xlarge {
-	padding: @input-xlarge-padding;
-	height: @input-xlarge-height;
-	.font-size(@input-xlarge-font-size);
-	.placeholder(@input-placeholder-color, @input-xlarge-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+// Input Medium
+.input-medium {
+	.input-size(@input-medium-padding, @input-medium-height, @input-medium-font-size);
+	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Small
+.input-small {
+	.input-size(@input-small-padding, @input-small-height, @input-small-font-size);
+	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Small
+.input-xsmall {
+	.input-size(@input-xsmall-padding, @input-xsmall-height, @input-xsmall-font-size);
+	.placeholder(@input-placeholder-color, @input-xsmall-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }

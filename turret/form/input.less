@@ -16,29 +16,30 @@
 @input-border-radius: @border-radius;
 
 // Input Focus
-@input-focus-border: 1px solid darken(@light-grey, 10%);
+@input-focus-color: @input-color;
 @input-focus-background: darken(@input-background, 2%);
+@input-focus-border: 1px solid darken(@light-grey, 10%);
 
 // Input Placeholder
-@input-placeholder-color: fade(@input-color, 50%);
-@input-placeholder-font-size: @input-font-size;
 @input-placeholder-font-family: @input-font-family;
+@input-placeholder-font-size: @input-font-size;
+@input-placeholder-color: fade(@input-color, 50%);
 @input-placeholder-line-height: @input-line-height;
 @input-placeholder-letter-spacing: 0px;
 @input-placeholder-text-transform: none;
 
 // Input Inverse
 @input-inverse-color: @white;
-@input-inverse-border: none;
 @input-inverse-background: @inverse;
+@input-inverse-border: none;
 @input-inverse-focus-color: @input-inverse-color;
-@input-inverse-focus-border: @input-inverse-border;
 @input-inverse-focus-background: darken(@input-inverse-background, 2%);
+@input-inverse-focus-border: @input-inverse-border;
 
 // Input Disabled
+@input-disabled-color: @light;
 @input-disabled-background: @light;
 @input-disabled-border: 1px solid darken(@light, 10%);
-@input-disabled-color: @light;
 
 // Input Search
 @input-search-border-radius: 20px;
@@ -54,27 +55,16 @@
 
 input,
 textarea {
-	display: block;
-	margin: @input-margin;
-	padding: @input-padding;
-	width: 100%;
-	height: @input-height;
-	font-family: @input-font-family;
-	font-weight: @input-font-weight;
-	.font-size(@input-font-size);
-	color: @input-color;
-	line-height: @input-line-height;
-	border: @input-border;
-	background: @input-background;
-	border-radius: @input-border-radius;
-	.transition(all @transition-fast ease-in-out);
-	.appearance(none);
-
-	// Remove Webkit Glow
-	outline: none;
+	.input();
 
 	// Override Normalise for Input Types
 	.box-sizing(border-box);
+
+	// Input Size
+	.input-size(@input-padding, @input-height, @input-font-size);
+
+	// Input Theme
+	.input-theme(@input-color, @input-background, @input-border, @input-focus-color, @input-focus-background, @input-focus-border);
 
 	// Input Placeholder
 	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
@@ -82,15 +72,7 @@ textarea {
 	// Input Disabled
 	&:disabled {
 		cursor: no-drop;
-		color: @input-disabled-color;
-		border: @input-disabled-border;
-		background: @input-disabled-background;
-	}
-	
-	// Input Focus
-	&:focus {
-		border: @input-focus-border;
-		background: @input-focus-background;
+		.input-styles(@input-disabled-color, @input-disabled-background, @input-disabled-border);
 	}
 }
 	
@@ -100,16 +82,12 @@ textarea {
 
 // Input Inverse
 .input-inverse {
-	color: @input-inverse-color;
-	border: @input-inverse-border;
-	background-color: @input-inverse-background;
-	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 
-	&:focus {
-		color: @input-inverse-focus-color;
-		border: @input-inverse-focus-border;
-		background: @input-inverse-focus-background;
-	}
+	// Input Inverse Theme
+	.input-theme(@input-inverse-color, @input-inverse-background, @input-inverse-border, @input-inverse-focus-color, @input-inverse-focus-background, @input-inverse-focus-border);
+
+	// Input Inverse Placeholder
+	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 }
 	
 /*
