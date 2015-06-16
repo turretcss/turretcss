@@ -40,6 +40,7 @@
 
 	// Negative margin for spacing, position for bringing hovered/focused/actived
 	// element above the siblings.
+	> button,
 	> .button {
 		position: relative;
 		height: @input-medium-height;
@@ -78,8 +79,8 @@
 		.border-radiuses(@input-search-border-radius, 0, @input-search-border-radius, 0);
 	}
 	
+	button,
 	.button {
-		padding-right: @input-search-border-radius;
 		.border-radiuses(0, @input-search-border-radius, 0, @input-search-border-radius);
 	}
 }
