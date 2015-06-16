@@ -60,8 +60,8 @@
 	background: transparent;
 	border: 1px solid @white;
 
-	&:hover,
-	&:focus {
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
 		color: @primary;
 		background: @white;
 		border: 1px solid @white;
@@ -70,8 +70,8 @@
 
 .home-button-secondary {
 
-	&:hover,
-	&:focus {
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
 		color: @secondary;
 	}
 }
