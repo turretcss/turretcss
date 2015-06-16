@@ -1,5 +1,5 @@
 {
-  "name": "@bigfishtv/turret",
+  "name": "bigfishtv-turret",
   "version": "v3.0.0-beta",
   "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
   "homepage": "http://turret.bigfish.tv",
