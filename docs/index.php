@@ -421,25 +421,25 @@
 						<td>xsmall</td>
 						<td>Phone</td>
 						<td class="is-null"></td>
-						<td>768px</td>
+						<td>767px</td>
 					</tr>
 					<tr>
 						<td>small</td>
 						<td>Tablet</td>
 						<td>768px</td>
-						<td>1024px</td>
+						<td>1023px</td>
 					</tr>
 					<tr>
 						<td>medium</td>
 						<td>Laptop</td>
 						<td>1024px</td>
-						<td>1280px</td>
+						<td>1279px</td>
 					</tr>
 					<tr>
 						<td>large</td>
 						<td>Desktop</td>
 						<td>1280px</td>
-						<td>1680px</td>
+						<td>1679px</td>
 					</tr>
 					<tr>
 						<td>xlarge</td>
@@ -693,10 +693,10 @@
 				<thead>
 					<tr>
 						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
+						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
+						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
+						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
 						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 					</tr>
 				</thead>
@@ -1343,10 +1343,10 @@
 				<thead>
 					<tr>
 						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
+						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
+						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
+						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
 						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 					</tr>
 				</thead>
@@ -1491,10 +1491,10 @@
 				<thead>
 					<tr>
 						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
+						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
+						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
+						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
 						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 					</tr>
 				</thead>
@@ -1595,10 +1595,10 @@
 				<thead>
 					<tr>
 						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<480px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (480px - 768px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (768px - 1024px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1024px - 1280px)</small></th>
+						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
+						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
+						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
+						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
 						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
 					</tr>
 				</thead>
