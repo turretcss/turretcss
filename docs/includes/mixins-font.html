@@ -7,10 +7,6 @@
 	</thead>
 	<tbody>
 		<tr>	
-			<td><code>.font-family(@font-family, @font-weight);</code></td>
-			<td>Quick utility to set <code>font-family</code> and <code>font-weight</code> values</td>
-		</tr>
-		<tr>	
 			<td><code>.thin-font();</code></td>
 			<td>Sets <code>font-family</code> and <code>font-weight</code> from values in <code>base/font.less</code></td>
 		</tr>
@@ -31,11 +27,19 @@
 			<td>Sets <code>font-family</code> and <code>font-weight</code> from values in <code>base/font.less</code></td>
 		</tr>
 		<tr>	
+			<td><code>.font-family(@font-family, @font-weight);</code></td>
+			<td>Quick utility to set <code>font-family</code> and <code>font-weight</code> values</td>
+		</tr>
+		<tr>	
 			<td><code>.font-face(@family, @weight: normal, @style: normal);</code></td>
 			<td>Import font using <code>@font-face</code></td>
 		</tr>
 		<tr>	
-			<td><code>.font-size(@size);</code></td>
+			<td><code>.font-size(@rem);</code></td>
+			<td>Appends <code>font-size</code> value with <code>rem</code></td>
+		</tr>
+		<tr>	
+			<td><code>.font-size-pixel(@rem);</code></td>
 			<td>Sets <code>font-size</code> using <code>rem</code> with <code>px</code> fallback</td>
 		</tr>
 	</tbody>

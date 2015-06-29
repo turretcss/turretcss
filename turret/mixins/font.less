@@ -45,11 +45,15 @@
 }
 
 //Font Size
-.font-size(@size) {
-	@remValue: @size;
-	@pxValue: (@size * 10);
-	font-size: ~"@{pxValue}px"; 
-	font-size: ~"@{remValue}rem";
+.font-size(@rem) {
+	font-size: ~"@{rem}rem";
+}
+
+//Font Size Pixels
+.font-size-pixel(@rem) {
+	@pixels: (@rem * 10);
+	font-size: ~"@{pixels}px"; 
+	font-size: ~"@{rem}rem";
 }
 
 //Truncate
