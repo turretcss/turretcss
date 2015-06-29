@@ -38,12 +38,12 @@ button,
 	.button();
 	.button-size(@button-padding, @button-height, @button-font-size);
 	.button-theme(@button-color, @button-background, @button-border, @button-hover-color, @button-hover-background, @button-hover-border);
+}
 
-	// Button Disabled
-	&:disabled {
-		cursor: no-drop;
-		opacity: @button-disabled-opacity;
-	}
+// Button Disabled
+button:disabled {
+	cursor: no-drop;
+	opacity: @button-disabled-opacity;
 }
 
 // iOS "clickable elements" fix for role="button"
