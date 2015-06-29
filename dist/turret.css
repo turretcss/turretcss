@@ -569,6 +569,7 @@ h4 small,
 h5 small,
 h6 small {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   font-size: 0.6em;
   color: #656d78;
 }
