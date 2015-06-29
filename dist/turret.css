@@ -560,7 +560,7 @@ h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #434a54;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 h1 small,
 h2 small,
@@ -573,27 +573,21 @@ h6 small {
   color: #656d78;
 }
 h1 {
-  font-size: 36px;
   font-size: 3.6rem;
 }
 h2 {
-  font-size: 28px;
   font-size: 2.8rem;
 }
 h3 {
-  font-size: 18px;
   font-size: 1.8rem;
 }
 h4 {
-  font-size: 16px;
   font-size: 1.6rem;
 }
 h5 {
-  font-size: 14px;
   font-size: 1.4rem;
 }
 h6 {
-  font-size: 12px;
   font-size: 1.2rem;
 }
 /*
@@ -606,7 +600,6 @@ p {
   margin: 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
   line-height: 1.35;
@@ -621,7 +614,6 @@ p {
   margin: 0px 0px 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
   font-size: 2rem;
   color: #434a54;
   line-height: 1.35;
@@ -672,7 +664,6 @@ blockquote p {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
   font-size: 2rem;
   font-style: normal;
   line-height: 1.35;
@@ -682,7 +673,6 @@ blockquote cite {
   display: block;
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   font-style: normal;
   color: #05bed5;
@@ -699,7 +689,6 @@ blockquote cite {
   padding: 0px 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
   font-size: 2rem;
   border: solid #05bed5;
   border-width: 0px 0px 0px 5px;
@@ -720,7 +709,6 @@ ol li {
   margin: 10px 0px 10px 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
 }
@@ -762,7 +750,6 @@ dt {
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
 }
@@ -770,7 +757,6 @@ dd {
   margin: 0px 0px 20px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
 }
@@ -782,8 +768,7 @@ dd {
  */
 code {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-weight: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-weight: normal;
   font-size: 1.2rem;
   color: #b2347e;
 }
@@ -826,8 +811,7 @@ kbd {
   margin: 0px 5px;
   padding: 4px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-weight: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-weight: normal;
   font-size: 1.2rem;
   color: #b2347e;
   background: #fcfcfe;
@@ -846,6 +830,23 @@ kbd {
   position: relative;
   margin: 0 auto;
   width: 100%;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
 }
 @media (min-width: 1680px) {
   .container {
@@ -5059,7 +5060,6 @@ label {
   margin: 15px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 13px;
   font-size: 1.3rem;
   color: #434a54;
   line-height: 1.35;
@@ -5079,7 +5079,6 @@ fieldset {
 fieldset legend {
   display: inline-block;
   padding: 10px;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #656d78;
 }
@@ -5093,7 +5092,6 @@ fieldset legend {
   margin: 15px 0px;
   font-size: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 12px;
   font-size: 1.2rem;
   color: #434a54;
   line-height: 1.35;
@@ -5120,32 +5118,35 @@ input,
 textarea {
   display: block;
   margin: 15px 0px;
-  padding: 0 16px;
   width: 100%;
-  height: 40px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #434a54;
   line-height: 1.35;
-  border: 1px solid #ccd1d9;
-  background: #ffffff;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  outline: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 1.6rem;
+  color: #434a54;
+  background: #ffffff;
+  border: 1px solid #ccd1d9;
+}
+input:focus,
+textarea:focus {
+  color: #434a54;
+  background: #fafafa;
+  border: 1px solid #afb7c3;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5160,7 +5161,6 @@ textarea:focus::-moz-placeholder {
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5175,7 +5175,6 @@ textarea:focus:-ms-input-placeholder {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5191,25 +5190,24 @@ input:disabled,
 textarea:disabled {
   cursor: no-drop;
   color: #e3e7ec;
-  border: 1px solid #c5cdd7;
   background: #e3e7ec;
-}
-input:focus,
-textarea:focus {
-  border: 1px solid #afb7c3;
-  background: #fafafa;
+  border: 1px solid #c5cdd7;
 }
 /*
  * Input Styles
  */
 .input-inverse {
   color: #ffffff;
+  background: #434a54;
   border: none;
-  background-color: #434a54;
+}
+.input-inverse:focus {
+  color: #ffffff;
+  background: #3e454e;
+  border: none;
 }
 .input-inverse::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #ffffff;
   letter-spacing: 0px;
@@ -5222,7 +5220,6 @@ textarea:focus {
 }
 .input-inverse:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #ffffff;
   letter-spacing: 0px;
@@ -5235,7 +5232,6 @@ textarea:focus {
 }
 .input-inverse::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #ffffff;
   letter-spacing: 0px;
@@ -5245,11 +5241,6 @@ textarea:focus {
 }
 .input-inverse:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
-}
-.input-inverse:focus {
-  color: #ffffff;
-  border: none;
-  background: #3e454e;
 }
 /*
  * Input Search
@@ -5341,195 +5332,13 @@ textarea.info {
 /*
  * Input Sizes
  */
-.input-xsmall {
-  padding: 0 8px;
-  height: 20px;
-  font-size: 10px;
-  font-size: 1rem;
-}
-.input-xsmall::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  font-size: 1rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-xsmall:focus::-moz-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-xsmall:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  font-size: 1rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-xsmall:focus:-ms-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-xsmall::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  font-size: 1rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-xsmall:focus::-webkit-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-small {
-  padding: 0 12px;
-  height: 30px;
-  font-size: 13px;
-  font-size: 1.3rem;
-}
-.input-small::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-size: 1.3rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus::-moz-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-small:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-size: 1.3rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus:-ms-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-small::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-size: 1.3rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-small:focus::-webkit-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-medium {
-  padding: 0 16px;
-  height: 40px;
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-.input-medium::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-medium:focus::-moz-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-medium:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-medium:focus:-ms-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-medium::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-medium:focus::-webkit-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-large {
-  padding: 0 25px;
-  height: 50px;
-  font-size: 18px;
-  font-size: 1.8rem;
-}
-.input-large::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-large:focus::-moz-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-large:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-large:focus:-ms-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
-.input-large::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  color: rgba(67, 74, 84, 0.5);
-  letter-spacing: 0px;
-  text-transform: none;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-.input-large:focus::-webkit-input-placeholder {
-  color: rgba(67, 74, 84, 0.25);
-}
 .input-xlarge {
   padding: 0 30px;
   height: 65px;
-  font-size: 24px;
   font-size: 2.4rem;
 }
 .input-xlarge::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
   font-size: 2.4rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5542,7 +5351,6 @@ textarea.info {
 }
 .input-xlarge:-ms-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
   font-size: 2.4rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5555,7 +5363,6 @@ textarea.info {
 }
 .input-xlarge::-webkit-input-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
   font-size: 2.4rem;
   color: rgba(67, 74, 84, 0.5);
   letter-spacing: 0px;
@@ -5564,6 +5371,170 @@ textarea.info {
   transition: color 0.2s ease-in-out;
 }
 .input-xlarge:focus::-webkit-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-large {
+  padding: 0 25px;
+  height: 50px;
+  font-size: 1.8rem;
+}
+.input-large::-moz-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-large:focus::-moz-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-large:-ms-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-large:focus:-ms-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-large::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-large:focus::-webkit-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-medium {
+  padding: 0 16px;
+  height: 40px;
+  font-size: 1.6rem;
+}
+.input-medium::-moz-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-medium:focus::-moz-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-medium:-ms-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-medium:focus:-ms-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-medium::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-medium:focus::-webkit-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-small {
+  padding: 0 12px;
+  height: 30px;
+  font-size: 1.3rem;
+}
+.input-small::-moz-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-small:focus::-moz-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-small:-ms-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-small:focus:-ms-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-small::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-small:focus::-webkit-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-xsmall {
+  padding: 0 8px;
+  height: 20px;
+  font-size: 1rem;
+}
+.input-xsmall::-moz-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-xsmall:focus::-moz-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-xsmall:-ms-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-xsmall:focus:-ms-input-placeholder {
+  color: rgba(67, 74, 84, 0.25);
+}
+.input-xsmall::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: rgba(67, 74, 84, 0.5);
+  letter-spacing: 0px;
+  text-transform: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.input-xsmall:focus::-webkit-input-placeholder {
   color: rgba(67, 74, 84, 0.25);
 }
 /*
@@ -5594,12 +5565,12 @@ textarea.info {
 }
 .input-group-button {
   position: relative;
-  font-size: 0px;
   font-size: 0rem;
   width: 1%;
   white-space: nowrap;
   vertical-align: middle;
 }
+.input-group-button > button,
 .input-group-button > .button {
   position: relative;
   height: 40px;
@@ -5607,11 +5578,15 @@ textarea.info {
   border-radius: 0 2px 2px 0;
   background-clip: padding-box;
 }
+.input-group-button > button + .button,
 .input-group-button > .button + .button {
   margin-left: -1px;
 }
+.input-group-button > button:hover,
 .input-group-button > .button:hover,
+.input-group-button > button:focus,
 .input-group-button > .button:focus,
+.input-group-button > button:active,
 .input-group-button > .button:active {
   z-index: 2;
 }
@@ -5630,8 +5605,8 @@ textarea.info {
   border-radius: 20px 0 0 20px;
   background-clip: padding-box;
 }
+.input-group-search button,
 .input-group-search .button {
-  padding-right: 20px;
   border-radius: 0 20px 20px 0;
   background-clip: padding-box;
 }
@@ -5643,7 +5618,6 @@ textarea.info {
   padding: 20px 30px;
   height: 65px;
   min-width: 65px;
-  font-size: 24px;
   font-size: 2.4rem;
 }
 .input-group-button-large > button,
@@ -5651,14 +5625,13 @@ textarea.info {
   padding: 15px 25px;
   height: 50px;
   min-width: 50px;
-  font-size: 18px;
   font-size: 1.8rem;
 }
 .input-group-button-medium > button,
 .input-group-button-medium > .button {
+  padding: 12px 16px;
   height: 40px;
   min-width: 40px;
-  font-size: 16px;
   font-size: 1.6rem;
 }
 .input-group-button-small > button,
@@ -5666,7 +5639,6 @@ textarea.info {
   padding: 8px 12px;
   height: 30px;
   min-width: 30px;
-  font-size: 13px;
   font-size: 1.3rem;
 }
 .input-group-button-xsmall > button,
@@ -5674,7 +5646,6 @@ textarea.info {
   padding: 4px 8px;
   height: 20px;
   min-width: 20px;
-  font-size: 10px;
   font-size: 1rem;
 }
 /*
@@ -5753,7 +5724,6 @@ textarea.info {
   display: block;
   margin: 0px 0px 0px 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
   font-size: 1.3rem;
   color: #434a54;
   line-height: 1.5;
@@ -5775,7 +5745,6 @@ select {
   position: relative;
   display: block;
   margin: 15px 0px;
-  color: #ffffff;
 }
 .select select {
   margin: 0;
@@ -5784,13 +5753,12 @@ select {
   line-height: 1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
-  background: #ffffff;
-  border: 1px solid #ccd1d9;
   cursor: pointer;
   outline: 0;
+  background: #ffffff;
+  border: 1px solid #ccd1d9;
   border-radius: 2px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -5822,7 +5790,7 @@ select {
 .select-inverse select {
   color: #ffffff;
   border: none;
-  background-color: #434a54;
+  background: #434a54;
 }
 .select-inverse:after {
   border-top: 5px solid #ffffff;
@@ -5874,35 +5842,30 @@ select {
 .select-xlarge select {
   padding: 0 30px;
   height: 65px;
-  font-size: 24px;
   font-size: 2.4rem;
   line-height: 65px;
 }
 .select-large select {
   padding: 0 25px;
   height: 50px;
-  font-size: 18px;
   font-size: 1.8rem;
   line-height: 50px;
 }
 .select-medium select {
   padding: 0 16px;
   height: 40px;
-  font-size: 16px;
   font-size: 1.6rem;
   line-height: 40px;
 }
 .select-small select {
   padding: 0 12px;
   height: 30px;
-  font-size: 13px;
   font-size: 1.3rem;
   line-height: 30px;
 }
 .select-xsmall select {
   padding: 0 8px;
   height: 20px;
-  font-size: 10px;
   font-size: 1rem;
   line-height: 20px;
 }
@@ -5918,28 +5881,83 @@ select {
 button,
 .button {
   display: inline-block;
-  padding: 12px 16px;
-  height: 40px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  font-size: 1.4rem;
   line-height: 1;
-  color: #434a54;
   text-align: center;
   text-transform: none;
   white-space: nowrap;
   cursor: pointer;
-  background: #e3e7ec;
-  border: 1px solid #ccd1d9;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  padding: 12px 16px;
+  height: 40px;
+  font-size: 1.4rem;
+  color: #434a54;
+  background: #e3e7ec;
+  border: 1px solid #ccd1d9;
 }
-button:hover,
-.button:hover,
-button:focus,
-.button:focus {
+button.error,
+.button.error {
+  color: #ffffff;
+  background: #e01a2e;
+  border: 1px solid #c91729;
+}
+button.error:not(:disabled):hover,
+.button.error:not(:disabled):hover,
+button.error:not(:disabled):focus,
+.button.error:not(:disabled):focus {
+  color: #ffffff;
+  background: #b21525;
+  border: 1px solid #9b1220;
+}
+button.warning,
+.button.warning {
+  color: #ffffff;
+  background: #ffc200;
+  border: 1px solid #e6af00;
+}
+button.warning:not(:disabled):hover,
+.button.warning:not(:disabled):hover,
+button.warning:not(:disabled):focus,
+.button.warning:not(:disabled):focus {
+  color: #ffffff;
+  background: #cc9b00;
+  border: 1px solid #b38800;
+}
+button.success,
+.button.success {
+  color: #ffffff;
+  background: #05be55;
+  border: 1px solid #04a54a;
+}
+button.success:not(:disabled):hover,
+.button.success:not(:disabled):hover,
+button.success:not(:disabled):focus,
+.button.success:not(:disabled):focus {
+  color: #ffffff;
+  background: #048c3f;
+  border: 1px solid #037334;
+}
+button.info,
+.button.info {
+  color: #ffffff;
+  background: #149cfd;
+  border: 1px solid #0290f5;
+}
+button.info:not(:disabled):hover,
+.button.info:not(:disabled):hover,
+button.info:not(:disabled):focus,
+.button.info:not(:disabled):focus {
+  color: #ffffff;
+  background: #0281dc;
+  border: 1px solid #0272c3;
+}
+button:not(:disabled):hover,
+.button:not(:disabled):hover,
+button:not(:disabled):focus,
+.button:not(:disabled):focus {
   color: #434a54;
   background: #c5cdd7;
   border: 1px solid #afb7c3;
@@ -5949,12 +5967,6 @@ button:disabled,
   cursor: no-drop;
   opacity: 0.5;
 }
-button:disabled:hover,
-.button:disabled:hover,
-button:disabled:focus,
-.button:disabled:focus {
-  opacity: 0.5;
-}
 [role="button"] {
   cursor: pointer;
 }
@@ -5962,13 +5974,13 @@ button:disabled:focus,
  * Button Modifiers
  */
 .button-block {
+  display: block;
   width: 100%;
   text-align: center;
-  display: block;
 }
 .button-center {
-  margin: 0 auto;
   display: inline-block;
+  margin: 0 auto;
 }
 /*
  * Definitions
@@ -5981,28 +5993,30 @@ button:disabled:focus,
   background: #434a54;
   border: 1px solid #383e46;
 }
-.button-inverse:hover,
-.button-inverse:focus {
+.button-inverse:not(:disabled):hover,
+.button-inverse:not(:disabled):focus {
   color: #e3e7ec;
   background: #2c3138;
   border: 1px solid #212529;
 }
 .button-text {
   color: #434a54;
-  background: transparent !important;
-  border: none !important;
+  background: transparent;
+  border: none;
 }
-.button-text:hover,
-.button-text:focus {
+.button-text:not(:disabled):hover,
+.button-text:not(:disabled):focus {
   color: #05bed5;
+  background: transparent;
+  border: none;
 }
 .button-primary {
   color: #ffffff;
   background: #05bed5;
   border: 1px solid #04a8bc;
 }
-.button-primary:hover,
-.button-primary:focus {
+.button-primary:not(:disabled):hover,
+.button-primary:not(:disabled):focus {
   color: #ffffff;
   background: #0492a3;
   border: 1px solid #037b8a;
@@ -6012,8 +6026,8 @@ button:disabled:focus,
   background: #8d48ab;
   border: 1px solid #7e4099;
 }
-.button-secondary:hover,
-.button-secondary:focus {
+.button-secondary:not(:disabled):hover,
+.button-secondary:not(:disabled):focus {
   color: #ffffff;
   background: #6f3987;
   border: 1px solid #613175;
@@ -6023,8 +6037,8 @@ button:disabled:focus,
   background: #b2347e;
   border: 1px solid #9e2e70;
 }
-.button-tertiary:hover,
-.button-tertiary:focus {
+.button-tertiary:not(:disabled):hover,
+.button-tertiary:not(:disabled):focus {
   color: #ffffff;
   background: #8b2862;
   border: 1px solid #9e2e70;
@@ -6034,11 +6048,11 @@ button:disabled:focus,
   background: transparent;
   border: 1px solid #434a54;
 }
-.button-border:hover,
-.button-border:focus {
+.button-border:not(:disabled):hover,
+.button-border:not(:disabled):focus {
   color: #ffffff;
-  border: 1px solid #434a54;
   background: #434a54;
+  border: 1px solid #434a54;
 }
 /*
  * Definitions
@@ -6052,10 +6066,10 @@ button.error,
   background: #e01a2e;
   border: 1px solid #c91729;
 }
-button.error:hover,
-.button.error:hover,
-button.error:focus,
-.button.error:focus {
+button.error:not(:disabled):hover,
+.button.error:not(:disabled):hover,
+button.error:not(:disabled):focus,
+.button.error:not(:disabled):focus {
   color: #ffffff;
   background: #b21525;
   border: 1px solid #9b1220;
@@ -6066,10 +6080,10 @@ button.warning,
   background: #ffc200;
   border: 1px solid #e6af00;
 }
-button.warning:hover,
-.button.warning:hover,
-button.warning:focus,
-.button.warning:focus {
+button.warning:not(:disabled):hover,
+.button.warning:not(:disabled):hover,
+button.warning:not(:disabled):focus,
+.button.warning:not(:disabled):focus {
   color: #ffffff;
   background: #cc9b00;
   border: 1px solid #b38800;
@@ -6080,10 +6094,10 @@ button.success,
   background: #05be55;
   border: 1px solid #04a54a;
 }
-button.success:hover,
-.button.success:hover,
-button.success:focus,
-.button.success:focus {
+button.success:not(:disabled):hover,
+.button.success:not(:disabled):hover,
+button.success:not(:disabled):focus,
+.button.success:not(:disabled):focus {
   color: #ffffff;
   background: #048c3f;
   border: 1px solid #037334;
@@ -6094,10 +6108,10 @@ button.info,
   background: #149cfd;
   border: 1px solid #0290f5;
 }
-button.info:hover,
-.button.info:hover,
-button.info:focus,
-.button.info:focus {
+button.info:not(:disabled):hover,
+.button.info:not(:disabled):hover,
+button.info:not(:disabled):focus,
+.button.info:not(:disabled):focus {
   color: #ffffff;
   background: #0281dc;
   border: 1px solid #0272c3;
@@ -6108,35 +6122,30 @@ button.info:focus,
 /*
  * Button Sizes
  */
-.button-xsmall {
-  padding: 4px 8px;
-  height: 20px;
-  font-size: 10px;
-  font-size: 1rem;
-}
-.button-small {
-  padding: 8px 12px;
-  height: 30px;
-  font-size: 13px;
-  font-size: 1.3rem;
-}
-.button-medium {
-  padding: 12px 16px;
-  height: 40px;
-  font-size: 14px;
-  font-size: 1.4rem;
+.button-xlarge {
+  padding: 20px 30px;
+  height: 65px;
+  font-size: 2.4rem;
 }
 .button-large {
   padding: 15px 25px;
   height: 50px;
-  font-size: 18px;
   font-size: 1.8rem;
 }
-.button-xlarge {
-  padding: 20px 30px;
-  height: 65px;
-  font-size: 24px;
-  font-size: 2.4rem;
+.button-medium {
+  padding: 12px 16px;
+  height: 40px;
+  font-size: 1.4rem;
+}
+.button-small {
+  padding: 8px 12px;
+  height: 30px;
+  font-size: 1.3rem;
+}
+.button-xsmall {
+  padding: 4px 8px;
+  height: 20px;
+  font-size: 1rem;
 }
 /*
  * Button Group
@@ -6235,7 +6244,6 @@ figcaption {
   margin: 10px 0px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
   text-align: center;
@@ -6327,9 +6335,9 @@ table {
 }
 table caption {
   margin: 5px 10px;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-size: 1.6rem;
   color: #434a54;
   text-align: left;
 }
@@ -6337,7 +6345,6 @@ th {
   padding: 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: 16px;
   font-size: 1.6rem;
   color: #434a54;
   text-align: left;
@@ -6345,7 +6352,8 @@ th {
 }
 td {
   padding: 10px;
-  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 1.6rem;
   color: #434a54;
   line-height: 1.35;
@@ -6431,23 +6439,18 @@ td {
  * Font Size
  */
 .font-size-xlarge {
-  font-size: 24px;
   font-size: 2.4rem;
 }
 .font-size-large {
-  font-size: 18px;
   font-size: 1.8rem;
 }
 .font-size-medium {
-  font-size: 16px;
   font-size: 1.6rem;
 }
 .font-size-small {
-  font-size: 13px;
   font-size: 1.3rem;
 }
 .font-size-xsmall {
-  font-size: 10px;
   font-size: 1rem;
 }
 /*
@@ -7016,6 +7019,15 @@ td {
  */
 /*
  * General Mixins
+ */
+/*
+ * Button
+ */
+/*
+ * Input
+ */
+/*
+ * Select
  */
 /*
  * Typography
