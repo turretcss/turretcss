@@ -5962,8 +5962,7 @@ button:not(:disabled):focus,
   background: #c5cdd7;
   border: 1px solid #afb7c3;
 }
-button:disabled,
-.button:disabled {
+button:disabled {
   cursor: no-drop;
   opacity: 0.5;
 }
