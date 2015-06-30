@@ -24,7 +24,7 @@
 	<section id="getting-started" class="section section-header">
 		<div class="container">
 			<h1 class="title">Getting Started</h1>
-			<p class="lead">A introduction to Turret, how to get started, how to download and use.</p>
+			<p class="lead">A introduction to how to get started, download and use Turret including usage and examples.</p>
 		</div>
 	</section>
 	
@@ -55,7 +55,8 @@
 		<div class="container">
 			<h2 class="section-title">Structure</h2>
 			<h3 class="section-block-title">Selectors</h3>
-			<?php markup('<div class="[element] [element-behaviour] [element-style]">...</div>'); ?>
+			<p>Where styles are applied on HTML elements with classes, the structuring of classes is element, modifier, style. For example the <code>.button</code> class can extended to <code>button button-block button-primary</code>.</p>
+			<?php markup('<element class="[element] [element-modifier] [element-style]">...</element>'); ?>
 			<h3 class="section-block-title">Viewport</h3>
 			<p>To ensure proper rendering and touch zooming, add the viewport meta tag to your <?php code('<head>'); ?>.</p>
 			<?php markup('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'); ?>
@@ -284,7 +285,7 @@
 	<section id="base" class="section section-header">
 		<div class="container">
 			<h1 class="title">Base</h1>
-			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, amd media queries. Turret base styles for body, images, typography, basic generic typographic styles and responsive text scaling behaviour.</p>
+			<p class="lead">An overview of Turret and basic styling behaviours including color palettes, text colors, breakpoints and media queries. Includes base styles for body, images, typography, basic generic font styles, and responsive text scaling behaviours.</p>
 		</div>
 	</section>
 
@@ -473,7 +474,7 @@
 	<section id="typography" class="section section-header">
 		<div class="container">
 			<h1 class="title">Typography</h1>
-			<p class="lead">.</div>
+			<p class="lead">A guide to the use of Turret style definitions with typographic tags including headings, paragraphs, blockquotes, strong, emphasis, list and code HTML5 elements.</div>
 		</div>
 	</section>
 
@@ -644,7 +645,7 @@
 	<section id="grid" class="section section-header">
 		<div class="container">
 			<h1 class="title">Grid</h1>
-			<p class="lead">A demonstration of the 12 column grid system with columns, nested columns, offsets, and push/pull examples.</p>
+			<p class="lead">An outline of the Turret grid system using containers, rows and gutters. Includes a demonstration of the 12 column grid system with columns, nested columns, offsets, and push/pull examples.</p>
 		</div>
 	</section>
 
@@ -832,7 +833,7 @@
 	<section id="form" class="section section-header">
 		<div class="container">
 			<h1 class="title">Form</h1>
-			<p class="lead">A collection of form elements including inputs, input-groups, radio and checkbox controls, and selects.</p>
+			<p class="lead">A guide to Turret's default styling of form elements including examples of input types and sizes, input-groups, radio and checkbox controls, and selects.</p>
 		</div>
 	</section>
 
@@ -983,7 +984,7 @@
 	<section id="elements" class="section section-header">
 		<div class="container">
 			<h1 class="title">Elements</h1>
-			<p class="lead">Set of elements including buttons, button-groups, figure, media, nav, and tables.</p>	
+			<p class="lead">A guide to the use of HTML elements and Turret's default styling definitions. Includes buttons, button syles and sizes, button-groups, figure, media, nav, and tables.</p>	
 		</div>
 	</section>
 
@@ -1134,7 +1135,7 @@
 	<section id="utilities" class="section section-header">
 		<div class="container">
 			<h1 class="title">Utilities</h1>
-			<p class="lead">Utility classes and mixins for normalisation and rapid frontend development.</p>
+			<p class="lead">Utility classes for typographic styles, display, positioning, floats and visibility of elements for rapid frontend development.</p>
 		</div>
 	</section>
 	
@@ -1700,7 +1701,7 @@
 	<section id="mixins" class="section section-header">
 		<div class="container">
 			<h1 class="title">Mixins</h1>
-			<p class="lead">...</p>
+			<p class="lead">Turrets set of mixins for simple & maintainable Less styles, as well as a collection of mixins for cross browser compatability of CSS3 properties</p>
 		</div>
 	</section>
 
@@ -1830,7 +1831,7 @@
 	<section id="support" class="section section-header">
 		<div class="container">
 			<h1 class="title">Support</h1>
-			<p class="lead">Outlines for Browser Support for CSS3 features.</p>
+			<p class="lead">An outline Browser Support of CSS3 features and workarounds for non-modern browsing technologies.</p>
 		</div>		
 	</section>
 	
@@ -1891,7 +1892,7 @@
 	<section id="accessibility" class="section section-header">
 		<div class="container">
 			<h1 class="title">Accessibility</h1>
-			<p class="lead">Guide for using ARIA role attributes on elements for accessibility.</p>
+			<p class="lead">Web accessibility screen reader helper classes and a guide for using ARIA role attributes on elements for accessibility.</p>
 		</div>
 	</section>
 
