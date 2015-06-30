@@ -77,5 +77,6 @@
 <section class="home-section text-center background-secondary">
 	<a class="button button-large home-button home-button-secondary" href="docs">Get started</a>
 </section>
+
 <?php include_once('docs/includes/footer.html'); ?>
 <?php include_once('docs/includes/end.html'); ?>

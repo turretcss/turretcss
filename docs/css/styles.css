@@ -570,6 +570,7 @@ h4 small,
 h5 small,
 h6 small {
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   font-size: 0.6em;
   color: #656d78;
 }
@@ -7269,6 +7270,19 @@ td {
     -ms-transform: translateX(270px);
     transform: translateX(270px);
   }
+}
+.content .footer {
+  background: #f2f4f6;
+}
+.content .footer a:hover,
+.content .footer a:focus {
+  color: #434a54;
+}
+.content .footer p {
+  color: #434a54;
+}
+.content .footer nav ul li {
+  color: #434a54;
 }
 /*
  * Section
