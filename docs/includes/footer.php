@@ -9,7 +9,7 @@
 			<li><a href="https://twitter.com/bigfishtvturret">Twitter</a></li>
 			<li><a href="https://github.com/bigfishtv/turret">GitHub</a></li>
 			<li><a href="/docs/#examples">Examples</a></li>
-			<li><a href="/2.0.12/">v2.0.12 Docs</a></li>
+			<li><a href="https://bigfishtv.github.io/turret/2.0.12/">v2.0.12 Docs</a></li>
 			<li><a href="https://github.com/bigfishtv/turret/issues">Issues</a></li>
 			<li><a href="https://github.com/bigfishtv/turret/releases">Releases</a></li>
 		</ul>
