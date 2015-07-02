@@ -6237,7 +6237,7 @@ button.info:not(:disabled):focus,
  */
 figure {
   margin: 0;
-  padding: 30px;
+  padding: 10px;
   border: 1px solid #ccd1d9;
 }
 figcaption {
