@@ -14,7 +14,7 @@ There are three quick start ways to download Turret available:
 
 ## Documentation
 
-View full documentation at: <http://turret.bigfish.tv/docs/>
+View full documentation at: <http://bigfishtv.github.io/turret/>
 
 
 ## Updates
