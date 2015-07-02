@@ -5,7 +5,7 @@
 	</p>
 	<nav class="nav nav-inline">
 		<ul>
-			<li>v3.0.0</li>
+			<li>v<?= VERSION ?></li>
 			<li><a href="https://twitter.com/bigfishtvturret">Twitter</a></li>
 			<li><a href="https://github.com/bigfishtv/turret">GitHub</a></li>
 			<li><a href="/docs/#examples">Examples</a></li>

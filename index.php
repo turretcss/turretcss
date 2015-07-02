@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include_once('docs/config.php');
 	include_once('docs/functions.php');
 	include_once('docs/includes/head.html');
@@ -11,9 +11,9 @@
 		</svg>
 		<h1 class="home-header-title">Turret</h1>
 		<p class="home-header-lead lead">Turret is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
-		<a class="button button-large home-button" href="docs">Documentation</a>
+		<a class="button button-large home-button" href="/docs/">Documentation</a>
 		<a class="button button-large home-button" href="https://github.com/bigfishtv/turret">Github</a>
-		<p class="text-white"><strong>v3.0.0</strong></p>
+		<p class="text-white"><strong>v<?= VERSION ?></strong></p>
 	</div>
 </header>
 
@@ -53,7 +53,7 @@
 			</div>
 			<div class="column-1-2 column-pull-1-2">
 				<h2>Simply Styles<br><small>No Javascript just Less and CSS</small></h2>
-				<p>Turret is Less framework for styling native web elements. That's about it, no javascript, no custom markup, just semantic HTML5 elements.</p>
+				<p>Turret is a Less framework for styling native web elements. That's about it, no javascript, no custom markup, just semantic HTML5 elements.</p>
 				<a class="button button-primary" href="/docs/#elements">Play with styled elements</a>
 			</div>
 		</div>
@@ -76,9 +76,9 @@
 <section class="home-section">
 	<div class="container">
 		<p class="lead">Want to make responsive & accessible websites?</p>
-		<a class="button button-large home-button home-button-secondary" href="docs">Get started</a>
+		<a class="button button-large home-button home-button-secondary" href="/docs/">Get started</a>
 	</div>
 </section>
 
-<?php include_once('docs/includes/footer.html'); ?>
+<?php include_once('docs/includes/footer.php'); ?>
 <?php include_once('docs/includes/end.html'); ?>

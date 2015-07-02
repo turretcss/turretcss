@@ -5,7 +5,7 @@
  ?>
 
 <aside id="sidebar" class="sidebar">
-	<h3 class="sidebar-title"><a href="/">Turret</a><code>v3.0.0</code></h3>
+	<h3 class="sidebar-title"><a href="/">Turret</a><code>v<?= VERSION ?></code></h3>
 	<?php include('includes/navigation.html'); ?>
 </aside>
 
@@ -1983,7 +1983,7 @@
 		</div>
 	</section>
 
-	<?php include_once('includes/footer.html'); ?>
+	<?php include_once('includes/footer.php'); ?>
 
 </main>
 
