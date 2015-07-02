@@ -13,7 +13,7 @@
 		<p class="home-header-lead lead">Turret is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
 		<a class="button button-large home-button" href="/docs/">Documentation</a>
 		<a class="button button-large home-button" href="https://github.com/bigfishtv/turret">Github</a>
-		<p class="text-white"><strong>v<?= VERSION ?></strong></p>
+		<p class="text-white"><strong><?= VERSION ?></strong></p>
 	</div>
 </header>
 

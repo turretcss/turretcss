@@ -5,7 +5,7 @@
  ?>
 
 <aside id="sidebar" class="sidebar">
-	<h3 class="sidebar-title"><a href="/">Turret</a><code>v<?= VERSION ?></code></h3>
+	<h3 class="sidebar-title"><a href="/">Turret</a><code><?= VERSION ?></code></h3>
 	<?php include('includes/navigation.html'); ?>
 </aside>
 
