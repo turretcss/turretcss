@@ -1708,7 +1708,7 @@
 	<!-- Mixins General -->
 	<section id="mixins-general" class="section">
 		<div class="container">
-			<h2 class="section-title">General<code>mixins/general.less</code></h2>
+			<h2 class="section-title">General<code>mixins/mixins.less</code></h2>
 			<?php include('includes/mixins-general.html'); ?>
 		</div>
 	</section>
