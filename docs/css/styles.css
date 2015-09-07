@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
 /*!
- * Turret v3.0.0
+ * Turret v3.1.0
  * http://turret.bigfish.tv
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Copyright 2014 Bigfish
+ * Copyright 2015 Bigfish
  * http://www.bigfish.tv
  */
 /*
@@ -5897,7 +5897,7 @@ button,
   height: 40px;
   font-size: 1.4rem;
   color: #434a54;
-  background: #e3e7ec;
+  background: #ffffff;
   border: 1px solid #ccd1d9;
 }
 button.error,
@@ -5961,7 +5961,7 @@ button:not(:disabled):hover,
 button:not(:disabled):focus,
 .button:not(:disabled):focus {
   color: #434a54;
-  background: #c5cdd7;
+  background: #e6e6e6;
   border: 1px solid #afb7c3;
 }
 button:disabled {
