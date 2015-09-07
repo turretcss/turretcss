@@ -7176,7 +7176,8 @@ td {
   float: left;
   width: 270px;
   height: 100%;
-  background: #434a54;
+  background: #ffffff;
+  border-right: 1px solid #e3e7ec;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -7205,7 +7206,7 @@ td {
 .sidebar-title code {
   margin-left: 5px;
   font-size: 9px;
-  color: #ccd1d9;
+  color: #656d78;
   vertical-align: baseline;
   text-transform: none;
   letter-spacing: 0;
@@ -7259,7 +7260,7 @@ td {
   font-weight: 600;
   font-style: normal;
   font-size: 1.6rem;
-  color: #ffffff;
+  color: #434a54;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
