@@ -1475,6 +1475,14 @@
 						<td>Shows element <code>.show();</code> mixin</td>
 					</tr>
 					<tr>	
+						<td><code>hide-text</code></td>
+						<td>Hides text <code>.hide-text();</code> mixin</td>
+					</tr>
+					<tr>	
+						<td><code>hide-visually</code></td>
+						<td>Hide element but keep in DOM for Screen Readers <code>.hide-visually();</code> mixin</td>
+					</tr>
+					<tr>	
 						<td><code>visible</code></td>
 						<td>Sets <code>visibility: visible;</code></td>
 					</tr>
