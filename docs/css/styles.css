@@ -6579,6 +6579,27 @@ td {
   color: #e3e7ec !important;
 }
 /*
+ * Definitions
+ */
+/*
+ * Max Width
+ */
+.max-width-xsmall {
+  max-width: 450px;
+}
+.max-width-small {
+  max-width: 600px;
+}
+.max-width-medium {
+  max-width: 800px;
+}
+.max-width-large {
+  max-width: 1024px;
+}
+.max-width-xlarge {
+  max-width: 1280px;
+}
+/*
  * Display
  */
 .display-block {
