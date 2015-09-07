@@ -6237,6 +6237,7 @@ button.info:not(:disabled):focus,
  * Figure
  */
 figure {
+  display: block;
   margin: 0;
   padding: 10px;
   border: 1px solid #ccd1d9;
