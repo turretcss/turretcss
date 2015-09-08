@@ -1251,6 +1251,22 @@
 		</div>
 	</section>
 
+	<!-- Margin -->
+	<section id="margin" class="section">
+		<div class="container">
+			<h2 class="section-title">Margin<code>utilities/margin.less</code></h2>
+			<?php include('includes/utilities/table-margin.html'); ?>
+		</div>
+	</section>
+
+	<!-- Padding -->
+	<section id="padding" class="section">
+		<div class="container">
+			<h2 class="section-title">Padding<code>utilities/padding.less</code></h2>
+			<?php include('includes/utilities/table-padding.html'); ?>
+		</div>
+	</section>
+
 	<!-- Font Family -->
 	<section id="font-family" class="section">
 		<div class="container">
