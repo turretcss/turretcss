@@ -311,6 +311,9 @@
 			<h3 class="section-block-title">Padding</h3>
 			<p>Padding sizes, both vertical and horizontal for buttons, inputs, input-groups, selects etc.</p>
 			<?php definitions('base/global/padding'); ?>
+			<h3 class="section-block-title">Max Width</h3>
+			<p>Max Width Sizes.</p>
+			<?php definitions('base/global/max-width'); ?>
 		</div>
 	</section>
 
@@ -1259,7 +1262,6 @@
 			<p class="max-width-medium">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
 			<p class="max-width-small">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
 			<p class="max-width-xsmall">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<?php definitions('utilities/max-width'); ?>
 			<?php sample_code('max-width'); ?>
 		</div>
 	</section>
