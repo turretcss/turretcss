@@ -684,10 +684,18 @@
 		<div class="container">
 			<h2 class="section-title">Gutter<code>grid/gutter.less</code></h2>
 			<h3 class="section-block-title">Gutters Classes</h3>
-			<div class="grid-item gutter-bottom">Gutter Bottom</div>
-			<div class="grid-item gutter-left">Gutter Left</div>
-			<div class="grid-item gutter-right">Gutter Right</div>
-			<div class="grid-item gutter-top">Gutter Top</div>
+			<div class="gutter-bottom">
+				<div class="grid-item">Gutter Bottom</div>
+			</div>
+			<div class="gutter-left">
+				<div class="grid-item">Gutter Left</div>
+			</div>
+			<div class="gutter-right">
+				<div class="grid-item">Gutter Right</div>
+			</div>
+			<div class="gutter-top">
+				<div class="grid-item">Gutter Top</div>
+			</div>
 			<?php definitions('grid/gutter'); ?>
 			<?php sample_code('gutters'); ?>
 			<h3 class="section-block-title">No Gutter</h3>

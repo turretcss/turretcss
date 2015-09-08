@@ -970,109 +970,103 @@ kbd {
  * Gutter
  */
 .no-gutter {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding: 0 !important;
 }
 .gutter-top {
-  margin-top: 30px !important;
+  padding-top: 15px !important;
 }
 .gutter-bottom {
-  margin-bottom: 30px !important;
+  padding-bottom: 15px !important;
 }
 .gutter-left {
-  margin-left: 30px !important;
+  padding-left: 15px !important;
 }
 .gutter-right {
-  margin-right: 30px !important;
+  padding-right: 15px !important;
 }
 @media (min-width: 1680px) {
   .no-gutter-xlarge {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
   }
-  .gutter-top-xlarge {
-    margin-top: 30px !important;
+  .gutter-top {
+    padding-top: 15px !important;
   }
-  .gutter-bottom-xlarge {
-    margin-bottom: 30px !important;
+  .gutter-bottom {
+    padding-bottom: 15px !important;
   }
-  .gutter-left-xlarge {
-    margin-left: 30px !important;
+  .gutter-left {
+    padding-left: 15px !important;
   }
-  .gutter-right-xlarge {
-    margin-right: 30px !important;
+  .gutter-right {
+    padding-right: 15px !important;
   }
 }
 @media (min-width: 1280px) and (max-width: 1679px) {
   .no-gutter-large {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
   }
-  .gutter-top-large {
-    margin-top: 30px !important;
+  .gutter-top {
+    padding-top: 15px !important;
   }
-  .gutter-bottom-large {
-    margin-bottom: 30px !important;
+  .gutter-bottom {
+    padding-bottom: 15px !important;
   }
-  .gutter-left-large {
-    margin-left: 30px !important;
+  .gutter-left {
+    padding-left: 15px !important;
   }
-  .gutter-right-large {
-    margin-right: 30px !important;
+  .gutter-right {
+    padding-right: 15px !important;
   }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
   .no-gutter-medium {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
   }
-  .gutter-top-medium {
-    margin-top: 30px !important;
+  .gutter-top {
+    padding-top: 15px !important;
   }
-  .gutter-bottom-medium {
-    margin-bottom: 30px !important;
+  .gutter-bottom {
+    padding-bottom: 15px !important;
   }
-  .gutter-left-medium {
-    margin-left: 30px !important;
+  .gutter-left {
+    padding-left: 15px !important;
   }
-  .gutter-right-medium {
-    margin-right: 30px !important;
+  .gutter-right {
+    padding-right: 15px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .no-gutter-small {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
   }
-  .gutter-top-small {
-    margin-top: 30px !important;
+  .gutter-top {
+    padding-top: 15px !important;
   }
-  .gutter-bottom-small {
-    margin-bottom: 30px !important;
+  .gutter-bottom {
+    padding-bottom: 15px !important;
   }
-  .gutter-left-small {
-    margin-left: 30px !important;
+  .gutter-left {
+    padding-left: 15px !important;
   }
-  .gutter-right-small {
-    margin-right: 30px !important;
+  .gutter-right {
+    padding-right: 15px !important;
   }
 }
 @media (max-width: 767px) {
   .no-gutter-xsmall {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
   }
-  .gutter-top-xsmall {
-    margin-top: 30px !important;
+  .gutter-top {
+    padding-top: 15px !important;
   }
-  .gutter-bottom-xsmall {
-    margin-bottom: 30px !important;
+  .gutter-bottom {
+    padding-bottom: 15px !important;
   }
-  .gutter-left-xsmall {
-    margin-left: 30px !important;
+  .gutter-left {
+    padding-left: 15px !important;
   }
-  .gutter-right-xsmall {
-    margin-right: 30px !important;
+  .gutter-right {
+    padding-right: 15px !important;
   }
 }
 /*
