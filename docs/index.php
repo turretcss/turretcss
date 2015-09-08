@@ -189,14 +189,18 @@
 						<li>utilities/
 							<ul>
 								<li><code>utility-classes.less</code></li>
-								<li><code>font-size.less</code></li>
-								<li><code>font-family.less</code></li>
-								<li><code>text.less</code></li>
-								<li><code>text-color.less</code></li>
+								<li><code>visiblity.less</code></li>
 								<li><code>display.less</code></li>
 								<li><code>positioning.less</code></li>
 								<li><code>float.less</code></li>
-								<li><code>visiblity.less</code></li>
+								<li><code>max-width.less</code></li>
+								<li><code>margin.less</code></li>
+								<li><code>padding.less</code></li>
+								<li><code>font-family.less</code></li>
+								<li><code>font-size.less</code></li>
+								<li><code>text.less</code></li>
+								<li><code>text-color.less</code></li>
+								<li><code>background.less</code></li>
 							</ul>
 						</li>
 						<li>mixins/
@@ -308,9 +312,15 @@
 			<h3 class="section-block-title">Height</h3>
 			<p>Height sizes for buttons, inputs, input-groups, selects etc.</p>
 			<?php definitions('base/global/height'); ?>
+			<h3 class="section-block-title">Margin</h3>
+			<p>Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
+			<?php definitions('base/global/margin'); ?>
 			<h3 class="section-block-title">Padding</h3>
-			<p>Padding sizes, both vertical and horizontal for buttons, inputs, input-groups, selects etc.</p>
+			<p>Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
 			<?php definitions('base/global/padding'); ?>
+			<h3 class="section-block-title">Max Width</h3>
+			<p>Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
+			<?php definitions('base/global/max-width'); ?>
 		</div>
 	</section>
 
@@ -1189,16 +1199,77 @@
 			</table>
 		</div>
 	</section>
-
-	<!-- Font Size -->
-	<section id="font-size" class="section">
+	
+	<!-- Visiblity -->
+	<section id="visiblity" class="section">
 		<div class="container">
-			<h2 class="section-title">Font Size<code>utilities/font-size.less</code></h2>
-			<?php sample('font-size'); ?>
-			<?php sample_code('font-size'); ?>
+			<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
+			<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
+			<?php include('includes/utilities/table-visibility.html'); ?>
+			<h3 class="section-block-title">Visibile Breakpoint Classes</h3>
+			<p>Define content to be <code>visible</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+			<?php include('includes/utilities/table-visibility-visible.html'); ?>
+			<h3 class="section-block-title">Hidden Breakpoint Classes</h3>
+			<p>Define content to be <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+			<?php include('includes/utilities/table-visibility-hidden.html'); ?>
 		</div>
 	</section>
 
+	<!-- Display -->
+	<section id="display" class="section">
+		<div class="container">
+			<h2 class="section-title">Display<code>utilities/display.less</code></h2>
+			<?php include('includes/utilities/table-display.html'); ?>
+		</div>
+	</section>
+
+	<!-- Positioning -->
+	<section id="positioning" class="section">
+		<div class="container">
+			<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
+			<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
+			<?php include('includes/utilities/table-positioning.html'); ?>
+		</div>
+	</section>
+
+	<!-- Float -->
+	<section id="float" class="section">
+		<div class="container">
+			<h2 class="section-title">Float<code>utilities/float.less</code></h2>
+			<?php include('includes/utilities/table-floats.html'); ?>
+			<h3 class="section-block-title">Responsive Clear Floats</h3>
+			<?php include('includes/utilities/table-floats-responsive.html'); ?>
+		</div>
+	</section>
+
+	<!-- Max Width -->
+	<section id="max-width" class="section">
+		<div class="container">
+			<h2 class="section-title">Max Width<code>utilities/max-width.less</code></h2>
+			<p class="max-width-xlarge">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-large">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-medium">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-small">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-xsmall">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<?php sample_code('max-width'); ?>
+		</div>
+	</section>
+
+	<!-- Margin -->
+	<section id="margin" class="section">
+		<div class="container">
+			<h2 class="section-title">Margin<code>utilities/margin.less</code></h2>
+			<?php include('includes/utilities/table-margin.html'); ?>
+		</div>
+	</section>
+
+	<!-- Padding -->
+	<section id="padding" class="section">
+		<div class="container">
+			<h2 class="section-title">Padding<code>utilities/padding.less</code></h2>
+			<?php include('includes/utilities/table-padding.html'); ?>
+		</div>
+	</section>
 
 	<!-- Font Family -->
 	<section id="font-family" class="section">
@@ -1209,6 +1280,14 @@
 		</div>
 	</section>
 
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<div class="container">
+			<h2 class="section-title">Font Size<code>utilities/font-size.less</code></h2>
+			<?php sample('font-size'); ?>
+			<?php sample_code('font-size'); ?>
+		</div>
+	</section>
 		
 	<!-- Text -->
 	<section id="text" class="section">
@@ -1226,7 +1305,6 @@
 			<?php sample_code('text-transform'); ?>
 		</div>
 	</section>
-
 
 	<!-- Text Color -->
 	<section id="text-color" class="section">
@@ -1246,454 +1324,29 @@
 			<p class="text-color text-secondary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="text-color text-tertiary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="text-color text-dark">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			<?php sample_code('text-colors'); ?>
+			<?php sample_code('text-color'); ?>
 		</div>
 	</section>
 
-	<!-- Display -->
-	<section id="display" class="section">
+	<!-- Text Color -->
+	<section id="background" class="section">
 		<div class="container">
-			<h2 class="section-title">Display<code>utilities/display.less</code></h2>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>display-block</code></td>
-						<td>Sets <code>display: block;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-inline-block</code></td>
-						<td>Sets <code>display: inline-block;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-table</code></td>
-						<td>Sets <code>display: table;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-table-cell</code></td>
-						<td>Sets <code>display: table-cell;</code> on element</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Positioning -->
-	<section id="positioning" class="section">
-		<div class="container">
-			<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
-			<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>top-left</code></td>
-						<td>Positions element to the top left of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>top-right</code></td>
-						<td>Positions element to the top right of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>bottom-left</code></td>
-						<td>Positions element to the bottom left of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>bottom-right</code></td>
-						<td>Positions element to the bottom right of it's container</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Float -->
-	<section id="float" class="section">
-		<div class="container">
-			<h2 class="section-title">Float<code>utilities/float.less</code></h2>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>left</code></td>
-						<td>Floats element left</td>
-					</tr>
-					<tr>	
-						<td><code>right</code></td>
-						<td>Floats element right</td>
-					</tr>
-				</tbody>
-			</table>
-			<h3 class="section-block-title">Responsive Clear Floats</h3>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
-						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>.clear-right-xsmall</code></td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-small</code></td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-medium</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-large</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-xlarge</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-					</tr>
-				</tbody>
-				<tbody>
-					<tr>
-						<td><code>.clear-left-xsmall</code></td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-small</code></td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-medium</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-large</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-xlarge</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Visiblity -->
-	<section id="visiblity" class="section">
-		<div class="container">
-			<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
-			<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>hide</code></td>
-						<td>Hides element <code>.hide();</code> mixin</td>
-					</tr>
-					<tr>	
-						<td><code>show</code></td>
-						<td>Shows element <code>.show();</code> mixin</td>
-					</tr>
-					<tr>	
-						<td><code>visible</code></td>
-						<td>Sets <code>visibility: visible;</code></td>
-					</tr>
-					<tr>	
-						<td><code>invisible</code></td>
-						<td>Sets <code>visibility: hidden;</code></td>
-					</tr>
-					<tr>	
-						<td><code>hidden-print</code></td>
-						<td>Hides element for when <code>@media print</code></td>
-					</tr>
-					<tr>	
-						<td><code>visible-print</code></td>
-						<td>Shows element for when <code>@media print</code></td>
-					</tr>
-					<tr>	
-						<td><code>hidden-screen</code></td>
-						<td>Hides element for when <code>@media screen</code></td>
-					</tr>
-					<tr>	
-						<td><code>visible-screen</code></td>
-						<td>Shows element for when <code>@media screen</code></td>
-					</tr>
-				</tbody>
-			</table>
-			<h3 class="section-block-title">Visibile Breakpoint Classes</h3>
-			<p>Define content to be <code>visible</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
-						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>.visible-xsmall</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-small</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-small-up</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.visible-small-down</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-medium</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-medium-up</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.visible-medium-down</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-large</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-large-up</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.visible-large-down</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.visible-xlarge</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-				</tbody>
-			</table>
-			<h3 class="section-block-title">Hidden Breakpoint Classes</h3>
-			<p>Define content to be <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
-						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>.hidden-xsmall</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-small</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-small-up</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-small-down</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-medium</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-medium-up</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-medium-down</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-large</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-large-up</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-large-down</code></td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-hidden">Hidden</td>
-						<td class="is-visible">Visible</td>
-					</tr>
-					<tr>
-						<td><code>.hidden-xlarge</code></td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-visible">Visible</td>
-						<td class="is-hidden">Hidden</td>
-					</tr>
-				</tbody>
-			</table>
+			<h2 class="section-title">Background<code>utilities/background.less</code></h2>
+			<p class="background-white padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-light-grey padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-grey padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-dark-grey padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-black padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-error padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-warning padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-success padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-info padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-light padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-primary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-secondary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-tertiary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p class="background-dark padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<?php sample_code('background'); ?>
 		</div>
 	</section>
 
@@ -1709,7 +1362,7 @@
 	<section id="mixins-general" class="section">
 		<div class="container">
 			<h2 class="section-title">General<code>mixins/general.less</code></h2>
-			<?php include('includes/mixins-general.html'); ?>
+			<?php include('includes/mixins/mixins-general.html'); ?>
 		</div>
 	</section>
 
@@ -1717,7 +1370,7 @@
 	<section id="mixins-input" class="section">
 		<div class="container">
 			<h2 class="section-title">Input<code>mixins/input.less</code></h2>
-			<?php include('includes/mixins-input.html'); ?>
+			<?php include('includes/mixins/mixins-input.html'); ?>
 		</div>
 	</section>
 
@@ -1725,7 +1378,7 @@
 	<section id="mixins-select" class="section">
 		<div class="container">
 			<h2 class="section-title">Select<code>mixins/select.less</code></h2>
-			<?php include('includes/mixins-select.html'); ?>
+			<?php include('includes/mixins/mixins-select.html'); ?>
 		</div>
 	</section>
 
@@ -1733,7 +1386,7 @@
 	<section id="mixins-button" class="section">
 		<div class="container">
 			<h2 class="section-title">Button<code>mixins/button.less</code></h2>
-			<?php include('includes/mixins-button.html'); ?>
+			<?php include('includes/mixins/mixins-button.html'); ?>
 		</div>
 	</section>
 
@@ -1741,7 +1394,7 @@
 	<section id="mixins-font" class="section">
 		<div class="container">
 			<h2 class="section-title">Font<code>mixins/font.less</code></h2>
-			<?php include('includes/mixins-font.html'); ?>
+			<?php include('includes/mixins/mixins-font.html'); ?>
 		</div>
 	</section>
 
@@ -1749,7 +1402,7 @@
 	<section id="mixins-border-radius" class="section">
 		<div class="container">
 			<h2 class="section-title">Border Radius<code>mixins/border-radius.less</code></h2>
-			<?php include('includes/mixins-border-radius.html'); ?>
+			<?php include('includes/mixins/mixins-border-radius.html'); ?>
 		</div>
 	</section>
 
@@ -1757,7 +1410,7 @@
 	<section id="mixins-background" class="section">
 		<div class="container">
 			<h2 class="section-title">Background<code>mixins/background.less</code></h2>
-			<?php include('includes/mixins-background.html'); ?>
+			<?php include('includes/mixins/mixins-background.html'); ?>
 		</div>
 	</section>
 
@@ -1765,7 +1418,7 @@
 	<section id="mixins-placeholder" class="section">
 		<div class="container">
 			<h2 class="section-title">Placeholder<code>mixins/placeholder.less</code></h2>
-			<?php include('includes/mixins-placeholder.html'); ?>
+			<?php include('includes/mixins/mixins-placeholder.html'); ?>
 		</div>
 	</section>
 
@@ -1783,7 +1436,7 @@
 				<div class="arrow-box arrow-left"></div>
 				<div class="arrow-box arrow-right"></div>
 			</div>
-			<?php include('includes/mixins-arrows.html'); ?>
+			<?php include('includes/mixins/mixins-arrows.html'); ?>
 		</div>
 	</section>
 
@@ -1791,7 +1444,7 @@
 	<section id="mixins-transitions" class="section">
 		<div class="container">
 			<h2 class="section-title">Transitions<code>mixins/transitions.less</code></h2>
-			<?php include('includes/mixins-transitions.html'); ?>
+			<?php include('includes/mixins/mixins-transitions.html'); ?>
 		</div>
 	</section>
 
@@ -1799,7 +1452,7 @@
 	<section id="mixins-transforms" class="section">
 		<div class="container">
 			<h2 class="section-title">Transforms<code>mixins/transforms.less</code></h2>
-			<?php include('includes/mixins-transforms.html'); ?>
+			<?php include('includes/mixins/mixins-transforms.html'); ?>
 		</div>
 	</section>
 
@@ -1807,7 +1460,7 @@
 	<section id="mixins-animations" class="section">
 		<div class="container">
 			<h2 class="section-title">Animations<code>mixins/animations.less</code></h2>
-			<?php include('includes/mixins-animations.html'); ?>
+			<?php include('includes/mixins/mixins-animations.html'); ?>
 		</div>
 	</section>
 
@@ -1815,7 +1468,7 @@
 	<section id="mixins-filters" class="section">
 		<div class="container">
 			<h2 class="section-title">Filters<code>mixins/filters.less</code></h2>
-			<?php include('includes/mixins-filters.html'); ?>
+			<?php include('includes/mixins/mixins-filters.html'); ?>
 		</div>
 	</section>
 
@@ -1823,7 +1476,7 @@
 	<section id="mixins-flexbox" class="section">
 		<div class="container">
 			<h2 class="section-title">Flexbox<code>mixins/flexbox.less</code></h2>
-			<?php include('includes/mixins-flexbox.html'); ?>
+			<?php include('includes/mixins/mixins-flexbox.html'); ?>
 		</div>
 	</section>
 	
