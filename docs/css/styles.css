@@ -6748,41 +6748,71 @@ td {
 /*
  * Position
  */
-.top-left {
+.position-top-left {
   position: absolute !important;
   top: 0;
   left: 0;
 }
-.top-left.gutter {
+.position-top-left.gutter {
   top: 30px;
   left: 30px;
 }
-.top-right {
+.position-top-right {
   position: absolute !important;
   top: 0;
   right: 0;
 }
-.top-right.gutter {
+.position-top-right.gutter {
   top: 30px;
   right: 30px;
 }
-.bottom-left {
+.position-bottom-left {
   position: absolute !important;
   bottom: 0;
   left: 0;
 }
-.bottom-left.gutter {
+.position-bottom-left.gutter {
   bottom: 30px;
   left: 30px;
 }
-.bottom-right {
+.position-bottom-right {
   position: absolute !important;
   bottom: 0;
   right: 0;
 }
-.bottom-right.gutter {
+.position-bottom-right.gutter {
   bottom: 30px;
   right: 30px;
+}
+.position-left-center {
+  position: absolute !important;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.position-left-center.gutter {
+  left: 30px;
+}
+.position-right-center {
+  position: absolute !important;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.position-right-center.gutter {
+  right: 30px;
+}
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /*
  * Float
