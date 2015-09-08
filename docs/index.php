@@ -1195,16 +1195,61 @@
 			</table>
 		</div>
 	</section>
-
-	<!-- Font Size -->
-	<section id="font-size" class="section">
+	
+	<!-- Visiblity -->
+	<section id="visiblity" class="section">
 		<div class="container">
-			<h2 class="section-title">Font Size<code>utilities/font-size.less</code></h2>
-			<?php sample('font-size'); ?>
-			<?php sample_code('font-size'); ?>
+			<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
+			<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
+			<?php include('includes/utilities/table-visibility.html'); ?>
+			<h3 class="section-block-title">Visibile Breakpoint Classes</h3>
+			<p>Define content to be <code>visible</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+			<?php include('includes/utilities/table-visibility-visible.html'); ?>
+			<h3 class="section-block-title">Hidden Breakpoint Classes</h3>
+			<p>Define content to be <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
+			<?php include('includes/utilities/table-visibility-hidden.html'); ?>
 		</div>
 	</section>
 
+	<!-- Display -->
+	<section id="display" class="section">
+		<div class="container">
+			<h2 class="section-title">Display<code>utilities/display.less</code></h2>
+			<?php include('includes/utilities/table-display.html'); ?>
+		</div>
+	</section>
+
+	<!-- Positioning -->
+	<section id="positioning" class="section">
+		<div class="container">
+			<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
+			<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
+			<?php include('includes/utilities/table-positioning.html'); ?>
+		</div>
+	</section>
+
+	<!-- Float -->
+	<section id="float" class="section">
+		<div class="container">
+			<h2 class="section-title">Float<code>utilities/float.less</code></h2>
+			<?php include('includes/utilities/table-floats.html'); ?>
+			<h3 class="section-block-title">Responsive Clear Floats</h3>
+			<?php include('includes/utilities/table-floats-responsive.html'); ?>
+		</div>
+	</section>
+
+	<!-- Max Width -->
+	<section id="max-width" class="section">
+		<div class="container">
+			<h2 class="section-title">Max Width<code>utilities/max-width.less</code></h2>
+			<p class="max-width-xlarge">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-large">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-medium">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-small">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<p class="max-width-xsmall">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+			<?php sample_code('max-width'); ?>
+		</div>
+	</section>
 
 	<!-- Font Family -->
 	<section id="font-family" class="section">
@@ -1215,6 +1260,14 @@
 		</div>
 	</section>
 
+	<!-- Font Size -->
+	<section id="font-size" class="section">
+		<div class="container">
+			<h2 class="section-title">Font Size<code>utilities/font-size.less</code></h2>
+			<?php sample('font-size'); ?>
+			<?php sample_code('font-size'); ?>
+		</div>
+	</section>
 		
 	<!-- Text -->
 	<section id="text" class="section">
@@ -1232,7 +1285,6 @@
 			<?php sample_code('text-transform'); ?>
 		</div>
 	</section>
-
 
 	<!-- Text Color -->
 	<section id="text-color" class="section">
@@ -1253,223 +1305,6 @@
 			<p class="text-color text-tertiary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="text-color text-dark">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<?php sample_code('text-colors'); ?>
-		</div>
-	</section>
-
-	<!-- Max Width -->
-	<section id="max-width" class="section">
-		<div class="container">
-			<h2 class="section-title">Max Width<code>utilities/max-width.less</code></h2>
-			<p class="max-width-xlarge">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<p class="max-width-large">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<p class="max-width-medium">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<p class="max-width-small">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<p class="max-width-xsmall">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-			<?php sample_code('max-width'); ?>
-		</div>
-	</section>
-
-	<!-- Display -->
-	<section id="display" class="section">
-		<div class="container">
-			<h2 class="section-title">Display<code>utilities/display.less</code></h2>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>display-block</code></td>
-						<td>Sets <code>display: block;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-inline-block</code></td>
-						<td>Sets <code>display: inline-block;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-table</code></td>
-						<td>Sets <code>display: table;</code> on element</td>
-					</tr>
-					<tr>	
-						<td><code>display-table-cell</code></td>
-						<td>Sets <code>display: table-cell;</code> on element</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Positioning -->
-	<section id="positioning" class="section">
-		<div class="container">
-			<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
-			<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>top-left</code></td>
-						<td>Positions element to the top left of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>top-right</code></td>
-						<td>Positions element to the top right of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>bottom-left</code></td>
-						<td>Positions element to the bottom left of it's container</td>
-					</tr>
-					<tr>	
-						<td><code>bottom-right</code></td>
-						<td>Positions element to the bottom right of it's container</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Float -->
-	<section id="float" class="section">
-		<div class="container">
-			<h2 class="section-title">Float<code>utilities/float.less</code></h2>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th>Class</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>	
-						<td><code>left</code></td>
-						<td>Floats element left</td>
-					</tr>
-					<tr>	
-						<td><code>right</code></td>
-						<td>Floats element right</td>
-					</tr>
-				</tbody>
-			</table>
-			<h3 class="section-block-title">Responsive Clear Floats</h3>
-			<table class="table table-bordered table-block table-responsive">
-				<thead>
-					<tr>
-						<th width="25%"></th>
-						<th width="15%">Extra Small Devices<br><small>Phones (<767px)</small></th>
-						<th width="15%">Small Devices<br><small>Tablets (768px - 1023px)</small></th>
-						<th width="15%">Medium devices<br><small>Laptops (1024px - 1279px)</small></th>
-						<th width="15%">Large devices<br><small>Desktops (1280px - 1679px)</small></th>
-						<th width="15%">Extra Large devices<br><small>Large Desktops (≥1680px)</small></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>.clear-right-xsmall</code></td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-small</code></td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-medium</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-large</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">right</td>
-					</tr>
-					<tr>
-						<td><code>.clear-right-xlarge</code></td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-float">right</td>
-						<td class="is-clear">clear</td>
-					</tr>
-				</tbody>
-				<tbody>
-					<tr>
-						<td><code>.clear-left-xsmall</code></td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-small</code></td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-medium</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-large</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-						<td class="is-float">left</td>
-					</tr>
-					<tr>
-						<td><code>.clear-left-xlarge</code></td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-float">left</td>
-						<td class="is-clear">clear</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
-
-	<!-- Visiblity -->
-	<section id="visiblity" class="section">
-		<div class="container">
-			<h2 class="section-title">Visiblity<code>utilities/visiblity.less</code></h2>
-			<p>Define content to be <code>visible</code> or <code>hidden</code>.</p>
-			<?php include('includes/utilities/table-visibility.html'); ?>
-			<h3 class="section-block-title">Visibile Breakpoint Classes</h3>
-			<p>Define content to be <code>visible</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
-			<?php include('includes/utilities/table-visibility-visible.html'); ?>
-			<h3 class="section-block-title">Hidden Breakpoint Classes</h3>
-			<p>Define content to be <code>hidden</code> at different breakpoints.<br><small>Note: <code>!important</code> is used to override specificity issues.</small></p>
-			<?php include('includes/utilities/table-visibility-hidden.html'); ?>
 		</div>
 	</section>
 
