@@ -308,8 +308,11 @@
 			<h3 class="section-block-title">Height</h3>
 			<p>Height sizes for buttons, inputs, input-groups, selects etc.</p>
 			<?php definitions('base/global/height'); ?>
+			<h3 class="section-block-title">Margin</h3>
+			<p>Margin sizes.</p>
+			<?php definitions('base/global/margin'); ?>
 			<h3 class="section-block-title">Padding</h3>
-			<p>Padding sizes, both vertical and horizontal for buttons, inputs, input-groups, selects etc.</p>
+			<p>Padding sizes.</p>
 			<?php definitions('base/global/padding'); ?>
 			<h3 class="section-block-title">Max Width</h3>
 			<p>Max Width Sizes.</p>
