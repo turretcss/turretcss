@@ -309,13 +309,13 @@
 			<p>Height sizes for buttons, inputs, input-groups, selects etc.</p>
 			<?php definitions('base/global/height'); ?>
 			<h3 class="section-block-title">Margin</h3>
-			<p>Margin sizes.</p>
+			<p>Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
 			<?php definitions('base/global/margin'); ?>
 			<h3 class="section-block-title">Padding</h3>
-			<p>Padding sizes.</p>
+			<p>Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
 			<?php definitions('base/global/padding'); ?>
 			<h3 class="section-block-title">Max Width</h3>
-			<p>Max Width Sizes.</p>
+			<p>Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.</p>
 			<?php definitions('base/global/max-width'); ?>
 		</div>
 	</section>
