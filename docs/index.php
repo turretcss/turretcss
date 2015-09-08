@@ -189,14 +189,18 @@
 						<li>utilities/
 							<ul>
 								<li><code>utility-classes.less</code></li>
-								<li><code>font-size.less</code></li>
-								<li><code>font-family.less</code></li>
-								<li><code>text.less</code></li>
-								<li><code>text-color.less</code></li>
+								<li><code>visiblity.less</code></li>
 								<li><code>display.less</code></li>
 								<li><code>positioning.less</code></li>
 								<li><code>float.less</code></li>
-								<li><code>visiblity.less</code></li>
+								<li><code>max-width.less</code></li>
+								<li><code>margin.less</code></li>
+								<li><code>padding.less</code></li>
+								<li><code>font-family.less</code></li>
+								<li><code>font-size.less</code></li>
+								<li><code>text.less</code></li>
+								<li><code>text-color.less</code></li>
+								<li><code>background.less</code></li>
 							</ul>
 						</li>
 						<li>mixins/
