@@ -26,13 +26,38 @@
 	float: left;
 	position: relative;
 	min-height: 1px;
-	padding-left: (@gutter / 2);
-	padding-right: (@gutter / 2);
+	padding-left: @gutter;
+	padding-right: @gutter;
 	
 	&.column-center {
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	@media @xlarge {
+		padding-left: @gutter-xlarge;
+		padding-right: @gutter-xlarge;
+	}
+
+	@media @large {
+		padding-left: @gutter-large;
+		padding-right: @gutter-large;
+	}
+
+	@media @medium {
+		padding-left: @gutter-medium;
+		padding-right: @gutter-medium;
+	}
+	
+	@media @small {
+		padding-left: @gutter-small;
+		padding-right: @gutter-small;
+	}
+
+	@media @xsmall {
+		padding-left: @gutter-xsmall;
+		padding-right: @gutter-xsmall;
 	}
 }
 
