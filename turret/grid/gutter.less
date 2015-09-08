@@ -3,11 +3,18 @@
  */
 
 // Gutter
-@gutter: 30px;
-@gutter-top: @gutter;
-@gutter-bottom: @gutter;
-@gutter-left: @gutter;
-@gutter-right: @gutter;
+@gutter: 15px;
+@gutter-xlarge: @gutter;
+@gutter-large: @gutter;
+@gutter-medium: @gutter;
+@gutter-small: @gutter;
+@gutter-xsmall: @gutter;
+
+// Gutter Directions
+@gutter-top: (@gutter * 2);
+@gutter-bottom: (@gutter * 2);
+@gutter-left: (@gutter * 2);
+@gutter-right: (@gutter * 2);
 
 
 /*
@@ -37,7 +44,7 @@
 
 @media @xlarge {
 
-	&.no-gutter-xlarge {
+	.no-gutter-xlarge {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
@@ -61,7 +68,7 @@
 
 @media @large {
 
-	&.no-gutter-large {
+	.no-gutter-large {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
@@ -85,7 +92,7 @@
 
 @media @medium {
 
-	&.no-gutter-medium {
+	.no-gutter-medium {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
@@ -109,7 +116,7 @@
 
 @media @small {
 
-	&.no-gutter-small {
+	.no-gutter-small {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
@@ -133,7 +140,7 @@
 
 @media @xsmall {
 	
-	&.no-gutter-xsmall {
+	.no-gutter-xsmall {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
