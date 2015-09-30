@@ -1,0 +1,19 @@
+{
+  "name": "turret",
+  "version": "3.1.2",
+  "authors": [
+    "Scott de Jonge <scottdj@bigfish.tv>"
+  ],
+  "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
+  "main": "dist/turret.css",
+  "keywords": [
+    "css",
+    "less",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bigfishtv/turret"
+}
