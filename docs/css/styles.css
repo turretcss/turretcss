@@ -669,7 +669,7 @@ blockquote p {
   font-size: 2rem;
   font-style: normal;
   line-height: 1.35;
-  color: #05bed5;
+  color: #434a54;
 }
 blockquote cite {
   display: block;
@@ -677,7 +677,7 @@ blockquote cite {
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   font-style: normal;
-  color: #05bed5;
+  color: #434a54;
   text-align: right;
 }
 /*
@@ -692,6 +692,7 @@ blockquote cite {
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 2rem;
+  color: #434a54;
   border: solid #05bed5;
   border-width: 0px 0px 0px 5px;
 }
@@ -5667,8 +5668,6 @@ textarea.info {
 .input-group-button > button,
 .input-group-button > .button {
   position: relative;
-  height: 40px;
-  min-width: 40px;
   border-radius: 0 2px 2px 0;
   background-clip: padding-box;
 }
