@@ -10,6 +10,7 @@
 @select-font-weight: @input-font-weight;
 @select-font-size: @input-font-size;
 @select-color: @input-color;
+@select-line-height: auto;
 @select-background: @input-background;
 @select-border: @input-border;
 @select-border-radius: @border-radius;
@@ -44,7 +45,7 @@ select {
 		margin: 0;
 		padding: @select-padding;
 		height: @select-height;
-		line-height: 1;
+		line-height: @select-line-height;
 		font-family: @select-font-family;
 		font-weight: @select-font-weight;
 		.font-size(@select-font-size);
