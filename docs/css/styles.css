@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
 /*!
- * Turret v3.1.0
+ * Turret v3.1.2
  * http://turret.bigfish.tv
  *
  * Licensed under the MIT license.
@@ -5280,6 +5280,14 @@ textarea:disabled {
   border: 1px solid #c5cdd7;
 }
 /*
+ * Textarea
+ */
+textarea {
+  max-width: 100%;
+  -webkit-transition: none;
+  transition: none;
+}
+/*
  * Input Styles
  */
 .input-inverse {
@@ -5836,7 +5844,7 @@ select {
   margin: 0;
   padding: 0 16px;
   height: 40px;
-  line-height: 1;
+  line-height: auto;
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
@@ -7161,11 +7169,6 @@ td {
 .semibold-font {
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-style: normal;
-}
-.bold-font {
-  font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 900;
   font-style: normal;
 }
 .bold-font {
