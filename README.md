@@ -5,11 +5,12 @@ Turret is a responsive frontend framework built with Less to normalize styles fo
 
 ## Quick start
 
-There are three quick start ways to download Turret available:
+There are four quick start ways to download Turret available:
 
 - [Download the latest release](https://github.com/bigfishtv/turret/).
 - Clone the repo: `git clone https://github.com/bigfishtv/turret.git`.
 - Install with [npm](https://www.npmjs.org): `npm install bigfishtv-turret`.
+- Install with [bower](http://bower.io/): `bower install turret`.
 
 
 ## Documentation
