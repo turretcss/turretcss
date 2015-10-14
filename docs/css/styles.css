@@ -5817,10 +5817,10 @@ textarea.info {
   display: block;
   margin: 0px 0px 0px 10px;
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.3rem;
   color: #434a54;
-  line-height: 1.5;
+  line-height: 1.35;
   pointer-events: none;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
