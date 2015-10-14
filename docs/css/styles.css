@@ -449,10 +449,10 @@ a {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-a:hover,
-a:focus {
+a:not(.button):hover,
+a:not(.button):focus {
   color: #434a54;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /*
  * Definitions

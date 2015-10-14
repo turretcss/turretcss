@@ -8,7 +8,7 @@
 
 // Link Hover
 @link-hover-color: @dark;
-@link-hover-decoration: none;
+@link-hover-decoration: underline;
 
 
 /*
@@ -20,8 +20,8 @@ a {
 	text-decoration: @link-text-decoration;
 	.transition(color @transition-fast ease-in-out);
 	
-	&:hover,
-	&:focus {
+	&:not(.button):hover,
+	&:not(.button):focus {
 		color: @link-hover-color;
 		text-decoration: @link-hover-decoration;
 	}
