@@ -5817,6 +5817,7 @@ textarea.info {
   display: block;
   margin: 0px 0px 0px 10px;
   font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   font-size: 1.3rem;
   color: #434a54;
   line-height: 1.5;
