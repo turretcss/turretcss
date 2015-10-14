@@ -186,6 +186,7 @@
 								<li><code>visiblity.less</code></li>
 								<li><code>display.less</code></li>
 								<li><code>positioning.less</code></li>
+								<li><code>flex.less</code></li>
 								<li><code>float.less</code></li>
 								<li><code>max-width.less</code></li>
 								<li><code>margin.less</code></li>
@@ -1231,6 +1232,14 @@
 			<h2 class="section-title">Positioning<code>utilities/positioning.less</code></h2>
 			<p>Utility classes can be used to position elements easily, each position utility class is <code>position: absolute;</code> and allows for either absolute positioning or using <code>@gutter</code> spacing by adding the <code>gutter</code> class to any position class</p>
 			<?php include('includes/utilities/table-positioning.html'); ?>
+		</div>
+	</section>
+
+	<!-- Flex -->
+	<section id="flex" class="section">
+		<div class="container">
+			<h2 class="section-title">Flex<code>utilities/flex.less</code></h2>
+			<?php include('includes/utilities/table-flex.html'); ?>
 		</div>
 	</section>
 

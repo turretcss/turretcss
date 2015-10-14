@@ -6907,6 +6907,21 @@ td {
   transform: translate(-50%, -50%);
 }
 /*
+ * Flex
+ */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-left {
+  display: flex;
+  flex: 1;
+}
+.flex-right {
+  display: flex;
+  flex: 0 0 auto;
+}
+/*
  * Float
  */
 .right {
