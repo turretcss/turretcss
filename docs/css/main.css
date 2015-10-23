@@ -1,0 +1,147 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 270px;
+	height: 100%;
+	overflow: scroll;
+	border-right: 1px solid #E3E7EC;
+}
+
+.sidebar-title {
+	display: block;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navigation {
+	
+}
+
+.navigation a {
+	display: block;
+	padding: 15px 10px;
+	font-size: 1.4rem;
+	color: #434a54;
+	border-bottom: 1px solid #E3E7EC;
+}
+
+.navigation a:first-child {
+	border-top: 1px solid #E3E7EC;
+}
+
+.navigation a.active {
+	color: #05bed5;
+}
+
+.main {
+	padding-left: 270px;
+}
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #05BED5;
+}
+
+.header h1,
+.header p {
+	color: #FFF;
+}
+
+.header p {
+	margin-bottom: 0;
+	max-width: 800px;
+}
+
+.content {
+	
+}
+
+.content h2 {
+	margin-top: 50px;
+	padding-bottom: 10px;
+	font-weight: 300;
+	border-bottom: 1px solid #E3E7EC;
+}
+
+.content h3 {
+	margin-top: 35px;
+	font-size: 1.6rem;
+}
+
+.swatch {
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	height: 120px;
+	width: 100px;
+}
+
+.swatch small {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 20px;
+	font-size: 10px;
+	line-height: 20px;
+	background: #ffffff;
+	text-align: center;
+}
+
+.grid-item {
+	padding: 15px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #656d78;
+	text-align: center;
+	background: #ccd1d9;
+}
+
+.grid-item .grid-item {
+    margin-bottom: 0;
+    color: #ffffff;
+    background: #656d78;
+}
+
+.arrow-boxes {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.arrow-box {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background: #05bed5;
+}
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.footer p {
+	margin: 15px 0px;
+	font-size: 1.4rem;
+}
+
+.footer p:first-child {
+	margin-top: 0;
+}
+
+.footer p:last-child {
+	margin-bottom: 0;
+}
