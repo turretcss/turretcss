@@ -112,7 +112,7 @@ Some top level definitions for general styles on the `<body>` tag.
 @body-font-weight: @regular-font-weight; 
 @body-color: @dark;
 @body-line-height: @line-height-medium;
-@body-letter-spacing: 0.02rem;
+@body-letter-spacing: 0.03rem;
 @body-background: @white;
 ```
 
