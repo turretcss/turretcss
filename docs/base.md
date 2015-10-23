@@ -120,31 +120,31 @@ Some top level definitions for general styles on the `<body>` tag.
 
 ### Shades
 
-<div class="swatches">
-  <div class="swatch background-white"><small>White</small></div>
-  <div class="swatch background-light-grey"><small>Light Grey</small></div>
-  <div class="swatch background-grey"><small>Grey</small></div>
-  <div class="swatch background-dark-grey"><small>Dark Grey</small></div>
-  <div class="swatch background-black"><small>Black</small></div>
+<div class="docs-swatches">
+  <div class="docs-swatch background-white"><small>White</small></div>
+  <div class="docs-swatch background-light-grey"><small>Light Grey</small></div>
+  <div class="docs-swatch background-grey"><small>Grey</small></div>
+  <div class="docs-swatch background-dark-grey"><small>Dark Grey</small></div>
+  <div class="docs-swatch background-black"><small>Black</small></div>
 </div>
 
 ### Indicators
 
-<div class="swatches">
-  <div class="swatch background-info"><small>Info</small></div>
-  <div class="swatch background-error"><small>Error</small></div>
-  <div class="swatch background-warning"><small>Warning</small></div>
-  <div class="swatch background-success"><small>Success</small></div>
+<div class="docs-swatches">
+  <div class="docs-swatch background-info"><small>Info</small></div>
+  <div class="docs-swatch background-error"><small>Error</small></div>
+  <div class="docs-swatch background-warning"><small>Warning</small></div>
+  <div class="docs-swatch background-success"><small>Success</small></div>
 </div>
 
 ### Palette
 
-<div class="swatches">
-  <div class="swatch background-light"><small>Light</small></div>
-  <div class="swatch background-primary"><small>Primary</small></div>
-  <div class="swatch background-secondary"><small>Secondary</small></div>
-  <div class="swatch background-tertiary"><small>Tertiary</small></div>
-  <div class="swatch background-dark"><small>Dark</small></div>
+<div class="docs-swatches">
+  <div class="docs-swatch background-light"><small>Light</small></div>
+  <div class="docs-swatch background-primary"><small>Primary</small></div>
+  <div class="docs-swatch background-secondary"><small>Secondary</small></div>
+  <div class="docs-swatch background-tertiary"><small>Tertiary</small></div>
+  <div class="docs-swatch background-dark"><small>Dark</small></div>
 </div>
 
 ```scss

@@ -1,7 +1,7 @@
-<aside class="sidebar">
-  <a class="sidebar-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<aside class="docs-sidebar">
+  <a class="docs-sidebar-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-  <nav class="navigation">
+  <nav class="docs-navigation">
     {% for group in site.data.nav %}
       {% assign link = group.pages | first %}
       {% assign slug = group.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-' %}

@@ -84,7 +84,7 @@ Columns can be applied to html elements as classes in order to position elements
 
 <div class="row">
   <div class="column-1-5 column-xlarge-1-6 column-medium-1-3 column-small-1-2">
-    <div class="grid-item">Responsive Breakpoints</div>
+    <div class="docs-grid-item">Responsive Breakpoints</div>
   </div>
 </div>
 
@@ -96,10 +96,10 @@ Columns can be applied to html elements as classes in order to position elements
 
 <div class="row">
   <div class="column-1">
-    <div class="grid-item">
+    <div class="docs-grid-item">
       <div class="row">
-        <div class="column-1-2"><div class="grid-item">Column-1-2</div></div>
-        <div class="column-1-2"><div class="grid-item">Column-1-2</div></div>
+        <div class="column-1-2"><div class="docs-grid-item">Column-1-2</div></div>
+        <div class="column-1-2"><div class="docs-grid-item">Column-1-2</div></div>
       </div>
     </div>
   </div>
@@ -118,7 +118,7 @@ Columns can be applied to html elements as classes in order to position elements
 
 <div class="row">
   <div class="column-1-2 column-center">
-    <div class="grid-item no-margin">Column Center</div>
+    <div class="docs-grid-item no-margin">Column Center</div>
   </div>
 </div>
 
@@ -132,7 +132,7 @@ Column offset classes can be added to columns to add a `margin-left` value that 
 
 <div class="row">
   <div class="column-1-2 column-offset-1-2">
-    <div class="grid-item no-margin">Column Offset</div>
+    <div class="docs-grid-item no-margin">Column Offset</div>
   </div>
 </div>
 
@@ -146,7 +146,7 @@ Column push classes can be added to columns to add a `left` value that correspon
 
 <div class="row">
   <div class="column-1-2 column-push-1-12">
-    <div class="grid-item no-margin">Column Offset</div>
+    <div class="docs-grid-item no-margin">Column Offset</div>
   </div>
 </div>
 
@@ -160,7 +160,7 @@ Column pull classes can be added to columns to add a `left` value that correspon
 
 <div class="row">
   <div class="column-1-2 column-pull-1-12">
-    <div class="grid-item no-margin">Column Offset</div>
+    <div class="docs-grid-item no-margin">Column Offset</div>
   </div>
 </div>
 
