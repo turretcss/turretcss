@@ -11,7 +11,7 @@
 	width: 270px;
 	height: 100%;
 	overflow: scroll;
-	border-right: 1px solid #E3E7EC;
+	border-right: 1px solid @light-grey;
 }
 
 .sidebar-title {
@@ -29,17 +29,17 @@
 .navigation a {
 	display: block;
 	padding: 15px 10px;
-	font-size: 1.4rem;
-	color: #434a54;
-	border-bottom: 1px solid #E3E7EC;
+	.font-size(1.4);
+	color: @body-color;
+	border-bottom: 1px solid @light-grey;
 }
 
 .navigation a:first-child {
-	border-top: 1px solid #E3E7EC;
+	border-top: 1px solid @light-grey;
 }
 
 .navigation a.active {
-	color: #05bed5;
+	color: @primary;
 }
 
 .main {
@@ -49,33 +49,32 @@
 .header {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #05BED5;
-}
+	background: @primary;
 
-.header h1,
-.header p {
-	color: #FFF;
-}
+	h1,
+	p {
+		color: @white;
+	}
 
-.header p {
-	margin-bottom: 0;
-	max-width: 800px;
+	p {
+		margin-bottom: 0;
+		max-width: 800px;
+	}
 }
 
 .content {
-	
-}
 
-.content h2 {
-	margin-top: 50px;
-	padding-bottom: 10px;
-	font-weight: 300;
-	border-bottom: 1px solid #E3E7EC;
-}
+	h2 {
+		margin-top: 50px;
+		padding-bottom: 10px;
+		font-weight: 300;
+		border-bottom: 1px solid @light-grey;
+	}
 
-.content h3 {
-	margin-top: 35px;
-	font-size: 1.6rem;
+	h3 {
+		margin-top: 35px;
+		.font-size(1.6);
+	}
 }
 
 .swatch {
@@ -84,18 +83,18 @@
 	margin: 5px;
 	height: 120px;
 	width: 100px;
-}
 
-.swatch small {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 20px;
-	font-size: 10px;
-	line-height: 20px;
-	background: #ffffff;
-	text-align: center;
+	small {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 20px;
+		font-size: 10px;
+		line-height: 20px;
+		background: @white;
+		text-align: center;
+	}
 }
 
 .grid-item {
@@ -105,12 +104,12 @@
 	color: #656d78;
 	text-align: center;
 	background: #ccd1d9;
-}
 
-.grid-item .grid-item {
-    margin-bottom: 0;
-    color: #ffffff;
-    background: #656d78;
+	.grid-item {
+		margin-bottom: 0;
+		color: @white;
+		background: #656d78;
+	}
 }
 
 .arrow-boxes {
@@ -124,24 +123,24 @@
     margin: 20px;
     width: 50px;
     height: 50px;
-    background: #05bed5;
+    background: @primary;
 }
 
 .footer {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
-}
 
-.footer p {
-	margin: 15px 0px;
-	font-size: 1.4rem;
-}
+	p {
+		margin: 15px 0px;
+		font-size: 1.4rem;
 
-.footer p:first-child {
-	margin-top: 0;
-}
+		&:first-child {
+			margin-top: 0;
+		}
 
-.footer p:last-child {
-	margin-bottom: 0;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
