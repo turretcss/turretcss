@@ -3,163 +3,254 @@
 @import './syntax.less';
 
 
+/*
+ * Docs Sidebar
+ */
+
 .docs-sidebar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: 270px;
-	height: 100%;
-	overflow: scroll;
-	border-right: 1px solid @light-grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 270px;
+  height: 100%;
+  overflow: scroll;
+  border-right: 1px solid @light-grey;
 }
 
 .docs-sidebar-title {
-	display: block;
-	padding: 10px;
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
+
+/*
+ * Docs Search
+ */
+
 .docs-search {
-	
+  position: relative;
 }
 
 .docs-search-input[type=search] {
-	margin: 0;
-	border: none;
-	border-radius: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
 }
+
+.docs-search-results {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  margin: 0;
+  margin-top: 4px;
+  padding: 0;
+  list-style: none;
+  background: @white;
+  box-shadow: 0px 1px 4px fade(@black, 10%);
+
+  li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid @light-grey;
+    border-width: 0px 1px 1px 1px;
+
+    &:first-child {
+      border-top: 1px solid @light-grey;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 12px;
+    .font-size(1.2);
+    color: @body-color;
+    .truncate();
+
+    &:hover,
+    &:focus {
+      color: @primary;
+      text-decoration: none;
+    }
+  }
+}
+
+.docs-search-no-results {
+  padding: 12px;
+  .font-size(1.2);
+  color: @body-color;
+  text-align: center;
+  border: 1px solid @light-grey;
+}
+
+
+/*
+ * Docs Navigation
+ */
 
 .docs-navigation {
-	border-top: 1px solid @light-grey;
+  border-top: 1px solid @light-grey;
 
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-	li {
-		margin: 0;
-		padding: 0;
-		border-bottom: 1px solid @light-grey;
+  li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid @light-grey;
 
-		ul {
-			display: none;
+    ul {
+      display: none;
 
-			li {
-				border: none;
+      li {
+        border: none;
 
-				a {
-					padding: 8px 16px;
-					.regular-font();
-					.font-size(1.2);
-				}
-			}
-		}
+        a {
+          padding: 8px 16px;
+          .regular-font();
+          .font-size(1.2);
+        }
+      }
+    }
 
-		&.active {
+    &.active {
 
-			ul {
-				display: block;
-			}
+      ul {
+        display: block;
+      }
 
-			a {
-				
-			}
-		}
-	}
+      a {
+        
+      }
+    }
+  }
 
-	a {
-		display: block;
-		padding: 12px;
-		.medium-font();
-		.font-size(1.4);
-		color: @body-color;
+  a {
+    display: block;
+    padding: 12px;
+    .medium-font();
+    .font-size(1.4);
+    color: @body-color;
 
-		&:hover,
-		&:focus {
-			text-decoration: none;
-		}
-	}
+    &:hover,
+    &:focus {
+      color: @primary;
+      text-decoration: none;
+    }
+  }
 }
+
+
+/*
+ * Docs Main
+ */
 
 .docs-main {
-	padding-left: 270px;
+  padding-left: 270px;
 }
+
+
+/*
+ * Docs Header
+ */
 
 .docs-header {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: @primary;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: @primary;
 
-	h1,
-	p {
-		color: @white;
-	}
+  h1,
+  p {
+    color: @white;
+  }
 
-	p {
-		margin-bottom: 0;
-		max-width: 800px;
-	}
+  p {
+    margin-bottom: 0;
+    max-width: 800px;
+  }
 
-	.lead {
-		font-weight: @regular-font-weight;
-	}
+  .lead {
+    font-weight: @regular-font-weight;
+  }
 }
+
+
+/*
+ * Docs Content
+ */
 
 .docs-content {
 
-	h2[id] {
-		margin-top: 50px;
-		padding-bottom: 12px;
-		font-weight: @thin-font-weight;
-		border-bottom: 1px solid @light-grey;
-	}
+  h2[id] {
+    margin-top: 50px;
+    padding-bottom: 12px;
+    font-weight: @thin-font-weight;
+    border-bottom: 1px solid @light-grey;
+  }
 
-	h3[id] {
-		margin-top: 35px;
-		margin-bottom: 35px;
-		.font-size(1.5);
-	}
+  h3[id] {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    .font-size(1.5);
+  }
 }
+
+
+/*
+ * Docs Swatch
+ */
 
 .docs-swatch {
-	position: relative;
-	display: inline-block;
-	margin: 5px;
-	height: 120px;
-	width: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  height: 120px;
+  width: 100px;
 
-	small {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 20px;
-		font-size: 10px;
-		line-height: 20px;
-		background: @white;
-		text-align: center;
-	}
+  small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    background: @white;
+    text-align: center;
+  }
 }
+
+
+/*
+ * Docs Grid Item
+ */
 
 .docs-grid-item {
-	padding: 15px;
-	font-size: 12px;
-	font-weight: 600;
-	color: #656d78;
-	text-align: center;
-	background: #ccd1d9;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #656d78;
+  text-align: center;
+  background: #ccd1d9;
 
-	.docs-grid-item {
-		margin-bottom: 0;
-		color: @white;
-		background: #656d78;
-	}
+  .docs-grid-item {
+    margin-bottom: 0;
+    color: @white;
+    background: #656d78;
+  }
 }
+
+
+/*
+ * Docs Arrow Boxes
+ */
 
 .docs-arrow-boxes {
     margin: 0 auto;
@@ -175,21 +266,26 @@
     background: @primary;
 }
 
+
+/*
+ * Docs Footer
+ */
+
 .docs-footer {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 
-	p {
-		margin: 15px 0px;
-		font-size: 1.4rem;
+  p {
+    margin: 15px 0px;
+    font-size: 1.4rem;
 
-		&:first-child {
-			margin-top: 0;
-		}
+    &:first-child {
+      margin-top: 0;
+    }
 
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
