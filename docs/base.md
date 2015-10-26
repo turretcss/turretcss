@@ -151,7 +151,7 @@ Some top level definitions for general styles on the `<body>` tag.
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #CCD1D9;
+@light-grey: #DEDEE4;
 @grey: #656D78;
 @dark-grey: #434A54;
 
@@ -162,7 +162,7 @@ Some top level definitions for general styles on the `<body>` tag.
 @success: #05BE55;
 
 //Palette
-@light: #E3E7EC;
+@light: #FAFAFD;
 @dark: @dark-grey;
 @primary: #05BED5;
 @secondary: #8D48AB;
