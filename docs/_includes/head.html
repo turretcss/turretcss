@@ -6,8 +6,8 @@
   <title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="ico/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 </head>
