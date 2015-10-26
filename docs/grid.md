@@ -17,7 +17,7 @@ By default the container has `@gutter` padding applied to the left and right of 
 @container-small: 100%;
 @container-medium: 1024px;
 @container-large: 1280px;
-@container-xlarge: 1680px;
+@container-xlarge: 1440px;
 ```
 
 ```html
