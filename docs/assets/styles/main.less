@@ -7,15 +7,21 @@
  * Docs Sidebar
  */
 
+@docs-sidebar-width: 270px;
+
 .docs-sidebar {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 270px;
+  width: @docs-sidebar-width;
   height: 100%;
-  overflow: scroll;
+  .overflow-scroll();
   border-right: 1px solid @light-grey;
+
+  @media @small-down {
+    .translateX(-@docs-sidebar-width);
+  }
 }
 
 
@@ -145,7 +151,10 @@
  */
 
 .docs-main {
-  padding-left: 270px;
+
+  @media @medium-up {
+    padding-left: @docs-sidebar-width;
+  }
 }
 
 
