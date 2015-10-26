@@ -206,18 +206,18 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 @base-font-size-xsmall: @base-font-size;
 
 // Font Sizes
-@font-size-xlarge: 2.4;
-@font-size-large: 1.8;
-@font-size-medium: 1.6;
-@font-size-small: 1.3;
+@font-size-xlarge: 1.8;
+@font-size-large: 1.6;
+@font-size-medium: 1.4;
+@font-size-small: 1.2;
 @font-size-xsmall: 1;
 
 // Line height
-@line-height-xlarge: 1.75;
-@line-height-large: 1.5;
-@line-height-medium: 1.35;
-@line-height-small: 1.2;
-@line-height-xsmall: 1;
+@line-height-xlarge: 1.8;
+@line-height-large: 1.65;
+@line-height-medium: 1.5;
+@line-height-small: 1.35;
+@line-height-xsmall: 1.2;
 ```
 
 ### Font Families
