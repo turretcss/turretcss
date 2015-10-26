@@ -17,9 +17,9 @@ Button styles are applied directly to the `<button>` element, button style and s
 // Button
 @button-padding: 12px 16px;
 @button-height: @height-medium;
-@button-font-family: @bold-font-family;
-@button-font-weight: @bold-font-weight;
-@button-font-size: 1.4;
+@button-font-family: @semibold-font-family;
+@button-font-weight: @semibold-font-weight;
+@button-font-size: @font-size-medium;
 @button-color: @dark-grey;
 @button-line-height: 1;
 @button-text-align: center;
