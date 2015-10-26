@@ -94,9 +94,9 @@ permalink: /docs/form/
 ```scss
 // Label
 @label-margin: 15px 0px;
-@label-font-family: @semibold-font-family;
-@label-font-weight: @semibold-font-weight;
-@label-font-size: 1.2;
+@label-font-family: @medium-font-family;
+@label-font-weight: @medium-font-weight;
+@label-font-size: @font-size-small;
 @label-color: @dark;
 @label-line-height: @line-height-medium;
 ```
