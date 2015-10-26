@@ -9,7 +9,7 @@ permalink: /docs/getting-started/
 
 There are four quick start ways to download Turret available:
 
-### Download the latest releas
+### Download the latest release
 
 <a class="button" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
 
