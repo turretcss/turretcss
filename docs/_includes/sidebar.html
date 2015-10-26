@@ -1,19 +1,7 @@
 <aside class="docs-sidebar">
+
   <a class="docs-sidebar-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-  <nav class="docs-navigation">
-    {% for group in site.data.nav %}
-      {% assign link = group.pages | first %}
-      {% assign slug = group.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-' %}
-      {% assign active = nil %}
-
-      {% if page.url contains slug %}
-        {% assign active = 'active' %}
-      {% endif %}
-
-      <a class="{{ active }}" href="/docs/{{ group.title | downcase | replace: ' ', '-' }}/">{{ group.title }}</a>
-
-    {% endfor %}
-  </nav>
+  {% include navigation.html %}
 
 </aside>

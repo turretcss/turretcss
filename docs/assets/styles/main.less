@@ -23,20 +23,55 @@
 }
 
 .docs-navigation {
+	border-top: 1px solid @light-grey;
 
-	a {
-		display: block;
-		padding: 15px 10px;
-		.font-size(1.4);
-		color: @body-color;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
 		border-bottom: 1px solid @light-grey;
 
-		&:first-child {
-			border-top: 1px solid @light-grey;
+		ul {
+			display: none;
+
+			li {
+				border: none;
+
+				a {
+					padding: 8px 16px;
+					.regular-font();
+					.font-size(1.2);
+				}
+			}
 		}
 
 		&.active {
-			color: @primary;
+
+			ul {
+				display: block;
+			}
+
+			a {
+				
+			}
+		}
+	}
+
+	a {
+		display: block;
+		padding: 12px;
+		.medium-font();
+		.font-size(1.4);
+		color: @body-color;
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
 		}
 	}
 }
