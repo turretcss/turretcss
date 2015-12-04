@@ -93,7 +93,7 @@ permalink: /docs/form/
 
 ```scss
 // Label
-@label-margin: 15px 0px;
+@label-margin: 1.6rem 0px;
 @label-font-family: @medium-font-family;
 @label-font-weight: @medium-font-weight;
 @label-font-size: @font-size-small;
@@ -114,11 +114,11 @@ permalink: /docs/form/
 ```scss
 // Fieldset
 @fieldset-margin: 0;
-@fieldset-padding: 20px;
+@fieldset-padding: 2rem;
 @fieldset-border: 1px solid @grey;
 
 // Feildset Legend
-@fieldset-legend-padding: 10px;
+@fieldset-legend-padding: 1rem;
 @fieldset-legend-font-size: @font-size-medium;
 @fieldset-legend-color: @grey;
 ```
@@ -207,7 +207,7 @@ permalink: /docs/form/
 // Input
 @input-height: @height-medium;
 @input-margin: @label-margin;
-@input-padding: 0 16px;
+@input-padding: 0 1.6rem;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
@@ -256,10 +256,10 @@ permalink: /docs/form/
 @input-disabled-border: 1px solid darken(@light, 10%);
 
 // Input Search
-@input-search-border-radius: 20px;
+@input-search-border-radius: 2rem;
 
 // Textarea
-@textarea-padding: 12px 16px;
+@textarea-padding: 1.6rem;
 @textarea-line-height: @line-height-medium;
 ```
 
@@ -421,27 +421,27 @@ permalink: /docs/form/
 
 ```scss
 // Input Extra Large
-@input-xlarge-padding: 0 30px;
+@input-xlarge-padding: 0 3.0rem;
 @input-xlarge-height: @height-xlarge;
 @input-xlarge-font-size: @font-size-xlarge;
 
 // Input Large
-@input-large-padding: 0 25px;
+@input-large-padding: 0 2.5rem;
 @input-large-height: @height-large;
 @input-large-font-size: @font-size-large;
 
 // Input Medium
-@input-medium-padding: 0 16px;
+@input-medium-padding: 0 1.6rem;
 @input-medium-height: @input-height;
 @input-medium-font-size: @input-font-size;
 
 // Input Small
-@input-small-padding: 0 12px;
+@input-small-padding: 0 1.2rem;
 @input-small-height: @height-small;
 @input-small-font-size: @font-size-small;
 
 // Input Extra Small
-@input-xsmall-padding: 0 8px;
+@input-xsmall-padding: 0 0.8rem;
 @input-xsmall-height: @height-xsmall;
 @input-xsmall-font-size: @font-size-xsmall;
 ```
@@ -577,11 +577,11 @@ permalink: /docs/form/
 ```scss
 // Control
 @control-margin: @input-margin;
-@control-padding: 0px 0px 0px 1.5em;
+@control-padding: 0 0 0 1.5em;
 @control-color: @input-color;
 
 // Control Indicator
-@control-indicator-size: 16px;
+@control-indicator-size: 1.6rem;
 @control-indicator-color: @primary;
 @control-indicator-background: @input-background;
 @control-indicator-border: @input-border;
@@ -592,7 +592,7 @@ permalink: /docs/form/
 @control-label-checked-color: @control-label-color;
 
 // Control Label
-@control-label-margin: 0px 0px 0px 10px;
+@control-label-margin: 0 0 0 1rem;
 @control-label-font-family: @input-font-family;
 @control-label-font-weight: @input-font-weight;
 @control-label-font-size: @label-font-size;
@@ -600,7 +600,7 @@ permalink: /docs/form/
 @control-label-line-height: @input-line-height;
 
 // Control Inline
-@control-inline-margin-right: 20px;
+@control-inline-margin-right: 2rem;
 
 // Checkbox
 @checkbox-border-radius: none;
@@ -739,14 +739,14 @@ permalink: /docs/form/
 @select-font-family: @input-font-family;
 @select-font-weight: @input-font-weight;
 @select-font-size: @input-font-size;
-@select-line-height: auto;
 @select-color: @input-color;
+@select-line-height: auto;
 @select-background: @input-background;
 @select-border: @input-border;
 @select-border-radius: @border-radius;
 
 // Select Arrow
-@select-arrow-size: 5px;
+@select-arrow-size: 0.4rem;
 @select-arrow-background: @dark;
 
 // Select Inverse

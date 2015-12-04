@@ -41,7 +41,7 @@ Containing element for children with `.column-1*` attributes set, used for a cle
 
 ```scss
 // Gutter
-@gutter: 15px;
+@gutter: 1.6rem;
 @gutter-xlarge: @gutter;
 @gutter-large: @gutter;
 @gutter-medium: @gutter;

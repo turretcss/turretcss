@@ -56,11 +56,11 @@ Height sizes for buttons, inputs, input-groups, selects etc.
 
 ```scss
 // Height
-@height-xlarge: 65px;
-@height-large: 50px;
-@height-medium: 40px;
-@height-small: 30px;
-@height-xsmall: 20px;
+@height-xlarge: 6.5rem;
+@height-large: 5.0rem;
+@height-medium: 4.0rem;
+@height-small: 3.0rem;
+@height-xsmall: 2.0rem;
 ```
 
 ### Margin
@@ -69,11 +69,11 @@ Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including 
 
 ```scss
 // Margin
-@margin-xlarge: 100px;
-@margin-large: 65px;
-@margin-medium: 50px;
-@margin-small: 35px;
-@margin-xsmall: 20px;
+@margin-xlarge: 10.0rem;
+@margin-large: 6.5rem;
+@margin-medium: 5.0rem;
+@margin-small: 3.5rem;
+@margin-xsmall: 2.0rem;
 ```
 
 ### Padding
@@ -82,11 +82,11 @@ Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including 
 
 ```scss
 // Padding
-@padding-xlarge: 100px;
-@padding-large: 65px;
-@padding-medium: 50px;
-@padding-small: 35px;
-@padding-xsmall: 20px;
+@padding-xlarge: 10.0rem;
+@padding-large: 6.5rem;
+@padding-medium: 5.0rem;
+@padding-small: 3.5rem;
+@padding-xsmall: 2.0rem;
 ```
 
 ### Max Width

@@ -16,14 +16,15 @@ permalink: /docs/typography/
 
 ```scss
 // Headings
-@headings-margin: 0px 0px 20px 0px;
+@headings-margin: 0 0 1em 0;
 @headings-font-family: @medium-font-family;
 @headings-font-weight: @medium-font-weight;
 @headings-color: @body-color;
-@headings-line-height: 1.1;
+@headings-line-height: @line-height-small;
 
 // Headings Small
 @headings-small-font-family: @medium-font-family;
+@headings-small-font-weight: @medium-font-weight;
 @headings-small-size: 0.6em;
 @headings-small-color: @grey;
 
@@ -78,7 +79,7 @@ permalink: /docs/typography/
 
 ```scss
 // Paragraph
-@paragraph-margin: 20px 0px;
+@paragraph-margin: 2rem 0;
 @paragraph-font-family: @regular-font-family;
 @paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-medium;
@@ -96,10 +97,10 @@ permalink: /docs/typography/
 
 ```scss
 // Lead
-@lead-margin: 0px 0px 20px 0px;
+@lead-margin: 0 0 2rem 0;
 @lead-font-family: @thin-font-family;
 @lead-font-weight: @thin-font-weight;
-@lead-font-size: 2;
+@lead-font-size: @font-size-large;
 @lead-color: @body-color;
 @lead-line-height: @line-height-medium;
 ```
@@ -114,7 +115,7 @@ permalink: /docs/typography/
 
 ```scss
 // Horizontal Rule
-@hr-margin: 35px auto;
+@hr-margin: 3rem auto;
 @hr-height: 1px;
 @hr-background: @light-grey;
 ```
@@ -132,8 +133,8 @@ permalink: /docs/typography/
 
 ```scss
 // Blockquote
-@blockquote-margin: 35px 0px;
-@blockquote-padding: 0px 30px;
+@blockquote-margin: 3rem 0;
+@blockquote-padding: 0 2rem;
 
 // Blockquote Quote
 @blockquote-quote-margin: 0;
@@ -145,13 +146,13 @@ permalink: /docs/typography/
 @blockquote-quote-color: @body-color;
 
 // Blockquote Cite
-@blockquote-cite-margin: 10px 0px;
+@blockquote-cite-margin: 1rem 0;
 @blockquote-cite-font-family: @regular-font-family;
 @blockquote-cite-font-weight: @regular-font-family;
 @blockquote-cite-font-size: @font-size-medium;
 @blockquote-cite-font-style: normal;
 @blockquote-cite-color: @blockquote-quote-color;
-@blockquote-cite-text-align: right;
+@blockquote-cite-text-align: left;
 ```
 
 ```html
@@ -174,7 +175,7 @@ permalink: /docs/typography/
 @pullout-font-size: @blockquote-quote-font-size;
 @pullout-color: @blockquote-quote-color;
 @pullout-border: solid @primary;
-@pullout-border-width:  0px 0px 0px 5px;
+@pullout-border-width: 0 0 0 0.4rem;
 ```
 
 ```html
@@ -185,18 +186,18 @@ permalink: /docs/typography/
 
 ```scss
 // List
-@list-margin: 20px 0px;
+@list-margin: 2rem 0;
 @list-padding: 0;
 
 // Lists Item
-@list-item-margin: 10px 0px 10px 20px;
+@list-item-margin: 1rem 0 1rem 2rem;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
 @list-item-color: @paragraph-color;
 
 // Child List
-@child-list-margin: 10px 0px;
+@child-list-margin: 1rem 0;
 @child-list-padding: 0;
 @child-list-item-margin: @list-item-margin;
 ```
@@ -272,14 +273,14 @@ permalink: /docs/typography/
 @definition-list-padding: 0;
 
 // Definition Term
-@definition-term-margin: 10px 0px;
+@definition-term-margin: 1rem 0;
 @definition-term-font-family: @semibold-font-family;
 @definition-term-font-weight: @semibold-font-weight;
 @definition-term-font-size: @font-size-medium;
 @definition-term-color: @paragraph-color;
 
 // Definition Description
-@definition-description-margin: 0px 0px 20px 0px;
+@definition-description-margin: 0 0 2rem 0;
 @definition-description-font-family: @regular-font-family;
 @definition-description-font-weight: @regular-font-weight;
 @definition-description-font-size: @font-size-medium;
@@ -315,8 +316,8 @@ permalink: /docs/typography/
 
 ```scss
 // Pre
-@pre-margin: 20px 0px;
-@pre-padding: 10px;
+@pre-margin: 2rem 0;
+@pre-padding: 1rem;
 @pre-color: @body-color;
 @pre-tab-size: 4;
 @pre-hyphens: none;
@@ -338,8 +339,8 @@ permalink: /docs/typography/
 
 ```scss
 // Kbd
-@kbd-margin: 0px 5px;
-@kbd-padding: 4px;
+@kbd-margin: 0 0.5rem;
+@kbd-padding: 0.4rem;
 @kbd-font-family: @code-font-family;
 @kbd-font-weight: @code-font-weight;
 @kbd-font-size: @code-font-size;

@@ -15,7 +15,7 @@ Button styles are applied directly to the `<button>` element, button style and s
 
 ```scss
 // Button
-@button-padding: 12px 16px;
+@button-padding: 1.2rem 1.6rem;
 @button-height: @height-medium;
 @button-font-family: @semibold-font-family;
 @button-font-weight: @semibold-font-weight;
@@ -230,12 +230,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 
 ```scss
 // Button Extra Large
-@button-xlarge-padding: 20px 30px;
+@button-xlarge-padding: 2.0rem 3.0rem;
 @button-xlarge-height: @height-xlarge;
 @button-xlarge-font-size: @font-size-xlarge;
 
 // Button Large
-@button-large-padding: 15px 25px;
+@button-large-padding: 1.5rem 2.5rem;
 @button-large-height: @height-large;
 @button-large-font-size: @font-size-large;
 
@@ -245,12 +245,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 @button-medium-font-size: @button-font-size;
 
 // Button Small
-@button-small-padding: 8px 12px;
+@button-small-padding: 0.8rem 1.2rem;
 @button-small-height: @height-small;
 @button-small-font-size: @font-size-small;
 
 // Button Extra Small
-@button-xsmall-padding: 4px 8px;
+@button-xsmall-padding: 0.4rem 0.8rem;
 @button-xsmall-height: @height-xsmall;
 @button-xsmall-font-size: @font-size-xsmall;
 ```
@@ -547,11 +547,11 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 // Figure
 @figure-display: block;
 @figure-margin: 0;
-@figure-padding: 10px;
+@figure-padding: 1rem;
 @figure-border: 1px solid @light-grey;
 
 // Figure Caption
-@figure-caption-margin: 10px 0px;
+@figure-caption-margin: 1rem 0;
 @figure-caption-font-family: @paragraph-font-family;
 @figure-caption-font-weight: @paragraph-font-weight;
 @figure-caption-font-size: @paragraph-font-size;
@@ -625,7 +625,7 @@ For menu and navigation components use the `<nav>` element wrapped around an uno
 ```scss
 // Nav
 @nav-list-margin: 0;
-@nav-item-margin: 10px 0px;
+@nav-item-margin: 1rem 0;
 ```
 
 ```html
@@ -656,7 +656,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 ```scss
 // Nav Inline
-@nav-inline-item-margin: 0px 10px;
+@nav-inline-item-margin: 0 1rem;
 ```
 
 ```html
