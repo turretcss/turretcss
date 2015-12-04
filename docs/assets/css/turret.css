@@ -6246,6 +6246,120 @@ button.info:not(:disabled):focus,
 /*
  * Button Icon
  */
+.button-icon > svg {
+  position: relative;
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: inherit;
+  vertical-align: bottom;
+  -webkit-transition: fill 0.2s ease-in-out;
+  transition: fill 0.2s ease-in-out;
+}
+.button-icon-left > svg {
+  margin-right: 0.8rem;
+}
+.button-icon-right > svg {
+  margin-left: 0.8rem;
+}
+/*
+ * Button Icon Styles
+ */
+.button-icon.button-inverse > svg {
+  fill: #fafafd;
+}
+.button-icon.button-inverse:not(:disabled):hover > svg,
+.button-icon.button-inverse:not(:disabled):focus > svg {
+  fill: #fafafd;
+}
+.button-icon.button-text > svg {
+  fill: #434a54;
+}
+.button-icon.button-text:not(:disabled):hover > svg,
+.button-icon.button-text:not(:disabled):focus > svg {
+  fill: #05bed5;
+}
+.button-icon.button-primary > svg {
+  fill: #ffffff;
+}
+.button-icon.button-primary:not(:disabled):hover > svg,
+.button-icon.button-primary:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.button-secondary > svg {
+  fill: #ffffff;
+}
+.button-icon.button-secondary:not(:disabled):hover > svg,
+.button-icon.button-secondary:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.button-tertiary > svg {
+  fill: #ffffff;
+}
+.button-icon.button-tertiary:not(:disabled):hover > svg,
+.button-icon.button-tertiary:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.button-border > svg {
+  fill: #434a54;
+}
+.button-icon.button-border:not(:disabled):hover > svg,
+.button-icon.button-border:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+/*
+ * Button Icon Indicators
+ */
+.button-icon.error > svg {
+  fill: #ffffff;
+}
+.button-icon.error:not(:disabled):hover > svg,
+.button-icon.error:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.warning > svg {
+  fill: #ffffff;
+}
+.button-icon.warning:not(:disabled):hover > svg,
+.button-icon.warning:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.success > svg {
+  fill: #ffffff;
+}
+.button-icon.success:not(:disabled):hover > svg,
+.button-icon.success:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+.button-icon.info > svg {
+  fill: #ffffff;
+}
+.button-icon.info:not(:disabled):hover > svg,
+.button-icon.info:not(:disabled):focus > svg {
+  fill: #ffffff;
+}
+/*
+ * Button Sizes
+ */
+.button-icon.button-xlarge > svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.button-icon.button-large > svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.button-icon.button-medium > svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.button-icon.button-small > svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.button-icon.button-xsmall > svg {
+  width: 1rem;
+  height: 1rem;
+}
 /*
  * Button Group
  */
