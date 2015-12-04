@@ -508,32 +508,32 @@ permalink: /docs/form/
   
   <div class="input-group">
     <input class="input-xlarge" type="text" placeholder="Input Group Extra Large">
-    <span class="input-group-button input-group-button-xlarge">
-      <button class="button" type="submit">Submit</button>
+    <span class="input-group-button">
+      <button class="button button-xlarge" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
     <input class="input-large" type="text" placeholder="Input Group Large">
-    <span class="input-group-button input-group-button-large">
-      <button class="button" type="submit">Submit</button>
+    <span class="input-group-button">
+      <button class="button button-large" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
     <input class="input-medium" type="text" placeholder="Input Group Medium">
-    <span class="input-group-button input-group-button-medium">
-      <button class="button" type="submit">Submit</button>
+    <span class="input-group-button">
+      <button class="button button-medium" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
     <input class="input-small" type="text" placeholder="Input Group Small">
-    <span class="input-group-button input-group-button-small">
-      <button class="button" type="submit">Submit</button>
+    <span class="input-group-button">
+      <button class="button button-small" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
     <input class="input-xsmall" type="text" placeholder="Input Group Extra Small">
-    <span class="input-group-button input-group-button-xsmall">
-      <button class="button" type="submit">Submit</button>
+    <span class="input-group-button">
+      <button class="button button-xsmall" type="submit">Submit</button>
     </span>
   </div>
 
@@ -542,32 +542,32 @@ permalink: /docs/form/
 ```html  
 <div class="input-group">
   <input class="input-xlarge" type="text" placeholder="Input Group Extra Large">
-  <span class="input-group-button input-group-button-xlarge">
-    <button class="button" type="submit">Submit</button>
+  <span class="input-group-button">
+    <button class="button button-xlarge" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
   <input class="input-large" type="text" placeholder="Input Group Large">
-  <span class="input-group-button input-group-button-large">
-    <button class="button" type="submit">Submit</button>
+  <span class="input-group-button">
+    <button class="button button-large" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
   <input class="input-medium" type="text" placeholder="Input Group Medium">
-  <span class="input-group-button input-group-button-medium">
-    <button class="button" type="submit">Submit</button>
+  <span class="input-group-button">
+    <button class="button button-medium" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
   <input class="input-small" type="text" placeholder="Input Group Small">
-  <span class="input-group-button input-group-button-small">
-    <button class="button" type="submit">Submit</button>
+  <span class="input-group-button">
+    <button class="button button-small" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
   <input class="input-xsmall" type="text" placeholder="Input Group Extra Small">
-  <span class="input-group-button input-group-button-xsmall">
-    <button class="button" type="submit">Submit</button>
+  <span class="input-group-button">
+    <button class="button button-xsmall" type="submit">Submit</button>
   </span>
 </div>
 ```
