@@ -306,7 +306,50 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 @screen-xlarge-min: @screen-xlarge;
 ```
 
-{% include tables/breakpoints.html %}
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th width="25%">Breakpoint</th>
+        <th width="25%">Device</th>
+        <th width="25%">Min Width</th>
+        <th width="25%">Max Width</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>xsmall</td>
+        <td>Phone</td>
+        <td class="is-null"></td>
+        <td>767px</td>
+      </tr>
+      <tr>
+        <td>small</td>
+        <td>Tablet</td>
+        <td>768px</td>
+        <td>1023px</td>
+      </tr>
+      <tr>
+        <td>medium</td>
+        <td>Laptop</td>
+        <td>1024px</td>
+        <td>1279px</td>
+      </tr>
+      <tr>
+        <td>large</td>
+        <td>Desktop</td>
+        <td>1280px</td>
+        <td>1679px</td>
+      </tr>
+      <tr>
+        <td>xlarge</td>
+        <td>Large Screen</td>
+        <td>1680px</td>
+        <td class="is-null"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Media Queries
 

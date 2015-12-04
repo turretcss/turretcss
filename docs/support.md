@@ -7,7 +7,52 @@ permalink: /docs/support/
 
 ## Browsers
 
-{% include tables/browsers.html %}
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <td></td>
+        <th>Chrome</th>
+        <th>Firefox</th>
+        <th>Internet Explorer</th>
+        <th>Opera</th>
+        <th>Safari</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Android</th>
+        <td class="is-supported">Supported</td>
+        <td class="is-unsupported">Not supported</td>
+        <td rowspan="3" style="vertical-align: middle;">N/A</td>
+        <td class="is-unsupported">Not supported</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <th>iOS</th>
+        <td class="is-supported">Supported</td>
+        <td>N/A</td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-supported">Supported</td>
+      </tr>
+      <tr>
+        <th>Mac OS X</th>
+        <td class="is-supported">Supported</td>
+        <td class="is-supported">Supported</td>
+        <td class="is-supported">Supported</td>
+        <td class="is-supported">Supported</td>
+      </tr>
+      <tr>
+        <th>Windows</th>
+        <td class="is-supported">Supported</td>
+        <td class="is-supported">Supported</td>
+        <td class="is-supported">Supported (IE9+)</td>
+        <td class="is-supported">Supported</td>
+        <td class="is-unsupported">Not supported</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### Android Default Browser
 
@@ -62,6 +107,43 @@ IE8 does not fully support `box-sizing: border-box;` when combined with `min-wid
 
 Some CSS3 properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.
 
-{% include tables/css.html %}
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>IE8</th>
+        <th>IE9</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>border-radius</code></td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-supported">Supported</td>
+      </tr>
+      <tr>
+        <td><code>box-shadow</code></td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-supported">Supported</td>
+      </tr>
+      <tr>
+        <td><code>transform</code></td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-supported">2D transforms supported, with <code>-ms</code> prefix</td>
+      </tr>
+      <tr>
+        <td><code>transition</code></td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-unsupported">Not supported</td>
+      </tr>
+      <tr>
+        <td><code>placeholder</code></td>
+        <td class="is-unsupported">Not supported</td>
+        <td class="is-unsupported">Not supported</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Visit [Can I Use](http://caniuse.com/) for details on browser support of CSS3 and HTML5 features.
