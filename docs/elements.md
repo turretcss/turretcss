@@ -670,7 +670,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 </nav>
 ```
 
-## Title
+## Table
 
 <table>
   <caption>Table Caption</caption>
@@ -703,10 +703,11 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 ```scss
 // Table
 @table-background: none;
+@table-border: 1px solid @light-grey;
 @table-border-radius: @border-radius;
 
 // Table Caption
-@table-caption-margin: 5px 10px;
+@table-caption-margin: 1rem 0;
 @table-caption-font-family: @bold-font-family;
 @table-caption-font-weight: @bold-font-weight;
 @table-caption-font-size: @font-size-medium;
@@ -714,176 +715,41 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 @table-caption-text-align: left;
 
 // Table Head
-@table-head-padding: 10px;
+@table-head-padding: 1rem;
 @table-head-font-family: @bold-font-family;
 @table-head-font-weight: @bold-font-weight;
 @table-head-font-size: @paragraph-font-size;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
+@table-head-border: @table-border;
+@table-head-background: @light;
 
-// Table Body
-@table-cell-padding: 10px;
+// Table Cell
+@table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
 @table-cell-font-size: @paragraph-font-size;
 @table-cell-color: @body-color;
 @table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
+@table-cell-border: @table-border;
 ```
 
 ```html
 <table>
-  <caption>Table Caption</caption>
   <thead>
     <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
+      <th scope="col">...</th>
+      <th scope="col">...</th>
+      <th scope="col">...</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-### Table Border
-
-<table class="table-bordered">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
-
-```scss
-// Table Border
-@table-border: solid @light-grey;
-@table-border-width: 1px;
-```
-
-```html
-<table class="table-bordered">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-### Table Block
-
-<table class="table-bordered table-block">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
-
-```scss
-// Table Block
-@table-block-head-background: @light;
-```
-
-```html
-<table class="table-bordered table-block">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
   </tbody>
 </table>
@@ -891,67 +757,57 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 ### Table Reponsive
 
-<table class="table-bordered table-block table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Vestibulum Sem Ipsum</th>
+        <th scope="col">Dolor Fringilla</th>
+        <th scope="col">Amet Mattis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ```scss
 // Table Reponsive
-@table-responsive-breakpoint: @small-down;
-@table-responsive-row-margin: 20px 0px;
-@table-responsive-cell-padding: 10px;
-@table-responsive-border: solid @light;
-@table-responsive-border-width: 1px;
+@table-responsive-breakpoint: @xsmall;
 ```
 
 ```html
-<table class="table-bordered table-block table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Vestibulum Sem Ipsum</th>
-      <th scope="col">Dolor Fringilla</th>
-      <th scope="col">Amet Mattis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-    <tr>
-      <td>Egestas Ipsum Nibh</td>
-      <td>Magna Nullam</td>
-      <td>Consectetur Euismod</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">...</th>
+        <th scope="col">...</th>
+        <th scope="col">...</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 ```
