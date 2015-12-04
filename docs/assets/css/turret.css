@@ -6256,10 +6256,10 @@ button.info:not(:disabled):focus,
   transition: fill 0.2s ease-in-out;
 }
 .button-icon-left > svg {
-  margin-right: 0.8rem;
+  margin-right: 1em;
 }
 .button-icon-right > svg {
-  margin-left: 0.8rem;
+  margin-left: 1em;
 }
 /*
  * Button Icon Styles

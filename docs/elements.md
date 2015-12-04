@@ -280,8 +280,8 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 // Button Icon
 @button-icon-size: @button-font-size;
 @button-icon-fill: @button-color;
-@button-icon-left-margin: 0.8rem;
-@button-icon-right-margin: 0.8rem;
+@button-icon-left-margin: 1em;
+@button-icon-right-margin: 1em;
 
 // Button Icon Styles
 @button-icon-inverse-fill: @button-inverse-color;
@@ -318,10 +318,10 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ```html
 <button class="button button-icon button-icon-right">
   Button Icon
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-left">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24"><path d="M24 4.3c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-2.7 0-4.9 2.2-4.9 4.9 0 .4 0 .8.1 1.1-4.1-.2-7.7-2.2-10.2-5.2-.4.7-.7 1.6-.7 2.5 0 1.7.9 3.2 2.2 4.1-.8 0-1.6-.2-2.2-.6v.1c0 2.4 1.7 4.4 4 4.8-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.6 3.4-1.7 1.3-3.8 2.1-6.1 2.1-.4 0-.8 0-1.2-.1 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14-7.5 14-14v-.6c.9-.6 1.7-1.5 2.4-2.5z"/></svg>
+  <svg>...</svg>
   Button Icon
 </button>
 ```
@@ -362,31 +362,31 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ```html
 <button class="button button-icon button-icon-right">
   Button
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-inverse">
   Inverse
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-primary">
   Primary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-secondary">
   Secondary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-tertiary">
   Tertiary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-border">
   Border
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-text">
   Text
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 ```
 
@@ -414,31 +414,31 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ```html
 <button class="button button-icon button-icon-right">
   Button
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-inverse">
   Inverse
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-primary">
   Primary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-secondary">
   Secondary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-tertiary">
   Tertiary
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-border">
   Border
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-text">
   Text
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 ```
 
@@ -470,23 +470,23 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ```html
 <button class="button button-icon button-icon-right button-xlarge">
   Extra Large
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-large">
   Large
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-medium">
   Medium
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-small">
   Small
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 <button class="button button-icon button-icon-right button-xsmall">
   Extra Small
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  <svg>...</svg>
 </button>
 ```
 
