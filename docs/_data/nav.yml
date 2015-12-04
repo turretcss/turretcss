@@ -9,6 +9,7 @@
 - title: Base
   pages:
     - title: Global
+    - title: Root
     - title: Body
     - title: Colors
     - title: Font

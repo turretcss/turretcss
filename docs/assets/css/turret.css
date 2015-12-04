@@ -376,6 +376,40 @@ th {
  * Definitions
  */
 /*
+ * Root Size
+ */
+:root {
+  font-size: 10px;
+}
+@media (min-width: 1680px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1679px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    font-size: 9px;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    font-size: 9px;
+  }
+}
+/*
+ * Definitions
+ */
+/*
  * Body
  */
 html * {
@@ -406,37 +440,6 @@ body {
 /*
  * Definitions
  */
-/*
- * Font Size
- */
-html {
-  font-size: 10px;
-}
-@media (min-width: 1680px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (min-width: 1280px) and (max-width: 1679px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (max-width: 767px) {
-  html {
-    font-size: 10px;
-  }
-}
 /*
  * Definitions
  */
@@ -5958,7 +5961,7 @@ button,
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  padding: 12px 16px;
+  padding: 1.2rem 1.6rem;
   height: 40px;
   font-size: 1.4rem;
   color: #434a54;
@@ -6199,7 +6202,7 @@ button.info:not(:disabled):focus,
   font-size: 1.6rem;
 }
 .button-medium {
-  padding: 12px 16px;
+  padding: 1.2rem 1.6rem;
   height: 40px;
   font-size: 1.4rem;
 }

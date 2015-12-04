@@ -102,6 +102,20 @@ Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, includi
 @max-width-xsmall: 450px;
 ```
 
+## Root
+
+Sets @root-size on the `:root` element with responsive breakpoints.
+
+```scss
+// Root Size
+@root-size: 10px;
+@root-size-xlarge: @root-size;
+@root-size-large: @root-size;
+@root-size-medium: @root-size;
+@root-size-small: @root-size - 1;
+@root-size-xsmall: @root-size - 1;
+```
+
 ## Body
 
 Some top level definitions for general styles on the `<body>` tag.
@@ -196,14 +210,6 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 @medium-font-weight: 500;
 @semibold-font-weight: 600;
 @bold-font-weight: 700;
-
-// Base Font Size
-@base-font-size: 10px;
-@base-font-size-xlarge: @base-font-size;
-@base-font-size-large: @base-font-size;
-@base-font-size-medium: @base-font-size;
-@base-font-size-small: @base-font-size;
-@base-font-size-xsmall: @base-font-size;
 
 // Font Sizes
 @font-size-xlarge: 1.8;

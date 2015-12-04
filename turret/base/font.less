@@ -22,14 +22,6 @@
 @semibold-font-weight: 600;
 @bold-font-weight: 700;
 
-// Base Font Size
-@base-font-size: 10px;
-@base-font-size-xlarge: @base-font-size;
-@base-font-size-large: @base-font-size;
-@base-font-size-medium: @base-font-size;
-@base-font-size-small: @base-font-size;
-@base-font-size-xsmall: @base-font-size;
-
 // Font Sizes
 @font-size-xlarge: 1.8;
 @font-size-large: 1.6;
@@ -43,32 +35,3 @@
 @line-height-medium: 1.5;
 @line-height-small: 1.35;
 @line-height-xsmall: 1.2;
-
-
-/*
- * Font Size
- */
-
-html {
-	font-size: @base-font-size;
-
-	@media @xlarge {
-		font-size: @base-font-size-xlarge;
-	}
-	
-	@media @large {
-		font-size: @base-font-size-large;
-	}
-
-	@media @medium {
-		font-size: @base-font-size-medium;
-	}
-	
-	@media @small {
-		font-size: @base-font-size-small;
-	}
-
-	@media @xsmall {
-		font-size: @base-font-size-xsmall;
-	}
-}
