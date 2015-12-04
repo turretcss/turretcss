@@ -6543,70 +6543,78 @@ nav ul li,
 /*
  * Table
  */
-table {
+table,
+.table {
+  width: 100%;
   background: none;
+  border: 1px solid #dedee4;
   border-radius: 2px;
 }
-table caption {
-  margin: 5px 10px;
+table caption,
+.table caption {
+  margin: 1rem 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   color: #434a54;
   text-align: left;
 }
-th {
-  padding: 10px;
+table th,
+.table th {
+  padding: 1rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   color: #434a54;
   text-align: left;
   text-transform: none;
+  background: #fafafd;
+  border: 1px solid #dedee4;
 }
-td {
-  padding: 10px;
+table td,
+.table td {
+  padding: 1rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   color: #434a54;
   line-height: 1.5;
   vertical-align: middle;
+  border: 1px solid #dedee4;
 }
-.table-bordered th,
-.table-bordered td {
-  border: solid #dedee4;
-  border-width: 1px;
+.table-responsive {
+  overflow-x: auto;
+  min-height: 0.01%;
 }
-.table-block {
-  width: 100%;
-}
-.table-block th {
-  background: #fafafd;
-}
-@media (max-width: 1023px) {
-  .table-responsive table,
-  .table-responsive thead,
-  .table-responsive tbody,
-  .table-responsive th,
-  .table-responsive td,
-  .table-responsive tr {
-    display: block;
+@media (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dedee4;
   }
-  .table-responsive thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .table-responsive tr {
-    margin: 20px 0px;
-    border: solid #fafafd;
-    border-width: 1px;
-  }
-  .table-responsive td {
-    position: relative;
-    padding: 10px;
+  .table-responsive > table {
     border: none;
+  }
+  .table-responsive > table th,
+  .table-responsive > table td {
+    white-space: nowrap;
+  }
+  .table-responsive > table th:first-child,
+  .table-responsive > table td:first-child {
+    border-left: none;
+  }
+  .table-responsive > table th:last-child,
+  .table-responsive > table td:last-child {
+    border-right: none;
+  }
+  .table-responsive > table tr:first-child > th,
+  .table-responsive > table tr:first-child > td {
+    border-top: none;
+  }
+  .table-responsive > table tr:last-child > th,
+  .table-responsive > table tr:last-child > td {
+    border-bottom: none;
   }
 }
 /*
