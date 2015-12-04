@@ -5225,12 +5225,6 @@ textarea {
   background: #ffffff;
   border: 1px solid #dedee4;
 }
-input:focus,
-textarea:focus {
-  color: #434a54;
-  background: #fafafa;
-  border: 1px solid #c2c2cd;
-}
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5273,6 +5267,18 @@ input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
   color: rgba(67, 74, 84, 0.25);
 }
+input:hover,
+textarea:hover {
+  color: #434a54;
+  background: #fafafa;
+  border: 1px solid #c2c2cd;
+}
+input:focus,
+textarea:focus {
+  color: #434a54;
+  background: #fafafa;
+  border: 1px solid #05bed5;
+}
 input:disabled,
 textarea:disabled {
   cursor: no-drop;
@@ -5294,11 +5300,6 @@ textarea {
 .input-inverse {
   color: #ffffff;
   background: #434a54;
-  border: none;
-}
-.input-inverse:focus {
-  color: #ffffff;
-  background: #3e454e;
   border: none;
 }
 .input-inverse::-moz-placeholder {
@@ -5336,6 +5337,16 @@ textarea {
 }
 .input-inverse:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
+}
+.input-inverse:hover {
+  color: #ffffff;
+  background: #3e454e;
+  border: none;
+}
+.input-inverse:focus {
+  color: #ffffff;
+  background: #3e454e;
+  border: none;
 }
 /*
  * Input Search
