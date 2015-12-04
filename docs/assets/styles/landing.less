@@ -1,11 +1,10 @@
 /*
- * Landing Header
+ * Landing Hero
  */
 
-.landing-header {
+.landing-hero {
   padding-top: @padding-large;
   padding-bottom: @padding-large;
-  background: @primary;
   text-align: center;
 
   h1,
@@ -27,6 +26,27 @@
   }
 }
 
+.landing-hero-light {
+  background: @light;
+
+  h1,
+  h2,
+  p {
+    color: @body-color;
+  }
+}
+
+.landing-hero-primary {
+  background: @primary;
+}
+
+.landing-hero-secondary {
+  background: @secondary;
+}
+
+.landing-hero-tertiary {
+  background: @tertiary;
+}
 
 /*
  * Landing Button
@@ -43,9 +63,42 @@
 
     &:hover,
     &:focus {
-      color: @primary;
+      color: @dark;
       background: @white;
       border: 1px solid @white;
+    }
+  }
+}
+
+.landing-button-primary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @primary;
+    }
+  }
+}
+
+.landing-button-secondary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @secondary;
+    }
+  }
+}
+
+.landing-button-tertiary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @tertiary;
     }
   }
 }
@@ -78,18 +131,18 @@
   display: flex;
   flex-wrap: wrap;
   margin: -@gutter;
+  justify-content: center;
 }
 
 .card {
   padding: @gutter;
-  flex: 1 0 100%;
+  flex: 1 0 25%;
+  min-width: 280px;
+  max-width: 320px;
 
-  @media @small-up {
-    flex: 1 0 50%;
-  }
-
-  @media @large-up {
-    flex: 1 0 25%;
+  figure {
+    margin-bottom: @margin-xsmall;
+    border: none;
   }
 
   svg {
@@ -103,16 +156,8 @@
   display: flex;
   flex-direction: column;
 
-  h2 {
-    line-height: 1;
-  }
-
   p {
     margin: 0;
-    flex: 1;
-  }
-
-  a {
-    margin-top: 35px;
+    flex: 1 0 auto;
   }
 }
