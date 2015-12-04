@@ -418,15 +418,127 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>flex</code></td>
-        <td>Adds <code>display: flex;</code> and <code>align-items: center;</code> styles</td>
+        <td>Applies <code>display: flex;</code> to element</td>
       </tr>
       <tr>
-        <td><code>flex-left</code></td>
-        <td>Flex aligns element left</td>
+        <td><code>inline-flex</code></td>
+        <td>Applies <code>display: inline-flex;</code> to element</td>
       </tr>
       <tr>
-        <td><code>flex-right</code></td>
-        <td>Flex aligns element right</td>
+        <td><code>flex-wrap</code></td>
+        <td>Applies <code>flex-wrap: wrap;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-nowrap</code></td>
+        <td>Applies <code>flex-wrap: nowrap;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-row</code></td>
+        <td>Applies <code>flex-direction: row;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-column</code></td>
+        <td>Applies <code>flex-direction: column;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-1</code></td>
+        <td>Applies <code>flex: 1;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-1-1-auto</code></td>
+        <td>Applies <code>flex: 1 1 auto;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-1-0-auto</code></td>
+        <td>Applies <code>flex: 1 0 auto;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-0-0-auto</code></td>
+        <td>Applies <code>flex: 0 0 auto;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>justify-content-flex-start</code></td>
+        <td>Applies <code>justify-content: flex-start;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>justify-content-flex-end</code></td>
+        <td>Applies <code>justify-content: flex-end;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>justify-content-center</code></td>
+        <td>Applies <code>justify-content: center;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>justify-content-space-between</code></td>
+        <td>Applies <code>justify-content: space-between;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>justify-content-space-around</code></td>
+        <td>Applies <code>justify-content: space-around;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-flex-start</code></td>
+        <td>Applies <code>align-content: flex-start;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-flex-end</code></td>
+        <td>Applies <code>align-content: flex-end;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-center</code></td>
+        <td>Applies <code>align-content: center;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-space-between</code></td>
+        <td>Applies <code>align-content: space-between;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-space-around</code></td>
+        <td>Applies <code>align-content: space-around;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-content-stretch</code></td>
+        <td>Applies <code>align-content: stretch;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-items-flex-start</code></td>
+        <td>Applies <code>align-items: flex-start;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-items-flex-end</code></td>
+        <td>Applies <code>align-items: flex-end;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-items-center</code></td>
+        <td>Applies <code>align-items: center;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-items-baseline</code></td>
+        <td>Applies <code>align-items: baseline;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-items-stretch</code></td>
+        <td>Applies <code>align-items: stretch;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-self-flex-start</code></td>
+        <td>Applies <code>align-self: flex-start;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-self-flex-end</code></td>
+        <td>Applies <code>align-self: flex-end;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-self-center</code></td>
+        <td>Applies <code>align-self: center;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-self-baseline</code></td>
+        <td>Applies <code>align-self: baseline;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>align-self-stretch</code></td>
+        <td>Applies <code>align-self: stretch;</code> to element</td>
       </tr>
     </tbody>
   </table>
