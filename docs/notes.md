@@ -28,7 +28,7 @@ Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/
 
 ## License Notes
 
-Turret is released under the MIT license and is copyright 2015 Twitter. Boiled down to smaller chunks, it can be described with the following conditions.
+Turret is released under the MIT license and is copyright 2015 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
 
 **It requires you to:**
 
@@ -46,8 +46,8 @@ Turret is released under the MIT license and is copyright 2015 Twitter. Boiled d
 *  Hold the authors and license owners liable for damages as Turret is provided without warranty
 *  Hold the creators or copyright holders of Turret liable
 *  Redistribute any piece of Turret without proper attribution
-*  Use any marks owned by Bigfish.tv in any way that might state or imply that Bigfish.tv endorses your distribution
-*  Use any marks owned by Bigfish.tv in any way that might state or imply that you created the Bigfish.tv software in question
+*  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="http://bigfish.tv">bigfish.tv</a> endorses your distribution
+*  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="http://bigfish.tv">bigfish.tv</a> software in question
 
 **It does not require you to:**
 
