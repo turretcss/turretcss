@@ -181,6 +181,7 @@ turret/
     ├ button-indicators.less
     ├ button-sizes.less
     ├ button-group.less
+    ├ button-icon.less
     ├ figure.less
     ├ media.less
     ├ nav.less
