@@ -153,7 +153,7 @@ permalink: /docs/form/
 @form-message-margin: @label-margin;
 @form-message-font-family: @paragraph-font-family;
 @form-message-font-weight: @paragraph-font-weight;
-@form-message-font-size: 1.2;
+@form-message-font-size: @font-size-small;
 @form-message-color: @body-color;
 @form-message-line-height: @paragraph-line-height;
 
