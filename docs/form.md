@@ -115,7 +115,7 @@ permalink: /docs/form/
 // Fieldset
 @fieldset-margin: 0;
 @fieldset-padding: 2rem;
-@fieldset-border: 1px solid @grey;
+@fieldset-border: 1px solid @light-grey;
 
 // Feildset Legend
 @fieldset-legend-padding: 1rem;
