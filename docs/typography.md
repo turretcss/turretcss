@@ -195,6 +195,7 @@ permalink: /docs/typography/
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
 @list-item-color: @paragraph-color;
+@list-item-line-height: @paragraph-line-height;
 
 // Child List
 @child-list-margin: 1rem 0;

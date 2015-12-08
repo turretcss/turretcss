@@ -723,6 +723,7 @@ ol li {
   font-weight: 400;
   font-size: 1.4rem;
   color: #434a54;
+  line-height: 1.5;
 }
 ul li ul,
 ol li ul {
