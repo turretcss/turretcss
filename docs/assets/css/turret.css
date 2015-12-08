@@ -664,15 +664,21 @@ hr {
 blockquote {
   margin: 3rem 0;
   padding: 0 2rem;
-}
-blockquote p {
-  margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   font-style: normal;
   line-height: 1.5;
   color: #434a54;
+}
+blockquote p {
+  margin: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 blockquote cite {
   display: block;
