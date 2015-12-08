@@ -1,5 +1,5 @@
 /*!
- * Turret v3.1.5
+ * Turret v3.2.0
  * http://turret.bigfish.tv
  *
  * Licensed under the MIT license.
@@ -5171,7 +5171,7 @@ fieldset {
   display: block;
   margin: 0;
   padding: 2rem;
-  border: 1px solid #656d78;
+  border: 1px solid #dedee4;
 }
 fieldset legend {
   display: inline-block;
@@ -5979,7 +5979,7 @@ button.error,
 .button.error {
   color: #ffffff;
   background: #e01a2e;
-  border: 1px solid #c91729;
+  border: none;
 }
 button.error:not(:disabled):hover,
 .button.error:not(:disabled):hover,
@@ -5987,13 +5987,13 @@ button.error:not(:disabled):focus,
 .button.error:not(:disabled):focus {
   color: #ffffff;
   background: #b21525;
-  border: 1px solid #9b1220;
+  border: none;
 }
 button.warning,
 .button.warning {
   color: #ffffff;
   background: #ffc200;
-  border: 1px solid #e6af00;
+  border: none;
 }
 button.warning:not(:disabled):hover,
 .button.warning:not(:disabled):hover,
@@ -6001,13 +6001,13 @@ button.warning:not(:disabled):focus,
 .button.warning:not(:disabled):focus {
   color: #ffffff;
   background: #cc9b00;
-  border: 1px solid #b38800;
+  border: none;
 }
 button.success,
 .button.success {
   color: #ffffff;
   background: #05be55;
-  border: 1px solid #04a54a;
+  border: none;
 }
 button.success:not(:disabled):hover,
 .button.success:not(:disabled):hover,
@@ -6015,13 +6015,13 @@ button.success:not(:disabled):focus,
 .button.success:not(:disabled):focus {
   color: #ffffff;
   background: #048c3f;
-  border: 1px solid #037334;
+  border: none;
 }
 button.info,
 .button.info {
   color: #ffffff;
   background: #149cfd;
-  border: 1px solid #0290f5;
+  border: none;
 }
 button.info:not(:disabled):hover,
 .button.info:not(:disabled):hover,
@@ -6029,7 +6029,7 @@ button.info:not(:disabled):focus,
 .button.info:not(:disabled):focus {
   color: #ffffff;
   background: #0281dc;
-  border: 1px solid #0272c3;
+  border: none;
 }
 button:not(:disabled):hover,
 .button:not(:disabled):hover,
@@ -6067,13 +6067,13 @@ button:disabled {
 .button-inverse {
   color: #fafafd;
   background: #434a54;
-  border: 1px solid #383e46;
+  border: none;
 }
 .button-inverse:not(:disabled):hover,
 .button-inverse:not(:disabled):focus {
   color: #fafafd;
   background: #2c3138;
-  border: 1px solid #212529;
+  border: none;
 }
 .button-text {
   color: #434a54;
@@ -6089,35 +6089,35 @@ button:disabled {
 .button-primary {
   color: #ffffff;
   background: #05bed5;
-  border: 1px solid #04a8bc;
+  border: none;
 }
 .button-primary:not(:disabled):hover,
 .button-primary:not(:disabled):focus {
   color: #ffffff;
   background: #0492a3;
-  border: 1px solid #037b8a;
+  border: none;
 }
 .button-secondary {
   color: #ffffff;
   background: #8d48ab;
-  border: 1px solid #7e4099;
+  border: none;
 }
 .button-secondary:not(:disabled):hover,
 .button-secondary:not(:disabled):focus {
   color: #ffffff;
   background: #6f3987;
-  border: 1px solid #613175;
+  border: none;
 }
 .button-tertiary {
   color: #ffffff;
   background: #b2347e;
-  border: 1px solid #9e2e70;
+  border: none;
 }
 .button-tertiary:not(:disabled):hover,
 .button-tertiary:not(:disabled):focus {
   color: #ffffff;
   background: #8b2862;
-  border: 1px solid #9e2e70;
+  border: none;
 }
 .button-border {
   color: #434a54;
@@ -6140,7 +6140,7 @@ button.error,
 .button.error {
   color: #ffffff;
   background: #e01a2e;
-  border: 1px solid #c91729;
+  border: none;
 }
 button.error:not(:disabled):hover,
 .button.error:not(:disabled):hover,
@@ -6148,13 +6148,13 @@ button.error:not(:disabled):focus,
 .button.error:not(:disabled):focus {
   color: #ffffff;
   background: #b21525;
-  border: 1px solid #9b1220;
+  border: none;
 }
 button.warning,
 .button.warning {
   color: #ffffff;
   background: #ffc200;
-  border: 1px solid #e6af00;
+  border: none;
 }
 button.warning:not(:disabled):hover,
 .button.warning:not(:disabled):hover,
@@ -6162,13 +6162,13 @@ button.warning:not(:disabled):focus,
 .button.warning:not(:disabled):focus {
   color: #ffffff;
   background: #cc9b00;
-  border: 1px solid #b38800;
+  border: none;
 }
 button.success,
 .button.success {
   color: #ffffff;
   background: #05be55;
-  border: 1px solid #04a54a;
+  border: none;
 }
 button.success:not(:disabled):hover,
 .button.success:not(:disabled):hover,
@@ -6176,13 +6176,13 @@ button.success:not(:disabled):focus,
 .button.success:not(:disabled):focus {
   color: #ffffff;
   background: #048c3f;
-  border: 1px solid #037334;
+  border: none;
 }
 button.info,
 .button.info {
   color: #ffffff;
   background: #149cfd;
-  border: 1px solid #0290f5;
+  border: none;
 }
 button.info:not(:disabled):hover,
 .button.info:not(:disabled):hover,
@@ -6190,7 +6190,7 @@ button.info:not(:disabled):focus,
 .button.info:not(:disabled):focus {
   color: #ffffff;
   background: #0281dc;
-  border: 1px solid #0272c3;
+  border: none;
 }
 /*
  * Definitions
