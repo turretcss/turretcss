@@ -32,16 +32,22 @@
 blockquote {
 	margin: @blockquote-margin;
 	padding: @blockquote-padding;
+	font-family: @blockquote-quote-font-family;
+	font-weight: @blockquote-quote-font-weight;
+	.font-size(@blockquote-quote-font-size);
+	font-style: @blockquote-quote-font-style;
+	line-height: @blockquote-quote-line-height;
+	color: @blockquote-quote-color;
 
 	// Blockquote Quote
 	p {
 		margin: @blockquote-quote-margin;
-		font-family: @blockquote-quote-font-family;
-		font-weight: @blockquote-quote-font-weight;
-		.font-size(@blockquote-quote-font-size);
-		font-style: @blockquote-quote-font-style;
-		line-height: @blockquote-quote-line-height;
-		color: @blockquote-quote-color;
+		font-family: inherit;
+		font-weight: inherit;
+		font-size: inherit;
+		font-style: inherit;
+		line-height: inherit;
+		color: inherit;
 	}
 	
 	// Blockquote Cite
