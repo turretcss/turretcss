@@ -107,34 +107,34 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 // Button Inverse
 @button-inverse-color: @light;
 @button-inverse-background: @inverse;
-@button-inverse-border: 1px solid darken(@inverse, 5%);
+@button-inverse-border: none;
 @button-inverse-hover-color: @button-inverse-color;
 @button-inverse-hover-background: darken(@button-inverse-background, 10%);
-@button-inverse-hover-border: 1px solid darken(@inverse, 15%);
+@button-inverse-hover-border: none;
 
 // Button Primary
 @button-primary-color: @white;
 @button-primary-background: @primary;
-@button-primary-border: 1px solid darken(@primary, 5%);
+@button-primary-border: none;
 @button-primary-hover-color: @button-primary-color;
 @button-primary-hover-background: darken(@primary, 10%);
-@button-primary-hover-border: 1px solid darken(@primary, 15%);
+@button-primary-hover-border: none;
 
 // Button Secondary
 @button-secondary-color: @white;
 @button-secondary-background: @secondary;
-@button-secondary-border: 1px solid darken(@secondary, 5%);
+@button-secondary-border: none;
 @button-secondary-hover-color: @button-secondary-color;
 @button-secondary-hover-background: darken(@secondary, 10%);
-@button-secondary-hover-border: 1px solid darken(@secondary, 15%);
+@button-secondary-hover-border: none;
 
 // Button Tertiary
 @button-tertiary-color: @white;
 @button-tertiary-background: @tertiary;
-@button-tertiary-border: 1px solid darken(@tertiary, 5%);
+@button-tertiary-border: none;
 @button-tertiary-hover-color: @button-tertiary-color;
 @button-tertiary-hover-background: darken(@tertiary, 10%);
-@button-tertiary-hover-border: 1px solid darken(@tertiary, 5%);
+@button-tertiary-hover-border: none;
 
 // Button Border
 @button-border-color: @dark;
@@ -177,37 +177,37 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 </div>
 
 ```scss
-// Button Error
+//Button Error
 @button-error-color: @white;
 @button-error-background: @error;
-@button-error-border: 1px solid darken(@error, 5%);
+@button-error-border: none;
 @button-error-hover-color: @button-error-color;
 @button-error-hover-background: darken(@error, 10%);
-@button-error-hover-border: 1px solid darken(@error, 15%);
+@button-error-hover-border: none;
 
-// Button Warning
+//Button Warning
 @button-warning-color: @white;
 @button-warning-background: @warning;
-@button-warning-border: 1px solid darken(@warning, 5%);
+@button-warning-border: none;
 @button-warning-hover-color: @button-warning-color;
 @button-warning-hover-background: darken(@warning, 10%);
-@button-warning-hover-border: 1px solid darken(@warning, 15%);
+@button-warning-hover-border: none;
 
-// Button Success
+//Button Success
 @button-success-color: @white;
 @button-success-background: @success;
-@button-success-border: 1px solid darken(@success, 5%);
+@button-success-border: none;
 @button-success-hover-color: @button-success-color;
 @button-success-hover-background: darken(@success, 10%);
-@button-success-hover-border: 1px solid darken(@success, 15%);
+@button-success-hover-border: none;
 
-// Button Info
+//Button Info
 @button-info-color: @white;
 @button-info-background: @info;
-@button-info-border: 1px solid darken(@button-info-background, 5%);
+@button-info-border: none;
 @button-info-hover-color: @button-info-color;
 @button-info-hover-background: darken(@button-info-background, 10%);
-@button-info-hover-border: 1px solid darken(@info, 15%);
+@button-info-hover-border: none;
 ```
 
 ```html
