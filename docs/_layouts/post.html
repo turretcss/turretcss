@@ -4,8 +4,10 @@ layout: default
 
 <header class="blog-header">
   <div class="container max-width-large">
-    <h1>Blog</h1>
-    <p class="lead">Releases, announcements and more for <a href="/">Turret</a>.</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      <time>{{ page.date | date_to_long_string }}</time>
+    </p>
   </div>
 </header>
 
@@ -15,7 +17,7 @@ layout: default
       <div class="column-1-4">
         {% include blog-sidebar.html %}
       </div>
-      <div class="column-3-4">
+      <div class="column-3-4 post-content">
         {{ content }}
       </div>
     </div>
