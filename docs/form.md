@@ -90,7 +90,7 @@ permalink: /docs/form/
 </form>
 ```
 
-## Labels 
+## Label
 
 ```scss
 // Label
@@ -147,7 +147,7 @@ permalink: /docs/form/
 ```
 
 
-## Form Messages
+## Form Message
 
 ```scss
 // Form Message

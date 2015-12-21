@@ -1073,7 +1073,7 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="font-size-xsmall">Font Size Extra Small</p>
 ```
 
-## Text Align
+## Text
 
 <p class="text-left">Text Left</p>
 <p class="text-center">Text Center</p>
