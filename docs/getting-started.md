@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Getting Started
+page_title: Getting Started - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: A introduction to how to get started, download and use Turret including usage and examples.
 permalink: /docs/getting-started/
 ---

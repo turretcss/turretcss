@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Notes
+page_title: Notes - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: Contributors, Licence, and Licence Notes.
 permalink: /docs/notes/
 ---

@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Typography
+page_title: Typography - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: A guide to the use of Turret style definitions with typographic tags including headings, paragraphs, blockquotes, strong, emphasis, list and code HTML5 elements.
 permalink: /docs/typography/
 ---

@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Accessibility
+page_title: Accessibility - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: Web accessibility screen reader helper classes and a guide for using ARIA role attributes on elements for accessibility.
 permalink: /docs/accessibility/
 ---
