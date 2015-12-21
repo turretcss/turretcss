@@ -270,7 +270,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 
 Images in Turret can be made responsive-friendly via the addition of the `.responsive` class. This applies `max-width: 100%; and height: auto;` to the image so that it scales nicely to the parent element.
 
-<img src="/assets/images/photo.svg" class="responsive">
+<img src="{{ site.baseurl }}/assets/images/photo.svg" class="responsive">
 
 ```html
 <img src="..." class="responsive">
@@ -278,7 +278,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 ### Image Styles
 
-<img src="/assets/images/image.svg" class="rounded">
+<img src="{{ site.baseurl }}/assets/images/image.svg" class="rounded">
 
 ```scss
 @image-rounded-border-radius: 8px;
@@ -288,7 +288,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 <img src="..." class="responsive">
 ```
 
-<img src="/assets/images/image.svg" class="circle">
+<img src="{{ site.baseurl }}/assets/images/image.svg" class="circle">
 
 ```html
 <img src="..." class="circle">

@@ -539,7 +539,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 
 <div>
   <figure>
-    <img src="/assets/images/photo.svg" class="responsive">
+    <img src="{{ site.baseurl }}/assets/images/photo.svg" class="responsive">
     <figcaption>Figure Caption</figcaption>
   </figure>
 </div>
