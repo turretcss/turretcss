@@ -15,7 +15,7 @@
         {% endif %}
 
         <li class="{{ active }}">
-          <a href="/docs/{{ group.title | downcase | replace: ' ', '-' }}/">{{ group.title }}</a>
+          <a href="{{ site.baseurl }}/docs/{{ group.title | downcase | replace: ' ', '-' }}/">{{ group.title }}</a>
           <ul>
             {% for doc in group.pages %}
               {% assign slug = doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' %}

@@ -23,7 +23,7 @@ kramdown:
 source: docs
 host: 0.0.0.0
 port: 9001
-baseurl: ""
-url: http://scottdejonge.github.io
+baseurl: "/turret"
+url: http://bigfishtv.github.io
 encoding: UTF-8
 exclude: []
