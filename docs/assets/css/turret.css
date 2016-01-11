@@ -831,6 +831,43 @@ kbd {
   border: 1px solid #dedee4;
 }
 /*
+ * Definitions
+ */
+/*
+ * mark
+ */
+mark {
+  margin: 0;
+  padding: 0.2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #434a54;
+  background: yellow;
+  border: none;
+  border-radius: 2px;
+}
+mark.error {
+  color: #ffffff;
+  background: #e01a2e;
+  border: none;
+}
+mark.warning {
+  color: #ffffff;
+  background: #ffc200;
+  border: none;
+}
+mark.success {
+  color: #ffffff;
+  background: #05be55;
+  border: none;
+}
+mark.info {
+  color: #ffffff;
+  background: #149cfd;
+  border: none;
+}
+/*
  * Grid
  */
 /*
@@ -7672,6 +7709,9 @@ table td,
  * Flexbox
  * via: https://gist.github.com/jayj
  * url: https://gist.github.com/jayj/4012969
+ */
+/*
+ * Mark
  */
 /*
  * Accessibility
