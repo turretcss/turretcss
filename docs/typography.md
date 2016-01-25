@@ -354,3 +354,52 @@ permalink: /docs/typography/
 ```html
 <kbd>...</kbd>
 ```
+
+## Mark
+
+<p><mark>mark</mark></p>
+<p><mark class="error">error</mark> <mark class="warning">warning</mark> <mark class="success">success</mark> <mark class="info">info</mark></p>
+
+```scss
+// Mark
+@mark-margin: 0;
+@mark-padding: 0.3rem;
+@mark-font-family: @paragraph-font-family;
+@mark-font-weight: @paragraph-font-weight;
+@mark-font-size: @paragraph-font-size;
+@mark-color: @paragraph-color;
+@mark-background: yellow;
+@mark-border: none;
+@mark-border-radius: @border-radius;
+
+// Mark Error
+@mark-error-color: @white;
+@mark-error-background: @error;
+@mark-error-border: none;
+
+// Mark Warning
+@mark-warning-color: @white;
+@mark-warning-background: @warning;
+@mark-warning-border: none;
+
+// Mark Success
+@mark-success-color: @white;
+@mark-success-background: @success;
+@mark-success-border: none;
+
+// Mark Info
+@mark-info-color: @white;
+@mark-info-background: @info;
+@mark-info-border: none;
+```
+
+```html
+<mark>...</mark>
+```
+
+```html
+<mark class="error">...</mark>
+<mark class="warning">...</mark>
+<mark class="success">...</mark>
+<mark class="info">...</mark>
+```
