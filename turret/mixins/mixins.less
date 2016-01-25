@@ -43,7 +43,13 @@
 	.size(@size, @size);
 }
 
-//Overflow Scroll
+// Uppercase
+.uppercase(@letter-spacing: @body-letter-spacing) {
+	text-transform: uppercase;
+	letter-spacing: @letter-spacing;
+}
+
+// Overflow Scroll
 .overflow-scroll() {
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;

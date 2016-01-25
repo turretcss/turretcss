@@ -38,6 +38,10 @@ permalink: /docs/mixins/
         <td>Sizing utility to set equal width and height of an element from <code>@size</code></td>
       </tr>
       <tr>
+        <td><code>.uppercase(@letter-spacing: @body-letter-spacing);</code></td>
+        <td>Sets text to uppercase with customisable letter-spacing from <code>@letter-spacing</code></td>
+      </tr>
+      <tr>
         <td><code>.overflow-scroll();</code></td>
         <td>Set overflow to scroll with <code>-webkit-overflow-scrolling: touch;</code> for Mobile Safari</td>
       </tr>
