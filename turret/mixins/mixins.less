@@ -2,7 +2,7 @@
  * General Mixins
  */
 
-//Clearfix
+// Clearfix
 .clearfix() {
 
 	&:before,
@@ -18,27 +18,27 @@
 	*zoom: 1;
 }
 
-//Show
+// Show
 .show() {
 	display: block !important;
 	visibility: visible !important;
 	opacity: 1 !important;
 }
 
-//Hide
+// Hide
 .hide() {
 	display: none !important;
 	visibility: hidden !important;
 	opacity: 0 !important;
 }
 
-//Sizing
+// Sizing
 .size(@width, @height) {
 	width: @width;
 	height: @height;
 }
 
-//Square Sizing
+// Square Sizing
 .square(@size) {
 	.size(@size, @size);
 }
@@ -55,14 +55,14 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-//Center Block
+// Center Block
 .center-block() {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-//Center
+// Center
 .center() {
 	position: absolute;
 	top: 50%;
@@ -70,7 +70,7 @@
 	.translate(-50%, -50%);
 }
 
-//Overlay
+// Overlay
 .cover() {
 	position: absolute;
 	top: 0;
@@ -81,7 +81,7 @@
 	height: 100%;
 }
 
-//Hide text
+// Hide text
 .hide-text() {
 	font: ~"0/0" a;
 	color: transparent;
@@ -94,7 +94,7 @@
 	.hide-text();
 }
 
-// Hyphens
+//  Hyphens
 .hyphens(@hyphens: none) {
 	-webkit-hyphens: @hyphens;
 	-moz-hyphens: @hyphens;
@@ -102,14 +102,14 @@
 	hyphens: @hyphens;
 }
 
-// Tab Size
+//  Tab Size
 .tab-size(@tab-size: 4) {
 	-moz-tab-size: @tab-size;
 	-o-tab-size: @tab-size;
 	tab-size: @tab-size;
 }
 
-//Hide but keep in DOM for Screen Readers
+// Hide but keep in DOM for Screen Readers
 .hide-visually() {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -121,7 +121,7 @@
 	width: 1px;
 }
 
-//User Select
+// User Select
 .user-select(@argument: none) {
 	-webkit-user-select: @argument;
 	-moz-user-select: @argument;
@@ -129,14 +129,14 @@
 	user-select: @argument;
 }
 
-//Appearance
+// Appearance
 .appearance(@appearance) {
 	-webkit-appearance: @appearance;
 	-moz-appearance: @appearance;
 	appearance: @appearance;
 }
 
-// Retina images
+//  Retina images
 .img-retina(@file-1x, @file-2x, @width-1x, @height-1x) {
 	background-image: url("@{file-1x}");
 	
@@ -146,39 +146,39 @@
 	}
 }
 
-//Stroke Offset
+// Stroke Offset
 .stroke-offset(@offset) {
 	stroke-dasharray: @offset;
 	stroke-dashoffset: @offset;
 }
 
-//Media Ratio
+// Media Ratio
 .media-ratio(@width, @height) {
 	padding-top: (@height/@width) * 100%;
 }
 
-//Column Count
+// Column Count
 .column-count(@count) {
 	-webkit-column-count: @count;
 	-moz-column-count: @count;
 	column-count: @count;
 }
 
-//Column Gap
+// Column Gap
 .column-gap(@gap) {
 	-webkit-column-gap: @gap;
 	-moz-column-gap: @gap;
 	column-gap: @gap;
 }
 
-//Box Sizing
+// Box Sizing
 .box-sizing(@box-sizing) {
 	-webkit-box-sizing: @box-sizing;
 	-moz-box-sizing: @box-sizing;
 	box-sizing: @box-sizing;
 }
 
-// Truncate
+//  Truncate
 .truncate() {
 	display: block;
 	white-space: nowrap;
