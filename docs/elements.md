@@ -703,6 +703,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 ```scss
 // Table
+@table-margin: @paragraph-margin;
 @table-background: none;
 @table-border: 1px solid @light-grey;
 @table-border-radius: @border-radius;

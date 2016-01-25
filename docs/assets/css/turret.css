@@ -6270,7 +6270,7 @@ button.info:not(:disabled):focus,
   position: relative;
   width: 1.4rem;
   height: 1.4rem;
-  fill: inherit;
+  fill: currentColor;
   vertical-align: bottom;
   -webkit-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
@@ -6565,6 +6565,7 @@ nav ul li,
  */
 table,
 .table {
+  margin: 2rem 0;
   width: 100%;
   background: none;
   border: 1px solid #dedee4;
