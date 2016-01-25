@@ -24,8 +24,16 @@ For text and background color utility classes check out the [color](#colors) sec
         <td>Clears floats using <code>.clearfix();</code> mixin</td>
       </tr>
       <tr>  
-        <td><code>center-block </code></td>
+        <td><code>center-block</code></td>
         <td>Makes element center block using <code>.center-block();</code> mixin</td>
+      </tr>
+      <tr>  
+        <td><code>cover</code></td>
+        <td>Makes element cover it's container using <code>.cover();</code> mixin</td>
+      </tr>
+      <tr>  
+        <td><code>center</code></td>
+        <td>Makes element center using <code>.center();</code> mixin</td>
       </tr>
       <tr>  
         <td><code>full-height</code></td>
