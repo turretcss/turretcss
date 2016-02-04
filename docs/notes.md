@@ -29,7 +29,7 @@ Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/
 
 ## License Notes
 
-Turret is released under the MIT license and is copyright 2015 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
+Turret is released under the MIT license and is copyright 2016 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
 
 **It requires you to:**
 

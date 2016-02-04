@@ -38,4 +38,4 @@ For transparency into our release cycle and in striving to maintain backward com
 
 ## Copyright and license
 
-Code and documentation copyright 2015 Bigfish.tv, Inc. Code released under [the MIT license](https://github.com/bigfishtv/turret/LICENSE). Docs released under [Creative Commons](https://github.com/bigfishtv/turret/LICENSE).
+Code and documentation copyright 2016 Bigfish.tv, Inc. Code released under [the MIT license](https://github.com/bigfishtv/turret/LICENSE). Docs released under [Creative Commons](https://github.com/bigfishtv/turret/LICENSE).
