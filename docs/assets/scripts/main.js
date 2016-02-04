@@ -29,21 +29,9 @@ var removeClass = function (elem, className) {
  */
 
 var toggle = document.getElementById('toggle');
-var main = document.querySelector('.docs-main');
 var body = document.querySelector('body');
 
 toggle.addEventListener('click', function(event) {
   event.preventDefault();
   body.classList.toggle('open');
-});
-
-main.addEventListener('click', function(event) {
-
-  if (event.target != toggle) {
-    event.preventDefault();
-
-    if (hasClass(body, 'open')) {
-      removeClass(body, 'open');
-    }
-  }
 });
