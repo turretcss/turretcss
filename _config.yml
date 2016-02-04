@@ -19,10 +19,16 @@ kramdown:
   syntax_highlighter: rouge
 
 # Server
+baseurl: ""
 source: docs
+destination: _gh_pages
 host: 0.0.0.0
 port: 9001
-baseurl: "/turret"
-url: http://bigfishtv.github.io
+url: http://turretcss.com
 encoding: UTF-8
 exclude: []
+
+# Custom vars
+current_version: 3.2.0
+repo: https://github.com/bigfishtv/turret
+twitter: https://twitter.com/turretcss
