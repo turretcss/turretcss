@@ -1,0 +1,29 @@
+<aside class="blog-sidebar">
+  <h4 class="blog-sidebar-title">Categories</h4>
+  <ul>
+    <li class="{% if page.title == 'News' %}current{% endif %}">
+      <a href="{{ site.baseurl }}/blog/">All</a>
+    </li>
+    <li class="{% if page.title == 'Releases' %}current{% endif %}">
+      <a href="{{ site.baseurl }}/blog/releases/">Releases</a>
+    </li>
+  </ul>
+  <h4 class="blog-sidebar-title">Recent Releases</h4>
+  <ul>
+    {% for post in site.categories.release limit:5 %}
+    <li class="{% if page.title == post.title %}current{% endif %}">
+      <a href="{{ site.baseurl }}{{ post.url }}">Version {{ post.version }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <!-- <h4 class="blog-sidebar-title">Other News</h4>
+  <ul>
+      {% for post in site.posts %}
+      {% unless post.categories contains 'release' %}
+      <li class="{% if page.title == post.title %}current{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endunless %}
+      {% endfor %}
+  </ul> -->
+</aside>

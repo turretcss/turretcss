@@ -1,0 +1,37 @@
+<nav class="docs-navigation">
+    <ul>
+      <li class="{{ active }}">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>{{ group.title }}</a>
+      </li>
+
+      {% for group in site.data.nav %}
+
+        {% assign link = group.pages | first %}
+        {% assign slug = group.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-' %}
+        {% assign active = nil %}
+
+        {% if page.url contains slug %}
+          {% assign active = 'active' %}
+        {% endif %}
+
+        <li class="{{ active }}">
+          <a href="{{ site.baseurl }}/docs/{{ group.title | downcase | replace: ' ', '-' }}/">{{ group.title }}</a>
+          <ul>
+            {% for doc in group.pages %}
+              {% assign slug = doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' %}
+              {% assign active = nil %}
+
+              {% if page.url contains slug %}
+                {% assign active = 'active' %}
+              {% endif %}
+
+              <li class="{{ active }}">
+                <a href="#{{ doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' }}">{{ doc.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+
+      {% endfor %}
+    </ul>
+</nav>

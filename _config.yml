@@ -1,0 +1,28 @@
+# Site settings
+title: Turret
+page_title: Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+email: scottdj@bigfish.tv
+description: Turret is a responsive front-end framework for accessible and semantic website development.Turret defines base styles for all HTML5 native web elements and includes a simple and intuitive grid system for rapid responsive website development
+
+# Permalinks
+permalink: pretty
+
+# Syntax Highlighter
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Server
+source: docs
+host: 0.0.0.0
+port: 9001
+baseurl: "/turret"
+url: http://bigfishtv.github.io
+encoding: UTF-8
+exclude: []

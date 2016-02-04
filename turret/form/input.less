@@ -5,7 +5,7 @@
 // Input
 @input-height: @height-medium;
 @input-margin: @label-margin;
-@input-padding: 0 16px;
+@input-padding: 0 1.6rem;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
@@ -15,10 +15,15 @@
 @input-border: 1px solid @light-grey;
 @input-border-radius: @border-radius;
 
+// Input Hover
+@input-hover-color: @input-color;
+@input-hover-background: darken(@input-background, 2%);
+@input-hover-border: 1px solid darken(@light-grey, 10%);
+
 // Input Focus
 @input-focus-color: @input-color;
 @input-focus-background: darken(@input-background, 2%);
-@input-focus-border: 1px solid darken(@light-grey, 10%);
+@input-focus-border: 1px solid @primary;
 
 // Input Placeholder
 @input-placeholder-font-family: @input-font-family;
@@ -32,6 +37,13 @@
 @input-inverse-color: @white;
 @input-inverse-background: @inverse;
 @input-inverse-border: none;
+
+// Input Inverse Hover
+@input-inverse-hover-color: @input-inverse-color;
+@input-inverse-hover-background: darken(@input-inverse-background, 2%);
+@input-inverse-hover-border: @input-inverse-border;
+
+// Input Inverse Focus
 @input-inverse-focus-color: @input-inverse-color;
 @input-inverse-focus-background: darken(@input-inverse-background, 2%);
 @input-inverse-focus-border: @input-inverse-border;
@@ -42,10 +54,10 @@
 @input-disabled-border: 1px solid darken(@light, 10%);
 
 // Input Search
-@input-search-border-radius: 20px;
+@input-search-border-radius: 2rem;
 
 // Textarea
-@textarea-padding: 12px 16px;
+@textarea-padding: 1.6rem;
 @textarea-line-height: @line-height-medium;
 
 
@@ -64,17 +76,25 @@ textarea {
 
 	// Input Size
 	.input-size(@input-padding, @input-height, @input-font-size);
-
-	// Input Theme
-	.input-theme(@input-color, @input-background, @input-border, @input-focus-color, @input-focus-background, @input-focus-border);
+	
+	// Input Style
+	.input-style(@input-color, @input-background, @input-border);
 
 	// Input Placeholder
 	.placeholder(@input-placeholder-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
 
+	&:hover {
+		.input-style(@input-hover-color, @input-hover-background, @input-hover-border);
+	}
+
+	&:focus {
+		.input-style(@input-focus-color, @input-focus-background, @input-focus-border);
+	}
+
 	// Input Disabled
 	&:disabled {
 		cursor: no-drop;
-		.input-styles(@input-disabled-color, @input-disabled-background, @input-disabled-border);
+		.input-style(@input-disabled-color, @input-disabled-background, @input-disabled-border);
 	}
 }
 
@@ -95,11 +115,19 @@ textarea {
 // Input Inverse
 .input-inverse {
 
-	// Input Inverse Theme
-	.input-theme(@input-inverse-color, @input-inverse-background, @input-inverse-border, @input-inverse-focus-color, @input-inverse-focus-background, @input-inverse-focus-border);
+	// Input Inverse Style
+	.input-style(@input-inverse-color, @input-inverse-background, @input-inverse-border);
 
 	// Input Inverse Placeholder
 	.placeholder(@input-inverse-color, @input-placeholder-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+
+	&:hover {
+		.input-style(@input-inverse-hover-color, @input-inverse-hover-background, @input-inverse-hover-border);
+	}
+
+	&:focus {
+		.input-style(@input-inverse-focus-color, @input-inverse-focus-background, @input-inverse-focus-border);
+	}
 }
 	
 /*

@@ -3,11 +3,13 @@
  */
 
 // Table
+@table-margin: @paragraph-margin;
 @table-background: none;
+@table-border: 1px solid @light-grey;
 @table-border-radius: @border-radius;
 
 // Table Caption
-@table-caption-margin: 5px 10px;
+@table-caption-margin: 1rem 0;
 @table-caption-font-family: @bold-font-family;
 @table-caption-font-weight: @bold-font-weight;
 @table-caption-font-size: @font-size-medium;
@@ -15,44 +17,40 @@
 @table-caption-text-align: left;
 
 // Table Head
-@table-head-padding: 10px;
+@table-head-padding: 1rem;
 @table-head-font-family: @bold-font-family;
 @table-head-font-weight: @bold-font-weight;
 @table-head-font-size: @paragraph-font-size;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
+@table-head-border: @table-border;
+@table-head-background: @light;
 
-// Table Body
-@table-cell-padding: 10px;
+// Table Cell
+@table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
 @table-cell-font-size: @paragraph-font-size;
 @table-cell-color: @body-color;
 @table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
-
-// Table Border
-@table-border: solid @light-grey;
-@table-border-width: 1px;
-
-// Table Block
-@table-block-head-background: @light;
+@table-cell-border: @table-border;
 
 // Table Reponsive
-@table-responsive-breakpoint: @small-down;
-@table-responsive-row-margin: 20px 0px;
-@table-responsive-cell-padding: 10px;
-@table-responsive-border: solid @light;
-@table-responsive-border-width: 1px;
+@table-responsive-breakpoint: @xsmall;
 
 
 /*
  * Table
  */
 
-table {
+table,
+.table {
+	margin: @table-margin;
+	width: 100%;
 	background: @table-background;
+	border: @table-border;
 	border-radius: @table-border-radius;
 	
 	caption {
@@ -63,77 +61,74 @@ table {
 		color: @table-caption-color;
 		text-align: @table-caption-text-align;
 	}
-}
-
-// Table Head
-th {
-	padding: @table-head-padding;
-	font-family: @table-head-font-family;
-	font-weight: @table-head-font-weight;
-	.font-size(@table-head-font-size);
-	color: @table-head-color;
-	text-align: @table-head-text-align;
-	text-transform: @table-head-text-transform;
-}
-
-// Table Cell
-td {
-	padding: @table-cell-padding;
-	font-family: @table-cell-font-family;
-	font-weight: @table-cell-font-weight;
-	.font-size(@table-cell-font-size);
-	color: @table-cell-color;
-	line-height: @table-cell-line-height;
-	vertical-align: @table-cell-vertical-align;
-}
-
-// Table Bordered
-.table-bordered {
-
-	th,
-	td {
-		border: @table-border;
-		border-width: @table-border-width;
-	}
-}
-
-// Table Block
-.table-block {
-	width: 100%;
 
 	th {
-		background: @table-block-head-background;
+		padding: @table-head-padding;
+		font-family: @table-head-font-family;
+		font-weight: @table-head-font-weight;
+		.font-size(@table-head-font-size);
+		color: @table-head-color;
+		text-align: @table-head-text-align;
+		text-transform: @table-head-text-transform;
+		background: @table-head-background;
+		border: @table-head-border;
+	}
+
+	td {
+		padding: @table-cell-padding;
+		font-family: @table-cell-font-family;
+		font-weight: @table-cell-font-weight;
+		.font-size(@table-cell-font-size);
+		color: @table-cell-color;
+		line-height: @table-cell-line-height;
+		vertical-align: @table-cell-vertical-align;
+		border: @table-cell-border;
 	}
 }
 
 // Table Responsive
 .table-responsive {
+	overflow-x: auto;
+	min-height: 0.01%;
 
 	@media @table-responsive-breakpoint {
+		width: 100%;
+		overflow-y: hidden;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		border: @table-border;
 
-		// Force table to not be like tables anymore
-		table, thead, tbody, th, td, tr {
-			display: block;
-		}
-
-		// Hide table headers (but not display: none; for accessibility)
-		thead tr {
-			position: absolute;
-			top: -9999px;
-			left: -9999px;
-		}
-
-		tr {
-			margin: @table-responsive-row-margin;
-			border: @table-responsive-border;
-			border-width: @table-responsive-border-width;
-		}
-
-		td {
-			// Behave  like a "row"
-			position: relative;
-			padding: @table-responsive-cell-padding;
+		> table {
 			border: none;
+
+			// Ensure the content doesn't wrap
+			th,
+			td {
+				white-space: nowrap;
+
+				&:first-child {
+					border-left: none;
+				}
+
+				&:last-child {
+					border-right: none;
+				}
+			}
+
+			tr:first-child {
+
+				> th,
+				> td {
+					border-top: none;
+				}
+			}
+
+			tr:last-child {
+
+				> th,
+				> td {
+					border-bottom: none;
+				}
+			}
 		}
 	}
 }

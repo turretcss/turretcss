@@ -1,0 +1,71 @@
+/*
+ * Definitions
+ */
+
+// Mark
+@mark-margin: 0;
+@mark-padding: 0.3rem;
+@mark-font-family: @paragraph-font-family;
+@mark-font-weight: @paragraph-font-weight;
+@mark-font-size: @paragraph-font-size;
+@mark-color: @paragraph-color;
+@mark-background: yellow;
+@mark-border: none;
+@mark-border-radius: @border-radius;
+
+// Mark Error
+@mark-error-color: @white;
+@mark-error-background: @error;
+@mark-error-border: none;
+
+// Mark Warning
+@mark-warning-color: @white;
+@mark-warning-background: @warning;
+@mark-warning-border: none;
+
+// Mark Success
+@mark-success-color: @white;
+@mark-success-background: @success;
+@mark-success-border: none;
+
+// Mark Info
+@mark-info-color: @white;
+@mark-info-background: @info;
+@mark-info-border: none;
+
+
+/*
+ * mark
+ */
+
+mark {
+	margin: @mark-margin;
+	padding: @mark-padding;
+	font-family: @mark-font-family;
+	font-weight: @mark-font-weight;
+	.font-size(@mark-font-size);
+	color: @mark-color;
+	background: @mark-background;
+	border: @mark-border;
+	border-radius: @mark-border-radius;
+
+	// Mark Error
+	&.error {
+		.mark-theme(@mark-error-color, @mark-error-background, @mark-error-border);
+	}
+	
+	// Mark Warning
+	&.warning {
+		.mark-theme(@mark-warning-color, @mark-warning-background, @mark-warning-border);
+	}
+	
+	// Mark Success
+	&.success {
+		.mark-theme(@mark-success-color, @mark-success-background, @mark-success-border);
+	}
+	
+	// Mark Info
+	&.info {
+		.mark-theme(@mark-info-color, @mark-info-background, @mark-info-border);
+	}
+}

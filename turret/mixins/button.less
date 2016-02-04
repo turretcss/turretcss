@@ -33,6 +33,22 @@
 	}
 }
 
+// Button Icon Theme
+.button-icon-theme(@fill: @button-icon-fill, @hover-fill: @button-icon-hover-fill) {
+
+	> svg {
+		fill: @fill;
+	}
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+
+		> svg {
+			fill: @hover-fill;
+		}
+	}
+}
+
 // Button Size
 .button-size(@padding, @height, @font-size) {
 	padding: @padding;

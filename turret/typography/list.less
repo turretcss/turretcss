@@ -3,18 +3,19 @@
  */
 
 // List
-@list-margin: 20px 0px;
+@list-margin: 2rem 0;
 @list-padding: 0;
 
 // Lists Item
-@list-item-margin: 10px 0px 10px 20px;
+@list-item-margin: 1rem 0 1rem 2rem;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
 @list-item-color: @paragraph-color;
+@list-item-line-height: @paragraph-line-height;
 
 // Child List
-@child-list-margin: 10px 0px;
+@child-list-margin: 1rem 0;
 @child-list-padding: 0;
 @child-list-item-margin: @list-item-margin;
 
@@ -38,6 +39,7 @@ ol {
 		font-weight: @list-item-font-weight;
 		.font-size(@list-item-font-size);
 		color: @list-item-color;
+		line-height: @list-item-line-height;
 		
 		ul {
 			margin: @child-list-margin;

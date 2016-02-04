@@ -1,0 +1,165 @@
+/*
+ * Landing Hero
+ */
+
+.landing-hero {
+  padding-top: @padding-large;
+  padding-bottom: @padding-large;
+  text-align: center;
+
+  h1 {
+    margin: 2rem 0;
+    .bold-font();
+    color: @white;
+    .uppercase(0.05rem);
+  }
+
+  p {
+    margin: 1rem 0;
+    color: @white;
+  }
+
+  .lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    .regular-font();
+    color: @white;
+  }
+}
+
+.landing-hero-light {
+  background: @light;
+
+  h1,
+  h2,
+  p {
+    color: @body-color;
+  }
+}
+
+.landing-hero-primary {
+  background: @primary;
+}
+
+.landing-hero-secondary {
+  background: @secondary;
+}
+
+.landing-hero-tertiary {
+  background: @tertiary;
+}
+
+/*
+ * Landing Button
+ */
+
+.landing-button {
+  margin: @gutter;
+  min-width: 200px;
+  color: @white;
+  background: transparent;
+  border: 1px solid @white;
+  
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @dark;
+      background: @white;
+      border: 1px solid @white;
+    }
+  }
+}
+
+.landing-button-primary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @primary;
+    }
+  }
+}
+
+.landing-button-secondary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @secondary;
+    }
+  }
+}
+
+.landing-button-tertiary {
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      color: @tertiary;
+    }
+  }
+}
+
+
+/*
+ * Landing Secton
+ */
+
+.landing-section {
+  margin-top: @margin-large;
+  margin-bottom: @margin-large;
+  background: @white;
+
+  h2,
+  .lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+
+/*
+ * Cards
+ */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -@gutter;
+  justify-content: center;
+}
+
+.card {
+  padding: @gutter;
+  flex: 1 0 25%;
+  min-width: 280px;
+  max-width: 320px;
+
+  figure {
+    margin-bottom: @margin-xsmall;
+    border: none;
+  }
+
+  svg {
+    margin-bottom: 30px;
+    .square(50px);
+    fill: @primary;
+  }
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0;
+    flex: 1 0 auto;
+  }
+}

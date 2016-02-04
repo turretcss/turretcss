@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% include sidebar.html %}
+
+<main class="docs-main">
+
+  <header class="docs-header">
+    <h1 class="docs-header-title">{{ site.title }}</h1>
+    <button id="toggle" class="docs-header-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </header>
+
+  <section class="docs-page-header">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+    </div>
+  </section>
+
+  <section class="docs-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+  
+  {% include footer.html %}
+
+</main>
+
+<div class="clearfix"></div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    noResultsText: '<div class="docs-search-no-results">Sorry, there are no results for that search.</div>',
+    json: '/search.json'
+  })
+</script>

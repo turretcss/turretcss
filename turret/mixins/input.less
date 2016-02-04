@@ -18,8 +18,15 @@
 	.appearance(none);
 }
 
-// Input Styles
-.input-styles(@color, @background, @border) {
+// Input Size
+.input-size(@padding, @height, @font-size) {
+	padding: @padding;
+	height: @height;
+	.font-size(@font-size);
+}
+
+// Input Style
+.input-style(@color, @background, @border) {
 	color: @color;
 	background: @background;
 	border: @border;
@@ -29,22 +36,6 @@
 .input-indicator(@color) {
 	color: @color;
 	border-color: @color;
-}
-
-// Button Theme
-.input-theme(@color: @input-color, @background: @input-background, @border: @input-border, @focus-color: @input-focus-color, @focus-background: @input-focus-background, @focus-border: @input-focus-border) {
-	.input-styles(@color, @background, @border);
-
-	&:focus {
-		.input-styles(@focus-color, @focus-background, @focus-border);
-	}
-}
-
-// Input Size
-.input-size(@padding, @height, @font-size) {
-	padding: @padding;
-	height: @height;
-	.font-size(@font-size);
 }
 
 // Input Group Button

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<header class="blog-header">
+  <div class="container max-width-large">
+    <h1>Blog</h1>
+    <p class="lead">Releases, announcements and more for <a href="/">Turret</a>.</p>
+  </div>
+</header>
+
+<main class="blog-main">
+  <div class="container max-width-large">
+    <div class="row">
+      <div class="column-1-4">
+        {% include blog-sidebar.html %}
+      </div>
+      <div class="column-3-4">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

@@ -1,0 +1,11 @@
+---
+layout: blog
+title: Blog
+page_title: Blog - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+permalink: /blog/
+author: all
+---
+
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}

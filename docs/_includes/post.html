@@ -1,0 +1,11 @@
+<article class="post">
+  <h2 class="post-title">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  <p class="post-meta">
+    <time class="post-date">{{ post.date | date_to_long_string }}</time>
+  </p>
+  <div class="post-content">
+    {{ post.content }}
+  </div>
+</article>

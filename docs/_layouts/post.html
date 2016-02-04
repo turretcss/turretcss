@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<header class="blog-header">
+  <div class="container max-width-large">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      <time>{{ page.date | date_to_long_string }}</time>
+    </p>
+  </div>
+</header>
+
+<main class="blog-main">
+  <div class="container max-width-large">
+    <div class="row">
+      <div class="column-1-4">
+        {% include blog-sidebar.html %}
+      </div>
+      <div class="column-3-4 post-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

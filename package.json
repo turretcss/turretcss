@@ -1,6 +1,6 @@
 {
   "name": "bigfishtv-turret",
-  "version": "3.1.5",
+  "version": "3.2.0",
   "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
   "homepage": "http://turret.bigfish.tv",
   "author": "Bigfish.tv",
@@ -33,19 +33,22 @@
     "less": "2.2.0"
   },
   "devDependencies": {
+    "less-plugin-autoprefix": "^1.5.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "uglify-js": "^2.5.0",
     "watch": "^0.13.0"
   },
   "scripts": {
-    "watch:turret": "watch \"npm run build\" \"turret\"",
-    "watch:docs": "watch \"npm run build\" \"docs/styles\"",
-    "watch": "npm run watch:turret && npm run watch:docs",
-    "build": "lessc docs/styles/styles.less > docs/css/styles.css",
+    "watch:turret": "watch \"npm run build:turret\" \"turret\"",
+    "build:turret": "lessc turret/turret.less > docs/assets/css/turret.css",
+    "watch:docs:scripts": "watch \"npm run build:docs:scripts\" \"docs/assets/scripts\"",
+    "watch:docs:styles": "watch \"npm run build:docs:styles\" \"docs/assets/styles\"",
+    "watch:docs": "npm run watch:docs:styles & npm run watch:docs:scripts",
+    "build:docs:scripts": "uglifyjs docs/assets/scripts/main.js -o docs/assets/js/main.js -c",
+    "build:docs:styles": "lessc docs/assets/styles/main.less --clean-css --autoprefix > docs/assets/css/docs.css",
+    "build:docs": "npm run build:docs:styles & npm run build:docs:scripts",
     "dist:css": "lessc turret/turret.less > dist/turret.css",
     "dist:min": "lessc -x turret/turret.less > dist/turret.min.css",
-    "dist": "npm run dist:css && npm run dist:min",
-    "postversion": "npm run docs:compile && echo \"Run 'npm publish ./' if you want this to be published\"",
-    "predocs:compile": "pushd ../turret_gh-pages && rm -rf docs dist examples *.html",
-    "docs:compile": "wget -rkE --no-host-directories --no-verbose --no-cache -P ../turret_gh-pages/ http://dev.turret/",
-    "postdocs:compile": "echo WARNING: MAKE SURE YOU COMMIT AND PUSH GH-PAGES!!"
+    "dist": "npm run dist:css && npm run dist:min"
   }
 }
