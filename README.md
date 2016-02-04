@@ -20,7 +20,7 @@ View full documentation at: <http://bigfishtv.github.io/turret/>
 
 ## Updates
 
-Keep track development updates by following [@bigfishtvturret](https://twitter.com/bigfishtvturret) on Twitter.
+Keep track development updates by following [@turretcss](https://twitter.com/turretcss) on Twitter.
 
 
 ## Versioning
