@@ -49,10 +49,6 @@
     "build:docs": "npm run build:docs:styles & npm run build:docs:scripts",
     "dist:css": "lessc turret/turret.less > dist/turret.css",
     "dist:min": "lessc -x turret/turret.less > dist/turret.min.css",
-    "dist": "npm run dist:css && npm run dist:min",
-    "postversion": "npm run docs:compile && echo \"Run 'npm publish ./' if you want this to be published\"",
-    "predocs:compile": "pushd ../turret_gh-pages && rm -rf docs dist examples *.html",
-    "docs:compile": "wget -rkE --no-host-directories --no-verbose --no-cache -P ../turret_gh-pages/ http://dev.turret/",
-    "postdocs:compile": "echo WARNING: MAKE SURE YOU COMMIT AND PUSH GH-PAGES!!"
+    "dist": "npm run dist:css && npm run dist:min"
   }
 }
