@@ -19,7 +19,6 @@ kramdown:
   syntax_highlighter: rouge
 
 # Server
-source: docs
 host: 0.0.0.0
 port: 9001
 baseurl: "/turret"
