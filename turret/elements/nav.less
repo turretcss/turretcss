@@ -1,0 +1,39 @@
+/*
+ * Definitions
+ */
+
+// Nav
+@nav-list-margin: 0;
+@nav-item-margin: 1rem 0;
+
+// Nav Inline
+@nav-inline-item-margin: 0 1rem;
+
+
+/*
+ * Nav
+ */
+
+nav,
+.nav {
+	
+	ul {
+		margin: @nav-list-margin;
+		list-style: none;
+		
+		li {
+			margin: @nav-item-margin;
+		}
+	}
+}
+
+.nav-inline {
+	
+	ul {
+		
+		li {
+			display: inline-block;
+			margin: @nav-inline-item-margin;
+		}
+	}
+}

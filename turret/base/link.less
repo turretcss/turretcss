@@ -1,0 +1,28 @@
+/*
+ * Definitions
+ */
+
+// Link
+@link-color: @primary;
+@link-text-decoration: none;
+
+// Link Hover
+@link-hover-color: @dark;
+@link-hover-decoration: underline;
+
+
+/*
+ * Link
+ */
+
+a {
+	color: @link-color;
+	text-decoration: @link-text-decoration;
+	.transition(color @transition-fast ease-in-out);
+	
+	&:not(.button):hover,
+	&:not(.button):focus {
+		color: @link-hover-color;
+		text-decoration: @link-hover-decoration;
+	}
+}

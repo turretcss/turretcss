@@ -1,0 +1,49 @@
+/*
+ * Definitions
+ */
+
+// Definition List
+@definition-list-margin: @list-margin;
+@definition-list-padding: 0;
+
+// Definition Term
+@definition-term-margin: 1rem 0;
+@definition-term-font-family: @semibold-font-family;
+@definition-term-font-weight: @semibold-font-weight;
+@definition-term-font-size: @font-size-medium;
+@definition-term-color: @paragraph-color;
+
+// Definition Description
+@definition-description-margin: 0 0 2rem 0;
+@definition-description-font-family: @regular-font-family;
+@definition-description-font-weight: @regular-font-weight;
+@definition-description-font-size: @font-size-medium;
+@definition-description-color: @paragraph-color;
+
+
+/*
+ * Definition List
+ */
+
+dl {
+	margin: @definition-list-margin;
+	padding: @definition-list-padding;
+}
+
+// Definition Term
+dt {
+	margin: @definition-term-margin;
+	font-family: @definition-term-font-family;
+	font-weight: @definition-term-font-weight;
+	.font-size(@definition-term-font-size);
+	color: @definition-term-color;
+}
+
+// Definition Description
+dd {
+	margin: @definition-description-margin;
+	font-family: @definition-description-font-family;
+	font-weight: @definition-description-font-weight;
+	.font-size(@definition-description-font-size);
+	color: @definition-description-color;
+}

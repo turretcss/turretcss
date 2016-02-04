@@ -1,0 +1,25 @@
+/*
+ * Definitions
+ */
+
+// Paragraph
+@paragraph-margin: 2rem 0;
+@paragraph-font-family: @regular-font-family;
+@paragraph-font-weight: @regular-font-weight;
+@paragraph-font-size: @font-size-medium;
+@paragraph-color: @body-color;
+@paragraph-line-height: @line-height-medium;
+
+
+/*
+ * Paragraph
+ */
+
+p {
+	margin: @paragraph-margin;
+	font-family: @paragraph-font-family;
+	font-weight: @paragraph-font-weight;
+	.font-size(@paragraph-font-size);
+	color: @paragraph-color;
+	line-height: @paragraph-line-height;
+}

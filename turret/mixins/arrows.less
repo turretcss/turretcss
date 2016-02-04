@@ -1,0 +1,73 @@
+/*
+ * Arrows
+ */
+ 
+.arrow() {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	content: ' ';
+}
+
+.arrow-top(@size, @color) {
+	.arrow();
+	top: -@size;
+	left: 50%;
+	margin-left: -@size;
+	border-right: @size solid transparent;
+	border-bottom: @size solid @color;
+	border-left: @size solid transparent;
+}
+
+.arrow-top-left(@size, @color, @offset) {
+	.arrow-top(@size, @color);
+	left: @size + @offset;
+}
+
+.arrow-top-right(@size, @color, @offset) {
+	.arrow-top(@size, @color);
+	left: auto;
+	right: @offset;
+}
+
+.arrow-bottom(@size, @color) {
+	.arrow();
+	bottom: -@size;
+	left: 50%;
+	margin-left: -@size;
+	border-right: @size solid transparent;
+	border-top: @size solid @color;
+	border-left: @size solid transparent;
+}
+
+.arrow-bottom-left(@size, @color, @offset) {
+	.arrow-bottom(@size, @color);
+	left: @size + @offset;
+}
+
+.arrow-bottom-right(@size, @color, @offset) {
+	.arrow-bottom(@size, @color);
+	left: auto;
+	right: @offset;
+}
+
+.arrow-left(@size, @color) {
+	.arrow();
+	left: -@size;
+	top: 50%;
+	margin-top: -@size;
+	border-top: @size solid transparent;
+	border-right: @size solid @color;
+	border-bottom: @size solid transparent;
+}
+
+.arrow-right(@size, @color) {
+	.arrow();
+	right: -@size;
+	top: 50%;
+	margin-top: -@size;
+	border-top: @size solid transparent;
+	border-left: @size solid @color;
+	border-bottom: @size solid transparent;
+}

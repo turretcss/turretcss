@@ -1,0 +1,28 @@
+/*
+ * Definitions
+ */
+
+//Image
+@image-rounded-border-radius: 8px;
+
+
+/*
+ * Image
+ */
+
+img {
+	vertical-align: bottom;
+
+	&.rounded {
+		border-radius: @image-rounded-border-radius;
+	}
+
+	&.circle {
+		border-radius: 50%;
+	}
+
+	&.responsive {
+		width: 100%;
+		height: auto;
+	}
+}

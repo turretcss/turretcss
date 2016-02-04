@@ -1,0 +1,86 @@
+/*
+ * Definitions
+ */
+
+// Print Page
+@print-page-size: A4;
+@print-page-margin: 1.5cm 2cm;
+
+
+/*
+ * Print
+ */
+
+@page {
+	size: @print-page-size;
+	margin: @print-page-margin;
+}
+
+@media print {
+
+	*,
+	*:before,
+	*:after {
+		background: transparent !important;
+		color: @black !important; // Black prints faster: h5bp.com/s
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]:after {
+		content: '("attr(href)")';
+	}
+
+	a[href^="#"]:after {
+		content: '';
+	}
+
+	abbr[title]:after {
+		content: '("attr(title)")';
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999999;
+		page-break-inside: avoid;
+	}
+
+	thead {
+		display: table-header-group; // h5bp.com/t
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+
+	table {
+		border-collapse: collapse !important;
+
+		td,
+		th {
+			background-color: @white !important;
+		}
+	}
+}

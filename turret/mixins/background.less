@@ -1,0 +1,43 @@
+/*
+ * Backgrounds
+ */
+
+.gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: -ms-linear-gradient(top, @start @start-origin, @stop @stop-origin);
+	background-image: linear-gradient(to bottom, @start @start-origin, @stop @stop-origin);
+}
+
+// Horizontal Gradient
+.horizontal-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-linear-gradient(left, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-linear-gradient(left, @start @start-origin, @stop 100%);
+	background-image: -ms-linear-gradient(left, @start @start-origin, @stop @stop-origin);
+	background-image: linear-gradient(to right, @start @start-origin, @stop @stop-origin);
+}
+
+// Radial Gradient
+.radial-gradient(@start: @white, @start-origin: 0%, @stop: @black, @stop-origin: 100%) {
+	background-image: -webkit-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: -moz-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: -ms-radial-gradient(center, ellipse cover, @start @start-origin, @stop @stop-origin);
+	background-image: radial-gradient(ellipse at center, @start @start-origin, @stop @stop-origin);
+}
+
+// Background Cover
+.background-cover(@url) {
+	background: url('@{url}') no-repeat center center; 
+	background-size: cover;
+}
+
+// Background Cover Fixed
+.background-cover-fixed(@url) {
+	background: url('@{url}') no-repeat center center;
+	background-attachment: scroll;
+	background-size: cover;
+	
+	@media @large {
+		background-attachment: fixed;
+	}
+}

@@ -1,0 +1,84 @@
+/*
+ * Input Group
+ */
+
+.input-group {
+	position: relative;
+	display: table;
+	margin: @input-margin;
+	border-collapse: separate; // prevent input groups from inheriting border styles from table cells when placed within a table
+
+	&.input-inline {
+		float: left;
+	}
+
+	input {
+		margin: 0;
+		.border-radiuses(@input-border-radius, 0, @input-border-radius, 0);
+	}
+
+	// Undo Column Padding and Float
+	&[class*="column-"] {
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.input-group-button,
+	.input-group .form-input {
+		display: table-cell;
+	}
+}
+
+// Input Group Button
+.input-group-button {
+	position: relative;
+	.font-size(0);
+	width: 1%;
+	white-space: nowrap;
+	vertical-align: middle;
+
+	// Negative margin for spacing, position for bringing hovered/focused/actived
+	// element above the siblings.
+	> button,
+	> .button {
+		position: relative;
+		.border-radiuses(0, @button-border-radius, 0, @button-border-radius);
+
+		+ .button {
+			margin-left: -1px;
+		}
+
+		// Bring the "active" button to the front
+		&:hover,
+		&:focus,
+		&:active {
+			z-index: 2;
+		}
+	}
+
+	// Negative margin to only have a 1px border between the two
+	&:first-child > .button {
+		margin-right: -1px;
+	}
+
+	&:last-child > .button {
+		margin-left: -1px;
+	}
+}
+
+// Input Group Search
+.input-group-search {
+	border-radius: @input-search-border-radius;
+	overflow: hidden;
+	
+	input[type="search"] {
+		padding-left: @input-search-border-radius;
+		.border-radiuses(@input-search-border-radius, 0, @input-search-border-radius, 0);
+	}
+	
+	button,
+	.button {
+		.border-radiuses(0, @input-search-border-radius, 0, @input-search-border-radius);
+	}
+}

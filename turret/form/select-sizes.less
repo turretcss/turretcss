@@ -1,0 +1,58 @@
+/*
+ * Definitions
+ */
+
+// Select Extra Large
+@select-xlarge-padding: @input-xlarge-padding;
+@select-xlarge-height: @input-xlarge-height;
+@select-xlarge-font-size: @input-xlarge-font-size;
+
+// Select Large
+@select-large-padding: @input-large-padding;
+@select-large-height: @input-large-height;
+@select-large-font-size: @input-large-font-size;
+
+// Select Medium
+@select-medium-padding: @select-padding;
+@select-medium-height: @select-height;
+@select-medium-font-size: @select-font-size;
+
+// Select Small
+@select-small-padding: @input-small-padding;
+@select-small-height: @input-small-height;
+@select-small-font-size: @input-small-font-size;
+
+// Select Extra Small
+@select-xsmall-padding: @input-xsmall-padding;
+@select-xsmall-height: @input-xsmall-height;
+@select-xsmall-font-size: @input-xsmall-font-size;
+
+
+/*
+ * Select Sizes
+ */
+
+// Select Extra Large
+.select-xlarge {
+	.select-size(@select-xlarge-padding, @select-xlarge-height, @select-xlarge-font-size);
+}
+
+// Select Large
+.select-large {
+	.select-size(@select-large-padding, @select-large-height, @select-large-font-size);
+}
+
+// Select Medium
+.select-medium {
+	.select-size(@select-medium-padding, @select-medium-height, @select-medium-font-size);
+}
+
+// Select Small
+.select-small {
+	.select-size(@select-small-padding, @select-small-height, @select-small-font-size);
+}
+
+// Select Extra Small
+.select-xsmall {
+	.select-size(@select-xsmall-padding, @select-xsmall-height, @select-xsmall-font-size);
+}

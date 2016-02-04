@@ -1,0 +1,63 @@
+/*
+ * Definitions
+ */
+
+// Blockquote
+@blockquote-margin: 3rem 0;
+@blockquote-padding: 0 2rem;
+
+// Blockquote Quote
+@blockquote-quote-margin: 0;
+@blockquote-quote-font-family: @lead-font-family;
+@blockquote-quote-font-weight: @lead-font-weight;
+@blockquote-quote-font-size: @lead-font-size;
+@blockquote-quote-font-style: normal;
+@blockquote-quote-line-height: @line-height-medium;
+@blockquote-quote-color: @body-color;
+
+// Blockquote Cite
+@blockquote-cite-margin: 1rem 0;
+@blockquote-cite-font-family: @regular-font-family;
+@blockquote-cite-font-weight: @regular-font-family;
+@blockquote-cite-font-size: @font-size-medium;
+@blockquote-cite-font-style: normal;
+@blockquote-cite-color: @blockquote-quote-color;
+@blockquote-cite-text-align: left;
+
+
+/*
+ * Blockquote
+ */
+
+blockquote {
+	margin: @blockquote-margin;
+	padding: @blockquote-padding;
+	font-family: @blockquote-quote-font-family;
+	font-weight: @blockquote-quote-font-weight;
+	.font-size(@blockquote-quote-font-size);
+	font-style: @blockquote-quote-font-style;
+	line-height: @blockquote-quote-line-height;
+	color: @blockquote-quote-color;
+
+	// Blockquote Quote
+	p {
+		margin: @blockquote-quote-margin;
+		font-family: inherit;
+		font-weight: inherit;
+		font-size: inherit;
+		font-style: inherit;
+		line-height: inherit;
+		color: inherit;
+	}
+	
+	// Blockquote Cite
+	cite {
+		display: block;
+		margin: @blockquote-cite-margin;
+		font-family: @blockquote-cite-font-family;
+		.font-size(@blockquote-cite-font-size);
+		font-style: @blockquote-cite-font-style;
+		color: @blockquote-cite-color;
+		text-align: @blockquote-cite-text-align;
+	}
+}

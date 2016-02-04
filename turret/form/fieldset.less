@@ -1,0 +1,32 @@
+/*
+ * Definitions
+ */
+
+// Fieldset
+@fieldset-margin: 0;
+@fieldset-padding: 2rem;
+@fieldset-border: 1px solid @light-grey;
+
+// Feildset Legend
+@fieldset-legend-padding: 1rem;
+@fieldset-legend-font-size: @font-size-medium;
+@fieldset-legend-color: @grey;
+
+
+/*
+ * Fieldset
+ */
+
+fieldset {
+	display: block;
+	margin: @fieldset-margin;
+	padding: @fieldset-padding;
+	border: @fieldset-border;
+
+	legend {
+		display: inline-block;
+		padding: @fieldset-legend-padding;
+		.font-size(@fieldset-legend-font-size);
+		color: @fieldset-legend-color;
+	}
+}

@@ -1,0 +1,38 @@
+/*
+ * Placeholder
+ */
+ 
+.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform) {
+	font-family: @font-family;
+	.font-size(@font-size);
+	color: @color;
+	letter-spacing: @letter-spacing;
+	text-transform: @text-transform;
+	.transition(color @transition-fast ease-in-out);
+}
+
+.placeholder-input-focus(@color) {
+	color: fade(@color, 25%);
+}
+
+// Placeholder
+.placeholder(@color, @font-size, @font-family, @letter-spacing, @text-transform) {
+	&::-moz-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus::-moz-placeholder {
+		.placeholder-input-focus(@color);
+	}
+	&:-ms-input-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus:-ms-input-placeholder {
+		.placeholder-input-focus(@color);
+	}
+	&::-webkit-input-placeholder {
+		.placeholder-input(@font-family, @font-size, @color, @letter-spacing, @text-transform);
+	}
+	&:focus::-webkit-input-placeholder {
+		.placeholder-input-focus(@color);
+	}
+}

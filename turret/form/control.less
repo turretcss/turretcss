@@ -1,0 +1,136 @@
+/*
+ * Definitions
+ */
+
+// Control
+@control-margin: @input-margin;
+@control-padding: 0 0 0 1.5em;
+@control-color: @input-color;
+
+// Control Indicator
+@control-indicator-size: 1.6rem;
+@control-indicator-color: @primary;
+@control-indicator-background: @input-background;
+@control-indicator-border: @input-border;
+
+// Control Checked
+@control-indicator-checked-background: @primary;
+@control-indicator-checked-border: 1px solid @primary;
+@control-label-checked-color: @control-label-color;
+
+// Control Label
+@control-label-margin: 0 0 0 1rem;
+@control-label-font-family: @input-font-family;
+@control-label-font-weight: @input-font-weight;
+@control-label-font-size: @label-font-size;
+@control-label-color: @input-color;
+@control-label-line-height: @input-line-height;
+
+// Control Inline
+@control-inline-margin-right: 2rem;
+
+// Checkbox
+@checkbox-border-radius: none;
+
+// Radio
+@radio-border-radius: 50%;
+
+
+/*
+ * Controls (Radio + Checkbox)
+ */
+
+.control {
+	position: relative;
+	display: block;
+	margin: @control-margin;
+	padding: @control-padding;
+	color: @control-color;
+	cursor: pointer;
+	
+	&.control-inline {
+		display: inline-block;
+		margin-right: @control-inline-margin-right;
+	}
+	
+	// Visually Hide Input
+	input {
+		z-index: -1;
+		position: absolute;
+		opacity: 0;
+		
+		&:checked {
+			
+			~ .control-indicator {
+				background: @control-indicator-checked-background;
+				border: @control-indicator-checked-border;
+			}
+			
+			~ .control-label {
+				color: @control-label-checked-color;
+			}
+		}
+	}
+
+	// Checkbox
+	&.checkbox {
+		
+		.control-indicator {
+			border-radius: @checkbox-border-radius;
+		}
+	
+		input:checked {
+			
+			~ .control-indicator {
+				background: @control-indicator-checked-background no-repeat 50% 50% url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K');
+			}
+		}
+	}
+	
+	// Radio
+	&.radio {
+		
+		.control-indicator {
+			border-radius: @radio-border-radius;
+		}
+	
+		input:checked ~ .control-indicator:before {
+			.center();
+			background: @white;
+			content: '';
+			.square(0.5em);
+			border-radius: @radio-border-radius;
+		}
+	}
+}
+
+// Control Indicator
+.control-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	.square(@control-indicator-size);
+	line-height: 1rem;
+	color: @control-indicator-color;
+	text-align: center;
+	background-color: @control-indicator-background;
+	background-size: 50% 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: @control-indicator-border;
+	.user-select(none);
+}
+
+// Control Label
+.control-label {
+	display: block;
+	margin: @control-label-margin;
+	font-family: @control-label-font-family;
+	font-weight: @control-label-font-weight;
+	.font-size(@control-label-font-size);
+	color: @control-label-color;
+	line-height: @control-label-line-height;
+	pointer-events: none;
+	.transition(color @transition-fast ease-in-out);
+}

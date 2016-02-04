@@ -1,0 +1,50 @@
+/*
+ * Definitions
+ */
+
+// Body
+@body-font-family: @regular-font-family;
+@body-font-weight: @regular-font-weight; 
+@body-color: @dark;
+@body-line-height: @line-height-medium;
+@body-letter-spacing: 0.03rem;
+@body-background: @white;
+
+
+
+/*
+ * Body
+ */
+
+// Font Rendering
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Box Sizing
+*,
+*:before,
+*:after {
+	.box-sizing(border-box);
+}
+
+// Removes Dotted Border
+:focus {
+	outline: 0;
+}
+
+// General Styles
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+// Body Font and Color
+body {
+	font-family: @body-font-family;
+	font-weight: @body-font-weight;
+	color: @body-color;
+	line-height: @body-line-height;
+	letter-spacing: @body-letter-spacing;
+	background: @body-background;
+}

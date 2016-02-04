@@ -1,0 +1,66 @@
+/*
+ * Definitions
+ */
+
+@media-background: @light;
+
+
+/*
+ * Media
+ */
+
+.media {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background: @media-background;
+	
+	> svg,
+	> img,
+	> video,
+	> iframe,
+	> .media-inner {
+		display: block;
+		.cover();
+	}
+}
+
+// Media Ratios
+.media-1-2 {
+	.media-ratio(1, 2);
+}
+
+.media-9-16 {
+	.media-ratio(9, 16);
+}
+
+.media-9-14 {
+	.media-ratio(9, 14);
+}
+
+.media-2-3 {
+	.media-ratio(2, 3);
+}
+
+.media-3-4 {
+	.media-ratio(3, 4);
+}
+
+.media-1 {
+	.media-ratio(1, 1);
+}
+
+.media-4-3 {
+	.media-ratio(4, 3);
+}
+.media-3-2 {
+	.media-ratio(3, 2);
+}
+
+.media-16-9 {
+	.media-ratio(16, 9);
+}
+
+.media-2-1 {
+	.media-ratio(2, 1);
+}

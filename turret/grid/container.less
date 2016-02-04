@@ -1,0 +1,52 @@
+/*
+ * Definitions
+ */
+
+// Container
+@container-xsmall: 100%;
+@container-small: 100%;
+@container-medium: 1024px;
+@container-large: 1280px;
+@container-xlarge: 1440px;
+
+
+/*
+ * Container
+ */
+ 
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	.clearfix();
+
+	@media @xlarge {
+		padding-left: @gutter-xlarge;
+		padding-right: @gutter-xlarge;
+		max-width: @container-xlarge;
+	}
+
+	@media @large {
+		padding-left: @gutter-large;
+		padding-right: @gutter-large;
+		max-width: @container-large;
+	}
+
+	@media @medium {
+		padding-left: @gutter-medium;
+		padding-right: @gutter-medium;
+		max-width: @container-medium;
+	}
+	
+	@media @small {
+		padding-left: @gutter-small;
+		padding-right: @gutter-small;
+		max-width: @container-small;
+	}
+
+	@media @xsmall {
+		padding-left: @gutter-xsmall;
+		padding-right: @gutter-xsmall;
+		max-width: @container-xsmall;
+	}
+}

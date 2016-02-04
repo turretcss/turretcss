@@ -1,0 +1,70 @@
+/*
+ * Font
+ */
+
+// Font
+.font(@family, @weight, @size) {
+	font-family: @family;
+	font-weight: @weight;
+	font-size: @size;
+}
+
+
+// Font Family
+.font-family(@family, @weight) {
+	font-family: @family;
+	font-weight: @weight;
+	font-style: normal;
+}
+
+// Font Size
+.font-size(@rem) {
+	font-size: ~"@{rem}rem";
+}
+
+// Font Size Pixels
+.font-size-pixel(@rem) {
+	@pixels: (@rem * 10);
+	font-size: ~"@{pixels}px"; 
+	font-size: ~"@{rem}rem";
+}
+
+// Thin Font
+.thin-font() {
+	.font-family(@thin-font-family, @thin-font-weight);
+}
+
+// Regular Font
+.regular-font() {
+	.font-family(@regular-font-family, @regular-font-weight);
+}
+
+// Medium Font
+.medium-font() {
+	.font-family(@medium-font-family, @medium-font-weight);
+}
+
+// Semibold Font
+.semibold-font() {
+	.font-family(@semibold-font-family, @semibold-font-weight);
+}
+
+// Bold Font
+.bold-font() {
+	.font-family(@bold-font-family, @bold-font-weight);
+}
+
+// Font Face
+.font-face(@family: arial, @weight: normal, @style: normal) {
+	@font-face {
+		font-family: '@{family}';
+		src:url('@{font-path}/@{family}.eot');
+		src:url('@{font-path}/@{family}.eot?#iefix') format('embedded-opentype'),
+			url('@{font-path}/@{family}.svg#icon') format('svg'),
+			url('@{font-path}/@{family}.woff') format('woff'),
+			url('@{font-path}/@{family}.ttf') format('truetype'),
+			url('@{font-path}/@{family}.svg#icon') format('svg');
+		font-weight: @weight;
+		font-style: @style;
+	}
+}

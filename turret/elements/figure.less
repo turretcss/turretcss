@@ -1,0 +1,40 @@
+/*
+ * Definitions
+ */
+
+// Figure
+@figure-display: block;
+@figure-margin: 0;
+@figure-padding: 1rem;
+@figure-border: 1px solid @light-grey;
+
+// Figure Caption
+@figure-caption-margin: 1rem 0;
+@figure-caption-font-family: @paragraph-font-family;
+@figure-caption-font-weight: @paragraph-font-weight;
+@figure-caption-font-size: @paragraph-font-size;
+@figure-caption-color: @body-color;
+@figure-caption-text-align: center;
+
+
+/*
+ * Figure
+ */
+
+// Figure
+figure {
+	display: @figure-display;
+	margin: @figure-margin;
+	padding: @figure-padding;
+	border: @figure-border;
+}
+
+// Figure Caption
+figcaption {
+	margin: @figure-caption-margin;
+	font-family: @figure-caption-font-family;
+	font-weight: @figure-caption-font-weight;
+	.font-size(@figure-caption-font-size);
+	color: @figure-caption-color;
+	text-align: @figure-caption-text-align;
+}

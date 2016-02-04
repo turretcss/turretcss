@@ -1,0 +1,95 @@
+/*
+ * Button Group
+ */
+
+.button-group {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+	> button,
+	> .button {
+		position: relative;
+		float: left;
+		
+		// Bring the "active" button to the front
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			z-index: 2;
+		}
+	}
+	
+	// Prevent double borders when buttons are next to each other
+	button + button,
+	.button + .button,
+	button + .button-group,
+	.button + .button-group,
+	.button-group + button,
+	.button-group + .button,
+	.button-group + .button-group {
+		margin-left: -1px;
+	}
+	
+	// Custom edits for including button-groups within button-groups
+	> .button-group {
+		float: left;
+	}
+
+	button:not(:first-child):not(:last-child),
+	.button:not(:first-child):not(:last-child),
+	.button-group:not(:first-child):not(:last-child) > button,
+	.button-group:not(:first-child):not(:last-child) > .button {
+		border-radius: 0;
+	}
+	
+	> .button-group:first-child {
+	
+		> button:last-child,
+		> .button:last-child {
+			.border-right-radius(0);
+		}
+	}
+	
+	> .button-group:last-child > button:first-child,
+	> .button-group:last-child > .button:first-child {
+		.border-left-radius(0);
+	}
+
+	// Set corners individual because sometimes a single button can be in a .button-group and we need :first-child and :last-child to both match
+	> button:first-child,
+	> .button:first-child {
+		margin-left: 0;
+		
+		&:not(:last-child) {
+			.border-right-radius(0);
+		}
+	}
+	
+	> button:last-child:not(:first-child),
+	> .button:last-child:not(:first-child) {
+		.border-left-radius(0);
+	}
+}
+
+// Button Group Block
+.button-group-block {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: separate;
+	
+	> button,
+	> .button,
+	> .button-group {
+		float: none;
+		display: table-cell;
+		width: 1%;
+	}
+	
+	> .button-group .button,
+	> .button-group button {
+		width: 100%;
+	}
+}

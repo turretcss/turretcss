@@ -1,0 +1,248 @@
+/*
+ * Visibility
+ */
+
+.hide {
+	.hide();
+}
+
+.show {
+	.show();
+}
+
+.visible {
+	visibility: visible;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.hide-text {
+	.hide-text();
+}
+
+.hide-visually {
+	.hide-visually();
+}
+
+/*
+ * Print & Screen
+ */
+
+// Hidden
+.hidden-print {
+
+	@media print {
+		.hide();
+	}
+}
+
+.hidden-screen {
+
+	@media screen {
+		.hide();
+	}
+}
+
+// Visible
+.visible-print {
+	.hide();
+
+	@media print {
+		.show();
+	}
+}
+
+.visible-screen {
+	.hide();
+
+	@media screen {
+		.show();
+	}
+}
+
+
+/*
+ * Hidden Breakpoints
+ */
+
+// Hidden Extra Large
+.hidden-xlarge {
+
+	@media @xlarge {
+		.hide();
+	}
+}
+
+// Hidden Large
+.hidden-large {
+
+	@media @large {
+		.hide();
+	}
+}
+
+.hidden-large-up {
+
+	@media @large-up {
+		.hide();
+	}
+}
+
+.hidden-large-down {
+
+	@media @large-down {
+		.hide();
+	}
+}
+
+// Hidden Medium
+.hidden-medium {
+
+	@media @medium {
+		.hide();
+	}
+}
+
+.hidden-medium-up {
+
+	@media @medium-up {
+		.hide();
+	}
+}
+
+.hidden-medium-down {
+
+	@media @medium-down {
+		.hide();
+	}
+}
+
+// Hidden Small
+.hidden-small {
+
+	@media @small {
+		.hide();
+	}
+}
+
+.hidden-small-up {
+
+	@media @small-up {
+		.hide();
+	}
+}
+
+.hidden-small-down {
+
+	@media @small-down {
+		.hide();
+	}
+}
+
+// Hidden Extra Small
+.hidden-xsmall {
+
+	@media @xsmall {
+		.hide();
+	}
+}
+
+
+/*
+ * Visible Breakpoints
+ */
+
+//Visible Extra Large
+.visible-xlarge {
+	.hide();
+
+	@media @xlarge {
+		.show();
+	}
+}
+
+//Visible Large
+.visible-large {
+	.hide();
+
+	@media @large {
+		.show();
+	}
+}
+
+.visible-large-up {
+	.hide();
+
+	@media @large-up {
+		.show();
+	}
+}
+
+.visible-large-down {
+	.hide();
+
+	@media @large-down {
+		.show();
+	}
+}
+
+//Visible Medium
+.visible-medium {
+	.hide();
+
+	@media @medium {
+		.show();
+	}
+}
+
+.visible-medium-up {
+	.hide();
+
+	@media @medium-up {
+		.show();
+	}
+}
+
+.visible-medium-down {
+	.hide();
+
+	@media @medium-down {
+		.show();
+	}
+}
+
+//Visible Small
+.visible-small {
+	.hide();
+
+	@media @small {
+		.show();
+	}
+}
+
+.visible-small-up {
+	.hide();
+
+	@media @small-up {
+		.show();
+	}
+}
+
+.visible-small-down {
+	.hide();
+
+	@media @small-down {
+		.show();
+	}
+}
+
+//Visible Extra Small
+.visible-xsmall {
+	.hide();
+
+	@media @xsmall {
+		.show();
+	}
+}

@@ -1,0 +1,51 @@
+/*
+ * Input
+ */
+
+// Input
+.input() {
+	display: block;
+	margin: @input-margin;
+	width: 100%;
+	font-family: @input-font-family;
+	font-weight: @input-font-weight;
+	color: @input-color;
+	line-height: @input-line-height;
+	border: @input-border;
+	background: @input-background;
+	border-radius: @input-border-radius;
+	.transition(all @transition-fast ease-in-out);
+	.appearance(none);
+}
+
+// Input Size
+.input-size(@padding, @height, @font-size) {
+	padding: @padding;
+	height: @height;
+	.font-size(@font-size);
+}
+
+// Input Style
+.input-style(@color, @background, @border) {
+	color: @color;
+	background: @background;
+	border: @border;
+}
+
+// Input Indicator
+.input-indicator(@color) {
+	color: @color;
+	border-color: @color;
+}
+
+// Input Group Button
+.input-group-button(@padding, @height, @font-size) {
+
+	> button,
+	> .button {
+		padding: @padding;
+		height: @height;
+		min-width: @height;
+		.font-size(@font-size);
+	}
+}

@@ -1,0 +1,187 @@
+/*
+ * General Mixins
+ */
+
+// Clearfix
+.clearfix() {
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+
+	*zoom: 1;
+}
+
+// Show
+.show() {
+	display: block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+// Hide
+.hide() {
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+}
+
+// Sizing
+.size(@width, @height) {
+	width: @width;
+	height: @height;
+}
+
+// Square Sizing
+.square(@size) {
+	.size(@size, @size);
+}
+
+// Uppercase
+.uppercase(@letter-spacing: @body-letter-spacing) {
+	text-transform: uppercase;
+	letter-spacing: @letter-spacing;
+}
+
+// Overflow Scroll
+.overflow-scroll() {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+// Center Block
+.center-block() {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Center
+.center() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	.translate(-50%, -50%);
+}
+
+// Overlay
+.cover() {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// Hide text
+.hide-text() {
+	font: ~"0/0" a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.text-hide() {
+	.hide-text();
+}
+
+//  Hyphens
+.hyphens(@hyphens: none) {
+	-webkit-hyphens: @hyphens;
+	-moz-hyphens: @hyphens;
+	-ms-hyphens: @hyphens;
+	hyphens: @hyphens;
+}
+
+//  Tab Size
+.tab-size(@tab-size: 4) {
+	-moz-tab-size: @tab-size;
+	-o-tab-size: @tab-size;
+	tab-size: @tab-size;
+}
+
+// Hide but keep in DOM for Screen Readers
+.hide-visually() {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+// User Select
+.user-select(@argument: none) {
+	-webkit-user-select: @argument;
+	-moz-user-select: @argument;
+	-ms-user-select: @argument;
+	user-select: @argument;
+}
+
+// Appearance
+.appearance(@appearance) {
+	-webkit-appearance: @appearance;
+	-moz-appearance: @appearance;
+	appearance: @appearance;
+}
+
+//  Retina images
+.img-retina(@file-1x, @file-2x, @width-1x, @height-1x) {
+	background-image: url("@{file-1x}");
+	
+	@media @retina {
+		background-image: url("@{file-2x}");
+		background-size: @width-1x @height-1x;
+	}
+}
+
+// Stroke Offset
+.stroke-offset(@offset) {
+	stroke-dasharray: @offset;
+	stroke-dashoffset: @offset;
+}
+
+// Media Ratio
+.media-ratio(@width, @height) {
+	padding-top: (@height/@width) * 100%;
+}
+
+// Column Count
+.column-count(@count) {
+	-webkit-column-count: @count;
+	-moz-column-count: @count;
+	column-count: @count;
+}
+
+// Column Gap
+.column-gap(@gap) {
+	-webkit-column-gap: @gap;
+	-moz-column-gap: @gap;
+	column-gap: @gap;
+}
+
+// Box Sizing
+.box-sizing(@box-sizing) {
+	-webkit-box-sizing: @box-sizing;
+	-moz-box-sizing: @box-sizing;
+	box-sizing: @box-sizing;
+}
+
+//  Truncate
+.truncate() {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

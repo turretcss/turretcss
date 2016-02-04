@@ -1,0 +1,182 @@
+/*
+ * Definitions
+ */
+
+// Button Icon
+@button-icon-size: @button-font-size;
+@button-icon-fill: @button-color;
+@button-icon-left-margin: 1em;
+@button-icon-right-margin: 1em;
+
+// Button Icon Styles
+@button-icon-inverse-fill: @button-inverse-color;
+@button-icon-inverse-hover-fill: @button-inverse-hover-color;
+@button-icon-primary-fill: @button-primary-color;
+@button-icon-primary-hover-fill: @button-primary-hover-color;
+@button-icon-secondary-fill: @button-secondary-color;
+@button-icon-secondary-hover-fill: @button-secondary-hover-color;
+@button-icon-tertiary-fill: @button-tertiary-color;
+@button-icon-tertiary-hover-fill: @button-tertiary-hover-color;
+@button-icon-border-fill: @button-border-color;
+@button-icon-border-hover-fill: @button-border-hover-color;
+@button-icon-text-fill: @button-text-color;
+@button-icon-text-hover-fill: @button-text-hover-color;
+
+// Button Icon Indicators
+@button-icon-error-fill: @button-error-color;
+@button-icon-error-hover-fill: @button-error-hover-color;
+@button-icon-warning-fill: @button-warning-color;
+@button-icon-warning-hover-fill: @button-warning-hover-color;
+@button-icon-success-fill: @button-success-color;
+@button-icon-success-hover-fill: @button-success-hover-color;
+@button-icon-info-fill: @button-info-color;
+@button-icon-info-hover-fill: @button-info-hover-color;
+
+// Button Icon Sizes
+@button-icon-xlarge-size: @button-xlarge-font-size;
+@button-icon-large-size: @button-large-font-size;
+@button-icon-medium-size: @button-medium-font-size;
+@button-icon-small-size: @button-small-font-size;
+@button-icon-xsmall-size: @button-xsmall-font-size;
+
+
+
+/*
+ * Button Icon
+ */
+
+// Button Icon
+.button-icon {
+	
+	> svg {
+		position: relative;
+		.square(unit(@button-icon-size, rem));
+		fill: currentColor;
+		vertical-align: bottom;
+		.transition(fill @transition-fast ease-in-out);
+	}
+}
+
+// Button Icon Left
+.button-icon-left > svg {
+	margin-right: @button-icon-left-margin;
+}
+
+// Button Icon Right
+.button-icon-right > svg {
+	margin-left: @button-icon-left-margin;
+}
+
+
+/*
+ * Button Icon Styles
+ */
+
+.button-icon {
+
+	// Button Inverse
+	&.button-inverse {
+		.button-icon-theme(@button-icon-inverse-fill, @button-icon-inverse-hover-fill);
+	}
+
+	// Text Button
+	&.button-text {
+		.button-icon-theme(@button-icon-text-fill, @button-icon-text-hover-fill);
+	}
+
+	// Button Primary
+	&.button-primary {
+		.button-icon-theme(@button-icon-primary-fill, @button-icon-primary-hover-fill);
+	}
+
+	// Button Secondary
+	&.button-secondary {
+		.button-icon-theme(@button-icon-secondary-fill, @button-icon-secondary-hover-fill);
+	}
+
+	// Button Tertiary
+	&.button-tertiary {
+		.button-icon-theme(@button-icon-tertiary-fill, @button-icon-tertiary-hover-fill);
+	}
+
+
+	// Button Border
+	&.button-border {
+		.button-icon-theme(@button-icon-border-fill, @button-icon-border-hover-fill);
+	}
+}
+
+
+/*
+ * Button Icon Indicators
+ */
+
+.button-icon {
+
+	// Error
+	&.error {
+		.button-icon-theme(@button-icon-error-fill, @button-icon-error-hover-fill);
+	}
+
+	// Warning
+	&.warning {
+		.button-icon-theme(@button-icon-warning-fill, @button-icon-warning-hover-fill);
+	}
+
+	// Success
+	&.success {
+		.button-icon-theme(@button-icon-success-fill, @button-icon-success-hover-fill);
+	}
+
+	// Info
+	&.info {
+		.button-icon-theme(@button-icon-info-fill, @button-icon-info-hover-fill);
+	}
+}
+
+/*
+ * Button Sizes
+ */
+
+.button-icon {
+
+	// Button Extra Large
+	&.button-xlarge {
+		
+		> svg {
+			.square(unit(@button-icon-xlarge-size, rem));
+		}
+	}
+
+	// Button Large
+	&.button-large {
+		
+		> svg {
+			.square(unit(@button-icon-large-size, rem));
+		}
+	}
+
+	// Button Medium
+	&.button-medium {
+		
+		> svg {
+			.square(unit(@button-icon-medium-size, rem));
+		}
+	}
+
+	// Button Small
+	&.button-small {
+		
+		> svg {
+			.square(unit(@button-icon-small-size, rem));
+		}
+	}
+
+	// Button Extra Small
+	&.button-xsmall {
+		
+		> svg {
+			.square(unit(@button-icon-xsmall-size, rem));
+		}
+	}
+}

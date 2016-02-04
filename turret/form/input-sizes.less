@@ -1,0 +1,63 @@
+/*
+ * Definitions
+ */
+
+// Input Extra Large
+@input-xlarge-padding: 0 3.0rem;
+@input-xlarge-height: @height-xlarge;
+@input-xlarge-font-size: @font-size-xlarge;
+
+// Input Large
+@input-large-padding: 0 2.5rem;
+@input-large-height: @height-large;
+@input-large-font-size: @font-size-large;
+
+// Input Medium
+@input-medium-padding: 0 1.6rem;
+@input-medium-height: @input-height;
+@input-medium-font-size: @input-font-size;
+
+// Input Small
+@input-small-padding: 0 1.2rem;
+@input-small-height: @height-small;
+@input-small-font-size: @font-size-small;
+
+// Input Extra Small
+@input-xsmall-padding: 0 0.8rem;
+@input-xsmall-height: @height-xsmall;
+@input-xsmall-font-size: @font-size-xsmall;
+
+
+/*
+ * Input Sizes
+ */
+
+// Input Extra Large
+.input-xlarge {
+	.input-size(@input-xlarge-padding, @input-xlarge-height, @input-xlarge-font-size);
+	.placeholder(@input-placeholder-color, @input-xlarge-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Large
+.input-large {
+	.input-size(@input-large-padding, @input-large-height, @input-large-font-size);
+	.placeholder(@input-placeholder-color, @input-large-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Medium
+.input-medium {
+	.input-size(@input-medium-padding, @input-medium-height, @input-medium-font-size);
+	.placeholder(@input-placeholder-color, @input-medium-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Small
+.input-small {
+	.input-size(@input-small-padding, @input-small-height, @input-small-font-size);
+	.placeholder(@input-placeholder-color, @input-small-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
+
+// Input Small
+.input-xsmall {
+	.input-size(@input-xsmall-padding, @input-xsmall-height, @input-xsmall-font-size);
+	.placeholder(@input-placeholder-color, @input-xsmall-font-size, @input-placeholder-font-family, @input-placeholder-letter-spacing, @input-placeholder-text-transform);
+}
