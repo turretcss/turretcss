@@ -134,7 +134,7 @@ General `no-gutter` utility classes for each responsive breakpoint.
 
 Columns can be applied to html elements as classes in order to position elements, columns are floated left with `@gutter` padding applied to the left and right of the element. Columns are realtively positioned and have a `min-height` of `1px`.
 
-{% include columns.html %}
+{% include grid.html %}
 
 ### Responsive Breakpoint Columns
 
