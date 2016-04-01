@@ -20,7 +20,7 @@ permalink: /docs/typography/
 @headings-margin: 0 0 1em 0;
 @headings-font-family: @medium-font-family;
 @headings-font-weight: @medium-font-weight;
-@headings-color: @body-color;
+@headings-color: @dark-grey;
 @headings-line-height: @line-height-small;
 
 // Headings Small
@@ -32,7 +32,7 @@ permalink: /docs/typography/
 // Heading Font Sizes
 @h1-font-size: 3.2;
 @h2-font-size: 2.4;
-@h3-font-size: 2;
+@h3-font-size: 2.0;
 @h4-font-size: 1.8;
 @h5-font-size: 1.6;
 @h6-font-size: 1.4;
@@ -192,6 +192,7 @@ permalink: /docs/typography/
 
 // Lists Item
 @list-item-margin: 1rem 0 1rem 2rem;
+@list-item-padding: 0 0 0 0.5rem;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
@@ -324,7 +325,7 @@ permalink: /docs/typography/
 @pre-tab-size: 4;
 @pre-hyphens: none;
 @pre-line-height: @line-height-medium;
-@pre-background: lighten(@light, 1%);
+@pre-background: @light;
 @pre-border: 1px solid @light-grey;
 
 // Pre Code
@@ -363,7 +364,7 @@ permalink: /docs/typography/
 ```scss
 // Mark
 @mark-margin: 0;
-@mark-padding: 0.3rem;
+@mark-padding: 0.3rem 0.6rem;
 @mark-font-family: @paragraph-font-family;
 @mark-font-weight: @paragraph-font-weight;
 @mark-font-size: @paragraph-font-size;

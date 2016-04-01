@@ -7,6 +7,13 @@
 @control-padding: 0 0 0 1.5em;
 @control-color: @input-color;
 
+// Control Hover
+@control-hover-indicator-background: @input-hover-background;
+@control-hover-indicator-border: @input-hover-border;
+
+// Control Focus
+@control-focus-indicator-box-shadow: 0 0 0 1px @white, 0 0 0 2px @info;
+
 // Control Indicator
 @control-indicator-size: 1.6rem;
 @control-indicator-color: @primary;
@@ -52,12 +59,21 @@
 		display: inline-block;
 		margin-right: @control-inline-margin-right;
 	}
+
+	&:hover .control-indicator {
+		border: @control-hover-indicator-border;
+		background-color: @control-hover-indicator-background;
+	}
 	
 	// Visually Hide Input
 	input {
 		z-index: -1;
 		position: absolute;
 		opacity: 0;
+
+		&:focus ~ .control-indicator {
+			box-shadow: @control-focus-indicator-box-shadow;
+		}
 		
 		&:checked {
 			
@@ -119,6 +135,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	border: @control-indicator-border;
+	.transition(all @transition-fast ease-in-out);
 	.user-select(none);
 }
 
@@ -131,6 +148,5 @@
 	.font-size(@control-label-font-size);
 	color: @control-label-color;
 	line-height: @control-label-line-height;
-	pointer-events: none;
 	.transition(color @transition-fast ease-in-out);
 }

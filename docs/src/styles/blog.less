@@ -1,0 +1,69 @@
+/*
+ * Blog Header
+ */
+
+.blog-header {
+	padding: @padding-xlarge 0;
+	text-align: center;
+	background: @primary;
+
+	h1 {
+		margin: 0 0 0.2em 0;
+		.bold-font();
+		color: @white; 
+	}
+
+	.lead {
+		margin: 0;
+		.medium-font();
+		color: @white; 
+	}
+
+	a {
+		.semibold-font();
+		color: @white;
+
+		&:hover,
+		&:focus {
+			color: @white;
+		}
+	}
+}
+
+
+/*
+ * Blog Main
+ */
+
+.blog-main {
+	padding: @padding-xlarge 0;
+}
+
+
+/*
+ * Blog Sidebar
+ */
+
+.blog-sidebar {
+	margin-bottom: @margin-medium;
+	
+	ul {
+		list-style: none;
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+
+	}
+}
+
+.blog-sidebar-title {
+	.bold-font();
+	.font-size(@font-size-small);
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}

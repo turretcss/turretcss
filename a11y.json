@@ -1,0 +1,9 @@
+{
+  "allowedStandards": ["WCAG2A", "WCAG2AA", "WCAG2AAA"],
+  "standard": "WCAG2AA",
+  "ignore": [
+    "notice",
+    "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+    "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1"
+  ]
+}

@@ -16,13 +16,14 @@ Button styles are applied directly to the `<button>` element, button style and s
 
 ```scss
 // Button
-@button-padding: 1.2rem 1.6rem;
+@button-padding: 1.3rem 2.2rem;
 @button-height: @height-medium;
-@button-font-family: @semibold-font-family;
-@button-font-weight: @semibold-font-weight;
+@button-font-family: @medium-font-family;
+@button-font-weight: @medium-font-weight;
 @button-font-size: @font-size-medium;
 @button-color: @dark-grey;
 @button-line-height: 1;
+@button-letter-spacing: 0.05rem;
 @button-text-align: center;
 @button-text-transform: none;
 @button-background: @white;
@@ -231,12 +232,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 
 ```scss
 // Button Extra Large
-@button-xlarge-padding: 2.0rem 3.0rem;
+@button-xlarge-padding: 1.8rem 3.2rem;
 @button-xlarge-height: @height-xlarge;
 @button-xlarge-font-size: @font-size-xlarge;
 
 // Button Large
-@button-large-padding: 1.5rem 2.5rem;
+@button-large-padding: 1.4rem 2.8rem;
 @button-large-height: @height-large;
 @button-large-font-size: @font-size-large;
 
@@ -246,12 +247,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 @button-medium-font-size: @button-font-size;
 
 // Button Small
-@button-small-padding: 0.8rem 1.2rem;
+@button-small-padding: 1.1rem 1.6rem;
 @button-small-height: @height-small;
 @button-small-font-size: @font-size-small;
 
 // Button Extra Small
-@button-xsmall-padding: 0.4rem 0.8rem;
+@button-xsmall-padding: 0.6rem 1.2rem;
 @button-xsmall-height: @height-xsmall;
 @button-xsmall-font-size: @font-size-xsmall;
 ```
@@ -710,17 +711,17 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 // Table Caption
 @table-caption-margin: 1rem 0;
-@table-caption-font-family: @bold-font-family;
-@table-caption-font-weight: @bold-font-weight;
+@table-caption-font-family: @regular-font-family;
+@table-caption-font-weight: @regular-font-weight;
 @table-caption-font-size: @font-size-medium;
 @table-caption-color: @body-color;
 @table-caption-text-align: left;
 
 // Table Head
 @table-head-padding: 1rem;
-@table-head-font-family: @bold-font-family;
-@table-head-font-weight: @bold-font-weight;
-@table-head-font-size: @paragraph-font-size;
+@table-head-font-family: @medium-font-family;
+@table-head-font-weight: @medium-font-weight;
+@table-head-font-size: @font-size-small;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
@@ -731,11 +732,14 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 @table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
-@table-cell-font-size: @paragraph-font-size;
+@table-cell-font-size: @font-size-small;
 @table-cell-color: @body-color;
 @table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
 @table-cell-border: @table-border;
+
+// Table Reponsive
+@table-responsive-breakpoint: @xsmall;
 ```
 
 ```html

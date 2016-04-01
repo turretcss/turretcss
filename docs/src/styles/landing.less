@@ -1,0 +1,178 @@
+/*
+ * Landing Hero
+ */
+
+.landing-hero {
+	padding-top: @padding-xlarge;
+	padding-bottom: @padding-xlarge;
+	text-align: center;
+
+	h1 {
+		margin: 2rem 0;
+		.bold-font();
+		color: @white;
+		.uppercase(0.05rem);
+	}
+
+	p {
+		margin: 1rem 0;
+		color: @white;
+	}
+
+	.lead {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 450px;
+		.regular-font();
+		color: @white;
+	}
+}
+
+.landing-hero-light {
+	background: @light;
+
+	h1,
+	h2,
+	p {
+		color: @body-color;
+	}
+}
+
+.landing-hero-primary {
+	background: @primary;
+}
+
+.landing-hero-secondary {
+	background: @secondary;
+}
+
+.landing-hero-tertiary {
+	background: @tertiary;
+}
+
+/*
+ * Landing Button
+ */
+
+.landing-button {
+	margin: @gutter;
+	min-width: 200px;
+	color: @white;
+	background: transparent;
+	border: 1px solid @white;
+	
+	&:not(:disabled) {
+
+		&:hover,
+		&:focus {
+			color: @dark;
+			background: @white;
+			border: 1px solid @white;
+		}
+	}
+}
+
+.landing-button-primary {
+
+	&:not(:disabled) {
+
+		&:hover,
+		&:focus {
+			color: @primary;
+		}
+	}
+}
+
+.landing-button-secondary {
+
+	&:not(:disabled) {
+
+		&:hover,
+		&:focus {
+			color: @secondary;
+		}
+	}
+}
+
+.landing-button-tertiary {
+
+	&:not(:disabled) {
+
+		&:hover,
+		&:focus {
+			color: @tertiary;
+		}
+	}
+}
+
+
+/*
+ * Landing Secton
+ */
+
+.landing-section {
+	margin-top: @margin-xlarge;
+	margin-bottom: @margin-xlarge;
+	background: @white;
+
+	h2,
+	.lead {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 600px;
+		text-align: center;
+	}
+}
+
+
+/*
+ * Landing Block
+ */
+
+.landing-block {
+	margin: 0 auto;
+	max-width: @max-width-medium;
+
+	&:not(:last-child) {
+		margin-bottom: @margin-large;
+	}
+
+	@media @small-up {
+		display: flex;
+		align-items: center;
+
+		&:nth-child(odd) {
+			flex-direction: row-reverse;
+
+			.landing-block-media {
+				margin-left: @gutter * 2;
+			}
+		}
+
+		&:nth-child(even) {
+			
+			.landing-block-media {
+				margin-right: @gutter * 2;
+			}
+		}
+	}
+}
+
+.landing-block-media {
+	flex: 1;
+	padding: 0;
+	border: none;
+	background: none;
+
+	@media @xsmall {
+		margin-bottom: @margin-medium;
+	}
+}
+
+.landing-block-body {
+	flex: 1;
+
+	p {
+		margin: 0;
+	}
+}

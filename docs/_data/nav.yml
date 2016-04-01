@@ -1,10 +1,11 @@
+- title: Theme
 - title: Getting Started
   pages:
     - title: Download
     - title: Structure
     - title: Usage
-    - title: Documentation
-    - title: Examples
+    # - title: Documentation
+    # - title: Examples
 
 - title: Base
   pages:
