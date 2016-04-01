@@ -364,7 +364,7 @@ permalink: /docs/typography/
 ```scss
 // Mark
 @mark-margin: 0;
-@mark-padding: 0.3rem;
+@mark-padding: 0.3rem 0.6rem;
 @mark-font-family: @paragraph-font-family;
 @mark-font-weight: @paragraph-font-weight;
 @mark-font-size: @paragraph-font-size;
