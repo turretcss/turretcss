@@ -35,11 +35,13 @@
   "devDependencies": {
     "less-plugin-autoprefix": "^1.5.0",
     "less-plugin-clean-css": "^1.5.1",
+    "pa11y": "^3.6.0",
     "uglify-js": "^2.5.0",
     "watch": "^0.13.0"
   },
   "scripts": {
     "start": "npm run watch:turret",
+    "test": "pa11y -c ./a11y.json http://0.0.0.0:9001/",
     "watch:turret": "watch \"npm run build:turret\" \"turret\"",
     "build:turret": "lessc turret/turret.less > docs/assets/css/turret.css",
     "watch:docs:scripts": "watch \"npm run build:docs:scripts\" \"docs/assets/scripts\"",
