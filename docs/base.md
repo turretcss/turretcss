@@ -166,22 +166,22 @@ Some top level definitions for general styles on the `<body>` tag.
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #DEDEE4;
-@grey: #656D78;
-@dark-grey: #434A54;
+@light-grey: #DDD;
+@grey: #666;
+@dark-grey: #444;
 
 //Indicators
-@info: #149CFD;
-@error: #E01A2E;
-@warning: #FFC200;
-@success: #05BE55;
+@info: #1E90FF;
+@error: #D91E18;
+@warning: #FF4500;
+@success: #00AA00;
 
 //Palette
-@light: #FAFAFD;
-@dark: @dark-grey;
-@primary: #05BED5;
-@secondary: #8D48AB;
-@tertiary: #B2347E;
+@light: #EEE;
+@dark: #333;
+@primary: #3455DB;
+@secondary: #663399;
+@tertiary: #8B008B;
 
 //Utility
 @inverse: @dark;
