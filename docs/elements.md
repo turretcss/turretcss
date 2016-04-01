@@ -711,17 +711,17 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 // Table Caption
 @table-caption-margin: 1rem 0;
-@table-caption-font-family: @bold-font-family;
-@table-caption-font-weight: @bold-font-weight;
+@table-caption-font-family: @regular-font-family;
+@table-caption-font-weight: @regular-font-weight;
 @table-caption-font-size: @font-size-medium;
 @table-caption-color: @body-color;
 @table-caption-text-align: left;
 
 // Table Head
 @table-head-padding: 1rem;
-@table-head-font-family: @bold-font-family;
-@table-head-font-weight: @bold-font-weight;
-@table-head-font-size: @paragraph-font-size;
+@table-head-font-family: @medium-font-family;
+@table-head-font-weight: @medium-font-weight;
+@table-head-font-size: @font-size-small;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
@@ -732,11 +732,14 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 @table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
-@table-cell-font-size: @paragraph-font-size;
+@table-cell-font-size: @font-size-small;
 @table-cell-color: @body-color;
 @table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
 @table-cell-border: @table-border;
+
+// Table Reponsive
+@table-responsive-breakpoint: @xsmall;
 ```
 
 ```html
