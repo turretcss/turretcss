@@ -125,7 +125,7 @@ Some top level definitions for general styles on the `<body>` tag.
 // Body
 @body-font-family: @regular-font-family;
 @body-font-weight: @regular-font-weight; 
-@body-color: @dark;
+@body-color: @grey;
 @body-line-height: @line-height-medium;
 @body-letter-spacing: 0.03rem;
 @body-background: @white;
@@ -167,8 +167,8 @@ Some top level definitions for general styles on the `<body>` tag.
 @white: #FFFFFF;
 @black: #000000;
 @light-grey: #DDD;
-@grey: #666;
-@dark-grey: #444;
+@grey: #555;
+@dark-grey: #333;
 
 //Indicators
 @info: #1E90FF;
@@ -178,7 +178,7 @@ Some top level definitions for general styles on the `<body>` tag.
 
 //Palette
 @light: #EEE;
-@dark: #333;
+@dark: #222;
 @primary: #3455DB;
 @secondary: #663399;
 @tertiary: #8B008B;

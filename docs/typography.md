@@ -20,7 +20,7 @@ permalink: /docs/typography/
 @headings-margin: 0 0 1em 0;
 @headings-font-family: @medium-font-family;
 @headings-font-weight: @medium-font-weight;
-@headings-color: @body-color;
+@headings-color: @dark-grey;
 @headings-line-height: @line-height-small;
 
 // Headings Small
