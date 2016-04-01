@@ -126,41 +126,53 @@
 
 
 /*
- * Cards
+ * Landing Block
  */
 
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-	margin: -@gutter;
-	justify-content: center;
-}
+.landing-block {
+	margin: 0 auto;
+	max-width: @max-width-medium;
 
-.card {
-	padding: @gutter;
-	flex: 1 0 25%;
-	min-width: 280px;
-	max-width: 320px;
-
-	.media {
-		margin-bottom: @margin-xsmall;
-		border: none;
-		background: none;
+	&:not(:last-child) {
+		margin-bottom: @margin-large;
 	}
 
-	svg {
-		margin-bottom: 30px;
-		.square(50px);
-		fill: @primary;
+	@media @small-up {
+		display: flex;
+		align-items: center;
+
+		&:nth-child(odd) {
+			flex-direction: row-reverse;
+
+			.landing-block-media {
+				margin-left: @gutter * 2;
+			}
+		}
+
+		&:nth-child(even) {
+			
+			.landing-block-media {
+				margin-right: @gutter * 2;
+			}
+		}
 	}
 }
 
-.card-content {
-	display: flex;
-	flex-direction: column;
+.landing-block-media {
+	flex: 1;
+	padding: 0;
+	border: none;
+	background: none;
+
+	@media @xsmall {
+		margin-bottom: @margin-medium;
+	}
+}
+
+.landing-block-body {
+	flex: 1;
 
 	p {
 		margin: 0;
-		flex: 1 0 auto;
 	}
 }
