@@ -32,7 +32,7 @@ permalink: /docs/typography/
 // Heading Font Sizes
 @h1-font-size: 3.2;
 @h2-font-size: 2.4;
-@h3-font-size: 2;
+@h3-font-size: 2.0;
 @h4-font-size: 1.8;
 @h5-font-size: 1.6;
 @h6-font-size: 1.4;
