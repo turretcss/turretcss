@@ -23,6 +23,7 @@ Button styles are applied directly to the `<button>` element, button style and s
 @button-font-size: @font-size-medium;
 @button-color: @dark-grey;
 @button-line-height: 1;
+@button-letter-spacing: 0.05rem;
 @button-text-align: center;
 @button-text-transform: none;
 @button-background: @white;
