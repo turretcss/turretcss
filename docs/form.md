@@ -750,11 +750,31 @@ permalink: /docs/form/
 @select-arrow-size: 0.4rem;
 @select-arrow-background: @dark;
 
+// Select Hover
+@select-hover-color: @input-hover-color;
+@select-hover-background: @input-hover-background;
+@select-hover-border: @input-hover-border;
+
+// Select Focus
+@select-focus-color: @input-focus-color;
+@select-focus-background: @input-focus-background;
+@select-focus-border: @input-focus-border;
+
 // Select Inverse
 @select-inverse-color: @input-inverse-color;
 @select-inverse-border: @input-inverse-border;
 @select-inverse-background: @input-inverse-background;
 @select-inverse-arrow-background: @white;
+
+// Select Inverse Hover
+@select-inverse-hover-color: @input-inverse-hover-color;
+@select-inverse-hover-background: @input-inverse-hover-background;
+@select-inverse-hover-border: @input-inverse-hover-border;
+
+// Select Inverse Focus
+@select-inverse-focus-color: @input-inverse-focus-color;
+@select-inverse-focus-background: @input-inverse-focus-background;
+@select-inverse-focus-border: @input-inverse-focus-border;
 ```
 
 ### Select
