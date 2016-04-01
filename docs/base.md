@@ -177,7 +177,7 @@ Some top level definitions for general styles on the `<body>` tag.
 @success: #00AA00;
 
 //Palette
-@light: #EEE;
+@light: #FAFAFC;
 @dark: #222;
 @primary: #3455DB;
 @secondary: #663399;

@@ -325,7 +325,7 @@ permalink: /docs/typography/
 @pre-tab-size: 4;
 @pre-hyphens: none;
 @pre-line-height: @line-height-medium;
-@pre-background: lighten(@light, 1%);
+@pre-background: @light;
 @pre-border: 1px solid @light-grey;
 
 // Pre Code
