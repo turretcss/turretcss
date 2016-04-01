@@ -226,7 +226,7 @@ permalink: /docs/form/
 // Input Focus
 @input-focus-color: @input-color;
 @input-focus-background: darken(@input-background, 2%);
-@input-focus-border: 1px solid @primary;
+@input-focus-border: 1px solid @info;
 
 // Input Placeholder
 @input-placeholder-font-family: @input-font-family;
@@ -243,13 +243,13 @@ permalink: /docs/form/
 
 // Input Inverse Hover
 @input-inverse-hover-color: @input-inverse-color;
-@input-inverse-hover-background: darken(@input-inverse-background, 2%);
+@input-inverse-hover-background: darken(@input-inverse-background, 2.5%);
 @input-inverse-hover-border: @input-inverse-border;
 
 // Input Inverse Focus
 @input-inverse-focus-color: @input-inverse-color;
-@input-inverse-focus-background: darken(@input-inverse-background, 2%);
-@input-inverse-focus-border: @input-inverse-border;
+@input-inverse-focus-background: darken(@input-inverse-background, 5%);
+@input-inverse-focus-border: @input-focus-border;
 
 // Input Disabled
 @input-disabled-color: @light;
