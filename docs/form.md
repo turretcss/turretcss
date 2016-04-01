@@ -581,6 +581,13 @@ permalink: /docs/form/
 @control-padding: 0 0 0 1.5em;
 @control-color: @input-color;
 
+// Control Hover
+@control-hover-indicator-background: @input-hover-background;
+@control-hover-indicator-border: @input-hover-border;
+
+// Control Focus
+@control-focus-indicator-box-shadow: 0 0 0 1px @white, 0 0 0 2px @info;
+
 // Control Indicator
 @control-indicator-size: 1.6rem;
 @control-indicator-color: @primary;
