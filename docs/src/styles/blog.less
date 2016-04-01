@@ -3,7 +3,7 @@
  */
 
 .blog-header {
-	padding: @padding-large 0;
+	padding: @padding-xlarge 0;
 	text-align: center;
 	background: @primary;
 
@@ -20,8 +20,13 @@
 	}
 
 	a {
-		.bold-font();
-		color: @white; 
+		.semibold-font();
+		color: @white;
+
+		&:hover,
+		&:focus {
+			color: @white;
+		}
 	}
 }
 
@@ -31,7 +36,7 @@
  */
 
 .blog-main {
-	padding: @padding-medium 0;
+	padding: @padding-xlarge 0;
 }
 
 

@@ -3,7 +3,11 @@
  */
 
 .post {
-	margin-bottom: @margin-large;
+	margin-bottom: @margin-xlarge;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .post-title {
@@ -11,10 +15,11 @@
 }
 
 .post-meta {
-	margin: 0.5em 0 2em;
+	margin: 1rem 0 3rem;
+	.thin-font();
+	.font-size(@font-size-small);
 }
 
-.post-date,
 .post-category {
 	.medium-font();
 	.font-size(@font-size-small);
