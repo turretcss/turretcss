@@ -11,8 +11,8 @@
 	<circle fill="#434A53" cx="-273" cy="164" r="4"/>
 	<line fill="none" stroke="#434A53" stroke-width="4" stroke-miterlimit="10" x1="-309" y1="175" x2="87" y2="175"/>
 </g>
-<rect x="-296" y="313" fill="#05BED5" width="100" height="10"/>
-<rect x="-296" y="393" fill="#05BED5" width="100" height="20"/>
+<rect x="-296" y="313" fill="#3455DB" width="100" height="10"/>
+<rect x="-296" y="393" fill="#3455DB" width="100" height="20"/>
 <rect x="-296" y="196" fill="#434A53" width="100" height="10"/>
 <rect x="-296" y="216" fill="#434A53" width="80" height="8"/>
 <rect x="-296" y="234" fill="#434A53" width="70" height="6"/>
@@ -20,10 +20,10 @@
 <rect x="-296" y="284" fill="#434A53" width="372" height="4"/>
 <rect x="-296" y="292" fill="#434A53" width="372" height="4"/>
 <rect x="-296" y="266" fill="#434A53" width="372" height="8"/>
-<rect x="-186" y="313" fill="#05BED5" width="100" height="10"/>
-<rect x="-76" y="313" fill="#05BED5" width="100" height="10"/>
-<rect x="-186" y="393" fill="#8C4BA9" width="100" height="20"/>
-<rect x="-76" y="393" fill="#B2347E" width="100" height="20"/>
+<rect x="-186" y="313" fill="#3455DB" width="100" height="10"/>
+<rect x="-76" y="313" fill="#3455DB" width="100" height="10"/>
+<rect x="-186" y="393" fill="#663399" width="100" height="20"/>
+<rect x="-76" y="393" fill="#8B008B" width="100" height="20"/>
 <g>
 	<rect x="-295" y="334" fill="#FFFFFF" width="370" height="18"/>
 	<path fill="#434A53" d="M74,335v16h-368v-16H74 M76,333h-372v20H76V333L76,333z"/>

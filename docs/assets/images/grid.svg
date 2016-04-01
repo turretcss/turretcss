@@ -11,11 +11,11 @@
 	<circle fill="#434A53" cx="-273" cy="164" r="4"/>
 	<line fill="none" stroke="#434A53" stroke-width="4" stroke-miterlimit="10" x1="-309" y1="174.8" x2="87" y2="174.8"/>
 </g>
-<rect x="-297" y="186" fill="#05BED5" width="372" height="20"/>
-<rect x="-297" y="215.5" fill="#8C4BA9" width="180" height="20"/>
-<rect x="-105" y="215.5" fill="#8C4BA9" width="180" height="20"/>
-<rect x="-297" y="245.5" fill="#B2347E" width="84" height="20"/>
-<rect x="-201" y="245.5" fill="#B2347E" width="84" height="20"/>
-<rect x="-105" y="245.5" fill="#B2347E" width="84" height="20"/>
-<rect x="-9" y="245.5" fill="#B2347E" width="84" height="20"/>
+<rect x="-297" y="186" fill="#3455DB" width="372" height="20"/>
+<rect x="-297" y="215.5" fill="#663399" width="180" height="20"/>
+<rect x="-105" y="215.5" fill="#663399" width="180" height="20"/>
+<rect x="-297" y="245.5" fill="#8B008B" width="84" height="20"/>
+<rect x="-201" y="245.5" fill="#8B008B" width="84" height="20"/>
+<rect x="-105" y="245.5" fill="#8B008B" width="84" height="20"/>
+<rect x="-9" y="245.5" fill="#8B008B" width="84" height="20"/>
 </svg>
