@@ -3,51 +3,51 @@
  */
 
 .landing-hero {
-  padding-top: @padding-large;
-  padding-bottom: @padding-large;
-  text-align: center;
+	padding-top: @padding-large;
+	padding-bottom: @padding-large;
+	text-align: center;
 
-  h1 {
-    margin: 2rem 0;
-    .bold-font();
-    color: @white;
-    .uppercase(0.05rem);
-  }
+	h1 {
+		margin: 2rem 0;
+		.bold-font();
+		color: @white;
+		.uppercase(0.05rem);
+	}
 
-  p {
-    margin: 1rem 0;
-    color: @white;
-  }
+	p {
+		margin: 1rem 0;
+		color: @white;
+	}
 
-  .lead {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 450px;
-    .regular-font();
-    color: @white;
-  }
+	.lead {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 450px;
+		.regular-font();
+		color: @white;
+	}
 }
 
 .landing-hero-light {
-  background: @light;
+	background: @light;
 
-  h1,
-  h2,
-  p {
-    color: @body-color;
-  }
+	h1,
+	h2,
+	p {
+		color: @body-color;
+	}
 }
 
 .landing-hero-primary {
-  background: @primary;
+	background: @primary;
 }
 
 .landing-hero-secondary {
-  background: @secondary;
+	background: @secondary;
 }
 
 .landing-hero-tertiary {
-  background: @tertiary;
+	background: @tertiary;
 }
 
 /*
@@ -55,54 +55,54 @@
  */
 
 .landing-button {
-  margin: @gutter;
-  min-width: 200px;
-  color: @white;
-  background: transparent;
-  border: 1px solid @white;
-  
-  &:not(:disabled) {
+	margin: @gutter;
+	min-width: 200px;
+	color: @white;
+	background: transparent;
+	border: 1px solid @white;
+	
+	&:not(:disabled) {
 
-    &:hover,
-    &:focus {
-      color: @dark;
-      background: @white;
-      border: 1px solid @white;
-    }
-  }
+		&:hover,
+		&:focus {
+			color: @dark;
+			background: @white;
+			border: 1px solid @white;
+		}
+	}
 }
 
 .landing-button-primary {
 
-  &:not(:disabled) {
+	&:not(:disabled) {
 
-    &:hover,
-    &:focus {
-      color: @primary;
-    }
-  }
+		&:hover,
+		&:focus {
+			color: @primary;
+		}
+	}
 }
 
 .landing-button-secondary {
 
-  &:not(:disabled) {
+	&:not(:disabled) {
 
-    &:hover,
-    &:focus {
-      color: @secondary;
-    }
-  }
+		&:hover,
+		&:focus {
+			color: @secondary;
+		}
+	}
 }
 
 .landing-button-tertiary {
 
-  &:not(:disabled) {
+	&:not(:disabled) {
 
-    &:hover,
-    &:focus {
-      color: @tertiary;
-    }
-  }
+		&:hover,
+		&:focus {
+			color: @tertiary;
+		}
+	}
 }
 
 
@@ -111,17 +111,17 @@
  */
 
 .landing-section {
-  margin-top: @margin-large;
-  margin-bottom: @margin-large;
-  background: @white;
+	margin-top: @margin-large;
+	margin-bottom: @margin-large;
+	background: @white;
 
-  h2,
-  .lead {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
-    text-align: center;
-  }
+	h2,
+	.lead {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 600px;
+		text-align: center;
+	}
 }
 
 
@@ -130,36 +130,36 @@
  */
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -@gutter;
-  justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -@gutter;
+	justify-content: center;
 }
 
 .card {
-  padding: @gutter;
-  flex: 1 0 25%;
-  min-width: 280px;
-  max-width: 320px;
+	padding: @gutter;
+	flex: 1 0 25%;
+	min-width: 280px;
+	max-width: 320px;
 
-  figure {
-    margin-bottom: @margin-xsmall;
-    border: none;
-  }
+	figure {
+		margin-bottom: @margin-xsmall;
+		border: none;
+	}
 
-  svg {
-    margin-bottom: 30px;
-    .square(50px);
-    fill: @primary;
-  }
+	svg {
+		margin-bottom: 30px;
+		.square(50px);
+		fill: @primary;
+	}
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  p {
-    margin: 0;
-    flex: 1 0 auto;
-  }
+	p {
+		margin: 0;
+		flex: 1 0 auto;
+	}
 }
