@@ -192,6 +192,7 @@ permalink: /docs/typography/
 
 // Lists Item
 @list-item-margin: 1rem 0 1rem 2rem;
+@list-item-padding: 0 0 0 0.5rem;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
