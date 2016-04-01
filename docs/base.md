@@ -57,11 +57,11 @@ Height sizes for buttons, inputs, input-groups, selects etc.
 
 ```scss
 // Height
-@height-xlarge: 6.5rem;
+@height-xlarge: 6.0rem;
 @height-large: 5.0rem;
-@height-medium: 4.0rem;
-@height-small: 3.0rem;
-@height-xsmall: 2.0rem;
+@height-medium: 4.4rem;
+@height-small: 3.6rem;
+@height-xsmall: 2.4rem;
 ```
 
 ### Margin
@@ -70,24 +70,24 @@ Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including 
 
 ```scss
 // Margin
-@margin-xlarge: 10.0rem;
-@margin-large: 6.5rem;
-@margin-medium: 5.0rem;
-@margin-small: 3.5rem;
-@margin-xsmall: 2.0rem;
+@margin-xlarge: 8.0rem;
+@margin-large: 5.0rem;
+@margin-medium: 3.5rem;
+@margin-small: 2.0rem;
+@margin-xsmall: 1.5rem;
 ```
 
 ### Padding
 
-
+Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
 
 ```scss
 // Padding
-@padding-xlarge: 10.0rem;
-@padding-large: 6.5rem;
-@padding-medium: 5.0rem;
-@padding-small: 3.5rem;
-@padding-xsmall: 2.0rem;
+@padding-xlarge: 8.0rem;
+@padding-large: 5.0rem;
+@padding-medium: 3.5rem;
+@padding-small: 2.0rem;
+@padding-xsmall: 1.5rem;
 ```
 
 ### Max Width
@@ -96,11 +96,11 @@ Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, includi
 
 ```scss
 // Max Width
-@max-width-xlarge: 1280px;
-@max-width-large: 1024px;
-@max-width-medium: 800px;
-@max-width-small: 600px;
-@max-width-xsmall: 450px;
+@max-width-xlarge: 128rem;
+@max-width-large: 100rem;
+@max-width-medium: 80rem;
+@max-width-small: 60rem;
+@max-width-xsmall: 48rem;
 ```
 
 ## Root
@@ -213,11 +213,11 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 @bold-font-weight: 700;
 
 // Font Sizes
-@font-size-xlarge: 1.8;
-@font-size-large: 1.6;
-@font-size-medium: 1.4;
-@font-size-small: 1.2;
-@font-size-xsmall: 1;
+@font-size-xlarge: 2.0;
+@font-size-large: 1.8;
+@font-size-medium: 1.6;
+@font-size-small: 1.4;
+@font-size-xsmall: 1.2;
 
 // Line height
 @line-height-xlarge: 1.8;
