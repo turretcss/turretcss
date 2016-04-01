@@ -16,10 +16,10 @@ Button styles are applied directly to the `<button>` element, button style and s
 
 ```scss
 // Button
-@button-padding: 1.2rem 1.6rem;
+@button-padding: 1.3rem 2.2rem;
 @button-height: @height-medium;
-@button-font-family: @semibold-font-family;
-@button-font-weight: @semibold-font-weight;
+@button-font-family: @medium-font-family;
+@button-font-weight: @medium-font-weight;
 @button-font-size: @font-size-medium;
 @button-color: @dark-grey;
 @button-line-height: 1;
@@ -231,12 +231,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 
 ```scss
 // Button Extra Large
-@button-xlarge-padding: 2.0rem 3.0rem;
+@button-xlarge-padding: 1.8rem 3.2rem;
 @button-xlarge-height: @height-xlarge;
 @button-xlarge-font-size: @font-size-xlarge;
 
 // Button Large
-@button-large-padding: 1.5rem 2.5rem;
+@button-large-padding: 1.4rem 2.8rem;
 @button-large-height: @height-large;
 @button-large-font-size: @font-size-large;
 
@@ -246,12 +246,12 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 @button-medium-font-size: @button-font-size;
 
 // Button Small
-@button-small-padding: 0.8rem 1.2rem;
+@button-small-padding: 1.1rem 1.6rem;
 @button-small-height: @height-small;
 @button-small-font-size: @font-size-small;
 
 // Button Extra Small
-@button-xsmall-padding: 0.4rem 0.8rem;
+@button-xsmall-padding: 0.6rem 1.2rem;
 @button-xsmall-height: @height-xsmall;
 @button-xsmall-font-size: @font-size-xsmall;
 ```
