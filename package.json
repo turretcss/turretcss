@@ -39,6 +39,7 @@
     "watch": "^0.13.0"
   },
   "scripts": {
+    "start": "npm run watch:turret",
     "watch:turret": "watch \"npm run build:turret\" \"turret\"",
     "build:turret": "lessc turret/turret.less > docs/assets/css/turret.css",
     "watch:docs:scripts": "watch \"npm run build:docs:scripts\" \"docs/assets/scripts\"",
