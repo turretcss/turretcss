@@ -198,9 +198,9 @@ button.docs-header-button {
 				border: none;
 
 				a {
-					padding: 8px 16px;
+					padding: 0.8rem 1.6rem;
 					.regular-font();
-					.font-size(1.2);
+					.font-size(@font-size-small);
 				}
 			}
 		}
@@ -219,9 +219,9 @@ button.docs-header-button {
 
 	a {
 		display: block;
-		padding: 12px;
+		padding: 1.2rem;
 		.medium-font();
-		.font-size(1.4);
+		.font-size(@font-size-small);
 		color: @body-color;
 
 		&:hover,
@@ -255,8 +255,8 @@ button.docs-header-button {
  */
 
 .docs-page-header {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: @padding-large;
+	padding-bottom: @padding-large;
 	background: @primary;
 
 	h1,
@@ -265,8 +265,7 @@ button.docs-header-button {
 	}
 
 	p {
-		margin-bottom: 0;
-		max-width: 800px;
+		max-width: @max-width-medium;
 	}
 
 	.lead {
@@ -282,16 +281,16 @@ button.docs-header-button {
 .docs-content {
 
 	h2[id] {
-		margin-top: 50px;
-		padding-bottom: 12px;
+		margin-top: @margin-large;
+		padding-bottom: 1rem;
 		font-weight: @thin-font-weight;
 		border-bottom: 1px solid @light-grey;
 	}
 
 	h3[id] {
-		margin-top: 35px;
-		margin-bottom: 20px;
-		.font-size(1.5);
+		margin-top: @margin-medium;
+		margin-bottom: @margin-small;
+		.font-size(@font-size-medium);
 	}
 }
 
