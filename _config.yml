@@ -29,6 +29,6 @@ encoding: UTF-8
 exclude: []
 
 # Custom vars
-current_version: 3.3.0
+current_version: 3.3.1
 repo: https://github.com/bigfishtv/turret
 twitter: https://twitter.com/turretcss

@@ -1,5 +1,5 @@
 /*!
- * Turret v3.3.0
+ * Turret v3.3.1
  * http://turret.bigfish.tv
  *
  * Licensed under the MIT license.
@@ -5367,8 +5367,8 @@ textarea:disabled {
  */
 textarea {
   max-width: 100%;
-  -webkit-transition: none;
-  transition: none;
+  -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 /*
  * Input Styles
@@ -6665,6 +6665,7 @@ table td,
   border: 1px solid #dddddd;
 }
 .table-responsive {
+  margin: 2rem 0;
   overflow-x: auto;
   min-height: 0.01%;
 }
@@ -6676,6 +6677,7 @@ table td,
     border: 1px solid #dddddd;
   }
   .table-responsive > table {
+    margin: 0;
     border: none;
   }
   .table-responsive > table th,
