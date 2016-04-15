@@ -30,7 +30,7 @@
   "style": "dist/turret.css",
   "less": "turret/turret.less",
   "dependencies": {
-    "less": "2.2.0"
+    "less": "~2.2.0"
   },
   "devDependencies": {
     "less-plugin-autoprefix": "^1.5.0",
