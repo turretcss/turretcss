@@ -21,10 +21,6 @@ module.exports = {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader'),
         include: path.join(__dirname, 'turret')
-      },
-      {
-        test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?/,
-        loader: 'url?limit=8000&name=[name].[ext]'
       }
     ],
   },

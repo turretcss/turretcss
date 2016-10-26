@@ -43,7 +43,6 @@
     "postcss-import": "^8.1.2",
     "postcss-loader": "^1.0.0",
     "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
     "webpack": "^1.13.2"
   }
 }
