@@ -92,7 +92,7 @@ permalink: /docs/form/
 
 ## Label
 
-```scss
+```css
 // Label
 @label-margin: 1rem 0;
 @label-font-family: @regular-font-family;
@@ -112,7 +112,7 @@ permalink: /docs/form/
 
 ## Fieldset 
 
-```scss
+```css
 // Fieldset
 @fieldset-margin: 0;
 @fieldset-padding: 2rem;
@@ -149,7 +149,7 @@ permalink: /docs/form/
 
 ## Form Message
 
-```scss
+```css
 // Form Message
 @form-message-margin: @label-margin;
 @form-message-font-family: @paragraph-font-family;
@@ -204,7 +204,7 @@ permalink: /docs/form/
 
 ## Input
 
-```scss
+```css
 // Input
 @input-height: @height-medium;
 @input-margin: @label-margin;
@@ -380,7 +380,7 @@ permalink: /docs/form/
 
 ## Input Indicators
 
-```scss
+```css
 // Indicators
 @input-error-color: @error;
 @input-warning-color: @warning;
@@ -420,7 +420,7 @@ permalink: /docs/form/
 
 ## Input Sizes
 
-```scss
+```css
 // Input Extra Large
 @input-xlarge-padding: 0 3.0rem;
 @input-xlarge-height: @height-xlarge;
@@ -575,7 +575,7 @@ permalink: /docs/form/
 
 ## Control
 
-```scss
+```css
 // Control
 @control-margin: @input-margin;
 @control-padding: 0 0 0 1.5em;
@@ -739,7 +739,7 @@ permalink: /docs/form/
 
 ## Select
 
-```scss
+```css
 // Select
 @select-margin: @input-margin;
 @select-padding: @input-padding;
@@ -834,7 +834,7 @@ permalink: /docs/form/
 
 ## Select Sizes
 
-```scss
+```css
 // Select Extra Large
 @select-xlarge-padding: @input-xlarge-padding;
 @select-xlarge-height: @input-xlarge-height;

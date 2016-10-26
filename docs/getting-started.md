@@ -100,7 +100,7 @@ To use Turret with Less in your project you will need to either:
 
 To theme Turret you can override default style defintions either within your own project styles or included as `theme.less` to `@import` in your styles.
 
-```scss
+```css
 // Turret
 @import '/turret/turret.less';
 

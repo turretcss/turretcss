@@ -12,7 +12,7 @@ Content wrapper with `max-width` set at differing sizes at various media query b
 
 By default the container has `@gutter` padding applied to the left and right of the container `<div>`, this is configurable for each breakpoint as needed.
 
-```scss
+```css
 // Container
 @container-xsmall: 100%;
 @container-small: 100%;
@@ -40,7 +40,7 @@ Containing element for children with `.column-1*` attributes set, used for a cle
 
 ## Gutter
 
-```scss
+```css
 // Gutter
 @gutter: 1.6rem;
 @gutter-xlarge: @gutter;

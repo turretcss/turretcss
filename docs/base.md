@@ -12,7 +12,7 @@ permalink: /docs/base/
 
 Default border-radius definitions for buttons, inputs etc.
 
-```scss
+```css
 // Border Radius
 @border-radius: 2px;
 ```
@@ -21,7 +21,7 @@ Default border-radius definitions for buttons, inputs etc.
 
 Z-index utility definitions for general use.
 
-```scss
+```css
 // Z-Index
 @z-index-high: 999;
 @z-index-medium: 99;
@@ -32,7 +32,7 @@ Z-index utility definitions for general use.
 
 Default animation speeds.
 
-```scss
+```css
 // Animation
 @animation-fast: 0.5s;
 @animation-medium: 1s;
@@ -44,7 +44,7 @@ Default animation speeds.
 Default transition speeds.
 
 
-```scss
+```css
 // Transition
 @transition-fast: 0.2s;
 @transition-medium: 0.3s;
@@ -55,7 +55,7 @@ Default transition speeds.
 
 Height sizes for buttons, inputs, input-groups, selects etc.
 
-```scss
+```css
 // Height
 @height-xlarge: 6.0rem;
 @height-large: 5.0rem;
@@ -68,7 +68,7 @@ Height sizes for buttons, inputs, input-groups, selects etc.
 
 Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
 
-```scss
+```css
 // Margin
 @margin-xlarge: 8.0rem;
 @margin-large: 5.0rem;
@@ -81,7 +81,7 @@ Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including 
 
 Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
 
-```scss
+```css
 // Padding
 @padding-xlarge: 8.0rem;
 @padding-large: 5.0rem;
@@ -94,7 +94,7 @@ Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including
 
 Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
 
-```scss
+```css
 // Max Width
 @max-width-xlarge: 128rem;
 @max-width-large: 100rem;
@@ -107,7 +107,7 @@ Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, includi
 
 Sets @root-size on the `:root` element with responsive breakpoints.
 
-```scss
+```css
 // Root Size
 @root-size: 10px;
 @root-size-xlarge: @root-size;
@@ -121,7 +121,7 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 
 Some top level definitions for general styles on the `<body>` tag.
 
-```scss
+```css
 // Body
 @body-font-family: @regular-font-family;
 @body-font-weight: @regular-font-weight; 
@@ -162,7 +162,7 @@ Some top level definitions for general styles on the `<body>` tag.
   <div class="docs-swatch background-dark"><small>Dark</small></div>
 </div>
 
-```scss
+```css
 //Shades
 @white: #FFFFFF;
 @black: #000000;
@@ -191,7 +191,7 @@ Some top level definitions for general styles on the `<body>` tag.
 
 Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
 
-```scss
+```css
 // Fonts
 @font-path: '../fonts';
 @sans-serif-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -248,7 +248,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 
 ## Link
 
-```scss
+```css
 // Link
 @link-color: @primary;
 @link-text-decoration: none;
@@ -280,7 +280,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 <img src="{{ site.baseurl }}/assets/images/image.svg" class="rounded">
 
-```scss
+```css
 @image-rounded-border-radius: 8px;
 ```
 
@@ -296,7 +296,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 ## Breakpoints
 
-```scss
+```css
 // Screen Sizes
 @screen-xsmall: 480px;
 @screen-xsmall-max: (@screen-small-min - 1);
@@ -360,7 +360,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 ## Media Queries
 
-```scss
+```css
 // Orientation
 @portrait: ~"(orientation: portrait)";
 @landscape: ~"(orientation: landscape)";
@@ -395,7 +395,7 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 By default Turret's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.
 
-```scss
+```css
 // Print Page
 @print-page-size: A4;
 @print-page-margin: 1.5cm 2cm;
