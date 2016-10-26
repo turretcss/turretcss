@@ -4,6 +4,8 @@
   "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
   "homepage": "http://turretcss.com/",
   "author": "Bigfish.tv",
+  "license": "MIT",
+  "style": "dist/turret.css",
   "contributors": [
     {
       "name": "Scott de Jonge",
@@ -18,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/bigfishtv/turret/issues"
   },
-  "license": "MIT",
   "keywords": [
     "css",
     "less",
@@ -27,32 +28,22 @@
     "framework",
     "web"
   ],
-  "style": "dist/turret.css",
-  "less": "turret/turret.less",
-  "peerDependencies": {
-    "less": "^2.2.0"
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "webpack -d --watch",
+    "build": "webpack -d",
+    "deploy": "webpack -p"
   },
   "devDependencies": {
-    "less-plugin-autoprefix": "^1.5.0",
-    "less-plugin-clean-css": "^1.5.1",
-    "pa11y": "^3.6.0",
-    "uglify-js": "^2.5.0",
-    "watch": "^0.13.0"
-  },
-  "scripts": {
-    "start": "npm run watch:turret",
-    "test": "pa11y -c ./a11y.json http://0.0.0.0:9001/",
-    "watch": "npm run watch:turret && npm run watch:docs",
-    "watch:turret": "watch \"npm run build:turret\" \"turret\"",
-    "build:turret": "lessc turret/turret.less --clean-css > docs/assets/css/turret.css",
-    "watch:docs:scripts": "watch \"npm run build:docs:scripts\" \"docs/src/scripts\"",
-    "watch:docs:styles": "watch \"npm run build:docs:styles\" \"docs/src/styles\"",
-    "watch:docs": "npm run watch:docs:styles & npm run watch:docs:scripts",
-    "build:docs:scripts": "uglifyjs docs/src/scripts/main.js -o docs/assets/js/docs.js -c",
-    "build:docs:styles": "lessc docs/src/styles/main.less --clean-css --autoprefix > docs/assets/css/docs.css",
-    "build:docs": "npm run build:docs:styles & npm run build:docs:scripts",
-    "dist:css": "lessc turret/turret.less > dist/turret.css",
-    "dist:min": "lessc turret/turret.less --clean-css > dist/turret.min.css",
-    "dist": "npm run dist:css && npm run dist:min"
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "path": "^0.12.7",
+    "postcss": "^5.2.5",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^1.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
   }
 }
