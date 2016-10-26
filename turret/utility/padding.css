@@ -1,0 +1,153 @@
+.no-padding {
+	padding: 0 !important;
+}
+
+.padding-xl {
+	padding: var(--padding-xl);
+}
+
+.padding-horizontal-xl {
+	padding-left: var(--padding-xl);
+	padding-right: var(--padding-xl);
+}
+
+.padding-vertical-xl {
+	padding-top: var(--padding-xl);
+	padding-bottom: var(--padding-xl);
+}
+
+.padding-top-xl {
+	padding-top: var(--padding-xl);
+}
+
+.padding-bottom-xl {
+	padding-bottom: var(--padding-xl);
+}
+
+.padding-left-xl {
+	padding-left: var(--padding-xl);
+}
+
+.padding-right-xl {
+	padding-right: var(--padding-xl);
+}
+
+.padding-l {
+	padding: var(--padding-l);
+}
+
+.padding-horizontal-l {
+	padding-left: var(--padding-l);
+	padding-right: var(--padding-l);
+}
+
+.padding-vertical-l {
+	padding-top: var(--padding-l);
+	padding-bottom: var(--padding-l);
+}
+
+.padding-top-l {
+	padding-top: var(--padding-l);
+}
+
+.padding-bottom-l {
+	padding-bottom: var(--padding-l);
+}
+
+.padding-left-l {
+	padding-left: var(--padding-l);
+}
+
+.padding-right-l {
+	padding-right: var(--padding-l);
+}
+
+.padding-m {
+	padding: var(--padding-m);
+}
+
+.padding-horizontal-m {
+	padding-left: var(--padding-m);
+	padding-right: var(--padding-m);
+}
+
+.padding-vertical-m {
+	padding-top: var(--padding-m);
+	padding-bottom: var(--padding-m);
+}
+
+.padding-top-m {
+	padding-top: var(--padding-m);
+}
+
+.padding-bottom-m {
+	padding-bottom: var(--padding-m);
+}
+
+.padding-left-m {
+	padding-left: var(--padding-m);
+}
+
+.padding-right-m {
+	padding-right: var(--padding-m);
+}
+
+.padding-s {
+	padding: var(--padding-s);
+}
+
+.padding-horizontal-s {
+	padding-left: var(--padding-s);
+	padding-right: var(--padding-s);
+}
+
+.padding-vertical-s {
+	padding-top: var(--padding-s);
+	padding-bottom: var(--padding-s);
+}
+
+.padding-top-s {
+	padding-top: var(--padding-s);
+}
+
+.padding-bottom-s {
+	padding-bottom: var(--padding-s);
+}
+
+.padding-left-s {
+	padding-left: var(--padding-s);
+}
+
+.padding-right-s {
+	padding-right: var(--padding-s);
+}
+
+.padding-xs {
+	padding: var(--padding-xs);
+}
+
+.padding-horizontal-xs {
+	padding-left: var(--padding-xs);
+	padding-right: var(--padding-xs);
+}
+
+.padding-vertical-xs {
+	padding-top: var(--padding-xs);
+	padding-bottom: var(--padding-xs);
+}
+
+.padding-top-xs {
+	padding-top: var(--padding-xs);
+}
+
+.padding-bottom-xs {
+	padding-bottom: var(--padding-xs);
+}
+
+.padding-left-xs {
+	padding-left: var(--padding-xs);
+}
+
+.padding-right-xs {
+	padding-right: var(--padding-xs);
+}

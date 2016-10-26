@@ -1,0 +1,214 @@
+.hide {
+	display: none;
+}
+
+.hide-visually {
+	@apply --hide-visually;
+}
+
+.show {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.hidden-print {
+
+	@media print {
+		display: none;
+	}
+}
+
+.hidden-screen {
+
+	@media screen {
+		display: none;
+	}
+}
+
+.hidden-xs {
+	
+	@media (--xs) {
+		display: none;
+	}
+}
+
+.hidden-s {
+	
+	@media (--s) {
+		display: none;
+	}
+}
+
+.hidden-s-up {
+	
+	@media (--s-up) {
+		display: none;
+	}
+}
+
+.hidden-s-down {
+	
+	@media (--s-down) {
+		display: none;
+	}
+}
+
+.hidden-m {
+	
+	@media (--m) {
+		display: none;
+	}
+}
+
+.hidden-m-up {
+	
+	@media (--m-up) {
+		display: none;
+	}
+}
+
+.hidden-m-down {
+	
+	@media (--m-down) {
+		display: none;
+	}
+}
+
+.hidden-l {
+	
+	@media (--l) {
+		display: none;
+	}
+}
+
+.hidden-l-up {
+	
+	@media (--l-up) {
+		display: none;
+	}
+}
+
+.hidden-l-down {
+	
+	@media (--l-down) {
+		display: none;
+	}
+}
+
+.hidden-xl {
+	
+	@media (--xl) {
+		display: none;
+	}
+}
+
+.visible {
+	display: block;
+}
+
+.visible-print {
+	display: none;
+
+	@media print {
+		display: block;
+	}
+}
+
+.visible-screen {
+	display: none;
+
+	@media screen {
+		display: block;
+	}
+}
+
+.visible-xs {
+	display: none;
+
+	@media (--xs) {
+		display: block;
+	}
+}
+
+.visible-s {
+	display: none;
+
+	@media (--s) {
+		display: block;
+	}
+}
+
+.visible-s-up {
+	display: none;
+
+	@media (--s-up) {
+		display: block;
+	}
+}
+
+.visible-s-down {
+	display: none;
+
+	@media (--s-down) {
+		display: block;
+	}
+}
+
+.visible-m {
+	display: none;
+
+	@media (--m) {
+		display: block;
+	}
+}
+
+.visible-m-up {
+	display: none;
+
+	@media (--m-up) {
+		display: block;
+	}
+}
+
+.visible-m-down {
+	display: none;
+
+	@media (--m-down) {
+		display: block;
+	}
+}
+
+.visible-l {
+	display: none;
+
+	@media (--l) {
+		display: block;
+	}
+}
+
+.visible-l-up {
+	display: none;
+
+	@media (--l-up) {
+		display: block;
+	}
+}
+
+.visible-l-down {
+	display: none;
+
+	@media (--l-down) {
+		display: block;
+	}
+}
+
+.visible-xl {
+	display: none;
+
+	@media (--xl) {
+		display: block;
+	}
+}

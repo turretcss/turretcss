@@ -1,0 +1,11 @@
+a {
+	color: var(--link-color);
+	text-decoration: var(--link-text-decoration);
+	transition: color var(--transition-fast ease-in-out));
+	
+	&:hover,
+	&:focus {
+		color: var(--link-hover-color);
+		text-decoration: var(--link-hover-decoration);
+	}
+}

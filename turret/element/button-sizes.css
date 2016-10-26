@@ -1,0 +1,23 @@
+.button-xl {
+	padding: var(--button-xl-padding);
+	height: var(--button-xl-height);
+	font-size: var(--button-xl-font-size);
+}
+
+.button-l {
+	padding: var(--button-l-padding);
+	height: var(--button-l-height);
+	font-size: var(--button-l-font-size);
+}
+
+.button-s {
+	padding: var(--button-s-padding);
+	height: var(--button-s-height);
+	font-size: var(--button-s-font-size);
+}
+
+.button-xs {
+	padding: var(--button-xs-padding);
+	height: var(--button-xs-height);
+	font-size: var(--button-xs-font-size);
+}

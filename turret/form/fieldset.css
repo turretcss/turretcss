@@ -1,0 +1,6 @@
+fieldset {
+	display: block;
+	margin: var(--fieldset-margin);
+	padding: var(--fieldset-padding);
+	border: var(--fieldset-border);
+}

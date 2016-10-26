@@ -1,0 +1,9 @@
+textarea {
+	padding: var(--textarea-padding);
+	max-width: 100%;
+	height: auto;
+	line-height: var(--textarea-line-height);
+	transition: color var(--speed-fast) ease-in-out, 
+				background var(--speed-fast) ease-in-out,
+				border var(--speed-fast) ease-in-out;
+}

@@ -1,0 +1,63 @@
+[class*='button-border-'] {
+	background: transparent;
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		background: transparent;
+	}
+}
+
+.button-border-light {
+	color: var(--button-light-border-color);
+	border-color: var(--button-light-border-color);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-light-hover-border-color);
+		border-color: var(--button-light-hover-border-color);
+	}
+}
+
+.button-border-dark {
+	color: var(--button-dark-border-color);
+	border-color: var(--button-dark-border-color);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-dark-hover-border-color);
+		border-color: var(--button-dark-hover-border-color);
+	}
+}
+
+.button-border-primary {
+	color: var(--button-primary-border-color);
+	border-color: var(--button-primary-border-color);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-primary-hover-border-color);
+		border-color: var(--button-primary-hover-border-color);
+	}
+}
+
+.button-border-secondary {
+	color: var(--button-secondary-border-color);
+	border-color: var(--button-secondary-border-color);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-secondary-hover-border-color);
+		border-color: var(--button-secondary-hover-border-color);
+	}
+}
+
+.button-border-tertiary {
+	color: var(--button-tertiary-border-color);
+	border-color: var(--button-tertiary-border-color);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-tertiary-hover-border-color);
+		border-color: var(--button-tertiary-hover-border-color);
+	}
+}

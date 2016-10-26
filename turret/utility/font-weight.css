@@ -1,0 +1,27 @@
+.font-weight-thin {
+	font-weight: var(--font-weight-thin);
+}
+
+.font-weight-light {
+	font-weight: var(--font-weight-light);
+}
+
+.font-weight-regular {
+	font-weight: var(--font-weight-regular);
+}
+
+.font-weight-medium {
+	font-weight: var(--font-weight-medium);
+}
+
+.font-weight-semibold {
+	font-weight: var(--font-weight-semibold);
+}
+
+.font-weight-bold {
+	font-weight: var(--font-weight-bold);
+}
+
+.font-weight-black {
+	font-weight: var(--font-weight-black);
+}

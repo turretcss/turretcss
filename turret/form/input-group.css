@@ -1,0 +1,37 @@
+.input-group {
+	display: flex;
+	width: 100%;
+
+	& input {
+		flex: 1 1 auto;
+		margin: 0;
+		
+		&:not(:last-child) {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+
+	& button,
+	& .button {
+		flex: 0 0 auto;
+	}
+
+	& input,
+	& button,
+	& .button {
+		position: relative;
+
+		&:hover,
+		&:focus,
+		&:active {
+			z-index: 2;
+		}
+
+		& + * {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			margin-left: -1px;
+		}
+	}
+}

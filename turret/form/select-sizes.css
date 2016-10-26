@@ -1,0 +1,24 @@
+.select-xl select {
+	padding: var(--select-xl-padding);
+	height: var(--select-xl-height);
+	font-size: var(--select-xl-font-size);
+}
+
+.select-l select{
+	padding: var(--select-l-padding);
+	height: var(--select-l-height);
+	font-size: var(--select-l-font-size);
+}
+
+
+.select-s select{
+	padding: var(--select-s-padding);
+	height: var(--select-s-height);
+	font-size: var(--select-s-font-size);
+}
+
+.select-xs select {
+	padding: var(--select-xs-padding);
+	height: var(--select-xs-height);
+	font-size: var(--select-xs-font-size);
+}

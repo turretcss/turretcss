@@ -1,0 +1,102 @@
+input,
+textarea {
+	display: block;
+	appearance: none;
+	box-sizing: border-box;
+	margin: var(--input-margin);
+	padding: var(--input-padding);
+	width: 100%;
+	height: var(--input-height);
+	font-family: var(--input-font-family);
+	font-weight: var(--input-font-weight);
+	font-size: var(--input-font-size);
+	color: var(--input-color);
+	line-height: var(--input-line-height);
+	border: var(--input-border);
+	border-color: var(--input-border-color);
+	background: var(--input-background);
+	border-radius: var(--input-border-radius);
+	@apply --transition-fast;
+	
+	&:placeholder {
+		color: color(var(--input-color) alpha(-50%));
+	}
+
+	&:not(:disabled):hover {
+		color: var(--input-hover-color);
+		background: var(--input-hover-background);
+		border-color: var(--input-hover-border-color);
+	}
+
+	&:not(:disabled):focus {
+		color: var(--input-focus-color);
+		background: var(--input-focus-background);
+		border-color: var(--input-focus-border-color);
+	}
+
+	&:disabled {
+		cursor: no-drop;
+		color: var(--input-disabled-color);
+		background: var(--input-disabled-background);
+		border-color: var(--input-disabled-border-color);
+	}
+
+	&.error {
+		color: var(--error) !important;
+		border-color: var(--error) !important;
+	}
+
+	&.warning {
+		color: var(--warning) !important;
+		border-color: var(--warning) !important;
+	}
+
+	&.success {
+		color: var(--success) !important;
+		border-color: var(--success) !important;
+	}
+
+	&.info {
+		color: var(--info) !important;
+		border-color: var(--info) !important;
+	}
+}
+
+input[type="search"] {
+	appearance: none; 
+	box-sizing: border-box;
+}
+
+input[type="file"] {
+	padding: 0 !important;
+	height: auto !important;
+	font-size: inherit !important;
+	background: transparent !important;
+	border: none !important;
+	box-sizing: border-box !important;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	display: inline-block;
+	margin-right: 10px;
+	width: auto;
+	height: auto;
+
+	& + p {
+		margin: 0;
+		display: inline-block;
+	}
+
+	& + label {
+		display: inline-block;
+	}
+}
+
+input[type="checkbox"] {
+	appearance: checkbox;
+}
+
+input[type="radio"] {
+	appearance: radio;
+}

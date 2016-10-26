@@ -1,0 +1,55 @@
+.color-white {
+	color: var(--white);
+}
+
+.color-light {
+	color: var(--light);
+}
+
+.color-light-grey {
+	color: var(--light-grey);
+}
+
+.color-grey {
+	color: var(--grey);
+}
+
+.color-dark-grey {
+	color: var(--dark-grey);
+}
+
+.color-dark {
+	color: var(--dark);
+}
+
+.color-black {
+	color: var(--black);
+}
+
+.color-primary {
+	color: var(--primary);
+}
+
+.color-secondary {
+	color: var(--secondary);
+}
+
+.color-tertiary {
+	color: var(--tertiary);
+}
+
+.color-error {
+	color: var(--error);
+}
+
+.color-warning {
+	color: var(--warning);
+}
+
+.color-success {
+	color: var(--success);
+}
+
+.color-info {
+	color: var(--info);
+}

@@ -1,0 +1,63 @@
+[class*='button-fill-'] {
+	border: none;
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		border: none;
+	}
+}
+
+.button-fill-light {
+	color: var(--button-light-color);
+	background: var(--button-light-background);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-light-hover-color);
+		background: var(--button-light-hover-background);
+	}
+}
+
+.button-fill-dark {
+	color: var(--button-dark-color);
+	background: var(--button-dark-background);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-dark-hover-color);
+		background: var(--button-dark-hover-background);
+	}
+}
+
+.button-fill-primary {
+	color: var(--button-primary-color);
+	background: var(--button-primary-background);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-primary-hover-color);
+		background: var(--button-primary-hover-background);
+	}
+}
+
+.button-fill-secondary {
+	color: var(--button-secondary-color);
+	background: var(--button-secondary-background);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-secondary-hover-color);
+		background: var(--button-secondary-hover-background);
+	}
+}
+
+.button-fill-tertiary {
+	color: var(--button-tertiary-color);
+	background: var(--button-tertiary-background);
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		color: var(--button-tertiary-hover-color);
+		background: var(--button-tertiary-hover-background);
+	}
+}

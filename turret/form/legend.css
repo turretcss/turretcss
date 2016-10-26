@@ -1,0 +1,7 @@
+legend {
+	padding: var(--legend-padding);
+	font-family: var(--legend-font-family);
+	font-weight: var(--legend-font-weight);
+	font-size: var(--legend-font-size);
+	color: var(--legend-color);
+}

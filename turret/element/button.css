@@ -1,0 +1,66 @@
+button,
+.button {
+	display: inline-block;
+	padding: var(--button-padding);
+	height: var(--button-height);
+	font-family: var(--button-font-family);
+	font-weight: var(--button-font-weight);
+	line-height: var(--button-line-height);
+	font-size: var(--button-font-size);
+	color: var(--button-color);
+	letter-spacing: var(--button-letter-spacing);
+	text-align: var(--button-text-align);
+	text-transform: var(--button-text-transform);
+	white-space: nowrap;
+	cursor: pointer;
+	background: var(--button-background);
+	border-width: var(--button-border-width);
+	border-style: var(--button-border-style);
+	border-color: var(--button-border-color);
+	border-radius: var(--button-border-radius);
+	@apply --transition-fast;
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		text-decoration: none;
+		color: var(--button-hover-color);
+		background: var(--button-hover-background);
+		border-color: var(--button-hover-border-color);
+	}
+
+	&.error {
+		color: var(--error) !important;
+		border-color: var(--error) !important;
+	}
+
+	&.warning {
+		color: var(--warning) !important;
+		border-color: var(--warning) !important;
+	}
+
+	&.success {
+		color: var(--success) !important;
+		border-color: var(--success) !important;
+	}
+
+	&.info {
+		color: var(--info) !important;
+		border-color: var(--info) !important;
+	}
+}
+
+button:disabled {
+	cursor: no-drop;
+	opacity: var(--button-disabled-opacity);
+}
+
+/* iOS "clickable elements" fix for role="button" */
+[role="button"] {
+	cursor: pointer;
+}
+
+.button-block {
+	display: block;
+	width: 100%;
+	text-align: var(--button-block-text-align);
+}

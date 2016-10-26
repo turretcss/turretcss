@@ -1,0 +1,8 @@
+.lead {
+	margin: var(--lead-margin);
+	font-family: var(--lead-font-family);
+	font-weight: var(--lead-font-weight);
+	font-size: var(--lead-font-size);
+	color: var(--lead-color);
+	line-height: var(--lead-line-height);
+}

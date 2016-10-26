@@ -1,0 +1,7 @@
+hr {
+	clear: both;
+	margin: var(--horizontal-rule-margin);
+	border: 0;
+	height: var(--horizontal-rule-height);
+	background: var(--horizontal-rule-background);
+}

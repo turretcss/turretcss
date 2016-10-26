@@ -1,0 +1,23 @@
+:root {
+	font-size: var(--root-size);
+
+	@media (--xl) {
+		font-size: var(--root-size-xl);
+	}
+	
+	@media (--l) {
+		font-size: var(--root-size-l);
+	}
+
+	@media (--m) {
+		font-size: var(--root-size-m);
+	}
+	
+	@media (--s) {
+		font-size: var(--root-size-s);
+	}
+
+	@media (--xs) {
+		font-size: var(--root-size-xs);
+	}
+}

@@ -1,0 +1,9 @@
+mark {
+	margin: var(--mark-margin);
+	padding: var(--mark-padding);
+	font-family: var(--mark-font-family);
+	font-weight: var(--mark-font-weight);
+	font-size: var(--mark-font-size);
+	color: var(--mark-color);
+	background: var(--mark-background);
+}

@@ -1,0 +1,31 @@
+.clearfix {
+	@apply --clearfix;
+}
+
+.cover {
+	@apply --cover;
+}
+
+.center {
+	@apply --center;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.no-border {
+	border: none !important;
+}

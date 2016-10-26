@@ -1,0 +1,19 @@
+.spinner {
+	position: relative;
+
+	&::before {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: calc(var(--spinner-size) / -2);
+		margin-left: calc(var(--spinner-size) / -2);
+		width: var(--spinner-size);
+		height: var(--spinner-size);
+		content: '';
+		border-radius: 50%;
+		border: 3px solid var(--spinner-background-color);
+		border-left-color: var(--spinner-foreground-color);
+		animation: spin var(--spinner-speed) infinite linear;
+	}
+}
