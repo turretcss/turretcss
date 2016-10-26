@@ -21,7 +21,7 @@ kramdown:
 # Server
 baseurl: ""
 source: docs
-destination: _gh_pages
+destination: _site
 host: 0.0.0.0
 port: 9001
 url: http://turretcss.com
