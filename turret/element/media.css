@@ -8,6 +8,7 @@
 	& > img,
 	& > video,
 	& > iframe,
+	& > canvas,
 	& > .media-inner {
 		display: block;
 		@apply --cover;
