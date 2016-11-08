@@ -1,6 +1,6 @@
 {
-  "name": "bigfishtv-turret",
-  "version": "4.0.0-alpha1",
+  "name": "turretcss",
+  "version": "4.0.0-alpha2",
   "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
   "homepage": "http://turretcss.com/",
   "author": "Bigfish.tv",
