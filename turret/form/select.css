@@ -7,6 +7,10 @@ select {
 	position: relative;
 	display: block;
 	margin: var(--select-margin);
+	font-family: var(--select-font-family);
+	font-weight: var(--select-font-weight);
+	font-size: var(--select-font-size);
+	line-height: var(--select-line-height);
 
 	& select {
 		appearance: none;
@@ -15,11 +19,11 @@ select {
 		outline: 0;
 		padding: var(--select-padding);
 		height: var(--select-height);
-		line-height: var(--select-line-height);
-		font-family: var(--select-font-family);
-		font-weight: var(--select-font-weight);
-		font-size: var(--select-font-size);
+		font-family: inherit;
+		font-weight: inherit;
+		font-size: inherit;
 		color: var(--select-color);
+		line-height: inherit;
 		background: var(--select-background);
 		border: var(--select-border);
 		border-color: var(--input-border-color);
