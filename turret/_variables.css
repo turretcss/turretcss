@@ -329,7 +329,7 @@
 
 	--blockquote-margin: 2em 0;
 	--blockquote-padding: 0 1em;
-	--blockquote-font-family: var(--lead-font-weight);
+	--blockquote-font-family: inherit;
 	--blockquote-font-weight: var(--lead-font-weight);
 	--blockquote-font-size: var(--lead-font-size);
 	--blockquote-font-style: normal;
