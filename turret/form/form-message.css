@@ -6,6 +6,10 @@
 	color: var(--form-message-color);
 	line-height: var(--form-message-line-height);
 
+	&:empty {
+		display: none;
+	}
+
 	&.error {
 		color: var(--error);
 	}
