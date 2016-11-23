@@ -14,7 +14,7 @@ module.exports = {
     filename: '[name].js'
   },
   plugins: [
-    new ExtractTextPlugin('turret.css'),
+    new ExtractTextPlugin('[name].css'),
   ],
   module: {
     loaders: [
