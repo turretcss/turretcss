@@ -398,7 +398,7 @@
 
 	--horizontal-rule-margin: var(--margin-m) auto;
 	--horizontal-rule-height: 1px;
-	--horizontal-rule-background: var(--light-grey);
+	--horizontal-rule-background: var(--light);
 
 
 	/**
@@ -522,7 +522,7 @@
 	--pre-hyphens: none;
 	--pre-line-height: var(--line-height-m);
 	--pre-background: var(--light);
-	--pre-border: 1px solid var(--light-grey);
+	--pre-border: 1px solid var(--light);
 	--pre-code-color: var(--code-color);
 
 
@@ -578,7 +578,7 @@
 
 	--fieldset-margin: var(--field-margin);
 	--fieldset-padding: var(--padding-s);
-	--fieldset-border: 1px solid var(--light-grey);
+	--fieldset-border: 1px solid var(--light);
 
 
 	/** 
@@ -611,19 +611,19 @@
 	--input-margin: var(--label-margin);
 	--input-padding: 0 1em;
 	--input-height: var(--height-m);
-	--input-color: var(--body-color);
+	--input-color: var(--dark);
 	--input-font-family: inherit;
 	--input-font-weight: inherit;
 	--input-font-size: var(--font-size-m);
 	--input-line-height: var(--line-height-m);
 	--input-background: var(--white);
 	--input-border: 1px solid;
-	--input-border-color: var(--light-grey);
+	--input-border-color: var(--light);
 	--input-border-radius: var(--border-radius);
 
 	--input-hover-color: var(--input-color);
 	--input-hover-background: color(var(--input-background) shade(2%));
-	--input-hover-border-color: color(var(--light-grey) shade(10%));
+	--input-hover-border-color: color(var(--light) shade(10%));
 
 	--input-focus-color: var(--input-color);
 	--input-focus-background: color(var(--input-background) shade(2%));
@@ -763,7 +763,7 @@
 	--button-font-family: inherit;
 	--button-font-weight: var(--font-weight-medium);
 	--button-font-size: var(--font-size-m);
-	--button-color: var(--dark-grey);
+	--button-color: var(--dark);
 	--button-line-height: 1;
 	--button-letter-spacing: inherit;
 	--button-text-align: center;
@@ -771,12 +771,12 @@
 	--button-background: var(--white);
 	--button-border-width: 1px;
 	--button-border-style: solid;
-	--button-border-color: var(--light-grey);
+	--button-border-color: var(--light);
 	--button-border-radius: var(--border-radius);
 
-	--button-hover-color: var(--dark-grey);
+	--button-hover-color: var(--dark);
 	--button-hover-background: color(var(--button-background) shade(20%));
-	--button-hover-border-color: color(var(--light-grey) shade(20%));
+	--button-hover-border-color: color(var(--light) shade(20%));
 
 	--button-disabled-opacity: 0.5;
 
@@ -893,7 +893,7 @@
 
 	--table-margin: var(--paragraph-margin);
 	--table-background: none;
-	--table-border: 1px solid var(--light-grey);
+	--table-border: 1px solid var(--light);
 	--table-border-radius: var(--border-radius);
 
 	--table-caption-margin: 1em 0;
