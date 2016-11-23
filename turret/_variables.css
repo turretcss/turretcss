@@ -151,21 +151,121 @@
 	 */
 
 	--white: #FFFFFF;
-	--light: #EEEEEE;
-	--light-grey: #CCCCCC;
-	--grey: #666666;
-	--dark-grey: #444444;
-	--dark: #333333;
 	--black: #000000;
 
+	--light-grey: #CCCCCC;
+	--dark-grey: #444444;
+
+	--light: #DDDDDD;
+	--light-100: color(var(--light) tint(80%));
+	--light-200: color(var(--light) tint(60%));
+	--light-300: color(var(--light) tint(40%));
+	--light-400: color(var(--light) tint(20%));
+	--light-500: var(--light);
+	--light-600: color(var(--light) shade(5%));
+	--light-700: color(var(--light) shade(10%));
+	--light-800: color(var(--light) shade(15%));
+	--light-900: color(var(--light) shade(20%));
+
+	--grey: #666666;
+	--grey-100: color(var(--grey) tint(30%));
+	--grey-200: color(var(--grey) tint(22.5%));
+	--grey-300: color(var(--grey) tint(15%));
+	--grey-400: color(var(--grey) tint(7.5%));
+	--grey-500: var(--grey);
+	--grey-600: color(var(--grey) shade(7.5%));
+	--grey-700: color(var(--grey) shade(15%));
+	--grey-800: color(var(--grey) shade(22.5%));
+	--grey-900: color(var(--grey) shade(30%));
+
+	--dark: #333333;
+	--dark-100: color(var(--dark) tint(20%));
+	--dark-200: color(var(--dark) tint(15%));
+	--dark-300: color(var(--dark) tint(10%));
+	--dark-400: color(var(--dark) tint(5%));
+	--dark-500: var(--dark);
+	--dark-600: color(var(--dark) shade(7.5%));
+	--dark-700: color(var(--dark) shade(15%));
+	--dark-800: color(var(--dark) shade(22.5%));
+	--dark-900: color(var(--dark) shade(30%));
+
+
 	--primary: #3455DB;
+	--primary-100: color(var(--primary) tint(40%));
+	--primary-200: color(var(--primary) tint(30%));
+	--primary-300: color(var(--primary) tint(20%));
+	--primary-400: color(var(--primary) tint(10%));
+	--primary-500: var(--primary);
+	--primary-600: color(var(--primary) shade(10%));
+	--primary-700: color(var(--primary) shade(20%));
+	--primary-800: color(var(--primary) shade(30%));
+	--primary-900: color(var(--primary) shade(40%));
+	
 	--secondary: #663399;
+	--secondary-100: color(var(--secondary) tint(40%));
+	--secondary-200: color(var(--secondary) tint(30%));
+	--secondary-300: color(var(--secondary) tint(20%));
+	--secondary-400: color(var(--secondary) tint(10%));
+	--secondary-500: var(--secondary);
+	--secondary-600: color(var(--secondary) shade(10%));
+	--secondary-700: color(var(--secondary) shade(20%));
+	--secondary-800: color(var(--secondary) shade(30%));
+	--secondary-900: color(var(--secondary) shade(40%));
+
 	--tertiary: #8B008B;
+	--tertiary-100: color(var(--tertiary) tint(40%));
+	--tertiary-200: color(var(--tertiary) tint(30%));
+	--tertiary-300: color(var(--tertiary) tint(20%));
+	--tertiary-400: color(var(--tertiary) tint(10%));
+	--tertiary-500: var(--tertiary);
+	--tertiary-600: color(var(--tertiary) shade(10%));
+	--tertiary-700: color(var(--tertiary) shade(20%));
+	--tertiary-800: color(var(--tertiary) shade(30%));
+	--tertiary-900: color(var(--tertiary) shade(40%));
 
 	--info: #1E90FF;
+	--info-100: color(var(--info) tint(40%));
+	--info-200: color(var(--info) tint(30%));
+	--info-300: color(var(--info) tint(20%));
+	--info-400: color(var(--info) tint(10%));
+	--info-500: var(--info);
+	--info-600: color(var(--info) shade(10%));
+	--info-700: color(var(--info) shade(20%));
+	--info-800: color(var(--info) shade(30%));
+	--info-900: color(var(--info) shade(40%));
+
 	--error: #D91E18;
+	--error-100: color(var(--error) tint(40%));
+	--error-200: color(var(--error) tint(30%));
+	--error-300: color(var(--error) tint(20%));
+	--error-400: color(var(--error) tint(10%));
+	--error-500: var(--error);
+	--error-600: color(var(--error) shade(10%));
+	--error-700: color(var(--error) shade(20%));
+	--error-800: color(var(--error) shade(30%));
+	--error-900: color(var(--error) shade(40%));
+
 	--warning: #FF4500;
+	--warning-100: color(var(--warning) tint(40%));
+	--warning-200: color(var(--warning) tint(30%));
+	--warning-300: color(var(--warning) tint(20%));
+	--warning-400: color(var(--warning) tint(10%));
+	--warning-500: var(--warning);
+	--warning-600: color(var(--warning) shade(10%));
+	--warning-700: color(var(--warning) shade(20%));
+	--warning-800: color(var(--warning) shade(30%));
+	--warning-900: color(var(--warning) shade(40%));
+
 	--success: #00AA00;
+	--success-100: color(var(--success) tint(40%));
+	--success-200: color(var(--success) tint(30%));
+	--success-300: color(var(--success) tint(20%));
+	--success-400: color(var(--success) tint(10%));
+	--success-500: var(--success);
+	--success-600: color(var(--success) shade(10%));
+	--success-700: color(var(--success) shade(20%));
+	--success-800: color(var(--success) shade(30%));
+	--success-900: color(var(--success) shade(40%));
 
 
 	/**
