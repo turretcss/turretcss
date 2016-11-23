@@ -5,11 +5,11 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    turret: './turret.js',
-    docs: './docs/src/docs.js',
+    turret: __dirname + '/turret.js',
+    docs: __dirname + '/docs/assets/docs.js',
   },
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/docs/dist',
     publicPath: '/',
     filename: '[name].js'
   },
@@ -21,7 +21,10 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader'),
-        include: path.join(__dirname, 'turret')
+        includes: [
+          path.join(__dirname, 'turret'),
+          path.join(__dirname, 'docs/src')
+        ]
       }
     ],
   },
