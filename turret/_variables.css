@@ -807,7 +807,7 @@
 	--button-active-background: var(--light-200);
 	--button-active-border-color: var(--light-700);
 
-	--button-disabled-opacity: 0.5;
+	--button-disabled-opacity: 0.65;
 
 	--button-block-text-align: center;
 
