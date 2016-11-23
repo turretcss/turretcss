@@ -132,9 +132,16 @@
 	 */
 
 	--white: #FFFFFF;
+	--white-hover: color(var(--white) tint(20%));
+	--white-active: color(var(--white) shade(5%));
+
 	--black: #000000;
+	--black-hover: color(var(--black) tint(5%));
+	--black-active: color(var(--black) shade(5%));
 
 	--light: #CCCCCC;
+	--light-hover: var(--light-400);
+	--light-active: var(--light-600);
 	--light-100: color(var(--light) tint(80%));
 	--light-200: color(var(--light) tint(60%));
 	--light-300: color(var(--light) tint(40%));
@@ -146,6 +153,8 @@
 	--light-900: color(var(--light) shade(20%));
 
 	--grey: #666666;
+	--grey-hover: var(--grey-400);
+	--grey-active: var(--grey-600);
 	--grey-100: color(var(--grey) tint(30%));
 	--grey-200: color(var(--grey) tint(22.5%));
 	--grey-300: color(var(--grey) tint(15%));
@@ -157,6 +166,8 @@
 	--grey-900: color(var(--grey) shade(30%));
 
 	--dark: #333333;
+	--dark-hover: var(--dark-400);
+	--dark-active: var(--dark-600);
 	--dark-100: color(var(--dark) tint(20%));
 	--dark-200: color(var(--dark) tint(15%));
 	--dark-300: color(var(--dark) tint(10%));
@@ -169,6 +180,8 @@
 
 
 	--primary: #3455DB;
+	--primary-hover: var(--primary-400);
+	--primary-active: var(--primary-600);
 	--primary-100: color(var(--primary) tint(40%));
 	--primary-200: color(var(--primary) tint(30%));
 	--primary-300: color(var(--primary) tint(20%));
@@ -180,6 +193,8 @@
 	--primary-900: color(var(--primary) shade(40%));
 	
 	--secondary: #663399;
+	--secondary-hover: var(--secondary-400);
+	--secondary-active: var(--secondary-600);
 	--secondary-100: color(var(--secondary) tint(40%));
 	--secondary-200: color(var(--secondary) tint(30%));
 	--secondary-300: color(var(--secondary) tint(20%));
@@ -191,6 +206,8 @@
 	--secondary-900: color(var(--secondary) shade(40%));
 
 	--tertiary: #8B008B;
+	--tertiary-hover: var(--tertiary-400);
+	--tertiary-active: var(--tertiary-600);
 	--tertiary-100: color(var(--tertiary) tint(40%));
 	--tertiary-200: color(var(--tertiary) tint(30%));
 	--tertiary-300: color(var(--tertiary) tint(20%));
@@ -202,6 +219,8 @@
 	--tertiary-900: color(var(--tertiary) shade(40%));
 
 	--info: #1E90FF;
+	--info-hover: var(--info-400);
+	--info-active: var(--info-600);
 	--info-100: color(var(--info) tint(40%));
 	--info-200: color(var(--info) tint(30%));
 	--info-300: color(var(--info) tint(20%));
@@ -213,6 +232,8 @@
 	--info-900: color(var(--info) shade(40%));
 
 	--error: #D91E18;
+	--error-hover: var(--error-400);
+	--error-active: var(--error-600);
 	--error-100: color(var(--error) tint(40%));
 	--error-200: color(var(--error) tint(30%));
 	--error-300: color(var(--error) tint(20%));
@@ -224,6 +245,8 @@
 	--error-900: color(var(--error) shade(40%));
 
 	--warning: #FF4500;
+	--warning-hover: var(--warning-400);
+	--warning-active: var(--warning-600);
 	--warning-100: color(var(--warning) tint(40%));
 	--warning-200: color(var(--warning) tint(30%));
 	--warning-300: color(var(--warning) tint(20%));
@@ -235,6 +258,8 @@
 	--warning-900: color(var(--warning) shade(40%));
 
 	--success: #00AA00;
+	--success-hover: var(--success-400);
+	--success-active: var(--success-600);
 	--success-100: color(var(--success) tint(40%));
 	--success-200: color(var(--success) tint(30%));
 	--success-300: color(var(--success) tint(20%));
@@ -774,9 +799,13 @@
 	--button-border-color: var(--light);
 	--button-border-radius: var(--border-radius);
 
-	--button-hover-color: var(--dark);
-	--button-hover-background: color(var(--button-background) shade(20%));
-	--button-hover-border-color: color(var(--light) shade(20%));
+	--button-hover-color: var(--button-color);
+	--button-hover-background: var(--light-100);
+	--button-hover-border-color: var(--light-600);
+
+	--button-active-color: var(--button-color);
+	--button-active-background: var(--light-200);
+	--button-active-border-color: var(--light-700);
 
 	--button-disabled-opacity: 0.5;
 
@@ -805,43 +834,33 @@
 
 
 	/** 
-	 * Button Fills
+	 * Button Shades
 	 */
 	
+	--button-white-color: var(--black);
 	--button-light-color: var(--dark);
-	--button-light-background: var(--light);
-	--button-light-border-color: var(--light);
-	--button-light-hover-color: var(--button-light-color);
-	--button-light-hover-background: color(var(--button-light-background) shade(20%));
-	--button-light-hover-border-color: color(var(--button-light-border-color) shade(20%));
-	
+	--button-grey-color: var(--white);
 	--button-dark-color: var(--white);
-	--button-dark-background: var(--dark);
-	--button-dark-border-color: var(--dark);
-	--button-dark-hover-color: var(--button-dark-color);
-	--button-dark-hover-background: color(var(--button-dark-background) shade(20%));
-	--button-dark-hover-border-color: color(var(--button-dark-border-color) shade(20%));
+	--button-black-color: var(--white);
+
+
+	/** 
+	 * Button Palette
+	 */
 	
 	--button-primary-color: var(--white);
-	--button-primary-background: var(--primary);
-	--button-primary-border-color: var(--primary);
-	--button-primary-hover-color: var(--button-primary-color);
-	--button-primary-hover-background: color(var(--button-primary-background) shade(20%));
-	--button-primary-hover-border-color: color(var(--button-primary-border-color) shade(20%));
-	
 	--button-secondary-color: var(--white);
-	--button-secondary-background: var(--secondary);
-	--button-secondary-border-color: var(--secondary);
-	--button-secondary-hover-color: var(--button-secondary-color);
-	--button-secondary-hover-background: color(var(--button-secondary-background) shade(20%));
-	--button-secondary-hover-border-color: color(var(--button-secondary-border-color) shade(20%));
-
 	--button-tertiary-color: var(--white);
-	--button-tertiary-background: var(--tertiary);
-	--button-tertiary-border-color: var(--tertiary);
-	--button-tertiary-hover-color: var(--button-tertiary-color);
-	--button-tertiary-hover-background: color(var(--button-tertiary-background) shade(20%));
-	--button-tertiary-hover-border-color: color(var(--button-tertiary-border-color) shade(20%));
+
+
+	/** 
+	 * Button Indicators
+	 */
+	
+	--button-error-color: var(--white);
+	--button-warning-color: var(--white);
+	--button-success-color: var(--white);
+	--button-info-color: var(--white);
 
 
 	/**

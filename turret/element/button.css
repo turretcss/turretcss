@@ -28,24 +28,10 @@ button,
 		border-color: var(--button-hover-border-color);
 	}
 
-	&.error {
-		color: var(--error) !important;
-		border-color: var(--error) !important;
-	}
-
-	&.warning {
-		color: var(--warning) !important;
-		border-color: var(--warning) !important;
-	}
-
-	&.success {
-		color: var(--success) !important;
-		border-color: var(--success) !important;
-	}
-
-	&.info {
-		color: var(--info) !important;
-		border-color: var(--info) !important;
+	&:not(:disabled):active {
+		color: var(--button-active-color);
+		background: var(--button-active-background);
+		border-color: var(--button-active-border-color);
 	}
 }
 
@@ -63,4 +49,13 @@ button:disabled {
 	display: block;
 	width: 100%;
 	text-align: var(--button-block-text-align);
+}
+
+.button-border {
+	background: transparent !important;
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		background: transparent !important;
+	}
 }

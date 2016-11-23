@@ -107,8 +107,7 @@
 
 @import './element/button';
 @import './element/button-sizes';
-@import './element/button-fills';
-@import './element/button-borders';
+@import './element/button-colors';
 @import './element/figure';
 @import './element/media';
 @import './element/nav';
