@@ -153,10 +153,7 @@
 	--white: #FFFFFF;
 	--black: #000000;
 
-	--light-grey: #CCCCCC;
-	--dark-grey: #444444;
-
-	--light: #DDDDDD;
+	--light: #CCCCCC;
 	--light-100: color(var(--light) tint(80%));
 	--light-200: color(var(--light) tint(60%));
 	--light-300: color(var(--light) tint(40%));
