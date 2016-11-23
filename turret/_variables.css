@@ -546,7 +546,7 @@
 	--pre-tab-size: 4;
 	--pre-hyphens: none;
 	--pre-line-height: var(--line-height-m);
-	--pre-background: var(--light);
+	--pre-background: var(--light-100);
 	--pre-border: 1px solid var(--light);
 	--pre-code-color: var(--code-color);
 
@@ -930,7 +930,7 @@
 	--table-head-text-transform: none;
 	--table-head-color: inherit;
 	--table-head-border: var(--table-border);
-	--table-head-background: var(--light);
+	--table-head-background: var(--light-100);
 
 	--table-cell-padding: 0.5em;
 	--table-cell-font-family: inherit;
