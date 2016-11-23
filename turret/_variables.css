@@ -132,12 +132,12 @@
 	 */
 
 	--white: #FFFFFF;
-	--white-hover: color(var(--white) tint(20%));
-	--white-active: color(var(--white) shade(5%));
+	--white-hover: color(var(--white) shade(5%));
+	--white-active: color(var(--white) shade(10%));
 
 	--black: #000000;
-	--black-hover: color(var(--black) tint(5%));
-	--black-active: color(var(--black) shade(5%));
+	--black-hover: color(var(--black) tint(20%));
+	--black-active: color(var(--black) tint(10%));
 
 	--light: #CCCCCC;
 	--light-hover: var(--light-400);
@@ -806,6 +806,7 @@
 	--button-active-color: var(--button-color);
 	--button-active-background: var(--light-200);
 	--button-active-border-color: var(--light-700);
+	--button-active-shadow: inset 0 0 0.5em color(var(--dark) alpha(5%));
 
 	--button-disabled-opacity: 0.65;
 
