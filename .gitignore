@@ -3,5 +3,8 @@ npm-debug.log
 node_modules
 _site
 _gh_pages
-/dist/turret.js
-/dist/turret.js.map
+turret.js
+turret.js.map
+turret.css.map
+docs.js.map
+docs.css.map
