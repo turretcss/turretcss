@@ -5,7 +5,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    bundle: './app.js',
+    turret: './turret.js',
+    docs: './docs/src/docs.js',
   },
   output: {
     path: __dirname + '/dist',
@@ -13,7 +14,7 @@ module.exports = {
     filename: '[name].js'
   },
   plugins: [
-    new ExtractTextPlugin('bundle.css'),
+    new ExtractTextPlugin('turret.css'),
   ],
   module: {
     loaders: [
