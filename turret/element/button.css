@@ -2,6 +2,7 @@ button,
 .button {
 	display: inline-block;
 	padding: var(--button-padding);
+	min-width: var(--button-height);
 	height: var(--button-height);
 	font-family: var(--button-font-family);
 	font-weight: var(--button-font-weight);
@@ -33,6 +34,13 @@ button,
 		background: var(--button-active-background);
 		border-color: var(--button-active-border-color);
 		box-shadow: var(--button-active-shadow);
+	}
+
+	&.spinner::before {
+		margin-top: -0.5em;
+		margin-left: -0.5em;
+		width: 1em;
+		height: 1em;
 	}
 }
 

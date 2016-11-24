@@ -59,6 +59,16 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button disabled>...</button>
 ```
 
+### Button Spinner
+
+<div>
+  <button class="spinner"></button>
+</div>
+
+```html
+<button class="spinner">...</button>
+```
+
 ### Button Block
 
 <div>
