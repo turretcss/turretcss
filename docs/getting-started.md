@@ -8,7 +8,7 @@ permalink: /docs/getting-started/
 
 ## Download
 
-There are four quick start ways to download Turret available:
+There are three quick start ways to download Turret available:
 
 ### Download the latest release
 
@@ -23,13 +23,7 @@ git clone https://github.com/bigfishtv/turret.git
 ### Install with npm
 
 ```bash
-npm install bigfishtv-turret
-```
-
-### Install with Bower
-
-```bash
-bower install turret
+npm install turretcss
 ```
 
 ## Structure
@@ -47,7 +41,7 @@ Where styles are applied on HTML elements with classes, the structuring of class
 To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 ```
 
 ### HTML5 Doctype
@@ -69,9 +63,9 @@ For improved cross-browser rendering, Turret uses Normalize.css, a project by Ni
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Turret</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/turret.css" />
   </head>
   <body>
@@ -83,32 +77,27 @@ For improved cross-browser rendering, Turret uses Normalize.css, a project by Ni
 
 ## Usage
 
-Turret is a collection of self-contained less files that include definitions and styles required for each element. These can be included and removed as required to minimise generated CSS styles.
+Turret is a collection of CSS files that include variables set at the root scope, and individual CSS files for the styles required for each element. These can be included and removed as required to minimise generated CSS styles.
 
 ### CSS
 
 To use Turret as CSS in your project include turret.min.css in your document `<head>`
 
-### Less
+### PostCSS/PostCSS-cssnext
 
-To use Turret with Less in your project you will need to either:
-
-1. Import `turret.less` to include styles for all elements.
-2. Import `.less` files for each element as required.
+To use Turret with PostCSS/PostCSS-cssnext in your project you will need to import `turret.css` to include styles for all elements.
 
 ### Theming
 
-To theme Turret you can override default style defintions either within your own project styles or included as `theme.less` to `@import` in your styles.
+To theme Turret you can override default style variables either within your own project styles or included as `variables.css` to `@import` in your styles.
 
 ```css
-// Turret
-@import '/turret/turret.less';
+@import 'turretcss/turret/turret.css';
 
-// Override Primary Color
-@primary: #FF0000;
-
-// Override Button Color
-@button-color: @grey;
+/* Override Primary Color */
+:root {
+    --primary: #FF0000;
+}
 ```
 
 ### Repo File Structure
@@ -119,106 +108,5 @@ turret/
     ├ turret.css
     └ turret.min.css
   └ docs/
-  └ examples/
-    ├ grid.html
-    ├ template.html
-    └ theme.html
   └ turret/
-```
-
-### Turret File Structure
-```
-
-turret/
-  turret.less
-  └ lib/
-    └ normalize.less
-  └ base/
-    ├ global.less
-    ├ body.less
-    ├ colors.less
-    ├ font.less
-    ├ link.less
-    ├ image.less
-    ├ breakpoints.less
-    ├ media-queries.less
-    └ print.less
-  └ typography/
-    ├ typography.less
-    ├ headings.less
-    ├ strong.less
-    ├ emphasis.less
-    ├ paragraph.less
-    ├ lead.less
-    ├ hr.less
-    ├ blockquote.less
-    ├ pullout.less
-    ├ list.less
-    ├ definition-list.less
-    ├ code.less
-    ├ pre.less
-    ├ kbd.less
-    └ mark.less
-  └ grid/
-    ├ container.less
-    ├ row.less
-    ├ column.less
-    ├ offset.less
-    ├ push.less
-    └ pull.less
-  └ form/
-    ├ label.less
-    ├ fieldset.less
-    ├ form-message.less
-    ├ input.less
-    ├ input-indicators.less
-    ├ input-sizes.less
-    ├ input-group.less
-    ├ input-group-sizes.less
-    ├ control.less
-    ├ select.less
-    └ select-sizes.less
-  └ elements/
-    ├ button.less
-    ├ button-styles.less
-    ├ button-indicators.less
-    ├ button-sizes.less
-    ├ button-group.less
-    ├ button-icon.less
-    ├ figure.less
-    ├ media.less
-    ├ nav.less
-    └ table.less
-  └ utilities/
-    ├ utility-classes.less
-    ├ visiblity.less
-    ├ display.less
-    ├ positioning.less
-    ├ flex.less
-    ├ float.less
-    ├ max-width.less
-    ├ margin.less
-    ├ padding.less
-    ├ font-family.less
-    ├ font-size.less
-    ├ text.less
-    ├ text-color.less
-    └ background.less
-  └ mixins/
-    ├ mixins.less
-    ├ input.less
-    ├ select.less
-    ├ button.less
-    ├ font.less
-    ├ border-radius.less
-    ├ background.less
-    ├ placeholder.less
-    ├ arrows.less
-    ├ transitions.less
-    ├ transforms.less
-    ├ animations.less
-    ├ filters.less
-    └ flexbox.less
-  └ accessibility/
-    └ screen-readr.less
 ```
