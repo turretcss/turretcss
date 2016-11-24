@@ -6,321 +6,292 @@ description: A guide to Turret's default styling of form elements including exam
 permalink: /docs/form/
 ---
 
-## Form Examples
-
-### Simple Form
+## Example
 
 <form role="form">
-  <label for="form-simple-email">Email</label>
-  <input type="email" id="form-simple-email" placeholder="Enter Email">
-  <label for="form-simple-password">Password</label>
-  <input type="password" id="form-simple-password" placeholder="Enter Password">
-  <label class="control checkbox">
-    <input type="checkbox" name="checkbox" checked="true">
-    <span class="control-indicator"></span>
-    <span class="control-label">I agree to checking this checkbox</span>
-  </label>
-  <button type="submit" class="button">Submit</button>
+  <div class="field">
+    <label for="form-simple-email">Email</label>
+    <input type="email" id="form-simple-email" placeholder="Enter Email">
+  </div>
+  <div class="field">
+    <label for="form-simple-password">Password</label>
+    <input type="password" id="form-simple-password" placeholder="Enter Password">
+  </div>
+  <div class="field">
+    <label class="control checkbox">
+      <input type="checkbox" name="checkbox" checked="true">
+      <span class="control-indicator"></span>
+      <span class="control-label">I agree to checking this checkbox</span>
+    </label>
+  </div>
+  <div class="field">
+    <button type="submit" class="button margin-right-xs">Submit</button>
+    <button type="reset" class="button">Reset</button>
+  </div>
 </form>
 
 ```html
 <form role="form">
-  <label for="form-simple-email">Email</label>
-  <input type="email" id="form-simple-email" placeholder="Enter Email">
-  <label for="form-simple-password">Password</label>
-  <input type="password" id="form-simple-password" placeholder="Enter Password">
-  <label class="control checkbox">
-    <input type="checkbox" name="checkbox" checked="true">
-    <span class="control-indicator"></span>
-    <span class="control-label">I agree to checking this checkbox</span>
-  </label>
-  <button type="submit" class="button">Submit</button>
+  <div class="field">
+    <label for="form-simple-email">Email</label>
+    <input type="email" id="form-simple-email" placeholder="Enter Email">
+  </div>
+  <div class="field">
+    <label for="form-simple-password">Password</label>
+    <input type="password" id="form-simple-password" placeholder="Enter Password">
+  </div>
+  <div class="field">
+    <label class="control checkbox">
+      <input type="checkbox" name="checkbox" checked="true">
+      <span class="control-indicator"></span>
+      <span class="control-label">I agree to checking this checkbox</span>
+    </label>
+  </div>
+  <div class="field">
+    <button type="submit" class="button margin-right-xs">Submit</button>
+    <button type="reset" class="button">Reset</button>
+  </div>
 </form>
 ```
 
-### Multi-Column Form
+## Field
 
-<form role="form">
-  <div class="row">
-    <div class="column-1-2">
-      <label for="form-mulit-column-first-name">First Name</label>
-      <input type="text" id="form-mulit-column-first-name" placeholder="Enter First Name">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-last-name">Last Name</label>
-      <input type="text" id="form-mulit-column-last-name" placeholder="Enter Last Name">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-email">Email</label>
-      <input type="email" id="form-mulit-column-email" placeholder="Enter Email">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-password">Password</label>
-      <input type="password" id="form-mulit-column-password" placeholder="Enter Password">
-    </div>
-    <div class="column-1">
-      <button type="submit" class="button">Submit</button>
-    </div>
-  </div>
-</form>
+The field is a `<div>` that wraps an label and input in a form to normalise margins.
+
+<div class="field">
+  <label for="field">Label</label>
+  <input type="email" id="field" placeholder="Input">
+</div>
+
+```scss
+--field-margin: var(--margin-s) 0;
+```
 
 ```html
-<form role="form">
-  <div class="row">
-    <div class="column-1-2">
-      <label for="form-mulit-column-first-name">First Name</label>
-      <input type="text" id="form-mulit-column-first-name" placeholder="Enter First Name">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-last-name">Last Name</label>
-      <input type="text" id="form-mulit-column-last-name" placeholder="Enter Last Name">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-email">Email</label>
-      <input type="email" id="form-mulit-column-email" placeholder="Enter Email">
-    </div>
-    <div class="column-1-2">
-      <label for="form-mulit-column-password">Password</label>
-      <input type="password" id="form-mulit-column-password" placeholder="Enter Password">
-    </div>
-    <div class="column-1">
-      <button type="submit" class="button">Submit</button>
-    </div>
-  </div>
-</form>
+<div class="field">...</div>
 ```
 
 ## Label
-
-```scss
-// Label
-@label-margin: 1rem 0;
-@label-font-family: @regular-font-family;
-@label-font-weight: @regular-font-weight;
-@label-font-size: @font-size-s;
-@label-color: @dark;
-@label-line-height: @line-height-m;
-```
 
 <form role="form">
   <label for="input">Label</label>
 </form>
 
+```scss
+--label-margin: 1rem 0;
+--label-font-family: inherit;
+--label-font-weight: inherit;
+--label-font-size: var(--font-size-s);
+--label-color: inherit;
+--label-line-height: var(--line-height-m);
+```
+
 ```html
-<label for="input">Label</label>
+<label for="input">...</label>
 ```
 
 ## Fieldset 
 
-```scss
-// Fieldset
-@fieldset-margin: 0;
-@fieldset-padding: 2rem;
-@fieldset-border: 1px solid @light-grey;
+<form role="form">
+  <fieldset>
+    <div class="field">
+      <label for="fieldset-email">Email</label>
+      <input type="email" id="fieldset-email" placeholder="Enter Email">
+    </div>
+    <div class="field">
+      <label for="fieldset-password">Password</label>
+      <input type="password" id="fieldset-password" placeholder="Enter Password">
+    </div>
+    <div class="field">
+      <button type="submit" class="button margin-right-xs">Submit</button>
+      <button type="reset" class="button">Reset</button>
+    </div>
+  </fieldset>
+</form>
 
-// Feildset Legend
-@fieldset-legend-padding: 1rem;
-@fieldset-legend-font-size: @font-size-m;
-@fieldset-legend-color: @grey;
+```scss
+--fieldset-margin: var(--field-margin);
+--fieldset-padding: var(--padding-s);
+--fieldset-border: 1px solid var(--light);
 ```
+
+```html
+<fieldset>...</fieldset>
+```
+
+## Legend 
 
 <form role="form">
   <fieldset>
     <legend>Login</legend>
-    <label for="fieldset-email">Email</label>
-    <input type="email" id="fieldset-email" placeholder="Enter Email">
-    <label for="fieldset-password">Password</label>
-    <input type="password" id="fieldset-password" placeholder="Enter Password">
-    <button type="submit" class="button">Submit</button>
   </fieldset>
 </form>
 
+```scss
+--legend-padding: 0.5em;
+--legend-font-family: inherit;
+--legend-font-weight: inherit;
+--legend-font-size: var(--font-size-m);
+--legend-color: inherit;
+```
+
 ```html
 <fieldset>
-  <legend>Login</legend>
-  <label for="fieldset-email">Email</label>
-  <input type="email" id="fieldset-email" placeholder="Enter Email">
-  <label for="fieldset-password">Password</label>
-  <input type="password" id="fieldset-password" placeholder="Enter Password">
-  <button type="submit" class="button">Submit</button>
+  <legend>...</legend>
 </fieldset>
 ```
 
 
 ## Form Message
 
-```scss
-// Form Message
-@form-message-margin: @label-margin;
-@form-message-font-family: @paragraph-font-family;
-@form-message-font-weight: @paragraph-font-weight;
-@form-message-font-size: @font-size-s;
-@form-message-color: @body-color;
-@form-message-line-height: @paragraph-line-height;
-
-// Form Message Indicators
-@form-message-error-color: @error;
-@form-message-warning-color: @warning;
-@form-message-success-color: @success;
-@form-message-info-color: @info;
-```
-
 <form role="form">
-  <label for="form-message-title">Title</label>
-  <input type="text" id="form-message-title" placeholder="Title">
-  <p class="form-message">Form message</p>
-  <label for="form-message-first-name">First Name</label>
-  <input type="text" id="form-message-first-name" placeholder="Enter First Name">
-  <p class="form-message success">Form message success</p>
-  <label for="form-message-last-name">Last Name</label>
-  <input type="text" id="form-message-last-name" placeholder="Enter Last Name">
-  <p class="form-message error">Form message error</p>
-  <label for="form-message-email">Email</label>
-  <input type="email" id="form-message-email" placeholder="Enter Email">
-  <p class="form-message warning">Form message warning</p>
-  <label for="form-message-password">Password</label>
-  <input type="password" id="form-message-password" placeholder="Enter Password">
-  <p class="form-message info">Form message info</p>
+  <div class="field">
+    <label for="form-message-title">Title</label>
+    <input type="text" id="form-message-title" placeholder="Title">
+    <p class="form-message">Form message</p>
+  </div>
+  <div class="field">
+    <label for="form-message-first-name">First Name</label>
+    <input type="text" id="form-message-first-name" placeholder="Enter First Name">
+    <p class="form-message success">Form message success</p>
+  </div>
+  <div class="field">
+    <label for="form-message-last-name">Last Name</label>
+    <input type="text" id="form-message-last-name" placeholder="Enter Last Name">
+    <p class="form-message error">Form message error</p>
+  </div>
+  <div class="field">
+    <label for="form-message-email">Email</label>
+    <input type="email" id="form-message-email" placeholder="Enter Email">
+    <p class="form-message warning">Form message warning</p>
+  </div>
+  <div class="field">
+    <label for="form-message-password">Password</label>
+    <input type="password" id="form-message-password" placeholder="Enter Password">
+    <p class="form-message info">Form message info</p>
+  </div>
   <button type="submit" class="button">Submit</button>
 </form>
 
+```scss
+--form-message-margin: var(--label-margin);
+--form-message-font-family: var(--paragraph-font-family);
+--form-message-font-weight: var(--paragraph-font-weight);
+--form-message-font-size: var(--font-size-s);
+--form-message-color: var(--paragraph-color);
+--form-message-line-height: var(--paragraph-line-height);
+```
+
 ```html
-<label for="form-message-title">Title</label>
-<input type="text" id="form-message-title" placeholder="Title">
-<p class="form-message">Form message</p>
-<label for="form-message-first-name">First Name</label>
-<input type="text" id="form-message-first-name" placeholder="Enter First Name">
-<p class="form-message success">Form message success</p>
-<label for="form-message-last-name">Last Name</label>
-<input type="text" id="form-message-last-name" placeholder="Enter Last Name">
-<p class="form-message error">Form message error</p>
-<label for="form-message-email">Email</label>
-<input type="email" id="form-message-email" placeholder="Enter Email">
-<p class="form-message warning">Form message warning</p>
-<label for="form-message-password">Password</label>
-<input type="password" id="form-message-password" placeholder="Enter Password">
-<p class="form-message info">Form message info</p>
+<p class="form-message">...</p>
+<p class="form-message success">...</p>
+<p class="form-message error">...</p>
+<p class="form-message warning">...</p>
+<p class="form-message info">...</p>
 ```
 
 ## Input
 
-```scss
-// Input
-@input-height: @height-m;
-@input-margin: @label-margin;
-@input-padding: 0 1.6rem;
-@input-color: @body-color;
-@input-font-family: @regular-font-family;
-@input-font-weight: @regular-font-weight;
-@input-font-size: @font-size-m;
-@input-line-height: @line-height-m;
-@input-background: @white;
-@input-border: 1px solid @light-grey;
-@input-border-radius: @border-radius;
-
-// Input Hover
-@input-hover-color: @input-color;
-@input-hover-background: darken(@input-background, 2%);
-@input-hover-border: 1px solid darken(@light-grey, 10%);
-
-// Input Focus
-@input-focus-color: @input-color;
-@input-focus-background: darken(@input-background, 2%);
-@input-focus-border: 1px solid @info;
-
-// Input Placeholder
-@input-placeholder-font-family: @input-font-family;
-@input-placeholder-font-size: @input-font-size;
-@input-placeholder-color: fade(@input-color, 50%);
-@input-placeholder-line-height: @input-line-height;
-@input-placeholder-letter-spacing: 0px;
-@input-placeholder-text-transform: none;
-
-// Input Inverse
-@input-inverse-color: @white;
-@input-inverse-background: @inverse;
-@input-inverse-border: none;
-
-// Input Inverse Hover
-@input-inverse-hover-color: @input-inverse-color;
-@input-inverse-hover-background: darken(@input-inverse-background, 2.5%);
-@input-inverse-hover-border: @input-inverse-border;
-
-// Input Inverse Focus
-@input-inverse-focus-color: @input-inverse-color;
-@input-inverse-focus-background: darken(@input-inverse-background, 5%);
-@input-inverse-focus-border: @input-focus-border;
-
-// Input Disabled
-@input-disabled-color: @light;
-@input-disabled-background: @light;
-@input-disabled-border: 1px solid darken(@light, 10%);
-
-// Input Search
-@input-search-border-radius: 2rem;
-
-// Textarea
-@textarea-padding: 1.6rem;
-@textarea-line-height: @line-height-m;
-```
-
 <form role="form">
-
-  <label for="input-text">Text Input</label>
-  <input type="text" id="input-text" placeholder="Text">
-
-  <label for="input-inverse">Inverse Input</label>
-  <input class="input-inverse" type="text" id="input-inverse" placeholder="Inverse">
-
-  <label for="input-disabled">Disabled</label>
-  <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
-
-  <label for="input-email">Email Input</label>
-  <input type="email" id="input-email" placeholder="Email">
-
-  <label for="input-search">Search Input</label>
-  <input type="search" id="input-search" placeholder="Search">
-
-  <label for="input-tel">Telephone Input</label>
-  <input type="tel" id="input-tel" placeholder="Telephone">
-
-  <label for="input-url">URL Input</label>
-  <input type="url" id="input-url" placeholder="http://">
-
-  <label for="input-password">Password Input</label>
-  <input type="password" id="input-password" value="password">
-
-  <label for="input-file">File Input</label>
-  <input type="file" id="input-file">
-
-  <label for="input-textarea">Textarea</label>
-  <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
-
-  <label for="input-number">Number Input</label>
-  <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
-
-  <label for="input-date">Date Input</label>
-  <input type="date" id="input-date">
-
-  <label for="input-month">Month Input</label>
-  <input type="month" id="input-month">
-
-  <label for="input-week">Week Input</label>
-  <input type="week" id="input-week">
-
-  <label for="input-datetime">Datetime Input</label>
-  <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
-
-  <label for="input-datetime-local">Datetime-local Input</label>
-  <input type="datetime-local" id="input-datetime-local">
-
-  <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
-  <label for="input-checkbox">Checkbox Input</label>
-
-  <input id="input-radio" type="radio" name="radio" value="Radio Input">
-  <label for="input-radio">Radio Input</label>
-
+  <div class="field">
+    <label for="input-text">Text Input</label>
+    <input type="text" id="input-text" placeholder="Text">
+  </div>
+  <div class="field">
+    <label for="input-disabled">Disabled</label>
+    <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
+  </div>
+  <div class="field">
+    <label for="input-email">Email Input</label>
+    <input type="email" id="input-email" placeholder="Email">
+  </div>
+  <div class="field">
+    <label for="input-search">Search Input</label>
+    <input type="search" id="input-search" placeholder="Search">
+  </div>
+  <div class="field">
+    <label for="input-tel">Telephone Input</label>
+    <input type="tel" id="input-tel" placeholder="Telephone">
+  </div>
+  <div class="field">
+    <label for="input-url">URL Input</label>
+    <input type="url" id="input-url" placeholder="http://">
+  </div>
+  <div class="field">
+    <label for="input-password">Password Input</label>
+    <input type="password" id="input-password" value="password">
+  </div>
+  <div class="field">
+    <label for="input-file">File Input</label>
+    <input type="file" id="input-file">
+  </div>
+  <div class="field">
+    <label for="input-textarea">Textarea</label>
+    <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
+  </div>
+  <div class="field">
+    <label for="input-number">Number Input</label>
+    <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
+  </div>
+  <div class="field">
+    <label for="input-date">Date Input</label>
+    <input type="date" id="input-date">
+  </div>
+  <div class="field">
+    <label for="input-month">Month Input</label>
+    <input type="month" id="input-month">
+  </div>
+  <div class="field">
+    <label for="input-week">Week Input</label>
+    <input type="week" id="input-week">
+  </div>
+  <div class="field">
+    <label for="input-datetime">Datetime Input</label>
+    <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
+  </div>
+  <div class="field">
+    <label for="input-datetime-local">Datetime-local Input</label>
+    <input type="datetime-local" id="input-datetime-local">
+  </div>
+  <div class="field">
+    <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
+    <label for="input-checkbox">Checkbox Input</label>
+  </div>
+  <div class="field">
+    <input id="input-radio" type="radio" name="radio" value="Radio Input">
+    <label for="input-radio">Radio Input</label>
+  </div>
 </form>
+
+```scss
+--input-margin: var(--label-margin);
+--input-padding: 0 1em;
+--input-height: var(--height-m);
+--input-color: var(--dark);
+--input-font-family: inherit;
+--input-font-weight: inherit;
+--input-font-size: var(--font-size-m);
+--input-line-height: var(--line-height-m);
+--input-background: var(--white);
+--input-border: 1px solid;
+--input-border-color: var(--light);
+--input-border-radius: var(--border-radius);
+
+--input-hover-color: var(--input-color);
+--input-hover-background: color(var(--input-background) shade(2%));
+--input-hover-border-color: color(var(--light) shade(10%));
+
+--input-focus-color: var(--input-color);
+--input-focus-background: color(var(--input-background) shade(2%));
+--input-focus-border-color: var(--primary);
+
+--input-disabled-color: var(--input-color);
+--input-disabled-background: color(var(--input-background) shade(5%));
+--input-disabled-border-color: var(--input-border);
+
+--textarea-padding: 1em;
+--textarea-line-height: inherit;
+```
 
 ```html
 <label for="input-text">Text Input</label>
@@ -380,254 +351,207 @@ permalink: /docs/form/
 
 ## Input Indicators
 
-```scss
-// Indicators
-@input-error-color: @error;
-@input-warning-color: @warning;
-@input-success-color: @success;
-@input-info-color: @info;
-```
-
 <form role="form">
-
-  <label for="error">Input Error</label>
-  <input class="error" type="text" id="error" value="Input Error">
-
-  <label for="warning">Input Warning</label>
-  <input class="warning" type="text" id="warning" value="Input Warning">
-
-  <label for="success">Input Success</label>
-  <input class="success" type="text" id="success" value="Input Success">
-
-  <label for="info">Input Info</label>
-  <input class="info" type="text" id="info" value="Input Info">
-
+  <div class="field">
+    <label for="error">Input Error</label>
+    <input class="error" type="text" id="error" value="Input Error">
+  </div>
+  <div class="field">
+    <label for="warning">Input Warning</label>
+    <input class="warning" type="text" id="warning" value="Input Warning">
+  </div>
+  <div class="field">
+    <label for="success">Input Success</label>
+    <input class="success" type="text" id="success" value="Input Success">
+  </div>
+  <div class="field">
+    <label for="info">Input Info</label>
+    <input class="info" type="text" id="info" value="Input Info">
+  </div>
 </form>
 
 ```html
-<label for="error">Input Error</label>
-<input class="error" type="text" id="error" value="Input Error">
+<label for="error">...</label>
+<input class="error" type="text" id="error">
 
-<label for="warning">Input Warning</label>
-<input class="warning" type="text" id="warning" value="Input Warning">
+<label for="warning">...</label>
+<input class="warning" type="text" id="warning">
 
-<label for="success">Input Success</label>
-<input class="success" type="text" id="success" value="Input Success">
+<label for="success">...</label>
+<input class="success" type="text" id="success">
 
-<label for="info">Input Info</label>
-<input class="info" type="text" id="info" value="Input Info">
+<label for="info">...</label>
+<input class="info" type="text" id="info">
 ```
 
 ## Input Sizes
 
-```scss
-// Input Extra Large
-@input-xl-padding: 0 3.0rem;
-@input-xl-height: @height-xl;
-@input-xl-font-size: @font-size-xl;
-
-// Input Large
-@input-l-padding: 0 2.5rem;
-@input-l-height: @height-l;
-@input-l-font-size: @font-size-l;
-
-// Input Medium
-@input-m-padding: 0 1.6rem;
-@input-m-height: @input-height;
-@input-m-font-size: @input-font-size;
-
-// Input Small
-@input-s-padding: 0 1.2rem;
-@input-s-height: @height-s;
-@input-s-font-size: @font-size-s;
-
-// Input Extra Small
-@input-xs-padding: 0 0.8rem;
-@input-xs-height: @height-xs;
-@input-xs-font-size: @font-size-xs;
-```
 
 <form role="form">
-  
-  <input class="input-xl" type="text" placeholder="Input Extra Large">
-  <input class="input-l" type="text" placeholder="Input Large">
-  <input class="input-m" type="text" placeholder="Input Medium">
-  <input class="input-s" type="text" placeholder="Input Small">
-  <input class="input-xs" type="text" placeholder="Input Extra Small">
-
+  <div class="field">
+    <input class="input-xl" type="text" placeholder="Input Extra Large">
+  </div>
+  <div class="field">
+    <input class="input-l" type="text" placeholder="Input Large">
+  </div>
+  <div class="field">
+    <input type="text" placeholder="Input Medium">
+  </div>
+  <div class="field">
+    <input class="input-s" type="text" placeholder="Input Small">
+  </div>
+  <div class="field">
+    <input class="input-xs" type="text" placeholder="Input Extra Small">
+  </div>
 </form>
 
+```scss
+--input-xl-padding: var(--input-padding);
+--input-xl-height: var(--height-xl);
+--input-xl-font-size: var(--font-size-xl);
+
+--input-l-padding: var(--input-padding);
+--input-l-height: var(--height-l);
+--input-l-font-size: var(--font-size-l);
+
+--input-s-padding: var(--input-padding);
+--input-s-height: var(--height-s);
+--input-s-font-size: var(--font-size-s);
+
+--input-xs-padding: var(--input-padding);
+--input-xs-height: var(--height-xs);
+--input-xs-font-size: var(--font-size-xs);
+```
+
 ```html
-<input class="input-xl" type="text" placeholder="Input Extra Large">
-<input class="input-l" type="text" placeholder="Input Large">
-<input class="input-m" type="text" placeholder="Input Medium">
-<input class="input-s" type="text" placeholder="Input Small">
-<input class="input-xs" type="text" placeholder="Input Extra Small">
+<input class="input-xl" type="text">
+<input class="input-l" type="text">
+<input class="input-m" type="text">
+<input class="input-s" type="text">
+<input class="input-xs" type="text">
 ```
 
 ## Input Group
 
-### Input Group
-
 <div class="input-group">
   <input type="text" placeholder="Enter Keyword...">
-  <span class="input-group-button">
-    <button class="button" type="submit">Submit</button>
-  </span>
+  <button class="button" type="submit">Submit</button>
 </div>
 
 ```html
 <div class="input-group">
-  <input type="text" placeholder="Enter Keyword...">
-  <span class="input-group-button">
-    <button class="button" type="submit">Submit</button>
-  </span>
-</div>
-```
-
-### Input Group Search
-
-<div class="input-group input-group-search">
-  <input type="search" placeholder="Search">
-  <span class="input-group-button">
-    <button class="button" type="submit">Search</button>
-  </span>
-</div>
-
-```html
-<div class="input-group input-group-search">
-  <input type="search" placeholder="Search">
-  <span class="input-group-button">
-    <button class="button" type="submit">Search</button>
-  </span>
+  <input type="text">
+  <button class="button" type="submit">...</button>
 </div>
 ```
 
 ## Input Group Sizes
 
 <form role="form">
-  
-  <div class="input-group">
-    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
-    <span class="input-group-button">
+  <div class="field">
+    <div class="input-group">
+      <input class="input-xl" type="text" placeholder="Input Group Extra Large">
       <button class="button button-xl" type="submit">Submit</button>
-    </span>
+    </div>
   </div>
-  <div class="input-group">
-    <input class="input-l" type="text" placeholder="Input Group Large">
-    <span class="input-group-button">
+  <div class="field">
+    <div class="input-group">
+      <input class="input-l" type="text" placeholder="Input Group Large">
       <button class="button button-l" type="submit">Submit</button>
-    </span>
+    </div>
   </div>
-  <div class="input-group">
-    <input class="input-m" type="text" placeholder="Input Group Medium">
-    <span class="input-group-button">
-      <button class="button button-m" type="submit">Submit</button>
-    </span>
+  <div class="field">
+    <div class="input-group">
+      <input type="text" placeholder="Input Group Medium">
+      <button class="button" type="submit">Submit</button>
+    </div>
   </div>
-  <div class="input-group">
-    <input class="input-s" type="text" placeholder="Input Group Small">
-    <span class="input-group-button">
+  <div class="field">
+    <div class="input-group">
+      <input class="input-s" type="text" placeholder="Input Group Small">
       <button class="button button-s" type="submit">Submit</button>
-    </span>
+    </div>
   </div>
-  <div class="input-group">
-    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
-    <span class="input-group-button">
+  <div class="field">
+    <div class="input-group">
+      <input class="input-xs" type="text" placeholder="Input Group Extra Small">
       <button class="button button-xs" type="submit">Submit</button>
-    </span>
+    </div>
   </div>
-
 </form>
 
 ```html  
 <div class="input-group">
-  <input class="input-xl" type="text" placeholder="Input Group Extra Large">
-  <span class="input-group-button">
-    <button class="button button-xl" type="submit">Submit</button>
-  </span>
+  <input class="input-xl" type="text">
+  <button class="button button-xl" type="submit">...</button>
 </div>
+
 <div class="input-group">
-  <input class="input-l" type="text" placeholder="Input Group Large">
-  <span class="input-group-button">
-    <button class="button button-l" type="submit">Submit</button>
-  </span>
+  <input class="input-l" type="text">
+  <button class="button button-l" type="submit">...</button>
 </div>
+
 <div class="input-group">
-  <input class="input-m" type="text" placeholder="Input Group Medium">
-  <span class="input-group-button">
-    <button class="button button-m" type="submit">Submit</button>
-  </span>
+  <input type="text">
+  <button class="button" type="submit">...</button>
 </div>
+
 <div class="input-group">
-  <input class="input-s" type="text" placeholder="Input Group Small">
-  <span class="input-group-button">
-    <button class="button button-s" type="submit">Submit</button>
-  </span>
+  <input class="input-s" type="text">
+  <button class="button button-s" type="submit">...</button>
 </div>
+
 <div class="input-group">
-  <input class="input-xs" type="text" placeholder="Input Group Extra Small">
-  <span class="input-group-button">
-    <button class="button button-xs" type="submit">Submit</button>
-  </span>
+  <input class="input-xs" type="text">
+  <button class="button button-xs" type="submit">...</button>
 </div>
 ```
 
 ## Control
 
 ```scss
-// Control
-@control-margin: @input-margin;
-@control-padding: 0 0 0 1.5em;
-@control-color: @input-color;
+--control-margin: var(--input-margin);
+--control-padding: 0 0 0 1.5em;
+--control-color: var(--input-color);
 
-// Control Hover
-@control-hover-indicator-background: @input-hover-background;
-@control-hover-indicator-border: @input-hover-border;
+--control-hover-indicator-background: var(--input-hover-background);
+--control-hover-indicator-border-color: var(--input-hover-border-color);
 
-// Control Focus
-@control-focus-indicator-box-shadow: 0 0 0 1px @white, 0 0 0 2px @info;
+--control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--primary);
 
-// Control Indicator
-@control-indicator-size: 1.6rem;
-@control-indicator-color: @primary;
-@control-indicator-background: @input-background;
-@control-indicator-border: @input-border;
+--control-checked-indicator-background: var(--primary);
+--control-checked-indicator-border: 1px solid var(--primary);
+--control-checked-label-color: var(--control-label-color);
 
-// Control Checked
-@control-indicator-checked-background: @primary;
-@control-indicator-checked-border: 1px solid @primary;
-@control-label-checked-color: @control-label-color;
+--control-indicator-size: 20px;
+--control-indicator-color: var(--primary);
+--control-indicator-background: var(--input-background);
+--control-indicator-border: var(--input-border);
+--control-indicator-border-color: var(--input-border-color);
 
-// Control Label
-@control-label-margin: 0 0 0 1rem;
-@control-label-font-family: @input-font-family;
-@control-label-font-weight: @input-font-weight;
-@control-label-font-size: @label-font-size;
-@control-label-color: @input-color;
-@control-label-line-height: @input-line-height;
+--control-label-margin: 0 0 0 1rem;
+--control-label-font-family: var(--label-font-family);
+--control-label-font-weight: var(--label-font-weight);
+--control-label-font-size: var(--label-font-size);
+--control-label-color: var(--label-color);
+--control-label-line-height: var(--label-line-height);
 
-// Control Inline
-@control-inline-margin-right: 2rem;
-
-// Checkbox
-@checkbox-border-radius: none;
-
-// Radio
-@radio-border-radius: 50%;
+--control-inline-margin-right: 2rem;
 ```
 
 ### Checkbox
 
 <form role="form">
-  
   <label class="control checkbox">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
     <span class="control-label">Checkbox</span>
   </label>
-
 </form>
+
+```scss
+--checkbox-border-radius: none;
+```
 
 ```html
 <label class="control checkbox">
@@ -640,14 +564,16 @@ permalink: /docs/form/
 ### Radio
 
 <form role="form">
-  
   <label class="control radio">
     <input type="radio" name="radio">
     <span class="control-indicator"></span>
     <span class="control-label">Radio</span>
   </label>
-
 </form>
+
+```scss
+--radio-border-radius: 50%;
+```
 
 ```html
 <label class="control radio">
@@ -660,7 +586,6 @@ permalink: /docs/form/
 ### Checkbox Inline
 
 <form role="form">
-  
   <label class="control control-inline checkbox">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
@@ -676,7 +601,6 @@ permalink: /docs/form/
     <span class="control-indicator"></span>
     <span class="control-label">Checkbox</span>
   </label>
-
 </form>
 
 ```html
@@ -700,7 +624,6 @@ permalink: /docs/form/
 ### Radio Inline
 
 <form role="form">
-  
   <label class="control control-inline radio">
     <input type="radio" name="radio">
     <span class="control-indicator"></span>
@@ -716,7 +639,6 @@ permalink: /docs/form/
     <span class="control-indicator"></span>
     <span class="control-label">Radio</span>
   </label>
-
 </form>
 
 ```html
@@ -739,55 +661,7 @@ permalink: /docs/form/
 
 ## Select
 
-```scss
-// Select
-@select-margin: @input-margin;
-@select-padding: @input-padding;
-@select-height: @input-height;
-@select-font-family: @input-font-family;
-@select-font-weight: @input-font-weight;
-@select-font-size: @input-font-size;
-@select-color: @input-color;
-@select-line-height: auto;
-@select-background: @input-background;
-@select-border: @input-border;
-@select-border-radius: @border-radius;
-
-// Select Arrow
-@select-arrow-size: 0.4rem;
-@select-arrow-background: @dark;
-
-// Select Hover
-@select-hover-color: @input-hover-color;
-@select-hover-background: @input-hover-background;
-@select-hover-border: @input-hover-border;
-
-// Select Focus
-@select-focus-color: @input-focus-color;
-@select-focus-background: @input-focus-background;
-@select-focus-border: @input-focus-border;
-
-// Select Inverse
-@select-inverse-color: @input-inverse-color;
-@select-inverse-border: @input-inverse-border;
-@select-inverse-background: @input-inverse-background;
-@select-inverse-arrow-background: @white;
-
-// Select Inverse Hover
-@select-inverse-hover-color: @input-inverse-hover-color;
-@select-inverse-hover-background: @input-inverse-hover-background;
-@select-inverse-hover-border: @input-inverse-hover-border;
-
-// Select Inverse Focus
-@select-inverse-focus-color: @input-inverse-focus-color;
-@select-inverse-focus-background: @input-inverse-focus-background;
-@select-inverse-focus-border: @input-inverse-focus-border;
-```
-
-### Select
-
 <form role="form">
-  
   <label class="select" for="select">
     <select id="select">
       <option>Select Field</option>
@@ -795,74 +669,59 @@ permalink: /docs/form/
       <option value="2">Option 02</option>
     </select>
   </label>
-
-</form>
-
-```html
-<label class="select" for="select">
-  <select id="select">
-    <option>Select Field</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
-</label>
-```
-
-### Select Inverse
-
-<form role="form">
-  
-  <label class="select select-inverse" for="select-inverse">
-    <select id="select-inverse">
+  <label class="select" for="select">
+    <select id="select" disabled>
       <option>Select Field</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
   </label>
-
 </form>
 
+```scss
+--select-margin: var(--input-margin);
+--select-padding: var(--input-padding);
+--select-height: var(--input-height);
+--select-font-family: var(--input-font-family);
+--select-font-weight: var(--input-font-weight);
+--select-font-size: var(--input-font-size);
+--select-color: var(--input-color);
+--select-line-height: auto;
+--select-background: var(--input-background);
+--select-border: var(--input-border);
+--select-border-color: var(--input-border-color);
+--select-border-radius: var(--border-radius);
+
+--select-arrow-size: 4px;
+--select-arrow-background: var(--dark);
+
+--select-hover-color: var(--input-hover-color);
+--select-hover-background: var(--input-hover-background);
+--select-hover-border-color: var(--input-hover-border-color);
+
+--select-focus-color: var(--input-focus-color);
+--select-focus-background: var(--input-focus-background);
+--select-focus-border-color: var(--input-focus-border-color);
+
+--select-disabled-color: var(--input-disabled-color);
+--select-disabled-background: var(--input-disabled-background);
+--select-disabled-border-color: var(--input-disabled-border-color);
+```
+
 ```html
-<label class="select select-inverse" for="select-inverse">
-  <select id="select-inverse">
-    <option>Select Field</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+<label class="select" for="select">
+  <select id="select">...</select>
+</label>
+
+<label class="select" for="select">
+  <select id="select" disabled>...</select>
 </label>
 ```
 
+
 ## Select Sizes
 
-```scss
-// Select Extra Large
-@select-xl-padding: @input-xl-padding;
-@select-xl-height: @input-xl-height;
-@select-xl-font-size: @input-xl-font-size;
-
-// Select Large
-@select-l-padding: @input-l-padding;
-@select-l-height: @input-l-height;
-@select-l-font-size: @input-l-font-size;
-
-// Select Medium
-@select-m-padding: @select-padding;
-@select-m-height: @select-height;
-@select-m-font-size: @select-font-size;
-
-// Select Small
-@select-s-padding: @input-s-padding;
-@select-s-height: @input-s-height;
-@select-s-font-size: @input-s-font-size;
-
-// Select Extra Small
-@select-xs-padding: @input-xs-padding;
-@select-xs-height: @input-xs-height;
-@select-xs-font-size: @input-xs-font-size;
-```
-
 <form role="form">
-  
   <label class="select select-xl" for="select-xl">
     <select id="select-xl">
       <option>Select Extra Large</option>
@@ -898,43 +757,44 @@ permalink: /docs/form/
       <option value="2">Option 02</option>
     </select>
   </label>
-
 </form>
+
+```scss
+--select-xl-padding: var(--input-xl-padding);
+--select-xl-height: var(--input-xl-height);
+--select-xl-font-size: var(--input-xl-font-size);
+
+--select-l-padding: var(--input-l-padding);
+--select-l-height: var(--input-l-height);
+--select-l-font-size: var(--input-l-font-size);
+
+--select-s-padding: var(--input-s-padding);
+--select-s-height: var(--input-s-height);
+--select-s-font-size: var(--input-s-font-size);
+
+--select-xs-padding: var(--input-xs-padding);
+--select-xs-height: var(--input-xs-height);
+--select-xs-font-size: var(--input-xs-font-size);
+```
 
 ```html 
 <label class="select select-xl" for="select-xl">
-  <select id="select-xl">
-    <option>Select Extra Large</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+  <select id="select-xl">...</select>
 </label>
+
 <label class="select select-l" for="select-l">
-  <select id="select-l">
-    <option>Select Large</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+  <select id="select-l">...</select>
 </label>
+
 <label class="select select-m" for="select-m">
-  <select id="select-m">
-    <option>Select Medium</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+  <select id="select-m">...</select>
 </label>
+
 <label class="select select-s" for="select-s">
-  <select id="select-s">
-    <option>Select Small</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+  <select id="select-s">...</select>
 </label>
+
 <label class="select select-xs" for="select-xs">
-  <select id="select-xs">
-    <option>Select Extra Small</option>
-    <option value="1">Option 01</option>
-    <option value="2">Option 02</option>
-  </select>
+  <select id="select-xs">...</select>
 </label>
 ```

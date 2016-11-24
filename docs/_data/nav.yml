@@ -41,9 +41,11 @@
 
 - title: Form
   pages:
-    - title: Form Examples
+    - title: Example
+    - title: Field
     - title: Label
     - title: Fieldset
+    - title: Legend
     - title: Form Message
     - title: Input
     - title: Input Indicators
