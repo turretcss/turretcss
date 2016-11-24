@@ -15,29 +15,34 @@ Button styles are applied directly to the `<button>` element, button style and s
 </div>
 
 ```scss
-// Button
-@button-padding: 1.3rem 2.2rem;
-@button-height: @height-m;
-@button-font-family: @m-font-family;
-@button-font-weight: @m-font-weight;
-@button-font-size: @font-size-m;
-@button-color: @dark-grey;
-@button-line-height: 1;
-@button-letter-spacing: 0.05rem;
-@button-text-align: center;
-@button-text-transform: none;
-@button-background: @white;
-@button-border: 1px solid @light-grey;
-@button-border-radius: @border-radius;
+--button-padding:  calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-height: var(--height-m);
+--button-font-family: inherit;
+--button-font-weight: var(--font-weight-medium);
+--button-font-size: var(--font-size-m);
+--button-color: var(--dark);
+--button-line-height: 1;
+--button-letter-spacing: inherit;
+--button-text-align: center;
+--button-text-transform: none;
+--button-background: var(--white);
+--button-border-width: 1px;
+--button-border-style: solid;
+--button-border-color: var(--light);
+--button-border-radius: var(--border-radius);
 
-// Button Hover
-@button-hover-color: @dark-grey;
-@button-hover-background: darken(@button-background, 10%);
-@button-hover-border: 1px solid darken(@light-grey, 10%);
+--button-hover-color: var(--button-color);
+--button-hover-background: var(--light-100);
+--button-hover-border-color: var(--light-600);
+
+--button-active-color: var(--button-color);
+--button-active-background: var(--light-200);
+--button-active-border-color: var(--light-700);
+--button-active-shadow: inset 0 0 0.5em color(var(--dark) alpha(5%));
 ```
 
 ```html
-<button>Button</button>
+<button>...</button>
 ```
 
 ### Button Disabled
@@ -47,12 +52,11 @@ Button styles are applied directly to the `<button>` element, button style and s
 </div>
 
 ```scss
-// Button Disabled
-@button-disabled-opacity: 0.5;
+--button-disabled-opacity: 0.65;
 ```
 
 ```html
-<button disabled>Button</button>
+<button disabled>...</button>
 ```
 
 ### Button Block
@@ -62,161 +66,11 @@ Button styles are applied directly to the `<button>` element, button style and s
 </div>
 
 ```scss
-// Button Block
-@button-block-text-align: center;
+--button-block-text-align: center;
 ```
 
 ```html
-<button class="button button-block">Button Block</button>
-```
-
-### Button Center
-
-Note: for `.button-center` to work the containing element needs to have `text-align: center;`.
-
-<div class="text-center">
-  <button class="button button-center">Button Center</button>
-</div>
-
-```html
-<button class="button button-center">Button Center</button>
-```
-
-## Button Styles
-
-<div>
-  <button class="button">Button</button>
-  <button class="button button-inverse">Inverse</button>
-  <button class="button button-primary">Primary</button>
-  <button class="button button-secondary">Secondary</button>
-  <button class="button button-tertiary">Tertiary</button>
-  <button class="button button-border">Border</button>
-  <button class="button button-text">Text</button>
-  <br>
-  <br>
-</div>
-<div>
-  <button class="button" disabled>Button</button>
-  <button class="button button-inverse" disabled>Inverse</button>
-  <button class="button button-primary" disabled>Primary</button>
-  <button class="button button-secondary" disabled>Secondary</button>
-  <button class="button button-tertiary" disabled>Tertiary</button>
-  <button class="button button-border" disabled>Border</button>
-  <button class="button button-text" disabled>Text</button>
-</div>
-
-```scss
-// Button Inverse
-@button-inverse-color: @light;
-@button-inverse-background: @inverse;
-@button-inverse-border: none;
-@button-inverse-hover-color: @button-inverse-color;
-@button-inverse-hover-background: darken(@button-inverse-background, 10%);
-@button-inverse-hover-border: none;
-
-// Button Primary
-@button-primary-color: @white;
-@button-primary-background: @primary;
-@button-primary-border: none;
-@button-primary-hover-color: @button-primary-color;
-@button-primary-hover-background: darken(@primary, 10%);
-@button-primary-hover-border: none;
-
-// Button Secondary
-@button-secondary-color: @white;
-@button-secondary-background: @secondary;
-@button-secondary-border: none;
-@button-secondary-hover-color: @button-secondary-color;
-@button-secondary-hover-background: darken(@secondary, 10%);
-@button-secondary-hover-border: none;
-
-// Button Tertiary
-@button-tertiary-color: @white;
-@button-tertiary-background: @tertiary;
-@button-tertiary-border: none;
-@button-tertiary-hover-color: @button-tertiary-color;
-@button-tertiary-hover-background: darken(@tertiary, 10%);
-@button-tertiary-hover-border: none;
-
-// Button Border
-@button-border-color: @dark;
-@button-border-border: 1px solid @button-border-color;
-@button-border-background: transparent;
-@button-border-hover-color: @white;
-@button-border-hover-border: 1px solid @button-border-color;
-@button-border-hover-background: @button-border-color;
-
-// Button Text
-@button-text-color: @dark;
-@button-text-hover-color: @primary;
-```
-
-```html
-<button class="button">Button</button>
-<button class="button button-inverse">Inverse</button>
-<button class="button button-primary">Primary</button>
-<button class="button button-secondary">Secondary</button>
-<button class="button button-tertiary">Tertiary</button>
-<button class="button button-border">Border</button>
-<button class="button button-text">Text</button>
-```
-
-## Button Indicators
-
-<div>
-  <button class="button error">Error</button>
-  <button class="button warning">Warning</button>
-  <button class="button success">Success</button>
-  <button class="button info">Info</button>
-  <br>
-  <br>
-</div>
-<div>
-  <button class="button error" disabled>Error</button>
-  <button class="button warning" disabled>Warning</button>
-  <button class="button success" disabled>Success</button>
-  <button class="button info" disabled>Info</button>
-</div>
-
-```scss
-//Button Error
-@button-error-color: @white;
-@button-error-background: @error;
-@button-error-border: none;
-@button-error-hover-color: @button-error-color;
-@button-error-hover-background: darken(@error, 10%);
-@button-error-hover-border: none;
-
-//Button Warning
-@button-warning-color: @white;
-@button-warning-background: @warning;
-@button-warning-border: none;
-@button-warning-hover-color: @button-warning-color;
-@button-warning-hover-background: darken(@warning, 10%);
-@button-warning-hover-border: none;
-
-//Button Success
-@button-success-color: @white;
-@button-success-background: @success;
-@button-success-border: none;
-@button-success-hover-color: @button-success-color;
-@button-success-hover-background: darken(@success, 10%);
-@button-success-hover-border: none;
-
-//Button Info
-@button-info-color: @white;
-@button-info-background: @info;
-@button-info-border: none;
-@button-info-hover-color: @button-info-color;
-@button-info-hover-background: darken(@button-info-background, 10%);
-@button-info-hover-border: none;
-```
-
-```html
-<button class="button error">Error</button>
-<button class="button warning">Warning</button>
-<button class="button success">Success</button>
-<button class="button info">Info</button>
+<button class="button button-block">...</button>
 ```
 
 ## Button Sizes
@@ -231,265 +85,196 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 
 
 ```scss
-// Button Extra Large
-@button-xl-padding: 1.8rem 3.2rem;
-@button-xl-height: @height-xl;
-@button-xl-font-size: @font-size-xl;
+--button-xl-padding: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-xl-height: var(--height-xl);
+--button-xl-font-size: var(--font-size-xl);
 
-// Button Large
-@button-l-padding: 1.4rem 2.8rem;
-@button-l-height: @height-l;
-@button-l-font-size: @font-size-l;
+--button-l-padding: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-l-height: var(--height-l);
+--button-l-font-size: var(--font-size-l);
 
-// Button Medium
-@button-m-padding: @button-padding;
-@button-m-height: @button-height;
-@button-m-font-size: @button-font-size;
+--button-s-padding: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-s-height: var(--height-s);
+--button-s-font-size: var(--font-size-s);
 
-// Button Small
-@button-s-padding: 1.1rem 1.6rem;
-@button-s-height: @height-s;
-@button-s-font-size: @font-size-s;
-
-// Button Extra Small
-@button-xs-padding: 0.6rem 1.2rem;
-@button-xs-height: @height-xs;
-@button-xs-font-size: @font-size-xs;
+--button-xs-padding: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-xs-height: var(--height-xs);
+--button-xs-font-size: var(--font-size-xs);
 ```
 
 ```html
-<button class="button button-xl">Extra Large</button>
-<button class="button button-l">Large</button>
-<button class="button button-m">Medium</button>
-<button class="button button-s">Small</button>
-<button class="button button-xs">Extra Small</button>
+<button class="button button-xl">...</button>
+<button class="button button-l">...</button>
+<button class="button button-m">...</button>
+<button class="button button-s">...</button>
+<button class="button button-xs">...</button>
 ```
 
-## Button Icon
+## Button Anchors
 
 <div>
-  <button class="button button-icon button-icon-right">
-    Button Icon
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-left">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24"><path d="M24 4.3c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-2.7 0-4.9 2.2-4.9 4.9 0 .4 0 .8.1 1.1-4.1-.2-7.7-2.2-10.2-5.2-.4.7-.7 1.6-.7 2.5 0 1.7.9 3.2 2.2 4.1-.8 0-1.6-.2-2.2-.6v.1c0 2.4 1.7 4.4 4 4.8-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.6 3.4-1.7 1.3-3.8 2.1-6.1 2.1-.4 0-.8 0-1.2-.1 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14-7.5 14-14v-.6c.9-.6 1.7-1.5 2.4-2.5z"/></svg>
-    Button Icon
-  </button>
+  <a class="button button-xl">Extra Large</a>
+  <a class="button button-l">Large</a>
+  <a class="button">Medium</a>
+  <a class="button button-s">Small</a>
+  <a class="button button-xs">Extra Small</a>
+</div>
+
+```html
+<a class="button button-xl">...</a>
+<a class="button button-l">...</a>
+<a class="button button-m">...</a>
+<a class="button button-s">...</a>
+<a class="button button-xs">...</a>
+```
+
+## Button Colors
+
+### Shades
+
+<div>
+  <button class="button button-white">White</button>
+  <button class="button button-light">Light</button>
+  <button class="button button-grey">Grey</button>
+  <button class="button button-dark">Dark</button>
+  <button class="button button-black">Black</button>
+  <button class="button button-white button-border">White</button>
+  <button class="button button-light button-border">Light</button>
+  <button class="button button-grey button-border">Grey</button>
+  <button class="button button-dark button-border">Dark</button>
+  <button class="button button-black button-border">Black</button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-white" disabled>White</button>
+  <button class="button button-light" disabled>Light</button>
+  <button class="button button-grey" disabled>Grey</button>
+  <button class="button button-dark" disabled>Dark</button>
+  <button class="button button-black" disabled>Black</button>
+  <button class="button button-white button-border" disabled>White</button>
+  <button class="button button-light button-border" disabled>Light</button>
+  <button class="button button-grey button-border" disabled>Grey</button>
+  <button class="button button-dark button-border" disabled>Dark</button>
+  <button class="button button-black button-border" disabled>Black</button>
 </div>
 
 ```scss
-// Button Icon
-@button-icon-size: @button-font-size;
-@button-icon-fill: @button-color;
-@button-icon-left-margin: 1em;
-@button-icon-right-margin: 1em;
-
-// Button Icon Styles
-@button-icon-inverse-fill: @button-inverse-color;
-@button-icon-inverse-hover-fill: @button-inverse-hover-color;
-@button-icon-primary-fill: @button-primary-color;
-@button-icon-primary-hover-fill: @button-primary-hover-color;
-@button-icon-secondary-fill: @button-secondary-color;
-@button-icon-secondary-hover-fill: @button-secondary-hover-color;
-@button-icon-tertiary-fill: @button-tertiary-color;
-@button-icon-tertiary-hover-fill: @button-tertiary-hover-color;
-@button-icon-border-fill: @button-border-color;
-@button-icon-border-hover-fill: @button-border-hover-color;
-@button-icon-text-fill: @button-text-color;
-@button-icon-text-hover-fill: @button-text-hover-color;
-
-// Button Icon Indicators
-@button-icon-error-fill: @button-error-color;
-@button-icon-error-hover-fill: @button-error-hover-color;
-@button-icon-warning-fill: @button-warning-color;
-@button-icon-warning-hover-fill: @button-warning-hover-color;
-@button-icon-success-fill: @button-success-color;
-@button-icon-success-hover-fill: @button-success-hover-color;
-@button-icon-info-fill: @button-info-color;
-@button-icon-info-hover-fill: @button-info-hover-color;
-
-// Button Icon Sizes
-@button-icon-xl-size: @button-xl-font-size;
-@button-icon-l-size: @button-l-font-size;
-@button-icon-m-size: @button-m-font-size;
-@button-icon-s-size: @button-s-font-size;
-@button-icon-xs-size: @button-xs-font-size;
+--button-white-color: var(--black);
+--button-light-color: var(--dark);
+--button-grey-color: var(--white);
+--button-dark-color: var(--white);
+--button-black-color: var(--white);
 ```
 
 ```html
-<button class="button button-icon button-icon-right">
-  Button Icon
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-left">
-  <svg>...</svg>
-  Button Icon
-</button>
+<button class="button button-white">...</button>
+<button class="button button-light">...</button>
+<button class="button button-grey">...</button>
+<button class="button button-dark">...</button>
+<button class="button button-black">...</button>
+<button class="button button-white button-border">...</button>
+<button class="button button-light button-border">...</button>
+<button class="button button-grey button-border">...</button>
+<button class="button button-dark button-border">...</button>
+<button class="button button-black button-border">...</button>
+<button class="button button-white" disabled>...</button>
+<button class="button button-light" disabled>...</button>
+<button class="button button-grey" disabled>...</button>
+<button class="button button-dark" disabled>...</button>
+<button class="button button-black" disabled>...</button>
+<button class="button button-white button-border" disabled>...</button>
+<button class="button button-light button-border" disabled>...</button>
+<button class="button button-grey button-border" disabled>...</button>
+<button class="button button-dark button-border" disabled>...</button>
+<button class="button button-black button-border" disabled>...</button>
 ```
 
-### Button Icon Styles
+### Button Palettes
 
 <div>
-  <button class="button button-icon button-icon-right">
-    Button
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-inverse">
-    Inverse
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-primary">
-    Primary
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-secondary">
-    Secondary
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-tertiary">
-    Tertiary
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-border">
-    Border
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-text">
-    Text
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
+  <button class="button button-primary">Primary</button>
+  <button class="button button-secondary">Secondary</button>
+  <button class="button button-tertiary">Tertiary</button>
+  <button class="button button-primary button-border">Primary</button>
+  <button class="button button-secondary button-border">Secondary</button>
+  <button class="button button-tertiary button-border">Tertiary</button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-primary" disabled>Primary</button>
+  <button class="button button-secondary" disabled>Secondary</button>
+  <button class="button button-tertiary" disabled>Tertiary</button>
+  <button class="button button-primary button-border" disabled>Primary</button>
+  <button class="button button-secondary button-border" disabled>Secondary</button>
+  <button class="button button-tertiary button-border" disabled>Tertiary</button>
 </div>
 
-```html
-<button class="button button-icon button-icon-right">
-  Button
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-inverse">
-  Inverse
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-primary">
-  Primary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-secondary">
-  Secondary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-tertiary">
-  Tertiary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-border">
-  Border
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-text">
-  Text
-  <svg>...</svg>
-</button>
+```scss
+--button-primary-color: var(--white);
+--button-secondary-color: var(--white);
+--button-tertiary-color: var(--white);
 ```
 
-### Button Icon Indicators
-
-<div>
-  <button class="button button-icon button-icon-right error">
-    Error
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right warning">
-    Warning
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right success">
-    Success
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right info">
-    Info
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-</div>
-
 ```html
-<button class="button button-icon button-icon-right">
-  Button
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-inverse">
-  Inverse
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-primary">
-  Primary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-secondary">
-  Secondary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-tertiary">
-  Tertiary
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-border">
-  Border
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-text">
-  Text
-  <svg>...</svg>
-</button>
+<button class="button button-primary">...</button>
+<button class="button button-secondary">...</button>
+<button class="button button-tertiary">...</button>
+<button class="button button-primary button-border">...</button>
+<button class="button button-secondary button-border">...</button>
+<button class="button button-tertiary button-border">...</button>
+<button class="button button-primary" disabled>...</button>
+<button class="button button-secondary" disabled>...</button>
+<button class="button button-tertiary" disabled>...</button>
+<button class="button button-primary button-border" disabled>...</button>
+<button class="button button-secondary button-border" disabled>...</button>
+<button class="button button-tertiary button-border" disabled>...</button>
 ```
 
-### Button Icon Sizes
+### Indicators
 
 <div>
-  <button class="button button-icon button-icon-right button-xl">
-    Extra Large
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-l">
-    Large
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-m">
-    Medium
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-s">
-    Small
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
-  <button class="button button-icon button-icon-right button-xs">
-    Extra Small
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-  </button>
+  <button class="button error">Error</button>
+  <button class="button warning">Warning</button>
+  <button class="button success">Success</button>
+  <button class="button info">Info</button>
+  <button class="button error button-border">Error</button>
+  <button class="button warning button-border">Warning</button>
+  <button class="button success button-border">Success</button>
+  <button class="button info button-border">Info</button>
+</div>
+<div class="margin-top-xs">
+  <button class="button error" disabled>Error</button>
+  <button class="button warning" disabled>Warning</button>
+  <button class="button success" disabled>Success</button>
+  <button class="button info" disabled>Info</button>
+  <button class="button error button-border" disabled>Error</button>
+  <button class="button warning button-border" disabled>Warning</button>
+  <button class="button success button-border" disabled>Success</button>
+  <button class="button info button-border" disabled>Info</button>
 </div>
 
+```scss
+--button-error-color: var(--white);
+--button-warning-color: var(--white);
+--button-success-color: var(--white);
+--button-info-color: var(--white);
+```
+
 ```html
-<button class="button button-icon button-icon-right button-xl">
-  Extra Large
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-l">
-  Large
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-m">
-  Medium
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-s">
-  Small
-  <svg>...</svg>
-</button>
-<button class="button button-icon button-icon-right button-xs">
-  Extra Small
-  <svg>...</svg>
-</button>
+<button class="button error">...</button>
+<button class="button warning">...</button>
+<button class="button success">...</button>
+<button class="button info">...</button>
+<button class="button error button-border">...</button>
+<button class="button warning button-border">...</button>
+<button class="button success button-border">...</button>
+<button class="button info button-border">...</button>
+<button class="button error" disabled>...</button>
+<button class="button warning" disabled>...</button>
+<button class="button success" disabled>...</button>
+<button class="button info" disabled>...</button>
+<button class="button error button-border" disabled>...</button>
+<button class="button warning button-border" disabled>...</button>
+<button class="button success button-border" disabled>...</button>
+<button class="button info button-border" disabled>...</button>
 ```
 
 ## Button Group

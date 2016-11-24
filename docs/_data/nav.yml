@@ -60,11 +60,10 @@
 - title: Elements
   pages:
     - title: Button
-    - title: Button Styles
-    - title: Button Indicators
     - title: Button Sizes
+    - title: Button Anchors
+    - title: Button Colors
     - title: Button Group
-    - title: Button Icon
     - title: Figure
     - title: Media
     - title: Nav
