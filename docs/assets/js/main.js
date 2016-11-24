@@ -1,4 +1,4 @@
-/*
+/**
  * Helper Functions
  */
 
@@ -24,7 +24,7 @@ var removeClass = function (elem, className) {
 }
 
 
-/*
+/**
  * Toggle
  */
 
