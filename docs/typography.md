@@ -15,7 +15,7 @@ permalink: /docs/typography/
 <h5>Heading 5 <small>Heading 5 small</small></h5>
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 
-```css
+```scss
 // Headings
 @headings-margin: 0 0 1em 0;
 @headings-font-family: @m-font-family;
@@ -49,7 +49,7 @@ permalink: /docs/typography/
 
 ## Link
 
-```css
+```scss
 // Link
 @link-color: @primary;
 @link-text-decoration: none;
@@ -69,7 +69,7 @@ permalink: /docs/typography/
 
 <strong>strong</strong>
 
-```css
+```scss
 // Strong
 @strong-font-family: @bold-font-family;
 @strong-font-weight: @bold-font-weight;
@@ -83,7 +83,7 @@ permalink: /docs/typography/
 
 <em>emphasis</em>
 
-```css
+```scss
 // Emphasis
 @em-font-style: italic;
 ```
@@ -96,7 +96,7 @@ permalink: /docs/typography/
 
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
-```css
+```scss
 // Paragraph
 @paragraph-margin: 2rem 0;
 @paragraph-font-family: @regular-font-family;
@@ -114,7 +114,7 @@ permalink: /docs/typography/
 
 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-```css
+```scss
 // Lead
 @lead-margin: 0 0 2rem 0;
 @lead-font-family: @thin-font-family;
@@ -132,7 +132,7 @@ permalink: /docs/typography/
 
 <hr>
 
-```css
+```scss
 // Horizontal Rule
 @hr-margin: 3rem auto;
 @hr-height: 1px;
@@ -150,7 +150,7 @@ permalink: /docs/typography/
   <cite>Name</cite>
 </blockquote>
 
-```css
+```scss
 // Blockquote
 @blockquote-margin: 3rem 0;
 @blockquote-padding: 0 2rem;
@@ -185,7 +185,7 @@ permalink: /docs/typography/
 
 <p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 
-```css
+```scss
 // Pullout
 @pullout-margin: @blockquote-margin;
 @pullout-padding: @blockquote-padding;
@@ -203,7 +203,7 @@ permalink: /docs/typography/
 
 ## List
 
-```css
+```scss
 // List
 @list-margin: 2rem 0;
 @list-padding: 0;
@@ -236,7 +236,7 @@ permalink: /docs/typography/
   </li>
 </ul>
 
-```css
+```scss
 // Unordered List
 @unordered-list-icon: disc;
 @unordered-child-list-icon: disc;
@@ -288,7 +288,7 @@ permalink: /docs/typography/
   <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
 </dl>
 
-```css
+```scss
 // Definition List
 @definition-list-margin: @list-margin;
 @definition-list-padding: 0;
@@ -319,7 +319,7 @@ permalink: /docs/typography/
 
 <code>&lt;p&gt;code&lt;/p&gt;</code>
 
-```css
+```scss
 // Code
 @code-font-family: @monospace-font-family;
 @code-font-weight: normal;
@@ -335,7 +335,7 @@ permalink: /docs/typography/
 
 <pre><code>&lt;p&gt;pre&lt;/p&gt;</code></pre>
 
-```css
+```scss
 // Pre
 @pre-margin: 2rem 0;
 @pre-padding: 1rem;
@@ -358,7 +358,7 @@ permalink: /docs/typography/
 
 <p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
 
-```css
+```scss
 // Kbd
 @kbd-margin: 0 0.5rem;
 @kbd-padding: 0.4rem;
@@ -379,7 +379,7 @@ permalink: /docs/typography/
 <p><mark>mark</mark></p>
 <p><mark class="error">error</mark> <mark class="warning">warning</mark> <mark class="success">success</mark> <mark class="info">info</mark></p>
 
-```css
+```scss
 // Mark
 @mark-margin: 0;
 @mark-padding: 0.3rem 0.6rem;

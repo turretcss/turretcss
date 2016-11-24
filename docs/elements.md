@@ -14,7 +14,7 @@ Button styles are applied directly to the `<button>` element, button style and s
   <button>Button</button>
 </div>
 
-```css
+```scss
 // Button
 @button-padding: 1.3rem 2.2rem;
 @button-height: @height-m;
@@ -46,7 +46,7 @@ Button styles are applied directly to the `<button>` element, button style and s
   <button disabled>Button</button>
 </div>
 
-```css
+```scss
 // Button Disabled
 @button-disabled-opacity: 0.5;
 ```
@@ -61,7 +61,7 @@ Button styles are applied directly to the `<button>` element, button style and s
   <button class="button button-block">Button Block</button>
 </div>
 
-```css
+```scss
 // Button Block
 @button-block-text-align: center;
 ```
@@ -105,7 +105,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
   <button class="button button-text" disabled>Text</button>
 </div>
 
-```css
+```scss
 // Button Inverse
 @button-inverse-color: @light;
 @button-inverse-background: @inverse;
@@ -178,7 +178,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
   <button class="button info" disabled>Info</button>
 </div>
 
-```css
+```scss
 //Button Error
 @button-error-color: @white;
 @button-error-background: @error;
@@ -230,7 +230,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 </div>
 
 
-```css
+```scss
 // Button Extra Large
 @button-xl-padding: 1.8rem 3.2rem;
 @button-xl-height: @height-xl;
@@ -278,7 +278,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
   </button>
 </div>
 
-```css
+```scss
 // Button Icon
 @button-icon-size: @button-font-size;
 @button-icon-fill: @button-color;
@@ -545,7 +545,7 @@ Note: for `.button-center` to work the containing element needs to have `text-al
   </figure>
 </div>
 
-```css
+```scss
 // Figure
 @figure-display: block;
 @figure-margin: 0;
@@ -577,7 +577,7 @@ The media frame wraps `<img>`, `<svg>`, `<video>`, and `<iframe>` by default, to
 <div class="media media-16-9"></div>
 
 
-```css
+```scss
 // Media
 @media-background: @light;
 ```
@@ -605,7 +605,7 @@ By default the media element has the following common media type ratios:
 
 To add custom media ratios use the .media-ratio() mixin.
 
-```css
+```scss
 .media-ratio(@width, @height);
 ```
 
@@ -624,7 +624,7 @@ For menu and navigation components use the `<nav>` element wrapped around an uno
   </nav>
 </div>
 
-```css
+```scss
 // Nav
 @nav-list-margin: 0;
 @nav-item-margin: 1rem 0;
@@ -656,7 +656,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
   </nav>
 </div>
 
-```css
+```scss
 // Nav Inline
 @nav-inline-item-margin: 0 1rem;
 ```
@@ -702,7 +702,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
   </tbody>
 </table>
 
-```css
+```scss
 // Table
 @table-margin: @paragraph-margin;
 @table-background: none;
@@ -792,7 +792,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
   </table>
 </div>
 
-```css
+```scss
 // Table Reponsive
 @table-responsive-breakpoint: @xs;
 ```

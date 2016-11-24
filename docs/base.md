@@ -12,7 +12,7 @@ permalink: /docs/base/
 
 Default border-radius definitions for buttons, inputs etc.
 
-```css
+```scss
 --border-radius: 2px;
 ```
 
@@ -20,7 +20,7 @@ Default border-radius definitions for buttons, inputs etc.
 
 Z-index utility definitions for general use.
 
-```css
+```scss
 --z-index-high: 999;
 --z-index-m: 99;
 --z-index-low: 9;
@@ -30,7 +30,7 @@ Z-index utility definitions for general use.
 
 Default transition/animation speeds.
 
-```css
+```scss
 --speed-fast: 200ms;
 --speed-m: 300ms;
 --speed-slow: 500ms;
@@ -40,7 +40,7 @@ Default transition/animation speeds.
 
 Height sizes for buttons, inputs, and selects.
 
-```css
+```scss
 --height-xl: 6.0rem;
 --height-l: 5.0rem;
 --height-m: 4.4rem;
@@ -52,7 +52,7 @@ Height sizes for buttons, inputs, and selects.
 
 Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
-```css
+```scss
 --space-xl: 8.0rem;
 --space-l: 5.0rem;
 --space-m: 3.5rem;
@@ -64,7 +64,7 @@ Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
-```css
+```scss
 --margin-xl: var(--space-xl);
 --margin-l: var(--space-l);
 --margin-m: var(--space-m);
@@ -76,7 +76,7 @@ Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
-```css
+```scss
 --padding-xl: var(--space-xl);
 --padding-l: var(--space-l);
 --padding-m: var(--space-m);
@@ -88,7 +88,7 @@ Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
-```css
+```scss
 --max-width-xl: 1280px;
 --max-width-l: 1024px;
 --max-width-m: 800px;
@@ -100,7 +100,7 @@ Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 Sets @root-size on the `:root` element with responsive breakpoints.
 
-```css
+```scss
 --root-size: 10px;
 --root-size-xl: var(--root-size);
 --root-size-l: var(--root-size);
@@ -113,7 +113,7 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 
 Some top level definitions for general styles on the `<body>` tag.
 
-```css
+```scss
 --body-font-family: var(--font-family-system);
 --body-color: var(--dark);
 ```
@@ -125,7 +125,7 @@ Some top level definitions for general styles on the `<body>` tag.
   <div class="swatch color-white background-black">Black</div>
 </div>
 
-```css
+```scss
 --white: #FFFFFF;
 --white-hover: color(var(--white) shade(5%));
 --white-active: color(var(--white) shade(10%));
@@ -176,7 +176,7 @@ Some top level definitions for general styles on the `<body>` tag.
   </div>
 </div>
 
-```css
+```scss
 --light: #CCCCCC;
 --light-hover: var(--light-400);
 --light-active: var(--light-600);
@@ -258,7 +258,7 @@ Some top level definitions for general styles on the `<body>` tag.
   </div>
 </div>
 
-```css
+```scss
 --primary: #3455DB;
 --primary-hover: var(--primary-400);
 --primary-active: var(--primary-600);
@@ -352,7 +352,7 @@ Some top level definitions for general styles on the `<body>` tag.
   </div>
 </div>
 
-```css
+```scss
 --info: #1E90FF;
 --info-hover: var(--info-400);
 --info-active: var(--info-600);
@@ -417,7 +417,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-family-serif">Font Family Serif</p>
 <p class="font-family-monospace">Font Family Monospace</p>
 
-```css
+```scss
 --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 --font-family-serif: Georgia, "Times New Roman", Times, serif;
@@ -432,7 +432,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-size-s">Font Size Small</p>
 <p class="font-size-xs">Font Size Extra Small</p>
 
-```css
+```scss
 --font-size-xl: 2.0rem;
 --font-size-l: 1.8rem;
 --font-size-m: 1.6rem;
@@ -450,7 +450,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-weight-bold">Font Weight Bold</p>
 <p class="font-weight-black">Font Weight Black</p>
 
-```css
+```scss
 --font-weight-thin: 200;
 --font-weight-light: 300;
 --font-weight-regular: 400;
@@ -468,7 +468,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="line-height-s">Line Height Small</p>
 <p class="line-height-xs">Line Height Extra Small</p>
 
-```css
+```scss
 --line-height-xl: 1.8;
 --line-height-l: 1.65;
 --line-height-m: 1.5;
@@ -533,7 +533,7 @@ Images in Turret are made responsive-friendly via the addition of `max-width: 10
   </table>
 </div>
 
-```css
+```scss
 @custom-media --xs (max-width: 767px);
 @custom-media --s (min-width: 768px) and (max-width: 1023px);
 @custom-media --s-up (min-width: 768px);
@@ -551,7 +551,7 @@ Images in Turret are made responsive-friendly via the addition of `max-width: 10
 
 By default Turret's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.
 
-```css
+```scss
 --print-page-size: A4;
 --print-page-margin: 1.5cm 2cm;
 ```
