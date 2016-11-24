@@ -125,8 +125,9 @@
 @import './utility/flex';
 @import './utility/float';
 @import './utility/font-family';
-@import './utility/font-size';
 @import './utility/font-weight';
+@import './utility/font-size';
+@import './utility/line-height';
 @import './utility/gutter';
 @import './utility/margin';
 @import './utility/max-width';
