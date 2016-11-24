@@ -65,12 +65,11 @@ Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
-// Margin
-@margin-xl: 8.0rem;
-@margin-l: 5.0rem;
-@margin-m: 3.5rem;
-@margin-s: 2.0rem;
-@margin-xs: 1.5rem;
+--margin-xl: var(--space-xl);
+--margin-l: var(--space-l);
+--margin-m: var(--space-m);
+--margin-s: var(--space-s);
+--margin-xs: var(--space-xs);
 ```
 
 ### Padding
@@ -78,12 +77,11 @@ Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
-// Padding
-@padding-xl: 8.0rem;
-@padding-l: 5.0rem;
-@padding-m: 3.5rem;
-@padding-s: 2.0rem;
-@padding-xs: 1.5rem;
+--padding-xl: var(--space-xl);
+--padding-l: var(--space-l);
+--padding-m: var(--space-m);
+--padding-s: var(--space-s);
+--padding-xs: var(--space-xs);
 ```
 
 ### Max Width
@@ -91,12 +89,11 @@ Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
-// Max Width
-@max-width-xl: 128rem;
-@max-width-l: 100rem;
-@max-width-m: 80rem;
-@max-width-s: 60rem;
-@max-width-xs: 48rem;
+--max-width-xl: 1280px;
+--max-width-l: 1024px;
+--max-width-m: 800px;
+--max-width-s: 640px;
+--max-width-xs: 480px;
 ```
 
 ## Root
@@ -104,13 +101,12 @@ Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Sets @root-size on the `:root` element with responsive breakpoints.
 
 ```css
-// Root Size
-@root-size: 10px;
-@root-size-xl: @root-size;
-@root-size-l: @root-size;
-@root-size-m: @root-size;
-@root-size-s: @root-size - 1;
-@root-size-xs: @root-size - 1;
+--root-size: 10px;
+--root-size-xl: var(--root-size);
+--root-size-l: var(--root-size);
+--root-size-m: var(--root-size);
+--root-size-s: var(--root-size);
+--root-size-xs: var(--root-size);
 ```
 
 ## Body
@@ -118,13 +114,8 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 Some top level definitions for general styles on the `<body>` tag.
 
 ```css
-// Body
-@body-font-family: @regular-font-family;
-@body-font-weight: @regular-font-weight; 
-@body-color: @grey;
-@body-line-height: @line-height-m;
-@body-letter-spacing: 0.03rem;
-@body-background: @white;
+--body-font-family: var(--font-family-system);
+--body-color: var(--dark);
 ```
 
 ## Colors
@@ -133,6 +124,16 @@ Some top level definitions for general styles on the `<body>` tag.
   <div class="swatch color-black background-white">White</div>
   <div class="swatch color-white background-black">Black</div>
 </div>
+
+```css
+--white: #FFFFFF;
+--white-hover: color(var(--white) shade(5%));
+--white-active: color(var(--white) shade(10%));
+
+--black: #000000;
+--black-hover: color(var(--black) tint(20%));
+--black-active: color(var(--black) tint(10%));
+```
 
 ### Shades
 
@@ -175,6 +176,47 @@ Some top level definitions for general styles on the `<body>` tag.
   </div>
 </div>
 
+```css
+--light: #CCCCCC;
+--light-hover: var(--light-400);
+--light-active: var(--light-600);
+--light-100: color(var(--light) tint(80%));
+--light-200: color(var(--light) tint(60%));
+--light-300: color(var(--light) tint(40%));
+--light-400: color(var(--light) tint(20%));
+--light-500: var(--light);
+--light-600: color(var(--light) shade(5%));
+--light-700: color(var(--light) shade(10%));
+--light-800: color(var(--light) shade(15%));
+--light-900: color(var(--light) shade(20%));
+
+--grey: #666666;
+--grey-hover: var(--grey-400);
+--grey-active: var(--grey-600);
+--grey-100: color(var(--grey) tint(30%));
+--grey-200: color(var(--grey) tint(22.5%));
+--grey-300: color(var(--grey) tint(15%));
+--grey-400: color(var(--grey) tint(7.5%));
+--grey-500: var(--grey);
+--grey-600: color(var(--grey) shade(7.5%));
+--grey-700: color(var(--grey) shade(15%));
+--grey-800: color(var(--grey) shade(22.5%));
+--grey-900: color(var(--grey) shade(30%));
+
+--dark: #333333;
+--dark-hover: var(--dark-400);
+--dark-active: var(--dark-600);
+--dark-100: color(var(--dark) tint(20%));
+--dark-200: color(var(--dark) tint(15%));
+--dark-300: color(var(--dark) tint(10%));
+--dark-400: color(var(--dark) tint(5%));
+--dark-500: var(--dark);
+--dark-600: color(var(--dark) shade(7.5%));
+--dark-700: color(var(--dark) shade(15%));
+--dark-800: color(var(--dark) shade(22.5%));
+--dark-900: color(var(--dark) shade(30%));
+```
+
 ### Palettes
   
 <div class="palettes">
@@ -215,6 +257,47 @@ Some top level definitions for general styles on the `<body>` tag.
     <div class="swatch color-white background-tertiary-900">Tertiary 900</div>
   </div>
 </div>
+
+```css
+--primary: #3455DB;
+--primary-hover: var(--primary-400);
+--primary-active: var(--primary-600);
+--primary-100: color(var(--primary) tint(40%));
+--primary-200: color(var(--primary) tint(30%));
+--primary-300: color(var(--primary) tint(20%));
+--primary-400: color(var(--primary) tint(10%));
+--primary-500: var(--primary);
+--primary-600: color(var(--primary) shade(10%));
+--primary-700: color(var(--primary) shade(20%));
+--primary-800: color(var(--primary) shade(30%));
+--primary-900: color(var(--primary) shade(40%));
+
+--secondary: #663399;
+--secondary-hover: var(--secondary-400);
+--secondary-active: var(--secondary-600);
+--secondary-100: color(var(--secondary) tint(40%));
+--secondary-200: color(var(--secondary) tint(30%));
+--secondary-300: color(var(--secondary) tint(20%));
+--secondary-400: color(var(--secondary) tint(10%));
+--secondary-500: var(--secondary);
+--secondary-600: color(var(--secondary) shade(10%));
+--secondary-700: color(var(--secondary) shade(20%));
+--secondary-800: color(var(--secondary) shade(30%));
+--secondary-900: color(var(--secondary) shade(40%));
+
+--tertiary: #8B008B;
+--tertiary-hover: var(--tertiary-400);
+--tertiary-active: var(--tertiary-600);
+--tertiary-100: color(var(--tertiary) tint(40%));
+--tertiary-200: color(var(--tertiary) tint(30%));
+--tertiary-300: color(var(--tertiary) tint(20%));
+--tertiary-400: color(var(--tertiary) tint(10%));
+--tertiary-500: var(--tertiary);
+--tertiary-600: color(var(--tertiary) shade(10%));
+--tertiary-700: color(var(--tertiary) shade(20%));
+--tertiary-800: color(var(--tertiary) shade(30%));
+--tertiary-900: color(var(--tertiary) shade(40%));
+```
 
 ### Indicators
 
@@ -270,80 +353,76 @@ Some top level definitions for general styles on the `<body>` tag.
 </div>
 
 ```css
-//Shades
-@white: #FFFFFF;
-@black: #000000;
-@light-grey: #DDD;
-@grey: #555;
-@dark-grey: #333;
+--info: #1E90FF;
+--info-hover: var(--info-400);
+--info-active: var(--info-600);
+--info-100: color(var(--info) tint(40%));
+--info-200: color(var(--info) tint(30%));
+--info-300: color(var(--info) tint(20%));
+--info-400: color(var(--info) tint(10%));
+--info-500: var(--info);
+--info-600: color(var(--info) shade(10%));
+--info-700: color(var(--info) shade(20%));
+--info-800: color(var(--info) shade(30%));
+--info-900: color(var(--info) shade(40%));
 
-//Indicators
-@info: #1E90FF;
-@error: #D91E18;
-@warning: #FF4500;
-@success: #00AA00;
+--error: #D91E18;
+--error-hover: var(--error-400);
+--error-active: var(--error-600);
+--error-100: color(var(--error) tint(40%));
+--error-200: color(var(--error) tint(30%));
+--error-300: color(var(--error) tint(20%));
+--error-400: color(var(--error) tint(10%));
+--error-500: var(--error);
+--error-600: color(var(--error) shade(10%));
+--error-700: color(var(--error) shade(20%));
+--error-800: color(var(--error) shade(30%));
+--error-900: color(var(--error) shade(40%));
 
-//Palette
-@light: #FAFAFC;
-@dark: #222;
-@primary: #3455DB;
-@secondary: #663399;
-@tertiary: #8B008B;
+--warning: #FF4500;
+--warning-hover: var(--warning-400);
+--warning-active: var(--warning-600);
+--warning-100: color(var(--warning) tint(40%));
+--warning-200: color(var(--warning) tint(30%));
+--warning-300: color(var(--warning) tint(20%));
+--warning-400: color(var(--warning) tint(10%));
+--warning-500: var(--warning);
+--warning-600: color(var(--warning) shade(10%));
+--warning-700: color(var(--warning) shade(20%));
+--warning-800: color(var(--warning) shade(30%));
+--warning-900: color(var(--warning) shade(40%));
 
-//Utility
-@inverse: @dark;
+--success: #00AA00;
+--success-hover: var(--success-400);
+--success-active: var(--success-600);
+--success-100: color(var(--success) tint(40%));
+--success-200: color(var(--success) tint(30%));
+--success-300: color(var(--success) tint(20%));
+--success-400: color(var(--success) tint(10%));
+--success-500: var(--success);
+--success-600: color(var(--success) shade(10%));
+--success-700: color(var(--success) shade(20%));
+--success-800: color(var(--success) shade(30%));
+--success-900: color(var(--success) shade(40%));
 ```
 
-## Font
+## Fonts
 
 Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
 
-```css
-// Fonts
-@font-path: '../fonts';
-@sans-serif-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serif-font-family: Georgia, "Times New Roman", Times, serif;
-@monospace-font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-
-// Generic Font Families
-@thin-font-family: @sans-serif-font-family;
-@regular-font-family: @sans-serif-font-family;
-@m-font-family: @sans-serif-font-family;
-@semibold-font-family: @sans-serif-font-family;
-@bold-font-family: @sans-serif-font-family;
-
-// Generic Font Weights
-@thin-font-weight: 300;
-@regular-font-weight: 400;
-@m-font-weight: 500;
-@semibold-font-weight: 600;
-@bold-font-weight: 700;
-
-// Font Sizes
-@font-size-xl: 2.0;
-@font-size-l: 1.8;
-@font-size-m: 1.6;
-@font-size-s: 1.4;
-@font-size-xs: 1.2;
-
-// Line height
-@line-height-xl: 1.8;
-@line-height-l: 1.65;
-@line-height-m: 1.5;
-@line-height-s: 1.35;
-@line-height-xs: 1.2;
-```
-
 ### Font Families
 
-<p class="sans-serif-font">Sans Serif Font</p>
-<p class="serif-font">Serif Font</p>
-<p class="monospace-font">Monospace Font</p>
-<p class="thin-font">Thin Font</p>
-<p class="regular-font">Regular Font</p>
-<p class="m-font">Medium Font</p>
-<p class="semibold-font">Semibold Font</p>
-<p class="bold-font">Bold Font</p>
+<p class="font-family-system">Font Family System</p>
+<p class="font-family-sans-serif">Font Family Sans Serif</p>
+<p class="font-family-serif">Font Family Serif</p>
+<p class="font-family-monospace">Font Family Monospace</p>
+
+```css
+--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+--font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-family-serif: Georgia, "Times New Roman", Times, serif;
+--font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+```
 
 ### Font Sizes
 
@@ -353,72 +432,61 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-size-s">Font Size Small</p>
 <p class="font-size-xs">Font Size Extra Small</p>
 
-## Link
+```css
+--font-size-xl: 2.0rem;
+--font-size-l: 1.8rem;
+--font-size-m: 1.6rem;
+--font-size-s: 1.4rem;
+--font-size-xs: 1.2rem;
+```
+
+### Font Weights
+
+<p class="font-weight-thin">Font Weight Thin</p>
+<p class="font-weight-light">Font Weight Light</p>
+<p class="font-weight-regular">Font Weight Regular</p>
+<p class="font-weight-medium">Font Weight Medium</p>
+<p class="font-weight-semibold">Font Weight Semibold</p>
+<p class="font-weight-bold">Font Weight Bold</p>
+<p class="font-weight-black">Font Weight Black</p>
 
 ```css
-// Link
-@link-color: @primary;
-@link-text-decoration: none;
-
-// Link Hover
-@link-hover-color: @dark;
-@link-hover-decoration: underline;
+--font-weight-thin: 200;
+--font-weight-light: 300;
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+--font-weight-black: 800;
 ```
 
-<p><a href="index.html">Link</a></p>
+### Line Heights
 
-```html
-<a href="">...</a>
-```
-
-## Image
-
-### Responsive Image
-
-Images in Turret can be made responsive-friendly via the addition of the `.responsive` class. This applies `max-width: 100%; and height: auto;` to the image so that it scales nicely to the parent element.
-
-<img src="{{ site.baseurl }}/assets/images/photo.svg" class="responsive">
-
-```html
-<img src="..." class="responsive">
-```
-
-### Image Styles
-
-<img src="{{ site.baseurl }}/assets/images/image.svg" class="rounded">
+<p class="line-height-xl">Line Height Extra Large</p>
+<p class="line-height-l">Line Height Large</p>
+<p class="line-height-m">Line Height Medium</p>
+<p class="line-height-s">Line Height Small</p>
+<p class="line-height-xs">Line Height Extra Small</p>
 
 ```css
-@image-rounded-border-radius: 8px;
+--line-height-xl: 1.8;
+--line-height-l: 1.65;
+--line-height-m: 1.5;
+--line-height-s: 1.35;
+--line-height-xs: 1.2;
 ```
+
+## Images
+
+Images in Turret are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.
+
+<img src="{{ site.baseurl }}/assets/images/photo.svg">
 
 ```html
-<img src="..." class="responsive">
+<img src="..." alt="...">
 ```
 
-<img src="{{ site.baseurl }}/assets/images/image.svg" class="circle">
-
-```html
-<img src="..." class="circle">
-```
-
-## Breakpoints
-
-```css
-// Screen Sizes
-@screen-xs: 480px;
-@screen-xs-max: (@screen-s-min - 1);
-@screen-s: 768px;
-@screen-s-min: @screen-s;
-@screen-s-max: (@screen-m-min - 1);
-@screen-m: 1024px;
-@screen-m-min: @screen-m;
-@screen-m-max: (@screen-l-min - 1);
-@screen-l: 1280px;
-@screen-l-min: @screen-l;
-@screen-l-max: (@screen-xl-min - 1);
-@screen-xl: 1680px;
-@screen-xl-min: @screen-xl;
-```
+## Media Queries
 
 <div class="table-responsive">
   <table>
@@ -465,37 +533,18 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
   </table>
 </div>
 
-## Media Queries
-
 ```css
-// Orientation
-@portrait: ~"(orientation: portrait)";
-@landscape: ~"(orientation: landscape)";
-
-// Breakpoints
-@xs: ~"(max-width: @{screen-xs-max})";
-@s: ~"(min-width: @{screen-s-min}) and (max-width: @{screen-s-max})";
-@s-up: ~"(min-width: @{screen-s-min})";
-@s-down: ~"(max-width: @{screen-s-max})";
-@m: ~"(min-width: @{screen-m-min}) and (max-width: @{screen-m-max})";
-@m-up: ~"(min-width: @{screen-m-min})";
-@m-down: ~"(max-width: @{screen-m-max})";
-@l: ~"(min-width: @{screen-l-min}) and (max-width: @{screen-l-max})";
-@l-up: ~"(min-width: @{screen-l-min})";
-@l-down: ~"(max-width: @{screen-l-max})";
-@xl: ~"(min-width: @{screen-xl})";
-
-// Retina
-@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
-~"only screen and (min--moz-device-pixel-ratio: 1.5)",
-~"only screen and (-o-min-device-pixel-ratio: 3/2)",
-~"only screen and (min-device-pixel-ratio: 1.5)";
-
-// IE Media Queries
-@ie6-7: screen\9;
-@ie8: \0screen;
-@oldIE: ~"@{ie8}\,@{ie6-7}";
-@ie9-10: ~"screen and (min-width:0\0)";
+@custom-media --xs (max-width: 767px);
+@custom-media --s (min-width: 768px) and (max-width: 1023px);
+@custom-media --s-up (min-width: 768px);
+@custom-media --s-down (max-width: 1023px);
+@custom-media --m (min-width: 1024px) and (max-width: 1279px);
+@custom-media --m-up (min-width: 1024px);
+@custom-media --m-down (max-width: 1279px);
+@custom-media --l (min-width: 1280px) and (max-width: 1679px);
+@custom-media --l-up (min-width: 1280px);
+@custom-media --l-down (max-width: 1679px);
+@custom-media --xl (min-width: 1680px);
 ```
 
 ## Print
@@ -503,7 +552,6 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 By default Turret's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.
 
 ```css
-// Print Page
-@print-page-size: A4;
-@print-page-margin: 1.5cm 2cm;
+--print-page-size: A4;
+--print-page-margin: 1.5cm 2cm;
 ```

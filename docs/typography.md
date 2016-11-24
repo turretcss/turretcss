@@ -47,6 +47,24 @@ permalink: /docs/typography/
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 ```
 
+## Link
+
+```css
+// Link
+@link-color: @primary;
+@link-text-decoration: none;
+
+// Link Hover
+@link-hover-color: @dark;
+@link-hover-decoration: underline;
+```
+
+<p><a href="index.html">Link</a></p>
+
+```html
+<a href="">...</a>
+```
+
 ## Strong
 
 <strong>strong</strong>

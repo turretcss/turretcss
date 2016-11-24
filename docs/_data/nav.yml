@@ -4,8 +4,6 @@
     - title: Download
     - title: Structure
     - title: Usage
-    # - title: Documentation
-    # - title: Examples
 
 - title: Base
   pages:
@@ -13,16 +11,15 @@
     - title: Root
     - title: Body
     - title: Colors
-    - title: Font
-    - title: Link
-    - title: Image
-    - title: Breakpoints
+    - title: Fonts
+    - title: Images
     - title: Media Queries
     - title: Print
 
 - title: Typography
   pages:
     - title: Headings
+    - title: Link
     - title: Strong
     - title: Emphasis
     - title: Paragraph
