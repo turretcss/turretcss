@@ -176,16 +176,6 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button class="button button-grey button-border">...</button>
 <button class="button button-dark button-border">...</button>
 <button class="button button-black button-border">...</button>
-<button class="button button-white" disabled>...</button>
-<button class="button button-light" disabled>...</button>
-<button class="button button-grey" disabled>...</button>
-<button class="button button-dark" disabled>...</button>
-<button class="button button-black" disabled>...</button>
-<button class="button button-white button-border" disabled>...</button>
-<button class="button button-light button-border" disabled>...</button>
-<button class="button button-grey button-border" disabled>...</button>
-<button class="button button-dark button-border" disabled>...</button>
-<button class="button button-black button-border" disabled>...</button>
 ```
 
 ### Button Palettes
@@ -220,12 +210,6 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button class="button button-primary button-border">...</button>
 <button class="button button-secondary button-border">...</button>
 <button class="button button-tertiary button-border">...</button>
-<button class="button button-primary" disabled>...</button>
-<button class="button button-secondary" disabled>...</button>
-<button class="button button-tertiary" disabled>...</button>
-<button class="button button-primary button-border" disabled>...</button>
-<button class="button button-secondary button-border" disabled>...</button>
-<button class="button button-tertiary button-border" disabled>...</button>
 ```
 
 ### Indicators
@@ -267,14 +251,6 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button class="button warning button-border">...</button>
 <button class="button success button-border">...</button>
 <button class="button info button-border">...</button>
-<button class="button error" disabled>...</button>
-<button class="button warning" disabled>...</button>
-<button class="button success" disabled>...</button>
-<button class="button info" disabled>...</button>
-<button class="button error button-border" disabled>...</button>
-<button class="button warning button-border" disabled>...</button>
-<button class="button success button-border" disabled>...</button>
-<button class="button info button-border" disabled>...</button>
 ```
 
 ## Button Group
@@ -331,25 +307,22 @@ Button styles are applied directly to the `<button>` element, button style and s
 </div>
 
 ```scss
-// Figure
-@figure-display: block;
-@figure-margin: 0;
-@figure-padding: 1rem;
-@figure-border: 1px solid @light-grey;
+--figure-display: block;
+--figure-margin: 0;
+--figure-padding: 0;
 
-// Figure Caption
-@figure-caption-margin: 1rem 0;
-@figure-caption-font-family: @paragraph-font-family;
-@figure-caption-font-weight: @paragraph-font-weight;
-@figure-caption-font-size: @paragraph-font-size;
-@figure-caption-color: @body-color;
-@figure-caption-text-align: center;
+--figure-caption-margin: 1em 0;
+--figure-caption-font-family: inherit;
+--figure-caption-font-weight: inherit;
+--figure-caption-font-size: var(--font-size-s);
+--figure-caption-color: inherit;
+--figure-caption-text-align: left;
 ```
 
 ```html
 <figure>
   <img src="..." class="responsive">
-  <figcaption>Figure Caption</figcaption>
+  <figcaption>...</figcaption>
 </figure>
 ```
 
@@ -359,16 +332,16 @@ The media frame is for content loaded after the document is ready. It stops layo
 
 The media frame wraps `<img>`, `<svg>`, `<video>`, and `<iframe>` by default, to wrap other content in a media container use the media-inner class. The `media-transparent` class removes the default background color on the media element.
 
-<div class="media media-16-9"></div>
+<div class="media media-16-9 spinner"></div>
 
 
 ```scss
 // Media
-@media-background: @light;
+--media-background: color(var(--black) alpha(10%));
 ```
 
 ```html
-<div class="media media-16-9"></div>
+<div class="media media-16-9 spinner">...</div>
 ```
 
 ### Media Ratios
@@ -388,10 +361,10 @@ By default the media element has the following common media type ratios:
 
 ### Custom Media Ratios
 
-To add custom media ratios use the .media-ratio() mixin.
+To add custom media ratios use padding top with `calc`.
 
 ```scss
-.media-ratio(@width, @height);
+padding-top: calc((height / width) * 100%);
 ```
 
 ## Nav
@@ -410,9 +383,9 @@ For menu and navigation components use the `<nav>` element wrapped around an uno
 </div>
 
 ```scss
-// Nav
-@nav-list-margin: 0;
-@nav-item-margin: 1rem 0;
+--nav-list-margin: 0;
+--nav-item-margin: 1rem 0;
+--nav-item-padding: 0;
 ```
 
 ```html
@@ -442,8 +415,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 </div>
 
 ```scss
-// Nav Inline
-@nav-inline-item-margin: 0 1rem;
+--nav-inline-item-margin: 0 1rem;
 ```
 
 ```html
@@ -488,43 +460,36 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 </table>
 
 ```scss
-// Table
-@table-margin: @paragraph-margin;
-@table-background: none;
-@table-border: 1px solid @light-grey;
-@table-border-radius: @border-radius;
+--table-margin: var(--paragraph-margin);
+--table-background: none;
+--table-border: 1px solid var(--light);
+--table-border-radius: var(--border-radius);
 
-// Table Caption
-@table-caption-margin: 1rem 0;
-@table-caption-font-family: @regular-font-family;
-@table-caption-font-weight: @regular-font-weight;
-@table-caption-font-size: @font-size-m;
-@table-caption-color: @body-color;
-@table-caption-text-align: left;
+--table-caption-margin: 1em 0;
+--table-caption-font-family: inherit;
+--table-caption-font-weight: inherit;
+--table-caption-font-size: var(--font-size-m);
+--table-caption-color: inherit;
+--table-caption-text-align: left;
 
-// Table Head
-@table-head-padding: 1rem;
-@table-head-font-family: @m-font-family;
-@table-head-font-weight: @m-font-weight;
-@table-head-font-size: @font-size-s;
-@table-head-text-align: left;
-@table-head-text-transform: none;
-@table-head-color: @body-color;
-@table-head-border: @table-border;
-@table-head-background: @light;
+--table-head-padding: 0.5em;
+--table-head-font-family: inherit;
+--table-head-font-weight: var(--font-weight-medium);
+--table-head-font-size: var(--font-size-s);
+--table-head-text-align: left;
+--table-head-text-transform: none;
+--table-head-color: inherit;
+--table-head-border: var(--table-border);
+--table-head-background: var(--light-100);
 
-// Table Cell
-@table-cell-padding: 1rem;
-@table-cell-font-family: @regular-font-family;
-@table-cell-font-weight: @regular-font-weight;
-@table-cell-font-size: @font-size-s;
-@table-cell-color: @body-color;
-@table-cell-line-height: @line-height-m;
-@table-cell-vertical-align: middle;
-@table-cell-border: @table-border;
-
-// Table Reponsive
-@table-responsive-breakpoint: @xs;
+--table-cell-padding: 0.5em;
+--table-cell-font-family: inherit;
+--table-cell-font-weight: inherit;
+--table-cell-font-size: var(--font-size-s);
+--table-cell-color: inherit;
+--table-cell-line-height: var(--line-height-m);
+--table-cell-vertical-align: middle;
+--table-cell-border: var(--table-border);
 ```
 
 ```html
@@ -544,61 +509,4 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
     </tr>
   </tbody>
 </table>
-```
-
-### Table Reponsive
-
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th scope="col">Vestibulum Sem Ipsum</th>
-        <th scope="col">Dolor Fringilla</th>
-        <th scope="col">Amet Mattis</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Egestas Ipsum Nibh</td>
-        <td>Magna Nullam</td>
-        <td>Consectetur Euismod</td>
-      </tr>
-      <tr>
-        <td>Egestas Ipsum Nibh</td>
-        <td>Magna Nullam</td>
-        <td>Consectetur Euismod</td>
-      </tr>
-      <tr>
-        <td>Egestas Ipsum Nibh</td>
-        <td>Magna Nullam</td>
-        <td>Consectetur Euismod</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-```scss
-// Table Reponsive
-@table-responsive-breakpoint: @xs;
-```
-
-```html
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th scope="col">...</th>
-        <th scope="col">...</th>
-        <th scope="col">...</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>...</td>
-        <td>...</td>
-        <td>...</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 ```
