@@ -37,11 +37,7 @@
 - title: Grid
   pages:
     - title: Container
-    - title: Row
-    - title: Column
-    - title: Offset
-    - title: Push
-    - title: Pull
+    - title: Gutter
 
 - title: Form
   pages:
