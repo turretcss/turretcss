@@ -18,10 +18,10 @@ permalink: /docs/typography/
 ```css
 // Headings
 @headings-margin: 0 0 1em 0;
-@headings-font-family: @medium-font-family;
-@headings-font-weight: @medium-font-weight;
+@headings-font-family: @m-font-family;
+@headings-font-weight: @m-font-weight;
 @headings-color: @dark-grey;
-@headings-line-height: @line-height-small;
+@headings-line-height: @line-height-s;
 
 // Headings Small
 @headings-small-font-family: @medium-font-family;
@@ -83,9 +83,9 @@ permalink: /docs/typography/
 @paragraph-margin: 2rem 0;
 @paragraph-font-family: @regular-font-family;
 @paragraph-font-weight: @regular-font-weight;
-@paragraph-font-size: @font-size-medium;
+@paragraph-font-size: @font-size-m;
 @paragraph-color: @body-color;
-@paragraph-line-height: @line-height-medium;
+@paragraph-line-height: @line-height-m;
 ```
 
 ```html
@@ -101,9 +101,9 @@ permalink: /docs/typography/
 @lead-margin: 0 0 2rem 0;
 @lead-font-family: @thin-font-family;
 @lead-font-weight: @thin-font-weight;
-@lead-font-size: @font-size-large;
+@lead-font-size: @font-size-l;
 @lead-color: @body-color;
-@lead-line-height: @line-height-medium;
+@lead-line-height: @line-height-m;
 ```
 
 ```html
@@ -143,14 +143,14 @@ permalink: /docs/typography/
 @blockquote-quote-font-weight: @lead-font-weight;
 @blockquote-quote-font-size: @lead-font-size;
 @blockquote-quote-font-style: normal;
-@blockquote-quote-line-height: @line-height-medium;
+@blockquote-quote-line-height: @line-height-m;
 @blockquote-quote-color: @body-color;
 
 // Blockquote Cite
 @blockquote-cite-margin: 1rem 0;
 @blockquote-cite-font-family: @regular-font-family;
 @blockquote-cite-font-weight: @regular-font-family;
-@blockquote-cite-font-size: @font-size-medium;
+@blockquote-cite-font-size: @font-size-m;
 @blockquote-cite-font-style: normal;
 @blockquote-cite-color: @blockquote-quote-color;
 @blockquote-cite-text-align: left;
@@ -279,14 +279,14 @@ permalink: /docs/typography/
 @definition-term-margin: 1rem 0;
 @definition-term-font-family: @semibold-font-family;
 @definition-term-font-weight: @semibold-font-weight;
-@definition-term-font-size: @font-size-medium;
+@definition-term-font-size: @font-size-m;
 @definition-term-color: @paragraph-color;
 
 // Definition Description
 @definition-description-margin: 0 0 2rem 0;
 @definition-description-font-family: @regular-font-family;
 @definition-description-font-weight: @regular-font-weight;
-@definition-description-font-size: @font-size-medium;
+@definition-description-font-size: @font-size-m;
 @definition-description-color: @paragraph-color;
 ```
 
@@ -324,7 +324,7 @@ permalink: /docs/typography/
 @pre-color: @body-color;
 @pre-tab-size: 4;
 @pre-hyphens: none;
-@pre-line-height: @line-height-medium;
+@pre-line-height: @line-height-m;
 @pre-background: @light;
 @pre-border: 1px solid @light-grey;
 

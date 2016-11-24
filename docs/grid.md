@@ -14,11 +14,11 @@ By default the container has `@gutter` padding applied to the left and right of 
 
 ```css
 // Container
-@container-xsmall: 100%;
-@container-small: 100%;
-@container-medium: 1024px;
-@container-large: 1280px;
-@container-xlarge: 1440px;
+@container-xs: 100%;
+@container-s: 100%;
+@container-m: 1024px;
+@container-l: 1280px;
+@container-xl: 1440px;
 ```
 
 ```html
@@ -35,11 +35,11 @@ By default the container has `@gutter` padding applied to the left and right of 
 ```css
 // Gutter
 @gutter: 1.6rem;
-@gutter-xlarge: @gutter;
-@gutter-large: @gutter;
-@gutter-medium: @gutter;
-@gutter-small: @gutter;
-@gutter-xsmall: @gutter;
+@gutter-xl: @gutter;
+@gutter-l: @gutter;
+@gutter-m: @gutter;
+@gutter-s: @gutter;
+@gutter-xs: @gutter;
 ```
 
 ### Gutters Classes
@@ -87,7 +87,7 @@ General `no-gutter` utility classes for each responsive breakpoint.
         <td class="is-visible">Gutter</td>
       </tr>
       <tr>
-        <td><code>.no-gutter-small</code></td>
+        <td><code>.no-gutter-s</code></td>
         <td class="is-visible">Gutter</td>
         <td class="is-hidden">No gutter</td>
         <td class="is-visible">Gutter</td>
@@ -95,7 +95,7 @@ General `no-gutter` utility classes for each responsive breakpoint.
         <td class="is-visible">Gutter</td>
       </tr>
       <tr>
-        <td><code>.no-gutter-medium</code></td>
+        <td><code>.no-gutter-m</code></td>
         <td class="is-visible">Gutter</td>
         <td class="is-visible">Gutter</td>
         <td class="is-hidden">No gutter</td>
@@ -103,7 +103,7 @@ General `no-gutter` utility classes for each responsive breakpoint.
         <td class="is-visible">Gutter</td>
       </tr>
       <tr>
-        <td><code>.no-gutter-large</code></td>
+        <td><code>.no-gutter-l</code></td>
         <td class="is-visible">Gutter</td>
         <td class="is-visible">Gutter</td>
         <td class="is-visible">Gutter</td>
@@ -111,7 +111,7 @@ General `no-gutter` utility classes for each responsive breakpoint.
         <td class="is-visible">Gutter</td>
       </tr>
       <tr>
-        <td><code>.no-gutter-xlarge</code></td>
+        <td><code>.no-gutter-xl</code></td>
         <td class="is-visible">Gutter</td>
         <td class="is-visible">Gutter</td>
         <td class="is-visible">Gutter</td>

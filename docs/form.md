@@ -97,9 +97,9 @@ permalink: /docs/form/
 @label-margin: 1rem 0;
 @label-font-family: @regular-font-family;
 @label-font-weight: @regular-font-weight;
-@label-font-size: @font-size-small;
+@label-font-size: @font-size-s;
 @label-color: @dark;
-@label-line-height: @line-height-medium;
+@label-line-height: @line-height-m;
 ```
 
 <form role="form">
@@ -120,7 +120,7 @@ permalink: /docs/form/
 
 // Feildset Legend
 @fieldset-legend-padding: 1rem;
-@fieldset-legend-font-size: @font-size-medium;
+@fieldset-legend-font-size: @font-size-m;
 @fieldset-legend-color: @grey;
 ```
 
@@ -154,7 +154,7 @@ permalink: /docs/form/
 @form-message-margin: @label-margin;
 @form-message-font-family: @paragraph-font-family;
 @form-message-font-weight: @paragraph-font-weight;
-@form-message-font-size: @font-size-small;
+@form-message-font-size: @font-size-s;
 @form-message-color: @body-color;
 @form-message-line-height: @paragraph-line-height;
 
@@ -206,14 +206,14 @@ permalink: /docs/form/
 
 ```css
 // Input
-@input-height: @height-medium;
+@input-height: @height-m;
 @input-margin: @label-margin;
 @input-padding: 0 1.6rem;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
-@input-font-size: @font-size-medium;
-@input-line-height: @line-height-medium;
+@input-font-size: @font-size-m;
+@input-line-height: @line-height-m;
 @input-background: @white;
 @input-border: 1px solid @light-grey;
 @input-border-radius: @border-radius;
@@ -261,7 +261,7 @@ permalink: /docs/form/
 
 // Textarea
 @textarea-padding: 1.6rem;
-@textarea-line-height: @line-height-medium;
+@textarea-line-height: @line-height-m;
 ```
 
 <form role="form">
@@ -422,47 +422,47 @@ permalink: /docs/form/
 
 ```css
 // Input Extra Large
-@input-xlarge-padding: 0 3.0rem;
-@input-xlarge-height: @height-xlarge;
-@input-xlarge-font-size: @font-size-xlarge;
+@input-xl-padding: 0 3.0rem;
+@input-xl-height: @height-xl;
+@input-xl-font-size: @font-size-xl;
 
 // Input Large
-@input-large-padding: 0 2.5rem;
-@input-large-height: @height-large;
-@input-large-font-size: @font-size-large;
+@input-l-padding: 0 2.5rem;
+@input-l-height: @height-l;
+@input-l-font-size: @font-size-l;
 
 // Input Medium
-@input-medium-padding: 0 1.6rem;
-@input-medium-height: @input-height;
-@input-medium-font-size: @input-font-size;
+@input-m-padding: 0 1.6rem;
+@input-m-height: @input-height;
+@input-m-font-size: @input-font-size;
 
 // Input Small
-@input-small-padding: 0 1.2rem;
-@input-small-height: @height-small;
-@input-small-font-size: @font-size-small;
+@input-s-padding: 0 1.2rem;
+@input-s-height: @height-s;
+@input-s-font-size: @font-size-s;
 
 // Input Extra Small
-@input-xsmall-padding: 0 0.8rem;
-@input-xsmall-height: @height-xsmall;
-@input-xsmall-font-size: @font-size-xsmall;
+@input-xs-padding: 0 0.8rem;
+@input-xs-height: @height-xs;
+@input-xs-font-size: @font-size-xs;
 ```
 
 <form role="form">
   
-  <input class="input-xlarge" type="text" placeholder="Input Extra Large">
-  <input class="input-large" type="text" placeholder="Input Large">
-  <input class="input-medium" type="text" placeholder="Input Medium">
-  <input class="input-small" type="text" placeholder="Input Small">
-  <input class="input-xsmall" type="text" placeholder="Input Extra Small">
+  <input class="input-xl" type="text" placeholder="Input Extra Large">
+  <input class="input-l" type="text" placeholder="Input Large">
+  <input class="input-m" type="text" placeholder="Input Medium">
+  <input class="input-s" type="text" placeholder="Input Small">
+  <input class="input-xs" type="text" placeholder="Input Extra Small">
 
 </form>
 
 ```html
-<input class="input-xlarge" type="text" placeholder="Input Extra Large">
-<input class="input-large" type="text" placeholder="Input Large">
-<input class="input-medium" type="text" placeholder="Input Medium">
-<input class="input-small" type="text" placeholder="Input Small">
-<input class="input-xsmall" type="text" placeholder="Input Extra Small">
+<input class="input-xl" type="text" placeholder="Input Extra Large">
+<input class="input-l" type="text" placeholder="Input Large">
+<input class="input-m" type="text" placeholder="Input Medium">
+<input class="input-s" type="text" placeholder="Input Small">
+<input class="input-xs" type="text" placeholder="Input Extra Small">
 ```
 
 ## Input Group
@@ -508,33 +508,33 @@ permalink: /docs/form/
 <form role="form">
   
   <div class="input-group">
-    <input class="input-xlarge" type="text" placeholder="Input Group Extra Large">
+    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
     <span class="input-group-button">
-      <button class="button button-xlarge" type="submit">Submit</button>
+      <button class="button button-xl" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
-    <input class="input-large" type="text" placeholder="Input Group Large">
+    <input class="input-l" type="text" placeholder="Input Group Large">
     <span class="input-group-button">
-      <button class="button button-large" type="submit">Submit</button>
+      <button class="button button-l" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
-    <input class="input-medium" type="text" placeholder="Input Group Medium">
+    <input class="input-m" type="text" placeholder="Input Group Medium">
     <span class="input-group-button">
-      <button class="button button-medium" type="submit">Submit</button>
+      <button class="button button-m" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
-    <input class="input-small" type="text" placeholder="Input Group Small">
+    <input class="input-s" type="text" placeholder="Input Group Small">
     <span class="input-group-button">
-      <button class="button button-small" type="submit">Submit</button>
+      <button class="button button-s" type="submit">Submit</button>
     </span>
   </div>
   <div class="input-group">
-    <input class="input-xsmall" type="text" placeholder="Input Group Extra Small">
+    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
     <span class="input-group-button">
-      <button class="button button-xsmall" type="submit">Submit</button>
+      <button class="button button-xs" type="submit">Submit</button>
     </span>
   </div>
 
@@ -542,33 +542,33 @@ permalink: /docs/form/
 
 ```html  
 <div class="input-group">
-  <input class="input-xlarge" type="text" placeholder="Input Group Extra Large">
+  <input class="input-xl" type="text" placeholder="Input Group Extra Large">
   <span class="input-group-button">
-    <button class="button button-xlarge" type="submit">Submit</button>
+    <button class="button button-xl" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
-  <input class="input-large" type="text" placeholder="Input Group Large">
+  <input class="input-l" type="text" placeholder="Input Group Large">
   <span class="input-group-button">
-    <button class="button button-large" type="submit">Submit</button>
+    <button class="button button-l" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
-  <input class="input-medium" type="text" placeholder="Input Group Medium">
+  <input class="input-m" type="text" placeholder="Input Group Medium">
   <span class="input-group-button">
-    <button class="button button-medium" type="submit">Submit</button>
+    <button class="button button-m" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
-  <input class="input-small" type="text" placeholder="Input Group Small">
+  <input class="input-s" type="text" placeholder="Input Group Small">
   <span class="input-group-button">
-    <button class="button button-small" type="submit">Submit</button>
+    <button class="button button-s" type="submit">Submit</button>
   </span>
 </div>
 <div class="input-group">
-  <input class="input-xsmall" type="text" placeholder="Input Group Extra Small">
+  <input class="input-xs" type="text" placeholder="Input Group Extra Small">
   <span class="input-group-button">
-    <button class="button button-xsmall" type="submit">Submit</button>
+    <button class="button button-xs" type="submit">Submit</button>
   </span>
 </div>
 ```
@@ -836,63 +836,63 @@ permalink: /docs/form/
 
 ```css
 // Select Extra Large
-@select-xlarge-padding: @input-xlarge-padding;
-@select-xlarge-height: @input-xlarge-height;
-@select-xlarge-font-size: @input-xlarge-font-size;
+@select-xl-padding: @input-xl-padding;
+@select-xl-height: @input-xl-height;
+@select-xl-font-size: @input-xl-font-size;
 
 // Select Large
-@select-large-padding: @input-large-padding;
-@select-large-height: @input-large-height;
-@select-large-font-size: @input-large-font-size;
+@select-l-padding: @input-l-padding;
+@select-l-height: @input-l-height;
+@select-l-font-size: @input-l-font-size;
 
 // Select Medium
-@select-medium-padding: @select-padding;
-@select-medium-height: @select-height;
-@select-medium-font-size: @select-font-size;
+@select-m-padding: @select-padding;
+@select-m-height: @select-height;
+@select-m-font-size: @select-font-size;
 
 // Select Small
-@select-small-padding: @input-small-padding;
-@select-small-height: @input-small-height;
-@select-small-font-size: @input-small-font-size;
+@select-s-padding: @input-s-padding;
+@select-s-height: @input-s-height;
+@select-s-font-size: @input-s-font-size;
 
 // Select Extra Small
-@select-xsmall-padding: @input-xsmall-padding;
-@select-xsmall-height: @input-xsmall-height;
-@select-xsmall-font-size: @input-xsmall-font-size;
+@select-xs-padding: @input-xs-padding;
+@select-xs-height: @input-xs-height;
+@select-xs-font-size: @input-xs-font-size;
 ```
 
 <form role="form">
   
-  <label class="select select-xlarge" for="select-xlarge">
-    <select id="select-xlarge">
+  <label class="select select-xl" for="select-xl">
+    <select id="select-xl">
       <option>Select Extra Large</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
   </label>
-  <label class="select select-large" for="select-large">
-    <select id="select-large">
+  <label class="select select-l" for="select-l">
+    <select id="select-l">
       <option>Select Large</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
   </label>
-  <label class="select select-medium" for="select-medium">
-    <select id="select-medium">
+  <label class="select select-m" for="select-m">
+    <select id="select-m">
       <option>Select Medium</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
   </label>
-  <label class="select select-small" for="select-small">
-    <select id="select-small">
+  <label class="select select-s" for="select-s">
+    <select id="select-s">
       <option>Select Small</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
   </label>
-  <label class="select select-xsmall" for="select-xsmall">
-    <select id="select-xsmall">
+  <label class="select select-xs" for="select-xs">
+    <select id="select-xs">
       <option>Select Extra Small</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
@@ -902,36 +902,36 @@ permalink: /docs/form/
 </form>
 
 ```html 
-<label class="select select-xlarge" for="select-xlarge">
-  <select id="select-xlarge">
+<label class="select select-xl" for="select-xl">
+  <select id="select-xl">
     <option>Select Extra Large</option>
     <option value="1">Option 01</option>
     <option value="2">Option 02</option>
   </select>
 </label>
-<label class="select select-large" for="select-large">
-  <select id="select-large">
+<label class="select select-l" for="select-l">
+  <select id="select-l">
     <option>Select Large</option>
     <option value="1">Option 01</option>
     <option value="2">Option 02</option>
   </select>
 </label>
-<label class="select select-medium" for="select-medium">
-  <select id="select-medium">
+<label class="select select-m" for="select-m">
+  <select id="select-m">
     <option>Select Medium</option>
     <option value="1">Option 01</option>
     <option value="2">Option 02</option>
   </select>
 </label>
-<label class="select select-small" for="select-small">
-  <select id="select-small">
+<label class="select select-s" for="select-s">
+  <select id="select-s">
     <option>Select Small</option>
     <option value="1">Option 01</option>
     <option value="2">Option 02</option>
   </select>
 </label>
-<label class="select select-xsmall" for="select-xsmall">
-  <select id="select-xsmall">
+<label class="select select-xs" for="select-xs">
+  <select id="select-xs">
     <option>Select Extra Small</option>
     <option value="1">Option 01</option>
     <option value="2">Option 02</option>

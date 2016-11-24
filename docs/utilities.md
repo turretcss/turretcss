@@ -138,7 +138,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
     </thead>
     <tbody>
       <tr>
-        <td><code>.visible-xsmall</code></td>
+        <td><code>.visible-xs</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -146,7 +146,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-small</code></td>
+        <td><code>.visible-s</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
@@ -154,7 +154,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-small-up</code></td>
+        <td><code>.visible-s-up</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -162,7 +162,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.visible-small-down</code></td>
+        <td><code>.visible-s-down</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
@@ -170,7 +170,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-medium</code></td>
+        <td><code>.visible-m</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
@@ -178,7 +178,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-medium-up</code></td>
+        <td><code>.visible-m-up</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
@@ -186,7 +186,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.visible-medium-down</code></td>
+        <td><code>.visible-m-down</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -194,7 +194,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-large</code></td>
+        <td><code>.visible-l</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -202,7 +202,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-large-up</code></td>
+        <td><code>.visible-l-up</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -210,7 +210,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.visible-large-down</code></td>
+        <td><code>.visible-l-down</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -218,7 +218,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.visible-xlarge</code></td>
+        <td><code>.visible-xl</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -247,7 +247,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
     </thead>
     <tbody>
       <tr>
-        <td><code>.hidden-xsmall</code></td>
+        <td><code>.hidden-xs</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -255,7 +255,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-small</code></td>
+        <td><code>.hidden-s</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
@@ -263,7 +263,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-small-up</code></td>
+        <td><code>.hidden-s-up</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -271,7 +271,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.hidden-small-down</code></td>
+        <td><code>.hidden-s-down</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-visible">Visible</td>
@@ -279,7 +279,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-medium</code></td>
+        <td><code>.hidden-m</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
@@ -287,7 +287,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-medium-up</code></td>
+        <td><code>.hidden-m-up</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-hidden">Hidden</td>
@@ -295,7 +295,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.hidden-medium-down</code></td>
+        <td><code>.hidden-m-down</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -303,7 +303,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-large</code></td>
+        <td><code>.hidden-l</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -311,7 +311,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-large-up</code></td>
+        <td><code>.hidden-l-up</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -319,7 +319,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-hidden">Hidden</td>
       </tr>
       <tr>
-        <td><code>.hidden-large-down</code></td>
+        <td><code>.hidden-l-down</code></td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
         <td class="is-hidden">Hidden</td>
@@ -327,7 +327,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="is-visible">Visible</td>
       </tr>
       <tr>
-        <td><code>.hidden-xlarge</code></td>
+        <td><code>.hidden-xl</code></td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
         <td class="is-visible">Visible</td>
@@ -592,7 +592,7 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>.clear-right-xsmall</code></td>
+        <td><code>.clear-right-xs</code></td>
         <td class="is-clear">clear</td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
@@ -600,7 +600,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">right</td>
       </tr>
       <tr>
-        <td><code>.clear-right-small</code></td>
+        <td><code>.clear-right-s</code></td>
         <td class="is-float">right</td>
         <td class="is-clear">clear</td>
         <td class="is-float">right</td>
@@ -608,7 +608,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">right</td>
       </tr>
       <tr>
-        <td><code>.clear-right-medium</code></td>
+        <td><code>.clear-right-m</code></td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
         <td class="is-clear">clear</td>
@@ -616,7 +616,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">right</td>
       </tr>
       <tr>
-        <td><code>.clear-right-large</code></td>
+        <td><code>.clear-right-l</code></td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
@@ -624,7 +624,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">right</td>
       </tr>
       <tr>
-        <td><code>.clear-right-xlarge</code></td>
+        <td><code>.clear-right-xl</code></td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
         <td class="is-float">right</td>
@@ -634,7 +634,7 @@ Utility classes can be used to position elements easily, each position utility c
     </tbody>
     <tbody>
       <tr>
-        <td><code>.clear-left-xsmall</code></td>
+        <td><code>.clear-left-xs</code></td>
         <td class="is-clear">clear</td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
@@ -642,7 +642,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">left</td>
       </tr>
       <tr>
-        <td><code>.clear-left-small</code></td>
+        <td><code>.clear-left-s</code></td>
         <td class="is-float">left</td>
         <td class="is-clear">clear</td>
         <td class="is-float">left</td>
@@ -650,7 +650,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">left</td>
       </tr>
       <tr>
-        <td><code>.clear-left-medium</code></td>
+        <td><code>.clear-left-m</code></td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
         <td class="is-clear">clear</td>
@@ -658,7 +658,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">left</td>
       </tr>
       <tr>
-        <td><code>.clear-left-large</code></td>
+        <td><code>.clear-left-l</code></td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
@@ -666,7 +666,7 @@ Utility classes can be used to position elements easily, each position utility c
         <td class="is-float">left</td>
       </tr>
       <tr>
-        <td><code>.clear-left-xlarge</code></td>
+        <td><code>.clear-left-xl</code></td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
         <td class="is-float">left</td>
@@ -679,18 +679,18 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Max Width
 
-<p class="max-width-xlarge">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-<p class="max-width-large">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-<p class="max-width-medium">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-<p class="max-width-small">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-<p class="max-width-xsmall">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+<p class="max-width-xl">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+<p class="max-width-l">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+<p class="max-width-m">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+<p class="max-width-s">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+<p class="max-width-xs">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
 
 ```html
-<p class="max-width-xlarge">...</p>
-<p class="max-width-large">...</p>
-<p class="max-width-medium">...</p>
-<p class="max-width-small">...</p>
-<p class="max-width-xsmall">...</p>
+<p class="max-width-xl">...</p>
+<p class="max-width-l">...</p>
+<p class="max-width-m">...</p>
+<p class="max-width-s">...</p>
+<p class="max-width-xs">...</p>
 ```
 
 ## Margin
@@ -705,24 +705,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>margin-xlarge</code></td>
-        <td>Applies <code>@margin-xlarge</code> to element</td>
+        <td><code>margin-xl</code></td>
+        <td>Applies <code>@margin-xl</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-large</code></td>
-        <td>Applies <code>@margin-large</code> to element</td>
+        <td><code>margin-l</code></td>
+        <td>Applies <code>@margin-l</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-medium</code></td>
-        <td>Applies <code>@margin-medium</code> to element</td>
+        <td><code>margin-m</code></td>
+        <td>Applies <code>@margin-m</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-small</code></td>
-        <td>Applies <code>@margin-small</code> to element</td>
+        <td><code>margin-s</code></td>
+        <td>Applies <code>@margin-s</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-xsmall</code></td>
-        <td>Applies <code>@margin-xsmall</code> to element</td>
+        <td><code>margin-xs</code></td>
+        <td>Applies <code>@margin-xs</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -740,24 +740,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>margin-top-xlarge</code></td>
-        <td>Applies <code>margin-top: @margin-xlarge;</code> to element</td>
+        <td><code>margin-top-xl</code></td>
+        <td>Applies <code>margin-top: @margin-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-top-large</code></td>
-        <td>Applies <code>margin-top: @margin-large;</code> to element</td>
+        <td><code>margin-top-l</code></td>
+        <td>Applies <code>margin-top: @margin-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-top-medium</code></td>
-        <td>Applies <code>margin-top: @margin-medium;</code> to element</td>
+        <td><code>margin-top-m</code></td>
+        <td>Applies <code>margin-top: @margin-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-top-small</code></td>
-        <td>Applies <code>margin-top: @margin-small;</code> to element</td>
+        <td><code>margin-top-s</code></td>
+        <td>Applies <code>margin-top: @margin-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-top-xsmall</code></td>
-        <td>Applies <code>margin-top: @margin-xsmall;</code> to element</td>
+        <td><code>margin-top-xs</code></td>
+        <td>Applies <code>margin-top: @margin-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -775,24 +775,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>margin-bottom-xlarge</code></td>
-        <td>Applies <code>margin-bottom: @margin-xlarge;</code> to element</td>
+        <td><code>margin-bottom-xl</code></td>
+        <td>Applies <code>margin-bottom: @margin-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-bottom-large</code></td>
-        <td>Applies <code>margin-bottom: @margin-large;</code> to element</td>
+        <td><code>margin-bottom-l</code></td>
+        <td>Applies <code>margin-bottom: @margin-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-bottom-medium</code></td>
-        <td>Applies <code>margin-bottom: @margin-medium;</code> to element</td>
+        <td><code>margin-bottom-m</code></td>
+        <td>Applies <code>margin-bottom: @margin-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-bottom-small</code></td>
-        <td>Applies <code>margin-bottom: @margin-small;</code> to element</td>
+        <td><code>margin-bottom-s</code></td>
+        <td>Applies <code>margin-bottom: @margin-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-bottom-xsmall</code></td>
-        <td>Applies <code>margin-bottom: @margin-xsmall;</code> to element</td>
+        <td><code>margin-bottom-xs</code></td>
+        <td>Applies <code>margin-bottom: @margin-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -810,24 +810,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>margin-left-xlarge</code></td>
-        <td>Applies <code>margin-left: @margin-xlarge;</code> to element</td>
+        <td><code>margin-left-xl</code></td>
+        <td>Applies <code>margin-left: @margin-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-left-large</code></td>
-        <td>Applies <code>margin-left: @margin-large;</code> to element</td>
+        <td><code>margin-left-l</code></td>
+        <td>Applies <code>margin-left: @margin-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-left-medium</code></td>
-        <td>Applies <code>margin-left: @margin-medium;</code> to element</td>
+        <td><code>margin-left-m</code></td>
+        <td>Applies <code>margin-left: @margin-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-left-small</code></td>
-        <td>Applies <code>margin-left: @margin-small;</code> to element</td>
+        <td><code>margin-left-s</code></td>
+        <td>Applies <code>margin-left: @margin-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-left-xsmall</code></td>
-        <td>Applies <code>margin-left: @margin-xsmall;</code> to element</td>
+        <td><code>margin-left-xs</code></td>
+        <td>Applies <code>margin-left: @margin-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -845,24 +845,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>margin-right-xlarge</code></td>
-        <td>Applies <code>margin-right: @margin-xlarge;</code> to element</td>
+        <td><code>margin-right-xl</code></td>
+        <td>Applies <code>margin-right: @margin-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-right-large</code></td>
-        <td>Applies <code>margin-right: @margin-large;</code> to element</td>
+        <td><code>margin-right-l</code></td>
+        <td>Applies <code>margin-right: @margin-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-right-medium</code></td>
-        <td>Applies <code>margin-right: @margin-medium;</code> to element</td>
+        <td><code>margin-right-m</code></td>
+        <td>Applies <code>margin-right: @margin-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-right-small</code></td>
-        <td>Applies <code>margin-right: @margin-small;</code> to element</td>
+        <td><code>margin-right-s</code></td>
+        <td>Applies <code>margin-right: @margin-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>margin-right-xsmall</code></td>
-        <td>Applies <code>margin-right: @margin-xsmall;</code> to element</td>
+        <td><code>margin-right-xs</code></td>
+        <td>Applies <code>margin-right: @margin-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -880,24 +880,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-xlarge</code></td>
-        <td>Applies <code>@padding-xlarge</code> to element</td>
+        <td><code>padding-xl</code></td>
+        <td>Applies <code>@padding-xl</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-large</code></td>
-        <td>Applies <code>@padding-large</code> to element</td>
+        <td><code>padding-l</code></td>
+        <td>Applies <code>@padding-l</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-medium</code></td>
-        <td>Applies <code>@padding-medium</code> to element</td>
+        <td><code>padding-m</code></td>
+        <td>Applies <code>@padding-m</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-small</code></td>
-        <td>Applies <code>@padding-small</code> to element</td>
+        <td><code>padding-s</code></td>
+        <td>Applies <code>@padding-s</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-xsmall</code></td>
-        <td>Applies <code>@padding-xsmall</code> to element</td>
+        <td><code>padding-xs</code></td>
+        <td>Applies <code>@padding-xs</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -915,24 +915,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-top-xlarge</code></td>
-        <td>Applies <code>padding-top: @padding-xlarge;</code> to element</td>
+        <td><code>padding-top-xl</code></td>
+        <td>Applies <code>padding-top: @padding-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-top-large</code></td>
-        <td>Applies <code>padding-top: @padding-large;</code> to element</td>
+        <td><code>padding-top-l</code></td>
+        <td>Applies <code>padding-top: @padding-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-top-medium</code></td>
-        <td>Applies <code>padding-top: @padding-medium;</code> to element</td>
+        <td><code>padding-top-m</code></td>
+        <td>Applies <code>padding-top: @padding-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-top-small</code></td>
-        <td>Applies <code>padding-top: @padding-small;</code> to element</td>
+        <td><code>padding-top-s</code></td>
+        <td>Applies <code>padding-top: @padding-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-top-xsmall</code></td>
-        <td>Applies <code>padding-top: @padding-xsmall;</code> to element</td>
+        <td><code>padding-top-xs</code></td>
+        <td>Applies <code>padding-top: @padding-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -950,24 +950,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-bottom-xlarge</code></td>
-        <td>Applies <code>padding-bottom: @padding-xlarge;</code> to element</td>
+        <td><code>padding-bottom-xl</code></td>
+        <td>Applies <code>padding-bottom: @padding-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-bottom-large</code></td>
-        <td>Applies <code>padding-bottom: @padding-large;</code> to element</td>
+        <td><code>padding-bottom-l</code></td>
+        <td>Applies <code>padding-bottom: @padding-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-bottom-medium</code></td>
-        <td>Applies <code>padding-bottom: @padding-medium;</code> to element</td>
+        <td><code>padding-bottom-m</code></td>
+        <td>Applies <code>padding-bottom: @padding-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-bottom-small</code></td>
-        <td>Applies <code>padding-bottom: @padding-small;</code> to element</td>
+        <td><code>padding-bottom-s</code></td>
+        <td>Applies <code>padding-bottom: @padding-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-bottom-xsmall</code></td>
-        <td>Applies <code>padding-bottom: @padding-xsmall;</code> to element</td>
+        <td><code>padding-bottom-xs</code></td>
+        <td>Applies <code>padding-bottom: @padding-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -985,24 +985,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-left-xlarge</code></td>
-        <td>Applies <code>padding-left: @padding-xlarge;</code> to element</td>
+        <td><code>padding-left-xl</code></td>
+        <td>Applies <code>padding-left: @padding-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-left-large</code></td>
-        <td>Applies <code>padding-left: @padding-large;</code> to element</td>
+        <td><code>padding-left-l</code></td>
+        <td>Applies <code>padding-left: @padding-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-left-medium</code></td>
-        <td>Applies <code>padding-left: @padding-medium;</code> to element</td>
+        <td><code>padding-left-m</code></td>
+        <td>Applies <code>padding-left: @padding-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-left-small</code></td>
-        <td>Applies <code>padding-left: @padding-small;</code> to element</td>
+        <td><code>padding-left-s</code></td>
+        <td>Applies <code>padding-left: @padding-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-left-xsmall</code></td>
-        <td>Applies <code>padding-left: @padding-xsmall;</code> to element</td>
+        <td><code>padding-left-xs</code></td>
+        <td>Applies <code>padding-left: @padding-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1020,24 +1020,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-right-xlarge</code></td>
-        <td>Applies <code>padding-right: @padding-xlarge;</code> to element</td>
+        <td><code>padding-right-xl</code></td>
+        <td>Applies <code>padding-right: @padding-xl;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-right-large</code></td>
-        <td>Applies <code>padding-right: @padding-large;</code> to element</td>
+        <td><code>padding-right-l</code></td>
+        <td>Applies <code>padding-right: @padding-l;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-right-medium</code></td>
-        <td>Applies <code>padding-right: @padding-medium;</code> to element</td>
+        <td><code>padding-right-m</code></td>
+        <td>Applies <code>padding-right: @padding-m;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-right-small</code></td>
-        <td>Applies <code>padding-right: @padding-small;</code> to element</td>
+        <td><code>padding-right-s</code></td>
+        <td>Applies <code>padding-right: @padding-s;</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-right-xsmall</code></td>
-        <td>Applies <code>padding-right: @padding-xsmall;</code> to element</td>
+        <td><code>padding-right-xs</code></td>
+        <td>Applies <code>padding-right: @padding-xs;</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1067,18 +1067,18 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Font Size
 
-<p class="font-size-xlarge">Font Size Extra Large</p>
-<p class="font-size-large">Font Size Large</p>
-<p class="font-size-medium">Font Size Medium</p>
-<p class="font-size-small">Font Size Small</p>
-<p class="font-size-xsmall">Font Size Extra Small</p>
+<p class="font-size-xl">Font Size Extra Large</p>
+<p class="font-size-l">Font Size Large</p>
+<p class="font-size-m">Font Size Medium</p>
+<p class="font-size-s">Font Size Small</p>
+<p class="font-size-xs">Font Size Extra Small</p>
 
 ```html
-<p class="font-size-xlarge">Font Size Extra Large</p>
-<p class="font-size-large">Font Size Large</p>
-<p class="font-size-medium">Font Size Medium</p>
-<p class="font-size-small">Font Size Small</p>
-<p class="font-size-xsmall">Font Size Extra Small</p>
+<p class="font-size-xl">Font Size Extra Large</p>
+<p class="font-size-l">Font Size Large</p>
+<p class="font-size-m">Font Size Medium</p>
+<p class="font-size-s">Font Size Small</p>
+<p class="font-size-xs">Font Size Extra Small</p>
 ```
 
 ## Text
@@ -1145,20 +1145,20 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Background
 
-<p class="background-white padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-light-grey padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-grey padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-dark-grey padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-black padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-error padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-warning padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-success padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-info padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-light padding-xsmall">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-primary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-secondary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-tertiary padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="background-dark padding-xsmall text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-white padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-light-grey padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-grey padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-dark-grey padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-black padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-error padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-warning padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-success padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-info padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-light padding-xs">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-primary padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-secondary padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-tertiary padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="background-dark padding-xs text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
 ```html
 <p class="background-white">...</p>

@@ -17,10 +17,10 @@ Button styles are applied directly to the `<button>` element, button style and s
 ```css
 // Button
 @button-padding: 1.3rem 2.2rem;
-@button-height: @height-medium;
-@button-font-family: @medium-font-family;
-@button-font-weight: @medium-font-weight;
-@button-font-size: @font-size-medium;
+@button-height: @height-m;
+@button-font-family: @m-font-family;
+@button-font-weight: @m-font-weight;
+@button-font-size: @font-size-m;
 @button-color: @dark-grey;
 @button-line-height: 1;
 @button-letter-spacing: 0.05rem;
@@ -222,47 +222,47 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ## Button Sizes
 
 <div>
-  <button class="button button-xlarge">Extra Large</button>
-  <button class="button button-large">Large</button>
-  <button class="button button-medium">Medium</button>
-  <button class="button button-small">Small</button>
-  <button class="button button-xsmall">Extra Small</button>
+  <button class="button button-xl">Extra Large</button>
+  <button class="button button-l">Large</button>
+  <button class="button button-m">Medium</button>
+  <button class="button button-s">Small</button>
+  <button class="button button-xs">Extra Small</button>
 </div>
 
 
 ```css
 // Button Extra Large
-@button-xlarge-padding: 1.8rem 3.2rem;
-@button-xlarge-height: @height-xlarge;
-@button-xlarge-font-size: @font-size-xlarge;
+@button-xl-padding: 1.8rem 3.2rem;
+@button-xl-height: @height-xl;
+@button-xl-font-size: @font-size-xl;
 
 // Button Large
-@button-large-padding: 1.4rem 2.8rem;
-@button-large-height: @height-large;
-@button-large-font-size: @font-size-large;
+@button-l-padding: 1.4rem 2.8rem;
+@button-l-height: @height-l;
+@button-l-font-size: @font-size-l;
 
 // Button Medium
-@button-medium-padding: @button-padding;
-@button-medium-height: @button-height;
-@button-medium-font-size: @button-font-size;
+@button-m-padding: @button-padding;
+@button-m-height: @button-height;
+@button-m-font-size: @button-font-size;
 
 // Button Small
-@button-small-padding: 1.1rem 1.6rem;
-@button-small-height: @height-small;
-@button-small-font-size: @font-size-small;
+@button-s-padding: 1.1rem 1.6rem;
+@button-s-height: @height-s;
+@button-s-font-size: @font-size-s;
 
 // Button Extra Small
-@button-xsmall-padding: 0.6rem 1.2rem;
-@button-xsmall-height: @height-xsmall;
-@button-xsmall-font-size: @font-size-xsmall;
+@button-xs-padding: 0.6rem 1.2rem;
+@button-xs-height: @height-xs;
+@button-xs-font-size: @font-size-xs;
 ```
 
 ```html
-<button class="button button-xlarge">Extra Large</button>
-<button class="button button-large">Large</button>
-<button class="button button-medium">Medium</button>
-<button class="button button-small">Small</button>
-<button class="button button-xsmall">Extra Small</button>
+<button class="button button-xl">Extra Large</button>
+<button class="button button-l">Large</button>
+<button class="button button-m">Medium</button>
+<button class="button button-s">Small</button>
+<button class="button button-xs">Extra Small</button>
 ```
 
 ## Button Icon
@@ -310,11 +310,11 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 @button-icon-info-hover-fill: @button-info-hover-color;
 
 // Button Icon Sizes
-@button-icon-xlarge-size: @button-xlarge-font-size;
-@button-icon-large-size: @button-large-font-size;
-@button-icon-medium-size: @button-medium-font-size;
-@button-icon-small-size: @button-small-font-size;
-@button-icon-xsmall-size: @button-xsmall-font-size;
+@button-icon-xl-size: @button-xl-font-size;
+@button-icon-l-size: @button-l-font-size;
+@button-icon-m-size: @button-m-font-size;
+@button-icon-s-size: @button-s-font-size;
+@button-icon-xs-size: @button-xs-font-size;
 ```
 
 ```html
@@ -447,46 +447,46 @@ Note: for `.button-center` to work the containing element needs to have `text-al
 ### Button Icon Sizes
 
 <div>
-  <button class="button button-icon button-icon-right button-xlarge">
+  <button class="button button-icon button-icon-right button-xl">
     Extra Large
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
   </button>
-  <button class="button button-icon button-icon-right button-large">
+  <button class="button button-icon button-icon-right button-l">
     Large
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
   </button>
-  <button class="button button-icon button-icon-right button-medium">
+  <button class="button button-icon button-icon-right button-m">
     Medium
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
   </button>
-  <button class="button button-icon button-icon-right button-small">
+  <button class="button button-icon button-icon-right button-s">
     Small
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
   </button>
-  <button class="button button-icon button-icon-right button-xsmall">
+  <button class="button button-icon button-icon-right button-xs">
     Extra Small
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
   </button>
 </div>
 
 ```html
-<button class="button button-icon button-icon-right button-xlarge">
+<button class="button button-icon button-icon-right button-xl">
   Extra Large
   <svg>...</svg>
 </button>
-<button class="button button-icon button-icon-right button-large">
+<button class="button button-icon button-icon-right button-l">
   Large
   <svg>...</svg>
 </button>
-<button class="button button-icon button-icon-right button-medium">
+<button class="button button-icon button-icon-right button-m">
   Medium
   <svg>...</svg>
 </button>
-<button class="button button-icon button-icon-right button-small">
+<button class="button button-icon button-icon-right button-s">
   Small
   <svg>...</svg>
 </button>
-<button class="button button-icon button-icon-right button-xsmall">
+<button class="button button-icon button-icon-right button-xs">
   Extra Small
   <svg>...</svg>
 </button>
@@ -713,15 +713,15 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 @table-caption-margin: 1rem 0;
 @table-caption-font-family: @regular-font-family;
 @table-caption-font-weight: @regular-font-weight;
-@table-caption-font-size: @font-size-medium;
+@table-caption-font-size: @font-size-m;
 @table-caption-color: @body-color;
 @table-caption-text-align: left;
 
 // Table Head
 @table-head-padding: 1rem;
-@table-head-font-family: @medium-font-family;
-@table-head-font-weight: @medium-font-weight;
-@table-head-font-size: @font-size-small;
+@table-head-font-family: @m-font-family;
+@table-head-font-weight: @m-font-weight;
+@table-head-font-size: @font-size-s;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
@@ -732,14 +732,14 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 @table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
-@table-cell-font-size: @font-size-small;
+@table-cell-font-size: @font-size-s;
 @table-cell-color: @body-color;
-@table-cell-line-height: @line-height-medium;
+@table-cell-line-height: @line-height-m;
 @table-cell-vertical-align: middle;
 @table-cell-border: @table-border;
 
 // Table Reponsive
-@table-responsive-breakpoint: @xsmall;
+@table-responsive-breakpoint: @xs;
 ```
 
 ```html
@@ -794,7 +794,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 ```css
 // Table Reponsive
-@table-responsive-breakpoint: @xsmall;
+@table-responsive-breakpoint: @xs;
 ```
 
 ```html

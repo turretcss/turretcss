@@ -13,8 +13,7 @@ permalink: /docs/base/
 Default border-radius definitions for buttons, inputs etc.
 
 ```css
-// Border Radius
-@border-radius: 2px;
+--border-radius: 2px;
 ```
 
 ### Z-Index
@@ -22,85 +21,82 @@ Default border-radius definitions for buttons, inputs etc.
 Z-index utility definitions for general use.
 
 ```css
-// Z-Index
-@z-index-high: 999;
-@z-index-medium: 99;
-@z-index-low: 9;
+--z-index-high: 999;
+--z-index-m: 99;
+--z-index-low: 9;
 ```
 
-### Animation
+### Speed
 
-Default animation speeds.
-
-```css
-// Animation
-@animation-fast: 0.5s;
-@animation-medium: 1s;
-@animation-slow: 2s;
-```
-
-### Transition
-
-Default transition speeds.
-
+Default transition/animation speeds.
 
 ```css
-// Transition
-@transition-fast: 0.2s;
-@transition-medium: 0.3s;
-@transition-slow: 0.5s;
+--speed-fast: 200ms;
+--speed-m: 300ms;
+--speed-slow: 500ms;
 ```
 
 ### Height
 
-Height sizes for buttons, inputs, input-groups, selects etc.
+Height sizes for buttons, inputs, and selects.
 
 ```css
-// Height
-@height-xlarge: 6.0rem;
-@height-large: 5.0rem;
-@height-medium: 4.4rem;
-@height-small: 3.6rem;
-@height-xsmall: 2.4rem;
+--height-xl: 6.0rem;
+--height-l: 5.0rem;
+--height-m: 4.4rem;
+--height-s: 3.6rem;
+--height-xs: 3.0rem;
+```
+
+### Space
+
+Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
+
+```css
+--space-xl: 8.0rem;
+--space-l: 5.0rem;
+--space-m: 3.5rem;
+--space-s: 2.0rem;
+--space-xs: 1.5rem;
 ```
 
 ### Margin
 
-Margin sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
+Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
 // Margin
-@margin-xlarge: 8.0rem;
-@margin-large: 5.0rem;
-@margin-medium: 3.5rem;
-@margin-small: 2.0rem;
-@margin-xsmall: 1.5rem;
+@margin-xl: 8.0rem;
+@margin-l: 5.0rem;
+@margin-m: 3.5rem;
+@margin-s: 2.0rem;
+@margin-xs: 1.5rem;
 ```
 
 ### Padding
 
-Padding sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
+Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
 // Padding
-@padding-xlarge: 8.0rem;
-@padding-large: 5.0rem;
-@padding-medium: 3.5rem;
-@padding-small: 2.0rem;
-@padding-xsmall: 1.5rem;
+@padding-xl: 8.0rem;
+@padding-l: 5.0rem;
+@padding-m: 3.5rem;
+@padding-s: 2.0rem;
+@padding-xs: 1.5rem;
 ```
 
 ### Max Width
 
-Max Width sizes (xlarge, large, medium, small, xsmall) for use globally, including utility classes.
+Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```css
 // Max Width
-@max-width-xlarge: 128rem;
-@max-width-large: 100rem;
-@max-width-medium: 80rem;
-@max-width-small: 60rem;
-@max-width-xsmall: 48rem;
+@max-width-xl: 128rem;
+@max-width-l: 100rem;
+@max-width-m: 80rem;
+@max-width-s: 60rem;
+@max-width-xs: 48rem;
 ```
 
 ## Root
@@ -110,11 +106,11 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 ```css
 // Root Size
 @root-size: 10px;
-@root-size-xlarge: @root-size;
-@root-size-large: @root-size;
-@root-size-medium: @root-size;
-@root-size-small: @root-size - 1;
-@root-size-xsmall: @root-size - 1;
+@root-size-xl: @root-size;
+@root-size-l: @root-size;
+@root-size-m: @root-size;
+@root-size-s: @root-size - 1;
+@root-size-xs: @root-size - 1;
 ```
 
 ## Body
@@ -126,7 +122,7 @@ Some top level definitions for general styles on the `<body>` tag.
 @body-font-family: @regular-font-family;
 @body-font-weight: @regular-font-weight; 
 @body-color: @grey;
-@body-line-height: @line-height-medium;
+@body-line-height: @line-height-m;
 @body-letter-spacing: 0.03rem;
 @body-background: @white;
 ```
@@ -312,30 +308,30 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 // Generic Font Families
 @thin-font-family: @sans-serif-font-family;
 @regular-font-family: @sans-serif-font-family;
-@medium-font-family: @sans-serif-font-family;
+@m-font-family: @sans-serif-font-family;
 @semibold-font-family: @sans-serif-font-family;
 @bold-font-family: @sans-serif-font-family;
 
 // Generic Font Weights
 @thin-font-weight: 300;
 @regular-font-weight: 400;
-@medium-font-weight: 500;
+@m-font-weight: 500;
 @semibold-font-weight: 600;
 @bold-font-weight: 700;
 
 // Font Sizes
-@font-size-xlarge: 2.0;
-@font-size-large: 1.8;
-@font-size-medium: 1.6;
-@font-size-small: 1.4;
-@font-size-xsmall: 1.2;
+@font-size-xl: 2.0;
+@font-size-l: 1.8;
+@font-size-m: 1.6;
+@font-size-s: 1.4;
+@font-size-xs: 1.2;
 
 // Line height
-@line-height-xlarge: 1.8;
-@line-height-large: 1.65;
-@line-height-medium: 1.5;
-@line-height-small: 1.35;
-@line-height-xsmall: 1.2;
+@line-height-xl: 1.8;
+@line-height-l: 1.65;
+@line-height-m: 1.5;
+@line-height-s: 1.35;
+@line-height-xs: 1.2;
 ```
 
 ### Font Families
@@ -345,17 +341,17 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="monospace-font">Monospace Font</p>
 <p class="thin-font">Thin Font</p>
 <p class="regular-font">Regular Font</p>
-<p class="medium-font">Medium Font</p>
+<p class="m-font">Medium Font</p>
 <p class="semibold-font">Semibold Font</p>
 <p class="bold-font">Bold Font</p>
 
 ### Font Sizes
 
-<p class="font-size-xlarge">Font Size Extra Large</p>
-<p class="font-size-large">Font Size Large</p>
-<p class="font-size-medium">Font Size Medium</p>
-<p class="font-size-small">Font Size Small</p>
-<p class="font-size-xsmall">Font Size Extra Small</p>
+<p class="font-size-xl">Font Size Extra Large</p>
+<p class="font-size-l">Font Size Large</p>
+<p class="font-size-m">Font Size Medium</p>
+<p class="font-size-s">Font Size Small</p>
+<p class="font-size-xs">Font Size Extra Small</p>
 
 ## Link
 
@@ -409,19 +405,19 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 
 ```css
 // Screen Sizes
-@screen-xsmall: 480px;
-@screen-xsmall-max: (@screen-small-min - 1);
-@screen-small: 768px;
-@screen-small-min: @screen-small;
-@screen-small-max: (@screen-medium-min - 1);
-@screen-medium: 1024px;
-@screen-medium-min: @screen-medium;
-@screen-medium-max: (@screen-large-min - 1);
-@screen-large: 1280px;
-@screen-large-min: @screen-large;
-@screen-large-max: (@screen-xlarge-min - 1);
-@screen-xlarge: 1680px;
-@screen-xlarge-min: @screen-xlarge;
+@screen-xs: 480px;
+@screen-xs-max: (@screen-s-min - 1);
+@screen-s: 768px;
+@screen-s-min: @screen-s;
+@screen-s-max: (@screen-m-min - 1);
+@screen-m: 1024px;
+@screen-m-min: @screen-m;
+@screen-m-max: (@screen-l-min - 1);
+@screen-l: 1280px;
+@screen-l-min: @screen-l;
+@screen-l-max: (@screen-xl-min - 1);
+@screen-xl: 1680px;
+@screen-xl-min: @screen-xl;
 ```
 
 <div class="table-responsive">
@@ -436,31 +432,31 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
     </thead>
     <tbody>
       <tr>
-        <td>xsmall</td>
+        <td>xs</td>
         <td>Phone</td>
         <td class="is-null"></td>
         <td>767px</td>
       </tr>
       <tr>
-        <td>small</td>
+        <td>s</td>
         <td>Tablet</td>
         <td>768px</td>
         <td>1023px</td>
       </tr>
       <tr>
-        <td>medium</td>
+        <td>m</td>
         <td>Laptop</td>
         <td>1024px</td>
         <td>1279px</td>
       </tr>
       <tr>
-        <td>large</td>
+        <td>l</td>
         <td>Desktop</td>
         <td>1280px</td>
         <td>1679px</td>
       </tr>
       <tr>
-        <td>xlarge</td>
+        <td>xl</td>
         <td>Large Screen</td>
         <td>1680px</td>
         <td class="is-null"></td>
@@ -477,17 +473,17 @@ Images in Turret can be made responsive-friendly via the addition of the `.respo
 @landscape: ~"(orientation: landscape)";
 
 // Breakpoints
-@xsmall: ~"(max-width: @{screen-xsmall-max})";
-@small: ~"(min-width: @{screen-small-min}) and (max-width: @{screen-small-max})";
-@small-up: ~"(min-width: @{screen-small-min})";
-@small-down: ~"(max-width: @{screen-small-max})";
-@medium: ~"(min-width: @{screen-medium-min}) and (max-width: @{screen-medium-max})";
-@medium-up: ~"(min-width: @{screen-medium-min})";
-@medium-down: ~"(max-width: @{screen-medium-max})";
-@large: ~"(min-width: @{screen-large-min}) and (max-width: @{screen-large-max})";
-@large-up: ~"(min-width: @{screen-large-min})";
-@large-down: ~"(max-width: @{screen-large-max})";
-@xlarge: ~"(min-width: @{screen-xlarge})";
+@xs: ~"(max-width: @{screen-xs-max})";
+@s: ~"(min-width: @{screen-s-min}) and (max-width: @{screen-s-max})";
+@s-up: ~"(min-width: @{screen-s-min})";
+@s-down: ~"(max-width: @{screen-s-max})";
+@m: ~"(min-width: @{screen-m-min}) and (max-width: @{screen-m-max})";
+@m-up: ~"(min-width: @{screen-m-min})";
+@m-down: ~"(max-width: @{screen-m-max})";
+@l: ~"(min-width: @{screen-l-min}) and (max-width: @{screen-l-max})";
+@l-up: ~"(min-width: @{screen-l-min})";
+@l-down: ~"(max-width: @{screen-l-max})";
+@xl: ~"(min-width: @{screen-xl})";
 
 // Retina
 @retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
