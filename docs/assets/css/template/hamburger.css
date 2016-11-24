@@ -1,0 +1,27 @@
+button.hamburger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: var(--header-height);
+	height: var(--header-height);
+	border: none;
+	background: transparent;
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus {
+		border: none;
+		background: transparent;
+	}
+
+	& .bar {
+		display: block;
+		margin-bottom: 4px;
+		width: 24px;
+		height: 2px;
+		background: white;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

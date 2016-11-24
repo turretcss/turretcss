@@ -1,0 +1,79 @@
+:root {
+
+
+	/**
+	 * Media Queries
+	 */
+	
+	@custom-media --xs (max-width: 767px);
+	@custom-media --s (min-width: 768px) and (max-width: 1023px);
+	@custom-media --s-up (min-width: 768px);
+	@custom-media --s-down (max-width: 1023px);
+	@custom-media --m (min-width: 1024px) and (max-width: 1279px);
+	@custom-media --m-up (min-width: 1024px);
+	@custom-media --m-down (max-width: 1279px);
+	@custom-media --l (min-width: 1280px) and (max-width: 1679px);
+	@custom-media --l-up (min-width: 1280px);
+	@custom-media --l-down (max-width: 1679px);
+	@custom-media --xl (min-width: 1680px);
+
+
+	/**
+	 * Space
+	 */
+
+	--space-xl: 8.0rem;
+	--space-l: 5.0rem;
+	--space-m: 3.5rem;
+	--space-s: 2.0rem;
+	--space-xs: 1.5rem;
+
+
+	/**
+	 * Margin
+	 */
+
+	--margin-xl: var(--space-xl);
+	--margin-l: var(--space-l);
+	--margin-m: var(--space-m);
+	--margin-s: var(--space-s);
+	--margin-xs: var(--space-xs);
+
+
+	/**
+	 * Padding
+	 */
+
+	--padding-xl: var(--space-xl);
+	--padding-l: var(--space-l);
+	--padding-m: var(--space-m);
+	--padding-s: var(--space-s);
+	--padding-xs: var(--space-xs);
+
+
+	/**
+	 * Max Width
+	 */
+
+	--max-width-xl: 1280px;
+	--max-width-l: 1024px;
+	--max-width-m: 800px;
+	--max-width-s: 640px;
+	--max-width-xs: 480px;
+
+
+	/**
+	 * Gutter
+	 */
+	
+	--gutter: 1.5rem;
+
+
+	/**
+	 * General
+	 */
+
+	--header-height: 50px;
+	--sidebar-width: 270px;
+
+}

@@ -1,0 +1,17 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: var(--sidebar-width);
+	height: 100%;
+
+	@media (min-width: 641px) {
+		left: 0;
+	}
+
+	@media (max-width: 640px) {
+		right: 0;
+		transform: translateX(var(--sidebar-width));
+		transition: transform 200ms ease-in-out;
+	}
+}

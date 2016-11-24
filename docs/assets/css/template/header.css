@@ -1,0 +1,14 @@
+.header {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: var(--header-height);
+}
+
+.header-title {
+	margin: 0;
+	color: white;
+	text-align: center;
+}

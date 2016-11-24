@@ -1,0 +1,11 @@
+.main {
+
+	@media (min-width: 641px) {
+		padding-left: var(--sidebar-width);
+	}
+
+	@media (max-width: 640px) {
+		padding-top: var(--header-height);
+		transition: transform 200ms ease-in-out;
+	}
+}

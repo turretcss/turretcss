@@ -1,1 +1,62 @@
+/**
+ * Variables
+ */
+
+@import './_variables';
+
+
+/**
+ * Syntax
+ */
+
 @import './syntax';
+
+
+/**
+ * Template
+ */
+
+@import './template/main';
+@import './template/header';
+@import './template/hamburger';
+@import './template/sidebar';
+@import './template/navigation';
+@import './template/search';
+
+
+/**
+ * Component
+ */
+
+@import './component/block';
+@import './component/palette';
+@import './component/swatch';
+
+
+/**
+ * General
+ */
+
+h2[id] {
+	padding-bottom: 1rem;
+	font-weight: 300;
+	border-bottom: 1px solid #DDD;
+}
+
+body {
+
+	@media (max-width: 640px) {
+
+		&.open {
+			overflow: hidden;
+
+			.main {
+				transform: translateX(var(--sidebar-width));
+			}
+
+			.sidebar {
+				transform: translateX(0);
+			}
+		}
+	}
+}
