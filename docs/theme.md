@@ -5,7 +5,156 @@ page_title: Theme - Turret - A Responsive Front-end Framework for Accessible and
 description: Kitchen Sink of all HTML elements with Turret styles applied.
 permalink: /docs/theme/
 ---
-		
+
+## Colors
+
+<div class="palette">
+  <div class="swatch color-black background-white">White</div>
+  <div class="swatch color-white background-black">Black</div>
+</div>
+
+### Shades
+
+<div class="palettes">
+  <div class="palette">
+    <div class="swatch color-dark background-light">Light</div>
+    <div class="swatch color-dark background-light-100">Light 100</div>
+    <div class="swatch color-dark background-light-200">Light 200</div>
+    <div class="swatch color-dark background-light-300">Light 300</div>
+    <div class="swatch color-dark background-light-400">Light 400</div>
+    <div class="swatch color-dark background-light-500">Light 500</div>
+    <div class="swatch color-dark background-light-600">Light 600</div>
+    <div class="swatch color-dark background-light-700">Light 700</div>
+    <div class="swatch color-dark background-light-800">Light 800</div>
+    <div class="swatch color-dark background-light-900">Light 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-grey">Grey</div>
+    <div class="swatch color-white background-grey-100">Grey 100</div>
+    <div class="swatch color-white background-grey-200">Grey 200</div>
+    <div class="swatch color-white background-grey-300">Grey 300</div>
+    <div class="swatch color-white background-grey-400">Grey 400</div>
+    <div class="swatch color-white background-grey-500">Grey 500</div>
+    <div class="swatch color-white background-grey-600">Grey 600</div>
+    <div class="swatch color-white background-grey-700">Grey 700</div>
+    <div class="swatch color-white background-grey-800">Grey 800</div>
+    <div class="swatch color-white background-grey-900">Grey 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-dark">Dark</div>
+    <div class="swatch color-white background-dark-100">Dark 100</div>
+    <div class="swatch color-white background-dark-200">Dark 200</div>
+    <div class="swatch color-white background-dark-300">Dark 300</div>
+    <div class="swatch color-white background-dark-400">Dark 400</div>
+    <div class="swatch color-white background-dark-500">Dark 500</div>
+    <div class="swatch color-white background-dark-600">Dark 600</div>
+    <div class="swatch color-white background-dark-700">Dark 700</div>
+    <div class="swatch color-white background-dark-800">Dark 800</div>
+    <div class="swatch color-white background-dark-900">Dark 900</div>
+  </div>
+</div>
+
+### Palettes
+
+<div class="palettes">
+  <div class="palette">
+    <div class="swatch color-white background-primary">Primary</div>
+    <div class="swatch color-white background-primary-100">Primary 100</div>
+    <div class="swatch color-white background-primary-200">Primary 200</div>
+    <div class="swatch color-white background-primary-300">Primary 300</div>
+    <div class="swatch color-white background-primary-400">Primary 400</div>
+    <div class="swatch color-white background-primary-500">Primary 500</div>
+    <div class="swatch color-white background-primary-600">Primary 600</div>
+    <div class="swatch color-white background-primary-700">Primary 700</div>
+    <div class="swatch color-white background-primary-800">Primary 800</div>
+    <div class="swatch color-white background-primary-900">Primary 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-secondary">Secondary</div>
+    <div class="swatch color-white background-secondary-100">Secondary 100</div>
+    <div class="swatch color-white background-secondary-200">Secondary 200</div>
+    <div class="swatch color-white background-secondary-300">Secondary 300</div>
+    <div class="swatch color-white background-secondary-400">Secondary 400</div>
+    <div class="swatch color-white background-secondary-500">Secondary 500</div>
+    <div class="swatch color-white background-secondary-600">Secondary 600</div>
+    <div class="swatch color-white background-secondary-700">Secondary 700</div>
+    <div class="swatch color-white background-secondary-800">Secondary 800</div>
+    <div class="swatch color-white background-secondary-900">Secondary 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-tertiary">Tertiary</div>
+    <div class="swatch color-white background-tertiary-100">Tertiary 100</div>
+    <div class="swatch color-white background-tertiary-200">Tertiary 200</div>
+    <div class="swatch color-white background-tertiary-300">Tertiary 300</div>
+    <div class="swatch color-white background-tertiary-400">Tertiary 400</div>
+    <div class="swatch color-white background-tertiary-500">Tertiary 500</div>
+    <div class="swatch color-white background-tertiary-600">Tertiary 600</div>
+    <div class="swatch color-white background-tertiary-700">Tertiary 700</div>
+    <div class="swatch color-white background-tertiary-800">Tertiary 800</div>
+    <div class="swatch color-white background-tertiary-900">Tertiary 900</div>
+  </div>
+</div>
+
+### Indicators
+
+<div class="palettes">
+  <div class="palette">
+    <div class="swatch color-white background-info">Info</div>
+    <div class="swatch color-white background-info-100">Info 100</div>
+    <div class="swatch color-white background-info-200">Info 200</div>
+    <div class="swatch color-white background-info-300">Info 300</div>
+    <div class="swatch color-white background-info-400">Info 400</div>
+    <div class="swatch color-white background-info-500">Info 500</div>
+    <div class="swatch color-white background-info-600">Info 600</div>
+    <div class="swatch color-white background-info-700">Info 700</div>
+    <div class="swatch color-white background-info-800">Info 800</div>
+    <div class="swatch color-white background-info-900">Info 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-error">Error</div>
+    <div class="swatch color-white background-error-100">Error 100</div>
+    <div class="swatch color-white background-error-200">Error 200</div>
+    <div class="swatch color-white background-error-300">Error 300</div>
+    <div class="swatch color-white background-error-400">Error 400</div>
+    <div class="swatch color-white background-error-500">Error 500</div>
+    <div class="swatch color-white background-error-600">Error 600</div>
+    <div class="swatch color-white background-error-700">Error 700</div>
+    <div class="swatch color-white background-error-800">Error 800</div>
+    <div class="swatch color-white background-error-900">Error 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-warning">Warning</div>
+    <div class="swatch color-white background-warning-100">Warning 100</div>
+    <div class="swatch color-white background-warning-200">Warning 200</div>
+    <div class="swatch color-white background-warning-300">Warning 300</div>
+    <div class="swatch color-white background-warning-400">Warning 400</div>
+    <div class="swatch color-white background-warning-500">Warning 500</div>
+    <div class="swatch color-white background-warning-600">Warning 600</div>
+    <div class="swatch color-white background-warning-700">Warning 700</div>
+    <div class="swatch color-white background-warning-800">Warning 800</div>
+    <div class="swatch color-white background-warning-900">Warning 900</div>
+  </div>
+
+  <div class="palette">
+    <div class="swatch color-white background-success">Success</div>
+    <div class="swatch color-white background-success-100">Success 100</div>
+    <div class="swatch color-white background-success-200">Success 200</div>
+    <div class="swatch color-white background-success-300">Success 300</div>
+    <div class="swatch color-white background-success-400">Success 400</div>
+    <div class="swatch color-white background-success-500">Success 500</div>
+    <div class="swatch color-white background-success-600">Success 600</div>
+    <div class="swatch color-white background-success-700">Success 700</div>
+    <div class="swatch color-white background-success-800">Success 800</div>
+    <div class="swatch color-white background-success-900">Success 900</div>
+  </div>
+</div>
+
 ## Typography
 
 <h1>Heading 1 <small>Heading 1 small</small></h1>
@@ -15,52 +164,52 @@ permalink: /docs/theme/
 <h5>Heading 5 <small>Heading 5 small</small></h5>
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+<p><a href="">link</a></p>
+
 <p><strong>strong</strong></p>
 
 <p><em>emphasis</em></p>
-
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
 <hr>
 
 <blockquote>
-	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
-	<cite>Name</cite>
+  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
+  <cite>Name</cite>
 </blockquote>
 
-<p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-
 <ul>
-	<li>Vehicula Dapibus Tellus Fermentum</li>
-	<li>Vehicula Dapibus Tellus Fermentum</li>
-	<li>Vehicula Dapibus Tellus Fermentum
-		<ul>
-			<li>Vehicula Dapibus Tellus Fermentum</li>
-			<li>Vehicula Dapibus Tellus Fermentum</li>
-		</ul>
-	</li>
+  <li>Vehicula Dapibus Tellus Fermentum</li>
+  <li>Vehicula Dapibus Tellus Fermentum</li>
+  <li>Vehicula Dapibus Tellus Fermentum
+    <ul>
+      <li>Vehicula Dapibus Tellus Fermentum</li>
+      <li>Vehicula Dapibus Tellus Fermentum</li>
+    </ul>
+  </li>
 </ul>
 
 <ol>
-	<li>Vehicula Dapibus Tellus Fermentum</li>
-	<li>Vehicula Dapibus Tellus Fermentum</li>
-	<li>Vehicula Dapibus Tellus Fermentum
-		<ol>
-			<li>Vehicula Dapibus Tellus Fermentum</li>
-			<li>Vehicula Dapibus Tellus Fermentum</li>
-		</ol>
-	</li>
+  <li>Vehicula Dapibus Tellus Fermentum</li>
+  <li>Vehicula Dapibus Tellus Fermentum</li>
+  <li>Vehicula Dapibus Tellus Fermentum
+    <ol>
+      <li>Vehicula Dapibus Tellus Fermentum</li>
+      <li>Vehicula Dapibus Tellus Fermentum</li>
+    </ol>
+  </li>
 </ol>
 
 <dl>
-	<dt>Fringilla Ipsum Tellus</dt>
-	<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-	<dt>Fringilla Ipsum Tellus</dt>
-	<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-	<dt>Fringilla Ipsum Tellus</dt>
-	<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+  <dt>Fringilla Ipsum Tellus</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+  <dt>Fringilla Ipsum Tellus</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+  <dt>Fringilla Ipsum Tellus</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
 </dl>
 
 <code>&lt;p&gt;code&lt;/p&gt;</code>
@@ -69,277 +218,313 @@ permalink: /docs/theme/
 
 <p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
 
-## Form
+<p><mark>mark</mark></p>
 
-<form role="form">
-	<fieldset>
-		<legend>Login</legend>
-		<label for="fieldset-email">Email</label>
-		<input type="email" id="fieldset-email" placeholder="Enter Email">
-		<label for="fieldset-password">Password</label>
-		<input type="password" id="fieldset-password" placeholder="Enter Password">
-		<button type="submit" class="button">Submit</button>
-	</fieldset>
-</form>
+## Form
 
 ### Form Message
 
 <p class="form-message">Form message</p>
-<p class="form-message success">Form message success</p>
+<p class="form-message info">Form message info</p>
 <p class="form-message error">Form message error</p>
-<p class="form-message info">Form message warning</p>
-<p class="form-message warning">Form message info</p>
+<p class="form-message warning">Form message warning</p>
+<p class="form-message success">Form message success</p>
+
+### Field
+
+<div class="field">
+  <label for="input-text">Text Input</label>
+  <input type="text" id="input-text" placeholder="Text">
+</div>
+
+### Fieldset
+
+<form role="form">
+  <fieldset>
+    <legend>Login</legend>
+    <label for="fieldset-email">Email</label>
+    <input type="email" id="fieldset-email" placeholder="Enter Email">
+    <label for="fieldset-password">Password</label>
+    <input type="password" id="fieldset-password" placeholder="Enter Password">
+    <button type="submit" class="button">Submit</button>
+  </fieldset>
+</form>
 
 
 ### Input
 
-<div>
-	<label for="input-text">Text Input</label>
-	<input type="text" id="input-text" placeholder="Text">
+<div class="field">
+  <label for="input-text">Text Input</label>
+  <input type="text" id="input-text" placeholder="Text">
 </div>
-<div>
-	<label for="input-inverse">Inverse Input</label>
-	<input class="input-inverse" type="text" id="input-inverse" placeholder="Inverse">
+<div class="field">
+  <label for="input-disabled">Disabled</label>
+  <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
 </div>
-<div>
-	<label for="input-disabled">Disabled</label>
-	<input type="text" id="input-disabled" placeholder="Disabled" disabled="">
+<div class="field">
+  <label for="input-email">Email Input</label>
+  <input type="email" id="input-email" placeholder="Email">
 </div>
-<div>
-	<label for="input-email">Email Input</label>
-	<input type="email" id="input-email" placeholder="Email">
+<div class="field">
+  <label for="input-search">Search Input</label>
+  <input type="search" id="input-search" placeholder="Search">
 </div>
-<div>
-	<label for="input-search">Search Input</label>
-	<input type="search" id="input-search" placeholder="Search">
+<div class="field">
+  <label for="input-tel">Telephone Input</label>
+  <input type="tel" id="input-tel" placeholder="Telephone">
 </div>
-<div>
-	<label for="input-tel">Telephone Input</label>
-	<input type="tel" id="input-tel" placeholder="Telephone">
+<div class="field">
+  <label for="input-url">URL Input</label>
+  <input type="url" id="input-url" placeholder="http://">
 </div>
-<div>
-	<label for="input-url">URL Input</label>
-	<input type="url" id="input-url" placeholder="http://">
+<div class="field">
+  <label for="input-password">Password Input</label>
+  <input type="password" id="input-password" value="password">
 </div>
-<div>
-	<label for="input-password">Password Input</label>
-	<input type="password" id="input-password" value="password">
+<div class="field">
+  <label for="input-file">File Input</label>
+  <input type="file" id="input-file">
 </div>
-<div>
-	<label for="input-file">File Input</label>
-	<input type="file" id="input-file">
+<div class="field">
+  <label for="input-textarea">Textarea</label>
+  <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
 </div>
-<div>
-	<label for="input-textarea">Textarea</label>
-	<textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
+<div class="field">
+  <label for="input-number">Number Input</label>
+  <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
 </div>
-<div>
-	<label for="input-number">Number Input</label>
-	<input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
+<div class="field">
+  <label for="input-date">Date Input</label>
+  <input type="date" id="input-date">
 </div>
-<div>
-	<label for="input-date">Date Input</label>
-	<input type="date" id="input-date">
+<div class="field">
+  <label for="input-month">Month Input</label>
+  <input type="month" id="input-month">
 </div>
-<div>
-	<label for="input-month">Month Input</label>
-	<input type="month" id="input-month">
+<div class="field">
+  <label for="input-week">Week Input</label>
+  <input type="week" id="input-week">
 </div>
-<div>
-	<label for="input-week">Week Input</label>
-	<input type="week" id="input-week">
+<div class="field">
+  <label for="input-datetime">Datetime Input</label>
+  <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
 </div>
-<div>
-	<label for="input-datetime">Datetime Input</label>
-	<input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
+<div class="field">
+  <label for="input-datetime-local">Datetime-local Input</label>
+  <input type="datetime-local" id="input-datetime-local">
 </div>
-<div>
-	<label for="input-datetime-local">Datetime-local Input</label>
-	<input type="datetime-local" id="input-datetime-local">
+<div class="field">
+  <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
+  <label for="input-checkbox">Checkbox Input</label>
 </div>
-<div>
-	<input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
-	<label for="input-checkbox">Checkbox Input</label>
-</div>
-<div>
-	<input id="input-radio" type="radio" name="radio" value="Radio Input">
-	<label for="input-radio">Radio Input</label>
+<div class="field">
+  <input id="input-radio" type="radio" name="radio" value="Radio Input">
+  <label for="input-radio">Radio Input</label>
 </div>
 
 ### Input Indicators
 
-<div>
-	<label for="error">Input Error</label>
-	<input class="error" type="text" id="error" value="Input Error">
+<div class="field">
+  <label for="error">Input Error</label>
+  <input class="error" type="text" id="error" value="Input Error">
 </div>
-<div>
-	<label for="warning">Input Warning</label>
-	<input class="warning" type="text" id="warning" value="Input Warning">
+<div class="field">
+  <label for="warning">Input Warning</label>
+  <input class="warning" type="text" id="warning" value="Input Warning">
 </div>
-<div>
-	<label for="success">Input Success</label>
-	<input class="success" type="text" id="success" value="Input Success">
+<div class="field">
+  <label for="success">Input Success</label>
+  <input class="success" type="text" id="success" value="Input Success">
 </div>
-<div>
-	<label for="info">Input Info</label>
-	<input class="info" type="text" id="info" value="Input Info">
+<div class="field">
+  <label for="info">Input Info</label>
+  <input class="info" type="text" id="info" value="Input Info">
 </div>
 
 ### Input Sizes
 
-<div>
-	<input class="input-xlarge" type="text" placeholder="Input Extra Large">
+<div class="field">
+  <input class="input-xl" type="text" placeholder="Input Extra Large">
 </div>
-<div>
-	<input class="input-large" type="text" placeholder="Input Large">
+<div class="field">
+  <input class="input-l" type="text" placeholder="Input Large">
 </div>
-<div>
-	<input class="input-medium" type="text" placeholder="Input Medium">
+<div class="field">
+  <input type="text" placeholder="Input Medium">
 </div>
-<div>
-	<input class="input-small" type="text" placeholder="Input Small">
+<div class="field">
+  <input class="input-s" type="text" placeholder="Input Small">
 </div>
-<div>
-	<input class="input-xsmall" type="text" placeholder="Input Extra Small">
-</div>
-
-### Input Group
-
-<div class="input-group">
-	<input type="text" placeholder="Enter Keyword...">
-	<span class="input-group-button">
-		<button class="button" type="submit">Submit</button>
-	</span>
-</div>
-
-### Input Group Search
-
-<div class="input-group input-group-search">
-	<input type="search" placeholder="Search">
-	<span class="input-group-button">
-		<button class="button" type="submit">Search</button>
-	</span>
-</div>
-
-### Input Group Sizes
-
-<div class="input-group">
-	<input class="input-xlarge" type="text" placeholder="Input Group Extra Large">
-	<span class="input-group-button">
-		<button class="button button-xlarge" type="submit">Submit</button>
-	</span>
-</div>
-<div class="input-group">
-	<input class="input-large" type="text" placeholder="Input Group Large">
-	<span class="input-group-button">
-		<button class="button button-large" type="submit">Submit</button>
-	</span>
-</div>
-<div class="input-group">
-	<input class="input-medium" type="text" placeholder="Input Group Medium">
-	<span class="input-group-button">
-		<button class="button button-medium" type="submit">Submit</button>
-	</span>
-</div>
-<div class="input-group">
-	<input class="input-small" type="text" placeholder="Input Group Small">
-	<span class="input-group-button">
-		<button class="button button-small" type="submit">Submit</button>
-	</span>
-</div>
-<div class="input-group">
-	<input class="input-xsmall" type="text" placeholder="Input Group Extra Small">
-	<span class="input-group-button">
-		<button class="button button-xsmall" type="submit">Submit</button>
-	</span>
-</div>
-
-### Control
-
-<div>
-	<label class="control checkbox">
-		<input type="checkbox" name="checkbox">
-		<span class="control-indicator"></span>
-		<span class="control-label">Checkbox</span>
-	</label>
-</div>
-
-<div>
-	<label class="control radio">
-		<input type="radio" name="radio">
-		<span class="control-indicator"></span>
-		<span class="control-label">Radio</span>
-	</label>
+<div class="field">
+  <input class="input-xs" type="text" placeholder="Input Extra Small">
 </div>
 
 ### Select
 
-<div>
-	<label class="select" for="select">
-		<select id="select">
-			<option>Select Field</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select" for="select">
+    <select id="select">
+      <option>Select</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
 
-<div>
-	<label class="select select-inverse" for="select-inverse">
-		<select id="select-inverse">
-			<option>Select Field</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+### Select Indicators
+
+<div class="field">
+  <label class="select error" for="select-error">
+    <select id="select-error">
+      <option>Select</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
+</div>
+<div class="field">
+  <label class="select warning" for="select-warning">
+    <select id="select-warning">
+      <option>Select</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
+</div>
+<div class="field">
+  <label class="select success" for="select-success">
+    <select id="select-success">
+      <option>Select</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
+</div>
+<div class="field">
+  <label class="select info" for="select-info">
+    <select id="select-info">
+      <option>Select</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
 
 ### Select Sizes
 
-<div>
-	<label class="select select-xlarge" for="select-xlarge">
-		<select id="select-xlarge">
-			<option>Select Extra Large</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select select-xl" for="select-xl">
+    <select id="select-xl">
+      <option>Select Extra Large</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
-<div>
-	<label class="select select-large" for="select-large">
-		<select id="select-large">
-			<option>Select Large</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select select-l" for="select-l">
+    <select id="select-l">
+      <option>Select Large</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
-<div>
-	<label class="select select-medium" for="select-medium">
-		<select id="select-medium">
-			<option>Select Medium</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select" for="select-m">
+    <select id="select-m">
+      <option>Select Medium</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
-<div>
-	<label class="select select-small" for="select-small">
-		<select id="select-small">
-			<option>Select Small</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select select-s" for="select-s">
+    <select id="select-s">
+      <option>Select Small</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
 </div>
-<div>
-	<label class="select select-xsmall" for="select-xsmall">
-		<select id="select-xsmall">
-			<option>Select Extra Small</option>
-			<option value="1">Option 01</option>
-			<option value="2">Option 02</option>
-		</select>
-	</label>
+<div class="field">
+  <label class="select select-xs" for="select-xs">
+    <select id="select-xs">
+      <option>Select Extra Small</option>
+      <option value="1">Option 01</option>
+      <option value="2">Option 02</option>
+    </select>
+  </label>
+</div>
+
+### Control
+
+<div class="field">
+  <label class="control checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox</span>
+  </label>
+</div>
+
+<div class="field">
+  <label class="control radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio</span>
+  </label>
+</div>
+
+### Input Group
+
+<div class="field">
+  <div class="input-group">
+    <input type="text" placeholder="Enter Keyword...">
+    <button class="button" type="submit">Submit</button>
+  </div>
+</div>
+
+### Input Group Search
+
+<div class="field">
+  <div class="input-group input-group-search">
+    <input type="search" placeholder="Search">
+    <button class="button" type="submit">Search</button>
+  </div>
+</div>
+
+### Input Group Sizes
+
+<div class="field">
+  <div class="input-group">
+    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
+    <button class="button button-xl" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-l" type="text" placeholder="Input Group Large">
+    <button class="button button-l" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input type="text" placeholder="Input Group Medium">
+    <button class="button" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-s" type="text" placeholder="Input Group Small">
+    <button class="button button-s" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
+    <button class="button button-xs" type="submit">Submit</button>
+  </div>
 </div>
 
 ## Elements
@@ -347,144 +532,223 @@ permalink: /docs/theme/
 ### Button
 
 <div>
-	<button class="button">Button</button>
+  <button class="button">Button</button>
 </div>
 
-### Button Styles
+### Button Disabled
 
 <div>
-	<button class="button">Button</button>
-	<button class="button button-inverse">Inverse</button>
-	<button class="button button-primary">Primary</button>
-	<button class="button button-secondary">Secondary</button>
-	<button class="button button-tertiary">Tertiary</button>
-	<button class="button button-border">Border</button>
-	<button class="button button-text">Text</button>
-</div>
-
-### Button Indicators
-
-<div>
-	<button class="button error">Error</button>
-	<button class="button warning">Warning</button>
-	<button class="button success">Success</button>
-	<button class="button info">Info</button>
+  <button class="button" disabled>Button</button>
 </div>
 
 ### Button Sizes
 
 <div>
-	<button class="button button-xlarge">Extra Large</button>
-	<button class="button button-large">Large</button>
-	<button class="button button-medium">Medium</button>
-	<button class="button button-small">Small</button>
-	<button class="button button-xsmall">Extra Small</button>
+  <button class="button button-xl">Extra Large</button>
+  <button class="button button-l">Large</button>
+  <button class="button">Medium</button>
+  <button class="button button-s">Small</button>
+  <button class="button button-xs">Extra Small</button>
 </div>
 
 ### Button Anchors
 
 <div>
-	<a class="button button-xlarge">Extra Large</a>
-	<a class="button button-large">Large</a>
-	<a class="button button-medium">Medium</a>
-	<a class="button button-small">Small</a>
-	<a class="button button-xsmall">Extra Small</a>
+  <a class="button button-xl">Extra Large</a>
+  <a class="button button-l">Large</a>
+  <a class="button">Medium</a>
+  <a class="button button-s">Small</a>
+  <a class="button button-xs">Extra Small</a>
 </div>
+
+### Button Shades
+
+<div>
+  <button class="button button-white">White</button>
+  <button class="button button-light">Light</button>
+  <button class="button button-grey">Grey</button>
+  <button class="button button-dark">Dark</button>
+  <button class="button button-black">Black</button>
+</div>
+
+### Button Shades Border
+
+<div>
+  <button class="button button-white button-border">White</button>
+  <button class="button button-light button-border">Light</button>
+  <button class="button button-grey button-border">Grey</button>
+  <button class="button button-dark button-border">Dark</button>
+  <button class="button button-black button-border">Black</button>
+</div>
+
+### Button Shades Disabled
+
+<div>
+  <button class="button button-white" disabled>White</button>
+  <button class="button button-white button-border" disabled>White</button>
+  <button class="button button-light" disabled>Light</button>
+  <button class="button button-light button-border" disabled>Light</button>
+  <button class="button button-grey" disabled>Grey</button>
+  <button class="button button-grey button-border" disabled>Grey</button>
+  <button class="button button-dark" disabled>Dark</button>
+  <button class="button button-dark button-border" disabled>Dark</button>
+  <button class="button button-black" disabled>Black</button>
+  <button class="button button-black button-border" disabled>Black</button>
+</div>
+
+### Button Palettes
+
+<div>
+  <button class="button button-primary">Primary</button>
+  <button class="button button-secondary">Secondary</button>
+  <button class="button button-tertiary">Tertiary</button>
+</div>
+
+### Button Palettes Border
+
+<div>
+  <button class="button button-primary button-border">Primary</button>
+  <button class="button button-secondary button-border">Secondary</button>
+  <button class="button button-tertiary button-border">Tertiary</button>
+</div>
+
+### Button Palettes Disabled
+
+<div>
+  <button class="button button-primary" disabled>Primary</button>
+  <button class="button button-primary button-border" disabled>Primary</button>
+  <button class="button button-secondary" disabled>Secondary</button>
+  <button class="button button-secondary button-border" disabled>Secondary</button>
+  <button class="button button-tertiary" disabled>Tertiary</button>
+  <button class="button button-tertiary button-border" disabled>Tertiary</button>
+</div>
+
+### Button Indicators
+
+<div>
+  <button class="button error">Error</button>
+  <button class="button warning">Warning</button>
+  <button class="button success">Success</button>
+  <button class="button info">Info</button>
+</div>
+
+### Button Indicators Border
+
+<div>
+  <button class="button error button-border">Error</button>
+  <button class="button warning button-border">Warning</button>
+  <button class="button success button-border">Success</button>
+  <button class="button info button-border">Info</button>
+</div>
+
+### Button Indicators Disabled
+
+<div>
+  <button class="button error" disabled>Error</button>
+  <button class="button error button-border" disabled>Error</button>
+  <button class="button warning" disabled>Warning</button>
+  <button class="button warning button-border" disabled>Warning</button>
+  <button class="button success" disabled>Success</button>
+  <button class="button success button-border" disabled>Success</button>
+  <button class="button info" disabled>Info</button>
+  <button class="button info button-border" disabled>Info</button>
+</div>
+
 
 ### Figure
 
 <div>
-	<figure>
-		<div class="media media-16-9"></div>
-		<figcaption>Figure Caption</figcaption>
-	</figure>
+  <figure>
+    <div class="media media-16-9 spinner"></div>
+    <figcaption>Figure Caption</figcaption>
+  </figure>
 </div>
 
 ### Nav
 
 <div>
-	<nav>
-		<ul>
-			<li><a href="#">Item 1</a></li>
-			<li><a href="#">Item 2</a></li>
-			<li><a href="#">Item 3</a></li>
-			<li><a href="#">Item 4</a></li>
-		</ul>
-	</nav>
+  <nav>
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      <li><a href="#">Item 4</a></li>
+    </ul>
+  </nav>
 </div>
 
 ### Nav Inline
 
 <div>
-	<nav class="nav-inline">
-		<ul>
-			<li><a href="#">Item 1</a></li>
-			<li><a href="#">Item 2</a></li>
-			<li><a href="#">Item 3</a></li>
-			<li><a href="#">Item 4</a></li>
-		</ul>
-	</nav>
+  <nav class="nav-inline">
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      <li><a href="#">Item 4</a></li>
+    </ul>
+  </nav>
 </div>
 
 ### Table
 
 <div>
-	<table>
-		<caption>Table Caption</caption>
-		<thead>
-			<tr>
-				<th scope="col">Vestibulum Sem Ipsum</th>
-				<th scope="col">Dolor Fringilla</th>
-				<th scope="col">Amet Mattis</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-		</tbody>
-	</table>
+  <table>
+    <caption>Table Caption</caption>
+    <thead>
+      <tr>
+        <th scope="col">Vestibulum Sem Ipsum</th>
+        <th scope="col">Dolor Fringilla</th>
+        <th scope="col">Amet Mattis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ### Table Responsive
 
 <div class="table-responsive">
-	<table>
-		<thead>
-			<tr>
-				<th scope="col">Vestibulum Sem Ipsum</th>
-				<th scope="col">Dolor Fringilla</th>
-				<th scope="col">Amet Mattis</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-			<tr>
-				<td>Egestas Ipsum Nibh</td>
-				<td>Magna Nullam</td>
-				<td>Consectetur Euismod</td>
-			</tr>
-		</tbody>
-	</table>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Vestibulum Sem Ipsum</th>
+        <th scope="col">Dolor Fringilla</th>
+        <th scope="col">Amet Mattis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
