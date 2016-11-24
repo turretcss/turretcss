@@ -23,7 +23,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader'),
         includes: [
           path.join(__dirname, 'turret'),
-          path.join(__dirname, 'docs/src')
+          path.join(__dirname, 'docs/assets/css')
         ]
       }
     ],
