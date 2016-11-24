@@ -1045,24 +1045,36 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Font Family
 
-<p class="sans-serif-font">Sans Serif Font</p>
-<p class="serif-font">Serif Font</p>
-<p class="monospace-font">Monospace Font</p>
-<p class="thin-font">Thin Font</p>
-<p class="regular-font">Regular Font</p>
-<p class="medium-font">Medium Font</p>
-<p class="semibold-font">Semibold Font</p>
-<p class="bold-font">Bold Font</p>
+<p class="font-family-system">Font Family System</p>
+<p class="font-family-sans-serif">Font Family Sans Serif</p>
+<p class="font-family-serif">Font Family Serif</p>
+<p class="font-family-monospace">Font Family Monospace</p>
 
-```html
-<p class="sans-serif-font">Sans Serif Font</p>
-<p class="serif-font">Serif Font</p>
-<p class="monospace-font">Monospace Font</p>
-<p class="thin-font">Thin Font</p>
-<p class="regular-font">Regular Font</p>
-<p class="medium-font">Medium Font</p>
-<p class="semibold-font">Semibold Font</p>
-<p class="bold-font">Bold Font</p>
+```scss
+--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+--font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-family-serif: Georgia, "Times New Roman", Times, serif;
+--font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+```
+
+## Font Weight
+
+<p class="font-weight-thin">Font Weight Thin</p>
+<p class="font-weight-light">Font Weight Light</p>
+<p class="font-weight-regular">Font Weight Regular</p>
+<p class="font-weight-medium">Font Weight Medium</p>
+<p class="font-weight-semibold">Font Weight Semibold</p>
+<p class="font-weight-bold">Font Weight Bold</p>
+<p class="font-weight-black">Font Weight Black</p>
+
+```scss
+--font-weight-thin: 200;
+--font-weight-light: 300;
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+--font-weight-black: 800;
 ```
 
 ## Font Size
@@ -1073,21 +1085,39 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="font-size-s">Font Size Small</p>
 <p class="font-size-xs">Font Size Extra Small</p>
 
-```html
-<p class="font-size-xl">Font Size Extra Large</p>
-<p class="font-size-l">Font Size Large</p>
-<p class="font-size-m">Font Size Medium</p>
-<p class="font-size-s">Font Size Small</p>
-<p class="font-size-xs">Font Size Extra Small</p>
+```scss
+--font-size-xl: 2.0rem;
+--font-size-l: 1.8rem;
+--font-size-m: 1.6rem;
+--font-size-s: 1.4rem;
+--font-size-xs: 1.2rem;
+```
+
+## Line Height
+
+<p class="line-height-xl">Line Height Extra Large</p>
+<p class="line-height-l">Line Height Large</p>
+<p class="line-height-m">Line Height Medium</p>
+<p class="line-height-s">Line Height Small</p>
+<p class="line-height-xs">Line Height Extra Small</p>
+
+```scss
+--line-height-xl: 1.8;
+--line-height-l: 1.65;
+--line-height-m: 1.5;
+--line-height-s: 1.35;
+--line-height-xs: 1.2;
 ```
 
 ## Text
+
+### Text Align
 
 <p class="text-left">Text Left</p>
 <p class="text-center">Text Center</p>
 <p class="text-right">Text Right</p>
 <p class="text-justify">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-<p class="truncate">Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="truncate">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 
 ```html
 <p class="text-left">...</p>
@@ -1109,38 +1139,232 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="capitalize">capitalize</p>
 ```
 
-## Text Color
+## Color
 
-<p class="text-color text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-light-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-dark-grey">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-black">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-error">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-warning">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-success">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-light">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-primary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-secondary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-tertiary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p class="text-color text-dark">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p class="color-white background-black">White</p>
+<p class="color-black">Black</p>
 
 ```html
-<p class="text-white">...</p>
-<p class="text-light-grey">...</p>
-<p class="text-grey">...</p>
-<p class="text-dark-grey">...</p>
-<p class="text-black">...</p>
-<p class="text-error">...</p>
-<p class="text-warning">...</p>
-<p class="text-success">...</p>
-<p class="text-info">...</p>
-<p class="text-light">...</p>
-<p class="text-primary">...</p>
-<p class="text-secondary">...</p>
-<p class="text-tertiary">...</p>
-<p class="text-dark">...</p>
+<p class="color-white">...</p>
+<p class="color-black">...</p>
+```
+
+### Shades
+
+<p class="color-light">Light</p>
+<p class="color-light-100">Light 100</p>
+<p class="color-light-200">Light 200</p>
+<p class="color-light-300">Light 300</p>
+<p class="color-light-400">Light 400</p>
+<p class="color-light-500">Light 500</p>
+<p class="color-light-600">Light 600</p>
+<p class="color-light-700">Light 700</p>
+<p class="color-light-800">Light 800</p>
+<p class="color-light-900">Light 900</p>
+<p class="color-grey">Grey</p>
+<p class="color-grey-100">Grey 100</p>
+<p class="color-grey-200">Grey 200</p>
+<p class="color-grey-300">Grey 300</p>
+<p class="color-grey-400">Grey 400</p>
+<p class="color-grey-500">Grey 500</p>
+<p class="color-grey-600">Grey 600</p>
+<p class="color-grey-700">Grey 700</p>
+<p class="color-grey-800">Grey 800</p>
+<p class="color-grey-900">Grey 900</p>
+<p class="color-dark">Dark</p>
+<p class="color-dark-100">Dark 100</p>
+<p class="color-dark-200">Dark 200</p>
+<p class="color-dark-300">Dark 300</p>
+<p class="color-dark-400">Dark 400</p>
+<p class="color-dark-500">Dark 500</p>
+<p class="color-dark-600">Dark 600</p>
+<p class="color-dark-700">Dark 700</p>
+<p class="color-dark-800">Dark 800</p>
+<p class="color-dark-900">Dark 900</p>
+
+```html
+<p class="color-light">...</p>
+<p class="color-light-100">...</p>
+<p class="color-light-200">...</p>
+<p class="color-light-300">...</p>
+<p class="color-light-400">...</p>
+<p class="color-light-500">...</p>
+<p class="color-light-600">...</p>
+<p class="color-light-700">...</p>
+<p class="color-light-800">...</p>
+<p class="color-light-900">...</p>
+<p class="color-grey">...</p>
+<p class="color-grey-100">...</p>
+<p class="color-grey-200">...</p>
+<p class="color-grey-300">...</p>
+<p class="color-grey-400">...</p>
+<p class="color-grey-500">...</p>
+<p class="color-grey-600">...</p>
+<p class="color-grey-700">...</p>
+<p class="color-grey-800">...</p>
+<p class="color-grey-900">...</p>
+<p class="color-dark">...</p>
+<p class="color-dark-100">...</p>
+<p class="color-dark-200">...</p>
+<p class="color-dark-300">...</p>
+<p class="color-dark-400">...</p>
+<p class="color-dark-500">...</p>
+<p class="color-dark-600">...</p>
+<p class="color-dark-700">...</p>
+<p class="color-dark-800">...</p>
+<p class="color-dark-900">...</p>
+```
+
+### Palettes
+
+<p class="color-primary">Primary</p>
+<p class="color-primary-100">Primary 100</p>
+<p class="color-primary-200">Primary 200</p>
+<p class="color-primary-300">Primary 300</p>
+<p class="color-primary-400">Primary 400</p>
+<p class="color-primary-500">Primary 500</p>
+<p class="color-primary-600">Primary 600</p>
+<p class="color-primary-700">Primary 700</p>
+<p class="color-primary-800">Primary 800</p>
+<p class="color-primary-900">Primary 900</p>
+<p class="color-secondary">Secondary</p>
+<p class="color-secondary-100">Secondary 100</p>
+<p class="color-secondary-200">Secondary 200</p>
+<p class="color-secondary-300">Secondary 300</p>
+<p class="color-secondary-400">Secondary 400</p>
+<p class="color-secondary-500">Secondary 500</p>
+<p class="color-secondary-600">Secondary 600</p>
+<p class="color-secondary-700">Secondary 700</p>
+<p class="color-secondary-800">Secondary 800</p>
+<p class="color-secondary-900">Secondary 900</p>
+<p class="color-tertiary">Tertiary</p>
+<p class="color-tertiary-100">Tertiary 100</p>
+<p class="color-tertiary-200">Tertiary 200</p>
+<p class="color-tertiary-300">Tertiary 300</p>
+<p class="color-tertiary-400">Tertiary 400</p>
+<p class="color-tertiary-500">Tertiary 500</p>
+<p class="color-tertiary-600">Tertiary 600</p>
+<p class="color-tertiary-700">Tertiary 700</p>
+<p class="color-tertiary-800">Tertiary 800</p>
+<p class="color-tertiary-900">Tertiary 900</p>
+
+```html
+<p class="color-primary">...</p>
+<p class="color-primary-100">...</p>
+<p class="color-primary-200">...</p>
+<p class="color-primary-300">...</p>
+<p class="color-primary-400">...</p>
+<p class="color-primary-500">...</p>
+<p class="color-primary-600">...</p>
+<p class="color-primary-700">...</p>
+<p class="color-primary-800">...</p>
+<p class="color-primary-900">...</p>
+<p class="color-secondary">...</p>
+<p class="color-secondary-100">...</p>
+<p class="color-secondary-200">...</p>
+<p class="color-secondary-300">...</p>
+<p class="color-secondary-400">...</p>
+<p class="color-secondary-500">...</p>
+<p class="color-secondary-600">...</p>
+<p class="color-secondary-700">...</p>
+<p class="color-secondary-800">...</p>
+<p class="color-secondary-900">...</p>
+<p class="color-tertiary">...</p>
+<p class="color-tertiary-100">...</p>
+<p class="color-tertiary-200">...</p>
+<p class="color-tertiary-300">...</p>
+<p class="color-tertiary-400">...</p>
+<p class="color-tertiary-500">...</p>
+<p class="color-tertiary-600">...</p>
+<p class="color-tertiary-700">...</p>
+<p class="color-tertiary-800">...</p>
+<p class="color-tertiary-900">...</p>
+```
+
+### Indicators
+
+<p class="color-info">Info</p>
+<p class="color-info-100">Info 100</p>
+<p class="color-info-200">Info 200</p>
+<p class="color-info-300">Info 300</p>
+<p class="color-info-400">Info 400</p>
+<p class="color-info-500">Info 500</p>
+<p class="color-info-600">Info 600</p>
+<p class="color-info-700">Info 700</p>
+<p class="color-info-800">Info 800</p>
+<p class="color-info-900">Info 900</p>
+<p class="color-error">Error</p>
+<p class="color-error-100">Error 100</p>
+<p class="color-error-200">Error 200</p>
+<p class="color-error-300">Error 300</p>
+<p class="color-error-400">Error 400</p>
+<p class="color-error-500">Error 500</p>
+<p class="color-error-600">Error 600</p>
+<p class="color-error-700">Error 700</p>
+<p class="color-error-800">Error 800</p>
+<p class="color-error-900">Error 900</p>
+<p class="color-warning">Warning</p>
+<p class="color-warning-100">Warning 100</p>
+<p class="color-warning-200">Warning 200</p>
+<p class="color-warning-300">Warning 300</p>
+<p class="color-warning-400">Warning 400</p>
+<p class="color-warning-500">Warning 500</p>
+<p class="color-warning-600">Warning 600</p>
+<p class="color-warning-700">Warning 700</p>
+<p class="color-warning-800">Warning 800</p>
+<p class="color-warning-900">Warning 900</p>
+<p class="color-success">Success</p>
+<p class="color-success-100">Success 100</p>
+<p class="color-success-200">Success 200</p>
+<p class="color-success-300">Success 300</p>
+<p class="color-success-400">Success 400</p>
+<p class="color-success-500">Success 500</p>
+<p class="color-success-600">Success 600</p>
+<p class="color-success-700">Success 700</p>
+<p class="color-success-800">Success 800</p>
+<p class="color-success-900">Success 900</p>
+
+```html
+<p class="color-info">...</p>
+<p class="color-info-100">...</p>
+<p class="color-info-200">...</p>
+<p class="color-info-300">...</p>
+<p class="color-info-400">...</p>
+<p class="color-info-500">...</p>
+<p class="color-info-600">...</p>
+<p class="color-info-700">...</p>
+<p class="color-info-800">...</p>
+<p class="color-info-900">...</p>
+<p class="color-error">...</p>
+<p class="color-error-100">...</p>
+<p class="color-error-200">...</p>
+<p class="color-error-300">...</p>
+<p class="color-error-400">...</p>
+<p class="color-error-500">...</p>
+<p class="color-error-600">...</p>
+<p class="color-error-700">...</p>
+<p class="color-error-800">...</p>
+<p class="color-error-900">...</p>
+<p class="color-warning">...</p>
+<p class="color-warning-100">...</p>
+<p class="color-warning-200">...</p>
+<p class="color-warning-300">...</p>
+<p class="color-warning-400">...</p>
+<p class="color-warning-500">...</p>
+<p class="color-warning-600">...</p>
+<p class="color-warning-700">...</p>
+<p class="color-warning-800">...</p>
+<p class="color-warning-900">...</p>
+<p class="color-success">...</p>
+<p class="color-success-100">...</p>
+<p class="color-success-200">...</p>
+<p class="color-success-300">...</p>
+<p class="color-success-400">...</p>
+<p class="color-success-500">...</p>
+<p class="color-success-600">...</p>
+<p class="color-success-700">...</p>
+<p class="color-success-800">...</p>
+<p class="color-success-900">...</p>
 ```
 
 ## Background

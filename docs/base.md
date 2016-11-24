@@ -410,7 +410,7 @@ Some top level definitions for general styles on the `<body>` tag.
 
 Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
 
-### Font Families
+### Font Family
 
 <p class="font-family-system">Font Family System</p>
 <p class="font-family-sans-serif">Font Family Sans Serif</p>
@@ -424,23 +424,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 ```
 
-### Font Sizes
-
-<p class="font-size-xl">Font Size Extra Large</p>
-<p class="font-size-l">Font Size Large</p>
-<p class="font-size-m">Font Size Medium</p>
-<p class="font-size-s">Font Size Small</p>
-<p class="font-size-xs">Font Size Extra Small</p>
-
-```scss
---font-size-xl: 2.0rem;
---font-size-l: 1.8rem;
---font-size-m: 1.6rem;
---font-size-s: 1.4rem;
---font-size-xs: 1.2rem;
-```
-
-### Font Weights
+### Font Weight
 
 <p class="font-weight-thin">Font Weight Thin</p>
 <p class="font-weight-light">Font Weight Light</p>
@@ -460,7 +444,23 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --font-weight-black: 800;
 ```
 
-### Line Heights
+### Font Size
+
+<p class="font-size-xl">Font Size Extra Large</p>
+<p class="font-size-l">Font Size Large</p>
+<p class="font-size-m">Font Size Medium</p>
+<p class="font-size-s">Font Size Small</p>
+<p class="font-size-xs">Font Size Extra Small</p>
+
+```scss
+--font-size-xl: 2.0rem;
+--font-size-l: 1.8rem;
+--font-size-m: 1.6rem;
+--font-size-s: 1.4rem;
+--font-size-xs: 1.2rem;
+```
+
+### Line Height
 
 <p class="line-height-xl">Line Height Extra Large</p>
 <p class="line-height-l">Line Height Large</p>
