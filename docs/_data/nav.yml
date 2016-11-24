@@ -19,14 +19,14 @@
 - title: Typography
   pages:
     - title: Headings
+    - title: Paragraph
     - title: Link
     - title: Strong
     - title: Emphasis
-    - title: Paragraph
     - title: Lead
-    - title: hr
+    - title: Horizontal Rule
     - title: Blockquote
-    - title: Pullout
+    - title: Cite
     - title: List
     - title: Definition List
     - title: Code

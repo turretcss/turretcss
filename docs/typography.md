@@ -16,26 +16,23 @@ permalink: /docs/typography/
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 
 ```scss
-// Headings
-@headings-margin: 0 0 1em 0;
-@headings-font-family: @m-font-family;
-@headings-font-weight: @m-font-weight;
-@headings-color: @dark-grey;
-@headings-line-height: @line-height-s;
+--headings-margin: 2em 0 1em 0;
+--headings-font-family: inherit;
+--headings-font-weight: var(--font-weight-medium);
+--headings-color: inherit;
+--headings-line-height: var(--line-height-s);
 
-// Headings Small
-@headings-small-font-family: @medium-font-family;
-@headings-small-font-weight: @medium-font-weight;
-@headings-small-size: 0.6em;
-@headings-small-color: @grey;
+--headings-small-font-family: inherit;
+--headings-small-font-weight: inherit;
+--headings-small-size: 0.6em;
+--headings-small-color: inherit;
 
-// Heading Font Sizes
-@h1-font-size: 3.2;
-@h2-font-size: 2.4;
-@h3-font-size: 2.0;
-@h4-font-size: 1.8;
-@h5-font-size: 1.6;
-@h6-font-size: 1.4;
+--h1-font-size: 3.2rem;
+--h2-font-size: 2.4rem;
+--h3-font-size: 1.8rem;
+--h4-font-size: 1.6rem;
+--h5-font-size: 1.4rem;
+--h6-font-size: 1.2rem;
 ```
 
 ```html
@@ -47,16 +44,30 @@ permalink: /docs/typography/
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 ```
 
+## Paragraph
+
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+```scss
+--paragraph-margin: 1em 0;
+--paragraph-font-family: inherit;
+--paragraph-font-weight: inherit;
+--paragraph-font-size: var(--font-size-m);
+--paragraph-color: inherit;
+--paragraph-line-height: var(--line-height-m);
+```
+
+```html
+<p>...</p>
+```
+
 ## Link
 
 ```scss
-// Link
-@link-color: @primary;
-@link-text-decoration: none;
-
-// Link Hover
-@link-hover-color: @dark;
-@link-hover-decoration: underline;
+--link-color: var(--primary);
+--link-text-decoration: none;
+--link-hover-color: var(--dark);
+--link-hover-decoration: underline;
 ```
 
 <p><a href="index.html">Link</a></p>
@@ -70,9 +81,9 @@ permalink: /docs/typography/
 <strong>strong</strong>
 
 ```scss
-// Strong
-@strong-font-family: @bold-font-family;
-@strong-font-weight: @bold-font-weight;
+--strong-font-family: inherit;
+--strong-font-weight: var(--font-weight-bold);
+--strong-color: inherit;
 ```
 
 ```html
@@ -84,30 +95,11 @@ permalink: /docs/typography/
 <em>emphasis</em>
 
 ```scss
-// Emphasis
-@em-font-style: italic;
+--emphasis-font-style: italic;
 ```
 
 ```html
 <em>...</em>
-```
-
-## Paragraph
-
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-```scss
-// Paragraph
-@paragraph-margin: 2rem 0;
-@paragraph-font-family: @regular-font-family;
-@paragraph-font-weight: @regular-font-weight;
-@paragraph-font-size: @font-size-m;
-@paragraph-color: @body-color;
-@paragraph-line-height: @line-height-m;
-```
-
-```html
-<p>...</p>
 ```
 
 ## Lead
@@ -115,13 +107,12 @@ permalink: /docs/typography/
 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
 ```scss
-// Lead
-@lead-margin: 0 0 2rem 0;
-@lead-font-family: @thin-font-family;
-@lead-font-weight: @thin-font-weight;
-@lead-font-size: @font-size-l;
-@lead-color: @body-color;
-@lead-line-height: @line-height-m;
+--lead-margin: 0 0 1em 0;
+--lead-font-family: inherit;
+--lead-font-weight: var(--font-weight-light);
+--lead-font-size: var(--font-size-xl);
+--lead-color: inherit;
+--lead-line-height: var(--line-height-m);
 ```
 
 ```html
@@ -133,10 +124,9 @@ permalink: /docs/typography/
 <hr>
 
 ```scss
-// Horizontal Rule
-@hr-margin: 3rem auto;
-@hr-height: 1px;
-@hr-background: @light-grey;
+--horizontal-rule-margin: var(--margin-m) auto;
+--horizontal-rule-height: 1px;
+--horizontal-rule-background: var(--light);
 ```
 
 ```html
@@ -147,31 +137,17 @@ permalink: /docs/typography/
 
 <blockquote>
   <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
-  <cite>Name</cite>
 </blockquote>
 
 ```scss
-// Blockquote
-@blockquote-margin: 3rem 0;
-@blockquote-padding: 0 2rem;
-
-// Blockquote Quote
-@blockquote-quote-margin: 0;
-@blockquote-quote-font-family: @lead-font-family;
-@blockquote-quote-font-weight: @lead-font-weight;
-@blockquote-quote-font-size: @lead-font-size;
-@blockquote-quote-font-style: normal;
-@blockquote-quote-line-height: @line-height-m;
-@blockquote-quote-color: @body-color;
-
-// Blockquote Cite
-@blockquote-cite-margin: 1rem 0;
-@blockquote-cite-font-family: @regular-font-family;
-@blockquote-cite-font-weight: @regular-font-family;
-@blockquote-cite-font-size: @font-size-m;
-@blockquote-cite-font-style: normal;
-@blockquote-cite-color: @blockquote-quote-color;
-@blockquote-cite-text-align: left;
+--blockquote-margin: 2em 0;
+--blockquote-padding: 0 1em;
+--blockquote-font-family: inherit;
+--blockquote-font-weight: var(--lead-font-weight);
+--blockquote-font-size: var(--lead-font-size);
+--blockquote-font-style: normal;
+--blockquote-line-height: var(--lead-line-height);
+--blockquote-color: var(--lead-color);
 ```
 
 ```html
@@ -181,46 +157,42 @@ permalink: /docs/typography/
 </blockquote>
 ```
 
-## Pullout
+## Cite
 
-<p class="pullout">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+<cite>Name</cite>
 
 ```scss
-// Pullout
-@pullout-margin: @blockquote-margin;
-@pullout-padding: @blockquote-padding;
-@pullout-font-family: @blockquote-quote-font-family;
-@pullout-font-weight: @blockquote-quote-font-weight;
-@pullout-font-size: @blockquote-quote-font-size;
-@pullout-color: @blockquote-quote-color;
-@pullout-border: solid @primary;
-@pullout-border-width: 0 0 0 0.4rem;
+--cite-margin: 1em 0;
+--cite-font-family: inherit;
+--cite-font-weight: var(--font-weight-medium);
+--cite-font-size: var(--font-size-s);
+--cite-font-style: normal;
+--cite-color: inherit;
+--cite-text-align: left;
 ```
 
 ```html
-<p class="pullout">...</p>
+<cite>...</cite>
 ```
 
 ## List
 
 ```scss
-// List
-@list-margin: 2rem 0;
-@list-padding: 0;
+--list-margin: 1em 0;
+--list-padding: 0;
+--list-font-family: var(--paragraph-font-family);
+--list-font-weight: var(--paragraph-font-weight);
+--list-font-size: var(--paragraph-font-size);
+--list-color: var(--paragraph-color);
+--list-line-height: var(--paragraph-line-height);
 
-// Lists Item
-@list-item-margin: 1rem 0 1rem 2rem;
-@list-item-padding: 0 0 0 0.5rem;
-@list-item-font-family: @paragraph-font-family;
-@list-item-font-weight: @paragraph-font-weight;
-@list-item-font-size: @paragraph-font-size;
-@list-item-color: @paragraph-color;
-@list-item-line-height: @paragraph-line-height;
+--list-item-margin: 0.5em 0 0.5em 1.5em;
+--list-item-padding: 0 0 0 0.5em;
 
-// Child List
-@child-list-margin: 1rem 0;
-@child-list-padding: 0;
-@child-list-item-margin: @list-item-margin;
+--child-list-margin:  0.5em 0 0.5em 0;
+--child-list-padding: 0;
+--child-list-item-margin: var(--list-item-margin);
+--child-list-item-padding: var(--list-item-padding);
 ```
 
 ### Unordered List
@@ -237,9 +209,8 @@ permalink: /docs/typography/
 </ul>
 
 ```scss
-// Unordered List
-@unordered-list-icon: disc;
-@unordered-child-list-icon: disc;
+--unordered-list-icon: disc;
+--unordered-child-list-icon: disc;
 ```
 
 ```html
@@ -289,23 +260,21 @@ permalink: /docs/typography/
 </dl>
 
 ```scss
-// Definition List
-@definition-list-margin: @list-margin;
-@definition-list-padding: 0;
+--definition-list-margin: var(--paragraph-margin);
+--definition-list-padding: 0;
+--definition-list-font-size: var(--paragraph-font-size);
 
-// Definition Term
-@definition-term-margin: 1rem 0;
-@definition-term-font-family: @semibold-font-family;
-@definition-term-font-weight: @semibold-font-weight;
-@definition-term-font-size: @font-size-m;
-@definition-term-color: @paragraph-color;
+--definition-term-margin: 0.5em 0;
+--definition-term-font-family: var(--strong-font-family);
+--definition-term-font-weight: var(--strong-font-weight);
+--definition-term-font-size: inherit;
+--definition-term-color: var(--paragraph-color);
 
-// Definition Description
-@definition-description-margin: 0 0 2rem 0;
-@definition-description-font-family: @regular-font-family;
-@definition-description-font-weight: @regular-font-weight;
-@definition-description-font-size: @font-size-m;
-@definition-description-color: @paragraph-color;
+--definition-description-margin: 0 0 1em 0;
+--definition-description-font-family: var(--paragraph-font-family);
+--definition-description-font-weight: var(--paragraph-font-weight);
+--definition-description-font-size: inherit;
+--definition-description-color: var(--paragraph-color);
 ```
 
 ```html
@@ -320,11 +289,10 @@ permalink: /docs/typography/
 <code>&lt;p&gt;code&lt;/p&gt;</code>
 
 ```scss
-// Code
-@code-font-family: @monospace-font-family;
-@code-font-weight: normal;
-@code-font-size: 1.2;
-@code-color: @tertiary;
+--code-font-family: var(--font-family-monospace);
+--code-font-weight: normal;
+--code-font-size: var(--font-size-xs);
+--code-color: inherit;
 ```
 
 ```html
@@ -336,18 +304,18 @@ permalink: /docs/typography/
 <pre><code>&lt;p&gt;pre&lt;/p&gt;</code></pre>
 
 ```scss
-// Pre
-@pre-margin: 2rem 0;
-@pre-padding: 1rem;
-@pre-color: @body-color;
-@pre-tab-size: 4;
-@pre-hyphens: none;
-@pre-line-height: @line-height-m;
-@pre-background: @light;
-@pre-border: 1px solid @light-grey;
-
-// Pre Code
-@pre-code-color: @code-color;
+--pre-margin: 1em 0;
+--pre-padding: 0.5em;
+--pre-font-family: var(--code-font-family);
+--pre-font-weight: normal;
+--pre-font-size: var(--font-size-s);
+--pre-color: inherit;
+--pre-tab-size: 4;
+--pre-hyphens: none;
+--pre-line-height: var(--line-height-m);
+--pre-background: var(--light-100);
+--pre-border: 1px solid var(--light);
+--pre-code-color: var(--code-color);
 ```
 
 ```html
@@ -359,15 +327,14 @@ permalink: /docs/typography/
 <p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
 
 ```scss
-// Kbd
-@kbd-margin: 0 0.5rem;
-@kbd-padding: 0.4rem;
-@kbd-font-family: @code-font-family;
-@kbd-font-weight: @code-font-weight;
-@kbd-font-size: @code-font-size;
-@kbd-color: @code-color;
-@kbd-background: @pre-background;
-@kbd-border: @pre-border;
+--kbd-margin: 0 0.2em;
+--kbd-padding: 0.2em 0.4em;
+--kbd-font-family: var(--code-font-family);
+--kbd-font-weight: var(--code-font-weight);
+--kbd-font-size: var(--code-font-size);
+--kbd-color: var(--code-color);
+--kbd-background: var(--pre-background);
+--kbd-border: var(--pre-border);
 ```
 
 ```html
@@ -377,39 +344,15 @@ permalink: /docs/typography/
 ## Mark
 
 <p><mark>mark</mark></p>
-<p><mark class="error">error</mark> <mark class="warning">warning</mark> <mark class="success">success</mark> <mark class="info">info</mark></p>
 
 ```scss
-// Mark
-@mark-margin: 0;
-@mark-padding: 0.3rem 0.6rem;
-@mark-font-family: @paragraph-font-family;
-@mark-font-weight: @paragraph-font-weight;
-@mark-font-size: @paragraph-font-size;
-@mark-color: @paragraph-color;
-@mark-background: yellow;
-@mark-border: none;
-@mark-border-radius: @border-radius;
-
-// Mark Error
-@mark-error-color: @white;
-@mark-error-background: @error;
-@mark-error-border: none;
-
-// Mark Warning
-@mark-warning-color: @white;
-@mark-warning-background: @warning;
-@mark-warning-border: none;
-
-// Mark Success
-@mark-success-color: @white;
-@mark-success-background: @success;
-@mark-success-border: none;
-
-// Mark Info
-@mark-info-color: @white;
-@mark-info-background: @info;
-@mark-info-border: none;
+--mark-margin: 0;
+--mark-padding: 0.2em 0.4em;
+--mark-font-family: inherit;
+--mark-font-weight: inherit;
+--mark-font-size: inherit;
+--mark-color: inherit;
+--mark-background: yellow;
 ```
 
 ```html
