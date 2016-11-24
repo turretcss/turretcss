@@ -28,7 +28,6 @@ permalink: /docs/theme/
     <div class="swatch color-dark background-light-800">Light 800</div>
     <div class="swatch color-dark background-light-900">Light 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-grey">Grey</div>
     <div class="swatch color-white background-grey-100">Grey 100</div>
@@ -41,7 +40,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-grey-800">Grey 800</div>
     <div class="swatch color-white background-grey-900">Grey 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-dark">Dark</div>
     <div class="swatch color-white background-dark-100">Dark 100</div>
@@ -71,7 +69,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-primary-800">Primary 800</div>
     <div class="swatch color-white background-primary-900">Primary 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-secondary">Secondary</div>
     <div class="swatch color-white background-secondary-100">Secondary 100</div>
@@ -84,7 +81,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-secondary-800">Secondary 800</div>
     <div class="swatch color-white background-secondary-900">Secondary 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-tertiary">Tertiary</div>
     <div class="swatch color-white background-tertiary-100">Tertiary 100</div>
@@ -114,7 +110,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-info-800">Info 800</div>
     <div class="swatch color-white background-info-900">Info 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-error">Error</div>
     <div class="swatch color-white background-error-100">Error 100</div>
@@ -127,7 +122,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-error-800">Error 800</div>
     <div class="swatch color-white background-error-900">Error 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-warning">Warning</div>
     <div class="swatch color-white background-warning-100">Warning 100</div>
@@ -140,7 +134,6 @@ permalink: /docs/theme/
     <div class="swatch color-white background-warning-800">Warning 800</div>
     <div class="swatch color-white background-warning-900">Warning 900</div>
   </div>
-
   <div class="palette">
     <div class="swatch color-white background-success">Success</div>
     <div class="swatch color-white background-success-100">Success 100</div>
@@ -157,6 +150,9 @@ permalink: /docs/theme/
 
 ## Typography
 
+
+### Headings
+
 <h1>Heading 1 <small>Heading 1 small</small></h1>
 <h2>Heading 2 <small>Heading 2 small</small></h2>
 <h3>Heading 3 <small>Heading 3 small</small></h3>
@@ -164,22 +160,38 @@ permalink: /docs/theme/
 <h5>Heading 5 <small>Heading 5 small</small></h5>
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 
+### Paragraph
+
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+### Link
 
 <p><a href="">link</a></p>
 
+### Strong
+
 <p><strong>strong</strong></p>
+
+### Emphasis
 
 <p><em>emphasis</em></p>
 
+### Lead
+
 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
+### Horizontal Rule
+
 <hr>
+
+### Blockquote
 
 <blockquote>
   <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
   <cite>Name</cite>
 </blockquote>
+
+### Unordered List
 
 <ul>
   <li>Vehicula Dapibus Tellus Fermentum</li>
@@ -192,6 +204,8 @@ permalink: /docs/theme/
   </li>
 </ul>
 
+### Ordered List
+
 <ol>
   <li>Vehicula Dapibus Tellus Fermentum</li>
   <li>Vehicula Dapibus Tellus Fermentum</li>
@@ -203,6 +217,8 @@ permalink: /docs/theme/
   </li>
 </ol>
 
+### Defintion List
+
 <dl>
   <dt>Fringilla Ipsum Tellus</dt>
   <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
@@ -212,11 +228,19 @@ permalink: /docs/theme/
   <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
 </dl>
 
+### Code
+
 <code>&lt;p&gt;code&lt;/p&gt;</code>
+
+### Pre
 
 <pre><code><code>&lt;p&gt;pre&lt;/p&gt;</code></code></pre>
 
+### Kbd
+
 <p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
+
+### Mark
 
 <p><mark>mark</mark></p>
 
@@ -359,6 +383,67 @@ permalink: /docs/theme/
   <input class="input-xs" type="text" placeholder="Input Extra Small">
 </div>
 
+### Input Group
+
+<div class="field">
+  <div class="input-group">
+    <input type="text" placeholder="Enter Keyword...">
+    <button class="button" type="submit">Submit</button>
+  </div>
+</div>
+
+### Input Group Sizes
+
+<div class="field">
+  <div class="input-group">
+    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
+    <button class="button button-xl" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-l" type="text" placeholder="Input Group Large">
+    <button class="button button-l" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input type="text" placeholder="Input Group Medium">
+    <button class="button" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-s" type="text" placeholder="Input Group Small">
+    <button class="button button-s" type="submit">Submit</button>
+  </div>
+</div>
+<div class="field">
+  <div class="input-group">
+    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
+    <button class="button button-xs" type="submit">Submit</button>
+  </div>
+</div>
+
+### Control
+
+<div class="field">
+  <label class="control checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox</span>
+  </label>
+</div>
+
+<div class="field">
+  <label class="control radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio</span>
+  </label>
+</div>
+
+
 ### Select
 
 <div class="field">
@@ -376,7 +461,7 @@ permalink: /docs/theme/
 <div class="field">
   <label class="select error" for="select-error">
     <select id="select-error">
-      <option>Select</option>
+      <option>Select Error</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
@@ -385,7 +470,7 @@ permalink: /docs/theme/
 <div class="field">
   <label class="select warning" for="select-warning">
     <select id="select-warning">
-      <option>Select</option>
+      <option>Select Warning</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
@@ -394,7 +479,7 @@ permalink: /docs/theme/
 <div class="field">
   <label class="select success" for="select-success">
     <select id="select-success">
-      <option>Select</option>
+      <option>Select Success</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
@@ -403,7 +488,7 @@ permalink: /docs/theme/
 <div class="field">
   <label class="select info" for="select-info">
     <select id="select-info">
-      <option>Select</option>
+      <option>Select Info</option>
       <option value="1">Option 01</option>
       <option value="2">Option 02</option>
     </select>
@@ -456,75 +541,6 @@ permalink: /docs/theme/
       <option value="2">Option 02</option>
     </select>
   </label>
-</div>
-
-### Control
-
-<div class="field">
-  <label class="control checkbox">
-    <input type="checkbox" name="checkbox">
-    <span class="control-indicator"></span>
-    <span class="control-label">Checkbox</span>
-  </label>
-</div>
-
-<div class="field">
-  <label class="control radio">
-    <input type="radio" name="radio">
-    <span class="control-indicator"></span>
-    <span class="control-label">Radio</span>
-  </label>
-</div>
-
-### Input Group
-
-<div class="field">
-  <div class="input-group">
-    <input type="text" placeholder="Enter Keyword...">
-    <button class="button" type="submit">Submit</button>
-  </div>
-</div>
-
-### Input Group Search
-
-<div class="field">
-  <div class="input-group input-group-search">
-    <input type="search" placeholder="Search">
-    <button class="button" type="submit">Search</button>
-  </div>
-</div>
-
-### Input Group Sizes
-
-<div class="field">
-  <div class="input-group">
-    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
-    <button class="button button-xl" type="submit">Submit</button>
-  </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-l" type="text" placeholder="Input Group Large">
-    <button class="button button-l" type="submit">Submit</button>
-  </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input type="text" placeholder="Input Group Medium">
-    <button class="button" type="submit">Submit</button>
-  </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-s" type="text" placeholder="Input Group Small">
-    <button class="button button-s" type="submit">Submit</button>
-  </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
-    <button class="button button-xs" type="submit">Submit</button>
-  </div>
 </div>
 
 ## Elements
