@@ -21,19 +21,15 @@ For text and background color utility classes check out the [color](#colors) sec
     <tbody>
       <tr>  
         <td><code>clearfix</code></td>
-        <td>Clears floats using <code>.clearfix();</code> mixin</td>
-      </tr>
-      <tr>  
-        <td><code>center-block</code></td>
-        <td>Makes element center block using <code>.center-block();</code> mixin</td>
+        <td>Clears floats using <code>.clearfix;</code> mixin</td>
       </tr>
       <tr>  
         <td><code>cover</code></td>
-        <td>Makes element cover it's container using <code>.cover();</code> mixin</td>
+        <td>Makes element cover it's container using <code>.cover;</code> mixin</td>
       </tr>
       <tr>  
         <td><code>center</code></td>
-        <td>Makes element center using <code>.center();</code> mixin</td>
+        <td>Makes element center using <code>.center;</code> mixin</td>
       </tr>
       <tr>  
         <td><code>full-height</code></td>
@@ -44,16 +40,16 @@ For text and background color utility classes check out the [color](#colors) sec
         <td>Sets <code>position: fixed;</code></td>
       </tr>
       <tr>  
+        <td><code>relative</code></td>
+        <td>Sets <code>position: relative;</code></td>
+      </tr>
+      <tr>  
+        <td><code>absolute</code></td>
+        <td>Sets <code>position: absolute;</code></td>
+      </tr>
+      <tr>  
         <td><code>pointer</code></td>
         <td>Sets <code>cursor: pointer;</code></td>
-      </tr>
-      <tr>  
-        <td><code>no-margin</code></td>
-        <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
-      </tr>
-      <tr>  
-        <td><code>no-padding</code></td>
-        <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
       <tr>  
         <td><code>no-border</code></td>
@@ -78,26 +74,18 @@ Define content to be `visible` or `hidden`.
     <tbody>
       <tr>  
         <td><code>hide</code></td>
-        <td>Hides element <code>.hide();</code> mixin</td>
+        <td>Hides element <code>display: none;</code></td>
       </tr>
       <tr>  
         <td><code>show</code></td>
-        <td>Shows element <code>.show();</code> mixin</td>
-      </tr>
-      <tr>  
-        <td><code>hide-text</code></td>
-        <td>Hides text <code>.hide-text();</code> mixin</td>
-      </tr>
-      <tr>  
-        <td><code>hide-visually</code></td>
-        <td>Hide element but keep in DOM for Screen Readers <code>.hide-visually();</code> mixin</td>
+        <td>Shows element <code>display: block;</code></td>
       </tr>
       <tr>  
         <td><code>visible</code></td>
         <td>Sets <code>visibility: visible;</code></td>
       </tr>
       <tr>  
-        <td><code>invisible</code></td>
+        <td><code>hidden</code></td>
         <td>Sets <code>visibility: hidden;</code></td>
       </tr>
       <tr>  
@@ -115,6 +103,14 @@ Define content to be `visible` or `hidden`.
       <tr>  
         <td><code>visible-screen</code></td>
         <td>Shows element for when <code>@media screen</code></td>
+      </tr>
+      <tr>  
+        <td><code>hide-visually</code></td>
+        <td>Hide element but keep in DOM for Screen Readers <code>@apply --hide-visually;</code> mixin</td>
+      </tr>
+      <tr>  
+        <td><code>text-hide</code></td>
+        <td>Hides text <code>@apply --text-hide;</code> mixin</td>
       </tr>
     </tbody>
   </table>
@@ -704,25 +700,99 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
+      <tr>  
+        <td><code>no-margin</code></td>
+        <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
       <tr>
         <td><code>margin-xl</code></td>
-        <td>Applies <code>@margin-xl</code> to element</td>
+        <td>Applies <code>var(--margin-xl)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-l</code></td>
-        <td>Applies <code>@margin-l</code> to element</td>
+        <td>Applies <code>var(--margin-l)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-m</code></td>
-        <td>Applies <code>@margin-m</code> to element</td>
+        <td>Applies <code>var(--margin-m)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-s</code></td>
-        <td>Applies <code>@margin-s</code> to element</td>
+        <td>Applies <code>var(--margin-s)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-xs</code></td>
-        <td>Applies <code>@margin-xs</code> to element</td>
+        <td>Applies <code>var(--margin-xs)</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Margin Vertical
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>margin-vertical-xl</code></td>
+        <td>Applies <code>margin-left: var(--margin-xl);</code> and <code>margin-right: var(--margin-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>margin-vertical-l</code></td>
+        <td>Applies <code>margin-left: var(--margin-l);</code> and <code>margin-right: var(--margin-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>margin-vertical-m</code></td>
+        <td>Applies <code>margin-left: var(--margin-m);</code> and <code>margin-right: var(--margin-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>margin-vertical-s</code></td>
+        <td>Applies <code>margin-left: var(--margin-s);</code> and <code>margin-right: var(--margin-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>margin-vertical-xs</code></td>
+        <td>Applies <code>margin-left: var(--margin-xs);</code> and <code>margin-right: var(--margin-xs);</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Padding Horizontal
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>padding-vertical-xl</code></td>
+        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-l</code></td>
+        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-m</code></td>
+        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-s</code></td>
+        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-xs</code></td>
+        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -741,23 +811,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>margin-top-xl</code></td>
-        <td>Applies <code>margin-top: @margin-xl;</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-l</code></td>
-        <td>Applies <code>margin-top: @margin-l;</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-m</code></td>
-        <td>Applies <code>margin-top: @margin-m;</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-s</code></td>
-        <td>Applies <code>margin-top: @margin-s;</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-xs</code></td>
-        <td>Applies <code>margin-top: @margin-xs;</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -776,23 +846,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>margin-bottom-xl</code></td>
-        <td>Applies <code>margin-bottom: @margin-xl;</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-l</code></td>
-        <td>Applies <code>margin-bottom: @margin-l;</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-m</code></td>
-        <td>Applies <code>margin-bottom: @margin-m;</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-s</code></td>
-        <td>Applies <code>margin-bottom: @margin-s;</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-xs</code></td>
-        <td>Applies <code>margin-bottom: @margin-xs;</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -811,23 +881,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>margin-left-xl</code></td>
-        <td>Applies <code>margin-left: @margin-xl;</code> to element</td>
+        <td>Applies <code>margin-left: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-l</code></td>
-        <td>Applies <code>margin-left: @margin-l;</code> to element</td>
+        <td>Applies <code>margin-left: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-m</code></td>
-        <td>Applies <code>margin-left: @margin-m;</code> to element</td>
+        <td>Applies <code>margin-left: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-s</code></td>
-        <td>Applies <code>margin-left: @margin-s;</code> to element</td>
+        <td>Applies <code>margin-left: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-xs</code></td>
-        <td>Applies <code>margin-left: @margin-xs;</code> to element</td>
+        <td>Applies <code>margin-left: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -846,23 +916,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>margin-right-xl</code></td>
-        <td>Applies <code>margin-right: @margin-xl;</code> to element</td>
+        <td>Applies <code>margin-right: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-l</code></td>
-        <td>Applies <code>margin-right: @margin-l;</code> to element</td>
+        <td>Applies <code>margin-right: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-m</code></td>
-        <td>Applies <code>margin-right: @margin-m;</code> to element</td>
+        <td>Applies <code>margin-right: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-s</code></td>
-        <td>Applies <code>margin-right: @margin-s;</code> to element</td>
+        <td>Applies <code>margin-right: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-xs</code></td>
-        <td>Applies <code>margin-right: @margin-xs;</code> to element</td>
+        <td>Applies <code>margin-right: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -879,25 +949,29 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
+      <tr>  
+        <td><code>no-padding</code></td>
+        <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
       <tr>
         <td><code>padding-xl</code></td>
-        <td>Applies <code>@padding-xl</code> to element</td>
+        <td>Applies <code>var(--padding-xl)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-l</code></td>
-        <td>Applies <code>@padding-l</code> to element</td>
+        <td>Applies <code>var(--padding-l)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-m</code></td>
-        <td>Applies <code>@padding-m</code> to element</td>
+        <td>Applies <code>var(--padding-m)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-s</code></td>
-        <td>Applies <code>@padding-s</code> to element</td>
+        <td>Applies <code>var(--padding-s)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-xs</code></td>
-        <td>Applies <code>@padding-xs</code> to element</td>
+        <td>Applies <code>var(--padding-xs)</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -916,23 +990,93 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>padding-top-xl</code></td>
-        <td>Applies <code>padding-top: @padding-xl;</code> to element</td>
+        <td>Applies <code>padding-top: var(--padding-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-l</code></td>
-        <td>Applies <code>padding-top: @padding-l;</code> to element</td>
+        <td>Applies <code>padding-top: var(--padding-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-m</code></td>
-        <td>Applies <code>padding-top: @padding-m;</code> to element</td>
+        <td>Applies <code>padding-top: var(--padding-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-s</code></td>
-        <td>Applies <code>padding-top: @padding-s;</code> to element</td>
+        <td>Applies <code>padding-top: var(--padding-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-xs</code></td>
-        <td>Applies <code>padding-top: @padding-xs;</code> to element</td>
+        <td>Applies <code>padding-top: var(--padding-xs);</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Padding Vertical
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>padding-vertical-xl</code></td>
+        <td>Applies <code>padding-left: var(--padding-xl);</code> and <code>padding-right: var(--padding-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-l</code></td>
+        <td>Applies <code>padding-left: var(--padding-l);</code> and <code>padding-right: var(--padding-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-m</code></td>
+        <td>Applies <code>padding-left: var(--padding-m);</code> and <code>padding-right: var(--padding-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-s</code></td>
+        <td>Applies <code>padding-left: var(--padding-s);</code> and <code>padding-right: var(--padding-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-xs</code></td>
+        <td>Applies <code>padding-left: var(--padding-xs);</code> and <code>padding-right: var(--padding-xs);</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Padding Horizontal
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>padding-vertical-xl</code></td>
+        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-l</code></td>
+        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-m</code></td>
+        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-s</code></td>
+        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-xs</code></td>
+        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -951,23 +1095,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>padding-bottom-xl</code></td>
-        <td>Applies <code>padding-bottom: @padding-xl;</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--padding-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-l</code></td>
-        <td>Applies <code>padding-bottom: @padding-l;</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--padding-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-m</code></td>
-        <td>Applies <code>padding-bottom: @padding-m;</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--padding-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-s</code></td>
-        <td>Applies <code>padding-bottom: @padding-s;</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--padding-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-xs</code></td>
-        <td>Applies <code>padding-bottom: @padding-xs;</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -986,23 +1130,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>padding-left-xl</code></td>
-        <td>Applies <code>padding-left: @padding-xl;</code> to element</td>
+        <td>Applies <code>padding-left: var(--padding-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-l</code></td>
-        <td>Applies <code>padding-left: @padding-l;</code> to element</td>
+        <td>Applies <code>padding-left: var(--padding-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-m</code></td>
-        <td>Applies <code>padding-left: @padding-m;</code> to element</td>
+        <td>Applies <code>padding-left: var(--padding-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-s</code></td>
-        <td>Applies <code>padding-left: @padding-s;</code> to element</td>
+        <td>Applies <code>padding-left: var(--padding-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-xs</code></td>
-        <td>Applies <code>padding-left: @padding-xs;</code> to element</td>
+        <td>Applies <code>padding-left: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1021,23 +1165,23 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>padding-right-xl</code></td>
-        <td>Applies <code>padding-right: @padding-xl;</code> to element</td>
+        <td>Applies <code>padding-right: var(--padding-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-l</code></td>
-        <td>Applies <code>padding-right: @padding-l;</code> to element</td>
+        <td>Applies <code>padding-right: var(--padding-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-m</code></td>
-        <td>Applies <code>padding-right: @padding-m;</code> to element</td>
+        <td>Applies <code>padding-right: var(--padding-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-s</code></td>
-        <td>Applies <code>padding-right: @padding-s;</code> to element</td>
+        <td>Applies <code>padding-right: var(--padding-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-xs</code></td>
-        <td>Applies <code>padding-right: @padding-xs;</code> to element</td>
+        <td>Applies <code>padding-right: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1050,11 +1194,11 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="font-family-serif">Font Family Serif</p>
 <p class="font-family-monospace">Font Family Monospace</p>
 
-```scss
---font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
---font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
---font-family-serif: Georgia, "Times New Roman", Times, serif;
---font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+```html
+<p class="font-family-system">...</p>
+<p class="font-family-sans-serif">...</p>
+<p class="font-family-serif">...</p>
+<p class="font-family-monospace">...</p>
 ```
 
 ## Font Weight
@@ -1067,14 +1211,14 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="font-weight-bold">Font Weight Bold</p>
 <p class="font-weight-black">Font Weight Black</p>
 
-```scss
---font-weight-thin: 200;
---font-weight-light: 300;
---font-weight-regular: 400;
---font-weight-medium: 500;
---font-weight-semibold: 600;
---font-weight-bold: 700;
---font-weight-black: 800;
+```html
+<p class="font-weight-thin">...</p>
+<p class="font-weight-light">...</p>
+<p class="font-weight-regular">...</p>
+<p class="font-weight-medium">...</p>
+<p class="font-weight-semibold">...</p>
+<p class="font-weight-bold">...</p>
+<p class="font-weight-black">...</p>
 ```
 
 ## Font Size
@@ -1085,12 +1229,12 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="font-size-s">Font Size Small</p>
 <p class="font-size-xs">Font Size Extra Small</p>
 
-```scss
---font-size-xl: 2.0rem;
---font-size-l: 1.8rem;
---font-size-m: 1.6rem;
---font-size-s: 1.4rem;
---font-size-xs: 1.2rem;
+```html
+<p class="font-size-xl">...</p>
+<p class="font-size-l">...</p>
+<p class="font-size-m">...</p>
+<p class="font-size-s">...</p>
+<p class="font-size-xs">...</p>
 ```
 
 ## Line Height
@@ -1101,12 +1245,12 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="line-height-s">Line Height Small</p>
 <p class="line-height-xs">Line Height Extra Small</p>
 
-```scss
---line-height-xl: 1.8;
---line-height-l: 1.65;
---line-height-m: 1.5;
---line-height-s: 1.35;
---line-height-xs: 1.2;
+```html
+<p class="line-height-xl">...</p>
+<p class="line-height-l">...</p>
+<p class="line-height-m">...</p>
+<p class="line-height-s">...</p>
+<p class="line-height-xs">...</p>
 ```
 
 ## Text
@@ -1151,6 +1295,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Shades
 
+#### Light
+
 <p class="color-light">Light</p>
 <p class="color-light-100">Light 100</p>
 <p class="color-light-200">Light 200</p>
@@ -1161,26 +1307,6 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-light-700">Light 700</p>
 <p class="color-light-800">Light 800</p>
 <p class="color-light-900">Light 900</p>
-<p class="color-grey">Grey</p>
-<p class="color-grey-100">Grey 100</p>
-<p class="color-grey-200">Grey 200</p>
-<p class="color-grey-300">Grey 300</p>
-<p class="color-grey-400">Grey 400</p>
-<p class="color-grey-500">Grey 500</p>
-<p class="color-grey-600">Grey 600</p>
-<p class="color-grey-700">Grey 700</p>
-<p class="color-grey-800">Grey 800</p>
-<p class="color-grey-900">Grey 900</p>
-<p class="color-dark">Dark</p>
-<p class="color-dark-100">Dark 100</p>
-<p class="color-dark-200">Dark 200</p>
-<p class="color-dark-300">Dark 300</p>
-<p class="color-dark-400">Dark 400</p>
-<p class="color-dark-500">Dark 500</p>
-<p class="color-dark-600">Dark 600</p>
-<p class="color-dark-700">Dark 700</p>
-<p class="color-dark-800">Dark 800</p>
-<p class="color-dark-900">Dark 900</p>
 
 ```html
 <p class="color-light">...</p>
@@ -1193,6 +1319,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-light-700">...</p>
 <p class="color-light-800">...</p>
 <p class="color-light-900">...</p>
+```
+
+#### Grey
+
+<p class="color-grey">Grey</p>
+<p class="color-grey-100">Grey 100</p>
+<p class="color-grey-200">Grey 200</p>
+<p class="color-grey-300">Grey 300</p>
+<p class="color-grey-400">Grey 400</p>
+<p class="color-grey-500">Grey 500</p>
+<p class="color-grey-600">Grey 600</p>
+<p class="color-grey-700">Grey 700</p>
+<p class="color-grey-800">Grey 800</p>
+<p class="color-grey-900">Grey 900</p>
+
+```html
 <p class="color-grey">...</p>
 <p class="color-grey-100">...</p>
 <p class="color-grey-200">...</p>
@@ -1203,6 +1345,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-grey-700">...</p>
 <p class="color-grey-800">...</p>
 <p class="color-grey-900">...</p>
+```
+
+#### Dark
+
+<p class="color-dark">Dark</p>
+<p class="color-dark-100">Dark 100</p>
+<p class="color-dark-200">Dark 200</p>
+<p class="color-dark-300">Dark 300</p>
+<p class="color-dark-400">Dark 400</p>
+<p class="color-dark-500">Dark 500</p>
+<p class="color-dark-600">Dark 600</p>
+<p class="color-dark-700">Dark 700</p>
+<p class="color-dark-800">Dark 800</p>
+<p class="color-dark-900">Dark 900</p>
+
+```html
 <p class="color-dark">...</p>
 <p class="color-dark-100">...</p>
 <p class="color-dark-200">...</p>
@@ -1217,6 +1375,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Palettes
 
+#### Primary
+
 <p class="color-primary">Primary</p>
 <p class="color-primary-100">Primary 100</p>
 <p class="color-primary-200">Primary 200</p>
@@ -1227,26 +1387,6 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-primary-700">Primary 700</p>
 <p class="color-primary-800">Primary 800</p>
 <p class="color-primary-900">Primary 900</p>
-<p class="color-secondary">Secondary</p>
-<p class="color-secondary-100">Secondary 100</p>
-<p class="color-secondary-200">Secondary 200</p>
-<p class="color-secondary-300">Secondary 300</p>
-<p class="color-secondary-400">Secondary 400</p>
-<p class="color-secondary-500">Secondary 500</p>
-<p class="color-secondary-600">Secondary 600</p>
-<p class="color-secondary-700">Secondary 700</p>
-<p class="color-secondary-800">Secondary 800</p>
-<p class="color-secondary-900">Secondary 900</p>
-<p class="color-tertiary">Tertiary</p>
-<p class="color-tertiary-100">Tertiary 100</p>
-<p class="color-tertiary-200">Tertiary 200</p>
-<p class="color-tertiary-300">Tertiary 300</p>
-<p class="color-tertiary-400">Tertiary 400</p>
-<p class="color-tertiary-500">Tertiary 500</p>
-<p class="color-tertiary-600">Tertiary 600</p>
-<p class="color-tertiary-700">Tertiary 700</p>
-<p class="color-tertiary-800">Tertiary 800</p>
-<p class="color-tertiary-900">Tertiary 900</p>
 
 ```html
 <p class="color-primary">...</p>
@@ -1259,6 +1399,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-primary-700">...</p>
 <p class="color-primary-800">...</p>
 <p class="color-primary-900">...</p>
+```
+
+#### Secondary
+
+<p class="color-secondary">Secondary</p>
+<p class="color-secondary-100">Secondary 100</p>
+<p class="color-secondary-200">Secondary 200</p>
+<p class="color-secondary-300">Secondary 300</p>
+<p class="color-secondary-400">Secondary 400</p>
+<p class="color-secondary-500">Secondary 500</p>
+<p class="color-secondary-600">Secondary 600</p>
+<p class="color-secondary-700">Secondary 700</p>
+<p class="color-secondary-800">Secondary 800</p>
+<p class="color-secondary-900">Secondary 900</p>
+
+```html
 <p class="color-secondary">...</p>
 <p class="color-secondary-100">...</p>
 <p class="color-secondary-200">...</p>
@@ -1269,6 +1425,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-secondary-700">...</p>
 <p class="color-secondary-800">...</p>
 <p class="color-secondary-900">...</p>
+```
+
+#### Tertiary
+
+<p class="color-tertiary">Tertiary</p>
+<p class="color-tertiary-100">Tertiary 100</p>
+<p class="color-tertiary-200">Tertiary 200</p>
+<p class="color-tertiary-300">Tertiary 300</p>
+<p class="color-tertiary-400">Tertiary 400</p>
+<p class="color-tertiary-500">Tertiary 500</p>
+<p class="color-tertiary-600">Tertiary 600</p>
+<p class="color-tertiary-700">Tertiary 700</p>
+<p class="color-tertiary-800">Tertiary 800</p>
+<p class="color-tertiary-900">Tertiary 900</p>
+
+```html
 <p class="color-tertiary">...</p>
 <p class="color-tertiary-100">...</p>
 <p class="color-tertiary-200">...</p>
@@ -1283,6 +1455,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Indicators
 
+#### Info
+
 <p class="color-info">Info</p>
 <p class="color-info-100">Info 100</p>
 <p class="color-info-200">Info 200</p>
@@ -1293,36 +1467,6 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-info-700">Info 700</p>
 <p class="color-info-800">Info 800</p>
 <p class="color-info-900">Info 900</p>
-<p class="color-error">Error</p>
-<p class="color-error-100">Error 100</p>
-<p class="color-error-200">Error 200</p>
-<p class="color-error-300">Error 300</p>
-<p class="color-error-400">Error 400</p>
-<p class="color-error-500">Error 500</p>
-<p class="color-error-600">Error 600</p>
-<p class="color-error-700">Error 700</p>
-<p class="color-error-800">Error 800</p>
-<p class="color-error-900">Error 900</p>
-<p class="color-warning">Warning</p>
-<p class="color-warning-100">Warning 100</p>
-<p class="color-warning-200">Warning 200</p>
-<p class="color-warning-300">Warning 300</p>
-<p class="color-warning-400">Warning 400</p>
-<p class="color-warning-500">Warning 500</p>
-<p class="color-warning-600">Warning 600</p>
-<p class="color-warning-700">Warning 700</p>
-<p class="color-warning-800">Warning 800</p>
-<p class="color-warning-900">Warning 900</p>
-<p class="color-success">Success</p>
-<p class="color-success-100">Success 100</p>
-<p class="color-success-200">Success 200</p>
-<p class="color-success-300">Success 300</p>
-<p class="color-success-400">Success 400</p>
-<p class="color-success-500">Success 500</p>
-<p class="color-success-600">Success 600</p>
-<p class="color-success-700">Success 700</p>
-<p class="color-success-800">Success 800</p>
-<p class="color-success-900">Success 900</p>
 
 ```html
 <p class="color-info">...</p>
@@ -1335,6 +1479,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-info-700">...</p>
 <p class="color-info-800">...</p>
 <p class="color-info-900">...</p>
+```
+
+#### Error
+
+<p class="color-error">Error</p>
+<p class="color-error-100">Error 100</p>
+<p class="color-error-200">Error 200</p>
+<p class="color-error-300">Error 300</p>
+<p class="color-error-400">Error 400</p>
+<p class="color-error-500">Error 500</p>
+<p class="color-error-600">Error 600</p>
+<p class="color-error-700">Error 700</p>
+<p class="color-error-800">Error 800</p>
+<p class="color-error-900">Error 900</p>
+
+```html
 <p class="color-error">...</p>
 <p class="color-error-100">...</p>
 <p class="color-error-200">...</p>
@@ -1345,6 +1505,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-error-700">...</p>
 <p class="color-error-800">...</p>
 <p class="color-error-900">...</p>
+```
+
+#### Warning
+
+<p class="color-warning">Warning</p>
+<p class="color-warning-100">Warning 100</p>
+<p class="color-warning-200">Warning 200</p>
+<p class="color-warning-300">Warning 300</p>
+<p class="color-warning-400">Warning 400</p>
+<p class="color-warning-500">Warning 500</p>
+<p class="color-warning-600">Warning 600</p>
+<p class="color-warning-700">Warning 700</p>
+<p class="color-warning-800">Warning 800</p>
+<p class="color-warning-900">Warning 900</p>
+
+```html
 <p class="color-warning">...</p>
 <p class="color-warning-100">...</p>
 <p class="color-warning-200">...</p>
@@ -1355,6 +1531,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="color-warning-700">...</p>
 <p class="color-warning-800">...</p>
 <p class="color-warning-900">...</p>
+```
+
+#### Success
+
+<p class="color-success">Success</p>
+<p class="color-success-100">Success 100</p>
+<p class="color-success-200">Success 200</p>
+<p class="color-success-300">Success 300</p>
+<p class="color-success-400">Success 400</p>
+<p class="color-success-500">Success 500</p>
+<p class="color-success-600">Success 600</p>
+<p class="color-success-700">Success 700</p>
+<p class="color-success-800">Success 800</p>
+<p class="color-success-900">Success 900</p>
+
+```html
 <p class="color-success">...</p>
 <p class="color-success-100">...</p>
 <p class="color-success-200">...</p>

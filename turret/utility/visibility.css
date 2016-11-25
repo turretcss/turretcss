@@ -2,16 +2,24 @@
 	display: none !important;
 }
 
-.hide-visually {
-	@apply --hide-visually;
-}
-
 .show {
 	display: block !important;
 }
 
+.visible {
+	visibility: visible !important;
+}
+
 .hidden {
+	visibility: hidden !important;
+}
+
+.visible-print {
 	display: none !important;
+
+	@media print {
+		display: block !important;
+	}
 }
 
 .hidden-print {
@@ -21,11 +29,27 @@
 	}
 }
 
+.visible-screen {
+	display: none !important;
+
+	@media screen {
+		display: block !important;
+	}
+}
+
 .hidden-screen {
 
 	@media screen {
 		display: none !important;
 	}
+}
+
+.hide-visually {
+	@apply --hide-visually;
+}
+
+.text-hide {
+	@apply --text-hide;
 }
 
 .hidden-xs {
@@ -102,26 +126,6 @@
 	
 	@media (--xl) {
 		display: none !important;
-	}
-}
-
-.visible {
-	display: block !important;
-}
-
-.visible-print {
-	display: none !important;
-
-	@media print {
-		display: block !important;
-	}
-}
-
-.visible-screen {
-	display: none !important;
-
-	@media screen {
-		display: block !important;
 	}
 }
 

@@ -18,10 +18,6 @@
 	@apply --truncate;
 }
 
-.text-hide {
-	@apply --text-hide;
-}
-
 .uppercase {
 	text-transform: uppercase;
 }
