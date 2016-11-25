@@ -520,3 +520,57 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
   </tbody>
 </table>
 ```
+
+### Table Reponsive
+
+The `.table-responsive` class wraps a table allowing it to be sized appropriately for its contents, overflow content is viewable through scrolling.
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Vestibulum Sem Ipsum</th>
+        <th scope="col">Dolor Fringilla</th>
+        <th scope="col">Amet Mattis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+      <tr>
+        <td>Egestas Ipsum Nibh</td>
+        <td>Magna Nullam</td>
+        <td>Consectetur Euismod</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+```html
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">...</th>
+        <th scope="col">...</th>
+        <th scope="col">...</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
