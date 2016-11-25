@@ -29,7 +29,7 @@ By default the container has `@gutter` padding applied to the left and right of 
 The gutter is padding applied to the left and right of the container to ensure content does not touch the sides of the viewport.
 
 ```scss
---gutter: 1.5rem;
+--gutter: 2rem;
 ```
 
 ### Gutters Classes
