@@ -15,7 +15,8 @@ Button styles are applied directly to the `<button>` element, button style and s
 </div>
 
 ```scss
---button-padding:  calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-padding-vertical: calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2);
+--button-padding-horizontal: 1.5em;
 --button-height: var(--height-m);
 --button-font-family: inherit;
 --button-font-weight: var(--font-weight-medium);
@@ -83,6 +84,180 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button class="button button-block">...</button>
 ```
 
+### Button Square
+
+The `.button-square` class applies the same padding all round calculated from the `height` of the button minus `font-size` and `border-width`.
+
+<div>
+  <button class="button button-square"></button>
+</div>
+
+```html
+<button class="button button-square">...</button>
+```
+
+### Button Icon (SVG)
+
+A `<svg>` contained within a `button` or `.button` element will inherit the button `font-size` as the `width` and `height`, as well as the button `color` as `fill`.
+
+<div>
+  <button class="button button-square button-white">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-light">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-grey">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-dark">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-black">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-primary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-secondary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-tertiary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square error">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square warning">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square success">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square info">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-square button-white button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-light button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-grey button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-dark button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-black button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-primary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-secondary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-tertiary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square error button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square warning button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square success button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square info button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-square button-xl">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="10"/>
+    </svg>
+  </button>
+  <button class="button button-square button-l">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+      <circle cx="9" cy="9" r="9"/>
+    </svg>
+  </button>
+  <button class="button button-square button-m">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-s">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+      <circle cx="7" cy="7" r="7"/>
+    </svg>
+  </button>
+  <button class="button button-square button-xs">
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+      <circle cx="6" cy="6" r="6"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button>
+  <svg>...</svg>
+</button>
+```
+
 ## Button Sizes
 
 <div>
@@ -95,19 +270,23 @@ Button styles are applied directly to the `<button>` element, button style and s
 
 
 ```scss
---button-xl-padding: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-xl-padding-vertical: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2);
+--button-xl-padding-horizontal: var(--button-padding-horizontal);
 --button-xl-height: var(--height-xl);
 --button-xl-font-size: var(--font-size-xl);
 
---button-l-padding: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-l-padding-vertical: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2);
+--button-l-padding-horizontal: var(--button-padding-horizontal);
 --button-l-height: var(--height-l);
 --button-l-font-size: var(--font-size-l);
 
---button-s-padding: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-s-padding-vertical: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2);
+--button-s-padding-horizontal: var(--button-padding-horizontal);
 --button-s-height: var(--height-s);
 --button-s-font-size: var(--font-size-s);
 
---button-xs-padding: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+--button-xs-padding-vertical: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2);
+--button-xs-padding-horizontal: var(--button-padding-horizontal);
 --button-xs-height: var(--height-xs);
 --button-xs-font-size: var(--font-size-xs);
 ```

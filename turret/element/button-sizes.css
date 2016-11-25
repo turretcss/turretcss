@@ -1,27 +1,63 @@
 .button-xl {
-	padding: var(--button-xl-padding);
+	padding: var(--button-xl-padding-vertical) var(--button-xl-padding-horizontal);;
 	min-width: var(--button-xl-height);
 	height: var(--button-xl-height);
 	font-size: var(--button-xl-font-size);
+
+	& svg {
+		width: var(--button-xl-font-size);
+		height: var(--button-xl-font-size);
+	}
+
+	&.button-square {
+		padding: var(--button-xl-padding-vertical);
+	}
 }
 
 .button-l {
-	padding: var(--button-l-padding);
+	padding: var(--button-l-padding-vertical) var(--button-l-padding-horizontal);;
 	min-width: var(--button-l-height);
 	height: var(--button-l-height);
 	font-size: var(--button-l-font-size);
+
+	& svg {
+		width: var(--button-l-font-size);
+		height: var(--button-l-font-size);
+	}
+
+	&.button-square {
+		padding: var(--button-l-padding-vertical);
+	}
 }
 
 .button-s {
-	padding: var(--button-s-padding);
+	padding: var(--button-s-padding-vertical) var(--button-s-padding-horizontal);;
 	min-width: var(--button-s-height);
 	height: var(--button-s-height);
 	font-size: var(--button-s-font-size);
+
+	& svg {
+		width: var(--button-s-font-size);
+		height: var(--button-s-font-size);
+	}
+
+	&.button-square {
+		padding: var(--button-s-padding-vertical);
+	}
 }
 
 .button-xs {
-	padding: var(--button-xs-padding);
+	padding: var(--button-xs-padding-vertical) var(--button-xs-padding-horizontal);;
 	min-width: var(--button-xs-height);
 	height: var(--button-xs-height);
 	font-size: var(--button-xs-font-size);
+
+	& svg {
+		width: var(--button-xs-font-size);
+		height: var(--button-xs-font-size);
+	}
+
+	&.button-square {
+		padding: var(--button-xs-padding-vertical);
+	}
 }

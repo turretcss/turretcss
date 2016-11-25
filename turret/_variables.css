@@ -825,7 +825,8 @@
 	 * Button
 	 */
 
-	--button-padding:  calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+	--button-padding-vertical: calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2);
+	--button-padding-horizontal: 1.5em;
 	--button-height: var(--height-m);
 	--button-font-family: inherit;
 	--button-font-weight: var(--font-weight-medium);
@@ -859,19 +860,23 @@
 	 * Button Sizes
 	 */
 
-	--button-xl-padding: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+	--button-xl-padding-vertical: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2);
+	--button-xl-padding-horizontal: var(--button-padding-horizontal);
 	--button-xl-height: var(--height-xl);
 	--button-xl-font-size: var(--font-size-xl);
 
-	--button-l-padding: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+	--button-l-padding-vertical: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2);
+	--button-l-padding-horizontal: var(--button-padding-horizontal);
 	--button-l-height: var(--height-l);
 	--button-l-font-size: var(--font-size-l);
 
-	--button-s-padding: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+	--button-s-padding-vertical: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2);
+	--button-s-padding-horizontal: var(--button-padding-horizontal);
 	--button-s-height: var(--height-s);
 	--button-s-font-size: var(--font-size-s);
 
-	--button-xs-padding: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2) 1.5em;
+	--button-xs-padding-vertical: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2);
+	--button-xs-padding-horizontal: var(--button-padding-horizontal);
 	--button-xs-height: var(--height-xs);
 	--button-xs-font-size: var(--font-size-xs);
 
