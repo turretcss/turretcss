@@ -1,0 +1,7 @@
+.big {
+	margin: var(--big-margin);
+	font-family: var(--big-font-family);
+	font-weight: var(--big-font-weight);
+	font-size: calc(var(--big-base-size) + (var(--big-max-size) - var(--big-min-size)) * ((100vw - var(--big-base-width)) / (var(--big-max-width) - var(--big-min-width))));
+	line-height: var(--big-line-height);
+}

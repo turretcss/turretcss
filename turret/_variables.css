@@ -368,6 +368,60 @@
 
 
 	/**
+	 * Display Title
+	 */
+	
+	--display-title-margin: 0;
+	--display-title-font-family: inherit;
+	--display-title-font-weight: var(--font-weight-bold);
+	--display-title-font-size: 3.6rem;
+	--display-title-line-height: var(--line-height-xs);
+	--display-title-text-transform: uppercase;
+	--display-title-letter-spacing: 0.05em;
+	
+
+	/**
+	 * Big
+	 */
+	
+	--big-margin: 0;
+	--big-font-family: inherit;
+	--big-font-weight: inherit;
+	--big-line-height: var(--line-height-s);
+	--big-base-size: 32px;
+	--big-min-size: 32;
+	--big-max-size: 48;
+	--big-base-width: 320px;
+	--big-min-width: 320;
+	--big-max-width: 960;
+
+
+	/**
+	 * Small Caps
+	 */
+	
+	--small-caps-margin: 1em 0;
+	--small-caps-font-family: inherit;
+	--small-caps-font-weight: var(--font-weight-bold);
+	--small-caps-font-size: var(--font-size-xs);
+	--small-caps-line-height: var(--line-height-xs);
+	--small-caps-text-transform: uppercase;
+	--small-caps-letter-spacing: 0.1em;
+
+
+	/**
+	 * Lead
+	 */
+
+	--lead-margin: 0.5em 0 1em 0;
+	--lead-font-family: inherit;
+	--lead-font-weight: inherit;
+	--lead-font-size: var(--font-size-xl);
+	--lead-color: inherit;
+	--lead-line-height: var(--line-height-m);
+
+
+	/**
 	 * Paragraph
 	 */
 
@@ -403,18 +457,6 @@
 	 */
 
 	--emphasis-font-style: italic;
-
-
-	/**
-	 * Lead
-	 */
-
-	--lead-margin: 0 0 1em 0;
-	--lead-font-family: inherit;
-	--lead-font-weight: var(--font-weight-light);
-	--lead-font-size: var(--font-size-xl);
-	--lead-color: inherit;
-	--lead-line-height: var(--line-height-m);
 
 
 	/**

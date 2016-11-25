@@ -44,6 +44,73 @@ permalink: /docs/typography/
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 ```
 
+## Display Title
+
+<h1 class="display-title">Display Title</h1>
+
+```scss
+
+```
+
+```html
+<h1 class="display-title">...</h1>
+```
+
+## Big
+
+<p class="big">Big</p>
+
+```scss
+--big-margin: 0;
+--big-font-family: inherit;
+--big-font-weight: inherit;
+--big-line-height: var(--line-height-s);
+--big-base-size: 32px;
+--big-min-size: 32;
+--big-max-size: 48;
+--big-base-width: 320px;
+--big-min-width: 320;
+--big-max-width: 960;
+```
+
+```html
+<p class="big">...</p>
+```
+
+## Small Caps
+
+<h2 class="small-caps">Small Caps</h2>
+
+```scss
+--small-caps-margin: 1em 0;
+--small-caps-font-family: inherit;
+--small-caps-font-weight: var(--font-weight-bold);
+--small-caps-font-size: var(--font-size-xs);
+--small-caps-text-transform: uppercase;
+--small-caps-letter-spacing: 0.1em;
+```
+
+```html
+<h2 class="small-caps">...</h2>
+```
+
+## Lead
+
+<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+```scss
+--lead-margin: 0 0 1em 0;
+--lead-font-family: inherit;
+--lead-font-weight: var(--font-weight-light);
+--lead-font-size: var(--font-size-xl);
+--lead-color: inherit;
+--lead-line-height: var(--line-height-m);
+```
+
+```html
+<p class="lead">...</p>
+```
+
 ## Paragraph
 
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
@@ -100,23 +167,6 @@ permalink: /docs/typography/
 
 ```html
 <em>...</em>
-```
-
-## Lead
-
-<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-```scss
---lead-margin: 0 0 1em 0;
---lead-font-family: inherit;
---lead-font-weight: var(--font-weight-light);
---lead-font-size: var(--font-size-xl);
---lead-color: inherit;
---lead-line-height: var(--line-height-m);
-```
-
-```html
-<p class="lead">...</p>
 ```
 
 ## Horizontal Rule

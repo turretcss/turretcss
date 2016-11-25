@@ -67,11 +67,14 @@
  */
 
 @import './typography/headings';
+@import './typography/display-title';
+@import './typography/big';
+@import './typography/small-caps';
+@import './typography/lead';
 @import './typography/paragraph';
 @import './typography/link';
 @import './typography/strong';
 @import './typography/emphasis';
-@import './typography/lead';
 @import './typography/horizontal-rule';
 @import './typography/blockquote';
 @import './typography/cite';
