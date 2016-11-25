@@ -1,5 +1,6 @@
 .search {
 	position: relative;
+	border-bottom: 1px solid var(--light-300);
 }
 
 .search-input[type=search] {
@@ -23,12 +24,16 @@
 		display: block;
 		margin: 0;
 		padding: 0;
-		border-width: 0px 1px 1px 1px;
+		font-size: var(--font-size-s);
+		
+		&:not(:last-child) {
+			border-bottom: 1px solid var(--light-300);
+		}
 	}
 
 	& a {
 		display: block;
-		padding: 12px;
+		padding: 1em;
 
 		&:hover,
 		&:focus {
@@ -38,6 +43,6 @@
 }
 
 .search-no-results {
-	padding: 12px;
+	padding: 1em;
 	text-align: center;
 }

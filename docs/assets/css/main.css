@@ -35,6 +35,7 @@
 @import './template/sidebar';
 @import './template/navigation';
 @import './template/search';
+@import './template/footer';
 
 
 /**
@@ -52,7 +53,7 @@
 
 body {
 
-	@media (max-width: 640px) {
+	@media (--s-down) {
 
 		&.open {
 			overflow: hidden;

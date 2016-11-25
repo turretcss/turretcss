@@ -9,13 +9,15 @@
 	& li {
 		margin: 0;
 		padding: 0;
+		font-weight: var(--font-weight-medium);
 
 		& ul {
 			display: none;
 
 			& li {
 				border: none;
-				font-size: 1.4rem;
+				font-weight: var(--font-weight-regular);
+				font-size: var(--font-size-s);
 
 				& a {
 					padding: 0.5em 1.5em;
@@ -38,9 +40,11 @@
 	& a {
 		display: block;
 		padding: 0.5em 1em;
+		color: var(--body-color);
 
 		&:hover,
 		&:focus {
+			color: var(--primary);
 			text-decoration: none;
 		}
 	}

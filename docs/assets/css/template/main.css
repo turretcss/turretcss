@@ -1,10 +1,10 @@
 .main {
 
-	@media (min-width: 641px) {
+	@media (--m-up) {
 		padding-left: var(--sidebar-width);
 	}
 
-	@media (max-width: 640px) {
+	@media (--s-down) {
 		padding-top: var(--header-height);
 		transition: transform 200ms ease-in-out;
 	}
