@@ -61,10 +61,5 @@ button:disabled {
 }
 
 .button-border {
-	background: transparent !important;
-
-	&:not(:disabled):hover,
-	&:not(:disabled):focus {
-		background: transparent !important;
-	}
+	background: transparent;
 }

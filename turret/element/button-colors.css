@@ -5,6 +5,7 @@
 	
 	&.button-border {
 		color: var(--white);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -12,20 +13,12 @@
 		color: var(--button-white-color);
 		background: var(--white-hover);
 		border-color: var(--white-hover);
-
-		&.button-border {
-			color: var(--white-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-white-color);
 		background: var(--white-active);
 		border-color: var(--white-active);
-
-		&.button-border {
-			color: var(--white-active);
-		}
 	}
 }
 
@@ -36,6 +29,7 @@
 	
 	&.button-border {
 		color: var(--light);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -43,20 +37,12 @@
 		color: var(--button-light-color);
 		background: var(--light-hover);
 		border-color: var(--light-hover);
-
-		&.button-border {
-			color: var(--light-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-light-color);
 		background: var(--light-active);
 		border-color: var(--light-active);
-
-		&.button-border {
-			color: var(--light-active);
-		}
 	}
 }
 
@@ -67,6 +53,7 @@
 	
 	&.button-border {
 		color: var(--grey);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -74,20 +61,12 @@
 		color: var(--button-grey-color);
 		background: var(--grey-hover);
 		border-color: var(--grey-hover);
-
-		&.button-border {
-			color: var(--grey-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-grey-color);
 		background: var(--grey-active);
 		border-color: var(--grey-active);
-
-		&.button-border {
-			color: var(--grey-active);
-		}
 	}
 }
 
@@ -98,6 +77,7 @@
 	
 	&.button-border {
 		color: var(--dark);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -105,20 +85,12 @@
 		color: var(--button-dark-color);
 		background: var(--dark-hover);
 		border-color: var(--dark-hover);
-
-		&.button-border {
-			color: var(--dark-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-dark-color);
 		background: var(--dark-active);
 		border-color: var(--dark-active);
-
-		&.button-border {
-			color: var(--dark-active);
-		}
 	}
 }
 
@@ -129,6 +101,7 @@
 	
 	&.button-border {
 		color: var(--black);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -136,20 +109,12 @@
 		color: var(--button-black-color);
 		background: var(--black-hover);
 		border-color: var(--black-hover);
-
-		&.button-border {
-			color: var(--black-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-black-color);
 		background: var(--black-active);
 		border-color: var(--black-active);
-
-		&.button-border {
-			color: var(--black-active);
-		}
 	}
 }
 
@@ -160,6 +125,7 @@
 	
 	&.button-border {
 		color: var(--primary);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -167,20 +133,12 @@
 		color: var(--button-primary-color);
 		background: var(--primary-hover);
 		border-color: var(--primary-hover);
-
-		&.button-border {
-			color: var(--primary-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-primary-color);
 		background: var(--primary-active);
 		border-color: var(--primary-active);
-
-		&.button-border {
-			color: var(--primary-active);
-		}
 	}
 }
 
@@ -191,6 +149,7 @@
 	
 	&.button-border {
 		color: var(--secondary);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -198,20 +157,12 @@
 		color: var(--button-secondary-color);
 		background: var(--secondary-hover);
 		border-color: var(--secondary-hover);
-
-		&.button-border {
-			color: var(--secondary-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-secondary-color);
 		background: var(--secondary-active);
 		border-color: var(--secondary-active);
-
-		&.button-border {
-			color: var(--secondary-active);
-		}
 	}
 }
 
@@ -222,6 +173,7 @@
 	
 	&.button-border {
 		color: var(--tertiary);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -229,20 +181,12 @@
 		color: var(--button-tertiary-color);
 		background: var(--tertiary-hover);
 		border-color: var(--tertiary-hover);
-
-		&.button-border {
-			color: var(--tertiary-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-tertiary-color);
 		background: var(--tertiary-active);
 		border-color: var(--tertiary-active);
-
-		&.button-border {
-			color: var(--tertiary-active);
-		}
 	}
 }
 
@@ -253,6 +197,7 @@
 
 	&.button-border {
 		color: var(--error);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -260,20 +205,12 @@
 		color: var(--button-error-color);
 		background: var(--error-hover);
 		border-color: var(--error-hover);
-
-		&.button-border {
-			color: var(--error-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-error-color);
 		background: var(--error-active);
 		border-color: var(--error-active);
-
-		&.button-border {
-			color: var(--error-active);
-		}
 	}
 }
 
@@ -284,6 +221,7 @@
 
 	&.button-border {
 		color: var(--warning);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -291,20 +229,12 @@
 		color: var(--button-warning-color);
 		background: var(--warning-hover);
 		border-color: var(--warning-hover);
-
-		&.button-border {
-			color: var(--warning-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-warning-color);
 		background: var(--warning-active);
 		border-color: var(--warning-active);
-
-		&.button-border {
-			color: var(--warning-active);
-		}
 	}
 }
 
@@ -315,6 +245,7 @@
 
 	&.button-border {
 		color: var(--success);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -322,20 +253,12 @@
 		color: var(--button-success-color);
 		background: var(--success-hover);
 		border-color: var(--success-hover);
-
-		&.button-border {
-			color: var(--success-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-success-color);
 		background: var(--success-active);
 		border-color: var(--success-active);
-
-		&.button-border {
-			color: var(--success-active);
-		}
 	}
 }
 
@@ -346,6 +269,7 @@
 
 	&.button-border {
 		color: var(--info);
+		background: transparent;
 	}
 
 	&:not(:disabled):hover,
@@ -353,19 +277,11 @@
 		color: var(--button-info-color);
 		background: var(--info-hover);
 		border-color: var(--info-hover);
-
-		&.button-border {
-			color: var(--info-hover);
-		}
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-info-color);
 		background: var(--info-active);
 		border-color: var(--info-active);
-
-		&.button-border {
-			color: var(--info-active);
-		}
 	}
 }
