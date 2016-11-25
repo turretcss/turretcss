@@ -6,11 +6,11 @@
     {% endif %}
 
     {% if page.description %}
-      <p class="lead color-white max-width-m">{{ page.description }}</p>
+      <p class="lead color-white max-width-s">{{ page.description }}</p>
     {% endif %}
 
     {% if page.date %}
-      <p class="color-white max-width-m">
+      <p class="color-white max-width-s">
       	<time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
       </p>
     {% endif %}
