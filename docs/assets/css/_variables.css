@@ -4,7 +4,7 @@
 	 * General
 	 */
 
-	--header-height: 50px;
+	--header-height: var(--height-m);
 	--sidebar-width: 270px;
 
 }
