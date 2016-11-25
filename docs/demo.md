@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Theme
-page_title: Theme - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: Kitchen Sink of all HTML elements with Turret styles applied.
-permalink: /docs/theme/
+title: Demo
+page_title: Demo - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: Demo of all HTML elements with Turret styles applied.
+permalink: /docs/demo/
 ---
 
 ## Colors

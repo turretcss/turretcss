@@ -2,7 +2,7 @@
 layout: docs
 title: Elements
 page_title: Elements - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: A guide to the use of HTML elements and Turret's default styling definitions. Includes buttons, button syles and sizes, button-groups, figure, media, nav, and tables.
+description: A guide to the use of HTML elements and Turret's default styling definitions including buttons, figure, media, nav, and tables.
 permalink: /docs/elements/
 ---
 

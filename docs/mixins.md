@@ -2,7 +2,7 @@
 layout: docs
 title: Mixins
 page_title: Mixins - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: Turrets set of mixins for simple & maintainable Less styles, as well as a collection of mixins for cross browser compatability of CSS3 properties
+description: Turrets set of mixins for simple & maintainable CSS.
 permalink: /docs/mixins/
 ---
 

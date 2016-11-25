@@ -2,7 +2,7 @@
 layout: docs
 title: Grid
 page_title: Grid - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: An outline of the Turret grid system using containers, rows and gutters. Includes a demonstration of the 12 column grid system with columns, nested columns, offsets, and push/pull examples.
+description: An outline of the Turret grid system using containers, and gutters.
 permalink: /docs/grid/
 ---
 
