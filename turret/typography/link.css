@@ -1,7 +1,7 @@
 a {
 	color: var(--link-color);
 	text-decoration: var(--link-text-decoration);
-	transition: color var(--transition-fast ease-in-out));
+	@apply --transition-fast;
 	
 	&:hover,
 	&:focus {
