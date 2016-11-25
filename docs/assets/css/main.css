@@ -54,7 +54,7 @@
 
 .is-null,
 .is-hidden,
-.is-unsupported {
+.not-supported {
 	color: var(--light-900);
 	background: var(--light-100);
 }

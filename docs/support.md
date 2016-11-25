@@ -9,7 +9,7 @@ permalink: /docs/support/
 ## Browsers
 
 <div class="table-responsive">
-  <table>
+  <table style="table-layout:fixed;">
     <thead>
       <tr>
         <td></td>
@@ -26,14 +26,14 @@ permalink: /docs/support/
         <td class="is-supported">Supported</td>
         <td class="is-supported">Supported</td>
         <td rowspan="3" style="vertical-align: middle;">N/A</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
         <td>N/A</td>
       </tr>
       <tr>
         <th>iOS</th>
         <td class="is-supported">Supported</td>
         <td class="is-supported">Supported</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
         <td class="is-supported">Supported</td>
       </tr>
       <tr>
@@ -49,7 +49,7 @@ permalink: /docs/support/
         <td class="is-supported">Supported</td>
         <td class="is-supported">Supported (IE10+)</td>
         <td class="is-supported">Supported</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
       </tr>
     </tbody>
   </table>
@@ -104,42 +104,54 @@ IE8 does not fully support `box-sizing: border-box;` when combined with `min-wid
 Some CSS properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.
 
 <div class="table-responsive">
-  <table>
+  <table style="table-layout:fixed;">
     <thead>
       <tr>
         <th>Feature</th>
         <th>IE8</th>
         <th>IE9</th>
+        <th>IE10</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><code>border-radius</code></td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="is-supported">Supported</td>
         <td class="is-supported">Supported</td>
       </tr>
       <tr>
         <td><code>box-shadow</code></td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="is-supported">Supported</td>
         <td class="is-supported">Supported</td>
       </tr>
       <tr>
         <td><code>transform</code></td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
         <td class="is-supported">2D transforms supported, with <code>-ms</code> prefix</td>
+        <td class="is-supported">Supported</td>
       </tr>
       <tr>
         <td><code>transition</code></td>
-        <td class="is-unsupported">Not supported</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="is-supported">Supported</td>
       </tr>
       <tr>
         <td><code>placeholder</code></td>
-        <td class="is-unsupported">Not supported</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="is-supported">Supported</td>
+      </tr>
+      <tr>
+        <td><code>Flexbox</code></td>
+        <td class="not-supported">Not supported</td>
+        <td class="not-supported">Not supported</td>
+        <td class="is-supported">Partially supported, with <code>-ms</code> prefix</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-Visit [Can I Use](http://caniuse.com/) for details on browser support of CSS3 and HTML5 features.
+Visit [Can I Use](http://caniuse.com/) for details on browser support of CSS and HTML features.
