@@ -49,7 +49,13 @@ permalink: /docs/typography/
 <h1 class="display-title">Display Title</h1>
 
 ```scss
-
+--display-title-margin: 0;
+--display-title-font-family: inherit;
+--display-title-font-weight: var(--font-weight-bold);
+--display-title-font-size: 3.6rem;
+--display-title-line-height: var(--line-height-xs);
+--display-title-text-transform: uppercase;
+--display-title-letter-spacing: 0.05em;
 ```
 
 ```html
