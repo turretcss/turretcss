@@ -4,6 +4,7 @@
 	bottom: 0;
 	width: var(--sidebar-width);
 	height: 100%;
+	@apply --overflow-scroll;
 
 	@media (--m-up) {
 		left: 0;
