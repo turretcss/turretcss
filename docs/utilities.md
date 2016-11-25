@@ -572,7 +572,7 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
-### Responsive Clear Floats
+### Responsive Floats
 
 <div class="table-responsive">
   <table>
@@ -588,86 +588,180 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>.clear-right-xs</code></td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
+        <td><code>.right-xs</code></td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-right-s</code></td>
-        <td class="is-float">right</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
+        <td><code>.right-s</code></td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-right-m</code></td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
+        <td><code>.right-s-up</code></td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
       </tr>
       <tr>
-        <td><code>.clear-right-l</code></td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">right</td>
+        <td><code>.right-s-down</code></td>
+        <td>Right</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-right-xl</code></td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-float">right</td>
-        <td class="is-clear">clear</td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <td><code>.clear-left-xs</code></td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
+        <td><code>.right-m</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-left-s</code></td>
-        <td class="is-float">left</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
+        <td><code>.right-m-up</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
       </tr>
       <tr>
-        <td><code>.clear-left-m</code></td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
+        <td><code>.right-m-down</code></td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-left-l</code></td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-clear">clear</td>
-        <td class="is-float">left</td>
+        <td><code>.right-l</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
       </tr>
       <tr>
-        <td><code>.clear-left-xl</code></td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-float">left</td>
-        <td class="is-clear">clear</td>
+        <td><code>.right-l-up</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td><code>.right-l-down</code></td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td>Right</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.right-xl</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td><code>.left-xs</code></td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-s</code></td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-s-up</code></td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+      </tr>
+      <tr>
+        <td><code>.left-s-down</code></td>
+        <td>Left</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-m</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-m-up</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+      </tr>
+      <tr>
+        <td><code>.left-m-down</code></td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-l</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-l-up</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
+        <td>Left</td>
+      </tr>
+      <tr>
+        <td><code>.left-l-down</code></td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td>Left</td>
+        <td class="is-null">n/a</td>
+      </tr>
+      <tr>
+        <td><code>.left-xl</code></td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td class="is-null">n/a</td>
+        <td>Left</td>
       </tr>
     </tbody>
   </table>
