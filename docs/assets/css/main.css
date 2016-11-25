@@ -64,13 +64,12 @@ body {
 	@media (--s-down) {
 
 		&.open {
-			overflow: hidden;
 
-			.main {
-				transform: translateX(var(--sidebar-width));
+			& .main {
+				transform: translateX(calc(var(--sidebar-width) * -1));
 			}
 
-			.sidebar {
+			& .sidebar {
 				transform: translateX(0);
 			}
 		}

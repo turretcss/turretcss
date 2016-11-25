@@ -13,6 +13,7 @@
 
 	@media (--s-down) {
 		right: 0;
+		border-left: 1px solid var(--light-300);
 		transform: translateX(var(--sidebar-width));
 		transition: transform 200ms ease-in-out;
 	}
