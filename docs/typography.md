@@ -64,6 +64,8 @@ permalink: /docs/typography/
 
 ## Big
 
+The `.big` class is used for responsive text that scales between min/max sizes based on a varience between min/max widths and the viewport width.
+
 <p class="big">Big</p>
 
 ```scss
