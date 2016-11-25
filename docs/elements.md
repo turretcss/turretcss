@@ -521,7 +521,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 </table>
 ```
 
-### Table Reponsive
+### Table Responsive
 
 The `.table-responsive` class wraps a table allowing it to be sized appropriately for its contents, overflow content is viewable through scrolling.
 
