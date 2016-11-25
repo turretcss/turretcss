@@ -2,7 +2,7 @@
 layout: docs
 title: Support
 page_title: Support - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: An outline Browser Support of CSS3 features and workarounds for non-modern browsing technologies.
+description: An outline Browser Support of CSS features and workarounds for non-modern browsing technologies.
 permalink: /docs/support/
 ---
 
@@ -24,7 +24,7 @@ permalink: /docs/support/
       <tr>
         <th>Android</th>
         <td class="is-supported">Supported</td>
-        <td class="is-unsupported">Not supported</td>
+        <td class="is-supported">Supported</td>
         <td rowspan="3" style="vertical-align: middle;">N/A</td>
         <td class="is-unsupported">Not supported</td>
         <td>N/A</td>
@@ -32,7 +32,7 @@ permalink: /docs/support/
       <tr>
         <th>iOS</th>
         <td class="is-supported">Supported</td>
-        <td>N/A</td>
+        <td class="is-supported">Supported</td>
         <td class="is-unsupported">Not supported</td>
         <td class="is-supported">Supported</td>
       </tr>
@@ -47,7 +47,7 @@ permalink: /docs/support/
         <th>Windows</th>
         <td class="is-supported">Supported</td>
         <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported (IE9+)</td>
+        <td class="is-supported">Supported (IE10+)</td>
         <td class="is-supported">Supported</td>
         <td class="is-unsupported">Not supported</td>
       </tr>
@@ -64,15 +64,10 @@ The Default Android Browser is not supported. Android 4.4+ does not ship with a 
 Turret is not supported in the old Internet Explorer compatibility modes. To be sure you're using the latest rendering mode for IE, consider including the appropriate `<meta>` tag in your pages:
 
 ```html
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-The meta tag tells the IE rendering engine two things:
-
-1. It should use the latest, or edge, version of the IE rendering environment
-2. If already installed, it should use the Google Chrome Frame rendering engine.
-
-This line breaks validation, and the Google Chrome Frame part won't work inside a conditional comment. To avoid these edge case issues it is recommended that you remove this line and use the `.htaccess` to send these headers instead as specified in [Validating: X-UA-Compatible](https://groups.google.com/forum/#!topic/html5boilerplate/bRtrFSrKjtI).
+The meta tag tells the IE rendering engine it should use the latest, or edge, version of the IE rendering environment
 
 ### Modernizr
 
@@ -84,19 +79,19 @@ In general, in order to keep page load times to a minimum, it's best to call any
 
 IE8 requires the use of [Respond.js](https://github.com/scottjehl/Respond) to enable media query support.
 
-### IE8 and [Respond.js](https://github.com/scottjehl/Respond)
+#### IE8 and [Respond.js](https://github.com/scottjehl/Respond)
 
 Beware of the following caveats when using [Respond.js](https://github.com/scottjehl/Respond) in your development and production environments for Internet Explorer 8.
 
-### Respond.js and cross-domain CSS
+#### Respond.js and cross-domain CSS
 
 Using [Respond.js](https://github.com/scottjehl/Respond) with CSS hosted on a different (sub)domain (for example, on a CDN) requires some additional setup. See the [Respond.js](https://github.com/scottjehl/Respond) docs for details.
 
-### Respond.js and file://
+#### Respond.js and file://
 
 Due to browser security rules, [Respond.js](https://github.com/scottjehl/Respond) doesn't work with pages viewed via the `file://` protocol (like when opening a local HTML file). To test responsive features in IE8, view your pages over HTTP(S). See the [Respond.js](https://github.com/scottjehl/Respond) docs for details.
 
-### Respond.js and @import
+#### Respond.js and @import
 
 [Respond.js](https://github.com/scottjehl/Respond) doesn't work with CSS that's referenced via @import. In particular, some Drupal configurations are known to use @import. See the [Respond.js](https://github.com/scottjehl/Respond) docs for details.
 
@@ -106,7 +101,7 @@ IE8 does not fully support `box-sizing: border-box;` when combined with `min-wid
 
 ## CSS
 
-Some CSS3 properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.
+Some CSS properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.
 
 <div class="table-responsive">
   <table>
