@@ -2,26 +2,20 @@
 layout: default
 ---
 
-<header class="blog-header">
-  <div class="container max-width-l">
-    <h1>{{ page.title }}</h1>
-    <p class="lead">
-      <time>{{ page.date | date_to_long_string }}</time>
-    </p>
-  </div>
-</header>
+{% include blog-sidebar.html %}
 
-<main class="blog-main">
-  <div class="container max-width-l">
-    <div class="row">
-      <div class="column-1-4">
-        {% include blog-sidebar.html %}
-      </div>
-      <div class="column-3-4 post-content">
-        {{ content }}
-      </div>
+<main class="main">
+
+  {% include header.html %}
+
+  {% include page-header.html %}
+
+  <section class="padding-vertical-l">
+    <div class="container">
+      {{ content }}
     </div>
-  </div>
-</main>
+  </section>
+  
+  {% include footer.html %}
 
-{% include footer.html %}
+</main>
