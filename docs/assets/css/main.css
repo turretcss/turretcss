@@ -52,6 +52,19 @@
  * General
  */
 
+.is-clear,
+.is-float {
+	text-transform: capitalize;
+}
+
+.is-null,
+.is-hidden,
+.is-float,
+.is-unsupported {
+	color: var(--light-900);
+	background: var(--light-100);
+}
+
 body {
 
 	@media (--s-down) {
