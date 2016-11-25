@@ -662,20 +662,24 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ## Select
 
 <form role="form">
-  <label class="select" for="select">
-    <select id="select">
-      <option>Select Field</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-  <label class="select" for="select">
-    <select id="select" disabled>
-      <option>Select Field</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
+  <div class="field">
+    <label class="select" for="select">
+      <select id="select">
+        <option>Select Field</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">
+    <label class="select" for="select">
+      <select id="select" disabled>
+        <option>Select Field</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
 </form>
 
 ```scss
@@ -784,41 +788,51 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ## Select Sizes
 
 <form role="form">
-  <label class="select select-xl" for="select-xl">
-    <select id="select-xl">
-      <option>Select Extra Large</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-  <label class="select select-l" for="select-l">
-    <select id="select-l">
-      <option>Select Large</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-  <label class="select select-m" for="select-m">
-    <select id="select-m">
-      <option>Select Medium</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-  <label class="select select-s" for="select-s">
-    <select id="select-s">
-      <option>Select Small</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-  <label class="select select-xs" for="select-xs">
-    <select id="select-xs">
-      <option>Select Extra Small</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
+  <div class="field">  
+    <label class="select select-xl" for="select-xl">
+      <select id="select-xl">
+        <option>Select Extra Large</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-l" for="select-l">
+      <select id="select-l">
+        <option>Select Large</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-m" for="select-m">
+      <select id="select-m">
+        <option>Select Medium</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-s" for="select-s">
+      <select id="select-s">
+        <option>Select Small</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-xs" for="select-xs">
+      <select id="select-xs">
+        <option>Select Extra Small</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
 </form>
 
 ```scss
