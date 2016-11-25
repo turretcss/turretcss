@@ -160,6 +160,22 @@ permalink: /docs/theme/
 <h5>Heading 5 <small>Heading 5 small</small></h5>
 <h6>Heading 6 <small>Heading 6 small</small></h6>
 
+### Display Title
+
+<h1 class="display-title">Display Title</h1>
+
+### Big
+
+<p class="big">Big</p>
+
+### Small Caps
+
+<h2 class="small-caps">Small Caps</h2>
+
+### Lead
+
+<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
+
 ### Paragraph
 
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
@@ -175,10 +191,6 @@ permalink: /docs/theme/
 ### Emphasis
 
 <p><em>emphasis</em></p>
-
-### Lead
-
-<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
 ### Horizontal Rule
 
@@ -257,7 +269,7 @@ permalink: /docs/theme/
 ### Field
 
 <div class="field">
-  <label for="input-text">Text Input</label>
+  <label for="input-text">Label</label>
   <input type="text" id="input-text" placeholder="Text">
 </div>
 
@@ -266,11 +278,17 @@ permalink: /docs/theme/
 <form role="form">
   <fieldset>
     <legend>Login</legend>
-    <label for="fieldset-email">Email</label>
-    <input type="email" id="fieldset-email" placeholder="Enter Email">
-    <label for="fieldset-password">Password</label>
-    <input type="password" id="fieldset-password" placeholder="Enter Password">
-    <button type="submit" class="button">Submit</button>
+    <div class="field">
+      <label for="fieldset-email">Email</label>
+      <input type="email" id="fieldset-email" placeholder="Enter Email">
+    </div>
+    <div class="field">
+      <label for="fieldset-password">Password</label>
+      <input type="password" id="fieldset-password" placeholder="Enter Password">
+    </div>
+    <div class="field">
+      <button type="submit" class="button">Submit</button>
+    </div>
   </fieldset>
 </form>
 
@@ -548,13 +566,185 @@ permalink: /docs/theme/
 ### Button
 
 <div>
-  <button class="button">Button</button>
+  <button>Button</button>
 </div>
 
 ### Button Disabled
 
 <div>
-  <button class="button" disabled>Button</button>
+  <button disabled>Button</button>
+</div>
+
+### Button Spinner
+
+<div>
+  <button class="spinner"></button>
+</div>
+
+### Button Block
+
+<div>
+  <button class="button button-block">Button Block</button>
+</div>
+
+### Button Square
+
+<div>
+  <button class="button button-square"></button>
+</div>
+
+### Button Icon (SVG)
+
+<div>
+  <button class="button button-square button-white">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-light">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-grey">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-dark">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-black">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-primary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-secondary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-tertiary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square error">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square warning">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square success">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square info">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-square button-white button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-light button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-grey button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-dark button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-black button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-primary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-secondary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-tertiary button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square error button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square warning button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square success button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square info button-border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+<div class="margin-top-xs">
+  <button class="button button-square button-xl">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="10"/>
+    </svg>
+  </button>
+  <button class="button button-square button-l">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+      <circle cx="9" cy="9" r="9"/>
+    </svg>
+  </button>
+  <button class="button button-square button-m">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-s">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+      <circle cx="7" cy="7" r="7"/>
+    </svg>
+  </button>
+  <button class="button button-square button-xs">
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+      <circle cx="6" cy="6" r="6"/>
+    </svg>
+  </button>
 </div>
 
 ### Button Sizes
@@ -585,30 +775,22 @@ permalink: /docs/theme/
   <button class="button button-grey">Grey</button>
   <button class="button button-dark">Dark</button>
   <button class="button button-black">Black</button>
-</div>
-
-### Button Shades Border
-
-<div>
   <button class="button button-white button-border">White</button>
   <button class="button button-light button-border">Light</button>
   <button class="button button-grey button-border">Grey</button>
   <button class="button button-dark button-border">Dark</button>
   <button class="button button-black button-border">Black</button>
 </div>
-
-### Button Shades Disabled
-
-<div>
+<div class="margin-top-xs">
   <button class="button button-white" disabled>White</button>
-  <button class="button button-white button-border" disabled>White</button>
   <button class="button button-light" disabled>Light</button>
-  <button class="button button-light button-border" disabled>Light</button>
   <button class="button button-grey" disabled>Grey</button>
-  <button class="button button-grey button-border" disabled>Grey</button>
   <button class="button button-dark" disabled>Dark</button>
-  <button class="button button-dark button-border" disabled>Dark</button>
   <button class="button button-black" disabled>Black</button>
+  <button class="button button-white button-border" disabled>White</button>
+  <button class="button button-light button-border" disabled>Light</button>
+  <button class="button button-grey button-border" disabled>Grey</button>
+  <button class="button button-dark button-border" disabled>Dark</button>
   <button class="button button-black button-border" disabled>Black</button>
 </div>
 
@@ -618,24 +800,16 @@ permalink: /docs/theme/
   <button class="button button-primary">Primary</button>
   <button class="button button-secondary">Secondary</button>
   <button class="button button-tertiary">Tertiary</button>
-</div>
-
-### Button Palettes Border
-
-<div>
   <button class="button button-primary button-border">Primary</button>
   <button class="button button-secondary button-border">Secondary</button>
   <button class="button button-tertiary button-border">Tertiary</button>
 </div>
-
-### Button Palettes Disabled
-
-<div>
+<div class="margin-top-xs">
   <button class="button button-primary" disabled>Primary</button>
-  <button class="button button-primary button-border" disabled>Primary</button>
   <button class="button button-secondary" disabled>Secondary</button>
-  <button class="button button-secondary button-border" disabled>Secondary</button>
   <button class="button button-tertiary" disabled>Tertiary</button>
+  <button class="button button-primary button-border" disabled>Primary</button>
+  <button class="button button-secondary button-border" disabled>Secondary</button>
   <button class="button button-tertiary button-border" disabled>Tertiary</button>
 </div>
 
@@ -646,30 +820,21 @@ permalink: /docs/theme/
   <button class="button warning">Warning</button>
   <button class="button success">Success</button>
   <button class="button info">Info</button>
-</div>
-
-### Button Indicators Border
-
-<div>
   <button class="button error button-border">Error</button>
   <button class="button warning button-border">Warning</button>
   <button class="button success button-border">Success</button>
   <button class="button info button-border">Info</button>
 </div>
-
-### Button Indicators Disabled
-
-<div>
+<div class="margin-top-xs">
   <button class="button error" disabled>Error</button>
-  <button class="button error button-border" disabled>Error</button>
   <button class="button warning" disabled>Warning</button>
-  <button class="button warning button-border" disabled>Warning</button>
   <button class="button success" disabled>Success</button>
-  <button class="button success button-border" disabled>Success</button>
   <button class="button info" disabled>Info</button>
+  <button class="button error button-border" disabled>Error</button>
+  <button class="button warning button-border" disabled>Warning</button>
+  <button class="button success button-border" disabled>Success</button>
   <button class="button info button-border" disabled>Info</button>
 </div>
-
 
 ### Figure
 
