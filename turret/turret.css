@@ -111,6 +111,7 @@
 @import './element/button';
 @import './element/button-sizes';
 @import './element/button-colors';
+@import './element/button-group';
 @import './element/figure';
 @import './element/media';
 @import './element/nav';

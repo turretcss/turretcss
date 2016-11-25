@@ -452,37 +452,45 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 
 ```html
 <div class="button-group">
-  <button class="button">Button</button>
-  <button class="button">Button</button>
-  <button class="button">Button</button>
+  <button class="button">...</button>
+  <button class="button">...</button>
+  <button class="button">...</button>
 </div>
 ```
 
 ### Button Group Block
 
 <div class="button-group button-group-block">
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
 </div>
 
 ```html
 <div class="button-group button-group-block">
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
-  <div class="button-group">
-    <button class="button">Button</button>
-  </div>
+  <button class="button">...</button>
+  <button class="button">...</button>
+  <button class="button">...</button>
+</div>
+```
+
+### Button Group Icon (SVG)
+
+<div class="button-group">
+  <button class="button">Button</button>
+  <button class="button button-square">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+      <polygon points="2,3 13,3 8,13"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<div class="button-group">
+  <button class="button">...</button>
+  <button class="button button-square">
+    <svg>...</svg>
+  </button>
 </div>
 ```
 
