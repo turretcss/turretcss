@@ -84,6 +84,22 @@ Button styles are applied directly to the `<button>` element, button style and s
 <button class="button button-block">...</button>
 ```
 
+### Button Pill
+
+The `.button-pill` class applies `border-radius` half the size of the `--button-height`.
+
+<div>
+  <button class="button button-pill button-xl">Extra Large</button>
+  <button class="button button-pill button-l">Large</button>
+  <button class="button button-pill button-m">Medium</button>
+  <button class="button button-pill button-s">Small</button>
+  <button class="button button-pill button-xs">Extra Small</button>
+</div>
+
+```html
+<button class="button button-pill">...</button>
+```
+
 ### Button Square
 
 The `.button-square` class applies the same padding all round calculated from the `height` of the button minus `font-size` and `border-width`.

@@ -74,3 +74,7 @@ button:disabled {
 .button-square {
 	padding: var(--button-padding-vertical);
 }
+
+.button-pill {
+	border-radius: calc(var(--button-height) / 2);
+}

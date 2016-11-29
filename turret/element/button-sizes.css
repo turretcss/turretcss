@@ -12,6 +12,10 @@
 	&.button-square {
 		padding: var(--button-xl-padding-vertical);
 	}
+
+	&.button-pill {
+		border-radius: calc(var(--button-xl-height) / 2);
+	}
 }
 
 .button-l {
@@ -27,6 +31,10 @@
 
 	&.button-square {
 		padding: var(--button-l-padding-vertical);
+	}
+
+	&.button-pill {
+		border-radius: calc(var(--button-l-height) / 2);
 	}
 }
 
@@ -44,6 +52,10 @@
 	&.button-square {
 		padding: var(--button-s-padding-vertical);
 	}
+
+	&.button-pill {
+		border-radius: calc(var(--button-s-height) / 2);
+	}
 }
 
 .button-xs {
@@ -59,5 +71,9 @@
 
 	&.button-square {
 		padding: var(--button-xs-padding-vertical);
+	}
+
+	&.button-pill {
+		border-radius: calc(var(--button-xs-height) / 2);
 	}
 }

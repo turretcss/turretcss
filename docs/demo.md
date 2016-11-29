@@ -587,6 +587,16 @@ permalink: /docs/demo/
   <button class="button button-block">Button Block</button>
 </div>
 
+### Button Pill
+
+<div>
+  <button class="button button-pill button-xl">Extra Large</button>
+  <button class="button button-pill button-l">Large</button>
+  <button class="button button-pill button-m">Medium</button>
+  <button class="button button-pill button-s">Small</button>
+  <button class="button button-pill button-xs">Extra Small</button>
+</div>
+
 ### Button Square
 
 <div>
