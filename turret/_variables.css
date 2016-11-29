@@ -120,11 +120,11 @@
 	 * Max Width
 	 */
 
-	--max-width-xl: 1280px;
-	--max-width-l: 1024px;
-	--max-width-m: 800px;
-	--max-width-s: 640px;
-	--max-width-xs: 480px;
+	--max-width-xl: 128rem;
+	--max-width-l: 102.4rem;
+	--max-width-m: 80rem;
+	--max-width-s: 64rem;
+	--max-width-xs: 48rem;
 
 
 	/**
