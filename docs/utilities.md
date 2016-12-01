@@ -785,6 +785,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Margin
 
+### Margin Sizes
+
 <div class="table-responsive">
   <table>
     <thead>
@@ -794,10 +796,6 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
-        <td><code>no-margin</code></td>
-        <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
-      </tr>
       <tr>
         <td><code>margin-xl</code></td>
         <td>Applies <code>var(--margin-xl)</code> to element</td>
@@ -822,6 +820,41 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
+### No Margin
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td><code>no-margin</code></td>
+        <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-margin-top</code></td>
+        <td>Removes top margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-margin-right</code></td>
+        <td>Removes right margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-margin-bottom</code></td>
+        <td>Removes bottom margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-margin-left</code></td>
+        <td>Removes left margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### Margin Vertical
 
 <div class="table-responsive">
@@ -835,29 +868,29 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>margin-vertical-xl</code></td>
-        <td>Applies <code>margin-left: var(--margin-xl);</code> and <code>margin-right: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-xl);</code> and <code>margin-bottom: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-l</code></td>
-        <td>Applies <code>margin-left: var(--margin-l);</code> and <code>margin-right: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-l);</code> and <code>margin-bottom: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-m</code></td>
-        <td>Applies <code>margin-left: var(--margin-m);</code> and <code>margin-right: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-m);</code> and <code>margin-bottom: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-s</code></td>
-        <td>Applies <code>margin-left: var(--margin-s);</code> and <code>margin-right: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-s);</code> and <code>margin-bottom: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-xs</code></td>
-        <td>Applies <code>margin-left: var(--margin-xs);</code> and <code>margin-right: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-top: var(--margin-xs);</code> and <code>margin-bottom: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-### Padding Horizontal
+### Margin Horizontal
 
 <div class="table-responsive">
   <table>
@@ -869,24 +902,24 @@ Utility classes can be used to position elements easily, each position utility c
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-vertical-xl</code></td>
-        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
+        <td><code>margin-horizontal-xl</code></td>
+        <td>Applies <code>margin-left: var(--margin-xl);</code> and <code>margin-right: var(--margin-xl);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-l</code></td>
-        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
+        <td><code>margin-horizontal-l</code></td>
+        <td>Applies <code>margin-left: var(--margin-l);</code> and <code>margin-right: var(--margin-l);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-m</code></td>
-        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
+        <td><code>margin-horizontal-m</code></td>
+        <td>Applies <code>margin-left: var(--margin-m);</code> and <code>margin-right: var(--margin-m);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-s</code></td>
-        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
+        <td><code>margin-horizontal-s</code></td>
+        <td>Applies <code>margin-left: var(--margin-s);</code> and <code>margin-right: var(--margin-s);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-xs</code></td>
-        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
+        <td><code>margin-horizontal-xs</code></td>
+        <td>Applies <code>margin-left: var(--margin-xs);</code> and <code>margin-right: var(--margin-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1034,6 +1067,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Padding
 
+### Padding Sizes
+
 <div class="table-responsive">
   <table>
     <thead>
@@ -1043,10 +1078,6 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
-        <td><code>no-padding</code></td>
-        <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
-      </tr>
       <tr>
         <td><code>padding-xl</code></td>
         <td>Applies <code>var(--padding-xl)</code> to element</td>
@@ -1066,6 +1097,111 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>
         <td><code>padding-xs</code></td>
         <td>Applies <code>var(--padding-xs)</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### No Padding
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td><code>no-padding</code></td>
+        <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-top</code></td>
+        <td>Removes top padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-right</code></td>
+        <td>Removes right padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-bottom</code></td>
+        <td>Removes bottom padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-left</code></td>
+        <td>Removes left padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Padding Vertical
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>padding-vertical-xl</code></td>
+        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-l</code></td>
+        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-m</code></td>
+        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-s</code></td>
+        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-xs</code></td>
+        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Padding Horizontal
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>padding-vertical-xl</code></td>
+        <td>Applies <code>padding-left: var(--padding-xl);</code> and <code>padding-right: var(--padding-xl);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-l</code></td>
+        <td>Applies <code>padding-left: var(--padding-l);</code> and <code>padding-right: var(--padding-l);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-m</code></td>
+        <td>Applies <code>padding-left: var(--padding-m);</code> and <code>padding-right: var(--padding-m);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-s</code></td>
+        <td>Applies <code>padding-left: var(--padding-s);</code> and <code>padding-right: var(--padding-s);</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>padding-vertical-xs</code></td>
+        <td>Applies <code>padding-left: var(--padding-xs);</code> and <code>padding-right: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1106,75 +1242,6 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
-### Padding Vertical
-
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th>Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>padding-vertical-xl</code></td>
-        <td>Applies <code>padding-left: var(--padding-xl);</code> and <code>padding-right: var(--padding-xl);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-l</code></td>
-        <td>Applies <code>padding-left: var(--padding-l);</code> and <code>padding-right: var(--padding-l);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-m</code></td>
-        <td>Applies <code>padding-left: var(--padding-m);</code> and <code>padding-right: var(--padding-m);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-s</code></td>
-        <td>Applies <code>padding-left: var(--padding-s);</code> and <code>padding-right: var(--padding-s);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-xs</code></td>
-        <td>Applies <code>padding-left: var(--padding-xs);</code> and <code>padding-right: var(--padding-xs);</code> to element</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-### Padding Horizontal
-
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th>Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>padding-vertical-xl</code></td>
-        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-l</code></td>
-        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-m</code></td>
-        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-s</code></td>
-        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>padding-vertical-xs</code></td>
-        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
 ### Padding Bottom
 
