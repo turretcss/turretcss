@@ -36,7 +36,11 @@
 	 */
 
 	--body-font-family: var(--font-family-system);
+	--body-font-weight: normal;
 	--body-color: var(--dark);
+	--body-line-height: var(--line-height-s);
+	--body-letter-spacing: 0;
+	--body-background: var(--white);
 
 
 	/**

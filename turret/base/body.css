@@ -1,4 +1,8 @@
 body {
 	font-family: var(--body-font-family);
+	font-weight: var(--body-font-weight);
 	color: var(--body-color);
+	line-height: var(--body-line-height);
+	letter-spacing: var(--body-letter-spacing);
+	background: var(--body-background);
 }
