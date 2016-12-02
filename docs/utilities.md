@@ -863,6 +863,49 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
+### Margin Auto
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td><code>margin-auto</code></td>
+        <td>Adds margin auto</td>
+      </tr>
+      <tr>  
+        <td><code>margin-vertical-auto</code></td>
+        <td>Adds margin auto top and bottom</td>
+      </tr>
+      <tr>  
+        <td><code>margin-horizontal-auto</code></td>
+        <td>Adds margin auto left and right</td>
+      </tr>
+      <tr>  
+        <td><code>margin-top-auto</code></td>
+        <td>Adds top margin auto</td>
+      </tr>
+      <tr>  
+        <td><code>margin-right-auto</code></td>
+        <td>Adds right margin auto</td>
+      </tr>
+      <tr>  
+        <td><code>margin-bottom-auto</code></td>
+        <td>Adds bottom margin auto</td>
+      </tr>
+      <tr>  
+        <td><code>margin-left-auto</code></td>
+        <td>Adds left margin auto</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### Margin Vertical
 
 <div class="table-responsive">
