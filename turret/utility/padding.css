@@ -2,6 +2,16 @@
 	padding: 0 !important;
 }
 
+.no-padding-horizontal {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.no-padding-vertical {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
 .no-padding-top {
 	padding-top: 0 !important;
 }

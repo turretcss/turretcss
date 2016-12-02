@@ -836,6 +836,14 @@ Utility classes can be used to position elements easily, each position utility c
         <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
       <tr>  
+        <td><code>no-margin-vertical</code></td>
+        <td>Removes margin top and bottom <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-margin-horizontal</code></td>
+        <td>Removes margin left and right <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
         <td><code>no-margin-top</code></td>
         <td>Removes top margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
@@ -1116,6 +1124,14 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>  
         <td><code>no-padding</code></td>
         <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-vertical</code></td>
+        <td>Removes padding top and bottom <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
+      </tr>
+      <tr>  
+        <td><code>no-padding-horizontal</code></td>
+        <td>Removes padding left and right <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
       <tr>  
         <td><code>no-padding-top</code></td>
