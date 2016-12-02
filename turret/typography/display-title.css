@@ -1,9 +1,3 @@
 .display-title {
-	margin: var(--display-title-margin);
-	font-family: var(--display-title-font-family);
-	font-weight: var(--display-title-font-weight);
-	font-size: var(--display-title-font-size);
-	line-height: var(--display-title-line-height);
-	text-transform: var(--display-title-text-transform);
-	letter-spacing: var(--display-title-letter-spacing);
+	@apply --display-title;
 }

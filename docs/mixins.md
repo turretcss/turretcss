@@ -87,3 +87,35 @@ Set overflow to scroll with `-webkit-overflow-scrolling: touch;` for Mobile Safa
 ```scss
 @apply --overflow-scroll;
 ```
+
+## Display Title
+
+Applies `.display-title` typographic styles.
+
+```scss
+@apply --display-title;
+```
+
+## Big
+
+Applies `.big` typographic styles.
+
+```scss
+@apply --big;
+```
+
+## Small Caps
+
+Applies `.small-caps` typographic styles.
+
+```scss
+@apply --small-caps;
+```
+
+## Lead
+
+Applies `.lead` typographic styles.
+
+```scss
+@apply --lead;
+```
