@@ -82,7 +82,6 @@
 	width: var(--control-indicator-size);
 	height: var(--control-indicator-size);
 	line-height: 1;
-	color: var(--control-indicator-color);
 	text-align: center;
 	background-color: var(--control-indicator-background);
 	background-size: calc(var(--control-indicator-size) - (var(--control-indicator-padding) * 2));

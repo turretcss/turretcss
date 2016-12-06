@@ -814,7 +814,6 @@
 
 	--control-indicator-size: 2.4rem;
 	--control-indicator-padding: 0.4rem;
-	--control-indicator-color: var(--primary);
 	--control-indicator-background: var(--input-background);
 	--control-indicator-border: var(--input-border);
 	--control-indicator-border-color: var(--input-border-color);
