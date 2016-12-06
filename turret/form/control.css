@@ -1,9 +1,12 @@
 .control {
 	position: relative;
-	display: block;
 	margin: var(--control-margin);
 	padding: var(--control-padding);
+	font-family: var(--control-font-family);
+	font-weight: var(--control-font-weight);
+	font-size: var(--control-font-size);
 	color: var(--control-color);
+	line-height: var(--control-line-height);
 	cursor: pointer;
 	
 	&.control-inline {
@@ -20,6 +23,7 @@
 	& input[type="radio"] {
 		z-index: -1;
 		position: absolute;
+		margin: 0;
 		opacity: 0;
 
 		&:focus & ~ .control-indicator {
@@ -29,7 +33,7 @@
 		&:checked {
 			
 			& ~ .control-indicator {
-				background: var(--control-checked-indicator-background);
+				background-color: var(--control-checked-indicator-background);
 				border: var(--control-checked-indicator-border);
 			}
 			
@@ -48,7 +52,8 @@
 		& input[type="checkbox"]:checked {
 			
 			& ~ .control-indicator {
-				background: var(--control-checked-indicator-background) no-repeat 50% 50% url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K');
+				background-color: var(--control-checked-indicator-background);
+				background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K');
 			}
 		}
 	}
@@ -59,44 +64,40 @@
 			border-radius: var(--radio-border-radius);
 		}
 	
-		& input[type="radio"]:checked ~ .control-indicator:before {
+		& input[type="radio"]:checked ~ .control-indicator::before {
 			@apply --center;
 			background: var(--white);
 			content: '';
-			width: 0.5em;
-			height: 0.5em;
+			width: var(--radio-indicator-size);
+			height: var(--radio-indicator-size);
 			border-radius: var(--radio-border-radius);
 		}
 	}
 }
 
 .control-indicator {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
+	position: relative;
+	display: inline-block;
+	padding: var(--control-indicator-padding);
 	width: var(--control-indicator-size);
 	height: var(--control-indicator-size);
 	line-height: 1;
 	color: var(--control-indicator-color);
 	text-align: center;
 	background-color: var(--control-indicator-background);
-	background-size: 50% 50%;
+	background-size: calc(var(--control-indicator-size) - (var(--control-indicator-padding) * 2));
 	background-position: center center;
 	background-repeat: no-repeat;
 	border: var(--control-indicator-border);
 	border-color: var(--control-indicator-border-color);
 	user-select: none;
+	vertical-align: middle;
 	@apply --transition-fast;
 }
 
 .control-label {
-	display: block;
+	display: inline-block;
 	margin: var(--control-label-margin);
-	font-family: var(--control-label-font-family);
-	font-weight: var(--control-label-font-weight);
-	font-size: var(--control-label-font-size);
 	color: var(--control-label-color);
-	line-height: var(--control-label-line-height);
 	@apply --transition-fast;
 }

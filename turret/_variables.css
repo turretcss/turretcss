@@ -796,8 +796,12 @@
 	 */
 
 	--control-margin: var(--input-margin);
-	--control-padding: 0 0 0 1.5em;
+	--control-padding: 0;
+	--control-font-family: var(--input-font-family);
+	--control-font-weight: var(--input-font-weight);
+	--control-font-size: var(--input-font-size);
 	--control-color: var(--input-color);
+	--control-line-height: var(--input-line-height);
 
 	--control-hover-indicator-background: var(--input-hover-background);
 	--control-hover-indicator-border-color: var(--input-hover-border-color);
@@ -808,24 +812,43 @@
 	--control-checked-indicator-border: 1px solid var(--primary);
 	--control-checked-label-color: var(--control-label-color);
 
-	--control-indicator-size: 20px;
+	--control-indicator-size: 2.4rem;
+	--control-indicator-padding: 0.4rem;
 	--control-indicator-color: var(--primary);
 	--control-indicator-background: var(--input-background);
 	--control-indicator-border: var(--input-border);
 	--control-indicator-border-color: var(--input-border-color);
 
 	--control-label-margin: 0 0 0 1rem;
-	--control-label-font-family: var(--label-font-family);
-	--control-label-font-weight: var(--label-font-weight);
-	--control-label-font-size: var(--label-font-size);
-	--control-label-color: var(--label-color);
-	--control-label-line-height: var(--label-line-height);
+	--control-label-color: inherit;
 
 	--control-inline-margin-right: 2rem;
 
-	--checkbox-border-radius: none;
+	--checkbox-border-radius: 0;
 
 	--radio-border-radius: 50%;
+	--radio-indicator-size: 0.5em;
+
+
+	/** 
+	 * Control Sizes
+	 */
+	
+	--control-xl-font-size: var(--font-size-xl);
+	--control-xl-indicator-padding: 0.6rem;
+	--control-xl-indicator-size: 3.2rem;
+
+	--control-l-font-size: var(--font-size-l);
+	--control-l-indicator-padding: 0.5rem;
+	--control-l-indicator-size: 2.8rem;
+
+	--control-s-font-size: var(--font-size-s);
+	--control-s-indicator-padding: 0.3rem;
+	--control-s-indicator-size: 2.0rem;
+
+	--control-xs-font-size: var(--font-size-xs);
+	--control-xs-indicator-padding: 0.2rem;
+	--control-xs-indicator-size: 1.6rem;
 
 
 	/**

@@ -1,0 +1,43 @@
+.control-xl {
+	font-size: var(--control-xl-font-size);
+	
+	& .control-indicator {
+		padding: var(--control-xl-indicator-padding);
+		width: var(--control-xl-indicator-size);
+		height: var(--control-xl-indicator-size);
+		background-size: calc(var(--control-xl-indicator-size) - (var(--control-xl-indicator-padding) * 2));
+	}
+}
+
+.control-l {
+	font-size: var(--control-l-font-size);
+	
+	& .control-indicator {
+		padding: var(--control-l-indicator-padding);
+		width: var(--control-l-indicator-size);
+		height: var(--control-l-indicator-size);
+		background-size: calc(var(--control-l-indicator-size) - (var(--control-l-indicator-padding) * 2));
+	}
+}
+
+.control-s {
+	font-size: var(--control-s-font-size);
+	
+	& .control-indicator {
+		padding: var(--control-s-indicator-padding);
+		width: var(--control-s-indicator-size);
+		height: var(--control-s-indicator-size);
+		background-size: calc(var(--control-s-indicator-size) - (var(--control-s-indicator-padding) * 2));
+	}
+}
+
+.control-xs {
+	font-size: var(--control-xs-font-size);
+	
+	& .control-indicator {
+		padding: var(--control-xs-indicator-padding);
+		width: var(--control-xs-indicator-size);
+		height: var(--control-xs-indicator-size);
+		background-size: calc(var(--control-xs-indicator-size) - (var(--control-xs-indicator-padding) * 2));
+	}
+}

@@ -8,7 +8,7 @@ permalink: /docs/form/
 
 ## Example
 
-<form role="form">
+<form>
   <div class="field">
     <label for="form-simple-email">Email</label>
     <input type="email" id="form-simple-email" placeholder="Enter Email">
@@ -31,7 +31,7 @@ permalink: /docs/form/
 </form>
 
 ```html
-<form role="form">
+<form>
   <div class="field">
     <label for="form-simple-email">Email</label>
     <input type="email" id="form-simple-email" placeholder="Enter Email">
@@ -73,7 +73,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Label
 
-<form role="form">
+<form>
   <label for="input">Label</label>
 </form>
 
@@ -92,7 +92,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Fieldset 
 
-<form role="form">
+<form>
   <fieldset>
     <div class="field">
       <label for="fieldset-email">Email</label>
@@ -121,7 +121,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Legend 
 
-<form role="form">
+<form>
   <fieldset>
     <legend>Login</legend>
   </fieldset>
@@ -144,7 +144,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Form Message
 
-<form role="form">
+<form>
   <div class="field">
     <label for="form-message-title">Title</label>
     <input type="text" id="form-message-title" placeholder="Title">
@@ -192,7 +192,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Input
 
-<form role="form">
+<form>
   <div class="field">
     <label for="input-text">Text Input</label>
     <input type="text" id="input-text" placeholder="Text">
@@ -354,7 +354,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Input Indicators
 
-<form role="form">
+<form>
   <div class="field">
     <label for="error">Input Error</label>
     <input class="error" type="text" id="error" value="Input Error">
@@ -390,7 +390,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ## Input Sizes
 
 
-<form role="form">
+<form>
   <div class="field">
     <input class="input-xl" type="text" placeholder="Input Extra Large">
   </div>
@@ -450,7 +450,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Input Group Sizes
 
-<form role="form">
+<form>
   <div class="field">
     <div class="input-group">
       <input class="input-xl" type="text" placeholder="Input Group Extra Large">
@@ -514,8 +514,12 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ```scss
 --control-margin: var(--input-margin);
---control-padding: 0 0 0 1.5em;
+--control-padding: 0;
+--control-font-family: var(--input-font-family);
+--control-font-weight: var(--input-font-weight);
+--control-font-size: var(--input-font-size);
 --control-color: var(--input-color);
+--control-line-height: var(--input-line-height);
 
 --control-hover-indicator-background: var(--input-hover-background);
 --control-hover-indicator-border-color: var(--input-hover-border-color);
@@ -526,25 +530,27 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-checked-indicator-border: 1px solid var(--primary);
 --control-checked-label-color: var(--control-label-color);
 
---control-indicator-size: 20px;
+--control-indicator-size: 24px;
+--control-indicator-padding: 4px;
 --control-indicator-color: var(--primary);
 --control-indicator-background: var(--input-background);
 --control-indicator-border: var(--input-border);
 --control-indicator-border-color: var(--input-border-color);
 
 --control-label-margin: 0 0 0 1rem;
---control-label-font-family: var(--label-font-family);
---control-label-font-weight: var(--label-font-weight);
---control-label-font-size: var(--label-font-size);
---control-label-color: var(--label-color);
---control-label-line-height: var(--label-line-height);
+--control-label-color: inherit;
 
 --control-inline-margin-right: 2rem;
+
+--checkbox-border-radius: 0;
+
+--radio-border-radius: 50%;
+--radio-indicator-size: 0.5em;
 ```
 
 ### Checkbox
 
-<form role="form">
+<form>
   <label class="control checkbox">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
@@ -566,7 +572,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ### Radio
 
-<form role="form">
+<form>
   <label class="control radio">
     <input type="radio" name="radio">
     <span class="control-indicator"></span>
@@ -588,7 +594,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ### Checkbox Inline
 
-<form role="form">
+<form>
   <label class="control control-inline checkbox">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
@@ -626,7 +632,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ### Radio Inline
 
-<form role="form">
+<form>
   <label class="control control-inline radio">
     <input type="radio" name="radio">
     <span class="control-indicator"></span>
@@ -662,9 +668,121 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 </label>
 ```
 
+## Control Sizes
+
+### Checkbox
+
+<form>
+  <label class="control control-xl checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Extra Large</span>
+  </label>
+  <label class="control control-l checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Large</span>
+  </label>
+  <label class="control checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Medium</span>
+  </label>
+  <label class="control control-s checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Small</span>
+  </label>
+  <label class="control control-xs checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Extra Small</span>
+  </label>
+</form>
+
+### Radio
+
+<form>
+  <label class="control control-xl radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Extra Large</span>
+  </label>
+  <label class="control control-l radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Large</span>
+  </label>
+  <label class="control radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Medium</span>
+  </label>
+  <label class="control control-s radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Small</span>
+  </label>
+  <label class="control control-xs radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Extra Small</span>
+  </label>
+</form>
+
+```scss
+--control-xl-font-size: var(--font-size-xl);
+--control-xl-indicator-padding: 6px;
+--control-xl-indicator-size: 32px;
+
+--control-l-font-size: var(--font-size-l);
+--control-l-indicator-padding: 5px;
+--control-l-indicator-size: 28px;
+
+--control-s-font-size: var(--font-size-s);
+--control-s-indicator-padding: 3px;
+--control-s-indicator-size: 20px;
+
+--control-xs-font-size: var(--font-size-xs);
+--control-xs-indicator-padding: 2px;
+--control-xs-indicator-size: 16px;
+```
+
+```html 
+<label class="control control-xl">
+  <input type="..." name="...">
+  <span class="control-indicator"></span>
+  <span class="control-label">...</span>
+</label>
+
+<label class="control control-l">
+  <input type="..." name="...">
+  <span class="control-indicator"></span>
+  <span class="control-label">...</span>
+</label>
+
+<label class="control">
+  <input type="..." name="...">
+  <span class="control-indicator"></span>
+  <span class="control-label">...</span>
+</label>
+
+<label class="control control-s">
+  <input type="..." name="...">
+  <span class="control-indicator"></span>
+  <span class="control-label">...</span>
+</label>
+
+<label class="control control-xs">
+  <input type="..." name="...">
+  <span class="control-indicator"></span>
+  <span class="control-label">...</span>
+</label>
+```
+
 ## Select
 
-<form role="form">
+<form>
   <div class="field">
     <label class="select" for="select">
       <select id="select">
@@ -727,7 +845,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Select Indicators
 
-<form role="form">
+<form>
   <div class="field">
     <label class="select error" for="select-error">
       <select id="select-error">
@@ -790,7 +908,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Select Sizes
 
-<form role="form">
+<form>
   <div class="field">  
     <label class="select select-xl" for="select-xl">
       <select id="select-xl">
@@ -865,7 +983,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
   <select id="select-l">...</select>
 </label>
 
-<label class="select select-m" for="select-m">
+<label class="select" for="select-m">
   <select id="select-m">...</select>
 </label>
 
