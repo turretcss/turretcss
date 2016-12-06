@@ -25,8 +25,9 @@ select {
 		color: var(--select-color);
 		line-height: inherit;
 		background: var(--select-background);
-		border: var(--select-border);
-		border-color: var(--input-border-color);
+		border-width: var(--select-border-width);
+		border-style: var(--select-border-style);
+		border-color: var(--select-border-color);
 		border-radius: var(--select-border-radius);
 		@apply --transition-fast;
 		
@@ -138,8 +139,9 @@ select {
 		content: '';
 		pointer-events: none;
 		width: 1em;
-		border: var(--select-border);
 		border-width: 1px 1px 1px 0px;
+		border-color: var(--select-border-color);
+		border-style: var(--select-border-style);
 		background: var(--select-background);
 	}
 	

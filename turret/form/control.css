@@ -87,7 +87,8 @@
 	background-size: calc(var(--control-indicator-size) - (var(--control-indicator-padding) * 2));
 	background-position: center center;
 	background-repeat: no-repeat;
-	border: var(--control-indicator-border);
+	border-width: var(--control-indicator-border-width);
+	border-style: var(--control-indicator-border-style);
 	border-color: var(--control-indicator-border-color);
 	user-select: none;
 	vertical-align: middle;

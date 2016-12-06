@@ -688,7 +688,8 @@
 	--input-font-size: var(--font-size-m);
 	--input-line-height: var(--line-height-m);
 	--input-background: var(--white);
-	--input-border: 1px solid;
+	--input-border-width: 1px;
+	--input-border-style: solid;
 	--input-border-color: var(--light);
 	--input-border-radius: var(--border-radius);
 	
@@ -705,7 +706,7 @@
 
 	--input-disabled-color: var(--input-color);
 	--input-disabled-background: color(var(--input-background) shade(5%));
-	--input-disabled-border-color: var(--input-border);
+	--input-disabled-border-color: var(--input-border-color);
 
 
 	/** 
@@ -750,7 +751,8 @@
 	--select-color: var(--input-color);
 	--select-line-height: auto;
 	--select-background: var(--input-background);
-	--select-border: var(--input-border);
+	--select-border-width: var(--input-border-width);
+	--select-border-style: var(--input-border-style);
 	--select-border-color: var(--input-border-color);
 	--select-border-radius: var(--border-radius);
 
@@ -815,7 +817,8 @@
 	--control-indicator-size: 2.4rem;
 	--control-indicator-padding: 0.4rem;
 	--control-indicator-background: var(--input-background);
-	--control-indicator-border: var(--input-border);
+	--control-indicator-border-width: var(--input-border-width);
+	--control-indicator-border-style: var(--input-border-style);
 	--control-indicator-border-color: var(--input-border-color);
 
 	--control-label-margin: 0 0 0 1rem;

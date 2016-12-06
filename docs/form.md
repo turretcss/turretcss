@@ -267,16 +267,17 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-margin: var(--label-margin);
 --input-padding: 0 1em;
 --input-height: var(--height-m);
---input-color: var(--dark);
+--input-color: inherit;
 --input-font-family: inherit;
 --input-font-weight: inherit;
 --input-font-size: var(--font-size-m);
 --input-line-height: var(--line-height-m);
 --input-background: var(--white);
---input-border: 1px solid;
+--input-border-width: 1px;
+--input-border-style: solid;
 --input-border-color: var(--light);
 --input-border-radius: var(--border-radius);
-  
+
 --input-placeholder-color: var(--input-color);
 --input-placeholder-opacity: 0.5;
 
@@ -290,7 +291,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 --input-disabled-color: var(--input-color);
 --input-disabled-background: color(var(--input-background) shade(5%));
---input-disabled-border-color: var(--input-border);
+--input-disabled-border-color: var(--input-border-color);
 
 --textarea-padding: 1em;
 --textarea-line-height: inherit;
@@ -530,10 +531,11 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-checked-indicator-border: 1px solid var(--primary);
 --control-checked-label-color: var(--control-label-color);
 
---control-indicator-size: 24px;
---control-indicator-padding: 4px;
+--control-indicator-size: 2.4rem;
+--control-indicator-padding: 0.4rem;
 --control-indicator-background: var(--input-background);
---control-indicator-border: var(--input-border);
+--control-indicator-border-width: var(--input-border-width);
+--control-indicator-border-style: var(--input-border-style);
 --control-indicator-border-color: var(--input-border-color);
 
 --control-label-margin: 0 0 0 1rem;
@@ -812,7 +814,8 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --select-color: var(--input-color);
 --select-line-height: auto;
 --select-background: var(--input-background);
---select-border: var(--input-border);
+--select-border-width: var(--input-border-width);
+--select-border-style: var(--input-border-style);
 --select-border-color: var(--input-border-color);
 --select-border-radius: var(--border-radius);
 
