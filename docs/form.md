@@ -532,7 +532,6 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 --control-indicator-size: 24px;
 --control-indicator-padding: 4px;
---control-indicator-color: var(--primary);
 --control-indicator-background: var(--input-background);
 --control-indicator-border: var(--input-border);
 --control-indicator-border-color: var(--input-border-color);
