@@ -18,8 +18,9 @@ textarea {
 	border-radius: var(--input-border-radius);
 	@apply --transition-fast;
 	
-	&:placeholder {
-		color: color(var(--input-color) alpha(-50%));
+	&::placeholder {
+		color: var(--input-placeholder-color);
+		opacity: var(--input-placeholder-opacity);
 	}
 
 	&:not(:disabled):hover {

@@ -276,6 +276,9 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-border: 1px solid;
 --input-border-color: var(--light);
 --input-border-radius: var(--border-radius);
+  
+--input-placeholder-color: var(--input-color);
+--input-placeholder-opacity: 0.5;
 
 --input-hover-color: var(--input-color);
 --input-hover-background: color(var(--input-background) shade(2%));

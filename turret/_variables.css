@@ -682,7 +682,7 @@
 	--input-margin: var(--label-margin);
 	--input-padding: 0 1em;
 	--input-height: var(--height-m);
-	--input-color: var(--dark);
+	--input-color: inherit;
 	--input-font-family: inherit;
 	--input-font-weight: inherit;
 	--input-font-size: var(--font-size-m);
@@ -691,6 +691,9 @@
 	--input-border: 1px solid;
 	--input-border-color: var(--light);
 	--input-border-radius: var(--border-radius);
+	
+	--input-placeholder-color: var(--input-color);
+	--input-placeholder-opacity: 0.5;
 
 	--input-hover-color: var(--input-color);
 	--input-hover-background: color(var(--input-background) shade(2%));
