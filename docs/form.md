@@ -71,6 +71,24 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 <div class="field">...</div>
 ```
 
+### Field Float Label
+
+<div class="field field-float-label">
+  <input type="email" id="field" placeholder="Name">
+  <label for="field">Name</label>
+</div>
+
+```scss
+--field-float-label-padding: 0.25em;
+```
+
+```html
+<div class="field field-float-label">
+  <input type="text" id="field">
+  <label for="field">...</label>
+</div>
+```
+
 ## Label
 
 <form>
