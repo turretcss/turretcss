@@ -1,4 +1,5 @@
 .control {
+	display: flex;
 	position: relative;
 	margin: var(--control-margin);
 	padding: var(--control-padding);
@@ -76,8 +77,9 @@
 }
 
 .control-indicator {
+	flex: 0 0 auto;
 	position: relative;
-	display: inline-block;
+	display: block;
 	padding: var(--control-indicator-padding);
 	width: var(--control-indicator-size);
 	height: var(--control-indicator-size);
@@ -96,7 +98,8 @@
 }
 
 .control-label {
-	display: inline-block;
+	flex: 1 1 auto;
+	display: block;
 	margin: var(--control-label-margin);
 	color: var(--control-label-color);
 	@apply --transition-fast;
