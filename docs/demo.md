@@ -461,6 +461,68 @@ permalink: /docs/demo/
   </label>
 </div>
 
+### Control Sizes
+
+#### Checkbox
+
+<form>
+  <label class="control control-xl checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Extra Large</span>
+  </label>
+  <label class="control control-l checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Large</span>
+  </label>
+  <label class="control checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Medium</span>
+  </label>
+  <label class="control control-s checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Small</span>
+  </label>
+  <label class="control control-xs checkbox">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Extra Small</span>
+  </label>
+</form>
+
+#### Radio
+
+<form>
+  <label class="control control-xl radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Extra Large</span>
+  </label>
+  <label class="control control-l radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Large</span>
+  </label>
+  <label class="control radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Medium</span>
+  </label>
+  <label class="control control-s radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Small</span>
+  </label>
+  <label class="control control-xs radio">
+    <input type="radio" name="radio">
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Extra Small</span>
+  </label>
+</form>
+
 
 ### Select
 
