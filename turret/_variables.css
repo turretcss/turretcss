@@ -22,7 +22,7 @@
 	 * Root
 	 */
 
-	--root-size: 10px;
+	--root-size: 16px;
 	--root-size-xl: var(--root-size);
 	--root-size-l: var(--root-size);
 	--root-size-m: var(--root-size);
@@ -80,22 +80,22 @@
 	 * Height
 	 */
 
-	--height-xl: 6.0rem;
-	--height-l: 5.2rem;
-	--height-m: 4.4rem;
-	--height-s: 3.6rem;
-	--height-xs: 2.8rem;
+	--height-xl: 4rem;
+	--height-l: 3.5rem;
+	--height-m: 3rem;
+	--height-s: 2.5rem;
+	--height-xs: 2rem;
 
 
 	/**
 	 * Space
 	 */
 
-	--space-xl: 8.0rem;
-	--space-l: 5.0rem;
-	--space-m: 3.5rem;
-	--space-s: 2.0rem;
-	--space-xs: 1.5rem;
+	--space-xl: 5rem;
+	--space-l: 4rem;
+	--space-m: 3rem;
+	--space-s: 2rem;
+	--space-xs: 1rem;
 
 
 	/**
@@ -124,11 +124,11 @@
 	 * Max Width
 	 */
 
-	--max-width-xl: 128rem;
-	--max-width-l: 102.4rem;
-	--max-width-m: 80rem;
-	--max-width-s: 64rem;
-	--max-width-xs: 48rem;
+	--max-width-xl: 70rem;
+	--max-width-l: 60rem;
+	--max-width-m: 50rem;
+	--max-width-s: 40rem;
+	--max-width-xs: 30rem;
 
 
 	/**
@@ -279,16 +279,16 @@
 	 * Gutter
 	 */
 
-	--gutter: 2rem;
+	--gutter: 1rem;
 
 
 	/**
 	 * Container
 	 */
 
-	--container-xl: 1440px;
-	--container-l: 1280px;
-	--container-m: 1024px;
+	--container-xl: 90rem;
+	--container-l: 80rem;
+	--container-m: 70rem;
 	--container-s: 100%;
 	--container-xs: 100%;
 
@@ -320,11 +320,11 @@
 	 * Font Sizes
 	 */
 
-	--font-size-xl: 2.0rem;
-	--font-size-l: 1.8rem;
-	--font-size-m: 1.6rem;
-	--font-size-s: 1.4rem;
-	--font-size-xs: 1.2rem;
+	--font-size-xl: 1.25rem;
+	--font-size-l: 1.125rem;
+	--font-size-m: 1rem;
+	--font-size-s: 0.875rem;
+	--font-size-xs: 0.75rem;
 
 
 	/**
@@ -363,12 +363,12 @@
 	 * Heading Font Sizes
 	 */
 
-	--h1-font-size: 3.2rem;
-	--h2-font-size: 2.4rem;
-	--h3-font-size: 1.8rem;
-	--h4-font-size: 1.6rem;
-	--h5-font-size: 1.4rem;
-	--h6-font-size: 1.2rem;
+	--h1-font-size: 2.25rem;
+	--h2-font-size: 2.0rem;
+	--h3-font-size: 1.5rem;
+	--h4-font-size: 1.25rem;
+	--h5-font-size: 1.125rem;
+	--h6-font-size: 1rem;
 
 
 	/**
@@ -378,7 +378,7 @@
 	--display-title-margin: 0;
 	--display-title-font-family: var(--headings-font-family);
 	--display-title-font-weight: var(--font-weight-bold);
-	--display-title-font-size: 3.6rem;
+	--display-title-font-size: 2.25rem;
 	--display-title-line-height: var(--line-height-xs);
 	--display-title-text-transform: uppercase;
 	--display-title-letter-spacing: 0.05em;
@@ -640,7 +640,7 @@
 	 * Field
 	 */
 
-	--field-margin: var(--margin-s) 0;
+	--field-margin: var(--margin-xs) 0;
 	--field-float-label-padding: 0.25em;
 
 
@@ -649,7 +649,7 @@
 	 */
 
 	--fieldset-margin: var(--field-margin);
-	--fieldset-padding: var(--padding-s);
+	--fieldset-padding: var(--padding-xs);
 	--fieldset-border: 1px solid var(--light);
 
 
@@ -735,7 +735,7 @@
 	 * Textarea
 	 */
 
-	--textarea-padding: 1em;
+	--textarea-padding: 1rem;
 	--textarea-line-height: inherit;
 
 
@@ -815,7 +815,7 @@
 	--control-checked-indicator-border: 1px solid var(--primary);
 	--control-checked-label-color: var(--control-label-color);
 
-	--control-indicator-size: 2.4rem;
+	--control-indicator-size: 1.5rem;
 	--control-indicator-padding: 0.4rem;
 	--control-indicator-background: var(--input-background);
 	--control-indicator-border-width: var(--input-border-width);
@@ -839,19 +839,19 @@
 	
 	--control-xl-font-size: var(--font-size-xl);
 	--control-xl-indicator-padding: 0.6rem;
-	--control-xl-indicator-size: 3.2rem;
+	--control-xl-indicator-size: 2rem;
 
 	--control-l-font-size: var(--font-size-l);
 	--control-l-indicator-padding: 0.5rem;
-	--control-l-indicator-size: 2.8rem;
+	--control-l-indicator-size: 1.75rem;
 
 	--control-s-font-size: var(--font-size-s);
 	--control-s-indicator-padding: 0.3rem;
-	--control-s-indicator-size: 2.0rem;
+	--control-s-indicator-size: 1.25rem;
 
 	--control-xs-font-size: var(--font-size-xs);
 	--control-xs-indicator-padding: 0.2rem;
-	--control-xs-indicator-size: 1.6rem;
+	--control-xs-indicator-size: 1rem;
 
 
 	/**
