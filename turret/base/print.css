@@ -6,34 +6,38 @@
 @media print {
 
 	*,
-	*:before,
-	*:after {
+	*::before,
+	*::after {
 		background: transparent !important;
 		color: var(--black) !important; /* Black prints faster: h5bp.com/s */
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
 
-	a,
-	a:visited {
-		text-decoration: underline;
+	a {
+		text-decoration: underline !important;
 	}
 
-	a[href]:after {
-		content: '("attr(href)")';
+	a[href]::after {
+		margin-left: 0.2em;
+		content: attr(href);
 	}
 
 	a[href^="#"]:after {
 		content: '';
 	}
 
-	abbr[title]:after {
-		content: '("attr(title)")';
+	abbr[title]::after {
+		margin-left: 0.2em;
+		content: attr(title);
 	}
 
-	pre,
+	pre {
+		page-break-inside: avoid;
+		border: 1px solid var(--grey) !important;
+	}
+
 	blockquote {
-		border: 1px solid #999999;
 		page-break-inside: avoid;
 	}
 
@@ -67,7 +71,7 @@
 
 		td,
 		th {
-			background-color: var(--white) !important);
+			background-color: var(--white) !important;
 		}
 	}
 }
