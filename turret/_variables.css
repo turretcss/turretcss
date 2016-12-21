@@ -376,7 +376,7 @@
 	 */
 	
 	--display-title-margin: 0;
-	--display-title-font-family: inherit;
+	--display-title-font-family: var(--headings-font-family);
 	--display-title-font-weight: var(--font-weight-bold);
 	--display-title-font-size: 3.6rem;
 	--display-title-line-height: var(--line-height-xs);
