@@ -41,7 +41,7 @@ Where styles are applied on HTML elements with classes, the structuring of class
 To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
 ### HTML5 Doctype
@@ -65,7 +65,7 @@ For improved cross-browser rendering, Turret uses Normalize.css, a project by Ni
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Turret</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/turret.css" />
   </head>
   <body>
