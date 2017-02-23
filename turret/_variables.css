@@ -91,11 +91,11 @@
 	 * Space
 	 */
 
-	--space-xl: 5rem;
-	--space-l: 4rem;
-	--space-m: 3rem;
-	--space-s: 2rem;
-	--space-xs: 1rem;
+	--space-xl: calc(5rem + 1vw);
+	--space-l: calc(4rem + 1vw);
+	--space-m: calc(3rem + 1vw);
+	--space-s: calc(2rem + 1vw);
+	--space-xs: calc(1rem + 1vw);
 
 
 	/**
@@ -124,11 +124,11 @@
 	 * Max Width
 	 */
 
-	--max-width-xl: 70rem;
-	--max-width-l: 60rem;
-	--max-width-m: 50rem;
-	--max-width-s: 40rem;
-	--max-width-xs: 30rem;
+	--max-width-xl: 80rem;
+	--max-width-l: 70rem;
+	--max-width-m: 60rem;
+	--max-width-s: 50rem;
+	--max-width-xs: 40rem;
 
 
 	/**
@@ -279,7 +279,7 @@
 	 * Gutter
 	 */
 
-	--gutter: 1rem;
+	--gutter: calc(1rem + 1vw);
 
 
 	/**
@@ -377,7 +377,7 @@
 	
 	--display-title-margin: 0;
 	--display-title-font-family: var(--headings-font-family);
-	--display-title-font-weight: var(--font-weight-bold);
+	--display-title-font-weight: var(--headings-font-weight);
 	--display-title-font-size: 2.25rem;
 	--display-title-line-height: var(--line-height-xs);
 	--display-title-text-transform: uppercase;
@@ -389,8 +389,8 @@
 	 */
 	
 	--big-margin: 0;
-	--big-font-family: inherit;
-	--big-font-weight: inherit;
+	--big-font-family: var(--headings-font-family);
+	--big-font-weight: var(--headings-font-weight);
 	--big-line-height: var(--line-height-s);
 	--big-base-size: 32px;
 	--big-min-size: 32;
@@ -405,12 +405,12 @@
 	 */
 	
 	--small-caps-margin: 1em 0;
-	--small-caps-font-family: inherit;
-	--small-caps-font-weight: var(--font-weight-bold);
-	--small-caps-font-size: var(--font-size-xs);
+	--small-caps-font-family: var(--headings-font-family);
+	--small-caps-font-weight: var(--headings-font-weight);
+	--small-caps-font-size: var(--font-size-s);
 	--small-caps-line-height: var(--line-height-xs);
 	--small-caps-text-transform: uppercase;
-	--small-caps-letter-spacing: 0.1em;
+	--small-caps-letter-spacing: 0;
 
 
 	/**
@@ -431,7 +431,7 @@
 
 	--paragraph-margin: 1em 0;
 	--paragraph-font-family: inherit;
-	--paragraph-font-weight: inherit;
+	--paragraph-font-weight: normal;
 	--paragraph-font-size: var(--font-size-m);
 	--paragraph-color: inherit;
 	--paragraph-line-height: var(--line-height-m);
@@ -467,7 +467,7 @@
 	 * Horizontal Rule
 	 */
 
-	--horizontal-rule-margin: var(--margin-m) auto;
+	--horizontal-rule-margin: var(--margin-s) auto;
 	--horizontal-rule-height: 1px;
 	--horizontal-rule-background: var(--light);
 
@@ -492,7 +492,7 @@
 
 	--cite-margin: 1em 0;
 	--cite-font-family: inherit;
-	--cite-font-weight: var(--font-weight-medium);
+	--cite-font-weight: normal;
 	--cite-font-size: var(--font-size-s);
 	--cite-font-style: normal;
 	--cite-color: inherit;
@@ -735,7 +735,7 @@
 	 * Textarea
 	 */
 
-	--textarea-padding: 1rem;
+	--textarea-padding: 1em;
 	--textarea-line-height: inherit;
 
 
@@ -809,7 +809,7 @@
 	--control-hover-indicator-background: var(--input-hover-background);
 	--control-hover-indicator-border-color: var(--input-hover-border-color);
 
-	--control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--primary);
+	--control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--input-focus-border-color);
 
 	--control-checked-indicator-background: var(--primary);
 	--control-checked-indicator-border: 1px solid var(--primary);
@@ -981,7 +981,7 @@
 	 * Spinner
 	 */
 
-	--spinner-size: 3rem;
+	--spinner-size: 2rem;
 	--spinner-speed: var(--speed-slow);
 	--spinner-background-color: color(var(--black) alpha(10%));
 	--spinner-foreground-color: var(--white);
@@ -1005,7 +1005,7 @@
 
 	--table-head-padding: 0.5em;
 	--table-head-font-family: inherit;
-	--table-head-font-weight: var(--font-weight-medium);
+	--table-head-font-weight: normal;
 	--table-head-font-size: var(--font-size-s);
 	--table-head-text-align: left;
 	--table-head-text-transform: none;
