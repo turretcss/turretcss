@@ -102,6 +102,7 @@
 @import './form/select-sizes';
 @import './form/control';
 @import './form/control-sizes';
+@import './form/range';
 @import './form/input-group';
 
 

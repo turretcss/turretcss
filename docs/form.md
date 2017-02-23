@@ -1015,3 +1015,51 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
   <select id="select-xs">...</select>
 </label>
 ```
+
+## Range
+
+<form>
+  <div class="field">
+    <input type="range" min="0" max="100" />
+  </div>
+  <div class="field">
+    <input type="range" min="0" max="100" disabled />
+  </div>
+</form>
+
+```html 
+<input type="range" min="0" max="100" />
+<input type="range" min="0" max="100" disabled />
+```
+
+```scss
+--range-margin: var(--input-margin);
+--range-padding: 0;
+
+--range-thumb-width: 1.5rem;
+--range-thumb-height: var(--range-thumb-width);
+--range-thumb-background: var(--input-background);
+--range-thumb-border-width: var(--input-border-width);
+--range-thumb-border-style: var(--input-border-style);
+--range-thumb-border-color: var(--input-border-color);
+--range-thumb-border-radius: 50%;
+
+--range-thumb-hover-background: var(--input-hover-background);
+--range-thumb-hover-border-color: var(--input-hover-border-color);
+
+--range-thumb-focus-background: var(--input-focus-background);
+--range-thumb-focus-border-color: var(--input-focus-border-color);
+
+--range-track-height: 0.5rem;
+--range-track-background: var(--input-background);
+--range-track-border-width: var(--input-border-width);
+--range-track-border-style: var(--input-border-style);
+--range-track-border-color: var(--input-border-color);
+--range-track-border-radius: var(--input-border-radius);
+
+--range-track-hover-background: var(--input-hover-background);
+--range-track-hover-border-color: var(--input-hover-border-color);
+
+--range-track-focus-background: var(--input-focus-background);
+--range-track-focus-border-color: var(--input-focus-border-color);
+```

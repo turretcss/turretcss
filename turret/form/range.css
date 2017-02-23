@@ -1,0 +1,167 @@
+:root {
+	
+	--range-thumb: {
+		height: var(--range-thumb-height);
+		width: var(--range-thumb-width);
+		cursor: pointer;
+		background: var(--range-thumb-background);
+		border-width: var(--range-thumb-border-width);
+		border-style: var(--range-thumb-border-style);
+		border-color: var(--range-thumb-border-color);
+		border-radius: var(--range-thumb-border-radius);
+		@apply --transition-fast;
+	}
+
+	--range-thumb-hover: {
+		background: var(--range-thumb-hover-background);
+		border-color: var(--range-thumb-hover-border-color);
+	}
+
+	--range-thumb-focus: {
+		background: var(--range-thumb-focus-background);
+		border-color: var(--range-thumb-focus-border-color);
+	}
+
+	--range-track: {
+		width: 100%;
+		height: var(--range-track-height);
+		cursor: pointer;
+		background: var(--range-track-background);
+		border-radius: var(--range-track-border-radius);
+		border-width: var(--range-track-border-width);
+		border-style: var(--range-track-border-style);
+		border-color: var(--range-track-border-color);
+		@apply --transition-fast;
+	}
+
+	--range-track-hover: {
+		background: var(--range-track-hover-background);
+		border-color: var(--range-track-hover-border-color);
+	}
+
+	--range-track-focus: {
+		background: var(--range-track-focus-background);
+		border-color: var(--range-track-focus-border-color);
+	}
+}
+
+input[type="range"] {
+	margin: var(--range-margin);
+	padding: var(--range-padding);
+	width: 100%;
+	height: var(--input-height);
+	border: none;
+	background: transparent;
+	border-radius: var(--input-border-radius);
+	-webkit-appearance: none;
+	@apply --transition-fast;
+
+	&:disabled {
+		cursor: no-drop;
+		background: transparent;
+		border: none;
+	}
+	
+	&::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		margin-top: calc((var(--range-track-height) / 2) - (var(--range-thumb-height) / 2));
+		@apply --range-thumb;
+	}
+
+	&::-webkit-slider-runnable-track {
+		@apply --range-track;
+	}
+
+	&::-moz-range-thumb {
+		@apply --range-thumb;
+	}
+
+	&::-moz-range-track {
+		@apply --range-track;
+	}
+
+	&::-ms-thumb {
+		@apply --range-thumb;
+	}
+
+	&::-ms-fill-lower {
+		@apply --range-track;
+	}
+
+	&::-ms-fill-upper {
+		@apply --range-track;
+	}
+
+	&::-ms-track {
+		@apply --range-track;
+		color: transparent;
+	}
+
+	&:not(:disabled):hover {
+		background: transparent;
+
+		&::-webkit-slider-thumb {
+			@apply --range-thumb-hover;
+		}
+
+		&::-webkit-slider-runnable-track {
+			@apply --range-track-hover;
+		}
+
+		&::-moz-range-thumb {
+			@apply --range-thumb-hover;
+		}
+
+		&::-ms-thumb {
+			@apply --range-thumb-hover;
+		}
+
+		&::-ms-fill-lower {
+			@apply --range-track-hover;
+		}
+
+		&::-ms-fill-upper {
+			@apply --range-track-hover;
+		}
+
+		&::-ms-track {
+			@apply --range-track-hover;
+		}
+	}
+	
+	&:not(:disabled):focus {
+		background: transparent;
+
+		&::-webkit-slider-thumb {
+			@apply --range-thumb-focus;
+		}
+
+		&::-webkit-slider-runnable-track {
+			@apply --range-track-focus;
+		}
+
+		&::-moz-range-thumb {
+			@apply --range-thumb-focus;
+		}
+
+		&::-moz-range-track {
+			@apply --range-thumb-focus;
+		}
+
+		&::-ms-thumb {
+			@apply --range-thumb-focus;
+		}
+
+		&::-ms-fill-lower {
+			@apply --range-track-focus;
+		}
+
+		&::-ms-fill-upper {
+			@apply --range-track-focus;
+		}
+
+		&::-ms-track {
+			@apply --range-track-focus;
+		}
+	}
+}
