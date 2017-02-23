@@ -23,7 +23,7 @@ baseurl: ""
 source: ""
 destination: _site
 host: 0.0.0.0
-port: 9001
+port: 2001
 url: http://turretcss.com
 encoding: UTF-8
 exclude: []
