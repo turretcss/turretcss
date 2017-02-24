@@ -543,14 +543,13 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-hover-indicator-background: var(--input-hover-background);
 --control-hover-indicator-border-color: var(--input-hover-border-color);
 
---control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--primary);
+--control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--input-focus-border-color);
 
 --control-checked-indicator-background: var(--primary);
 --control-checked-indicator-border: 1px solid var(--primary);
 --control-checked-label-color: var(--control-label-color);
 
---control-indicator-size: 2.4rem;
---control-indicator-padding: 0.4rem;
+--control-indicator-size: 1.5rem;
 --control-indicator-background: var(--input-background);
 --control-indicator-border-width: var(--input-border-width);
 --control-indicator-border-style: var(--input-border-style);
@@ -560,11 +559,6 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-label-color: inherit;
 
 --control-inline-margin-right: 2rem;
-
---checkbox-border-radius: 0;
-
---radio-border-radius: 50%;
---radio-indicator-size: 0.5em;
 ```
 
 ### Checkbox
@@ -578,7 +572,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 </form>
 
 ```scss
---checkbox-border-radius: none;
+--checkbox-indicator-border-radius: var(--input-border-radius);
 ```
 
 ```html
@@ -600,7 +594,9 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 </form>
 
 ```scss
---radio-border-radius: 50%;
+--radio-indicator-size: 0.5em;
+--radio-indicator-background: var(--input-background);
+--radio-indicator-border-radius: var(--control-indicator-size);
 ```
 
 ```html
@@ -608,6 +604,29 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
   <input type="radio" name="radio">
   <span class="control-indicator"></span>
   <span class="control-label">Radio</span>
+</label>
+```
+
+### Switch
+
+<form>
+  <label class="control switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch</span>
+  </label>
+</form>
+
+```scss
+--switch-indicator-background: var(--control-indicator-background);
+--switch-indicator-border-radius: var(--control-indicator-size);
+```
+
+```html
+<label class="control switch">
+  <input type="checkbox" name="checkbox">
+  <span class="control-indicator"></span>
+  <span class="control-label">Switch</span>
 </label>
 ```
 
@@ -749,22 +768,48 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
   </label>
 </form>
 
+### Switch
+
+<form>
+  <label class="control control-xl switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Extra Large</span>
+  </label>
+  <label class="control control-l switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Large</span>
+  </label>
+  <label class="control switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Medium</span>
+  </label>
+  <label class="control control-s switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Small</span>
+  </label>
+  <label class="control control-xs switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Extra Small</span>
+  </label>
+</form>
+
 ```scss
 --control-xl-font-size: var(--font-size-xl);
---control-xl-indicator-padding: 6px;
---control-xl-indicator-size: 32px;
+--control-xl-indicator-size: 2rem;
 
 --control-l-font-size: var(--font-size-l);
---control-l-indicator-padding: 5px;
---control-l-indicator-size: 28px;
+--control-l-indicator-size: 1.75rem;
 
 --control-s-font-size: var(--font-size-s);
---control-s-indicator-padding: 3px;
---control-s-indicator-size: 20px;
+--control-s-indicator-size: 1.25rem;
 
 --control-xs-font-size: var(--font-size-xs);
---control-xs-indicator-padding: 2px;
---control-xs-indicator-size: 16px;
+--control-xs-indicator-size: 1rem;
 ```
 
 ```html 

@@ -816,7 +816,6 @@
 	--control-checked-label-color: var(--control-label-color);
 
 	--control-indicator-size: 1.5rem;
-	--control-indicator-padding: 0.4rem;
 	--control-indicator-background: var(--input-background);
 	--control-indicator-border-width: var(--input-border-width);
 	--control-indicator-border-style: var(--input-border-style);
@@ -827,10 +826,14 @@
 
 	--control-inline-margin-right: 2rem;
 
-	--checkbox-border-radius: 0;
+	--checkbox-indicator-border-radius: var(--input-border-radius);
 
-	--radio-border-radius: 50%;
 	--radio-indicator-size: 0.5em;
+	--radio-indicator-background: var(--input-background);
+	--radio-indicator-border-radius: var(--control-indicator-size);
+
+	--switch-indicator-background: var(--control-indicator-background);
+	--switch-indicator-border-radius: var(--control-indicator-size);
 
 
 	/** 
@@ -838,19 +841,15 @@
 	 */
 	
 	--control-xl-font-size: var(--font-size-xl);
-	--control-xl-indicator-padding: 0.6rem;
 	--control-xl-indicator-size: 2rem;
 
 	--control-l-font-size: var(--font-size-l);
-	--control-l-indicator-padding: 0.5rem;
 	--control-l-indicator-size: 1.75rem;
 
 	--control-s-font-size: var(--font-size-s);
-	--control-s-indicator-padding: 0.3rem;
 	--control-s-indicator-size: 1.25rem;
 
 	--control-xs-font-size: var(--font-size-xs);
-	--control-xs-indicator-padding: 0.2rem;
 	--control-xs-indicator-size: 1rem;
 
 

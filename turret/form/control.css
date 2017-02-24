@@ -47,7 +47,7 @@
 	&.checkbox {
 		
 		& .control-indicator {
-			border-radius: var(--checkbox-border-radius);
+			border-radius: var(--checkbox-indicator-border-radius);
 		}
 	
 		& input[type="checkbox"]:checked {
@@ -62,16 +62,44 @@
 	&.radio {
 		
 		& .control-indicator {
-			border-radius: var(--radio-border-radius);
+			border-radius: var(--radio-indicator-border-radius);
 		}
 	
 		& input[type="radio"]:checked ~ .control-indicator::before {
 			@apply --center;
-			background: var(--white);
 			content: '';
 			width: var(--radio-indicator-size);
 			height: var(--radio-indicator-size);
-			border-radius: var(--radio-border-radius);
+			background: var(--radio-indicator-background);
+			border-radius: var(--radio-indicator-border-radius);
+		}
+	}
+
+	&.switch {
+		
+		& .control-indicator {
+			width: 2em;
+			border-radius: var(--switch-indicator-border-radius);
+
+			&::before {
+				display: block;
+				position: absolute;
+				top: -var(--control-indicator-border-width);
+				left: -var(--control-indicator-border-width);
+				content: '';
+				width: 1em;
+				height: 1em;
+				background-color: var(--switch-indicator-background);
+				border-width: inherit;
+				border-style: inherit;
+				border-color: inherit;
+				border-radius: var(--switch-indicator-border-radius);
+				@apply --transition-fast;
+			}
+		}
+	
+		& input[type="checkbox"]:checked ~ .control-indicator::before {
+			left: calc(100% - 1em + var(--control-indicator-border-width));
 		}
 	}
 }
@@ -80,13 +108,12 @@
 	flex: 0 0 auto;
 	position: relative;
 	display: block;
-	padding: var(--control-indicator-padding);
-	width: var(--control-indicator-size);
-	height: var(--control-indicator-size);
+	width: 1em;
+	height: 1em;
+	font-size: var(--control-indicator-size);
 	line-height: 1;
 	text-align: center;
 	background-color: var(--control-indicator-background);
-	background-size: calc(var(--control-indicator-size) - (var(--control-indicator-padding) * 2));
 	background-position: center center;
 	background-repeat: no-repeat;
 	border-width: var(--control-indicator-border-width);
