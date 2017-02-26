@@ -27,10 +27,10 @@
 		height: var(--range-track-height);
 		cursor: pointer;
 		background: var(--range-track-background);
-		border-radius: var(--range-track-border-radius);
 		border-width: var(--range-track-border-width);
 		border-style: var(--range-track-border-style);
 		border-color: var(--range-track-border-color);
+		border-radius: var(--range-track-border-radius);
 		@apply --transition-fast;
 	}
 
