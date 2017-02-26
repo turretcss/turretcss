@@ -18,7 +18,7 @@ permalink: /docs/typography/
 ```scss
 --headings-margin: 2em 0 1em 0;
 --headings-font-family: inherit;
---headings-font-weight: var(--font-weight-medium);
+--headings-font-weight: var(--font-weight-bold);
 --headings-color: inherit;
 --headings-line-height: var(--line-height-s);
 
