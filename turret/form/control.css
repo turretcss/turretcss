@@ -102,6 +102,38 @@
 			left: calc(100% - 1em + var(--control-indicator-border-width));
 		}
 	}
+
+	&.error {
+
+		& input:checked ~ .control-indicator {
+			background-color: var(--error) !important;
+			border-color: var(--error) !important;
+		}
+	}
+
+	&.warning {
+
+		& input:checked ~ .control-indicator {
+			background-color: var(--warning) !important;
+			border-color: var(--warning) !important;
+		}
+	}
+
+	&.success {
+
+		& input:checked ~ .control-indicator {
+			background-color: var(--success) !important;
+			border-color: var(--success) !important;
+		}
+	}
+
+	&.info {
+
+		& input:checked ~ .control-indicator {
+			background-color: var(--info) !important;
+			border-color: var(--info) !important;
+		}
+	}
 }
 
 .control-indicator {
