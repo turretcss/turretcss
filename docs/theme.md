@@ -110,6 +110,76 @@ Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 --max-width-xs: 480px;
 ```
 
+## Fonts
+
+Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
+
+### Font Family
+
+<p class="font-family-system">Font Family System</p>
+<p class="font-family-sans-serif">Font Family Sans Serif</p>
+<p class="font-family-serif">Font Family Serif</p>
+<p class="font-family-monospace">Font Family Monospace</p>
+
+```scss
+--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+--font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-family-serif: Georgia, "Times New Roman", Times, serif;
+--font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+```
+
+### Font Weight
+
+<p class="font-weight-thin">Font Weight Thin</p>
+<p class="font-weight-light">Font Weight Light</p>
+<p class="font-weight-regular">Font Weight Regular</p>
+<p class="font-weight-medium">Font Weight Medium</p>
+<p class="font-weight-semibold">Font Weight Semibold</p>
+<p class="font-weight-bold">Font Weight Bold</p>
+<p class="font-weight-black">Font Weight Black</p>
+
+```scss
+--font-weight-thin: 200;
+--font-weight-light: 300;
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+--font-weight-black: 800;
+```
+
+### Font Size
+
+<p class="font-size-xl">Font Size Extra Large</p>
+<p class="font-size-l">Font Size Large</p>
+<p class="font-size-m">Font Size Medium</p>
+<p class="font-size-s">Font Size Small</p>
+<p class="font-size-xs">Font Size Extra Small</p>
+
+```scss
+--font-size-xl: 2.0rem;
+--font-size-l: 1.8rem;
+--font-size-m: 1.6rem;
+--font-size-s: 1.4rem;
+--font-size-xs: 1.2rem;
+```
+
+### Line Height
+
+<p class="line-height-xl">Line Height Extra Large</p>
+<p class="line-height-l">Line Height Large</p>
+<p class="line-height-m">Line Height Medium</p>
+<p class="line-height-s">Line Height Small</p>
+<p class="line-height-xs">Line Height Extra Small</p>
+
+```scss
+--line-height-xl: 1.8;
+--line-height-l: 1.65;
+--line-height-m: 1.5;
+--line-height-s: 1.35;
+--line-height-xs: 1.2;
+```
+
 ## Colors
 
 <div class="palette">
@@ -411,74 +481,4 @@ Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 --info-700: color(var(--info) shade(20%));
 --info-800: color(var(--info) shade(30%));
 --info-900: color(var(--info) shade(40%));
-```
-
-## Fonts
-
-Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
-
-### Font Family
-
-<p class="font-family-system">Font Family System</p>
-<p class="font-family-sans-serif">Font Family Sans Serif</p>
-<p class="font-family-serif">Font Family Serif</p>
-<p class="font-family-monospace">Font Family Monospace</p>
-
-```scss
---font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
---font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
---font-family-serif: Georgia, "Times New Roman", Times, serif;
---font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
-```
-
-### Font Weight
-
-<p class="font-weight-thin">Font Weight Thin</p>
-<p class="font-weight-light">Font Weight Light</p>
-<p class="font-weight-regular">Font Weight Regular</p>
-<p class="font-weight-medium">Font Weight Medium</p>
-<p class="font-weight-semibold">Font Weight Semibold</p>
-<p class="font-weight-bold">Font Weight Bold</p>
-<p class="font-weight-black">Font Weight Black</p>
-
-```scss
---font-weight-thin: 200;
---font-weight-light: 300;
---font-weight-regular: 400;
---font-weight-medium: 500;
---font-weight-semibold: 600;
---font-weight-bold: 700;
---font-weight-black: 800;
-```
-
-### Font Size
-
-<p class="font-size-xl">Font Size Extra Large</p>
-<p class="font-size-l">Font Size Large</p>
-<p class="font-size-m">Font Size Medium</p>
-<p class="font-size-s">Font Size Small</p>
-<p class="font-size-xs">Font Size Extra Small</p>
-
-```scss
---font-size-xl: 2.0rem;
---font-size-l: 1.8rem;
---font-size-m: 1.6rem;
---font-size-s: 1.4rem;
---font-size-xs: 1.2rem;
-```
-
-### Line Height
-
-<p class="line-height-xl">Line Height Extra Large</p>
-<p class="line-height-l">Line Height Large</p>
-<p class="line-height-m">Line Height Medium</p>
-<p class="line-height-s">Line Height Small</p>
-<p class="line-height-xs">Line Height Extra Small</p>
-
-```scss
---line-height-xl: 1.8;
---line-height-l: 1.65;
---line-height-m: 1.5;
---line-height-s: 1.35;
---line-height-xs: 1.2;
 ```

@@ -9,8 +9,8 @@
   pages:
     - title: Root
     - title: Global
-    - title: Colors
     - title: Fonts
+    - title: Colors
 
 - title: Base
   pages:
