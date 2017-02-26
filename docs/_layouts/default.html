@@ -3,8 +3,7 @@
 
   {% include head.html %}
 
-  <body>
-
+  <body {% if page.classes %} class="{{ page.classes }}" {% endif %}>
     {{ content }}
     
 	<script type="text/javascript" src="{{ site.baseurl }}/dist/docs.js"></script>
