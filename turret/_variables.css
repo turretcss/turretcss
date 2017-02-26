@@ -906,10 +906,10 @@
 	
 	--progress-margin: var(--input-margin);
 	--progress-height: 1rem;
-	--progress-background: var(--input-background);
-	--progress-border-width: var(--input-border-width);
-	--progress-border-style: var(--input-border-style);
-	--progress-border-color: var(--input-border-color);
+	--progress-background: var(--input-border-color);
+	--progress-border-width: 0;
+	--progress-border-style: none;
+	--progress-border-color: none;
 	--progress-border-radius: var(--input-border-radius);
 
 	--progress-bar-background: var(--primary);
@@ -919,10 +919,10 @@
 	 * Progress Sizes
 	 */
 	
-	--progress-xl-height: 1.5rem;
-	--progress-l-height: 1.25rem;
-	--progress-s-height: 0.75rem;
-	--progress-xs-height: 0.5rem;
+	--progress-xl-height: 1.25rem;
+	--progress-l-height: 1.125rem;
+	--progress-s-height: 0.875rem;
+	--progress-xs-height: 0.75rem;
 
 
 	/**
