@@ -448,7 +448,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```html
 <input class="input-xl" type="text">
 <input class="input-l" type="text">
-<input class="input-m" type="text">
+<input type="text">
 <input class="input-s" type="text">
 <input class="input-xs" type="text">
 ```
