@@ -1,0 +1,15 @@
+.boxes {
+
+	@media (--s-up) {
+		display: grid;
+		grid-gap: calc(var(--gutter) * 2);
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	}
+
+	@media (--xs) {
+
+		& .box:not(:last-child) {
+			margin-bottom: calc(var(--gutter) * 2);
+		}
+	}
+}
