@@ -2,6 +2,7 @@
  * Turret Variables
  */
 
+@import '../../../turret/_theme';
 @import '../../../turret/_variables';
 @import '../../../turret/_mixins';
 
