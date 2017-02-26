@@ -2,8 +2,8 @@
 
 	@media (--s-up) {
 		display: grid;
-		grid-gap: calc(var(--gutter) * 2);
-		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+		grid-gap: var(--gutter);
+		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 	}
 
 	@media (--xs) {
@@ -15,6 +15,8 @@
 }
 
 .box {
+	padding: var(--gutter);
+	border: 1px solid currentColor;
 
 	& svg + h3 {
 		margin-top: 1em;
