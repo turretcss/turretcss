@@ -12,6 +12,7 @@ button,
 	letter-spacing: var(--button-letter-spacing);
 	text-align: var(--button-text-align);
 	text-transform: var(--button-text-transform);
+	text-decoration: none;
 	white-space: nowrap;
 	cursor: pointer;
 	background: var(--button-background);
