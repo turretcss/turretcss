@@ -29,7 +29,7 @@ select {
 		border-style: var(--select-border-style);
 		border-color: var(--select-border-color);
 		border-radius: var(--select-border-radius);
-		@apply --transition-fast;
+		@apply --transition;
 		
 		/* Undo the Firefox inner focus ring */
 		&::-moz-focusring {

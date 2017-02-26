@@ -32,7 +32,7 @@
 			padding: var(--field-float-label-padding);
 			transform: translateY(50%);
 			pointer-events: none;
-			@apply --transition-fast;
+			@apply --transition;
 		}
 
 		&:not(:disabled):focus {

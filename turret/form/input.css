@@ -17,7 +17,7 @@ textarea {
 	border-color: var(--input-border-color);
 	background: var(--input-background);
 	border-radius: var(--input-border-radius);
-	@apply --transition-fast;
+	@apply --transition;
 	
 	&::placeholder {
 		color: var(--input-placeholder-color);

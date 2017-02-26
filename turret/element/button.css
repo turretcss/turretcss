@@ -20,7 +20,7 @@ button,
 	border-style: var(--button-border-style);
 	border-color: var(--button-border-color);
 	border-radius: var(--button-border-radius);
-	@apply --transition-fast;
+	@apply --transition;
 
 	&:not(:disabled):hover,
 	&:not(:disabled):focus {
@@ -48,7 +48,7 @@ button,
 		width: var(--button-font-size);
 		height: var(--button-font-size);
 		fill: var(--button-color);
-		@apply --transition-fast;
+		@apply --transition;
 	}
 }
 

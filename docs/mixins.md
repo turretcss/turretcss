@@ -8,6 +8,14 @@ permalink: /docs/mixins/
 
 ## Transition
 
+### Transition
+
+Apply a `transition` property for `all` at `--speed` with `ease-in-out`
+
+```scss
+@apply --transition;
+```
+
 ### Transition Fast
 
 Apply a `transition` property for `all` at `--speed-fast` with `ease-in-out`

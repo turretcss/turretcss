@@ -9,7 +9,7 @@
 		border-style: var(--range-thumb-border-style);
 		border-color: var(--range-thumb-border-color);
 		border-radius: var(--range-thumb-border-radius);
-		@apply --transition-fast;
+		@apply --transition;
 	}
 
 	--range-thumb-hover: {
@@ -31,7 +31,7 @@
 		border-style: var(--range-track-border-style);
 		border-color: var(--range-track-border-color);
 		border-radius: var(--range-track-border-radius);
-		@apply --transition-fast;
+		@apply --transition;
 	}
 
 	--range-track-hover: {
@@ -53,7 +53,7 @@ input[type="range"] {
 	background: transparent;
 	border-radius: var(--input-border-radius);
 	-webkit-appearance: none;
-	@apply --transition-fast;
+	@apply --transition;
 
 	&:disabled {
 		cursor: no-drop;

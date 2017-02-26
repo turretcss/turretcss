@@ -5,6 +5,10 @@
 	 * Transition
 	 */
 
+	--transition: {
+		transition: all var(--speed) ease-in-out;
+	};
+
 	--transition-fast: {
 		transition: all var(--speed-fast) ease-in-out;
 	};
