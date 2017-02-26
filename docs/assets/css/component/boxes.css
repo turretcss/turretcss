@@ -13,3 +13,10 @@
 		}
 	}
 }
+
+.box {
+
+	& svg + h3 {
+		margin-top: 1em;
+	}
+}
