@@ -1,0 +1,59 @@
+progress {
+	display: block;
+	margin: var(--progress-margin);
+	width: 100%;
+	height: var(--progress-height);
+}
+
+progress[value] {
+	appearance: none;
+	/* Remove Firefox and Opera border */
+	border: 0;
+	/* IE10 uses `color` to set the bar background-color */
+	color: var(--progress-bar-background);
+
+	&::-webkit-progress-bar {
+		background: var(--progress-background);
+		border-width: var(--progress-border-width);
+		border-style: var(--progress-border-style);
+		border-color: var(--progress-border-color);
+		border-radius: var(--progress-border-radius);
+	}
+
+	&::-webkit-progress-value {
+		background: currentColor;
+		border-radius: var(--progress-border-radius);
+	}
+
+	&.error {
+		color: var(--error) !important;
+	}
+
+	&.warning {
+		color: var(--warning) !important;
+	}
+
+	&.success {
+		color: var(--success) !important;
+	}
+
+	&.info {
+		color: var(--info) !important;
+	}
+}
+
+@-moz-document url-prefix() {
+	
+	progress[value] {
+		background: var(--progress-background);
+		border-width: var(--progress-border-width);
+		border-style: var(--progress-border-style);
+		border-color: var(--progress-border-color);
+		border-radius: var(--progress-border-radius);
+
+		&::-moz-progress-bar {
+			background: currentColor;
+			border-radius: var(--progress-border-radius);
+		}
+	}
+}

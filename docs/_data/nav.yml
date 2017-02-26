@@ -62,6 +62,9 @@
     - title: Select Indicators
     - title: Select Sizes
     - title: Range
+    - title: Progress
+    - title: Progress Indicators
+    - title: Progress Sizes
 
 - title: Elements
   pages:

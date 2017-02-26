@@ -1207,3 +1207,59 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --range-track-focus-background: var(--input-focus-background);
 --range-track-focus-border-color: var(--input-focus-border-color);
 ```
+
+
+## Progress
+
+<progress value="70" max="100">70%</progress>
+
+```html 
+<progress value="70" max="100">70%</progress>
+```
+
+```scss
+--progress-margin: var(--input-margin);
+--progress-height: 0.5rem;
+--progress-background: var(--input-background);
+--progress-border-width: var(--input-border-width);
+--progress-border-style: var(--input-border-style);
+--progress-border-color: var(--input-border-color);
+--progress-border-radius: var(--input-border-radius);
+```
+
+## Progress Indicators
+
+<progress class="error" value="70" max="100">70%</progress>
+<progress class="warning" value="70" max="100">70%</progress>
+<progress class="success" value="70" max="100">70%</progress>
+<progress class="info" value="70" max="100">70%</progress>
+
+```html 
+<progress class="error">...</progress>
+<progress class="warning">...</progress>
+<progress class="success">...</progress>
+<progress class="info">...</progress>
+```
+
+## Progress Sizes
+
+<progress class="progress-xl" value="70" max="100">70%</progress>
+<progress class="progress-l" value="70" max="100">70%</progress>
+<progress value="70" max="100">70%</progress>
+<progress class="progress-s" value="70" max="100">70%</progress>
+<progress class="progress-xs" value="70" max="100">70%</progress>
+
+```html 
+<progress class="progress-xl">...</progress>
+<progress class="progress-l">...</progress>
+<progress>...</progress>
+<progress class="progress-s">...</progress>
+<progress class="progress-xs">...</progress>
+```
+
+```scss
+--progress-xl-height: 1.5rem;
+--progress-l-height: 1.25rem;
+--progress-s-height: 0.75rem;
+--progress-xs-height: 0.5rem;
+```

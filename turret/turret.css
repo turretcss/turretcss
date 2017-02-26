@@ -97,13 +97,15 @@
 @import './form/label';
 @import './form/input';
 @import './form/input-sizes';
+@import './form/input-group';
 @import './form/textarea';
 @import './form/select';
 @import './form/select-sizes';
 @import './form/control';
 @import './form/control-sizes';
 @import './form/range';
-@import './form/input-group';
+@import './form/progress';
+@import './form/progress-sizes';
 
 
 /**
