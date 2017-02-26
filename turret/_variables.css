@@ -56,6 +56,7 @@
 	 * Border Radius
 	 */
 
+	--border-width: 1px;
 	--border-radius: 2px;
 
 
@@ -689,7 +690,7 @@
 	--input-font-size: var(--font-size-m);
 	--input-line-height: var(--line-height-m);
 	--input-background: var(--white);
-	--input-border-width: 1px;
+	--input-border-width: var(--border-width);
 	--input-border-style: solid;
 	--input-border-color: var(--light);
 	--input-border-radius: var(--border-radius);
@@ -812,7 +813,7 @@
 	--control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--input-focus-border-color);
 
 	--control-checked-indicator-background: var(--primary);
-	--control-checked-indicator-border: 1px solid var(--primary);
+	--control-checked-indicator-border: var(--border-width) solid var(--primary);
 	--control-checked-label-color: var(--control-label-color);
 
 	--control-indicator-size: 1.5rem;
@@ -904,7 +905,7 @@
 	--button-text-align: center;
 	--button-text-transform: none;
 	--button-background: var(--white);
-	--button-border-width: 1px;
+	--button-border-width: var(--border-width);
 	--button-border-style: solid;
 	--button-border-color: var(--light);
 	--button-border-radius: var(--border-radius);

@@ -8,11 +8,12 @@ permalink: /docs/base/
 
 ## Global
 
-### Border Radius
+### Border
 
-Default border-radius definitions for buttons, inputs etc.
+Default border-width and border-radius definitions for buttons, inputs etc.
 
 ```scss
+--border-width: 1px;
 --border-radius: 2px;
 ```
 
