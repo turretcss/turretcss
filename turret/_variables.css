@@ -389,13 +389,13 @@
 	 * Big
 	 */
 	
-	--big-margin: 0;
+	--big-margin: 0.5em 0;
 	--big-font-family: var(--headings-font-family);
 	--big-font-weight: var(--headings-font-weight);
-	--big-line-height: var(--line-height-s);
-	--big-base-size: 32px;
-	--big-min-size: 32;
-	--big-max-size: 48;
+	--big-line-height: var(--line-height-xs);
+	--big-base-size: 36px;
+	--big-min-size: 36;
+	--big-max-size: 56;
 	--big-base-width: 320px;
 	--big-min-width: 320;
 	--big-max-width: 960;
@@ -442,9 +442,9 @@
 	 * Link
 	 */
 
-	--link-color: var(--primary);
-	--link-text-decoration: none;
-	--link-hover-color: var(--dark);
+	--link-color: currentColor;
+	--link-text-decoration: underline;
+	--link-hover-color: currentColor;
 	--link-hover-decoration: underline;
 
 

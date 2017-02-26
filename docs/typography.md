@@ -69,13 +69,13 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 <p class="big">Big</p>
 
 ```scss
---big-margin: 0;
---big-font-family: inherit;
---big-font-weight: inherit;
---big-line-height: var(--line-height-s);
---big-base-size: 32px;
---big-min-size: 32;
---big-max-size: 48;
+--big-margin: 0.5em 0;
+--big-font-family: var(--headings-font-family);
+--big-font-weight: var(--headings-font-weight);
+--big-line-height: var(--line-height-xs);
+--big-base-size: 36px;
+--big-min-size: 36;
+--big-max-size: 56;
 --big-base-width: 320px;
 --big-min-width: 320;
 --big-max-width: 960;
@@ -139,9 +139,9 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ## Link
 
 ```scss
---link-color: var(--primary);
---link-text-decoration: none;
---link-hover-color: var(--dark);
+--link-color: currentColor;
+--link-text-decoration: underline;
+--link-hover-color: currentColor;
 --link-hover-decoration: underline;
 ```
 
