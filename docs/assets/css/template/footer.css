@@ -1,4 +1,9 @@
 .footer {
 	background: var(--light-100);
 	border-top: 1px solid var(--light-300);
+
+	& a {
+		font-weight: var(--font-weight-semibold);
+		text-decoration: none;
+	}
 }
