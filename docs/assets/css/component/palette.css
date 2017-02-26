@@ -1,9 +1,3 @@
-.palettes {
-	display: flex;
-	margin: -20px;
-	
-	& .palette {
-		flex: 1 1 auto;
-		padding: 20px;
-	}
+.palette + .palette {
+	margin-top: var(--gutter);
 }
