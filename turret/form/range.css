@@ -24,9 +24,9 @@
 
 	--range-track: {
 		width: 100%;
-		height: var(--range-track-height);
+		height: 1em;
 		cursor: pointer;
-		background: var(--range-track-background);
+		background: currentColor;
 		border-width: var(--range-track-border-width);
 		border-style: var(--range-track-border-style);
 		border-color: var(--range-track-border-color);
@@ -35,12 +35,10 @@
 	}
 
 	--range-track-hover: {
-		background: var(--range-track-hover-background);
 		border-color: var(--range-track-hover-border-color);
 	}
 
 	--range-track-focus: {
-		background: var(--range-track-focus-background);
 		border-color: var(--range-track-focus-border-color);
 	}
 }
@@ -49,7 +47,8 @@ input[type="range"] {
 	margin: var(--range-margin);
 	padding: var(--range-padding);
 	width: 100%;
-	height: var(--input-height);
+	font-size: var(--range-height);
+	color: var(--range-track-background);
 	border: none;
 	background: transparent;
 	border-radius: var(--input-border-radius);
@@ -64,7 +63,7 @@ input[type="range"] {
 	
 	&::-webkit-slider-thumb {
 		-webkit-appearance: none;
-		margin-top: calc((var(--range-track-height) / 2) - (var(--range-thumb-height) / 2));
+		margin-top: calc(0.5em - (var(--range-thumb-height) / 2));
 		@apply --range-thumb;
 	}
 
@@ -98,6 +97,7 @@ input[type="range"] {
 	}
 
 	&:not(:disabled):hover {
+		color: var(--range-track-hover-background);
 		background: transparent;
 
 		&::-webkit-slider-thumb {
@@ -130,6 +130,7 @@ input[type="range"] {
 	}
 	
 	&:not(:disabled):focus {
+		color: var(--range-track-focus-background);
 		background: transparent;
 
 		&::-webkit-slider-thumb {
@@ -163,5 +164,21 @@ input[type="range"] {
 		&::-ms-track {
 			@apply --range-track-focus;
 		}
+	}
+
+	&.error {
+		color: var(--error) !important;
+	}
+
+	&.warning {
+		color: var(--warning) !important;
+	}
+
+	&.success {
+		color: var(--success) !important;
+	}
+
+	&.info {
+		color: var(--info) !important;
 	}
 }

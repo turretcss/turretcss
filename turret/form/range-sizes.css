@@ -1,0 +1,15 @@
+input[type="range"].range-xl {
+	font-size: var(--range-xl-height);
+}
+
+input[type="range"].range-l {
+	font-size: var(--range-l-height);
+}
+
+input[type="range"].range-s {
+	font-size: var(--range-s-height);
+}
+
+input[type="range"].range-xs {
+	font-size: var(--range-xs-height);
+}

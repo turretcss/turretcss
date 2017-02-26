@@ -1208,6 +1208,46 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --range-track-focus-border-color: var(--input-focus-border-color);
 ```
 
+## Range Indicators
+
+<form>
+  <input class="error" type="range" min="0" max="100" />
+  <input class="warning" type="range" min="0" max="100" />
+  <input class="success" type="range" min="0" max="100" />
+  <input class="info" type="range" min="0" max="100" />
+</form>
+
+```html 
+<input class="error" type="range" />
+<input class="warning" type="range" />
+<input class="success" type="range" />
+<input class="info" type="range" />
+```
+
+## Range Sizes
+
+<form>
+  <input class="range-xl" type="range" min="0" max="100" />
+  <input class="range-l" type="range" min="0" max="100" />
+  <input type="range" min="0" max="100" />
+  <input class="range-s" type="range" min="0" max="100" />
+  <input class="range-xs" type="range" min="0" max="100" />
+</form>
+
+```html 
+<input class="range-xl" type="range" />
+<input class="range-l" type="range" />
+<input type="range" />
+<input class="range-s" type="range" />
+<input class="range-xs" type="range" />
+```
+
+```scss
+--range-xl-height: 1.25rem;
+--range-l-height: 1rem;
+--range-s-height: 0.5rem;
+--range-xs-height: 0.25rem;
+```
 
 ## Progress
 

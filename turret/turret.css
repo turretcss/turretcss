@@ -104,6 +104,7 @@
 @import './form/control';
 @import './form/control-sizes';
 @import './form/range';
+@import './form/range-sizes';
 @import './form/progress';
 @import './form/progress-sizes';
 
