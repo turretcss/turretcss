@@ -10,19 +10,6 @@ permalink: /docs/base/
 
 
 
-## Root
-
-Sets @root-size on the `:root` element with responsive breakpoints.
-
-```scss
---root-size: 10px;
---root-size-xl: var(--root-size);
---root-size-l: var(--root-size);
---root-size-m: var(--root-size);
---root-size-s: var(--root-size);
---root-size-xs: var(--root-size);
-```
-
 ## Body
 
 Some top level definitions for general styles on the `<body>` tag.

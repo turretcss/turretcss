@@ -7,15 +7,14 @@
 
 - title: Theme
   pages:
-    - title: Global
     - title: Root
+    - title: Global
     - title: Colors
     - title: Fonts
 
 - title: Base
   pages:
     - title: Reset
-    - title: Root
     - title: Body
     - title: Images
     - title: Media Queries

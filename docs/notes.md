@@ -8,7 +8,7 @@ permalink: /docs/notes/
 
 ## Contributors
 
-Scott de Jonge
+### Scott de Jonge
 
 Twitter: [@scottdejonge](https://twitter.com/scottdejonge)
 Github: [@scottdejonge](https://github.com/scottdejonge)
