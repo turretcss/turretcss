@@ -17,9 +17,4 @@
 		transform: translateX(var(--sidebar-width));
 		transition: transform 200ms ease-in-out;
 	}
-
-	& .small-caps {
-		margin: 0;
-		padding: 1.5em;
-	}
 }
