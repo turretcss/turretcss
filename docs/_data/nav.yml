@@ -1,9 +1,10 @@
-- title: Demo
 - title: Getting Started
   pages:
     - title: Download
     - title: Structure
     - title: Usage
+
+- title: Demo
 
 - title: Theme
   pages:
