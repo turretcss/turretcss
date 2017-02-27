@@ -16,8 +16,9 @@
 	}
 
 	&:hover .control-indicator {
-		border-color: var(--control-hover-indicator-border-color);
 		background-color: var(--control-hover-indicator-background);
+		border-color: var(--control-hover-indicator-border-color);
+		box-shadow: var(--control-hover-indicator-box-shadow);
 	}
 
 	& input[type="checkbox"],
@@ -27,7 +28,9 @@
 		margin: 0;
 		opacity: 0;
 
-		&:focus & ~ .control-indicator {
+		&:focus ~ .control-indicator {
+			background-color: var(--control-focus-indicator-background);
+			border-color: var(--control-focus-indicator-border-color);
 			box-shadow: var(--control-focus-indicator-box-shadow);
 		}
 		
@@ -140,6 +143,8 @@
 	flex: 0 0 auto;
 	position: relative;
 	display: block;
+	user-select: none;
+	vertical-align: middle;
 	width: 1em;
 	height: 1em;
 	font-size: var(--control-indicator-size);
@@ -151,8 +156,7 @@
 	border-width: var(--control-indicator-border-width);
 	border-style: var(--control-indicator-border-style);
 	border-color: var(--control-indicator-border-color);
-	user-select: none;
-	vertical-align: middle;
+	box-shadow: var(--control-indicator-box-shadow);
 	@apply --transition;
 }
 

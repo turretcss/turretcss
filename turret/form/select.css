@@ -29,6 +29,7 @@ select {
 		border-style: var(--select-border-style);
 		border-color: var(--select-border-color);
 		border-radius: var(--select-border-radius);
+		box-shadow: var(--select-box-shadow);
 		@apply --transition;
 		
 		/* Undo the Firefox inner focus ring */
@@ -46,12 +47,14 @@ select {
 			color: var(--select-hover-color);
 			background: var(--select-hover-background);
 			border-color: var(--select-hover-border-color);
+			box-shadow: var(--select-hover-box-shadow);
 		}
 
 		&:not(:disabled):focus {
 			color: var(--select-focus-color);
 			background: var(--select-focus-background);
 			border-color: var(--select-focus-border-color);
+			box-shadow: var(--select-focus-box-shadow);
 		}
 
 		&:disabled {

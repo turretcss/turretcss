@@ -17,6 +17,7 @@ textarea {
 	border-color: var(--input-border-color);
 	background: var(--input-background);
 	border-radius: var(--input-border-radius);
+	box-shadow: var(--input-box-shadow);
 	@apply --transition;
 	
 	&::placeholder {
@@ -28,12 +29,14 @@ textarea {
 		color: var(--input-hover-color);
 		background: var(--input-hover-background);
 		border-color: var(--input-hover-border-color);
+		box-shadow: var(--input-hover-box-shadow);
 	}
 
 	&:not(:disabled):focus {
 		color: var(--input-focus-color);
 		background: var(--input-focus-background);
 		border-color: var(--input-focus-border-color);
+		box-shadow: var(--input-focus-box-shadow);
 	}
 
 	&:disabled {
@@ -72,10 +75,11 @@ input[type="search"] {
 input[type="file"] {
 	padding: 0 !important;
 	height: auto !important;
-	font-size: inherit !important;
+	font-size: 0.7em !important;
 	background: transparent !important;
 	border: none !important;
 	box-sizing: border-box !important;
+	box-shadow: none !important;
 }
 
 input[type="checkbox"],
@@ -84,6 +88,7 @@ input[type="radio"] {
 	margin-right: 10px;
 	width: auto;
 	height: auto;
+	box-shadow: none !important;
 
 	& + p {
 		margin: 0;

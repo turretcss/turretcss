@@ -20,6 +20,7 @@ button,
 	border-style: var(--button-border-style);
 	border-color: var(--button-border-color);
 	border-radius: var(--button-border-radius);
+	box-shadow: var(--button-box-shadow);
 	@apply --transition;
 
 	&:not(:disabled):hover,
@@ -28,13 +29,14 @@ button,
 		color: var(--button-hover-color);
 		background: var(--button-hover-background);
 		border-color: var(--button-hover-border-color);
+		box-shadow: var(--button-hover-box-shadow);
 	}
 
 	&:not(:disabled):active {
 		color: var(--button-active-color);
 		background: var(--button-active-background);
 		border-color: var(--button-active-border-color);
-		box-shadow: var(--button-active-shadow);
+		box-shadow: var(--button-active-box-shadow);
 	}
 
 	&.spinner::before {

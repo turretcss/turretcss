@@ -1,3 +1,20 @@
+:root {
+	
+	--progress-bar: {
+		background: var(--progress-background);
+		border-width: var(--progress-border-width);
+		border-style: var(--progress-border-style);
+		border-color: var(--progress-border-color);
+		border-radius: var(--progress-border-radius);
+		box-shadow: var(--progress-box-shadow);
+	}
+
+	--progress-value: {
+		background: currentColor;
+		border-radius: var(--progress-border-radius);
+	}
+}
+
 progress {
 	display: block;
 	margin: var(--progress-margin);
@@ -13,16 +30,11 @@ progress[value] {
 	color: var(--progress-bar-background);
 
 	&::-webkit-progress-bar {
-		background: var(--progress-background);
-		border-width: var(--progress-border-width);
-		border-style: var(--progress-border-style);
-		border-color: var(--progress-border-color);
-		border-radius: var(--progress-border-radius);
+		@apply --progress-bar;
 	}
 
 	&::-webkit-progress-value {
-		background: currentColor;
-		border-radius: var(--progress-border-radius);
+		@apply --progress-value;
 	}
 
 	&.error {
@@ -45,15 +57,10 @@ progress[value] {
 @-moz-document url-prefix() {
 	
 	progress[value] {
-		background: var(--progress-background);
-		border-width: var(--progress-border-width);
-		border-style: var(--progress-border-style);
-		border-color: var(--progress-border-color);
-		border-radius: var(--progress-border-radius);
+		@apply --progress-bar;
 
 		&::-moz-progress-bar {
-			background: currentColor;
-			border-radius: var(--progress-border-radius);
+			@apply --progress-value;
 		}
 	}
 }

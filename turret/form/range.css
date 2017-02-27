@@ -9,17 +9,20 @@
 		border-style: var(--range-thumb-border-style);
 		border-color: var(--range-thumb-border-color);
 		border-radius: var(--range-thumb-border-radius);
+		box-shadow: var(--range-thumb-box-shadow);
 		@apply --transition;
 	}
 
 	--range-thumb-hover: {
 		background: var(--range-thumb-hover-background);
 		border-color: var(--range-thumb-hover-border-color);
+		box-shadow: var(--range-thumb-hover-box-shadow);
 	}
 
 	--range-thumb-focus: {
 		background: var(--range-thumb-focus-background);
 		border-color: var(--range-thumb-focus-border-color);
+		box-shadow: var(--range-thumb-focus-box-shadow);
 	}
 
 	--range-track: {
@@ -31,15 +34,18 @@
 		border-style: var(--range-track-border-style);
 		border-color: var(--range-track-border-color);
 		border-radius: var(--range-track-border-radius);
+		box-shadow: var(--range-track-box-shadow);
 		@apply --transition;
 	}
 
 	--range-track-hover: {
 		border-color: var(--range-track-hover-border-color);
+		box-shadow: var(--range-track-hover-box-shadow);
 	}
 
 	--range-track-focus: {
 		border-color: var(--range-track-focus-border-color);
+		box-shadow: var(--range-track-focus-box-shadow);
 	}
 }
 
@@ -52,6 +58,7 @@ input[type="range"] {
 	border: none;
 	background: transparent;
 	border-radius: var(--input-border-radius);
+	box-shadow: none !important;
 	-webkit-appearance: none;
 	@apply --transition;
 
