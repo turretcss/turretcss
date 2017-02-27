@@ -8,7 +8,21 @@ permalink: /docs/base/
 
 ## Reset
 
+On top of [Normalize.css](https://necolas.github.io/normalize.css/), Turret applies some basic resets to ensure the correct rendering of elements. These resets include `border-box` for global `box-sizing`, `max-width 100%` for images, and removing top and bottom margins for `first-child` and `last-child` typography, form, and block element items.
 
+### Box Sizing
+
+For more straightforward sizing in CSS, Turret switches the global `box-sizing` value from `content-box` to `border-box`. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
+
+### Images
+
+Images in Turret are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.
+
+<img src="{{ site.baseurl }}/assets/images/photo.svg">
+
+```html
+<img src="..." alt="...">
+```
 
 ## Body
 
@@ -66,16 +80,6 @@ Add `no-gutter` utility class to remove default gutters applied to a container.
 
 ```html
 <div class="container no-gutter">...</div>
-```
-
-## Images
-
-Images in Turret are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.
-
-<img src="{{ site.baseurl }}/assets/images/photo.svg">
-
-```html
-<img src="..." alt="...">
 ```
 
 ## Media Queries
