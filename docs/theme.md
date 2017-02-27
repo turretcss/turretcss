@@ -11,7 +11,7 @@ permalink: /docs/theme/
 Sets @root-size on the `:root` element with responsive breakpoints.
 
 ```scss
---root-size: 10px;
+--root-size: 16px;
 --root-size-xl: var(--root-size);
 --root-size-l: var(--root-size);
 --root-size-m: var(--root-size);
@@ -21,13 +21,40 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 
 ## Global
 
+### Color
+
+Default 'color' property definition.
+
+```scss
+--color: var(--dark);
+```
+
+### Background
+
+Default 'background' property definition.
+
+```scss
+--background: var(--white);
+```
+
 ### Border
 
-Default border-width and border-radius definitions for buttons, inputs etc.
+Default `border-width` and `border-radius` definitions for buttons, inputs etc.
 
 ```scss
 --border-width: 1px;
 --border-radius: 2px;
+```
+
+### Box Shadow
+
+Default `box-shadow` property definitions including states.
+
+```scss
+--box-shadow: none;
+--hover-box-shadow: none;
+--focus-box-shadow: none;
+--active-box-shadow: none;
 ```
 
 ### Z-Index
@@ -45,8 +72,9 @@ Z-index utility definitions for general use.
 Default transition/animation speeds.
 
 ```scss
+--speed: var(--speed-fast);
 --speed-fast: 200ms;
---speed-m: 300ms;
+--speed-medium: 300ms;
 --speed-slow: 500ms;
 ```
 
@@ -55,11 +83,11 @@ Default transition/animation speeds.
 Height sizes for buttons, inputs, and selects.
 
 ```scss
---height-xl: 6.0rem;
---height-l: 5.0rem;
---height-m: 4.4rem;
---height-s: 3.6rem;
---height-xs: 3.0rem;
+--height-xl: 4rem;
+--height-l: 3.5rem;
+--height-m: 3rem;
+--height-s: 2.5rem;
+--height-xs: 2rem;
 ```
 
 ### Space
@@ -67,11 +95,11 @@ Height sizes for buttons, inputs, and selects.
 Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```scss
---space-xl: 8.0rem;
---space-l: 5.0rem;
---space-m: 3.5rem;
---space-s: 2.0rem;
---space-xs: 1.5rem;
+--space-xl: calc(5rem + 1vw);
+--space-l: calc(4rem + 1vw);
+--space-m: calc(3rem + 1vw);
+--space-s: calc(2rem + 1vw);
+--space-xs: calc(1rem + 1vw);
 ```
 
 ### Margin
@@ -103,11 +131,11 @@ Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```scss
---max-width-xl: 1280px;
---max-width-l: 1024px;
---max-width-m: 800px;
---max-width-s: 640px;
---max-width-xs: 480px;
+--max-width-xl: 80rem;
+--max-width-l: 70rem;
+--max-width-m: 60rem;
+--max-width-s: 50rem;
+--max-width-xs: 40rem;
 ```
 
 ## Fonts
@@ -122,6 +150,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-family-monospace">Font Family Monospace</p>
 
 ```scss
+--font-family: var(--font-family-system);
 --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 --font-family-serif: Georgia, "Times New Roman", Times, serif;
@@ -139,6 +168,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-weight-black">Font Weight Black</p>
 
 ```scss
+--font-weight: normal;
 --font-weight-thin: 200;
 --font-weight-light: 300;
 --font-weight-regular: 400;
@@ -157,11 +187,11 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="font-size-xs">Font Size Extra Small</p>
 
 ```scss
---font-size-xl: 2.0rem;
---font-size-l: 1.8rem;
---font-size-m: 1.6rem;
---font-size-s: 1.4rem;
---font-size-xs: 1.2rem;
+--font-size-xl: 1.25rem;
+--font-size-l: 1.125rem;
+--font-size-m: 1rem;
+--font-size-s: 0.875rem;
+--font-size-xs: 0.75rem;
 ```
 
 ### Line Height
@@ -173,11 +203,29 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <p class="line-height-xs">Line Height Extra Small</p>
 
 ```scss
+--line-height: var(--line-height-s);
 --line-height-xl: 1.8;
 --line-height-l: 1.65;
 --line-height-m: 1.5;
 --line-height-s: 1.35;
 --line-height-xs: 1.2;
+```
+
+### Letter Spacing
+
+<p class="letter-spacing-xl">Letter Spacing Extra Large</p>
+<p class="letter-spacing-l">Letter Spacing Large</p>
+<p class="letter-spacing-m">Letter Spacing Medium</p>
+<p class="letter-spacing-s">Letter Spacing Small</p>
+<p class="letter-spacing-xs">Letter Spacing Extra Small</p>
+
+```scss
+--letter-spacing: 0;
+--letter-spacing-xl: 0.15em;
+--letter-spacing-l: 0.1em;
+--letter-spacing-m: 0.05em;
+--letter-spacing-s: 0.025em;
+--letter-spacing-xs: 0.01em;
 ```
 
 ## Colors
