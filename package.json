@@ -1,7 +1,7 @@
 {
   "name": "turretcss",
   "version": "4.0.0-beta10",
-  "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
+  "description": "Developed for design. Turret is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.",
   "homepage": "http://turretcss.com/",
   "author": "Bigfish.tv",
   "license": "MIT",
@@ -22,7 +22,10 @@
   },
   "keywords": [
     "css",
-    "less",
+    "postcss",
+    "cssnext",
+    "a11y",
+    "html",
     "responsive",
     "front-end",
     "framework",
