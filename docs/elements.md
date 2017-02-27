@@ -19,7 +19,7 @@ Button styles are applied directly to the `<button>` element, button style and s
 --button-padding-horizontal: 1.5em;
 --button-height: var(--height-m);
 --button-font-family: inherit;
---button-font-weight: var(--font-weight-medium);
+--button-font-weight: var(--font-weight-semibold);
 --button-font-size: var(--font-size-m);
 --button-color: var(--dark);
 --button-line-height: 1;
