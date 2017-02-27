@@ -580,6 +580,25 @@ To add custom media ratios use padding top with `calc`.
 padding-top: calc((height / width) * 100%);
 ```
 
+## Spinner
+
+The `.spinner` class can be added to any element to add a `::before` pseudo element that has a spin animation and border styles to emulate a loading indicator.
+
+<div class="max-width-xs">
+  <div class="media media-1 spinner"></div>
+</div>
+
+```scss
+--spinner-size: 2rem;
+--spinner-speed: var(--speed-slow);
+--spinner-background-color: color(var(--black) alpha(10%));
+--spinner-foreground-color: var(--white);
+```
+
+```html
+<div class="... spinner">...</div>
+```
+
 ## Nav
 
 For menu and navigation components use the `<nav>` element wrapped around an unordered list `<ul>`.
