@@ -12,7 +12,9 @@ There are three quick start ways to download Turret available:
 
 ### Download the latest release
 
-<a class="button" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
+<p>
+  <a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
+</p>
 
 ### Clone the repo from GitHub
 
