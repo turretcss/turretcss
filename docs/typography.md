@@ -350,7 +350,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --code-font-family: var(--font-family-monospace);
 --code-font-weight: normal;
---code-font-size: var(--font-size-s);
+--code-font-size: var(--font-size-xs);
 --code-color: inherit;
 ```
 
