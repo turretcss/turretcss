@@ -82,9 +82,9 @@ Turret is a collection of CSS files that include variables set at the root scope
 
 To use Turret as CSS in your project include turret.min.css in your document `<head>`
 
-### PostCSS/PostCSS-cssnext
+### PostCSS/cssnext
 
-To use Turret with PostCSS/PostCSS-cssnext in your project you will need to import `turret.css` to include styles for all elements.
+To use Turret with PostCSS/cssnext in your project you will need to import `turret.css` to include styles for all elements.
 
 ### Theming
 
