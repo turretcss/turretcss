@@ -209,7 +209,7 @@
 	--black-hover: color(var(--black) tint(20%));
 	--black-active: color(var(--black) tint(10%));
 
-	--light: #CCCCCC;
+	--light: #D3D3D9;
 	--light-hover: var(--light-400);
 	--light-active: var(--light-600);
 	--light-100: color(var(--light) tint(80%));
@@ -222,7 +222,7 @@
 	--light-800: color(var(--light) shade(15%));
 	--light-900: color(var(--light) shade(20%));
 
-	--grey: #666666;
+	--grey: #616166;
 	--grey-hover: var(--grey-400);
 	--grey-active: var(--grey-600);
 	--grey-100: color(var(--grey) tint(30%));
@@ -235,7 +235,7 @@
 	--grey-800: color(var(--grey) shade(22.5%));
 	--grey-900: color(var(--grey) shade(30%));
 
-	--dark: #333333;
+	--dark: #323236;
 	--dark-hover: var(--dark-400);
 	--dark-active: var(--dark-600);
 	--dark-100: color(var(--dark) tint(20%));

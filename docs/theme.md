@@ -281,7 +281,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---light: #CCCCCC;
+--light: #D3D3D9;
 --light-hover: var(--light-400);
 --light-active: var(--light-600);
 --light-100: color(var(--light) tint(80%));
@@ -309,7 +309,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---grey: #666666;
+--grey: #616166;
 --grey-hover: var(--grey-400);
 --grey-active: var(--grey-600);
 --grey-100: color(var(--grey) tint(30%));
@@ -337,7 +337,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---dark: #333333;
+--dark: #323236;
 --dark-hover: var(--dark-400);
 --dark-active: var(--dark-600);
 --dark-100: color(var(--dark) tint(20%));
