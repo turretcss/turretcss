@@ -15,6 +15,8 @@ permalink: /docs/demo/
 
 ### Shades
 
+#### Light
+
 <div class="palette">
   <div class="swatch color-dark background-light">Light</div>
   <div class="swatch color-dark background-light-100">Light 100</div>
@@ -28,6 +30,8 @@ permalink: /docs/demo/
   <div class="swatch color-dark background-light-900">Light 900</div>
 </div>
 
+#### Grey
+
 <div class="palette">
   <div class="swatch color-white background-grey">Grey</div>
   <div class="swatch color-white background-grey-100">Grey 100</div>
@@ -40,6 +44,8 @@ permalink: /docs/demo/
   <div class="swatch color-white background-grey-800">Grey 800</div>
   <div class="swatch color-white background-grey-900">Grey 900</div>
 </div>
+
+#### Dark
 
 <div class="palette">
   <div class="swatch color-white background-dark">Dark</div>
@@ -56,6 +62,8 @@ permalink: /docs/demo/
 
 ### Palettes
 
+#### Primary
+
 <div class="palette">
   <div class="swatch color-white background-primary">Primary</div>
   <div class="swatch color-white background-primary-100">Primary 100</div>
@@ -69,6 +77,8 @@ permalink: /docs/demo/
   <div class="swatch color-white background-primary-900">Primary 900</div>
 </div>
 
+#### Secondary
+
 <div class="palette">
   <div class="swatch color-white background-secondary">Secondary</div>
   <div class="swatch color-white background-secondary-100">Secondary 100</div>
@@ -81,6 +91,8 @@ permalink: /docs/demo/
   <div class="swatch color-white background-secondary-800">Secondary 800</div>
   <div class="swatch color-white background-secondary-900">Secondary 900</div>
 </div>
+
+#### Tertiary
 
 <div class="palette">
   <div class="swatch color-white background-tertiary">Tertiary</div>
@@ -97,18 +109,7 @@ permalink: /docs/demo/
 
 ### Indicators
 
-<div class="palette">
-  <div class="swatch color-white background-info">Info</div>
-  <div class="swatch color-white background-info-100">Info 100</div>
-  <div class="swatch color-white background-info-200">Info 200</div>
-  <div class="swatch color-white background-info-300">Info 300</div>
-  <div class="swatch color-white background-info-400">Info 400</div>
-  <div class="swatch color-white background-info-500">Info 500</div>
-  <div class="swatch color-white background-info-600">Info 600</div>
-  <div class="swatch color-white background-info-700">Info 700</div>
-  <div class="swatch color-white background-info-800">Info 800</div>
-  <div class="swatch color-white background-info-900">Info 900</div>
-</div>
+#### Error
 
 <div class="palette">
   <div class="swatch color-white background-error">Error</div>
@@ -123,6 +124,8 @@ permalink: /docs/demo/
   <div class="swatch color-white background-error-900">Error 900</div>
 </div>
 
+#### Warning
+
 <div class="palette">
   <div class="swatch color-white background-warning">Warning</div>
   <div class="swatch color-white background-warning-100">Warning 100</div>
@@ -135,6 +138,8 @@ permalink: /docs/demo/
   <div class="swatch color-white background-warning-800">Warning 800</div>
   <div class="swatch color-white background-warning-900">Warning 900</div>
 </div>
+
+#### Success
 
 <div class="palette">
   <div class="swatch color-white background-success">Success</div>
@@ -149,8 +154,22 @@ permalink: /docs/demo/
   <div class="swatch color-white background-success-900">Success 900</div>
 </div>
 
-## Typography
+#### Info
 
+<div class="palette">
+  <div class="swatch color-white background-info">Info</div>
+  <div class="swatch color-white background-info-100">Info 100</div>
+  <div class="swatch color-white background-info-200">Info 200</div>
+  <div class="swatch color-white background-info-300">Info 300</div>
+  <div class="swatch color-white background-info-400">Info 400</div>
+  <div class="swatch color-white background-info-500">Info 500</div>
+  <div class="swatch color-white background-info-600">Info 600</div>
+  <div class="swatch color-white background-info-700">Info 700</div>
+  <div class="swatch color-white background-info-800">Info 800</div>
+  <div class="swatch color-white background-info-900">Info 900</div>
+</div>
+
+## Typography
 
 ### Headings
 
@@ -243,11 +262,13 @@ permalink: /docs/demo/
 
 ### Code
 
-<code>&lt;p&gt;code&lt;/p&gt;</code>
+`<p>code</p>`
 
 ### Pre
 
-<pre><code><code>&lt;p&gt;pre&lt;/p&gt;</code></code></pre>
+```html
+<p>pre</p>
+```
 
 ### Kbd
 
@@ -259,19 +280,18 @@ permalink: /docs/demo/
 
 ## Form
 
-### Form Message
-
-<p class="form-message">Form message</p>
-<p class="form-message info">Form message info</p>
-<p class="form-message error">Form message error</p>
-<p class="form-message warning">Form message warning</p>
-<p class="form-message success">Form message success</p>
-
 ### Field
 
 <div class="field">
   <label for="input-text">Label</label>
   <input type="text" id="input-text" placeholder="Text">
+</div>
+
+#### Field Float Label
+
+<div class="field field-float-label">
+  <input type="email" id="field" placeholder="Name">
+  <label for="field">Name</label>
 </div>
 
 ### Fieldset
@@ -293,174 +313,280 @@ permalink: /docs/demo/
   </fieldset>
 </form>
 
+### Form Message
+
+<p class="form-message">Form message</p>
+<p class="form-message info">Form message info</p>
+<p class="form-message error">Form message error</p>
+<p class="form-message warning">Form message warning</p>
+<p class="form-message success">Form message success</p>
 
 ### Input
 
-<div class="field">
-  <label for="input-text">Text Input</label>
-  <input type="text" id="input-text" placeholder="Text">
-</div>
-<div class="field">
-  <label for="input-disabled">Disabled</label>
-  <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
-</div>
-<div class="field">
-  <label for="input-email">Email Input</label>
-  <input type="email" id="input-email" placeholder="Email">
-</div>
-<div class="field">
-  <label for="input-search">Search Input</label>
-  <input type="search" id="input-search" placeholder="Search">
-</div>
-<div class="field">
-  <label for="input-tel">Telephone Input</label>
-  <input type="tel" id="input-tel" placeholder="Telephone">
-</div>
-<div class="field">
-  <label for="input-url">URL Input</label>
-  <input type="url" id="input-url" placeholder="http://">
-</div>
-<div class="field">
-  <label for="input-password">Password Input</label>
-  <input type="password" id="input-password" value="password">
-</div>
-<div class="field">
-  <label for="input-file">File Input</label>
-  <input type="file" id="input-file">
-</div>
-<div class="field">
-  <label for="input-textarea">Textarea</label>
-  <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
-</div>
-<div class="field">
-  <label for="input-number">Number Input</label>
-  <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
-</div>
-<div class="field">
-  <label for="input-date">Date Input</label>
-  <input type="date" id="input-date">
-</div>
-<div class="field">
-  <label for="input-month">Month Input</label>
-  <input type="month" id="input-month">
-</div>
-<div class="field">
-  <label for="input-week">Week Input</label>
-  <input type="week" id="input-week">
-</div>
-<div class="field">
-  <label for="input-datetime">Datetime Input</label>
-  <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
-</div>
-<div class="field">
-  <label for="input-datetime-local">Datetime-local Input</label>
-  <input type="datetime-local" id="input-datetime-local">
-</div>
-<div class="field">
-  <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
-  <label for="input-checkbox">Checkbox Input</label>
-</div>
-<div class="field">
-  <input id="input-radio" type="radio" name="radio" value="Radio Input">
-  <label for="input-radio">Radio Input</label>
-</div>
+<form>
+  <div class="field">
+    <label for="input-text">Text Input</label>
+    <input type="text" id="input-text" placeholder="Text">
+  </div>
+  <div class="field">
+    <label for="input-disabled">Disabled</label>
+    <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
+  </div>
+  <div class="field">
+    <label for="input-email">Email Input</label>
+    <input type="email" id="input-email" placeholder="Email">
+  </div>
+  <div class="field">
+    <label for="input-search">Search Input</label>
+    <input type="search" id="input-search" placeholder="Search">
+  </div>
+  <div class="field">
+    <label for="input-tel">Telephone Input</label>
+    <input type="tel" id="input-tel" placeholder="Telephone">
+  </div>
+  <div class="field">
+    <label for="input-url">URL Input</label>
+    <input type="url" id="input-url" placeholder="http://">
+  </div>
+  <div class="field">
+    <label for="input-password">Password Input</label>
+    <input type="password" id="input-password" value="password">
+  </div>
+  <div class="field">
+    <label for="input-file">File Input</label>
+    <input type="file" id="input-file">
+  </div>
+  <div class="field">
+    <label for="input-textarea">Textarea</label>
+    <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
+  </div>
+  <div class="field">
+    <label for="input-number">Number Input</label>
+    <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
+  </div>
+  <div class="field">
+    <label for="input-date">Date Input</label>
+    <input type="date" id="input-date">
+  </div>
+  <div class="field">
+    <label for="input-month">Month Input</label>
+    <input type="month" id="input-month">
+  </div>
+  <div class="field">
+    <label for="input-week">Week Input</label>
+    <input type="week" id="input-week">
+  </div>
+  <div class="field">
+    <label for="input-datetime">Datetime Input</label>
+    <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
+  </div>
+  <div class="field">
+    <label for="input-datetime-local">Datetime-local Input</label>
+    <input type="datetime-local" id="input-datetime-local">
+  </div>
+  <div class="field">
+    <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
+    <label for="input-checkbox">Checkbox Input</label>
+  </div>
+  <div class="field">
+    <input id="input-radio" type="radio" name="radio" value="Radio Input">
+    <label for="input-radio">Radio Input</label>
+  </div>
+</form>
 
 ### Input Indicators
 
-<div class="field">
-  <label for="error">Input Error</label>
-  <input class="error" type="text" id="error" value="Input Error">
-</div>
-<div class="field">
-  <label for="warning">Input Warning</label>
-  <input class="warning" type="text" id="warning" value="Input Warning">
-</div>
-<div class="field">
-  <label for="success">Input Success</label>
-  <input class="success" type="text" id="success" value="Input Success">
-</div>
-<div class="field">
-  <label for="info">Input Info</label>
-  <input class="info" type="text" id="info" value="Input Info">
-</div>
+<form>
+  <div class="field">
+    <label for="error">Input Error</label>
+    <input class="error" type="text" id="error" value="Input Error">
+  </div>
+  <div class="field">
+    <label for="warning">Input Warning</label>
+    <input class="warning" type="text" id="warning" value="Input Warning">
+  </div>
+  <div class="field">
+    <label for="success">Input Success</label>
+    <input class="success" type="text" id="success" value="Input Success">
+  </div>
+  <div class="field">
+    <label for="info">Input Info</label>
+    <input class="info" type="text" id="info" value="Input Info">
+  </div>
+</form>
 
 ### Input Sizes
 
-<div class="field">
-  <input class="input-xl" type="text" placeholder="Input Extra Large">
-</div>
-<div class="field">
-  <input class="input-l" type="text" placeholder="Input Large">
-</div>
-<div class="field">
-  <input type="text" placeholder="Input Medium">
-</div>
-<div class="field">
-  <input class="input-s" type="text" placeholder="Input Small">
-</div>
-<div class="field">
-  <input class="input-xs" type="text" placeholder="Input Extra Small">
-</div>
+<form>
+  <div class="field">
+    <input class="input-xl" type="text" placeholder="Input Extra Large">
+  </div>
+  <div class="field">
+    <input class="input-l" type="text" placeholder="Input Large">
+  </div>
+  <div class="field">
+    <input type="text" placeholder="Input Medium">
+  </div>
+  <div class="field">
+    <input class="input-s" type="text" placeholder="Input Small">
+  </div>
+  <div class="field">
+    <input class="input-xs" type="text" placeholder="Input Extra Small">
+  </div>
+</form>
 
 ### Input Group
 
-<div class="field">
+<form>
   <div class="input-group">
     <input type="text" placeholder="Enter Keyword...">
     <button class="button" type="submit">Submit</button>
   </div>
-</div>
+</form>
 
 ### Input Group Sizes
 
-<div class="field">
-  <div class="input-group">
-    <input class="input-xl" type="text" placeholder="Input Group Extra Large">
-    <button class="button button-xl" type="submit">Submit</button>
+<form>
+  <div class="field">
+    <div class="input-group">
+      <input class="input-xl" type="text" placeholder="Input Group Extra Large">
+      <button class="button button-xl" type="submit">Submit</button>
+    </div>
   </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-l" type="text" placeholder="Input Group Large">
-    <button class="button button-l" type="submit">Submit</button>
+  <div class="field">
+    <div class="input-group">
+      <input class="input-l" type="text" placeholder="Input Group Large">
+      <button class="button button-l" type="submit">Submit</button>
+    </div>
   </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input type="text" placeholder="Input Group Medium">
-    <button class="button" type="submit">Submit</button>
+  <div class="field">
+    <div class="input-group">
+      <input type="text" placeholder="Input Group Medium">
+      <button class="button" type="submit">Submit</button>
+    </div>
   </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-s" type="text" placeholder="Input Group Small">
-    <button class="button button-s" type="submit">Submit</button>
+  <div class="field">
+    <div class="input-group">
+      <input class="input-s" type="text" placeholder="Input Group Small">
+      <button class="button button-s" type="submit">Submit</button>
+    </div>
   </div>
-</div>
-<div class="field">
-  <div class="input-group">
-    <input class="input-xs" type="text" placeholder="Input Group Extra Small">
-    <button class="button button-xs" type="submit">Submit</button>
+  <div class="field">
+    <div class="input-group">
+      <input class="input-xs" type="text" placeholder="Input Group Extra Small">
+      <button class="button button-xs" type="submit">Submit</button>
+    </div>
   </div>
-</div>
+</form>
 
 ### Control
 
-<div class="field">
+#### Checkbox
+
+<form>
   <label class="control checkbox">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
     <span class="control-label">Checkbox</span>
   </label>
-</div>
+</form>
 
-<div class="field">
+#### Radio
+
+<form>
   <label class="control radio">
     <input type="radio" name="radio">
     <span class="control-indicator"></span>
     <span class="control-label">Radio</span>
   </label>
-</div>
+</form>
+
+#### Switch
+
+<form>
+  <label class="control switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch</span>
+  </label>
+</form>
+
+### Control Indicators
+
+#### Checkbox
+
+<form>
+  <label class="control checkbox error">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Error</span>
+  </label>
+  <label class="control checkbox warning">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Warning</span>
+  </label>
+  <label class="control checkbox success">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Success</span>
+  </label>
+  <label class="control checkbox info">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Checkbox Info</span>
+  </label>
+</form>
+
+#### Radio
+
+<form>
+  <label class="control radio error">
+    <input type="radio" name="radio 1" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Error</span>
+  </label>
+  <label class="control radio warning">
+    <input type="radio" name="radio 2" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Warning</span>
+  </label>
+  <label class="control radio success">
+    <input type="radio" name="radio 3" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Succcess</span>
+  </label>
+  <label class="control radio info">
+    <input type="radio" name="radio 4" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Radio Info</span>
+  </label>
+</form>
+
+#### Switch
+
+<form>
+  <label class="control switch error">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Error</span>
+  </label>
+  <label class="control switch warning">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Warning</span>
+  </label>
+  <label class="control switch success">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Success</span>
+  </label>
+  <label class="control switch info">
+    <input type="checkbox" name="checkbox" checked>
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Info</span>
+  </label>
+</form>
 
 ### Control Sizes
 
@@ -524,105 +650,204 @@ permalink: /docs/demo/
   </label>
 </form>
 
+#### Switch
+
+<form>
+  <label class="control control-xl switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Extra Large</span>
+  </label>
+  <label class="control control-l switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Large</span>
+  </label>
+  <label class="control switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Medium</span>
+  </label>
+  <label class="control control-s switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Small</span>
+  </label>
+  <label class="control control-xs switch">
+    <input type="checkbox" name="checkbox">
+    <span class="control-indicator"></span>
+    <span class="control-label">Switch Extra Small</span>
+  </label>
+</form>
 
 ### Select
 
-<div class="field">
-  <label class="select" for="select">
-    <select id="select">
-      <option>Select</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
+<form>
+  <div class="field">
+    <label class="select" for="select">
+      <select id="select">
+        <option>Select Field</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">
+    <label class="select" for="select">
+      <select id="select" disabled>
+        <option>Select Field</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+</form>
 
 ### Select Indicators
 
-<div class="field">
-  <label class="select error" for="select-error">
-    <select id="select-error">
-      <option>Select Error</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select warning" for="select-warning">
-    <select id="select-warning">
-      <option>Select Warning</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select success" for="select-success">
-    <select id="select-success">
-      <option>Select Success</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select info" for="select-info">
-    <select id="select-info">
-      <option>Select Info</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
+<form>
+  <div class="field">
+    <label class="select error" for="select-error">
+      <select id="select-error">
+        <option>Select Error</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">
+    <label class="select warning" for="select-warning">
+      <select id="select-warning">
+        <option>Select Warning</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">
+    <label class="select success" for="select-success">
+      <select id="select-success">
+        <option>Select Success</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">
+    <label class="select info" for="select-info">
+      <select id="select-info">
+        <option>Select Info</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+</form>
 
 ### Select Sizes
 
-<div class="field">
-  <label class="select select-xl" for="select-xl">
-    <select id="select-xl">
-      <option>Select Extra Large</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select select-l" for="select-l">
-    <select id="select-l">
-      <option>Select Large</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select" for="select-m">
-    <select id="select-m">
-      <option>Select Medium</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select select-s" for="select-s">
-    <select id="select-s">
-      <option>Select Small</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
-<div class="field">
-  <label class="select select-xs" for="select-xs">
-    <select id="select-xs">
-      <option>Select Extra Small</option>
-      <option value="1">Option 01</option>
-      <option value="2">Option 02</option>
-    </select>
-  </label>
-</div>
+<form>
+  <div class="field">  
+    <label class="select select-xl" for="select-xl">
+      <select id="select-xl">
+        <option>Select Extra Large</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-l" for="select-l">
+      <select id="select-l">
+        <option>Select Large</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-m" for="select-m">
+      <select id="select-m">
+        <option>Select Medium</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-s" for="select-s">
+      <select id="select-s">
+        <option>Select Small</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+  <div class="field">  
+    <label class="select select-xs" for="select-xs">
+      <select id="select-xs">
+        <option>Select Extra Small</option>
+        <option value="1">Option 01</option>
+        <option value="2">Option 02</option>
+      </select>
+    </label>
+  </div>
+</form>
+
+### Range
+
+<form>
+  <div class="field">
+    <input type="range" min="0" max="100" />
+  </div>
+  <div class="field">
+    <input type="range" min="0" max="100" disabled />
+  </div>
+</form>
+
+### Range Indicators
+
+<form>
+  <input class="error" type="range" min="0" max="100" />
+  <input class="warning" type="range" min="0" max="100" />
+  <input class="success" type="range" min="0" max="100" />
+  <input class="info" type="range" min="0" max="100" />
+</form>
+
+### Range Sizes
+
+<form>
+  <input class="range-xl" type="range" min="0" max="100" />
+  <input class="range-l" type="range" min="0" max="100" />
+  <input type="range" min="0" max="100" />
+  <input class="range-s" type="range" min="0" max="100" />
+  <input class="range-xs" type="range" min="0" max="100" />
+</form>
+
+### Progress
+
+<form>
+  <progress value="70" max="100">70%</progress>
+</form>
+
+### Progress Indicators
+
+<form>
+  <progress class="error" value="70" max="100">70%</progress>
+  <progress class="warning" value="70" max="100">70%</progress>
+  <progress class="success" value="70" max="100">70%</progress>
+  <progress class="info" value="70" max="100">70%</progress>
+</form>
+
+### Progress Sizes
+
+<form>
+  <progress class="progress-xl" value="70" max="100">70%</progress>
+  <progress class="progress-l" value="70" max="100">70%</progress>
+  <progress value="70" max="100">70%</progress>
+  <progress class="progress-s" value="70" max="100">70%</progress>
+  <progress class="progress-xs" value="70" max="100">70%</progress>
+</form>
 
 ## Elements
 
