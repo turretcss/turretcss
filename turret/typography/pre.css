@@ -17,6 +17,7 @@ pre {
 	border: var(--pre-border);
 
 	& code {
+		font-size: inherit;
 		color: var(--pre-code-color);
 	}
 }
