@@ -44,7 +44,7 @@
 
 /* Operator */
 .highlight .o {
-	color: var(--syntax-blue);
+	color: var(--syntax-purple);
 }
 
 /* Other */
@@ -176,17 +176,17 @@
 
 /* Name.Attribute */
 .highlight .na {
-	color: var(--syntax-base);
+	color: var(--syntax-red);
 }
 
 /* Name.Builtin */
 .highlight .nb {
-	color: var(--syntax-base);
+	color: var(--syntax-blue);
 }
 
 /* Name.Class */
 .highlight .nc {
-	color: var(--syntax-red);
+	color: var(--syntax-base);
 }
 
 /* Name.Constant */
@@ -236,7 +236,7 @@
 
 /* Name.Tag */
 .highlight .nt {
-	color: var(--syntax-red);
+	color: var(--syntax-purple);
 }
 
 /* Name.Variable */
@@ -291,7 +291,7 @@
 
 /* Literal.String.Double */
 .highlight .s2 {
-	color: var(--syntax-purple);
+	color: var(--syntax-blue);
 }
 
 /* Literal.String.Escape */
