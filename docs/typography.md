@@ -27,12 +27,12 @@ permalink: /docs/typography/
 --headings-small-size: 0.6em;
 --headings-small-color: inherit;
 
---h1-font-size: 3.2rem;
---h2-font-size: 2.4rem;
---h3-font-size: 1.8rem;
---h4-font-size: 1.6rem;
---h5-font-size: 1.4rem;
---h6-font-size: 1.2rem;
+--h1-font-size: 2.25rem;
+--h2-font-size: 2.0rem;
+--h3-font-size: 1.5rem;
+--h4-font-size: 1.25rem;
+--h5-font-size: 1.125rem;
+--h6-font-size: 1rem;
 ```
 
 ```html
@@ -50,9 +50,9 @@ permalink: /docs/typography/
 
 ```scss
 --display-title-margin: 0;
---display-title-font-family: inherit;
---display-title-font-weight: var(--font-weight-bold);
---display-title-font-size: 3.6rem;
+--display-title-font-family: var(--headings-font-family);
+--display-title-font-weight: var(--headings-font-weight);
+--display-title-font-size: 2.25rem;
 --display-title-line-height: var(--line-height-xs);
 --display-title-text-transform: uppercase;
 --display-title-letter-spacing: 0.05em;
@@ -91,11 +91,12 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 
 ```scss
 --small-caps-margin: 1em 0;
---small-caps-font-family: inherit;
---small-caps-font-weight: var(--font-weight-bold);
---small-caps-font-size: var(--font-size-xs);
+--small-caps-font-family: var(--headings-font-family);
+--small-caps-font-weight: var(--headings-font-weight);
+--small-caps-font-size: var(--font-size-s);
+--small-caps-line-height: var(--line-height-xs);
 --small-caps-text-transform: uppercase;
---small-caps-letter-spacing: 0.1em;
+--small-caps-letter-spacing: 0;
 ```
 
 ```html
@@ -107,9 +108,9 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
 
 ```scss
---lead-margin: 0 0 1em 0;
+--lead-margin: 0.5em 0 1em 0;
 --lead-font-family: inherit;
---lead-font-weight: var(--font-weight-light);
+--lead-font-weight: inherit;
 --lead-font-size: var(--font-size-xl);
 --lead-color: inherit;
 --lead-line-height: var(--line-height-m);
@@ -126,7 +127,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --paragraph-margin: 1em 0;
 --paragraph-font-family: inherit;
---paragraph-font-weight: inherit;
+--paragraph-font-weight: normal;
 --paragraph-font-size: var(--font-size-m);
 --paragraph-color: inherit;
 --paragraph-line-height: var(--line-height-m);
@@ -182,7 +183,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 <hr>
 
 ```scss
---horizontal-rule-margin: var(--margin-m) auto;
+--horizontal-rule-margin: var(--margin-s) auto;
 --horizontal-rule-height: 1px;
 --horizontal-rule-background: var(--light);
 ```
@@ -222,7 +223,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --cite-margin: 1em 0;
 --cite-font-family: inherit;
---cite-font-weight: var(--font-weight-medium);
+--cite-font-weight: normal;
 --cite-font-size: var(--font-size-s);
 --cite-font-style: normal;
 --cite-color: inherit;
