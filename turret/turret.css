@@ -145,6 +145,7 @@
 @import './utility/font-weight';
 @import './utility/font-size';
 @import './utility/line-height';
+@import './utility/letter-spacing';
 @import './utility/gutter';
 @import './utility/margin';
 @import './utility/max-width';

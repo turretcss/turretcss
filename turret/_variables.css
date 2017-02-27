@@ -81,7 +81,7 @@
 	--display-title-font-size: 2.25rem;
 	--display-title-line-height: var(--line-height-xs);
 	--display-title-text-transform: uppercase;
-	--display-title-letter-spacing: 0.05em;
+	--display-title-letter-spacing: var(--letter-spacing-m);
 	
 
 	/**
@@ -110,7 +110,7 @@
 	--small-caps-font-size: var(--font-size-s);
 	--small-caps-line-height: var(--line-height-xs);
 	--small-caps-text-transform: uppercase;
-	--small-caps-letter-spacing: 0;
+	--small-caps-letter-spacing: var(--letter-spacing);
 
 
 	/**
@@ -652,7 +652,7 @@
 	--button-font-size: var(--font-size-m);
 	--button-color: var(--dark);
 	--button-line-height: 1;
-	--button-letter-spacing: inherit;
+	--button-letter-spacing: var(--letter-spacing);
 	--button-text-align: center;
 	--button-text-transform: none;
 	--button-background: var(--white);

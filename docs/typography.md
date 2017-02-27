@@ -55,7 +55,7 @@ permalink: /docs/typography/
 --display-title-font-size: 2.25rem;
 --display-title-line-height: var(--line-height-xs);
 --display-title-text-transform: uppercase;
---display-title-letter-spacing: 0.05em;
+--display-title-letter-spacing: var(--letter-spacing-m);
 ```
 
 ```html
@@ -96,7 +96,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --small-caps-font-size: var(--font-size-s);
 --small-caps-line-height: var(--line-height-xs);
 --small-caps-text-transform: uppercase;
---small-caps-letter-spacing: 0;
+--small-caps-letter-spacing: var(--letter-spacing);
 ```
 
 ```html

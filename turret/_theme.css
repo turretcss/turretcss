@@ -14,23 +14,16 @@
 
 
 	/**
-	 * Letter Spacing
-	 */
-	
-	--letter-spacing: 0;
-
-
-	/**
 	 * Color
 	 */
-	
+
 	--color: var(--dark);
 
 
 	/**
 	 * Background
 	 */
-	
+
 	--background: var(--white);
 
 
@@ -124,12 +117,12 @@
 	--max-width-m: 60rem;
 	--max-width-s: 50rem;
 	--max-width-xs: 40rem;
-	
+
 
 	/**
 	 * Font
 	 */
-	
+
 	--font-family: var(--font-family-system);
 	--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -140,7 +133,7 @@
 	/**
 	 * Font Weights
 	 */
-	
+
 	--font-weight: normal;
 	--font-weight-thin: 200;
 	--font-weight-light: 300;
@@ -165,13 +158,25 @@
 	/**
 	 * Line height
 	 */
-	
+
 	--line-height: var(--line-height-s);
 	--line-height-xl: 1.8;
 	--line-height-l: 1.65;
 	--line-height-m: 1.5;
 	--line-height-s: 1.35;
 	--line-height-xs: 1.2;
+
+
+	/**
+	 * Letter Spacing
+	 */
+
+	--letter-spacing: 0;
+	--letter-spacing-xl: 0.15em;
+	--letter-spacing-l: 0.1em;
+	--letter-spacing-m: 0.05em;
+	--letter-spacing-s: 0.025em;
+	--letter-spacing-xs: 0.01em;
 
 
 	/**
@@ -334,5 +339,6 @@
 	--container-m: 70rem;
 	--container-s: 100%;
 	--container-xs: 100%;
+
 
 }

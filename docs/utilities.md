@@ -1491,6 +1491,22 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="line-height-xs">...</p>
 ```
 
+## Letter Spacing
+
+<p class="letter-spacing-xl">Letter Spacing Extra Large</p>
+<p class="letter-spacing-l">Letter Spacing Large</p>
+<p class="letter-spacing-m">Letter Spacing Medium</p>
+<p class="letter-spacing-s">Letter Spacing Small</p>
+<p class="letter-spacing-xs">Letter Spacing Extra Small</p>
+
+```html
+<p class="letter-spacing-xl">...</p>
+<p class="letter-spacing-l">...</p>
+<p class="letter-spacing-m">...</p>
+<p class="letter-spacing-s">...</p>
+<p class="letter-spacing-xs">...</p>
+```
+
 ## Text
 
 ### Text Align
