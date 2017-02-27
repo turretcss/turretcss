@@ -1251,7 +1251,9 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Progress
 
-<progress value="70" max="100">70%</progress>
+<form>
+  <progress value="70" max="100">70%</progress>
+</form>
 
 ```html 
 <progress value="70" max="100">70%</progress>
@@ -1269,10 +1271,12 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Progress Indicators
 
-<progress class="error" value="70" max="100">70%</progress>
-<progress class="warning" value="70" max="100">70%</progress>
-<progress class="success" value="70" max="100">70%</progress>
-<progress class="info" value="70" max="100">70%</progress>
+<form>
+  <progress class="error" value="70" max="100">70%</progress>
+  <progress class="warning" value="70" max="100">70%</progress>
+  <progress class="success" value="70" max="100">70%</progress>
+  <progress class="info" value="70" max="100">70%</progress>
+</form>
 
 ```html 
 <progress class="error">...</progress>
@@ -1283,11 +1287,13 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ## Progress Sizes
 
-<progress class="progress-xl" value="70" max="100">70%</progress>
-<progress class="progress-l" value="70" max="100">70%</progress>
-<progress value="70" max="100">70%</progress>
-<progress class="progress-s" value="70" max="100">70%</progress>
-<progress class="progress-xs" value="70" max="100">70%</progress>
+<form>
+  <progress class="progress-xl" value="70" max="100">70%</progress>
+  <progress class="progress-l" value="70" max="100">70%</progress>
+  <progress value="70" max="100">70%</progress>
+  <progress class="progress-s" value="70" max="100">70%</progress>
+  <progress class="progress-xs" value="70" max="100">70%</progress>
+</form>
 
 ```html 
 <progress class="progress-xl">...</progress>
