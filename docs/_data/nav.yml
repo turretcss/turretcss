@@ -3,8 +3,16 @@
     - title: Download
     - title: Structure
     - title: Usage
+    - title: Support
+    - title: Accessibility
+    - title: Notes
 
 - title: Demo
+  pages:
+    - title: Colors
+    - title: Typography
+    - title: Form
+    - title: Elements
 
 - title: Theme
   pages:
@@ -117,19 +125,3 @@
     - title: Hide Visually
     - title: Truncate
     - title: Overflow Scroll
-
-- title: Support
-  pages:
-    - title: Browsers
-    - title: CSS
-
-- title: Accessibility
-  pages:
-    - title: Screen Reader
-    - title: ARIA Roles
-
-- title: Notes
-  pages:
-    - title: Contributors
-    - title: Licence
-    - title: Licence Notes
