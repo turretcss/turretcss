@@ -6,7 +6,9 @@ description: An overview of Turret and basic styling behaviours including global
 permalink: /docs/theme/
 ---
 
-## Root
+## Global
+
+### Root
 
 Sets @root-size on the `:root` element with responsive breakpoints.
 
@@ -19,7 +21,25 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 --root-size-xs: var(--root-size);
 ```
 
-## Global
+### Gutter
+
+Default '--gutter' property definition.
+
+```scss
+--gutter: var(--space-xs);
+```
+
+### Container
+
+Default '.container' width property definition element with responsive breakpoints.
+
+```scss
+--container-xl: 90rem;
+--container-l: 80rem;
+--container-m: 70rem;
+--container-s: 100%;
+--container-xs: 100%;
+```
 
 ### Color
 
