@@ -12,17 +12,23 @@ There are three quick start ways to download Turret available:
 
 ### Download the latest release
 
+Download the Turret repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the Turret CSS.
+
 <p>
   <a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
 </p>
 
 ### Clone the repo from GitHub
 
+Clone the repo from GitHub download the source CSS, and documentation files.
+
 ```bash
 git clone https://github.com/bigfishtv/turret.git
 ```
 
 ### Install with npm
+
+Install Turret for your Node powered apps with the [npm package](https://www.npmjs.com/package/turretcss):
 
 ```bash
 npm install turretcss
@@ -52,6 +58,9 @@ Turret makes use of HTML5 elements and CSS properties that require the use of th
 
 ```html
 <!DOCTYPE html>
+<html lang="en">
+  ...
+</html>
 ```
 
 ### Normalize
@@ -71,7 +80,7 @@ For improved cross-browser rendering, Turret uses [Normalize.css](https://necola
     <link rel="stylesheet" type="text/css" href="css/turret.css" />
   </head>
   <body>
-
+    ...
   </body>
 </html>
 ```
