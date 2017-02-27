@@ -14,6 +14,24 @@
 
 
 	/**
+	 * Gutter
+	 */
+
+	--gutter: var(--space-xs);
+
+
+	/**
+	 * Container
+	 */
+
+	--container-xl: 90rem;
+	--container-l: 80rem;
+	--container-m: 70rem;
+	--container-s: 100%;
+	--container-xs: 100%;
+
+
+	/**
 	 * Color
 	 */
 
@@ -321,24 +339,6 @@
 	--success-700: color(var(--success) shade(20%));
 	--success-800: color(var(--success) shade(30%));
 	--success-900: color(var(--success) shade(40%));
-
-
-	/**
-	 * Gutter
-	 */
-
-	--gutter: var(--space-xs);
-
-
-	/**
-	 * Container
-	 */
-
-	--container-xl: 90rem;
-	--container-l: 80rem;
-	--container-m: 70rem;
-	--container-s: 100%;
-	--container-xs: 100%;
 
 
 }
