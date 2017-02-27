@@ -23,6 +23,51 @@ Some top level definitions for general styles on the `<body>` tag.
 --body-background: var(--background);
 ```
 
+## Container
+
+Content wrapper with `max-width` set at differing sizes at various media query breakpoints.
+
+By default the container has `@gutter` padding applied to the left and right of the container `<div>`, this is configurable for each breakpoint as needed.
+
+```scss
+--container-xl: 90rem;
+--container-l: 80rem;
+--container-m: 70rem;
+--container-s: 100%;
+--container-xs: 100%;
+```
+
+```html
+<div class="container">...</div>
+```
+
+## Gutter
+
+The gutter is padding applied to the left and right of the container to ensure content does not touch the sides of the viewport.
+
+```scss
+--gutter: var(--space-xs);
+```
+
+### Gutters Classes
+
+Add `gutter-*` utility class to add gutter to element
+
+```html
+<div class="gutter-bottom">...</div>
+<div class="gutter-left">...</div>
+<div class="gutter-right">...</div>
+<div class="gutter-top">...</div>
+```
+
+### No Gutter
+
+Add `no-gutter` utility class to remove default gutters applied to a container.
+
+```html
+<div class="container no-gutter">...</div>
+```
+
 ## Images
 
 Images in Turret are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.

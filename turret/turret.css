@@ -46,14 +46,8 @@
 @import './base/reset';
 @import './base/root';
 @import './base/body';
+@import './base/container';
 @import './base/print';
-
-
-/**
- * Grid
- */
-
-@import './grid/container';
 
 
 /**

@@ -25,6 +25,8 @@
   pages:
     - title: Reset
     - title: Body
+    - title: Container
+    - title: Gutter
     - title: Images
     - title: Media Queries
     - title: Print
@@ -49,11 +51,6 @@
     - title: Pre
     - title: Kbd
     - title: Mark
-
-- title: Grid
-  pages:
-    - title: Container
-    - title: Gutter
 
 - title: Form
   pages:
