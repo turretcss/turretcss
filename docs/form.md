@@ -64,7 +64,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 </div>
 
 ```scss
---field-margin: var(--margin-s) 0;
+--field-margin: var(--margin-xs) 0;
 ```
 
 ```html
@@ -129,7 +129,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ```scss
 --fieldset-margin: var(--field-margin);
---fieldset-padding: var(--padding-s);
+--fieldset-padding: var(--padding-xs);
 --fieldset-border: 1px solid var(--light);
 ```
 
@@ -291,10 +291,11 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-font-size: var(--font-size-m);
 --input-line-height: var(--line-height-m);
 --input-background: var(--white);
---input-border-width: 1px;
+--input-border-width: var(--border-width);
 --input-border-style: solid;
 --input-border-color: var(--light);
 --input-border-radius: var(--border-radius);
+--input-box-shadow: var(--box-shadow);
 
 --input-placeholder-color: var(--input-color);
 --input-placeholder-opacity: 0.5;
@@ -302,10 +303,12 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-hover-color: var(--input-color);
 --input-hover-background: color(var(--input-background) shade(2%));
 --input-hover-border-color: color(var(--light) shade(10%));
+--input-hover-box-shadow: var(--hover-box-shadow);
 
 --input-focus-color: var(--input-color);
 --input-focus-background: color(var(--input-background) shade(2%));
 --input-focus-border-color: var(--primary);
+--input-focus-box-shadow: var(--focus-box-shadow);
 
 --input-disabled-color: var(--input-color);
 --input-disabled-background: color(var(--input-background) shade(5%));
@@ -542,11 +545,14 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 --control-hover-indicator-background: var(--input-hover-background);
 --control-hover-indicator-border-color: var(--input-hover-border-color);
+--control-hover-indicator-box-shadow: var(--input-hover-box-shadow);
 
---control-focus-indicator-box-shadow: 0 0 0 1px var(--white), 0 0 0 2px var(--input-focus-border-color);
+--control-focus-indicator-background: var(--input-focus-background);
+--control-focus-indicator-border-color: var(--input-focus-border-color);
+--control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
 
 --control-checked-indicator-background: var(--primary);
---control-checked-indicator-border: 1px solid var(--primary);
+--control-checked-indicator-border: var(--border-width) solid var(--primary);
 --control-checked-label-color: var(--control-label-color);
 
 --control-indicator-size: 1.5rem;
@@ -554,6 +560,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-indicator-border-width: var(--input-border-width);
 --control-indicator-border-style: var(--input-border-style);
 --control-indicator-border-color: var(--input-border-color);
+--control-indicator-box-shadow: var(--input-box-shadow);
 
 --control-label-margin: 0 0 0 1rem;
 --control-label-color: inherit;
@@ -980,6 +987,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --select-border-style: var(--input-border-style);
 --select-border-color: var(--input-border-color);
 --select-border-radius: var(--border-radius);
+--select-box-shadow: var(--input-box-shadow);
 
 --select-arrow-size: 4px;
 --select-arrow-background: var(--dark);
@@ -987,10 +995,12 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --select-hover-color: var(--input-hover-color);
 --select-hover-background: var(--input-hover-background);
 --select-hover-border-color: var(--input-hover-border-color);
+--select-hover-box-shadow: var(--input-hover-box-shadow);
 
 --select-focus-color: var(--input-focus-color);
 --select-focus-background: var(--input-focus-background);
 --select-focus-border-color: var(--input-focus-border-color);
+--select-focus-box-shadow: var(--input-focus-box-shadow);
 
 --select-disabled-color: var(--input-disabled-color);
 --select-disabled-background: var(--input-disabled-background);
@@ -1179,33 +1189,39 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```scss
 --range-margin: var(--input-margin);
 --range-padding: 0;
+--range-height: 0.75rem;
 
---range-thumb-width: 1.5rem;
+--range-thumb-width: 2em;
 --range-thumb-height: var(--range-thumb-width);
 --range-thumb-background: var(--input-background);
 --range-thumb-border-width: var(--input-border-width);
 --range-thumb-border-style: var(--input-border-style);
 --range-thumb-border-color: var(--input-border-color);
 --range-thumb-border-radius: 50%;
+--range-thumb-box-shadow: var(--input-box-shadow);
 
 --range-thumb-hover-background: var(--input-hover-background);
 --range-thumb-hover-border-color: var(--input-hover-border-color);
+--range-thumb-hover-box-shadow: var(--input-hover-box-shadow);
 
 --range-thumb-focus-background: var(--input-focus-background);
 --range-thumb-focus-border-color: var(--input-focus-border-color);
+--range-thumb-focus-box-shadow: var(--input-focus-box-shadow);
 
---range-track-height: 0.5rem;
---range-track-background: var(--input-background);
---range-track-border-width: var(--input-border-width);
---range-track-border-style: var(--input-border-style);
---range-track-border-color: var(--input-border-color);
+--range-track-background: var(--input-border-color);
+--range-track-border-width: 0;
+--range-track-border-style: none;
+--range-track-border-color: none;
 --range-track-border-radius: var(--input-border-radius);
+--range-track-box-shadow: var(--input-box-shadow);
 
---range-track-hover-background: var(--input-hover-background);
---range-track-hover-border-color: var(--input-hover-border-color);
+--range-track-hover-background: var(--input-hover-border-color);
+--range-track-hover-border-color: none;
+--range-track-hover-box-shadow: var(--input-hover-box-shadow);
 
---range-track-focus-background: var(--input-focus-background);
---range-track-focus-border-color: var(--input-focus-border-color);
+--range-track-focus-background: var(--input-focus-border-color);
+--range-track-focus-border-color: none;
+--range-track-focus-box-shadow: var(--input-focus-box-shadow);
 ```
 
 ## Range Indicators
@@ -1243,10 +1259,10 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```
 
 ```scss
---range-xl-height: 1.25rem;
---range-l-height: 1rem;
---range-s-height: 0.5rem;
---range-xs-height: 0.25rem;
+--range-xl-height: 1rem;
+--range-l-height: 0.875rem;
+--range-s-height: 0.675rem;
+--range-xs-height: 0.5rem;
 ```
 
 ## Progress
@@ -1261,12 +1277,15 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ```scss
 --progress-margin: var(--input-margin);
---progress-height: 0.5rem;
---progress-background: var(--input-background);
---progress-border-width: var(--input-border-width);
---progress-border-style: var(--input-border-style);
---progress-border-color: var(--input-border-color);
+--progress-height: 1rem;
+--progress-background: var(--input-border-color);
+--progress-border-width: 0;
+--progress-border-style: none;
+--progress-border-color: none;
 --progress-border-radius: var(--input-border-radius);
+--progress-box-shadow: var(--box-shadow);
+
+--progress-bar-background: var(--primary);
 ```
 
 ## Progress Indicators
@@ -1304,8 +1323,8 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```
 
 ```scss
---progress-xl-height: 1.5rem;
---progress-l-height: 1.25rem;
---progress-s-height: 0.75rem;
---progress-xs-height: 0.5rem;
+--progress-xl-height: 1.25rem;
+--progress-l-height: 1.125rem;
+--progress-s-height: 0.875rem;
+--progress-xs-height: 0.75rem;
 ```

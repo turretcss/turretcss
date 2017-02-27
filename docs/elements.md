@@ -27,19 +27,21 @@ Button styles are applied directly to the `<button>` element, button style and s
 --button-text-align: center;
 --button-text-transform: none;
 --button-background: var(--white);
---button-border-width: 1px;
+--button-border-width: var(--border-width);
 --button-border-style: solid;
 --button-border-color: var(--light);
 --button-border-radius: var(--border-radius);
+--button-box-shadow: var(--box-shadow);
 
 --button-hover-color: var(--button-color);
 --button-hover-background: var(--light-100);
 --button-hover-border-color: var(--light-600);
+--button-hover-box-shadow: var(--hover-box-shadow);
 
 --button-active-color: var(--button-color);
 --button-active-background: var(--light-200);
 --button-active-border-color: var(--light-700);
---button-active-shadow: inset 0 0 0.5em color(var(--dark) alpha(5%));
+--button-active-box-shadow: var(--active-box-shadow);
 ```
 
 ```html
@@ -363,7 +365,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 </div>
 
 ```scss
---button-white-color: var(--black);
+--button-white-color: var(--dark);
 --button-light-color: var(--dark);
 --button-grey-color: var(--white);
 --button-dark-color: var(--white);
@@ -549,7 +551,6 @@ The media frame wraps `<img>`, `<svg>`, `<video>`, and `<iframe>` by default, to
 
 
 ```scss
-// Media
 --media-background: color(var(--black) alpha(10%));
 ```
 
@@ -706,7 +707,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 --table-head-padding: 0.5em;
 --table-head-font-family: inherit;
---table-head-font-weight: var(--font-weight-medium);
+--table-head-font-weight: normal;
 --table-head-font-size: var(--font-size-s);
 --table-head-text-align: left;
 --table-head-text-transform: none;
