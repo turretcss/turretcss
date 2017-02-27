@@ -54,7 +54,7 @@ Turret makes use of HTML5 elements and CSS properties that require the use of th
 
 ### Normalize
 
-For improved cross-browser rendering, Turret uses Normalize.css, a project by Nicolas Gallagher and Jonathan Neal.
+For improved cross-browser rendering, Turret uses [Normalize.css](https://necolas.github.io/normalize.css/), a project by Nicolas Gallagher and Jonathan Neal.
 
 ### Template
 
