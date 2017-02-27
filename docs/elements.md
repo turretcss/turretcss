@@ -365,7 +365,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 </div>
 
 ```scss
---button-white-color: var(--dark);
+--button-white-color: var(--black);
 --button-light-color: var(--dark);
 --button-grey-color: var(--white);
 --button-dark-color: var(--white);
