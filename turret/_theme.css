@@ -46,10 +46,10 @@
 	 * Box Shadow
 	 */
 
-	--box-shadow: 0em 0em 1em color(var(--dark) alpha(10%));
-	--hover-box-shadow: 0em 0em 0.5em color(var(--dark) alpha(10%));
-	--focus-box-shadow: var(--hover-box-shadow), inset 0em 0em 0.5em color(var(--dark) alpha(10%));
-	--active-box-shadow: var(--focus-box-shadow);
+	--box-shadow: none;
+	--hover-box-shadow: none;
+	--focus-box-shadow: none;
+	--active-box-shadow: none;
 
 
 	/**
