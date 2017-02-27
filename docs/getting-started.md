@@ -352,16 +352,14 @@ In conjunction with the `screen-reader` class, the `screen-reader-focusable` cla
   </table>
 </div>
 
-## Notes
-
-### Contributors
+## Contributors
 
 #### Scott de Jonge
 
 Twitter: [@scottdejonge](https://twitter.com/scottdejonge)
 Github: [@scottdejonge](https://github.com/scottdejonge)
 
-### Licence
+## Licence
 
 #### Code License
 
