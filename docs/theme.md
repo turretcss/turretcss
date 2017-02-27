@@ -395,7 +395,7 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---secondary: #663399;
+--secondary: rebeccapurple;
 --secondary-hover: var(--secondary-400);
 --secondary-active: var(--secondary-600);
 --secondary-100: color(var(--secondary) tint(40%));

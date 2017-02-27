@@ -262,7 +262,7 @@
 	--primary-800: color(var(--primary) shade(30%));
 	--primary-900: color(var(--primary) shade(40%));
 
-	--secondary: #663399;
+	--secondary: rebeccapurple;
 	--secondary-hover: var(--secondary-400);
 	--secondary-active: var(--secondary-600);
 	--secondary-100: color(var(--secondary) tint(40%));
