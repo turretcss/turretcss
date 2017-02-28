@@ -26,7 +26,7 @@ Button styles are applied directly to the `<button>` element, button style and s
 --button-letter-spacing: var(--letter-spacing);
 --button-text-align: center;
 --button-text-transform: none;
---button-background: var(--white);
+--button-background: var(--background);
 --button-border-width: var(--border-width);
 --button-border-style: solid;
 --button-border-color: var(--light);

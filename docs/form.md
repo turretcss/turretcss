@@ -290,7 +290,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-font-weight: inherit;
 --input-font-size: var(--font-size-m);
 --input-line-height: var(--line-height-m);
---input-background: var(--white);
+--input-background: var(--background);
 --input-border-width: var(--border-width);
 --input-border-style: solid;
 --input-border-color: var(--light);

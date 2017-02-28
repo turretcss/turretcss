@@ -388,7 +388,7 @@
 	--input-font-weight: inherit;
 	--input-font-size: var(--font-size-m);
 	--input-line-height: var(--line-height-m);
-	--input-background: var(--white);
+	--input-background: var(--background);
 	--input-border-width: var(--border-width);
 	--input-border-style: solid;
 	--input-border-color: var(--light);
@@ -655,7 +655,7 @@
 	--button-letter-spacing: var(--letter-spacing);
 	--button-text-align: center;
 	--button-text-transform: none;
-	--button-background: var(--white);
+	--button-background: var(--background);
 	--button-border-width: var(--border-width);
 	--button-border-style: solid;
 	--button-border-color: var(--light);
