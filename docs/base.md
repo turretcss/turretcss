@@ -98,7 +98,7 @@ Add `no-gutter` utility class to remove default gutters applied to a container.
       <tr>
         <td>xs</td>
         <td>Phone</td>
-        <td class="is-null"></td>
+        <td class="color-grey background-light-100">None</td>
         <td>767px</td>
       </tr>
       <tr>
@@ -123,7 +123,7 @@ Add `no-gutter` utility class to remove default gutters applied to a container.
         <td>xl</td>
         <td>Large Screen</td>
         <td>1680px</td>
-        <td class="is-null"></td>
+        <td class="color-grey background-light-100">None</td>
       </tr>
     </tbody>
   </table>

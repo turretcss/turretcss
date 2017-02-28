@@ -54,13 +54,6 @@
  * General
  */
 
-.is-null,
-.is-hidden,
-.not-supported {
-	color: var(--light-900);
-	background: var(--light-100);
-}
-
 body {
 
 	@media (--s-down) {

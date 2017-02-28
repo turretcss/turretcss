@@ -140,33 +140,33 @@ turret/
     <tbody>
       <tr>
         <th>Android</th>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
         <td rowspan="3" style="vertical-align: middle;">N/A</td>
-        <td class="not-supported">Not supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
         <td>N/A</td>
       </tr>
       <tr>
         <th>iOS</th>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <th>Mac OS X</th>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <th>Windows</th>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported (IE10+)</td>
-        <td class="is-supported">Supported</td>
-        <td class="not-supported">Not supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
+        <td>Supported (IE10+)</td>
+        <td>Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
       </tr>
     </tbody>
   </table>
@@ -203,39 +203,39 @@ Some CSS properties and HTML5 elements are not fully supported by Internet Explo
     <tbody>
       <tr>
         <td><code>border-radius</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <td><code>box-shadow</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Supported</td>
-        <td class="is-supported">Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <td><code>transform</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">2D transforms supported, with <code>-ms</code> prefix</td>
-        <td class="is-supported">Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>2D transforms supported, with <code>-ms</code> prefix</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <td><code>transition</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <td><code>placeholder</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Supported</td>
       </tr>
       <tr>
         <td><code>Flexbox</code></td>
-        <td class="not-supported">Not supported</td>
-        <td class="not-supported">Not supported</td>
-        <td class="is-supported">Partially supported, with <code>-ms</code> prefix</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-100">Not supported</td>
+        <td>Partially supported, with <code>-ms</code> prefix</td>
       </tr>
     </tbody>
   </table>
