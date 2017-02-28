@@ -6,5 +6,8 @@ kbd {
 	font-size: var(--kbd-font-size);
 	color: var(--kbd-color);
 	background: var(--kbd-background);
-	border: var(--kbd-border);
+	border-width: var(--kbd-border-width);
+	border-style: var(--kbd-border-style);
+	border-color: var(--kbd-border-color);
+	border-radius: var(--kbd-border-radius);
 }

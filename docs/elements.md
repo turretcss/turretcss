@@ -28,8 +28,8 @@ Button styles are applied directly to the `<button>` element, button style and s
 --button-text-transform: none;
 --button-background: var(--background);
 --button-border-width: var(--border-width);
---button-border-style: solid;
---button-border-color: var(--light);
+--button-border-style: var(--border-style);
+--button-border-color: var(--border-color);
 --button-border-radius: var(--border-radius);
 --button-box-shadow: var(--box-shadow);
 
@@ -694,35 +694,41 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 ```scss
 --table-margin: var(--paragraph-margin);
---table-background: none;
---table-border: 1px solid var(--light);
+--table-background: var(--background);
+--table-border-width: var(--border-width);
+--table-border-style: var(--border-style);
+--table-border-color: var(--border-color);
 --table-border-radius: var(--border-radius);
 
 --table-caption-margin: 1em 0;
 --table-caption-font-family: inherit;
 --table-caption-font-weight: inherit;
---table-caption-font-size: var(--font-size-m);
+--table-caption-font-size: inherit;
 --table-caption-color: inherit;
 --table-caption-text-align: left;
 
 --table-head-padding: 0.5em;
 --table-head-font-family: inherit;
 --table-head-font-weight: normal;
---table-head-font-size: var(--font-size-s);
+--table-head-font-size: inherit;
+--table-head-color: inherit;
 --table-head-text-align: left;
 --table-head-text-transform: none;
---table-head-color: inherit;
---table-head-border: var(--table-border);
 --table-head-background: var(--light-100);
+--table-head-border-width: var(--table-border-width);
+--table-head-border-style: var(--table-border-style);
+--table-head-border-color: var(--table-border-color);
 
 --table-cell-padding: 0.5em;
 --table-cell-font-family: inherit;
 --table-cell-font-weight: inherit;
---table-cell-font-size: var(--font-size-s);
+--table-cell-font-size: inherit;
 --table-cell-color: inherit;
---table-cell-line-height: var(--line-height-m);
+--table-cell-line-height: var(--line-height);
 --table-cell-vertical-align: middle;
---table-cell-border: var(--table-border);
+--table-cell-border-width: var(--table-border-width);
+--table-cell-border-style: var(--table-border-style);
+--table-cell-border-color: var(--table-border-color);
 ```
 
 ```html

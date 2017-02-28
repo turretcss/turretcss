@@ -14,7 +14,10 @@ pre {
 	tab-size: var(--pre-tab-size);
 	hyphens: none;
 	background: var(--pre-background);
-	border: var(--pre-border);
+	border-width: var(--pre-border-width);
+	border-style: var(--pre-border-style);
+	border-color: var(--pre-border-color);
+	border-radius: var(--pre-border-radius);
 
 	& code {
 		font-size: inherit;

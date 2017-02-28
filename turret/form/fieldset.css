@@ -2,5 +2,8 @@ fieldset {
 	display: block;
 	margin: var(--fieldset-margin);
 	padding: var(--fieldset-padding);
-	border: var(--fieldset-border);
+	border-width: var(--fieldset-border-width);
+	border-style: var(--fieldset-border-style);
+	border-color: var(--fieldset-border-color);
+	border-radius: var(--fieldset-border-radius);
 }

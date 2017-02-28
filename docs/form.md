@@ -130,7 +130,10 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```scss
 --fieldset-margin: var(--field-margin);
 --fieldset-padding: var(--padding-xs);
---fieldset-border: 1px solid var(--light);
+--fieldset-border-width: var(--border-width);
+--fieldset-border-style: var(--border-style);
+--fieldset-border-color: var(--border-color);
+--fieldset-border-radius: var(--border-radius);
 ```
 
 ```html
@@ -292,8 +295,8 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-line-height: var(--line-height-m);
 --input-background: var(--background);
 --input-border-width: var(--border-width);
---input-border-style: solid;
---input-border-color: var(--light);
+--input-border-style: var(--border-style);
+--input-border-color: var(--border-color);
 --input-border-radius: var(--border-radius);
 --input-box-shadow: var(--box-shadow);
 
@@ -552,7 +555,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
 
 --control-checked-indicator-background: var(--primary);
---control-checked-indicator-border: var(--border-width) solid var(--primary);
+--control-checked-indicator-border: var(--border-width) var(--border-style) var(--input-focus-border-color);
 --control-checked-label-color: var(--control-label-color);
 
 --control-indicator-size: 1.5rem;

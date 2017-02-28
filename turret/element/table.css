@@ -3,7 +3,9 @@ table,
 	margin: var(--table-margin);
 	width: 100%;
 	background: var(--table-background);
-	border: var(--table-border);
+	border-width: var(--table-border-width);
+	border-style: var(--table-border-style);
+	border-color: var(--table-border-color);
 	border-radius: var(--table-border-radius);
 	border-collapse: collapse;
 	
@@ -25,7 +27,9 @@ table,
 		text-align: var(--table-head-text-align);
 		text-transform: var(--table-head-text-transform);
 		background: var(--table-head-background);
-		border: var(--table-head-border);
+		border-width: var(--table-head-border-width);
+		border-style: var(--table-head-border-style);
+		border-color: var(--table-head-border-color);
 	}
 
 	& td {
@@ -36,7 +40,9 @@ table,
 		color: var(--table-cell-color);
 		line-height: var(--table-cell-line-height);
 		vertical-align: var(--table-cell-vertical-align);
-		border: var(--table-cell-border);
+		border-width: var(--table-cell-border-width);
+		border-style: var(--table-cell-border-style);
+		border-color: var(--table-cell-border-color);
 	}
 }
 
@@ -49,7 +55,9 @@ table,
 		width: 100%;
 		overflow-y: hidden;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
-		border: var(--table-border);
+		border-width: var(--table-border-width);
+		border-style: var(--table-border-style);
+		border-color: var(--table-border-color);
 
 		& > table {
 			margin: 0;

@@ -375,7 +375,11 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --pre-hyphens: none;
 --pre-line-height: var(--line-height-m);
 --pre-background: var(--light-100);
---pre-border: 1px solid var(--light);
+--pre-border-width: var(--border-width);
+--pre-border-style: var(--border-style);
+--pre-border-color: var(--border-color);
+--pre-border-radius: var(--border-radius);
+
 --pre-code-color: var(--code-color);
 ```
 
@@ -395,7 +399,10 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --kbd-font-size: var(--code-font-size);
 --kbd-color: var(--code-color);
 --kbd-background: var(--pre-background);
---kbd-border: var(--pre-border);
+--kbd-border-width: var(--pre-border-width);
+--kbd-border-style: var(--pre-border-style);
+--kbd-border-color: var(--pre-border-color);
+--kbd-border-radius: var(--pre-border-radius);
 ```
 
 ```html

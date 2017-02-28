@@ -59,10 +59,12 @@ Default 'background' property definition.
 
 ### Border
 
-Default `border-width` and `border-radius` definitions for buttons, inputs etc.
+Default `border-width`, `border-style`, `border-color`, and `border-radius` definitions for buttons, inputs, tables, etc.
 
 ```scss
 --border-width: 1px;
+--border-style: solid;
+--border-color: var(--light);
 --border-radius: 2px;
 ```
 
