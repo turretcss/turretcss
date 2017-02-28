@@ -15,6 +15,8 @@ h6,
 	font-weight: var(--headings-font-weight);
 	color: var(--headings-color);
 	line-height: var(--headings-line-height);
+	text-transform: var(--headings-text-transform);
+	letter-spacing: var(--headings-letter-spacing);
 
 	small {
 		font-family: var(--headings-small-font-family);
