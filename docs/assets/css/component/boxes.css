@@ -4,12 +4,19 @@
 		display: grid;
 		grid-gap: var(--gutter);
 		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+		@supports not (display: grid) {
+
+			& .box:not(:last-child) {
+				margin-bottom: var(--space-s);
+			}
+		}
 	}
 
 	@media (--xs) {
 
 		& .box:not(:last-child) {
-			margin-bottom: calc(var(--gutter) * 2);
+			margin-bottom: var(--space-s);
 		}
 	}
 }
