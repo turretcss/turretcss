@@ -38,8 +38,11 @@
     "deploy": "webpack -p"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.10.1",
     "path": "^0.12.7",
     "postcss": "^5.2.5",
     "postcss-cssnext": "^2.8.0",

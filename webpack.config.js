@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 var postcss = require('postcss');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -15,6 +16,10 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('[name].css'),
+    new BrowserSyncPlugin({
+      proxy: '0.0.0.0:2001',
+      open: false
+    }),
   ],
   module: {
     loaders: [
