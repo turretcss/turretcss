@@ -1,22 +1,16 @@
 .boxes {
 
-	@media (--s-up) {
-		display: grid;
-		grid-gap: var(--gutter);
-		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-
-		@supports not (display: grid) {
-
-			& .box:not(:last-child) {
-				margin-bottom: var(--space-s);
-			}
-		}
+	& .box:not(:last-child) {
+		margin-bottom: var(--space-s);
 	}
 
-	@media (--xs) {
+	@supports (display: grid) {
+		display: grid;
+		grid-gap: var(--space-s);
+		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 
 		& .box:not(:last-child) {
-			margin-bottom: var(--space-s);
+			margin-bottom: 0;
 		}
 	}
 }
