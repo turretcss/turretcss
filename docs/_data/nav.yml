@@ -15,10 +15,11 @@
     - title: Form
     - title: Elements
 
-- title: Theme
+- title: Style
   pages:
     - title: Global
-    - title: Fonts
+    - title: Sizes
+    - title: Typography
     - title: Colors
 
 - title: Base

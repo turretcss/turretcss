@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Theme
-page_title: Theme - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+title: Style
+page_title: Style - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: An overview of Turret and basic styling behaviours including global variables, fonts, color palettes, and media queries.
-permalink: /docs/theme/
+permalink: /docs/style/
 ---
 
 ## Global
@@ -23,7 +23,7 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 
 ### Gutter
 
-Default '--gutter' property definition.
+Default '--gutter' property definition for horizontal container padding.
 
 ```scss
 --gutter: var(--space-xs);
@@ -89,7 +89,7 @@ Z-index utility definitions for general use.
 
 ### Speed
 
-Default transition/animation speeds.
+Default speeds for transitions.
 
 ```scss
 --speed: var(--speed-fast);
@@ -97,6 +97,8 @@ Default transition/animation speeds.
 --speed-medium: 300ms;
 --speed-slow: 500ms;
 ```
+
+## Sizes
 
 ### Height
 
@@ -158,7 +160,7 @@ Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 --max-width-xs: 40rem;
 ```
 
-## Fonts
+## Typography
 
 Some top level definitions for the base font-size styles on the `<html>` tag, with breakpoints.
 
