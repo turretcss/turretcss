@@ -25,7 +25,7 @@ permalink: /docs/form/
     </label>
   </div>
   <div class="field">
-    <button type="submit" class="button margin-right-xs">Submit</button>
+    <button type="submit" class="button">Submit</button>
     <button type="reset" class="button">Reset</button>
   </div>
 </form>
@@ -48,7 +48,7 @@ permalink: /docs/form/
     </label>
   </div>
   <div class="field">
-    <button type="submit" class="button margin-right-xs">Submit</button>
+    <button type="submit" class="button">Submit</button>
     <button type="reset" class="button">Reset</button>
   </div>
 </form>
@@ -121,7 +121,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
       <input type="password" id="fieldset-password" placeholder="Enter Password">
     </div>
     <div class="field">
-      <button type="submit" class="button margin-right-xs">Submit</button>
+      <button type="submit" class="button">Submit</button>
       <button type="reset" class="button">Reset</button>
     </div>
   </fieldset>
