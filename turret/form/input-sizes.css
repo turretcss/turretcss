@@ -21,3 +21,22 @@
 	height: var(--input-xs-height);
 	font-size: var(--input-xs-font-size);
 }
+
+input[type="color"] {
+
+	&.input-xl {
+		width: var(--input-xl-height);
+	}
+
+	&.input-l {
+		width: var(--input-l-height);
+	}
+
+	&.input-s {
+		width: var(--input-s-height);
+	}
+
+	&.input-xs {
+		width: var(--input-xs-height);
+	}
+}

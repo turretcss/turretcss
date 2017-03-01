@@ -385,6 +385,10 @@ permalink: /docs/demo/
     <input type="datetime-local" id="input-datetime-local">
   </div>
   <div class="field">
+    <label for="input-color">Color Input</label>
+    <input type="color" id="input-color" value="#3455DB">
+  </div>
+  <div class="field">
     <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
     <label for="input-checkbox">Checkbox Input</label>
   </div>

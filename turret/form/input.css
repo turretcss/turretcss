@@ -107,3 +107,27 @@ input[type="checkbox"] {
 input[type="radio"] {
 	appearance: radio;
 }
+
+input[type="color"] {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: var(--input-height);
+	-webkit-appearance: none;
+
+	&::-moz-focus-inner {
+		padding: var(--input-border-width);
+	}
+
+	&::-webkit-color-swatch-wrapper {
+		padding: var(--input-border-width);
+	}
+
+	&::-moz-color-swatch {
+		border: none;
+	}
+
+	&::-webkit-color-swatch {
+		border: none;
+	}
+}
