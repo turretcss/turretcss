@@ -5,7 +5,7 @@
   "homepage": "http://turretcss.com/",
   "author": "Bigfish.tv",
   "license": "MIT",
-  "style": "dist/turret.css",
+  "style": "turret/turret.css",
   "contributors": [
     {
       "name": "Scott de Jonge",
