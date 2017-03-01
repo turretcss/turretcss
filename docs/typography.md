@@ -129,7 +129,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --paragraph-margin: 1em 0;
 --paragraph-font-family: inherit;
---paragraph-font-weight: normal;
+--paragraph-font-weight: inherit;
 --paragraph-font-size: var(--font-size-m);
 --paragraph-color: inherit;
 --paragraph-line-height: var(--line-height-m);
@@ -225,7 +225,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --cite-margin: 1em 0;
 --cite-font-family: inherit;
---cite-font-weight: normal;
+--cite-font-weight: inherit;
 --cite-font-size: var(--font-size-s);
 --cite-font-style: normal;
 --cite-color: inherit;

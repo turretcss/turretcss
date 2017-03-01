@@ -709,7 +709,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 
 --table-head-padding: 0.5em;
 --table-head-font-family: inherit;
---table-head-font-weight: normal;
+--table-head-font-weight: inherit;
 --table-head-font-size: inherit;
 --table-head-color: inherit;
 --table-head-text-align: left;
