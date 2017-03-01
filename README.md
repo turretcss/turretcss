@@ -1,5 +1,7 @@
 # [Turret](http://turretcss.com/)
 
+[![npm version](https://img.shields.io/npm/v/turretcss.svg)](https://www.npmjs.com/package/turretcss)
+
 Turret - A Responsive Front-end Framework for Accessible and Semantic Websites with default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
 
 ## Quick start
