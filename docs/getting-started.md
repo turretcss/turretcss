@@ -6,9 +6,9 @@ description: A introduction to how to get started, download and use Turret.
 permalink: /docs/getting-started/
 ---
 
-## Download
+## Quick start
 
-There are three quick start ways to download Turret available:
+Several quick start options are available:
 
 ### Download the latest release
 
@@ -32,6 +32,14 @@ Install Turret for your Node powered apps with the [npm package](https://www.npm
 
 ```bash
 npm install turretcss
+```
+
+### Install with yarn
+
+Install Turret with [yarn](https://github.com/yarnpkg/yarn):
+
+```bash
+yarn add turretcss
 ```
 
 ## Structure
