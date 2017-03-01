@@ -33,22 +33,18 @@
   ],
   "scripts": {
     "start": "npm run watch",
-    "watch": "webpack -d --watch",
-    "build": "webpack -d",
-    "deploy": "webpack -p"
+    "watch": "npm run docs -- -w",
+    "build": "postcss turret/turret.css -o dist/turret.min.css",
+    "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "browser-sync-webpack-plugin": "^1.1.4",
-    "css-loader": "^0.25.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.10.1",
-    "path": "^0.12.7",
-    "postcss": "^5.2.5",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^3.0.0-beta",
     "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^8.1.2",
-    "postcss-loader": "^1.0.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "postcss-import": "^8.1.2"
+  },
+  "peerDependencies": {
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2"
   }
 }
