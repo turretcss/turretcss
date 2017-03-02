@@ -4,13 +4,16 @@
 		margin-bottom: var(--space-s);
 	}
 
-	@supports (display: grid) {
-		display: grid;
-		grid-gap: var(--space-s);
-		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+	@media (--s-up) {
+		
+		@supports (display: grid) {
+			display: grid;
+			grid-gap: var(--space-s);
+			grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 
-		& .box:not(:last-child) {
-			margin-bottom: 0;
+			& .box:not(:last-child) {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
