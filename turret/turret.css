@@ -133,6 +133,7 @@
 @import './utility/background';
 @import './utility/color';
 @import './utility/display';
+@import './utility/fill';
 @import './utility/flex';
 @import './utility/float';
 @import './utility/font-family';
@@ -145,5 +146,6 @@
 @import './utility/max-width';
 @import './utility/padding';
 @import './utility/text';
+@import './utility/stroke';
 @import './utility/utility';
 @import './utility/visibility';

@@ -1,0 +1,407 @@
+.stroke-white {
+	stroke: var(--white);
+}
+
+.stroke-black {
+	stroke: var(--black);
+}
+
+.stroke-light {
+	stroke: var(--light);
+}
+
+	.stroke-light-100 {
+		stroke: var(--light-100);
+	}
+
+	.stroke-light-200 {
+		stroke: var(--light-200);
+	}
+
+	.stroke-light-300 {
+		stroke: var(--light-300);
+	}
+
+	.stroke-light-400 {
+		stroke: var(--light-400);
+	}
+
+	.stroke-light-500 {
+		stroke: var(--light-500);
+	}
+
+	.stroke-light-600 {
+		stroke: var(--light-600);
+	}
+
+	.stroke-light-700 {
+		stroke: var(--light-700);
+	}
+
+	.stroke-light-800 {
+		stroke: var(--light-800);
+	}
+
+	.stroke-light-900 {
+		stroke: var(--light-900);
+	}
+
+.stroke-grey {
+	stroke: var(--grey);
+}
+
+	.stroke-grey-100 {
+		stroke: var(--grey-100);
+	}
+
+	.stroke-grey-200 {
+		stroke: var(--grey-200);
+	}
+
+	.stroke-grey-300 {
+		stroke: var(--grey-300);
+	}
+
+	.stroke-grey-400 {
+		stroke: var(--grey-400);
+	}
+
+	.stroke-grey-500 {
+		stroke: var(--grey-500);
+	}
+
+	.stroke-grey-600 {
+		stroke: var(--grey-600);
+	}
+
+	.stroke-grey-700 {
+		stroke: var(--grey-700);
+	}
+
+	.stroke-grey-800 {
+		stroke: var(--grey-800);
+	}
+
+	.stroke-grey-900 {
+		stroke: var(--grey-900);
+	}
+
+.stroke-dark {
+	stroke: var(--dark);
+}
+
+	.stroke-dark-100 {
+		stroke: var(--dark-100);
+	}
+
+	.stroke-dark-200 {
+		stroke: var(--dark-200);
+	}
+
+	.stroke-dark-300 {
+		stroke: var(--dark-300);
+	}
+
+	.stroke-dark-400 {
+		stroke: var(--dark-400);
+	}
+
+	.stroke-dark-500 {
+		stroke: var(--dark-500);
+	}
+
+	.stroke-dark-600 {
+		stroke: var(--dark-600);
+	}
+
+	.stroke-dark-700 {
+		stroke: var(--dark-700);
+	}
+
+	.stroke-dark-800 {
+		stroke: var(--dark-800);
+	}
+
+	.stroke-dark-900 {
+		stroke: var(--dark-900);
+	}
+
+.stroke-primary {
+	stroke: var(--primary);
+}
+
+	.stroke-primary-100 {
+		stroke: var(--primary-100);
+	}
+
+	.stroke-primary-200 {
+		stroke: var(--primary-200);
+	}
+
+	.stroke-primary-300 {
+		stroke: var(--primary-300);
+	}
+
+	.stroke-primary-400 {
+		stroke: var(--primary-400);
+	}
+
+	.stroke-primary-500 {
+		stroke: var(--primary-500);
+	}
+
+	.stroke-primary-600 {
+		stroke: var(--primary-600);
+	}
+
+	.stroke-primary-700 {
+		stroke: var(--primary-700);
+	}
+
+	.stroke-primary-800 {
+		stroke: var(--primary-800);
+	}
+
+	.stroke-primary-900 {
+		stroke: var(--primary-900);
+	}
+
+.stroke-secondary {
+	stroke: var(--secondary);
+}
+
+	.stroke-secondary-100 {
+		stroke: var(--secondary-100);
+	}
+
+	.stroke-secondary-200 {
+		stroke: var(--secondary-200);
+	}
+
+	.stroke-secondary-300 {
+		stroke: var(--secondary-300);
+	}
+
+	.stroke-secondary-400 {
+		stroke: var(--secondary-400);
+	}
+
+	.stroke-secondary-500 {
+		stroke: var(--secondary-500);
+	}
+
+	.stroke-secondary-600 {
+		stroke: var(--secondary-600);
+	}
+
+	.stroke-secondary-700 {
+		stroke: var(--secondary-700);
+	}
+
+	.stroke-secondary-800 {
+		stroke: var(--secondary-800);
+	}
+
+	.stroke-secondary-900 {
+		stroke: var(--secondary-900);
+	}
+
+.stroke-tertiary {
+	stroke: var(--tertiary);
+}
+
+	.stroke-tertiary-100 {
+		stroke: var(--tertiary-100);
+	}
+
+	.stroke-tertiary-200 {
+		stroke: var(--tertiary-200);
+	}
+
+	.stroke-tertiary-300 {
+		stroke: var(--tertiary-300);
+	}
+
+	.stroke-tertiary-400 {
+		stroke: var(--tertiary-400);
+	}
+
+	.stroke-tertiary-500 {
+		stroke: var(--tertiary-500);
+	}
+
+	.stroke-tertiary-600 {
+		stroke: var(--tertiary-600);
+	}
+
+	.stroke-tertiary-700 {
+		stroke: var(--tertiary-700);
+	}
+
+	.stroke-tertiary-800 {
+		stroke: var(--tertiary-800);
+	}
+
+	.stroke-tertiary-900 {
+		stroke: var(--tertiary-900);
+	}
+
+.stroke-error {
+	stroke: var(--error);
+}
+
+	.stroke-error-100 {
+		stroke: var(--error-100);
+	}
+
+	.stroke-error-200 {
+		stroke: var(--error-200);
+	}
+
+	.stroke-error-300 {
+		stroke: var(--error-300);
+	}
+
+	.stroke-error-400 {
+		stroke: var(--error-400);
+	}
+
+	.stroke-error-500 {
+		stroke: var(--error-500);
+	}
+
+	.stroke-error-600 {
+		stroke: var(--error-600);
+	}
+
+	.stroke-error-700 {
+		stroke: var(--error-700);
+	}
+
+	.stroke-error-800 {
+		stroke: var(--error-800);
+	}
+
+	.stroke-error-900 {
+		stroke: var(--error-900);
+	}
+
+.stroke-warning {
+	stroke: var(--warning);
+}
+
+	.stroke-warning-100 {
+		stroke: var(--warning-100);
+	}
+
+	.stroke-warning-200 {
+		stroke: var(--warning-200);
+	}
+
+	.stroke-warning-300 {
+		stroke: var(--warning-300);
+	}
+
+	.stroke-warning-400 {
+		stroke: var(--warning-400);
+	}
+
+	.stroke-warning-500 {
+		stroke: var(--warning-500);
+	}
+
+	.stroke-warning-600 {
+		stroke: var(--warning-600);
+	}
+
+	.stroke-warning-700 {
+		stroke: var(--warning-700);
+	}
+
+	.stroke-warning-800 {
+		stroke: var(--warning-800);
+	}
+
+	.stroke-warning-900 {
+		stroke: var(--warning-900);
+	}
+
+.stroke-success {
+	stroke: var(--success);
+}
+
+	.stroke-success-100 {
+		stroke: var(--success-100);
+	}
+
+	.stroke-success-200 {
+		stroke: var(--success-200);
+	}
+
+	.stroke-success-300 {
+		stroke: var(--success-300);
+	}
+
+	.stroke-success-400 {
+		stroke: var(--success-400);
+	}
+
+	.stroke-success-500 {
+		stroke: var(--success-500);
+	}
+
+	.stroke-success-600 {
+		stroke: var(--success-600);
+	}
+
+	.stroke-success-700 {
+		stroke: var(--success-700);
+	}
+
+	.stroke-success-800 {
+		stroke: var(--success-800);
+	}
+
+	.stroke-success-900 {
+		stroke: var(--success-900);
+	}
+
+.stroke-info {
+	stroke: var(--info);
+}
+
+	.stroke-info-100 {
+		stroke: var(--info-100);
+	}
+
+	.stroke-info-200 {
+		stroke: var(--info-200);
+	}
+
+	.stroke-info-300 {
+		stroke: var(--info-300);
+	}
+
+	.stroke-info-400 {
+		stroke: var(--info-400);
+	}
+
+	.stroke-info-500 {
+		stroke: var(--info-500);
+	}
+
+	.stroke-info-600 {
+		stroke: var(--info-600);
+	}
+
+	.stroke-info-700 {
+		stroke: var(--info-700);
+	}
+
+	.stroke-info-800 {
+		stroke: var(--info-800);
+	}
+
+	.stroke-info-900 {
+		stroke: var(--info-900);
+	}

@@ -410,6 +410,304 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
+## Fill
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-white" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-black" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-white" ... />
+<circle class="fill-black" ... />
+```
+
+### Shades
+
+#### Light
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-light" ... />
+<circle class="fill-light-100" ... />
+<circle class="fill-light-200" ... />
+<circle class="fill-light-300" ... />
+<circle class="fill-light-400" ... />
+<circle class="fill-light-500" ... />
+<circle class="fill-light-600" ... />
+<circle class="fill-light-700" ... />
+<circle class="fill-light-800" ... />
+<circle class="fill-light-900" ... />
+```
+
+#### Grey
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-grey" ... />
+<circle class="fill-grey-100" ... />
+<circle class="fill-grey-200" ... />
+<circle class="fill-grey-300" ... />
+<circle class="fill-grey-400" ... />
+<circle class="fill-grey-500" ... />
+<circle class="fill-grey-600" ... />
+<circle class="fill-grey-700" ... />
+<circle class="fill-grey-800" ... />
+<circle class="fill-grey-900" ... />
+```
+
+#### Dark
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-dark" ... />
+<circle class="fill-dark-100" ... />
+<circle class="fill-dark-200" ... />
+<circle class="fill-dark-300" ... />
+<circle class="fill-dark-400" ... />
+<circle class="fill-dark-500" ... />
+<circle class="fill-dark-600" ... />
+<circle class="fill-dark-700" ... />
+<circle class="fill-dark-800" ... />
+<circle class="fill-dark-900" ... />
+```
+
+### Palettes
+
+#### Primary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-primary" ... />
+<circle class="fill-primary-100" ... />
+<circle class="fill-primary-200" ... />
+<circle class="fill-primary-300" ... />
+<circle class="fill-primary-400" ... />
+<circle class="fill-primary-500" ... />
+<circle class="fill-primary-600" ... />
+<circle class="fill-primary-700" ... />
+<circle class="fill-primary-800" ... />
+<circle class="fill-primary-900" ... />
+```
+
+#### Secondary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-secondary" ... />
+<circle class="fill-secondary-100" ... />
+<circle class="fill-secondary-200" ... />
+<circle class="fill-secondary-300" ... />
+<circle class="fill-secondary-400" ... />
+<circle class="fill-secondary-500" ... />
+<circle class="fill-secondary-600" ... />
+<circle class="fill-secondary-700" ... />
+<circle class="fill-secondary-800" ... />
+<circle class="fill-secondary-900" ... />
+```
+
+#### Tertiary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-tertiary" ... />
+<circle class="fill-tertiary-100" ... />
+<circle class="fill-tertiary-200" ... />
+<circle class="fill-tertiary-300" ... />
+<circle class="fill-tertiary-400" ... />
+<circle class="fill-tertiary-500" ... />
+<circle class="fill-tertiary-600" ... />
+<circle class="fill-tertiary-700" ... />
+<circle class="fill-tertiary-800" ... />
+<circle class="fill-tertiary-900" ... />
+```
+
+### Indicators
+
+#### Error
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-error" ... />
+<circle class="fill-error-100" ... />
+<circle class="fill-error-200" ... />
+<circle class="fill-error-300" ... />
+<circle class="fill-error-400" ... />
+<circle class="fill-error-500" ... />
+<circle class="fill-error-600" ... />
+<circle class="fill-error-700" ... />
+<circle class="fill-error-800" ... />
+<circle class="fill-error-900" ... />
+```
+
+#### Warning
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-warning" ... />
+<circle class="fill-warning-100" ... />
+<circle class="fill-warning-200" ... />
+<circle class="fill-warning-300" ... />
+<circle class="fill-warning-400" ... />
+<circle class="fill-warning-500" ... />
+<circle class="fill-warning-600" ... />
+<circle class="fill-warning-700" ... />
+<circle class="fill-warning-800" ... />
+<circle class="fill-warning-900" ... />
+```
+
+#### Success
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-success" ... />
+<circle class="fill-success-100" ... />
+<circle class="fill-success-200" ... />
+<circle class="fill-success-300" ... />
+<circle class="fill-success-400" ... />
+<circle class="fill-success-500" ... />
+<circle class="fill-success-600" ... />
+<circle class="fill-success-700" ... />
+<circle class="fill-success-800" ... />
+<circle class="fill-success-900" ... />
+```
+
+#### Info
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-100" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-200" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-300" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-400" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-500" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-600" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-700" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-800" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-900" cx="8" cy="8" r="8"/></svg>
+</div>
+
+```html
+<circle class="fill-info" ... />
+<circle class="fill-info-100" ... />
+<circle class="fill-info-200" ... />
+<circle class="fill-info-300" ... />
+<circle class="fill-info-400" ... />
+<circle class="fill-info-500" ... />
+<circle class="fill-info-600" ... />
+<circle class="fill-info-700" ... />
+<circle class="fill-info-800" ... />
+<circle class="fill-info-900" ... />
+```
+
 ## Flex
 
 <div class="table-responsive">
@@ -1505,6 +1803,304 @@ Utility classes can be used to position elements easily, each position utility c
 <p class="letter-spacing-m">...</p>
 <p class="letter-spacing-s">...</p>
 <p class="letter-spacing-xs">...</p>
+```
+
+## Stroke
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-white" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-black" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-white" ... />
+<circle class="stroke-black" ... />
+```
+
+### Shades
+
+#### Light
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-light" ... />
+<circle class="stroke-light-100" ... />
+<circle class="stroke-light-200" ... />
+<circle class="stroke-light-300" ... />
+<circle class="stroke-light-400" ... />
+<circle class="stroke-light-500" ... />
+<circle class="stroke-light-600" ... />
+<circle class="stroke-light-700" ... />
+<circle class="stroke-light-800" ... />
+<circle class="stroke-light-900" ... />
+```
+
+#### Grey
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-grey" ... />
+<circle class="stroke-grey-100" ... />
+<circle class="stroke-grey-200" ... />
+<circle class="stroke-grey-300" ... />
+<circle class="stroke-grey-400" ... />
+<circle class="stroke-grey-500" ... />
+<circle class="stroke-grey-600" ... />
+<circle class="stroke-grey-700" ... />
+<circle class="stroke-grey-800" ... />
+<circle class="stroke-grey-900" ... />
+```
+
+#### Dark
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-dark" ... />
+<circle class="stroke-dark-100" ... />
+<circle class="stroke-dark-200" ... />
+<circle class="stroke-dark-300" ... />
+<circle class="stroke-dark-400" ... />
+<circle class="stroke-dark-500" ... />
+<circle class="stroke-dark-600" ... />
+<circle class="stroke-dark-700" ... />
+<circle class="stroke-dark-800" ... />
+<circle class="stroke-dark-900" ... />
+```
+
+### Palettes
+
+#### Primary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-primary" ... />
+<circle class="stroke-primary-100" ... />
+<circle class="stroke-primary-200" ... />
+<circle class="stroke-primary-300" ... />
+<circle class="stroke-primary-400" ... />
+<circle class="stroke-primary-500" ... />
+<circle class="stroke-primary-600" ... />
+<circle class="stroke-primary-700" ... />
+<circle class="stroke-primary-800" ... />
+<circle class="stroke-primary-900" ... />
+```
+
+#### Secondary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-secondary" ... />
+<circle class="stroke-secondary-100" ... />
+<circle class="stroke-secondary-200" ... />
+<circle class="stroke-secondary-300" ... />
+<circle class="stroke-secondary-400" ... />
+<circle class="stroke-secondary-500" ... />
+<circle class="stroke-secondary-600" ... />
+<circle class="stroke-secondary-700" ... />
+<circle class="stroke-secondary-800" ... />
+<circle class="stroke-secondary-900" ... />
+```
+
+#### Tertiary
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-tertiary" ... />
+<circle class="stroke-tertiary-100" ... />
+<circle class="stroke-tertiary-200" ... />
+<circle class="stroke-tertiary-300" ... />
+<circle class="stroke-tertiary-400" ... />
+<circle class="stroke-tertiary-500" ... />
+<circle class="stroke-tertiary-600" ... />
+<circle class="stroke-tertiary-700" ... />
+<circle class="stroke-tertiary-800" ... />
+<circle class="stroke-tertiary-900" ... />
+```
+
+### Indicators
+
+#### Error
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-error" ... />
+<circle class="stroke-error-100" ... />
+<circle class="stroke-error-200" ... />
+<circle class="stroke-error-300" ... />
+<circle class="stroke-error-400" ... />
+<circle class="stroke-error-500" ... />
+<circle class="stroke-error-600" ... />
+<circle class="stroke-error-700" ... />
+<circle class="stroke-error-800" ... />
+<circle class="stroke-error-900" ... />
+```
+
+#### Warning
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-warning" ... />
+<circle class="stroke-warning-100" ... />
+<circle class="stroke-warning-200" ... />
+<circle class="stroke-warning-300" ... />
+<circle class="stroke-warning-400" ... />
+<circle class="stroke-warning-500" ... />
+<circle class="stroke-warning-600" ... />
+<circle class="stroke-warning-700" ... />
+<circle class="stroke-warning-800" ... />
+<circle class="stroke-warning-900" ... />
+```
+
+#### Success
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-success" ... />
+<circle class="stroke-success-100" ... />
+<circle class="stroke-success-200" ... />
+<circle class="stroke-success-300" ... />
+<circle class="stroke-success-400" ... />
+<circle class="stroke-success-500" ... />
+<circle class="stroke-success-600" ... />
+<circle class="stroke-success-700" ... />
+<circle class="stroke-success-800" ... />
+<circle class="stroke-success-900" ... />
+```
+
+#### Info
+
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-400" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-500" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-600" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-700" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-800" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-900" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+</div>
+
+```html
+<circle class="stroke-info" ... />
+<circle class="stroke-info-100" ... />
+<circle class="stroke-info-200" ... />
+<circle class="stroke-info-300" ... />
+<circle class="stroke-info-400" ... />
+<circle class="stroke-info-500" ... />
+<circle class="stroke-info-600" ... />
+<circle class="stroke-info-700" ... />
+<circle class="stroke-info-800" ... />
+<circle class="stroke-info-900" ... />
 ```
 
 ## Text
