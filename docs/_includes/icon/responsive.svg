@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path fill="currentColor" fill-rule="evenodd" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M0,4 L20,4 L20,32 L0,32 L0,4 Z M0,8 L16,8 L16,32 L0,32 L0,8 Z M0,12 L12,12 L12,32 L0,32 L0,12 Z M0,16 L8,16 L8,32 L0,32 L0,16 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="currentColor" fill-rule="evenodd">
+    <rect class="animation animation-scale animation-ease-out" width="64" height="64" />
+    <rect class="animation animation-scale animation-ease-in-out fill-primary" width="48" height="48" x="4" y="12" />
+    <rect class="animation animation-scale animation-linear" width="32" height="32" x="4" y="28" />
+    <rect class="animation animation-scale animation-ease-in fill-primary" width="16" height="16" x="4" y="44" />
+  </g>
 </svg>

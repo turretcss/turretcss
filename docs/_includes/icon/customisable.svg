@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path fill="currentColor" fill-rule="evenodd" d="M14,5 L26,17 L14,29 L2,17 L11,8 L8,5 L11,2 L14,5 Z M14,11 L20,17 L8,17 L14,11 Z M27,27 C28.6568542,27 30,25.5673112 30,23.8 C30,22.0326888 27,19 27,19 C27,19 24,22.0326888 24,23.8 C24,25.5673112 25.3431458,27 27,27 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="currentColor" fill-rule="evenodd">
+    <polygon points="32 32 64 48 32 64 0 48"/>
+    <polygon class="animation-translate-y-50 animation-ease-in-out fill-primary" points="32 24 64 40 32 56 0 40"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out" points="32 16 64 32 32 48 0 32"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out fill-primary" points="32 8 64 24 32 40 0 24"/>
+    <polygon class="animation animation-translate-y-100 animation-ease-in-out" points="32 0 64 16 32 32 0 16"/>
+  </g>
 </svg>

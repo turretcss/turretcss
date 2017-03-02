@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path fill="currentColor" fill-rule="evenodd" d="M15,22 L15,32 L11,32 L11,14 L2,14 L2,10 L30,10 L30,14 L21,14 L21,32 L17,32 L17,22 L15,22 Z M16,8 C18.209139,8 20,6.209139 20,4 C20,1.790861 18.209139,0 16,0 C13.790861,0 12,1.790861 12,4 C12,6.209139 13.790861,8 16,8 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path d="M35,44 L29,44 L29,64 L21,64 L21,28 L22.5,28 L4,28 L4,20 L60,20 L60,28 L41.5,28 L43,28 L43,64 L35,64 L35,44 Z"/>
+    <circle cx="32" cy="8" r="8"/>
+  </g>
 </svg>

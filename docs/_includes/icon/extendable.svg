@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path fill="currentColor" fill-rule="evenodd" d="M9.07179677,19.7735027 L9.07179677,12.2264973 L6,14 L2.53589838,12 L2.53589838,8 L6,6 L9.46410162,8 L9.46410162,11.7735027 L16,8 L22.5358984,11.7735027 L22.5358984,8 L26,6 L29.4641016,8 L29.4641016,12 L26,14 L22.9282032,12.2264973 L22.9282032,19.7735027 L26,18 L29.4641016,20 L29.4641016,24 L26,26 L22.5358984,24 L22.5358984,20.2264973 L16,24 L9.46410162,20.2264973 L9.46410162,24 L6,26 L2.53589838,24 L2.53589838,20 L6,18 L9.07179677,19.7735027 Z M16,0 L19.4641016,2 L19.4641016,6 L16,8 L12.5358984,6 L12.5358984,2 L16,0 Z M16,24 L19.4641016,26 L19.4641016,30 L16,32 L12.5358984,30 L12.5358984,26 L16,24 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="currentColor" fill-rule="evenodd">
+    <polygon points="32 32 64 48 32 64 0 48"/>
+    <polygon class="animation-translate-y-50 animation-ease-in-out fill-primary" points="32 24 64 40 32 56 0 40"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out" points="32 16 64 32 32 48 0 32"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out fill-primary" points="32 8 64 24 32 40 0 24"/>
+    <polygon class="animation animation-translate-y-100 animation-ease-in-out" points="32 0 64 16 32 32 0 16"/>
+  </g>
 </svg>
