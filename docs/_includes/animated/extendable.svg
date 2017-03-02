@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <g fill="currentColor" fill-rule="evenodd">
+    <polygon id="extendable-inner" points="16 8 22.928 12 22.928 20 16 24 9.072 20 9.072 12"/>
+    <g transform="translate(2)">
+      <polygon points="4 18 7.464 20 7.464 24 4 26 .536 24 .536 20">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+      <polygon points="14 24 17.464 26 17.464 30 14 32 10.536 30 10.536 26">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+      <polygon points="24 18 27.464 20 27.464 24 24 26 20.536 24 20.536 20">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+      <polygon points="4 6 7.464 8 7.464 12 4 14 .536 12 .536 8">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+      <polygon points="24 6 27.464 8 27.464 12 24 14 20.536 12 20.536 8">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+      <polygon points="14 0 17.464 2 17.464 6 14 8 10.536 6 10.536 2">
+        <animateTransform 
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          from="8 -8"
+          to="0 0"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          from="0 0"
+          to="1 1"
+          begin="0s"
+          dur="2s"
+          repeatCount="indefinite"
+        />
+      </polygon>
+    </g>
+  </g>
+  <!-- <animateTransform
+    xlink:href="#extendable-inner"
+    attributeName="transform"
+    attributeType="XML"
+    type="rotate"
+    from="90 16 16"
+    to="-90 16 16"
+    dur="1s"
+    begin="0s"
+    repeatCount="indefinite"
+    fill="freeze"
+  /> -->
+</svg>

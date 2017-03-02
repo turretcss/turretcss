@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect class="animation animation-scale animation-ease-out fill-white" width="64" height="64" />
+  <rect class="animation animation-scale animation-ease-in-out fill-primary" width="48" height="48" x="4" y="12" />
+  <rect class="animation animation-scale animation-linear fill-white" width="32" height="32" x="4" y="28" />
+  <rect class="animation animation-scale animation-ease-in fill-primary" width="16" height="16" x="4" y="44" />
+</svg>
