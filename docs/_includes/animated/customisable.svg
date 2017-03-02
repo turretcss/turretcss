@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <polygon class="fill-white" points="32 32 64 48 32 64 0 48"/>
-  <polygon class="fill-primary" points="32 24 64 40 32 56 0 40"/>
-  <polygon class="animation animation-translate-y-50 animation-ease-in-out fill-white" points="32 16 64 32 32 48 0 32"/>
-  <polygon class="fill-primary" points="32 8 64 24 32 40 0 24"/>
-  <polygon class="animation animation-translate-y-100 animation-ease-in-out fill-white" points="32 0 64 16 32 32 0 16"/>
+  <g fill="currentColor" fill-rule="evenodd">
+    <polygon points="32 32 64 48 32 64 0 48"/>
+    <polygon class="animation-translate-y-50 animation-ease-in-out fill-primary" points="32 24 64 40 32 56 0 40"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out" points="32 16 64 32 32 48 0 32"/>
+    <polygon class="animation animation-translate-y-50 animation-ease-in-out fill-primary" points="32 8 64 24 32 40 0 24"/>
+    <polygon class="animation animation-translate-y-100 animation-ease-in-out" points="32 0 64 16 32 32 0 16"/>
+  </g>
 </svg>
