@@ -51,6 +51,17 @@
  * General
  */
 
+.hero-text {
+	margin: 0.25em 0;
+	font-weight: var(--font-weight-black);
+	font-size: calc(1rem + 7.5vw);
+	line-height: 1;
+	text-transform: uppercase;
+
+	& span {
+		display: block;
+	}
+}
 
 .home-button {
 
