@@ -67,7 +67,6 @@
 	font-weight: var(--font-weight-black);
 	font-size: calc(1rem + 7.5vw);
 	line-height: 1;
-	letter-spacing: 2vw;
 	text-transform: uppercase;
 
 	& span {
