@@ -4,6 +4,7 @@
 
 @import '../../../turret/turret.css';
 
+
 /**
  * Variables
  */
@@ -45,17 +46,6 @@
 @import './component/boxes';
 @import './component/palette';
 @import './component/swatch';
-
-
-/**
- * Animation
- */
-
-@import './animation/animation';
-@import './animation/rotate';
-@import './animation/scale';
-@import './animation/translate-y-50';
-@import './animation/translate-y-100';
 
 
 /**
