@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="currentColor" fill-rule="evenodd">
-    <rect class="animation animation-scale animation-ease-out" width="64" height="64" />
-    <rect class="animation animation-scale animation-ease-in-out fill-primary" width="48" height="48" x="4" y="12" />
-    <rect class="animation animation-scale animation-linear" width="32" height="32" x="4" y="28" />
-    <rect class="animation animation-scale animation-ease-in fill-primary" width="16" height="16" x="4" y="44" />
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <circle cx="24" cy="32" r="6"/>
+    <circle cx="32" cy="32" r="30"/>
+    <circle cx="16" cy="32" r="14"/>
   </g>
 </svg>

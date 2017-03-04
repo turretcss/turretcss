@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g class="rotate" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <circle cx="24" cy="32" r="6"/>
+    <circle cx="32" cy="32" r="30"/>
+    <circle cx="16" cy="32" r="14"/>
+  </g>
+  <style>
+    @keyframes rotate {
+      0% { transform: rotate(0deg) }
+      100% { transform: rotate(360deg) }
+    }
+    .rotate {
+      animation: rotate 2s infinite linear;
+      transform-origin: 50% 50%;
+    }
+  </style>
+</svg>

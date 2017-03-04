@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="currentColor" fill-rule="evenodd">
-    <path d="M35,44 L29,44 L29,64 L21,64 L21,28 L22.5,28 L4,28 L4,20 L60,20 L60,28 L41.5,28 L43,28 L43,64 L35,64 L35,44 Z"/>
-    <circle cx="32" cy="8" r="8"/>
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <circle cx="32" cy="32" r="30"/>
+    <circle cx="32" cy="14" r="6"/>
+    <circle cx="50" cy="32" r="6"/>
+    <circle cx="32" cy="50" r="6"/>
+    <circle cx="14" cy="32" r="6"/>
+    <polygon points="32 20 44 32 32 44 20 32" stroke-linejoin="bevel"/>
   </g>
 </svg>

@@ -1,3 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <path fill="currentColor" fill-rule="evenodd" d="M52,8 L56,8 L56,56 L52,56 L40,56 L40,48 L48,48 L48,16 L40,16 L40,8 L52,8 Z M16,48 L16,16 L24,16 L24,8 L12,8 L8,8 L8,52 L8,56 L24,56 L24,48 L16,48 Z M0,0 L64,0 L64,64 L0,64 L0,0 Z"/>
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <rect width="60" height="60" x="2" y="2"/>
+    <rect width="12" height="12" x="40" y="39" fill="currentColor"/>
+    <polygon fill="currentColor" points="18 41 24 51 12 51"/>
+    <circle cx="18" cy="19" r="6" fill="currentColor"/>
+    <g transform="translate(38 11)">
+      <path d="M0,8 L16,8"/>
+      <path d="M8,16 L8,0"/>
+    </g>
+  </g>
 </svg>
