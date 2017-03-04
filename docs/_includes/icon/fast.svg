@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
-    <polygon points="58 32 4 61 4 3"/>
-    <polygon points="36 32 4 49 4 15"/>
-    <polygon points="14 32 4 38 4 26"/>
+    <circle cx="8" cy="56" r="6" transform="rotate(90 8 56)"/>
+    <circle cx="8" cy="8" r="6" transform="rotate(90 8 8)"/>
+    <circle cx="8" cy="32" r="6" transform="rotate(90 8 32)"/>
+    <path d="M34,32 L14,32"/>
+    <path d="M30.7583302,57.7583302 L17.7583302,35.2416698" transform="rotate(90 24.258 46.5)"/>
+    <path d="M17.7583302,28.7583302 L30.7583302,6.24166975" transform="rotate(90 24.258 17.5)"/>
+    <circle cx="48" cy="32" r="14"/>
   </g>
 </svg>
