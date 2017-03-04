@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
-    <circle cx="15" cy="32" r="6" transform="rotate(-90 15 32)"/>
-    <path d="M23,34 L23,30" transform="rotate(-90 23 32)"/>
-    <circle cx="49" cy="8" r="6" transform="rotate(-90 49 8)"/>
-    <circle cx="15" cy="8" r="6" transform="rotate(-90 15 8)"/>
-    <circle cx="15" cy="56" r="6" transform="rotate(-90 15 56)"/>
-    <path d="M32,45 L32,67" transform="rotate(-90 32 56)"/>
-    <path d="M32,-3 L32,19" transform="rotate(-90 32 8)"/>
-    <circle cx="49" cy="56" r="6" transform="rotate(-90 49 56)"/>
-    <path d="M51.5,47.5 L47.5,47.5" transform="rotate(-90 49.5 48)"/>
-    <path d="M51.5,15.5 L47.5,15.5" transform="rotate(-90 49.5 16)"/>
-    <polygon points="37 20 51 44 23 44" transform="rotate(-90 37 32)"/>
+    <circle cx="18" cy="10" r="6"/>
+    <circle cx="54" cy="46" r="6"/>
+    <circle cx="18" cy="46" r="14"/>
+    <path d="M18,32 L18,16"/>
+    <path d="M32,46 L48,46"/>
   </g>
 </svg>

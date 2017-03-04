@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <path d="M0,14 L64,14"/>
+    <path d="M0,32 L64,32"/>
+    <path d="M0,50 L64,50"/>
+  </g>
+  <g class="fill-primary" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+    <circle id="scalable-1" cx="48" cy="14" r="6"/>
+    <circle id="scalable-2" cx="32" cy="32" r="6"/>
+    <circle id="scalable-3" cx="16" cy="50" r="6"/>
+  </g>
+  <style>
+    @keyframes scalable-1 {
+      0% { transform: translate3d(0, 0, 0) }
+      100% { transform: translate3d(-36px, 0, 0)  }
+    }
+    @keyframes scalable-2 {
+      0% { transform: translate3d(0, 0, 0) }
+      25% { transform: translate3d(16px, 0, 0)  }
+      50% { transform: translate3d(0, 0, 0)  }
+      75% { transform: translate3d(-16px, 0, 0)  }
+      100% { transform: translate3d(0, 0, 0)  }
+    }
+    @keyframes scalable-3 {
+      0% { transform: translate3d(0, 0, 0) }
+      100% { transform: translate3d(36px, 0, 0)  }
+    }
+    #scalable-1 {
+      animation: scalable-1 3s infinite alternate linear;
+      transform-origin: 50% 50%;
+    }
+    #scalable-2 {
+      animation: scalable-2 3s infinite alternate linear;
+      transform-origin: 50% 50%;
+    }
+    #scalable-3 {
+      animation: scalable-3 3s infinite alternate linear;
+      transform-origin: 50% 50%;
+    }
+  </style>
+</svg>

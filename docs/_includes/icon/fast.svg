@@ -1,21 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
-    <circle cx="56" cy="32" r="6"/>
-    <circle cx="32" cy="8" r="6"/>
-    <ellipse cx="32" cy="32" rx="14" ry="14"/>
-    <path d="M32,18 L32,14"/>
-    <circle cx="32" cy="56" r="6"/>
-    <path d="M32,50 L32,46"/>
-    <path d="M46,32 L50,32"/>
-    <circle cx="8" cy="32" r="6"/>
-    <path d="M14,32 L18,32"/>
-    <circle cx="48.971" cy="48.971" r="6" transform="rotate(45 48.97 48.97)"/>
-    <circle cx="48.971" cy="15.029" r="6" transform="rotate(45 48.97 15.03)"/>
-    <path d="M43.3137085,22.6862915 L43.3137085,18.6862915" transform="rotate(45 43.314 20.686)"/>
-    <circle cx="15.029" cy="48.971" r="6" transform="rotate(45 15.03 48.97)"/>
-    <path d="M20.6862915,45.3137085 L20.6862915,41.3137085" transform="rotate(45 20.686 43.314)"/>
-    <path d="M41.3137085,43.3137085 L45.3137085,43.3137085" transform="rotate(45 43.314 43.314)"/>
-    <circle cx="15.029" cy="15.029" r="6" transform="rotate(45 15.03 15.03)"/>
-    <path d="M18.6862915,20.6862915 L22.6862915,20.6862915" transform="rotate(45 20.686 20.686)"/>
+    <polygon points="58 32 4 61 4 3"/>
+    <polygon points="36 32 4 49 4 15"/>
+    <polygon points="14 32 4 38 4 26"/>
   </g>
 </svg>
