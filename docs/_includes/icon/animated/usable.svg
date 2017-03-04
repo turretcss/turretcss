@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2">
     <circle id="usable-1" cx="32" cy="32" r="30"/>
     <circle id="usable-2" cx="32" cy="32" r="22"/>
+    <circle id="usable-3" cx="32" cy="32" r="14"/>
     <circle id="usable-cursor" cx="32" cy="32" r="6"/>
   </g>
   <style>
@@ -28,6 +29,10 @@
     }
     #usable-2 {
       animation: ripple 3s infinite alternate linear;
+      transform-origin: 50% 50%;
+    }
+    #usable-3 {
+      animation: ripple 3s infinite alternate ease-out;
       transform-origin: 50% 50%;
     }
   </style>

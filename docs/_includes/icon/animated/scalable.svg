@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2">
     <path d="M0,14 L64,14"/>
     <path d="M0,32 L64,32"/>
     <path d="M0,50 L64,50"/>
   </g>
-  <g class="fill-primary" fill-rule="evenodd" stroke="currentColor" stroke-width="4">
+  <g class="fill-primary" fill-rule="evenodd" stroke="currentColor" stroke-width="2">
     <circle id="scalable-1" cx="48" cy="14" r="6"/>
     <circle id="scalable-2" cx="32" cy="32" r="6"/>
     <circle id="scalable-3" cx="16" cy="50" r="6"/>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4" transform="translate(2 2)">
+  <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2" transform="translate(2 2)">
     <circle cx="54" cy="30" r="6"/>
     <circle cx="30" cy="6" r="6"/>
     <ellipse cx="30" cy="30" rx="14" ry="14"/>
