@@ -1,54 +1,54 @@
 .navigation {
 
-	& ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-	& li {
-		margin: 0;
-		padding: 0;
-		font-weight: var(--font-weight-medium);
-		font-size: var(--font-size-m);
-		line-height: var(--line-height-s);
+  & li {
+    margin: 0;
+    padding: 0;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-m);
+    line-height: var(--line-height-s);
 
-		& ul {
-			display: none;
+    & ul {
+      display: none;
 
-			& li {
-				border: none;
-				font-weight: var(--font-weight-regular);
-				font-size: var(--font-size-s);
+      & li {
+        border: none;
+        font-weight: var(--font-weight-regular);
+        font-size: var(--font-size-s);
 
-				& a {
-					padding: 0.5em 2em;
-				}
-			}
-		}
+        & a {
+          padding: 0.5em 2em;
+        }
+      }
+    }
 
-		&.active {
+    &.active {
 
-			& ul {
-				display: block;
-			}
+      & ul {
+        display: block;
+      }
 
-			& > a {
-				padding-left: 0.75em;
-				border-left: 0.25em solid var(--primary);
-			}
-		}
-	}
+      & > a {
+        padding-left: 0.75em;
+        border-left: 0.25em solid var(--primary);
+      }
+    }
+  }
 
-	& a {
-		display: block;
-		padding: 0.5em 1em;
-		text-decoration: none;
+  & a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
 
-		&:hover,
-		&:focus {
-			color: var(--primary);
-			text-decoration: none;
-		}
-	}
+    &:hover,
+    &:focus {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  }
 }

@@ -2,31 +2,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>
-  	{% if page.page_title %}
-  		{{ page.page_title }}
-  	{% elsif page.title %}
-  		{{ page.title }}
-  	{% else %}
-  		{{ site.title }}
-  	{% endif %}
+    {% if page.page_title %}
+      {{ page.page_title }}
+    {% elsif page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/icons/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="{{ site.baseurl }}/assets/icons/favicon.ico" type="image/x-icon" />
-
   <link rel="stylesheet" href="{{ site.baseurl }}/dist/docs.css">
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-59106857-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>

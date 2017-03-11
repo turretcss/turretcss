@@ -1,28 +1,28 @@
 .boxes {
 
-	& .box:not(:last-child) {
-		margin-bottom: var(--space-s);
-	}
+  & .box:not(:last-child) {
+    margin-bottom: var(--space-s);
+  }
 
-	@media (--s-up) {
-		
-		@supports (display: grid) {
-			display: grid;
-			grid-gap: var(--space-s);
-			grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  @media (--s-up) {
+    
+    @supports (display: grid) {
+      display: grid;
+      grid-gap: var(--space-s);
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 
-			& .box:not(:last-child) {
-				margin-bottom: 0;
-			}
-		}
-	}
+      & .box:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .box {
-	padding: var(--gutter);
-	border: 1px solid currentColor;
+  padding: var(--gutter);
+  border: 1px solid currentColor;
 
-	& svg + h3 {
-		margin-top: 1em;
-	}
+  & svg + h3 {
+    margin-top: 1em;
+  }
 }

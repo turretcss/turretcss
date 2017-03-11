@@ -1,13 +1,13 @@
 .footer {
-	border-top: 1px solid var(--light-300);
+  border-top: 1px solid var(--light-300);
 
-	& a {
-		font-weight: var(--font-weight-semibold);
-		text-decoration: none;
+  & a {
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
 
-		&:hover,
-		&:focus {
-			text-decoration: underline;
-		}
-	}
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
 }

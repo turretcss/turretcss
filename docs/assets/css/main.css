@@ -53,50 +53,50 @@
  */
 
 .hero-text {
-	margin: 0.25em 0;
-	font-weight: var(--font-weight-black);
-	font-size: calc(1rem + 7.5vw);
-	line-height: 1;
-	text-transform: uppercase;
+  margin: 0.25em 0;
+  font-weight: var(--font-weight-black);
+  font-size: calc(1rem + 7.5vw);
+  line-height: 1;
+  text-transform: uppercase;
 
-	& span {
-		display: block;
-	}
+  & span {
+    display: block;
+  }
 }
 
 .home-button {
 
-	@media (--s-up) {
-		width: 100%;
-		max-width: 10rem;
+  @media (--s-up) {
+    width: 100%;
+    max-width: 10rem;
 
-		& + .home-button {
-			margin-left: 1em;
-		}
-	}
+    & + .home-button {
+      margin-left: 1em;
+    }
+  }
 
-	@media (--xs) {
-		display: block;
+  @media (--xs) {
+    display: block;
 
-		&:not(:last-child) {
-			margin-bottom: 1em;
-		}
-	}
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
 }
 
 body {
 
-	@media (--s-down) {
+  @media (--s-down) {
 
-		&.open {
+    &.open {
 
-			& .main {
-				transform: translateX(calc(var(--sidebar-width) * -1));
-			}
+      & .main {
+        transform: translateX(calc(var(--sidebar-width) * -1));
+      }
 
-			& .sidebar {
-				transform: translateX(0);
-			}
-		}
-	}
+      & .sidebar {
+        transform: translateX(0);
+      }
+    }
+  }
 }

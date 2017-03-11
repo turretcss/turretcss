@@ -3,22 +3,22 @@ h2[id],
 h3[id],
 h4[id] {
 
-	& + h1,
-	& + .h1 {
-		margin-top: 0;
-	}
+  & + h1,
+  & + .h1 {
+    margin-top: 0;
+  }
 }
 
 h2[id] {
-	padding-bottom: 1rem;
-	font-weight: var(--font-weight-light);
-	border-bottom: 1px solid #DDD;
+  padding-bottom: 1rem;
+  font-weight: var(--font-weight-light);
+  border-bottom: 1px solid #DDD;
 }
 
 h3[id] {
-	font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-medium);
 }
 
 h4[id] {
-	font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
 }
