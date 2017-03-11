@@ -98,25 +98,6 @@ The gutter is padding applied to the left and right of the container to ensure c
 --gutter: var(--space-xs);
 ```
 
-### Gutters Classes
-
-Add `gutter-*` utility class to add gutter to element
-
-```html
-<div class="gutter-bottom">...</div>
-<div class="gutter-left">...</div>
-<div class="gutter-right">...</div>
-<div class="gutter-top">...</div>
-```
-
-### No Gutter
-
-Add `no-gutter` utility class to remove default gutters applied to a container.
-
-```html
-<div class="container no-gutter">...</div>
-```
-
 ## Media Queries
 
 <div class="table-responsive">
