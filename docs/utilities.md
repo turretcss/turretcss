@@ -2479,6 +2479,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Shades
 
+#### Light
+
 <div class="palette">
   <div class="swatch color-dark background-light">Light</div>
   <div class="swatch color-dark background-light-100">Light 100</div>
@@ -2505,6 +2507,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-light-900">...</div>
 ```
 
+#### Grey
+
 <div class="palette">
   <div class="swatch color-white background-grey">Grey</div>
   <div class="swatch color-white background-grey-100">Grey 100</div>
@@ -2530,6 +2534,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-grey-800">...</div>
 <div class="background-grey-900">...</div>
 ```
+
+#### Dark
 
 <div class="palette">
   <div class="swatch color-white background-dark">Dark</div>
@@ -2559,6 +2565,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Palettes
 
+#### Primary
+
 <div class="palette">
   <div class="swatch color-white background-primary">Primary</div>
   <div class="swatch color-white background-primary-100">Primary 100</div>
@@ -2585,6 +2593,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-primary-900">...</div>
 ```
 
+#### Secondary
+
 <div class="palette">
   <div class="swatch color-white background-secondary">Secondary</div>
   <div class="swatch color-white background-secondary-100">Secondary 100</div>
@@ -2610,6 +2620,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-secondary-800">...</div>
 <div class="background-secondary-900">...</div>
 ```
+
+#### Tertiary
 
 <div class="palette">
   <div class="swatch color-white background-tertiary">Tertiary</div>
@@ -2639,6 +2651,8 @@ Utility classes can be used to position elements easily, each position utility c
 
 ### Indicators
 
+#### Error
+
 <div class="palette">
   <div class="swatch color-white background-error">Error</div>
   <div class="swatch color-white background-error-100">Error 100</div>
@@ -2664,6 +2678,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-error-800">...</div>
 <div class="background-error-900">...</div>
 ```
+
+#### Warning
 
 <div class="palette">
   <div class="swatch color-white background-warning">Warning</div>
@@ -2691,6 +2707,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-warning-900">...</div>
 ```
 
+#### Success
+
 <div class="palette">
   <div class="swatch color-white background-success">Success</div>
   <div class="swatch color-white background-success-100">Success 100</div>
@@ -2716,6 +2734,8 @@ Utility classes can be used to position elements easily, each position utility c
 <div class="background-success-800">...</div>
 <div class="background-success-900">...</div>
 ```
+
+#### Info
 
 <div class="palette">
   <div class="swatch color-white background-info">Info</div>
