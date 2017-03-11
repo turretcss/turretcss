@@ -745,7 +745,7 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
       <tr>
         <td><code>flex-1</code></td>
-        <td>Applies <code>flex: 1;</code> to element</td>
+        <td>Applies <code>flex: 1 1 0;</code> to element</td>
       </tr>
       <tr>
         <td><code>flex-1-1-auto</code></td>
@@ -754,6 +754,10 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>
         <td><code>flex-1-0-auto</code></td>
         <td>Applies <code>flex: 1 0 auto;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-0-1-auto</code></td>
+        <td>Applies <code>flex: 0 1 auto;</code> to element</td>
       </tr>
       <tr>
         <td><code>flex-0-0-auto</code></td>
