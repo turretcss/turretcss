@@ -10,9 +10,9 @@ h4[id] {
 }
 
 h2[id] {
-  padding-bottom: 1rem;
+  padding-bottom: 0.35em;
   font-weight: var(--font-weight-light);
-  border-bottom: 1px solid #DDD;
+  border-bottom: var(--border-width) var(--border-style) var(--light-300);
 }
 
 h3[id] {
