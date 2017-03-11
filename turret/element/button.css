@@ -52,6 +52,166 @@ button,
 		fill: var(--button-color);
 		@apply --transition;
 	}
+
+	&.error {
+		color: var(--button-error-color);
+		background: var(--error);
+		border-color: var(--error);
+
+		& svg {
+			fill: var(--button-error-color);
+		}
+
+		&.button-border {
+			color: var(--error);
+			background: transparent;
+
+			& svg {
+				fill: var(--error);
+			}
+		}
+
+		&:not(:disabled):hover,
+		&:not(:disabled):focus {
+			color: var(--button-error-color);
+			background: var(--error-hover);
+			border-color: var(--error-hover);
+
+			& svg {
+				fill: var(--button-error-color);
+			}
+		}
+
+		&:not(:disabled):active {
+			color: var(--button-error-color);
+			background: var(--error-active);
+			border-color: var(--error-active);
+
+			& svg {
+				fill: var(--button-error-color);
+			}
+		}
+	}
+
+	&.warning {
+		color: var(--button-warning-color);
+		background: var(--warning);
+		border-color: var(--warning);
+
+		& svg {
+			fill: var(--button-warning-color);
+		}
+
+		&.button-border {
+			color: var(--warning);
+			background: transparent;
+
+			& svg {
+				fill: var(--warning);
+			}
+		}
+
+		&:not(:disabled):hover,
+		&:not(:disabled):focus {
+			color: var(--button-warning-color);
+			background: var(--warning-hover);
+			border-color: var(--warning-hover);
+
+			& svg {
+				fill: var(--button-warning-color);
+			}
+		}
+
+		&:not(:disabled):active {
+			color: var(--button-warning-color);
+			background: var(--warning-active);
+			border-color: var(--warning-active);
+			
+			& svg {
+				fill: var(--button-warning-color);
+			}
+		}
+	}
+
+	&.success {
+		color: var(--button-success-color);
+		background: var(--success);
+		border-color: var(--success);
+
+		& svg {
+			fill: var(--button-success-color);
+		}
+
+		&.button-border {
+			color: var(--success);
+			background: transparent;
+
+			& svg {
+				fill: var(--success);
+			}
+		}
+
+		&:not(:disabled):hover,
+		&:not(:disabled):focus {
+			color: var(--button-success-color);
+			background: var(--success-hover);
+			border-color: var(--success-hover);
+
+			& svg {
+				fill: var(--button-success-color);
+			}
+		}
+
+		&:not(:disabled):active {
+			color: var(--button-success-color);
+			background: var(--success-active);
+			border-color: var(--success-active);
+
+			& svg {
+				fill: var(--button-success-color);
+			}
+		}
+	}
+
+	&.info {
+		color: var(--button-info-color);
+		background: var(--info);
+		border-color: var(--info);
+
+		& svg {
+			fill: var(--button-info-color);
+		}
+
+		&.button-border {
+			color: var(--info);
+			background: transparent;
+
+			& svg {
+				fill: var(--info);
+			}
+		}
+
+		&:not(:disabled):hover,
+		&:not(:disabled):focus {
+			color: var(--button-info-color);
+			background: var(--info-hover);
+			border-color: var(--info-hover);
+
+			& svg {
+				fill: var(--button-info-color);
+			}
+		}
+
+		&:not(:disabled):active {
+			color: var(--button-info-color);
+			background: var(--info-active);
+			border-color: var(--info-active);
+
+			& svg {
+				fill: var(--button-info-color);
+			}
+		}
+	}
 }
 
 button:disabled {
