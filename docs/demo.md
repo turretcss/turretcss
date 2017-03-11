@@ -6,6 +6,11 @@ description: Demo of all HTML elements with Turret styles applied.
 permalink: /docs/demo/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Colors
 
 <div class="palette">

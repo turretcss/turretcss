@@ -6,6 +6,11 @@ description: Utility classes for typographic styles, display, positioning, float
 permalink: /docs/utilities/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Utility Classes
 
 For text and background color utility classes check out the [color](#colors) section. Text align utility classes are demonstrated in the [typography](#typography) section.

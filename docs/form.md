@@ -6,6 +6,11 @@ description: A guide to Turret's default styling of form elements including exam
 permalink: /docs/form/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Example
 
 <form>

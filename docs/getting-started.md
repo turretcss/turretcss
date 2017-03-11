@@ -10,6 +10,10 @@ permalink: /docs/getting-started/
 
 Turret makes creating responsive, accessible, mobile-first web interfaces simple. Turret provides a robust CSS foundation of HTML typography, forms, and elements that are easy to customise and style.
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## Quick start
 

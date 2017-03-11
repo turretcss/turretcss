@@ -6,6 +6,11 @@ description: A guide to the use of HTML elements and Turret's default styling de
 permalink: /docs/elements/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Button
 
 Button styles are applied directly to the `<button>` element, button style and size modifiers do not require the button class added to the button element. Button styles can be set on an achor tag by using the .button class.

@@ -6,6 +6,11 @@ description: An overview of Turret and basic styling behaviours including global
 permalink: /docs/globals/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Base
 
 ### Root

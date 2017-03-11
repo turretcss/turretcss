@@ -6,6 +6,11 @@ description: A guide to the use of Turret style definitions with typographic HTM
 permalink: /docs/typography/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Headings
 
 <h1>Heading 1 <small>Heading 1 small</small></h1>

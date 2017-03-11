@@ -6,6 +6,11 @@ description: Turrets set of mixins for simple & maintainable CSS.
 permalink: /docs/mixins/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Transition
 
 ### Transition

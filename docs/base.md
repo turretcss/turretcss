@@ -6,6 +6,11 @@ description: An overview of Turret and basic styling behaviours including global
 permalink: /docs/base/
 ---
 
+## Contents
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 ## Reset
 
 On top of [Normalize.css](https://necolas.github.io/normalize.css/), Turret applies some basic resets to ensure the correct rendering of elements. These resets include `border-box` for global `box-sizing`, `max-width 100%` for images, and removing top and bottom margins for `first-child` and `last-child` typography, form, and block element items.
