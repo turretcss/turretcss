@@ -105,51 +105,6 @@ The gutter is padding applied to the left and right of the container to ensure c
 
 ## Media Queries
 
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th width="25%">Breakpoint</th>
-        <th width="25%">Device</th>
-        <th width="25%">Min Width</th>
-        <th width="25%">Max Width</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>xs</td>
-        <td>Phone</td>
-        <td class="color-grey background-light-100">None</td>
-        <td>767px</td>
-      </tr>
-      <tr>
-        <td>s</td>
-        <td>Tablet</td>
-        <td>768px</td>
-        <td>1023px</td>
-      </tr>
-      <tr>
-        <td>m</td>
-        <td>Laptop</td>
-        <td>1024px</td>
-        <td>1279px</td>
-      </tr>
-      <tr>
-        <td>l</td>
-        <td>Desktop</td>
-        <td>1280px</td>
-        <td>1679px</td>
-      </tr>
-      <tr>
-        <td>xl</td>
-        <td>Large Screen</td>
-        <td>1680px</td>
-        <td class="color-grey background-light-100">None</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 ```scss
 @custom-media --xs (max-width: 767px);
 @custom-media --s (min-width: 768px) and (max-width: 1023px);

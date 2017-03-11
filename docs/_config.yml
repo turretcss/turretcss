@@ -32,3 +32,4 @@ exclude: []
 current_version: 4.0.0
 repo: https://github.com/bigfishtv/turret
 twitter: https://twitter.com/turretcss
+cdn: https://cdnjs.cloudflare.com/ajax/libs/turretcss/4.0.0/turret.min.css

@@ -17,84 +17,34 @@ Turret makes creating responsive, accessible, mobile-first web interfaces simple
 
 ## Quick start
 
-Several quick start options are available:
+### CDN
 
-### Download the latest release
+Looking to quickly add Bootstrap to your project? Use the Bootstrap CDN, provided for free by the folks at MaxCDN. Using a package manager or need to download the source files? Head to the downloads page.
 
-Download the Turret repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the Turret CSS.
-
-<p>
-  <a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
-</p>
-
-### Clone the repo from GitHub
-
-Clone the repo from GitHub download the source CSS, and documentation files.
-
-```bash
-git clone https://github.com/bigfishtv/turret.git
-```
-
-### Install with npm
-
-Install Turret for your Node powered apps with the [npm package](https://www.npmjs.com/package/turretcss):
-
-```bash
-npm install turretcss
-```
-
-### Install with yarn
-
-Install Turret with [yarn](https://github.com/yarnpkg/yarn):
-
-```bash
-yarn add turretcss
-```
-
-## Structure
-
-### Selectors
-
-Where styles are applied on HTML elements with classes, the structuring of classes is element, modifier, style. For example the .button class can extended to button button-block button-primary
+Include the stylesheet `<link>` into your `<head>`.
 
 ```html
-<element class="[element] [element-modifier] [element-style]">...</element>
+<link rel="stylesheet" href="{{ site.cdn }}" crossorigin="anonymous">
 ```
-
-### Viewport
-
-To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-
-### HTML5 Doctype
-
-Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype.
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  ...
-</html>
-```
-
-### Normalize
-
-For improved cross-browser rendering, Turret uses [Normalize.css](https://necolas.github.io/normalize.css/), a project by Nicolas Gallagher and Jonathan Neal.
 
 ### Template
+
+Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype. To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Page Title -->
     <title>Turret</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/turret.css" />
+    
+    <!-- Turret CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.cdn }}" />
   </head>
   <body>
     ...
@@ -102,19 +52,184 @@ For improved cross-browser rendering, Turret uses [Normalize.css](https://necola
 </html>
 ```
 
+## Download
+
+### Download
+
+Download the Turret repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the Turret CSS.
+
+<p>
+  <a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
+</p>
+
+### GitHub
+
+Clone the repo from GitHub download the source CSS, and documentation files.
+
+```bash
+git clone https://github.com/bigfishtv/turret.git
+```
+
+### npm
+
+Install Turret for your Node powered apps with the [npm package](https://www.npmjs.com/package/turretcss):
+
+```bash
+npm install turretcss
+```
+
+### yarn
+
+Install Turret with [yarn](https://github.com/yarnpkg/yarn):
+
+```bash
+yarn add turretcss
+```
+
 ## Usage
 
-Turret is a collection of CSS files that include variables set at the root scope, and individual CSS files for the styles required for each element. These can be included and removed as required to minimise generated CSS styles.
+### Selectors
 
-### CSS
+Where styles are applied on HTML elements with classes, the structuring of classes is element, modifier, style.
 
-To use Turret as CSS in your project include turret.min.css in your document `<head>`
+```html
+<element class="[element] [element-modifier] [element-style]">...</element>
+```
 
-### PostCSS/cssnext
+ For example the .button class can extended to button button-block button-primary
 
-To use Turret with PostCSS/cssnext in your project you will need to import `turret.css` to include styles for all elements.
+```html
+<button class="button button-border button-primary">...</button>
+```
 
-### Theming
+### Normalize
+
+For improved cross-browser rendering, Turret includes [Normalize.css](https://necolas.github.io/normalize.css/), a project by Nicolas Gallagher and Jonathan Neal.
+
+### Sizes
+
+Turret uses a generic language for size scale. The scale ranges from xs to xl (xs, s, m, l, xl) and is applicable for both responsive breakpoints, and the HTML elements themselves.
+
+#### Device Sizes
+
+Responsive breakpoints are configurable via setting [@custom-media queries](/docs/base/#media-queries), by default these are configured to the following pixel sizes:
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th width="25%">Breakpoint</th>
+        <th width="25%">Device</th>
+        <th width="25%">Min Width</th>
+        <th width="25%">Max Width</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>xs</td>
+        <td>Phone</td>
+        <td class="color-grey background-light-100">None</td>
+        <td>767px</td>
+      </tr>
+      <tr>
+        <td>s</td>
+        <td>Tablet</td>
+        <td>768px</td>
+        <td>1023px</td>
+      </tr>
+      <tr>
+        <td>m</td>
+        <td>Laptop</td>
+        <td>1024px</td>
+        <td>1279px</td>
+      </tr>
+      <tr>
+        <td>l</td>
+        <td>Desktop</td>
+        <td>1280px</td>
+        <td>1679px</td>
+      </tr>
+      <tr>
+        <td>xl</td>
+        <td>Large Screen</td>
+        <td>1680px</td>
+        <td class="color-grey background-light-100">None</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### Element Sizes
+
+Each interactive element - such as `<input>`, `<select>`, `<button>`, etc. - have sizes that can be applied with optional classes, for example `.button-s`.
+
+The height of these elements is set by [global height variables](/docs/globals/#height).
+
+Element sizes examples:
+
+* [Input Sizes](/docs/form/#input-sizes)
+* [Input Group Sizes](/docs/form/#input-group-sizes)
+* [Control Sizes](/docs/form/#control-sizes)
+* [Select Sizes](/docs/form/#select-sizes)
+* [Range Sizes](/docs/form/#range-sizes)
+* [Progress Sizes](/docs/form/#progress-sizes)
+* [Button Sizes](/docs/elements/#button-sizes)
+
+### States
+
+Any element that has states - hover, focus, active, selected etc. - has default options that can be set these include: `color`, `background`, `border-color`, and `shadow`. These states inherit  styles (`box-shadow`) that are configured [globally](/docs/globals/#box-shadow) as well as specific state styles that can be configures per element, and style.
+
+### Indicators
+
+Each interactive element - such as `<input>`, `<select>`, `<button>`, etc. - have indicator styles that are applied with global classes:
+
+| Class | Description |
+| --- | --- |
+| `.error`   | Applies [error color styles](/docs/globals/#error) to element |
+| `.warning` | Applies [warning color styles](/docs/globals/#warning) to element  |
+| `.success` | Applies [success color styles](/docs/globals/#success) to element  |
+| `.info`    | Applies [info color styles](/docs/globals/#info) to element  |
+
+Element indicators examples:
+
+* [Input Indicators](/docs/form/#input-indicators)
+* [Control Indicators](/docs/form/#control-indicators)
+* [Select Indicators](/docs/form/#select-indicators)
+* [Range Indicators](/docs/form/#range-indicators)
+* [Progress Indicators](/docs/form/#progress-indicators)
+* [Button Indicators](/docs/elements/#button-indicators)
+
+### Structure
+
+The Turret source code download includes the precompiled CSS, along with source CSS, and documentation.
+
+The source file structure is as follows:
+
+```
+turret/
+  └ dist/
+    └ turret.min.css
+  └ docs/
+  └ turret/
+```
+
+The `turret` directory contains the source code CSS. The `dist` directory includes precompiled CSS. The `docs` directory includes the source code for our documentation. Any other included file provides support for packages, license information, and development.
+
+## Build Tools
+
+### [PostCSS][PostCSS]
+
+Turret makes use of [PostCSS][PostCSS] and [cssnext][cssnext] to compile modern CSS into browser compatible CSS. Each element of Turret is inlcuded in individual CSS files that include variables set at the root scope. To use Turret with [PostCSS][PostCSS] in your project you will need to import `turretcss/turret/turret.css` to include styles for all elements.
+
+### [cssnext][cssnext]
+
+To use Turret with [cssnext][cssnext] in your project you will need to import `turret.css` to include styles for all elements.
+
+### [Autoprefixer][autoprefixer]
+
+Turret uses [Autoprefixer][autoprefixer] as part of [cssnext][cssnext] to automatically add vendor prefixes to some CSS properties at build time.
+
+### Styling
 
 To theme Turret you can override default style variables either within your own project styles or included as `variables.css` to `@import` in your styles.
 
@@ -123,20 +238,49 @@ To theme Turret you can override default style variables either within your own 
 
 /* Override Primary Color */
 :root {
-    --primary: #FF0000;
+    --primary: red;
 }
 ```
 
-### Repo File Structure
+### Documentation
 
-```
-turret/
-  └ dist/
-    ├ turret.css
-    └ turret.min.css
-  └ docs/
-  └ turret/
-```
+View full documentation at: <http://turretcss.com/>
+
+Turret's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
+
+#### Tooling
+
+To use and run the documentation locally, you'll need a copy of Turret's source files, and Node. To install the required tools follow these steps:
+
+1. [Download and install Node](https://nodejs.org/download/), which we use to manage our dependencies.
+2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
+3. [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`, and finally run `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
+  - **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+
+When completed, you'll be able to run the various scripts provided from the command line.
+
+#### Scripts
+
+Turret includes the following commands and tasks:
+
+| Task | Description |
+| --- | --- |
+| `npm start` | Run `npm run watch` |
+| `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS  |
+| `npm run build` | Compile and minify the Turret CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
+| `npm run docs` | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
+
+
+#### Running documentation locally
+
+1. Install [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`.
+2. Install Jekyll (the site builder) and other Ruby dependencies with `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
+3. Run  `npm start` or `yarn start` to rebuild CSS.
+4. From the root `/turret` directory, run `bundle exec jekyll serve` in the command line.
+5. Open <http://0.0.0.0:2001> in your browser.
+
+Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
+
 
 ## Support
 
@@ -205,7 +349,7 @@ The meta tag tells the IE rendering engine it should use the latest, or edge, ve
 
 ### CSS
 
-Some CSS properties and HTML5 elements are not fully supported by Internet Explorer 8 and 9.
+Some CSS properties and HTML5 attributes and elements are not fully supported by Internet Explorer 8 and 9.
 
 <div class="table-responsive">
   <table style="table-layout:fixed;">
@@ -249,7 +393,7 @@ Some CSS properties and HTML5 elements are not fully supported by Internet Explo
         <td>Supported</td>
       </tr>
       <tr>
-        <td><code>Flexbox</code></td>
+        <td><code>flexbox</code></td>
         <td class="color-grey background-light-100">Not supported</td>
         <td class="color-grey background-light-100">Not supported</td>
         <td>Partially supported, with <code>-ms</code> prefix</td>
@@ -419,3 +563,10 @@ Turret is released under the MIT license and is copyright 2017 <a href="http://b
 * Submit changes that you make to Turret back to the Turret project (though such feedback is encouraged)
 
 The full Turret license is located in the project repository for more information.
+
+[install-ruby]: https://www.ruby-lang.org/en/documentation/installation/
+[gembundler]: https://bundler.io/
+[PostCSS]: http://postcss.org/
+[cssnext]: http://cssnext.io/
+[CSSNano]: http://cssnano.co/
+[autoprefixer]: https://github.com/postcss/autoprefixer
