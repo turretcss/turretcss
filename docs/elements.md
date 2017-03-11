@@ -322,7 +322,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 <button class="button button-xs">...</button>
 ```
 
-## Button Anchors
+### Anchors
 
 <div>
   <a class="button button-xl">Extra Large</a>
