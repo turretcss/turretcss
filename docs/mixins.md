@@ -88,6 +88,15 @@ Truncate text with ellipsis based on containing element width
 @apply --truncate;
 ```
 
+## Font Smoothing
+
+Set the font smoothing properties for browsers that support font-smoothing, by default Turret sets `--font-smoothing-antialiased` on the `<html>` root tag, this can be overwritten with the `--font-smoothing-auto` mixin.
+
+```scss
+@apply --font-smoothing-antialiased;
+@apply --font-smoothing-auto;
+```
+
 ## Overflow Scroll
 
 Set overflow to scroll with `-webkit-overflow-scrolling: touch;` for Mobile Safari

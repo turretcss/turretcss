@@ -112,6 +112,21 @@
 
 
   /**
+   * Font Smoothing
+   */
+
+  --font-smoothing-antialiased: {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  --font-smoothing-auto: {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
+
+  /**
    * Overflow Scroll
    */
 
