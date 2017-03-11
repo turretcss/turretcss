@@ -6,6 +6,11 @@ description: A introduction to how to get started, download and use Turret.
 permalink: /docs/getting-started/
 ---
 
+## Introduction
+
+Turret makes creating responsive, accessible, mobile-first web interfaces simple. Turret provides a robust CSS foundation of HTML typography, forms, and elements that are easy to customise and style.
+
+
 ## Quick start
 
 Several quick start options are available:
@@ -362,7 +367,7 @@ In conjunction with the `screen-reader` class, the `screen-reader-focusable` cla
 
 ## Contributors
 
-#### Scott de Jonge
+**Scott de Jonge**
 
 Twitter: [@scottdejonge](https://twitter.com/scottdejonge)
 Github: [@scottdejonge](https://github.com/scottdejonge)
