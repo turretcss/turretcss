@@ -1,9 +1,9 @@
 .flex {
-	flex-display: flex;
+	display: flex;
 }
 
 .flex-inline {
-	flex-display: flex-inline;
+	display: flex-inline;
 }
 
 .flex-wrap {
