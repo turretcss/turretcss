@@ -119,11 +119,11 @@ Height sizes for buttons, inputs, and selects.
 Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```scss
---space-xl: calc(5rem + 1vw);
---space-l: calc(4rem + 1vw);
+--space-xl: calc(5rem + 1.5vw);
+--space-l: calc(4rem + 1.25vw);
 --space-m: calc(3rem + 1vw);
---space-s: calc(2rem + 1vw);
---space-xs: calc(1rem + 1vw);
+--space-s: calc(2rem + 0.75vw);
+--space-xs: calc(1rem + 0.5vw);
 ```
 
 ### Margin
