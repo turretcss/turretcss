@@ -27,11 +27,21 @@
 		&:active {
 			z-index: 2;
 		}
-
-		& + * {
+		
+		& + input,
+		& + button,
+		& + .button {
 			border-top-left-radius: 0;
 			border-bottom-left-radius: 0;
-			margin-left: -1px;
+		}
+
+		& + button,
+		& + .button {
+			margin-left: calc(var(--button-border-width) * -1);
+		}
+
+		& + input {
+			margin-left: calc(var(--input-border-width) * -1);
 		}
 	}
 }
