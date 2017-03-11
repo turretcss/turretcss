@@ -21,7 +21,7 @@ permalink: /docs/typography/
 --headings-font-weight: var(--font-weight-bold);
 --headings-color: inherit;
 --headings-line-height: var(--line-height-s);
---headings-text-transform: normal;
+--headings-text-transform: none;
 --headings-letter-spacing: var(--letter-spacing);
 
 --headings-small-font-family: inherit;
