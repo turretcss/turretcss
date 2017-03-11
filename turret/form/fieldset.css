@@ -1,9 +1,9 @@
 fieldset {
-	display: block;
-	margin: var(--fieldset-margin);
-	padding: var(--fieldset-padding);
-	border-width: var(--fieldset-border-width);
-	border-style: var(--fieldset-border-style);
-	border-color: var(--fieldset-border-color);
-	border-radius: var(--fieldset-border-radius);
+  display: block;
+  margin: var(--fieldset-margin);
+  padding: var(--fieldset-padding);
+  border-width: var(--fieldset-border-width);
+  border-style: var(--fieldset-border-style);
+  border-color: var(--fieldset-border-color);
+  border-radius: var(--fieldset-border-radius);
 }

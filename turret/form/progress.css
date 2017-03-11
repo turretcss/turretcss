@@ -1,66 +1,66 @@
 :root {
-	
-	--progress-bar: {
-		background: var(--progress-background);
-		border-width: var(--progress-border-width);
-		border-style: var(--progress-border-style);
-		border-color: var(--progress-border-color);
-		border-radius: var(--progress-border-radius);
-		box-shadow: var(--progress-box-shadow);
-	}
+  
+  --progress-bar: {
+    background: var(--progress-background);
+    border-width: var(--progress-border-width);
+    border-style: var(--progress-border-style);
+    border-color: var(--progress-border-color);
+    border-radius: var(--progress-border-radius);
+    box-shadow: var(--progress-box-shadow);
+  }
 
-	--progress-value: {
-		background: currentColor;
-		border-radius: var(--progress-border-radius);
-	}
+  --progress-value: {
+    background: currentColor;
+    border-radius: var(--progress-border-radius);
+  }
 }
 
 progress {
-	display: block;
-	margin: var(--progress-margin);
-	width: 100%;
-	height: var(--progress-height);
+  display: block;
+  margin: var(--progress-margin);
+  width: 100%;
+  height: var(--progress-height);
 }
 
 progress[value] {
-	appearance: none;
-	/* Remove Firefox and Opera border */
-	border: 0;
-	/* IE10 uses `color` to set the bar background-color */
-	color: var(--progress-bar-background);
+  appearance: none;
+  /* Remove Firefox and Opera border */
+  border: 0;
+  /* IE10 uses `color` to set the bar background-color */
+  color: var(--progress-bar-background);
 
-	&::-webkit-progress-bar {
-		@apply --progress-bar;
-	}
+  &::-webkit-progress-bar {
+    @apply --progress-bar;
+  }
 
-	&::-webkit-progress-value {
-		@apply --progress-value;
-	}
+  &::-webkit-progress-value {
+    @apply --progress-value;
+  }
 
-	&.error {
-		color: var(--error) !important;
-	}
+  &.error {
+    color: var(--error) !important;
+  }
 
-	&.warning {
-		color: var(--warning) !important;
-	}
+  &.warning {
+    color: var(--warning) !important;
+  }
 
-	&.success {
-		color: var(--success) !important;
-	}
+  &.success {
+    color: var(--success) !important;
+  }
 
-	&.info {
-		color: var(--info) !important;
-	}
+  &.info {
+    color: var(--info) !important;
+  }
 }
 
 @-moz-document url-prefix() {
-	
-	progress[value] {
-		@apply --progress-bar;
+  
+  progress[value] {
+    @apply --progress-bar;
 
-		&::-moz-progress-bar {
-			@apply --progress-value;
-		}
-	}
+    &::-moz-progress-bar {
+      @apply --progress-value;
+    }
+  }
 }

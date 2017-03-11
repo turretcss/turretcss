@@ -1,96 +1,96 @@
 table,
 .table {
-	margin: var(--table-margin);
-	width: 100%;
-	background: var(--table-background);
-	border-width: var(--table-border-width);
-	border-style: var(--table-border-style);
-	border-color: var(--table-border-color);
-	border-radius: var(--table-border-radius);
-	border-collapse: collapse;
-	
-	& caption {
-		margin: var(--table-caption-margin);
-		font-family: var(--table-caption-font-family);
-		font-weight: var(--table-caption-font-weight);
-		font-size: var(--table-caption-font-size);
-		color: var(--table-caption-color);
-		text-align: var(--table-caption-text-align);
-	}
+  margin: var(--table-margin);
+  width: 100%;
+  background: var(--table-background);
+  border-width: var(--table-border-width);
+  border-style: var(--table-border-style);
+  border-color: var(--table-border-color);
+  border-radius: var(--table-border-radius);
+  border-collapse: collapse;
+  
+  & caption {
+    margin: var(--table-caption-margin);
+    font-family: var(--table-caption-font-family);
+    font-weight: var(--table-caption-font-weight);
+    font-size: var(--table-caption-font-size);
+    color: var(--table-caption-color);
+    text-align: var(--table-caption-text-align);
+  }
 
-	& th {
-		padding: var(--table-head-padding);
-		font-family: var(--table-head-font-family);
-		font-weight: var(--table-head-font-weight);
-		font-size: var(--table-head-font-size);
-		color: var(--table-head-color);
-		text-align: var(--table-head-text-align);
-		text-transform: var(--table-head-text-transform);
-		background: var(--table-head-background);
-		border-width: var(--table-head-border-width);
-		border-style: var(--table-head-border-style);
-		border-color: var(--table-head-border-color);
-	}
+  & th {
+    padding: var(--table-head-padding);
+    font-family: var(--table-head-font-family);
+    font-weight: var(--table-head-font-weight);
+    font-size: var(--table-head-font-size);
+    color: var(--table-head-color);
+    text-align: var(--table-head-text-align);
+    text-transform: var(--table-head-text-transform);
+    background: var(--table-head-background);
+    border-width: var(--table-head-border-width);
+    border-style: var(--table-head-border-style);
+    border-color: var(--table-head-border-color);
+  }
 
-	& td {
-		padding: var(--table-cell-padding);
-		font-family: var(--table-cell-font-family);
-		font-weight: var(--table-cell-font-weight);
-		font-size: var(--table-cell-font-size);
-		color: var(--table-cell-color);
-		line-height: var(--table-cell-line-height);
-		vertical-align: var(--table-cell-vertical-align);
-		border-width: var(--table-cell-border-width);
-		border-style: var(--table-cell-border-style);
-		border-color: var(--table-cell-border-color);
-	}
+  & td {
+    padding: var(--table-cell-padding);
+    font-family: var(--table-cell-font-family);
+    font-weight: var(--table-cell-font-weight);
+    font-size: var(--table-cell-font-size);
+    color: var(--table-cell-color);
+    line-height: var(--table-cell-line-height);
+    vertical-align: var(--table-cell-vertical-align);
+    border-width: var(--table-cell-border-width);
+    border-style: var(--table-cell-border-style);
+    border-color: var(--table-cell-border-color);
+  }
 }
 
 .table-responsive {
-	margin: var(--table-margin);
-	overflow-x: auto;
-	min-height: 0.01%;
+  margin: var(--table-margin);
+  overflow-x: auto;
+  min-height: 0.01%;
 
-	@media (--s) {
-		width: 100%;
-		overflow-y: hidden;
-		-ms-overflow-style: -ms-autohiding-scrollbar;
-		border-width: var(--table-border-width);
-		border-style: var(--table-border-style);
-		border-color: var(--table-border-color);
+  @media (--s) {
+    width: 100%;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border-width: var(--table-border-width);
+    border-style: var(--table-border-style);
+    border-color: var(--table-border-color);
 
-		& > table {
-			margin: 0;
-			border: none;
+    & > table {
+      margin: 0;
+      border: none;
 
-			& th,
-			& td {
-				white-space: nowrap;
+      & th,
+      & td {
+        white-space: nowrap;
 
-				&:first-child {
-					border-left: none;
-				}
+        &:first-child {
+          border-left: none;
+        }
 
-				&:last-child {
-					border-right: none;
-				}
-			}
+        &:last-child {
+          border-right: none;
+        }
+      }
 
-			& tr:first-child {
+      & tr:first-child {
 
-				> th,
-				> td {
-					border-top: none;
-				}
-			}
+        > th,
+        > td {
+          border-top: none;
+        }
+      }
 
-			& tr:last-child {
+      & tr:last-child {
 
-				> th,
-				> td {
-					border-bottom: none;
-				}
-			}
-		}
-	}
+        > th,
+        > td {
+          border-bottom: none;
+        }
+      }
+    }
+  }
 }

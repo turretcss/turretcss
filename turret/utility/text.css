@@ -1,31 +1,31 @@
 .text-left {
-	text-align: left;
+  text-align: left;
 }
 
 .text-right {
-	text-align: right;
+  text-align: right;
 }
 
 .text-justify {
-	text-align: justify;
+  text-align: justify;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .truncate {
-	@apply --truncate;
+  @apply --truncate;
 }
 
 .uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .lowercase {
-	text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .capitalize {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }

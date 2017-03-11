@@ -1,19 +1,19 @@
 .border {
-	border: var(--border-width) var(--border-style);
+  border: var(--border-width) var(--border-style);
 }
 
-	.border-top {
-		border-top: var(--border-width) var(--border-style);
-	}
+  .border-top {
+    border-top: var(--border-width) var(--border-style);
+  }
 
-	.border-right {
-		border-right: var(--border-width) var(--border-style);
-	}
+  .border-right {
+    border-right: var(--border-width) var(--border-style);
+  }
 
-	.border-bottom {
-		border-bottom: var(--border-width) var(--border-style);
-	}
+  .border-bottom {
+    border-bottom: var(--border-width) var(--border-style);
+  }
 
-	.border-left {
-		border-left: var(--border-width) var(--border-style);
-	}
+  .border-left {
+    border-left: var(--border-width) var(--border-style);
+  }

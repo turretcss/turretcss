@@ -1,26 +1,26 @@
 pre {
-	margin: var(--pre-margin);
-	padding: var(--pre-padding);
-	overflow: auto;
-	font-family: var(--pre-font-family);
-	font-weight: var(--pre-font-weight);
-	font-size: var(--pre-font-size);
-	color: var(--pre-color);
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	tab-size: var(--pre-tab-size);
-	hyphens: none;
-	background: var(--pre-background);
-	border-width: var(--pre-border-width);
-	border-style: var(--pre-border-style);
-	border-color: var(--pre-border-color);
-	border-radius: var(--pre-border-radius);
+  margin: var(--pre-margin);
+  padding: var(--pre-padding);
+  overflow: auto;
+  font-family: var(--pre-font-family);
+  font-weight: var(--pre-font-weight);
+  font-size: var(--pre-font-size);
+  color: var(--pre-color);
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  tab-size: var(--pre-tab-size);
+  hyphens: none;
+  background: var(--pre-background);
+  border-width: var(--pre-border-width);
+  border-style: var(--pre-border-style);
+  border-color: var(--pre-border-color);
+  border-radius: var(--pre-border-radius);
 
-	& code {
-		font-size: inherit;
-		color: var(--pre-code-color);
-	}
+  & code {
+    font-size: inherit;
+    color: var(--pre-code-color);
+  }
 }

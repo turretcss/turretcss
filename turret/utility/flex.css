@@ -1,123 +1,127 @@
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex-inline {
-	display: flex-inline;
+  display: flex-inline;
 }
 
 .flex-wrap {
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-nowrap {
-	flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .flex-row {
-	flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-column {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-1 {
-	flex: 1;
+  flex: 1 1 0;
 }
 
 .flex-1-1-auto {
-	flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .flex-1-0-auto {
-	flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.flex-0-1-auto {
+  flex: 0 1 auto;
 }
 
 .flex-0-0-auto {
-	flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .justify-content-flex-start {
-	justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .justify-content-flex-end {
-	justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .justify-content-center {
-	justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-space-between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-content-space-around {
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .align-content-flex-start {
-	align-content: flex-start;
+  align-content: flex-start;
 }
 
 .align-content-flex-end {
-	align-content: flex-end;
+  align-content: flex-end;
 }
 
 .align-content-center {
-	align-content: center;
+  align-content: center;
 }
 
 .align-content-space-between {
-	align-content: space-between;
+  align-content: space-between;
 }
 
 .align-content-space-around {
-	align-content: space-around;
+  align-content: space-around;
 }
 
 .align-content-stretch {
-	align-content: stretch;
+  align-content: stretch;
 }
 
 .align-items-flex-start {
-	align-items: flex-start;
+  align-items: flex-start;
 }
 
 .align-items-flex-end {
-	align-items: flex-end;
+  align-items: flex-end;
 }
 
 .align-items-center {
-	align-items: center;
+  align-items: center;
 }
 
 .align-items-baseline {
-	align-items: baseline;
+  align-items: baseline;
 }
 
 .align-items-stretch {
-	align-items: stretch;
+  align-items: stretch;
 }
 
 .align-self-flex-start {
-	align-self: flex-start;
+  align-self: flex-start;
 }
 
 .align-self-flex-end {
-	align-self: flex-end;
+  align-self: flex-end;
 }
 
 .align-self-center {
-	align-self: center;
+  align-self: center;
 }
 
 .align-self-baseline {
-	align-self: baseline;
+  align-self: baseline;
 }
 
 .align-self-stretch {
-	align-self: stretch;
+  align-self: stretch;
 }

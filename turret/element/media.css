@@ -1,56 +1,56 @@
 .media {
-	display: block;
-	position: relative;
-	overflow: hidden;
-	background: var(--media-background);
-	
-	& > svg,
-	& > img,
-	& > video,
-	& > iframe,
-	& > canvas,
-	& > .media-inner {
-		display: block;
-		@apply --cover;
-	}
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: var(--media-background);
+  
+  & > svg,
+  & > img,
+  & > video,
+  & > iframe,
+  & > canvas,
+  & > .media-inner {
+    display: block;
+    @apply --cover;
+  }
 }
 
 .media-1 {
-	padding-top: 100%;
+  padding-top: 100%;
 }
 
 .media-1-2 {
-	padding-top: calc((2 / 1) * 100%);
+  padding-top: calc((2 / 1) * 100%);
 }
 
 .media-9-16 {
-	padding-top: calc((16 / 9) * 100%);
+  padding-top: calc((16 / 9) * 100%);
 }
 
 .media-9-14 {
-	padding-top: calc((14 / 9) * 100%);
+  padding-top: calc((14 / 9) * 100%);
 }
 
 .media-2-3 {
-	padding-top: calc((3 / 2) * 100%);
+  padding-top: calc((3 / 2) * 100%);
 }
 
 .media-3-4 {
-	padding-top: calc((4 / 3) * 100%);
+  padding-top: calc((4 / 3) * 100%);
 }
 
 .media-4-3 {
-	padding-top: calc((3 / 4) * 100%);
+  padding-top: calc((3 / 4) * 100%);
 }
 
 .media-3-2 {
-	padding-top: calc((2 / 3) * 100%);
+  padding-top: calc((2 / 3) * 100%);
 }
 
 .media-16-9 {
-	padding-top: calc((9 / 16) * 100%);
+  padding-top: calc((9 / 16) * 100%);
 }
 
 .media-2-1 {
-	padding-top: calc((1 / 2) * 100%);
+  padding-top: calc((1 / 2) * 100%);
 }

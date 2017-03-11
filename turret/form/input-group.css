@@ -1,47 +1,47 @@
 .input-group {
-	display: flex;
-	width: 100%;
+  display: flex;
+  width: 100%;
 
-	& input {
-		flex: 1 1 auto;
-		margin: 0;
-		
-		&:not(:last-child) {
-			border-top-right-radius: 0;
-			border-bottom-right-radius: 0;
-		}
-	}
+  & input {
+    flex: 1 1 auto;
+    margin: 0;
+    
+    &:not(:last-child) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
 
-	& button,
-	& .button {
-		flex: 0 0 auto;
-	}
+  & button,
+  & .button {
+    flex: 0 0 auto;
+  }
 
-	& input,
-	& button,
-	& .button {
-		position: relative;
+  & input,
+  & button,
+  & .button {
+    position: relative;
 
-		&:hover,
-		&:focus,
-		&:active {
-			z-index: 2;
-		}
-		
-		& + input,
-		& + button,
-		& + .button {
-			border-top-left-radius: 0;
-			border-bottom-left-radius: 0;
-		}
+    &:hover,
+    &:focus,
+    &:active {
+      z-index: 2;
+    }
+    
+    & + input,
+    & + button,
+    & + .button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
 
-		& + button,
-		& + .button {
-			margin-left: calc(var(--button-border-width) * -1);
-		}
+    & + button,
+    & + .button {
+      margin-left: calc(var(--button-border-width) * -1);
+    }
 
-		& + input {
-			margin-left: calc(var(--input-border-width) * -1);
-		}
-	}
+    & + input {
+      margin-left: calc(var(--input-border-width) * -1);
+    }
+  }
 }

@@ -1,24 +1,24 @@
 nav,
 .nav {
-	
-	& ul {
-		margin: var(--nav-list-margin);
-		list-style: none;
-		
-		& li {
-			margin: var(--nav-item-margin);
-			padding: var(--nav-item-padding);
-		}
-	}
+  
+  & ul {
+    margin: var(--nav-list-margin);
+    list-style: none;
+    
+    & li {
+      margin: var(--nav-item-margin);
+      padding: var(--nav-item-padding);
+    }
+  }
 }
 
 .nav-inline {
-	
-	& ul {
-		
-		& li {
-			display: inline-block;
-			margin: var(--nav-inline-item-margin);
-		}
-	}
+  
+  & ul {
+    
+    & li {
+      display: inline-block;
+      margin: var(--nav-inline-item-margin);
+    }
+  }
 }

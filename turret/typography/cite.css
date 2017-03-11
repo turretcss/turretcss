@@ -1,10 +1,10 @@
 cite {
-	display: block;
-	margin: var(--cite-margin);
-	font-family: var(--cite-font-family);
-	font-weight: var(--cite-font-weight);
-	font-size: var(--cite-font-size);
-	font-style: var(--cite-font-style);
-	color: var(--cite-color);
-	text-align: var(--cite-text-align);
+  display: block;
+  margin: var(--cite-margin);
+  font-family: var(--cite-font-family);
+  font-weight: var(--cite-font-weight);
+  font-size: var(--cite-font-size);
+  font-style: var(--cite-font-style);
+  color: var(--cite-color);
+  text-align: var(--cite-text-align);
 }

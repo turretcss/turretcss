@@ -1,8 +1,8 @@
 p {
-	margin: var(--paragraph-margin);
-	font-family: var(--paragraph-font-family);
-	font-weight: var(--paragraph-font-weight);
-	font-size: var(--paragraph-font-size);
-	color: var(--paragraph-color);
-	line-height: var(--paragraph-line-height);
+  margin: var(--paragraph-margin);
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  font-size: var(--paragraph-font-size);
+  color: var(--paragraph-color);
+  line-height: var(--paragraph-line-height);
 }

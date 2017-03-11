@@ -1,11 +1,11 @@
 a {
-	color: var(--link-color);
-	text-decoration: var(--link-text-decoration);
-	@apply --transition;
-	
-	&:hover,
-	&:focus {
-		color: var(--link-hover-color);
-		text-decoration: var(--link-hover-decoration);
-	}
+  color: var(--link-color);
+  text-decoration: var(--link-text-decoration);
+  @apply --transition;
+  
+  &:hover,
+  &:focus {
+    color: var(--link-hover-color);
+    text-decoration: var(--link-hover-decoration);
+  }
 }

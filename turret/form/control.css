@@ -1,169 +1,169 @@
 .control {
-	display: flex;
-	position: relative;
-	margin: var(--control-margin);
-	padding: var(--control-padding);
-	font-family: var(--control-font-family);
-	font-weight: var(--control-font-weight);
-	font-size: var(--control-font-size);
-	color: var(--control-color);
-	line-height: var(--control-line-height);
-	cursor: pointer;
-	
-	&.control-inline {
-		display: inline-flex;
-		margin-right: var(--control-inline-margin-right);
-	}
+  display: flex;
+  position: relative;
+  margin: var(--control-margin);
+  padding: var(--control-padding);
+  font-family: var(--control-font-family);
+  font-weight: var(--control-font-weight);
+  font-size: var(--control-font-size);
+  color: var(--control-color);
+  line-height: var(--control-line-height);
+  cursor: pointer;
+  
+  &.control-inline {
+    display: inline-flex;
+    margin-right: var(--control-inline-margin-right);
+  }
 
-	&:hover .control-indicator {
-		background-color: var(--control-hover-indicator-background);
-		border-color: var(--control-hover-indicator-border-color);
-		box-shadow: var(--control-hover-indicator-box-shadow);
-	}
+  &:hover .control-indicator {
+    background-color: var(--control-hover-indicator-background);
+    border-color: var(--control-hover-indicator-border-color);
+    box-shadow: var(--control-hover-indicator-box-shadow);
+  }
 
-	& input[type="checkbox"],
-	& input[type="radio"] {
-		z-index: -1;
-		position: absolute;
-		margin: 0;
-		opacity: 0;
+  & input[type="checkbox"],
+  & input[type="radio"] {
+    z-index: -1;
+    position: absolute;
+    margin: 0;
+    opacity: 0;
 
-		&:focus ~ .control-indicator {
-			background-color: var(--control-focus-indicator-background);
-			border-color: var(--control-focus-indicator-border-color);
-			box-shadow: var(--control-focus-indicator-box-shadow);
-		}
-		
-		&:checked {
-			
-			& ~ .control-indicator {
-				background-color: var(--control-checked-indicator-background);
-				border: var(--control-checked-indicator-border);
-			}
-			
-			& ~ .control-label {
-				color: var(--control-checked-label-color);
-			}
-		}
-	}
+    &:focus ~ .control-indicator {
+      background-color: var(--control-focus-indicator-background);
+      border-color: var(--control-focus-indicator-border-color);
+      box-shadow: var(--control-focus-indicator-box-shadow);
+    }
+    
+    &:checked {
+      
+      & ~ .control-indicator {
+        background-color: var(--control-checked-indicator-background);
+        border: var(--control-checked-indicator-border);
+      }
+      
+      & ~ .control-label {
+        color: var(--control-checked-label-color);
+      }
+    }
+  }
 
-	&.checkbox {
-		
-		& .control-indicator {
-			border-radius: var(--checkbox-indicator-border-radius);
-		}
-	
-		& input[type="checkbox"]:checked {
-			
-			& ~ .control-indicator {
-				background-color: var(--control-checked-indicator-background);
-				background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K');
-			}
-		}
-	}
+  &.checkbox {
+    
+    & .control-indicator {
+      border-radius: var(--checkbox-indicator-border-radius);
+    }
+  
+    & input[type="checkbox"]:checked {
+      
+      & ~ .control-indicator {
+        background-color: var(--control-checked-indicator-background);
+        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIuOHB4IiBoZWlnaHQ9IjkuOHB4IiB2aWV3Qm94PSIwIDAgMTIuOCA5LjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjggOS44IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTEuNCwwIDQuNCw3IDEuNCw0IDAsNS40IDMsOC40IDQuNCw5LjggNS44LDguNCAxMi44LDEuNCAiLz4NCjwvc3ZnPg0K');
+      }
+    }
+  }
 
-	&.radio {
-		
-		& .control-indicator {
-			border-radius: var(--radio-indicator-border-radius);
-		}
-	
-		& input[type="radio"]:checked ~ .control-indicator::before {
-			@apply --center;
-			content: '';
-			width: var(--radio-indicator-size);
-			height: var(--radio-indicator-size);
-			background: var(--radio-indicator-background);
-			border-radius: var(--radio-indicator-border-radius);
-		}
-	}
+  &.radio {
+    
+    & .control-indicator {
+      border-radius: var(--radio-indicator-border-radius);
+    }
+  
+    & input[type="radio"]:checked ~ .control-indicator::before {
+      @apply --center;
+      content: '';
+      width: var(--radio-indicator-size);
+      height: var(--radio-indicator-size);
+      background: var(--radio-indicator-background);
+      border-radius: var(--radio-indicator-border-radius);
+    }
+  }
 
-	&.switch {
-		
-		& .control-indicator {
-			width: 2em;
-			border-radius: var(--switch-indicator-border-radius);
+  &.switch {
+    
+    & .control-indicator {
+      width: 2em;
+      border-radius: var(--switch-indicator-border-radius);
 
-			&::before {
-				display: block;
-				position: absolute;
-				top: -var(--control-indicator-border-width);
-				left: -var(--control-indicator-border-width);
-				content: '';
-				width: 1em;
-				height: 1em;
-				background-color: var(--switch-indicator-background);
-				border-width: inherit;
-				border-style: inherit;
-				border-color: inherit;
-				border-radius: var(--switch-indicator-border-radius);
-				@apply --transition;
-			}
-		}
-	
-		& input[type="checkbox"]:checked ~ .control-indicator::before {
-			left: calc(100% - 1em + var(--control-indicator-border-width));
-		}
-	}
+      &::before {
+        display: block;
+        position: absolute;
+        top: -var(--control-indicator-border-width);
+        left: -var(--control-indicator-border-width);
+        content: '';
+        width: 1em;
+        height: 1em;
+        background-color: var(--switch-indicator-background);
+        border-width: inherit;
+        border-style: inherit;
+        border-color: inherit;
+        border-radius: var(--switch-indicator-border-radius);
+        @apply --transition;
+      }
+    }
+  
+    & input[type="checkbox"]:checked ~ .control-indicator::before {
+      left: calc(100% - 1em + var(--control-indicator-border-width));
+    }
+  }
 
-	&.error {
+  &.error {
 
-		& input:checked ~ .control-indicator {
-			background-color: var(--error) !important;
-			border-color: var(--error) !important;
-		}
-	}
+    & input:checked ~ .control-indicator {
+      background-color: var(--error) !important;
+      border-color: var(--error) !important;
+    }
+  }
 
-	&.warning {
+  &.warning {
 
-		& input:checked ~ .control-indicator {
-			background-color: var(--warning) !important;
-			border-color: var(--warning) !important;
-		}
-	}
+    & input:checked ~ .control-indicator {
+      background-color: var(--warning) !important;
+      border-color: var(--warning) !important;
+    }
+  }
 
-	&.success {
+  &.success {
 
-		& input:checked ~ .control-indicator {
-			background-color: var(--success) !important;
-			border-color: var(--success) !important;
-		}
-	}
+    & input:checked ~ .control-indicator {
+      background-color: var(--success) !important;
+      border-color: var(--success) !important;
+    }
+  }
 
-	&.info {
+  &.info {
 
-		& input:checked ~ .control-indicator {
-			background-color: var(--info) !important;
-			border-color: var(--info) !important;
-		}
-	}
+    & input:checked ~ .control-indicator {
+      background-color: var(--info) !important;
+      border-color: var(--info) !important;
+    }
+  }
 }
 
 .control-indicator {
-	flex: 0 0 auto;
-	position: relative;
-	display: block;
-	user-select: none;
-	vertical-align: middle;
-	width: 1em;
-	height: 1em;
-	font-size: var(--control-indicator-size);
-	line-height: 1;
-	text-align: center;
-	background-color: var(--control-indicator-background);
-	background-position: center center;
-	background-repeat: no-repeat;
-	border-width: var(--control-indicator-border-width);
-	border-style: var(--control-indicator-border-style);
-	border-color: var(--control-indicator-border-color);
-	box-shadow: var(--control-indicator-box-shadow);
-	@apply --transition;
+  flex: 0 0 auto;
+  position: relative;
+  display: block;
+  user-select: none;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  font-size: var(--control-indicator-size);
+  line-height: 1;
+  text-align: center;
+  background-color: var(--control-indicator-background);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-width: var(--control-indicator-border-width);
+  border-style: var(--control-indicator-border-style);
+  border-color: var(--control-indicator-border-color);
+  box-shadow: var(--control-indicator-box-shadow);
+  @apply --transition;
 }
 
 .control-label {
-	flex: 1 1 auto;
-	display: block;
-	margin: var(--control-label-margin);
-	color: var(--control-label-color);
-	@apply --transition;
+  flex: 1 1 auto;
+  display: block;
+  margin: var(--control-label-margin);
+  color: var(--control-label-color);
+  @apply --transition;
 }

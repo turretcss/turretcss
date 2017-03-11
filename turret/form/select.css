@@ -1,154 +1,154 @@
 select {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .select {
-	position: relative;
-	display: block;
-	margin: var(--select-margin);
-	font-family: var(--select-font-family);
-	font-weight: var(--select-font-weight);
-	font-size: var(--select-font-size);
-	line-height: var(--select-line-height);
+  position: relative;
+  display: block;
+  margin: var(--select-margin);
+  font-family: var(--select-font-family);
+  font-weight: var(--select-font-weight);
+  font-size: var(--select-font-size);
+  line-height: var(--select-line-height);
 
-	& select {
-		appearance: none;
-		cursor: pointer;
-		margin: 0;
-		outline: 0;
-		padding: var(--select-padding);
-		height: var(--select-height);
-		font-family: inherit;
-		font-weight: inherit;
-		font-size: inherit;
-		color: var(--select-color);
-		line-height: inherit;
-		background: var(--select-background);
-		border-width: var(--select-border-width);
-		border-style: var(--select-border-style);
-		border-color: var(--select-border-color);
-		border-radius: var(--select-border-radius);
-		box-shadow: var(--select-box-shadow);
-		@apply --transition;
-		
-		/* Undo the Firefox inner focus ring */
-		&::-moz-focusring {
-			color: transparent;
-			text-shadow: 0 0 0 #000;
-		}
-		
-		/* Hide the arrow in IE10 and up */
-		&::-ms-expand {
-			display: none;
-		}
+  & select {
+    appearance: none;
+    cursor: pointer;
+    margin: 0;
+    outline: 0;
+    padding: var(--select-padding);
+    height: var(--select-height);
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: var(--select-color);
+    line-height: inherit;
+    background: var(--select-background);
+    border-width: var(--select-border-width);
+    border-style: var(--select-border-style);
+    border-color: var(--select-border-color);
+    border-radius: var(--select-border-radius);
+    box-shadow: var(--select-box-shadow);
+    @apply --transition;
+    
+    /* Undo the Firefox inner focus ring */
+    &::-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 #000;
+    }
+    
+    /* Hide the arrow in IE10 and up */
+    &::-ms-expand {
+      display: none;
+    }
 
-		&:not(:disabled):hover {
-			color: var(--select-hover-color);
-			background: var(--select-hover-background);
-			border-color: var(--select-hover-border-color);
-			box-shadow: var(--select-hover-box-shadow);
-		}
+    &:not(:disabled):hover {
+      color: var(--select-hover-color);
+      background: var(--select-hover-background);
+      border-color: var(--select-hover-border-color);
+      box-shadow: var(--select-hover-box-shadow);
+    }
 
-		&:not(:disabled):focus {
-			color: var(--select-focus-color);
-			background: var(--select-focus-background);
-			border-color: var(--select-focus-border-color);
-			box-shadow: var(--select-focus-box-shadow);
-		}
+    &:not(:disabled):focus {
+      color: var(--select-focus-color);
+      background: var(--select-focus-background);
+      border-color: var(--select-focus-border-color);
+      box-shadow: var(--select-focus-box-shadow);
+    }
 
-		&:disabled {
-			cursor: no-drop;
-			color: var(--select-disabled-color);
-			background: var(--select-disabled-background);
-			border-color: var(--select-disabled-border-color);
-		}
-	}
+    &:disabled {
+      cursor: no-drop;
+      color: var(--select-disabled-color);
+      background: var(--select-disabled-background);
+      border-color: var(--select-disabled-border-color);
+    }
+  }
 
-	&.error {
-		
-		& select {
-			color: var(--error) !important;
-			border-color: var(--error) !important;
-		}
+  &.error {
+    
+    & select {
+      color: var(--error) !important;
+      border-color: var(--error) !important;
+    }
 
-		&::after {
-			border-top-color: var(--error) !important;
-		}
-	}
+    &::after {
+      border-top-color: var(--error) !important;
+    }
+  }
 
-	&.warning {
-		
-		& select {
-			color: var(--warning) !important;
-			border-color: var(--warning) !important;
-		}
+  &.warning {
+    
+    & select {
+      color: var(--warning) !important;
+      border-color: var(--warning) !important;
+    }
 
-		&::after {
-			border-top-color: var(--warning) !important;
-		}
-	}
+    &::after {
+      border-top-color: var(--warning) !important;
+    }
+  }
 
-	&.success {
-		
-		& select {
-			color: var(--success) !important;
-			border-color: var(--success) !important;
-		}
+  &.success {
+    
+    & select {
+      color: var(--success) !important;
+      border-color: var(--success) !important;
+    }
 
-		&::after {
-			border-top-color: var(--success) !important;
-		}
-	}
+    &::after {
+      border-top-color: var(--success) !important;
+    }
+  }
 
-	&.info {
-		
-		& select {
-			color: var(--info) !important;
-			border-color: var(--info) !important;
-		}
+  &.info {
+    
+    & select {
+      color: var(--info) !important;
+      border-color: var(--info) !important;
+    }
 
-		&::after {
-			border-top-color: var(--info) !important;
-		}
-	}
+    &::after {
+      border-top-color: var(--info) !important;
+    }
+  }
 
-	/* Dropdown Arrow */
-	&::after {
-		position: absolute;
-		top: 50%;
-		right: 15px;
-		margin-top: -calc(var(--select-arrow-size) / 2);
-		width: 0;
-		height: 0;
-		content: '';
-		pointer-events: none;
-		border-left: var(--select-arrow-size) solid transparent;
-		border-right: var(--select-arrow-size) solid transparent;
-		border-top: var(--select-arrow-size) solid var(--select-arrow-background);
-	}
+  /* Dropdown Arrow */
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -calc(var(--select-arrow-size) / 2);
+    width: 0;
+    height: 0;
+    content: '';
+    pointer-events: none;
+    border-left: var(--select-arrow-size) solid transparent;
+    border-right: var(--select-arrow-size) solid transparent;
+    border-top: var(--select-arrow-size) solid var(--select-arrow-background);
+  }
 }
 
 /* Firefox hack to hide the arrow */
 @moz-document url-prefix() {
-	
-	/* Firefox hack to hide the arrow (FF => 30) */
-	.select::before {
-		z-index: 2;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		content: '';
-		pointer-events: none;
-		width: 1em;
-		border-width: 1px 1px 1px 0px;
-		border-color: var(--select-border-color);
-		border-style: var(--select-border-style);
-		background: var(--select-background);
-	}
-	
-	.select.large::before {
-		width: 1.5em;
-	}
+  
+  /* Firefox hack to hide the arrow (FF => 30) */
+  .select::before {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    pointer-events: none;
+    width: 1em;
+    border-width: 1px 1px 1px 0px;
+    border-color: var(--select-border-color);
+    border-style: var(--select-border-style);
+    background: var(--select-background);
+  }
+  
+  .select.large::before {
+    width: 1.5em;
+  }
 }

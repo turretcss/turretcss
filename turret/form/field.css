@@ -1,52 +1,52 @@
 .field {
-	margin: var(--field-margin);
+  margin: var(--field-margin);
 
-	& label,
-	& input,
-	& textarea,
-	& .form-message,
-	& .select {
+  & label,
+  & input,
+  & textarea,
+  & .form-message,
+  & .select {
 
-		&:first-child {
-			margin-top: 0;
-		}
+    &:first-child {
+      margin-top: 0;
+    }
 
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .field-float-label {
-	position: relative;
+  position: relative;
 
-	& input,
-	& textarea {
+  & input,
+  & textarea {
 
-		& + label {
-			position: absolute;
-			top: 0;
-			left: 0;
-			opacity: 0;
-			margin: var(--input-padding);
-			padding: var(--field-float-label-padding);
-			transform: translateY(50%);
-			pointer-events: none;
-			@apply --transition;
-		}
+    & + label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      margin: var(--input-padding);
+      padding: var(--field-float-label-padding);
+      transform: translateY(50%);
+      pointer-events: none;
+      @apply --transition;
+    }
 
-		&:not(:disabled):focus {
+    &:not(:disabled):focus {
 
-			&::placeholder {
-				opacity: 0;
-			}
+      &::placeholder {
+        opacity: 0;
+      }
 
-			& + label {
-				opacity: 1;
-				transform: translateY(-50%);
-				background-color: transparent;
-				background-image: linear-gradient(to bottom, transparent 50%, var(--input-focus-background) 50%);
-			}
-		}
-	}
+      & + label {
+        opacity: 1;
+        transform: translateY(-50%);
+        background-color: transparent;
+        background-image: linear-gradient(to bottom, transparent 50%, var(--input-focus-background) 50%);
+      }
+    }
+  }
 }

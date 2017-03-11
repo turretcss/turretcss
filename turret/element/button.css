@@ -1,243 +1,243 @@
 button,
 .button {
-	display: inline-block;
-	padding: var(--button-padding-vertical) var(--button-padding-horizontal);
-	min-width: var(--button-height);
-	height: var(--button-height);
-	font-family: var(--button-font-family);
-	font-weight: var(--button-font-weight);
-	line-height: var(--button-line-height);
-	font-size: var(--button-font-size);
-	color: var(--button-color);
-	letter-spacing: var(--button-letter-spacing);
-	text-align: var(--button-text-align);
-	text-transform: var(--button-text-transform);
-	text-decoration: none;
-	white-space: nowrap;
-	cursor: pointer;
-	background: var(--button-background);
-	border-width: var(--button-border-width);
-	border-style: var(--button-border-style);
-	border-color: var(--button-border-color);
-	border-radius: var(--button-border-radius);
-	box-shadow: var(--button-box-shadow);
-	@apply --transition;
+  display: inline-block;
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  min-width: var(--button-height);
+  height: var(--button-height);
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  line-height: var(--button-line-height);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  letter-spacing: var(--button-letter-spacing);
+  text-align: var(--button-text-align);
+  text-transform: var(--button-text-transform);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  background: var(--button-background);
+  border-width: var(--button-border-width);
+  border-style: var(--button-border-style);
+  border-color: var(--button-border-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-box-shadow);
+  @apply --transition;
 
-	&:not(:disabled):hover,
-	&:not(:disabled):focus {
-		text-decoration: none;
-		color: var(--button-hover-color);
-		background: var(--button-hover-background);
-		border-color: var(--button-hover-border-color);
-		box-shadow: var(--button-hover-box-shadow);
-	}
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    text-decoration: none;
+    color: var(--button-hover-color);
+    background: var(--button-hover-background);
+    border-color: var(--button-hover-border-color);
+    box-shadow: var(--button-hover-box-shadow);
+  }
 
-	&:not(:disabled):active {
-		color: var(--button-active-color);
-		background: var(--button-active-background);
-		border-color: var(--button-active-border-color);
-		box-shadow: var(--button-active-box-shadow);
-	}
+  &:not(:disabled):active {
+    color: var(--button-active-color);
+    background: var(--button-active-background);
+    border-color: var(--button-active-border-color);
+    box-shadow: var(--button-active-box-shadow);
+  }
 
-	&.spinner::before {
-		margin-top: -0.5em;
-		margin-left: -0.5em;
-		width: 1em;
-		height: 1em;
-	}
-	
-	& svg {
-		width: var(--button-font-size);
-		height: var(--button-font-size);
-		fill: var(--button-color);
-		@apply --transition;
-	}
+  &.spinner::before {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    width: 1em;
+    height: 1em;
+  }
+  
+  & svg {
+    width: var(--button-font-size);
+    height: var(--button-font-size);
+    fill: var(--button-color);
+    @apply --transition;
+  }
 
-	&.error {
-		color: var(--button-error-color);
-		background: var(--error);
-		border-color: var(--error);
+  &.error {
+    color: var(--button-error-color);
+    background: var(--error);
+    border-color: var(--error);
 
-		& svg {
-			fill: var(--button-error-color);
-		}
+    & svg {
+      fill: var(--button-error-color);
+    }
 
-		&.button-border {
-			color: var(--error);
-			background: transparent;
+    &.button-border {
+      color: var(--error);
+      background: transparent;
 
-			& svg {
-				fill: var(--error);
-			}
-		}
+      & svg {
+        fill: var(--error);
+      }
+    }
 
-		&:not(:disabled):hover,
-		&:not(:disabled):focus {
-			color: var(--button-error-color);
-			background: var(--error-hover);
-			border-color: var(--error-hover);
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      color: var(--button-error-color);
+      background: var(--error-hover);
+      border-color: var(--error-hover);
 
-			& svg {
-				fill: var(--button-error-color);
-			}
-		}
+      & svg {
+        fill: var(--button-error-color);
+      }
+    }
 
-		&:not(:disabled):active {
-			color: var(--button-error-color);
-			background: var(--error-active);
-			border-color: var(--error-active);
+    &:not(:disabled):active {
+      color: var(--button-error-color);
+      background: var(--error-active);
+      border-color: var(--error-active);
 
-			& svg {
-				fill: var(--button-error-color);
-			}
-		}
-	}
+      & svg {
+        fill: var(--button-error-color);
+      }
+    }
+  }
 
-	&.warning {
-		color: var(--button-warning-color);
-		background: var(--warning);
-		border-color: var(--warning);
+  &.warning {
+    color: var(--button-warning-color);
+    background: var(--warning);
+    border-color: var(--warning);
 
-		& svg {
-			fill: var(--button-warning-color);
-		}
+    & svg {
+      fill: var(--button-warning-color);
+    }
 
-		&.button-border {
-			color: var(--warning);
-			background: transparent;
+    &.button-border {
+      color: var(--warning);
+      background: transparent;
 
-			& svg {
-				fill: var(--warning);
-			}
-		}
+      & svg {
+        fill: var(--warning);
+      }
+    }
 
-		&:not(:disabled):hover,
-		&:not(:disabled):focus {
-			color: var(--button-warning-color);
-			background: var(--warning-hover);
-			border-color: var(--warning-hover);
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      color: var(--button-warning-color);
+      background: var(--warning-hover);
+      border-color: var(--warning-hover);
 
-			& svg {
-				fill: var(--button-warning-color);
-			}
-		}
+      & svg {
+        fill: var(--button-warning-color);
+      }
+    }
 
-		&:not(:disabled):active {
-			color: var(--button-warning-color);
-			background: var(--warning-active);
-			border-color: var(--warning-active);
-			
-			& svg {
-				fill: var(--button-warning-color);
-			}
-		}
-	}
+    &:not(:disabled):active {
+      color: var(--button-warning-color);
+      background: var(--warning-active);
+      border-color: var(--warning-active);
+      
+      & svg {
+        fill: var(--button-warning-color);
+      }
+    }
+  }
 
-	&.success {
-		color: var(--button-success-color);
-		background: var(--success);
-		border-color: var(--success);
+  &.success {
+    color: var(--button-success-color);
+    background: var(--success);
+    border-color: var(--success);
 
-		& svg {
-			fill: var(--button-success-color);
-		}
+    & svg {
+      fill: var(--button-success-color);
+    }
 
-		&.button-border {
-			color: var(--success);
-			background: transparent;
+    &.button-border {
+      color: var(--success);
+      background: transparent;
 
-			& svg {
-				fill: var(--success);
-			}
-		}
+      & svg {
+        fill: var(--success);
+      }
+    }
 
-		&:not(:disabled):hover,
-		&:not(:disabled):focus {
-			color: var(--button-success-color);
-			background: var(--success-hover);
-			border-color: var(--success-hover);
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      color: var(--button-success-color);
+      background: var(--success-hover);
+      border-color: var(--success-hover);
 
-			& svg {
-				fill: var(--button-success-color);
-			}
-		}
+      & svg {
+        fill: var(--button-success-color);
+      }
+    }
 
-		&:not(:disabled):active {
-			color: var(--button-success-color);
-			background: var(--success-active);
-			border-color: var(--success-active);
+    &:not(:disabled):active {
+      color: var(--button-success-color);
+      background: var(--success-active);
+      border-color: var(--success-active);
 
-			& svg {
-				fill: var(--button-success-color);
-			}
-		}
-	}
+      & svg {
+        fill: var(--button-success-color);
+      }
+    }
+  }
 
-	&.info {
-		color: var(--button-info-color);
-		background: var(--info);
-		border-color: var(--info);
+  &.info {
+    color: var(--button-info-color);
+    background: var(--info);
+    border-color: var(--info);
 
-		& svg {
-			fill: var(--button-info-color);
-		}
+    & svg {
+      fill: var(--button-info-color);
+    }
 
-		&.button-border {
-			color: var(--info);
-			background: transparent;
+    &.button-border {
+      color: var(--info);
+      background: transparent;
 
-			& svg {
-				fill: var(--info);
-			}
-		}
+      & svg {
+        fill: var(--info);
+      }
+    }
 
-		&:not(:disabled):hover,
-		&:not(:disabled):focus {
-			color: var(--button-info-color);
-			background: var(--info-hover);
-			border-color: var(--info-hover);
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      color: var(--button-info-color);
+      background: var(--info-hover);
+      border-color: var(--info-hover);
 
-			& svg {
-				fill: var(--button-info-color);
-			}
-		}
+      & svg {
+        fill: var(--button-info-color);
+      }
+    }
 
-		&:not(:disabled):active {
-			color: var(--button-info-color);
-			background: var(--info-active);
-			border-color: var(--info-active);
+    &:not(:disabled):active {
+      color: var(--button-info-color);
+      background: var(--info-active);
+      border-color: var(--info-active);
 
-			& svg {
-				fill: var(--button-info-color);
-			}
-		}
-	}
+      & svg {
+        fill: var(--button-info-color);
+      }
+    }
+  }
 }
 
 button:disabled {
-	cursor: no-drop;
-	opacity: var(--button-disabled-opacity);
+  cursor: no-drop;
+  opacity: var(--button-disabled-opacity);
 }
 
 /* iOS "clickable elements" fix for role="button" */
 [role="button"] {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .button-block {
-	display: block;
-	width: 100%;
-	text-align: var(--button-block-text-align);
+  display: block;
+  width: 100%;
+  text-align: var(--button-block-text-align);
 }
 
 .button-border {
-	background: transparent;
+  background: transparent;
 }
 
 .button-square {
-	padding: var(--button-padding-vertical);
+  padding: var(--button-padding-vertical);
 }
 
 .button-pill {
-	border-radius: calc(var(--button-height) / 2);
+  border-radius: calc(var(--button-height) / 2);
 }

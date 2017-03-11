@@ -1,14 +1,14 @@
 figure {
-	display: var(--figure-display);
-	margin: var(--figure-margin);
-	padding: var(--figure-padding);
+  display: var(--figure-display);
+  margin: var(--figure-margin);
+  padding: var(--figure-padding);
 }
 
 figcaption {
-	margin: var(--figure-caption-margin);
-	font-family: var(--figure-caption-font-family);
-	font-weight: var(--figure-caption-font-weight);
-	font-size: var(--figure-caption-font-size);
-	color: var(--figure-caption-color);
-	text-align: var(--figure-caption-text-align);
+  margin: var(--figure-caption-margin);
+  font-family: var(--figure-caption-font-family);
+  font-weight: var(--figure-caption-font-weight);
+  font-size: var(--figure-caption-font-size);
+  color: var(--figure-caption-color);
+  text-align: var(--figure-caption-text-align);
 }

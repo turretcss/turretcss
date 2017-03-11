@@ -1,31 +1,31 @@
 .control-xl {
-	font-size: var(--control-xl-font-size);
-	
-	& .control-indicator {
-		font-size: var(--control-xl-indicator-size);
-	}
+  font-size: var(--control-xl-font-size);
+  
+  & .control-indicator {
+    font-size: var(--control-xl-indicator-size);
+  }
 }
 
 .control-l {
-	font-size: var(--control-l-font-size);
-	
-	& .control-indicator {
-		font-size: var(--control-l-indicator-size);
-	}
+  font-size: var(--control-l-font-size);
+  
+  & .control-indicator {
+    font-size: var(--control-l-indicator-size);
+  }
 }
 
 .control-s {
-	font-size: var(--control-s-font-size);
-	
-	& .control-indicator {
-		font-size: var(--control-s-indicator-size);
-	}
+  font-size: var(--control-s-font-size);
+  
+  & .control-indicator {
+    font-size: var(--control-s-indicator-size);
+  }
 }
 
 .control-xs {
-	font-size: var(--control-xs-font-size);
-	
-	& .control-indicator {
-		font-size: var(--control-xs-indicator-size);
-	}
+  font-size: var(--control-xs-font-size);
+  
+  & .control-indicator {
+    font-size: var(--control-xs-indicator-size);
+  }
 }

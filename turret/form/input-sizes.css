@@ -1,42 +1,42 @@
 .input-xl {
-	padding: var(--input-xl-padding);
-	height: var(--input-xl-height);
-	font-size: var(--input-xl-font-size);
+  padding: var(--input-xl-padding);
+  height: var(--input-xl-height);
+  font-size: var(--input-xl-font-size);
 }
 
 .input-l {
-	padding: var(--input-l-padding);
-	height: var(--input-l-height);
-	font-size: var(--input-l-font-size);
+  padding: var(--input-l-padding);
+  height: var(--input-l-height);
+  font-size: var(--input-l-font-size);
 }
 
 .input-s {
-	padding: var(--input-s-padding);
-	height: var(--input-s-height);
-	font-size: var(--input-s-font-size);
+  padding: var(--input-s-padding);
+  height: var(--input-s-height);
+  font-size: var(--input-s-font-size);
 }
 
 .input-xs {
-	padding: var(--input-xs-padding);
-	height: var(--input-xs-height);
-	font-size: var(--input-xs-font-size);
+  padding: var(--input-xs-padding);
+  height: var(--input-xs-height);
+  font-size: var(--input-xs-font-size);
 }
 
 input[type="color"] {
 
-	&.input-xl {
-		width: var(--input-xl-height);
-	}
+  &.input-xl {
+    width: var(--input-xl-height);
+  }
 
-	&.input-l {
-		width: var(--input-l-height);
-	}
+  &.input-l {
+    width: var(--input-l-height);
+  }
 
-	&.input-s {
-		width: var(--input-s-height);
-	}
+  &.input-s {
+    width: var(--input-s-height);
+  }
 
-	&.input-xs {
-		width: var(--input-xs-height);
-	}
+  &.input-xs {
+    width: var(--input-xs-height);
+  }
 }

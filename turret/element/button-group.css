@@ -1,31 +1,31 @@
 .button-group {
-	display: flex;
+  display: flex;
 
-	& button,
-	& .button {
-		position: relative;
-		flex: 0 0 auto;
+  & button,
+  & .button {
+    position: relative;
+    flex: 0 0 auto;
 
-		&:hover,
-		&:focus,
-		&:active {
-			z-index: 2;
-		}
+    &:hover,
+    &:focus,
+    &:active {
+      z-index: 2;
+    }
 
-		& + button,
-		& + .button {
-			border-top-left-radius: 0;
-			border-bottom-left-radius: 0;
-			margin-left: calc(var(--button-border-width) * -1);
-		}
-	}
+    & + button,
+    & + .button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-left: calc(var(--button-border-width) * -1);
+    }
+  }
 }
 
 .button-group-block {
-	width: 100%;
+  width: 100%;
 
-	& button,
-	& .button {
-		flex: 1 1 auto;
-	}
+  & button,
+  & .button {
+    flex: 1 1 auto;
+  }
 }

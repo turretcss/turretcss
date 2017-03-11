@@ -1,13 +1,13 @@
 kbd {
-	margin: var(--kbd-margin);
-	padding: var(--kbd-padding);
-	font-family: var(--kbd-font-family);
-	font-weight: var(--kbd-font-weight);
-	font-size: var(--kbd-font-size);
-	color: var(--kbd-color);
-	background: var(--kbd-background);
-	border-width: var(--kbd-border-width);
-	border-style: var(--kbd-border-style);
-	border-color: var(--kbd-border-color);
-	border-radius: var(--kbd-border-radius);
+  margin: var(--kbd-margin);
+  padding: var(--kbd-padding);
+  font-family: var(--kbd-font-family);
+  font-weight: var(--kbd-font-weight);
+  font-size: var(--kbd-font-size);
+  color: var(--kbd-color);
+  background: var(--kbd-background);
+  border-width: var(--kbd-border-width);
+  border-style: var(--kbd-border-style);
+  border-color: var(--kbd-border-color);
+  border-radius: var(--kbd-border-radius);
 }

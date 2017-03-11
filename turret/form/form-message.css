@@ -1,28 +1,28 @@
 .form-message {
-	margin: var(--form-message-margin);
-	font-family: var(--form-message-font-family);
-	font-weight: var(--form-message-font-weight);
-	font-size: var(--form-message-font-size);
-	color: var(--form-message-color);
-	line-height: var(--form-message-line-height);
+  margin: var(--form-message-margin);
+  font-family: var(--form-message-font-family);
+  font-weight: var(--form-message-font-weight);
+  font-size: var(--form-message-font-size);
+  color: var(--form-message-color);
+  line-height: var(--form-message-line-height);
 
-	&:empty {
-		display: none;
-	}
+  &:empty {
+    display: none;
+  }
 
-	&.error {
-		color: var(--error);
-	}
+  &.error {
+    color: var(--error);
+  }
 
-	&.warning {
-		color: var(--warning);
-	}
+  &.warning {
+    color: var(--warning);
+  }
 
-	&.success {
-		color: var(--success);
-	}
+  &.success {
+    color: var(--success);
+  }
 
-	&.info {
-		color: var(--info);
-	}
+  &.info {
+    color: var(--info);
+  }
 }

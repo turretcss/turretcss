@@ -1,19 +1,19 @@
 .letter-spacing-xl {
-	letter-spacing: var(--letter-spacing-xl);
+  letter-spacing: var(--letter-spacing-xl);
 }
 
 .letter-spacing-l {
-	letter-spacing: var(--letter-spacing-l);
+  letter-spacing: var(--letter-spacing-l);
 }
 
 .letter-spacing-m {
-	letter-spacing: var(--letter-spacing-m);
+  letter-spacing: var(--letter-spacing-m);
 }
 
 .letter-spacing-s {
-	letter-spacing: var(--letter-spacing-s);
+  letter-spacing: var(--letter-spacing-s);
 }
 
 .letter-spacing-xs {
-	letter-spacing: var(--letter-spacing-xs);
+  letter-spacing: var(--letter-spacing-xs);
 }

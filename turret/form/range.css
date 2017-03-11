@@ -1,191 +1,191 @@
 :root {
-	
-	--range-thumb: {
-		height: var(--range-thumb-height);
-		width: var(--range-thumb-width);
-		cursor: pointer;
-		background: var(--range-thumb-background);
-		border-width: var(--range-thumb-border-width);
-		border-style: var(--range-thumb-border-style);
-		border-color: var(--range-thumb-border-color);
-		border-radius: var(--range-thumb-border-radius);
-		box-shadow: var(--range-thumb-box-shadow);
-		@apply --transition;
-	}
+  
+  --range-thumb: {
+    height: var(--range-thumb-height);
+    width: var(--range-thumb-width);
+    cursor: pointer;
+    background: var(--range-thumb-background);
+    border-width: var(--range-thumb-border-width);
+    border-style: var(--range-thumb-border-style);
+    border-color: var(--range-thumb-border-color);
+    border-radius: var(--range-thumb-border-radius);
+    box-shadow: var(--range-thumb-box-shadow);
+    @apply --transition;
+  }
 
-	--range-thumb-hover: {
-		background: var(--range-thumb-hover-background);
-		border-color: var(--range-thumb-hover-border-color);
-		box-shadow: var(--range-thumb-hover-box-shadow);
-	}
+  --range-thumb-hover: {
+    background: var(--range-thumb-hover-background);
+    border-color: var(--range-thumb-hover-border-color);
+    box-shadow: var(--range-thumb-hover-box-shadow);
+  }
 
-	--range-thumb-focus: {
-		background: var(--range-thumb-focus-background);
-		border-color: var(--range-thumb-focus-border-color);
-		box-shadow: var(--range-thumb-focus-box-shadow);
-	}
+  --range-thumb-focus: {
+    background: var(--range-thumb-focus-background);
+    border-color: var(--range-thumb-focus-border-color);
+    box-shadow: var(--range-thumb-focus-box-shadow);
+  }
 
-	--range-track: {
-		width: 100%;
-		height: 1em;
-		cursor: pointer;
-		background: currentColor;
-		border-width: var(--range-track-border-width);
-		border-style: var(--range-track-border-style);
-		border-color: var(--range-track-border-color);
-		border-radius: var(--range-track-border-radius);
-		box-shadow: var(--range-track-box-shadow);
-		@apply --transition;
-	}
+  --range-track: {
+    width: 100%;
+    height: 1em;
+    cursor: pointer;
+    background: currentColor;
+    border-width: var(--range-track-border-width);
+    border-style: var(--range-track-border-style);
+    border-color: var(--range-track-border-color);
+    border-radius: var(--range-track-border-radius);
+    box-shadow: var(--range-track-box-shadow);
+    @apply --transition;
+  }
 
-	--range-track-hover: {
-		border-color: var(--range-track-hover-border-color);
-		box-shadow: var(--range-track-hover-box-shadow);
-	}
+  --range-track-hover: {
+    border-color: var(--range-track-hover-border-color);
+    box-shadow: var(--range-track-hover-box-shadow);
+  }
 
-	--range-track-focus: {
-		border-color: var(--range-track-focus-border-color);
-		box-shadow: var(--range-track-focus-box-shadow);
-	}
+  --range-track-focus: {
+    border-color: var(--range-track-focus-border-color);
+    box-shadow: var(--range-track-focus-box-shadow);
+  }
 }
 
 input[type="range"] {
-	margin: var(--range-margin);
-	padding: var(--range-padding);
-	width: 100%;
-	font-size: var(--range-height);
-	color: var(--range-track-background);
-	border: none;
-	background: transparent;
-	border-radius: var(--input-border-radius);
-	box-shadow: none !important;
-	-webkit-appearance: none;
-	@apply --transition;
+  margin: var(--range-margin);
+  padding: var(--range-padding);
+  width: 100%;
+  font-size: var(--range-height);
+  color: var(--range-track-background);
+  border: none;
+  background: transparent;
+  border-radius: var(--input-border-radius);
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  @apply --transition;
 
-	&:disabled {
-		cursor: no-drop;
-		background: transparent;
-		border: none;
-	}
-	
-	&::-webkit-slider-thumb {
-		-webkit-appearance: none;
-		margin-top: calc(0.5em - (var(--range-thumb-height) / 2));
-		@apply --range-thumb;
-	}
+  &:disabled {
+    cursor: no-drop;
+    background: transparent;
+    border: none;
+  }
+  
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: calc(0.5em - (var(--range-thumb-height) / 2));
+    @apply --range-thumb;
+  }
 
-	&::-webkit-slider-runnable-track {
-		@apply --range-track;
-	}
+  &::-webkit-slider-runnable-track {
+    @apply --range-track;
+  }
 
-	&::-moz-range-thumb {
-		@apply --range-thumb;
-	}
+  &::-moz-range-thumb {
+    @apply --range-thumb;
+  }
 
-	&::-moz-range-track {
-		@apply --range-track;
-	}
+  &::-moz-range-track {
+    @apply --range-track;
+  }
 
-	&::-ms-thumb {
-		@apply --range-thumb;
-	}
+  &::-ms-thumb {
+    @apply --range-thumb;
+  }
 
-	&::-ms-fill-lower {
-		@apply --range-track;
-	}
+  &::-ms-fill-lower {
+    @apply --range-track;
+  }
 
-	&::-ms-fill-upper {
-		@apply --range-track;
-	}
+  &::-ms-fill-upper {
+    @apply --range-track;
+  }
 
-	&::-ms-track {
-		@apply --range-track;
-		color: transparent;
-	}
+  &::-ms-track {
+    @apply --range-track;
+    color: transparent;
+  }
 
-	&:not(:disabled):hover {
-		color: var(--range-track-hover-background);
-		background: transparent;
+  &:not(:disabled):hover {
+    color: var(--range-track-hover-background);
+    background: transparent;
 
-		&::-webkit-slider-thumb {
-			@apply --range-thumb-hover;
-		}
+    &::-webkit-slider-thumb {
+      @apply --range-thumb-hover;
+    }
 
-		&::-webkit-slider-runnable-track {
-			@apply --range-track-hover;
-		}
+    &::-webkit-slider-runnable-track {
+      @apply --range-track-hover;
+    }
 
-		&::-moz-range-thumb {
-			@apply --range-thumb-hover;
-		}
+    &::-moz-range-thumb {
+      @apply --range-thumb-hover;
+    }
 
-		&::-ms-thumb {
-			@apply --range-thumb-hover;
-		}
+    &::-ms-thumb {
+      @apply --range-thumb-hover;
+    }
 
-		&::-ms-fill-lower {
-			@apply --range-track-hover;
-		}
+    &::-ms-fill-lower {
+      @apply --range-track-hover;
+    }
 
-		&::-ms-fill-upper {
-			@apply --range-track-hover;
-		}
+    &::-ms-fill-upper {
+      @apply --range-track-hover;
+    }
 
-		&::-ms-track {
-			@apply --range-track-hover;
-		}
-	}
-	
-	&:not(:disabled):focus {
-		color: var(--range-track-focus-background);
-		background: transparent;
+    &::-ms-track {
+      @apply --range-track-hover;
+    }
+  }
+  
+  &:not(:disabled):focus {
+    color: var(--range-track-focus-background);
+    background: transparent;
 
-		&::-webkit-slider-thumb {
-			@apply --range-thumb-focus;
-		}
+    &::-webkit-slider-thumb {
+      @apply --range-thumb-focus;
+    }
 
-		&::-webkit-slider-runnable-track {
-			@apply --range-track-focus;
-		}
+    &::-webkit-slider-runnable-track {
+      @apply --range-track-focus;
+    }
 
-		&::-moz-range-thumb {
-			@apply --range-thumb-focus;
-		}
+    &::-moz-range-thumb {
+      @apply --range-thumb-focus;
+    }
 
-		&::-moz-range-track {
-			@apply --range-thumb-focus;
-		}
+    &::-moz-range-track {
+      @apply --range-thumb-focus;
+    }
 
-		&::-ms-thumb {
-			@apply --range-thumb-focus;
-		}
+    &::-ms-thumb {
+      @apply --range-thumb-focus;
+    }
 
-		&::-ms-fill-lower {
-			@apply --range-track-focus;
-		}
+    &::-ms-fill-lower {
+      @apply --range-track-focus;
+    }
 
-		&::-ms-fill-upper {
-			@apply --range-track-focus;
-		}
+    &::-ms-fill-upper {
+      @apply --range-track-focus;
+    }
 
-		&::-ms-track {
-			@apply --range-track-focus;
-		}
-	}
+    &::-ms-track {
+      @apply --range-track-focus;
+    }
+  }
 
-	&.error {
-		color: var(--error) !important;
-	}
+  &.error {
+    color: var(--error) !important;
+  }
 
-	&.warning {
-		color: var(--warning) !important;
-	}
+  &.warning {
+    color: var(--warning) !important;
+  }
 
-	&.success {
-		color: var(--success) !important;
-	}
+  &.success {
+    color: var(--success) !important;
+  }
 
-	&.info {
-		color: var(--info) !important;
-	}
+  &.info {
+    color: var(--info) !important;
+  }
 }

@@ -1,19 +1,19 @@
 .line-height-xl {
-	line-height: var(--line-height-xl);
+  line-height: var(--line-height-xl);
 }
 
 .line-height-l {
-	line-height: var(--line-height-l);
+  line-height: var(--line-height-l);
 }
 
 .line-height-m {
-	line-height: var(--line-height-m);
+  line-height: var(--line-height-m);
 }
 
 .line-height-s {
-	line-height: var(--line-height-s);
+  line-height: var(--line-height-s);
 }
 
 .line-height-xs {
-	line-height: var(--line-height-xs);
+  line-height: var(--line-height-xs);
 }

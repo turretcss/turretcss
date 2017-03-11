@@ -1,77 +1,77 @@
 @page {
-	size: var(--print-page-size);
-	margin: var(--print-page-margin);
+  size: var(--print-page-size);
+  margin: var(--print-page-margin);
 }
 
 @media print {
 
-	*,
-	*::before,
-	*::after {
-		background: transparent !important;
-		color: var(--black) !important; /* Black prints faster: h5bp.com/s */
-		box-shadow: none !important;
-		text-shadow: none !important;
-	}
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: var(--black) !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-	a {
-		text-decoration: underline !important;
-	}
+  a {
+    text-decoration: underline !important;
+  }
 
-	a[href]::after {
-		margin-left: 0.2em;
-		content: attr(href);
-	}
+  a[href]::after {
+    margin-left: 0.2em;
+    content: attr(href);
+  }
 
-	a[href^="#"]:after {
-		content: '';
-	}
+  a[href^="#"]:after {
+    content: '';
+  }
 
-	abbr[title]::after {
-		margin-left: 0.2em;
-		content: attr(title);
-	}
+  abbr[title]::after {
+    margin-left: 0.2em;
+    content: attr(title);
+  }
 
-	pre {
-		page-break-inside: avoid;
-		border: 1px solid var(--grey) !important;
-	}
+  pre {
+    page-break-inside: avoid;
+    border: 1px solid var(--grey) !important;
+  }
 
-	blockquote {
-		page-break-inside: avoid;
-	}
+  blockquote {
+    page-break-inside: avoid;
+  }
 
-	thead {
-		display: table-header-group;
-	}
+  thead {
+    display: table-header-group;
+  }
 
-	tr,
-	img {
-		page-break-inside: avoid;
-	}
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-	img {
-		max-width: 100% !important;
-	}
+  img {
+    max-width: 100% !important;
+  }
 
-	p,
-	h2,
-	h3 {
-		orphans: 3;
-		widows: 3;
-	}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-	h2,
-	h3 {
-		page-break-after: avoid;
-	}
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 
-	table {
-		border-collapse: collapse !important;
+  table {
+    border-collapse: collapse !important;
 
-		td,
-		th {
-			background-color: var(--white) !important;
-		}
-	}
+    td,
+    th {
+      background-color: var(--white) !important;
+    }
+  }
 }
