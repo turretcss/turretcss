@@ -19,9 +19,13 @@ layout: default
   {% include footer.html %}
 
 </main>
-
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/anchor.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/jekyll-search.min.js"></script>
 <script>
+
+  anchors.options.placement = 'left'
+  anchors.add('h1[id], h2[id], h3[id], h4[id], h5[id]')
+
   SimpleJekyllSearch.init({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
