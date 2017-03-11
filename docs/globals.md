@@ -1,12 +1,12 @@
 ---
 layout: docs
-title: Style
-page_title: Style - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+title: Globals
+page_title: Globals - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: An overview of Turret and basic styling behaviours including global variables, fonts, color palettes, and media queries.
-permalink: /docs/style/
+permalink: /docs/globals/
 ---
 
-## Global
+## Base
 
 ### Root
 

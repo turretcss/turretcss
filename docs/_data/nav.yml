@@ -15,9 +15,9 @@
     - title: Form
     - title: Elements
 
-- title: Style
+- title: Globals
   pages:
-    - title: Global
+    - title: Base
     - title: Sizes
     - title: Typography
     - title: Colors
