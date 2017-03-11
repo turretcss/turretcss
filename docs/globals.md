@@ -276,6 +276,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 
 ### Shades
 
+#### Light
+
 <div class="palette">
   <div class="swatch color-dark background-light">Light</div>
   <div class="swatch color-dark background-light-100">Light 100</div>
@@ -304,6 +306,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --light-900: color(var(--light) shade(20%));
 ```
 
+#### Grey
+
 <div class="palette">
   <div class="swatch color-white background-grey">Grey</div>
   <div class="swatch color-white background-grey-100">Grey 100</div>
@@ -331,6 +335,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --grey-800: color(var(--grey) shade(22.5%));
 --grey-900: color(var(--grey) shade(30%));
 ```
+
+#### Dark
 
 <div class="palette">
   <div class="swatch color-white background-dark">Dark</div>
@@ -361,6 +367,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 ```
 
 ### Palettes
+
+#### Primary
   
 <div class="palette">
   <div class="swatch color-white background-primary">Primary</div>
@@ -390,6 +398,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --primary-900: color(var(--primary) shade(40%));
 ```
 
+#### Secondary
+
 <div class="palette">
   <div class="swatch color-white background-secondary">Secondary</div>
   <div class="swatch color-white background-secondary-100">Secondary 100</div>
@@ -417,6 +427,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --secondary-800: color(var(--secondary) shade(30%));
 --secondary-900: color(var(--secondary) shade(40%));
 ```
+
+#### Tertiary
 
 <div class="palette">
   <div class="swatch color-white background-tertiary">Tertiary</div>
@@ -448,6 +460,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 
 ### Indicators
 
+#### Error
+
 <div class="palette">
   <div class="swatch color-white background-error">Error</div>
   <div class="swatch color-white background-error-100">Error 100</div>
@@ -475,6 +489,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --error-800: color(var(--error) shade(30%));
 --error-900: color(var(--error) shade(40%));
 ```
+
+#### Warning
 
 <div class="palette">
   <div class="swatch color-white background-warning">Warning</div>
@@ -504,6 +520,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --warning-900: color(var(--warning) shade(40%));
 ```
 
+#### Success
+
 <div class="palette">
   <div class="swatch color-white background-success">Success</div>
   <div class="swatch color-white background-success-100">Success 100</div>
@@ -531,6 +549,8 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 --success-800: color(var(--success) shade(30%));
 --success-900: color(var(--success) shade(40%));
 ```
+
+#### Info
 
 <div class="palette">
   <div class="swatch color-white background-info">Info</div>
