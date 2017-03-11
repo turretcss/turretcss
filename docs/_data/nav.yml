@@ -113,6 +113,8 @@
     - title: Text
     - title: Color
     - title: Background
+    - title: Border
+    - title: Border Color
 
 - title: Mixins
   pages:
