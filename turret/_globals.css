@@ -14,6 +14,13 @@
 
 
   /**
+   * Focus Outline
+   */
+
+  --focus-outline: var(--border-width) dotted currentColor;
+
+
+  /**
    * Gutter
    */
 

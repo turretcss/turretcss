@@ -26,6 +26,14 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 --root-size-xs: var(--root-size);
 ```
 
+### Focus Outline
+
+Outline proprty defintion for focusable elements.
+
+```scss
+--focus-outline: var(--border-width) dotted currentColor;
+```
+
 ### Gutter
 
 Default '--gutter' property definition for horizontal container padding.

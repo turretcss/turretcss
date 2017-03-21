@@ -12,7 +12,7 @@ html {
 }
 
 :focus {
-  outline: 0;
+  outline: var(--focus-outline);
 }
 
 html,
