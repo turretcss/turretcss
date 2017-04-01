@@ -17,14 +17,6 @@ turretcss makes creating responsive, accessible, mobile-first web interfaces sim
 
 ## Quick start
 
-### CDN
-
-Include the stylesheet `<link>` into your `<head>`.
-
-```html
-<link rel="stylesheet" href="{{ site.cdn }}" crossorigin="anonymous">
-```
-
 ### Template
 
 turretcss makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype. To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
@@ -42,7 +34,7 @@ turretcss makes use of HTML5 elements and CSS properties that require the use of
     <title>turretcss</title>
     
     <!-- turretcss CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ site.cdn }}" />
+    <link rel="stylesheet" type="text/css" href="turretcss.min.css" />
   </head>
   <body>
     ...

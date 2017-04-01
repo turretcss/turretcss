@@ -34,7 +34,7 @@
   "scripts": {
     "start": "npm run watch",
     "watch": "npm run docs -- -w",
-    "build": "postcss turret/turret.css -o dist/turret.min.css",
+    "build": "postcss turret/turret.css -o dist/turretcss.min.css",
     "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css"
   },
   "devDependencies": {
