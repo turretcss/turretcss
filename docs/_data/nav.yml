@@ -1,3 +1,10 @@
+- title: Demo
+  pages:
+    - title: Colors
+    - title: Typography
+    - title: Form
+    - title: Elements
+
 - title: Getting Started
   pages:
     - title: Quick start
@@ -7,13 +14,6 @@
     - title: Accessibility
     - title: Contributors
     - title: Licence
-
-- title: Demo
-  pages:
-    - title: Colors
-    - title: Typography
-    - title: Form
-    - title: Elements
 
 - title: Globals
   pages:
