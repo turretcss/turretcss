@@ -28,7 +28,7 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 
 ### Focus Outline
 
-Outline proprty defintion for focusable elements.
+Outline property defintion for focusable elements.
 
 ```scss
 --focus-outline: var(--border-width) dotted currentColor;
