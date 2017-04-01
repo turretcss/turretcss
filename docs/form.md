@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Form
-page_title: Form - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: A guide to Turret's default styling of form elements including examples of input types and sizes, input-groups, controls, and selects.
+page_title: Form - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: A guide to turretcss's default styling of form elements including examples of input types and sizes, input-groups, controls, and selects.
 permalink: /docs/form/
 ---
 

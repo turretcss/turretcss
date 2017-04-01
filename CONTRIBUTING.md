@@ -1,6 +1,6 @@
-# Contributing to Turret
+# Contributing to turretcss
 
-Looking to contribute something to Turret? **Here's how you can help.**
+Looking to contribute something to turretcss? **Here's how you can help.**
 
 ## Using the issue tracker
 

@@ -1,14 +1,14 @@
 ---
 layout: docs
 title: Getting Started
-page_title: Getting Started - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: A introduction to how to get started, download and use Turret.
+page_title: Getting Started - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: A introduction to how to get started, download and use turretcss.
 permalink: /docs/getting-started/
 ---
 
 ## Introduction
 
-Turret makes creating responsive, accessible, mobile-first web interfaces simple. Turret provides a robust CSS foundation of HTML typography, forms, and elements that are easy to customise and style.
+turretcss makes creating responsive, accessible, mobile-first web interfaces simple. turretcss provides a robust CSS foundation of HTML typography, forms, and elements that are easy to customise and style.
 
 ## Contents
 
@@ -29,7 +29,7 @@ Include the stylesheet `<link>` into your `<head>`.
 
 ### Template
 
-Turret makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype. To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
+turretcss makes use of HTML5 elements and CSS properties that require the use of the HTML5 doctype. To ensure proper rendering and touch zooming, add the viewport meta tag to your `<head>`.
 
 ```html
 <!DOCTYPE html>
@@ -41,9 +41,9 @@ Turret makes use of HTML5 elements and CSS properties that require the use of th
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Page Title -->
-    <title>Turret</title>
+    <title>turretcss</title>
     
-    <!-- Turret CSS -->
+    <!-- turretcss CSS -->
     <link rel="stylesheet" type="text/css" href="{{ site.cdn }}" />
   </head>
   <body>
@@ -56,7 +56,7 @@ Turret makes use of HTML5 elements and CSS properties that require the use of th
 
 ### Download
 
-Download the Turret repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the Turret CSS.
+Download the turretcss repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the turretcss CSS.
 
 <p>
   <a class="button button-primary" href="https://github.com/turretcss/turretcss/archive/master.zip">Download from GitHub</a>
@@ -72,7 +72,7 @@ git clone https://github.com/turretcss/turretcss.git
 
 ### npm
 
-Install Turret for your Node powered apps with the [npm package](https://www.npmjs.com/package/turretcss):
+Install turretcss for your Node powered apps with the [npm package](https://www.npmjs.com/package/turretcss):
 
 ```bash
 npm install turretcss
@@ -80,7 +80,7 @@ npm install turretcss
 
 ### yarn
 
-Install Turret with [yarn](https://github.com/yarnpkg/yarn):
+Install turretcss with [yarn](https://github.com/yarnpkg/yarn):
 
 ```bash
 yarn add turretcss
@@ -104,11 +104,11 @@ Where styles are applied on HTML elements with classes, the structuring of class
 
 ### Normalize
 
-For improved cross-browser rendering, Turret includes [Normalize.css](https://necolas.github.io/normalize.css/), a project by Nicolas Gallagher and Jonathan Neal.
+For improved cross-browser rendering, turretcss includes [Normalize.css](https://necolas.github.io/normalize.css/), a project by Nicolas Gallagher and Jonathan Neal.
 
 ### Sizes
 
-Turret uses a generic language for size scale. The scale ranges from xs to xl (xs, s, m, l, xl) and is applicable for both responsive breakpoints, and the HTML elements themselves.
+turretcss uses a generic language for size scale. The scale ranges from xs to xl (xs, s, m, l, xl) and is applicable for both responsive breakpoints, and the HTML elements themselves.
 
 #### Device Sizes
 
@@ -201,7 +201,7 @@ Element indicators examples:
 
 ### Structure
 
-The Turret source code download includes the precompiled CSS, along with source CSS, and documentation.
+The turretcss source code download includes the precompiled CSS, along with source CSS, and documentation.
 
 The source file structure is as follows:
 
@@ -219,19 +219,19 @@ The `turret` directory contains the source code CSS. The `dist` directory includ
 
 ### [PostCSS][PostCSS]
 
-Turret makes use of [PostCSS][PostCSS] and [cssnext][cssnext] to compile modern CSS into browser compatible CSS. Each element of Turret is inlcuded in individual CSS files that include variables set at the root scope. To use Turret with [PostCSS][PostCSS] in your project you will need to import `turretcss/turret/turret.css` to include styles for all elements.
+turretcss makes use of [PostCSS][PostCSS] and [cssnext][cssnext] to compile modern CSS into browser compatible CSS. Each element of turretcss is inlcuded in individual CSS files that include variables set at the root scope. To use turretcss with [PostCSS][PostCSS] in your project you will need to import `turretcss/turret/turret.css` to include styles for all elements.
 
 ### [cssnext][cssnext]
 
-To use Turret with [cssnext][cssnext] in your project you will need to import `turret.css` to include styles for all elements.
+To use turretcss with [cssnext][cssnext] in your project you will need to import `turret.css` to include styles for all elements.
 
 ### [Autoprefixer][autoprefixer]
 
-Turret uses [Autoprefixer][autoprefixer] as part of [cssnext][cssnext] to automatically add vendor prefixes to some CSS properties at build time.
+turretcss uses [Autoprefixer][autoprefixer] as part of [cssnext][cssnext] to automatically add vendor prefixes to some CSS properties at build time.
 
 ### Styling
 
-To theme Turret you can override default style variables either within your own project styles or included as `variables.css` to `@import` in your styles.
+To theme turretcss you can override default style variables either within your own project styles or included as `variables.css` to `@import` in your styles.
 
 ```css
 @import 'turretcss/turret/turret.css';
@@ -246,11 +246,11 @@ To theme Turret you can override default style variables either within your own 
 
 View full documentation at: <http://turretcss.com/>
 
-Turret's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
+turretcss's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
 
 #### Tooling
 
-To use and run the documentation locally, you'll need a copy of Turret's source files, and Node. To install the required tools follow these steps:
+To use and run the documentation locally, you'll need a copy of turretcss's source files, and Node. To install the required tools follow these steps:
 
 1. [Download and install Node](https://nodejs.org/download/), which we use to manage our dependencies.
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
@@ -261,13 +261,13 @@ When completed, you'll be able to run the various scripts provided from the comm
 
 #### Scripts
 
-Turret includes the following commands and tasks:
+turretcss includes the following commands and tasks:
 
 | Task | Description |
 | --- | --- |
 | `npm start` | Run `npm run watch` |
 | `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS  |
-| `npm run build` | Compile and minify the Turret CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
+| `npm run build` | Compile and minify the turretcss CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
 | `npm run docs` | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
 
 
@@ -339,7 +339,7 @@ The Default Android Browser is not supported. Android 4.4+ does not ship with a 
 
 #### IE Compatibility modes
 
-Turret is not supported in the old Internet Explorer compatibility modes. To be sure you're using the latest rendering mode for IE, consider including the appropriate `<meta>` tag in your pages:
+turretcss is not supported in the old Internet Explorer compatibility modes. To be sure you're using the latest rendering mode for IE, consider including the appropriate `<meta>` tag in your pages:
 
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -536,7 +536,7 @@ Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/
 
 ### License Notes
 
-Turret is released under the MIT license and is copyright 2017 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
+turretcss is released under the MIT license and is copyright 2017 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
 
 **It requires you to:**
 
@@ -544,25 +544,25 @@ Turret is released under the MIT license and is copyright 2017 <a href="http://b
 
 **It permits you to:**
 
-* Freely download and use Turret, in whole or in part, for personal, private, company internal, or commercial purposes
-* Use Turret in packages or distributions that you create
+* Freely download and use turretcss, in whole or in part, for personal, private, company internal, or commercial purposes
+* Use turretcss in packages or distributions that you create
 * Modify the source code
-* Grant a sublicense to modify and distribute Turret to third parties not included in the license
+* Grant a sublicense to modify and distribute turretcss to third parties not included in the license
 
 **It forbids you to:**
 
-*  Hold the authors and license owners liable for damages as Turret is provided without warranty
-*  Hold the creators or copyright holders of Turret liable
-*  Redistribute any piece of Turret without proper attribution
+*  Hold the authors and license owners liable for damages as turretcss is provided without warranty
+*  Hold the creators or copyright holders of turretcss liable
+*  Redistribute any piece of turretcss without proper attribution
 *  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="http://bigfish.tv">bigfish.tv</a> endorses your distribution
 *  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="http://bigfish.tv">bigfish.tv</a> software in question
 
 **It does not require you to:**
 
-* Include the source of Turret itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
-* Submit changes that you make to Turret back to the Turret project (though such feedback is encouraged)
+* Include the source of turretcss itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
+* Submit changes that you make to turretcss back to the turretcss project (though such feedback is encouraged)
 
-The full Turret license is located in the project repository for more information.
+The full turretcss license is located in the project repository for more information.
 
 [install-ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [gembundler]: https://bundler.io/

@@ -1,8 +1,8 @@
-# [Turret](http://turretcss.com/)
+# [turretcss](http://turretcss.com/)
 
 [![npm version](https://img.shields.io/npm/v/turretcss.svg)](https://www.npmjs.com/package/turretcss)
 
-Turret - A Responsive Front-end Framework for Accessible and Semantic Websites with default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
+turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites with default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
 
 To get started, check out <http://turretcss.com>!
 
@@ -34,11 +34,11 @@ Have a bug or a feature request? Please first search for existing and closed iss
 
 View full documentation at: <http://turretcss.com/>
 
-Turret's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
+turretcss's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
 
 ### Tooling
 
-To use and run the documentation locally, you'll need a copy of Turret's source files, and Node. To install the required tools follow these steps:
+To use and run the documentation locally, you'll need a copy of turretcss's source files, and Node. To install the required tools follow these steps:
 
 1. [Download and install Node](https://nodejs.org/download/), which we use to manage our dependencies.
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
@@ -49,18 +49,18 @@ When completed, you'll be able to run the various scripts provided from the comm
 
 ### Scripts
 
-Turret includes the following commands and tasks:
+turretcss includes the following commands and tasks:
 
 | Task | Description |
 | --- | --- |
 | `npm start` | Run `npm run watch` |
 | `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS  |
-| `npm run build` | Compile and minify the Turret CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
+| `npm run build` | Compile and minify the turretcss CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
 | `npm run docs` | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
 
 ### Autoprefixer
 
-Turret uses [Autoprefixer][autoprefixer] as part of cssnext to automatically add vendor prefixes to some CSS properties at build time.
+turretcss uses [Autoprefixer][autoprefixer] as part of cssnext to automatically add vendor prefixes to some CSS properties at build time.
 
 ### Running documentation locally
 
@@ -82,11 +82,11 @@ Keep track development updates by following [@turretcss](https://twitter.com/tur
 
 ## Versioning
 
-For transparency into our release cycle and in striving to maintain backward compatibility, Turret is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+For transparency into our release cycle and in striving to maintain backward compatibility, turretcss is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our GitHub project](https://github.com/turretcss/turret/releases) for changelogs for each release version of Turret.
+See [the Releases section of our GitHub project](https://github.com/turretcss/turret/releases) for changelogs for each release version of turretcss.
 
-Release announcement posts on [the official Turret blog](http://turretcss.com/blog) contain summaries of the most noteworthy changes made in each release.
+Release announcement posts on [the official turretcss blog](http://turretcss.com/blog) contain summaries of the most noteworthy changes made in each release.
 
 ## Creators
 

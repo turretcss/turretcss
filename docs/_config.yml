@@ -1,8 +1,8 @@
 # Site settings
-title: Turret
-page_title: Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
+title: turretcss
+page_title: turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
 email: scottdj@bigfish.tv
-description: Developed for design. Turret is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.
+description: Developed for design. turretcss is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.
 
 # Permalinks
 permalink: pretty

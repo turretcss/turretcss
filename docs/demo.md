@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Demo
-page_title: Demo - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: Demo of all HTML elements with Turret styles applied.
+page_title: Demo - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: Demo of all HTML elements with turretcss styles applied.
 permalink: /docs/demo/
 ---
 

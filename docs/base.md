@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Base
-page_title: Base - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: An overview of Turret and basic styling behaviours including global variables, fonts, color palettes, and media queries.
+page_title: Base - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: An overview of turretcss and basic styling behaviours including global variables, fonts, color palettes, and media queries.
 permalink: /docs/base/
 ---
 
@@ -13,11 +13,11 @@ permalink: /docs/base/
 
 ## Reset
 
-On top of [Normalize.css](https://necolas.github.io/normalize.css/), Turret applies some basic resets to ensure the correct rendering of elements. These resets include `border-box` for global `box-sizing`, `max-width 100%` for images, and removing top and bottom margins for `first-child` and `last-child` typography, form, and block element items.
+On top of [Normalize.css](https://necolas.github.io/normalize.css/), turretcss applies some basic resets to ensure the correct rendering of elements. These resets include `border-box` for global `box-sizing`, `max-width 100%` for images, and removing top and bottom margins for `first-child` and `last-child` typography, form, and block element items.
 
 ### Box Sizing
 
-For more straightforward sizing in CSS, Turret switches the global `box-sizing` value from `content-box` to `border-box`. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
+For more straightforward sizing in CSS, turretcss switches the global `box-sizing` value from `content-box` to `border-box`. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
 
 ### Text Rendering
 
@@ -25,7 +25,7 @@ To improve type rendering for legibility `text-rendering: optimizeLegibility;` i
 
 ### Font Smoothing
 
-Turret sets `--font-smoothing-antialiased` on the `<html>` root tag for browsers that support font-smoothing, this can be overwritten with the `--font-smoothing-auto` mixin.
+turretcss sets `--font-smoothing-antialiased` on the `<html>` root tag for browsers that support font-smoothing, this can be overwritten with the `--font-smoothing-auto` mixin.
 
 ### Min Height
 
@@ -39,7 +39,7 @@ body {
 
 ### Margin Resets
 
-Turret resets vertical margins for nested HTML typography and form elements. This aims to make container element (`<div>`, `<section>`, etc.) margins more predictable, this affects the first and last children of nested heading elements (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`), typography elements (`p`, `dl`, `dd`, `dt`, `ul li`, `ol li`, `blockquote`, `cite`), and form elements (`.field`, `fieldset`, `label`, `input`, `textarea`, `.select`, and `.control`).
+turretcss resets vertical margins for nested HTML typography and form elements. This aims to make container element (`<div>`, `<section>`, etc.) margins more predictable, this affects the first and last children of nested heading elements (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`), typography elements (`p`, `dl`, `dd`, `dt`, `ul li`, `ol li`, `blockquote`, `cite`), and form elements (`.field`, `fieldset`, `label`, `input`, `textarea`, `.select`, and `.control`).
 
 ```scss
 selectors {
@@ -56,7 +56,7 @@ selectors {
 
 ### Images
 
-Images in Turret are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.
+Images in turretcss are made responsive-friendly via the addition of `max-width: 100%;` and `height: auto;` to images so that it scales nicely to the parent element.
 
 <img src="{{ site.baseurl }}/assets/images/photo.svg">
 
@@ -121,7 +121,7 @@ The gutter is padding applied to the left and right of the container to ensure c
 
 ## Print
 
-By default Turret's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.
+By default turretcss's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.
 
 ```scss
 --print-page-size: A4;

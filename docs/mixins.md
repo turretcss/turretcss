@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Mixins
-page_title: Mixins - Turret - A Responsive Front-end Framework for Accessible and Semantic Websites
-description: Turrets set of mixins for simple & maintainable CSS.
+page_title: Mixins - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+description: turretcsss set of mixins for simple & maintainable CSS.
 permalink: /docs/mixins/
 ---
 
@@ -95,7 +95,7 @@ Truncate text with ellipsis based on containing element width
 
 ## Font Smoothing
 
-Set the font smoothing properties for browsers that support font-smoothing, by default Turret sets `--font-smoothing-antialiased` on the `<html>` root tag, this can be overwritten with the `--font-smoothing-auto` mixin.
+Set the font smoothing properties for browsers that support font-smoothing, by default turretcss sets `--font-smoothing-antialiased` on the `<html>` root tag, this can be overwritten with the `--font-smoothing-auto` mixin.
 
 ```scss
 @apply --font-smoothing-antialiased;
