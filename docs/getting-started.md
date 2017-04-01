@@ -59,7 +59,7 @@ Turret makes use of HTML5 elements and CSS properties that require the use of th
 Download the Turret repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the Turret CSS.
 
 <p>
-  <a class="button button-primary" href="https://github.com/bigfishtv/turret/archive/master.zip">Download from GitHub</a>
+  <a class="button button-primary" href="https://github.com/turretcss/turretcss/archive/master.zip">Download from GitHub</a>
 </p>
 
 ### GitHub
@@ -67,7 +67,7 @@ Download the Turret repo to include ready-to-use CSS code to easily drop into yo
 Clone the repo from GitHub download the source CSS, and documentation files.
 
 ```bash
-git clone https://github.com/bigfishtv/turret.git
+git clone https://github.com/turretcss/turretcss.git
 ```
 
 ### npm

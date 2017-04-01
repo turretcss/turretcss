@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigfishtv/turret"
+    "url": "https://github.com/turretcss/turretcss"
   },
   "bugs": {
-    "url": "https://github.com/bigfishtv/turret/issues"
+    "url": "https://github.com/turretcss/turretcss/issues"
   },
   "keywords": [
     "css",

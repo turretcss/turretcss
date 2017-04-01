@@ -30,6 +30,6 @@ exclude: []
 
 # Custom vars
 current_version: 4.0.0
-repo: https://github.com/bigfishtv/turret
+repo: https://github.com/turretcss/turretcss
 twitter: https://twitter.com/turretcss
 cdn: https://cdnjs.cloudflare.com/ajax/libs/turretcss/4.0.0/turret.min.css
