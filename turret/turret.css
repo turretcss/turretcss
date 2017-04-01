@@ -132,8 +132,8 @@
 
 @import './utility/background';
 @import './utility/border';
-@import './utility/border-color';
 @import './utility/color';
+@import './utility/border-color';
 @import './utility/display';
 @import './utility/fill';
 @import './utility/flex';
