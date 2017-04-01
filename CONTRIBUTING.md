@@ -4,7 +4,7 @@ Looking to contribute something to Turret? **Here's how you can help.**
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/twbs/bootstrap/issues) is
+The [issue tracker](https://github.com/bigfishtv/turret/issues) is
 the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
