@@ -19,8 +19,6 @@ turretcss makes creating responsive, accessible, mobile-first web interfaces sim
 
 ### CDN
 
-Looking to quickly add Bootstrap to your project? Use the Bootstrap CDN, provided for free by the folks at MaxCDN. Using a package manager or need to download the source files? Head to the downloads page.
-
 Include the stylesheet `<link>` into your `<head>`.
 
 ```html
