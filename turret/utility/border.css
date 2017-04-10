@@ -1,19 +1,29 @@
 .border {
-  border: var(--border-width) var(--border-style);
+  border: var(--border-width) var(--border-style) var(--border-color);
 }
+  
+  .border-vertical {
+    border-top: var(--border-width) var(--border-style) var(--border-color);
+    border-bottom: var(--border-width) var(--border-style) var(--border-color);
+  }
+  
+  .border-horizontal {
+    border-left: var(--border-width) var(--border-style) var(--border-color);
+    border-right: var(--border-width) var(--border-style) var(--border-color);
+  }
 
   .border-top {
-    border-top: var(--border-width) var(--border-style);
+    border-top: var(--border-width) var(--border-style) var(--border-color);
   }
 
   .border-right {
-    border-right: var(--border-width) var(--border-style);
+    border-right: var(--border-width) var(--border-style) var(--border-color);
   }
 
   .border-bottom {
-    border-bottom: var(--border-width) var(--border-style);
+    border-bottom: var(--border-width) var(--border-style) var(--border-color);
   }
 
   .border-left {
-    border-left: var(--border-width) var(--border-style);
+    border-left: var(--border-width) var(--border-style) var(--border-color);
   }

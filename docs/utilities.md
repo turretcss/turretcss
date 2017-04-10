@@ -2765,24 +2765,28 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Border
 
-<div class="swatch border border-color-black">Border</div>
+<div class="swatch border">Border</div>
 
 ```html
-<div class="border border-color-black">...</div>
+<div class="border">...</div>
 ```
 
 ### Border Directions
 
-<div class="swatch border-top border-color-black">Top</div>
-<div class="swatch border-right border-color-black">Right</div>
-<div class="swatch border-bottom border-color-black">Bottom</div>
-<div class="swatch border-left border-color-black">Left</div>
+<div class="swatch margin-bottom-xs border-vertical">Vertical</div>
+<div class="swatch margin-bottom-xs border-horizontal">Horizontal</div>
+<div class="swatch margin-bottom-xs border-top">Top</div>
+<div class="swatch margin-bottom-xs border-right">Right</div>
+<div class="swatch margin-bottom-xs border-bottom">Bottom</div>
+<div class="swatch border-left">Left</div>
 
 ```html
-<div class="border-top border-color-black">...</div>
-<div class="border-right border-color-black">...</div>
-<div class="border-bottom border-color-black">...</div>
-<div class="border-left border-color-black">...</div>
+<div class="border-vertical">...</div>
+<div class="border-horizontal">...</div>
+<div class="border-top">...</div>
+<div class="border-right">...</div>
+<div class="border-bottom">...</div>
+<div class="border-left">...</div>
 ```
 
 ## Border Color
