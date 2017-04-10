@@ -18,6 +18,7 @@
    */
 
   --focus-outline: var(--border-width) dotted currentColor;
+  --focus-outline-offset: var(--border-width);
 
 
   /**
