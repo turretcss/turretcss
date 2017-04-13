@@ -557,6 +557,7 @@ The media frame wraps `<img>`, `<svg>`, `<video>`, and `<iframe>` by default, to
 
 ```scss
 --media-background: color(var(--black) alpha(10%));
+--media-border-radius: var(--border-radius);
 ```
 
 ```html
