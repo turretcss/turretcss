@@ -147,7 +147,7 @@
   --link-color: currentColor;
   --link-text-decoration: underline;
   --link-hover-color: currentColor;
-  --link-hover-decoration: underline;
+  --link-hover-text-decoration: underline;
 
 
   /**

@@ -8,6 +8,6 @@ a {
   &:hover,
   &:focus {
     color: var(--link-hover-color);
-    text-decoration: var(--link-hover-decoration);
+    text-decoration: var(--link-hover-text-decoration);
   }
 }
