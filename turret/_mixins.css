@@ -145,6 +145,7 @@
     font-family: var(--display-title-font-family);
     font-weight: var(--display-title-font-weight);
     font-size: var(--display-title-font-size);
+    color: var(--display-title-color);
     line-height: var(--display-title-line-height);
     text-transform: var(--display-title-text-transform);
     letter-spacing: var(--display-title-letter-spacing);

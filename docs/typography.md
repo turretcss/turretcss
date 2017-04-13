@@ -60,6 +60,7 @@ permalink: /docs/typography/
 --display-title-font-family: var(--headings-font-family);
 --display-title-font-weight: var(--headings-font-weight);
 --display-title-font-size: 2.25rem;
+--display-title-color: inherit;
 --display-title-line-height: var(--line-height-xs);
 --display-title-text-transform: uppercase;
 --display-title-letter-spacing: var(--letter-spacing-m);
