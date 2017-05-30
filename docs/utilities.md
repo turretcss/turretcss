@@ -33,6 +33,10 @@ For text and background color utility classes check out the [color](#colors) sec
         <td>Makes element cover it's container using <code>.cover;</code> mixin</td>
       </tr>
       <tr>  
+        <td><code>circle</code></td>
+        <td>Makes element a circle by applying <code>border-radius: 50%;</code></td>
+      </tr>
+      <tr>  
         <td><code>center</code></td>
         <td>Makes element center using <code>.center;</code> mixin</td>
       </tr>
