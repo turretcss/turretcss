@@ -115,6 +115,7 @@
     - title: Color
     - title: Background
     - title: Border
+    - title: Border Radius
     - title: Border Color
 
 - title: Mixins
