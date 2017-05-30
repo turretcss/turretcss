@@ -2,18 +2,10 @@
   color: var(--button-white-color);
   background: var(--white);
   border-color: var(--white);
-
-  & svg {
-    fill: var(--button-white-color);
-  }
   
   &.button-border {
     color: var(--white);
     background: transparent;
-
-    & svg {
-      fill: var(--white);
-    }
   }
 
   &:not(:disabled):hover,
@@ -21,20 +13,12 @@
     color: var(--button-white-color);
     background: var(--white-hover);
     border-color: var(--white-hover);
-
-    & svg {
-      fill: var(--button-white-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-white-color);
     background: var(--white-active);
     border-color: var(--white-active);
-
-    & svg {
-      fill: var(--button-white-color);
-    }
   }
 }
 
@@ -42,18 +26,10 @@
   color: var(--button-light-color);
   background: var(--light);
   border-color: var(--light);
-
-  & svg {
-    fill: var(--button-light-color);
-  }
   
   &.button-border {
     color: var(--light);
     background: transparent;
-
-    & svg {
-      fill: var(--light);
-    }
   }
 
   &:not(:disabled):hover,
@@ -61,20 +37,12 @@
     color: var(--button-light-color);
     background: var(--light-hover);
     border-color: var(--light-hover);
-
-    & svg {
-      fill: var(--button-light-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-light-color);
     background: var(--light-active);
     border-color: var(--light-active);
-
-    & svg {
-      fill: var(--button-light-color);
-    }
   }
 }
 
@@ -82,18 +50,10 @@
   color: var(--button-grey-color);
   background: var(--grey);
   border-color: var(--grey);
-
-  & svg {
-    fill: var(--button-grey-color);
-  }
   
   &.button-border {
     color: var(--grey);
     background: transparent;
-
-    & svg {
-      fill: var(--grey);
-    }
   }
 
   &:not(:disabled):hover,
@@ -101,20 +61,12 @@
     color: var(--button-grey-color);
     background: var(--grey-hover);
     border-color: var(--grey-hover);
-
-    & svg {
-      fill: var(--button-grey-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-grey-color);
     background: var(--grey-active);
     border-color: var(--grey-active);
-
-    & svg {
-      fill: var(--button-grey-color);
-    }
   }
 }
 
@@ -122,18 +74,10 @@
   color: var(--button-dark-color);
   background: var(--dark);
   border-color: var(--dark);
-
-  & svg {
-    fill: var(--button-dark-color);
-  }
   
   &.button-border {
     color: var(--dark);
     background: transparent;
-
-    & svg {
-      fill: var(--dark);
-    }
   }
 
   &:not(:disabled):hover,
@@ -141,20 +85,12 @@
     color: var(--button-dark-color);
     background: var(--dark-hover);
     border-color: var(--dark-hover);
-
-    & svg {
-      fill: var(--button-dark-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-dark-color);
     background: var(--dark-active);
     border-color: var(--dark-active);
-
-    & svg {
-      fill: var(--button-dark-color);
-    }
   }
 }
 
@@ -162,18 +98,10 @@
   color: var(--button-black-color);
   background: var(--black);
   border-color: var(--black);
-
-  & svg {
-    fill: var(--button-black-color);
-  }
   
   &.button-border {
     color: var(--black);
     background: transparent;
-
-    & svg {
-      fill: var(--black);
-    }
   }
 
   &:not(:disabled):hover,
@@ -181,20 +109,12 @@
     color: var(--button-black-color);
     background: var(--black-hover);
     border-color: var(--black-hover);
-
-    & svg {
-      fill: var(--button-black-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-black-color);
     background: var(--black-active);
     border-color: var(--black-active);
-
-    & svg {
-      fill: var(--button-black-color);
-    }
   }
 }
 
@@ -202,18 +122,10 @@
   color: var(--button-primary-color);
   background: var(--primary);
   border-color: var(--primary);
-
-  & svg {
-    fill: var(--button-primary-color);
-  }
   
   &.button-border {
     color: var(--primary);
     background: transparent;
-
-    & svg {
-      fill: var(--primary);
-    }
   }
 
   &:not(:disabled):hover,
@@ -221,20 +133,12 @@
     color: var(--button-primary-color);
     background: var(--primary-hover);
     border-color: var(--primary-hover);
-
-    & svg {
-      fill: var(--button-primary-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-primary-color);
     background: var(--primary-active);
     border-color: var(--primary-active);
-
-    & svg {
-      fill: var(--button-primary-color);
-    }
   }
 }
 
@@ -242,18 +146,10 @@
   color: var(--button-secondary-color);
   background: var(--secondary);
   border-color: var(--secondary);
-
-  & svg {
-    fill: var(--button-secondary-color);
-  }
   
   &.button-border {
     color: var(--secondary);
     background: transparent;
-
-    & svg {
-      fill: var(--secondary);
-    }
   }
 
   &:not(:disabled):hover,
@@ -261,20 +157,12 @@
     color: var(--button-secondary-color);
     background: var(--secondary-hover);
     border-color: var(--secondary-hover);
-
-    & svg {
-      fill: var(--button-secondary-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-secondary-color);
     background: var(--secondary-active);
     border-color: var(--secondary-active);
-
-    & svg {
-      fill: var(--button-secondary-color);
-    }
   }
 }
 
@@ -282,18 +170,10 @@
   color: var(--button-tertiary-color);
   background: var(--tertiary);
   border-color: var(--tertiary);
-
-  & svg {
-    fill: var(--button-tertiary-color);
-  }
   
   &.button-border {
     color: var(--tertiary);
     background: transparent;
-
-    & svg {
-      fill: var(--tertiary);
-    }
   }
 
   &:not(:disabled):hover,
@@ -301,19 +181,11 @@
     color: var(--button-tertiary-color);
     background: var(--tertiary-hover);
     border-color: var(--tertiary-hover);
-
-    & svg {
-      fill: var(--button-tertiary-color);
-    }
   }
 
   &:not(:disabled):active {
     color: var(--button-tertiary-color);
     background: var(--tertiary-active);
     border-color: var(--tertiary-active);
-
-    & svg {
-      fill: var(--button-tertiary-color);
-    }
   }
 }
