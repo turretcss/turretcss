@@ -135,6 +135,16 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  --overflow-y-scroll: {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  --overflow-x-scroll: {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
 
   /**
    * Display Title

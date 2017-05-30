@@ -110,6 +110,22 @@ Set overflow to scroll with `-webkit-overflow-scrolling: touch;` for Mobile Safa
 @apply --overflow-scroll;
 ```
 
+### Overflow Y Scroll
+
+Set overflow to scroll on the Y-axis with `-webkit-overflow-scrolling: touch;` for Mobile Safari
+
+```scss
+@apply --overflow-y-scroll;
+```
+
+### Overflow X Scroll
+
+Set overflow to scroll on the X-axis with `-webkit-overflow-scrolling: touch;` for Mobile Safari
+
+```scss
+@apply --overflow-x-scroll;
+```
+
 ## Display Title
 
 Applies `.display-title` typographic styles.
