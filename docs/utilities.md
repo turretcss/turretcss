@@ -2195,6 +2195,14 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Color
 
+<p class="color-inherit">Color Inherit</p>
+<p class="current-color">Current Color</p>
+
+```html
+<p class="color-inherit">Color Inherit</p>
+<p class="current-color">Current Color</p>
+```
+
 <p class="color-white background-black">White</p>
 <p class="color-black">Black</p>
 

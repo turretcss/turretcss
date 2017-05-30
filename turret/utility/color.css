@@ -1,3 +1,11 @@
+.current-color {
+  color: currentColor;
+}
+
+.color-inherit {
+  color: inherit;
+}
+
 .color-white {
   color: var(--white);
 }
