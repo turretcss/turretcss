@@ -24,6 +24,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-dark background-light">Light</div>
+  <div class="swatch color-dark background-light-50">Light 50</div>
   <div class="swatch color-dark background-light-100">Light 100</div>
   <div class="swatch color-dark background-light-200">Light 200</div>
   <div class="swatch color-dark background-light-300">Light 300</div>
@@ -39,6 +40,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-grey">Grey</div>
+  <div class="swatch color-white background-grey-50">Grey 50</div>
   <div class="swatch color-white background-grey-100">Grey 100</div>
   <div class="swatch color-white background-grey-200">Grey 200</div>
   <div class="swatch color-white background-grey-300">Grey 300</div>
@@ -54,6 +56,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-dark">Dark</div>
+  <div class="swatch color-white background-dark-50">Dark 50</div>
   <div class="swatch color-white background-dark-100">Dark 100</div>
   <div class="swatch color-white background-dark-200">Dark 200</div>
   <div class="swatch color-white background-dark-300">Dark 300</div>
@@ -71,6 +74,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-primary">Primary</div>
+  <div class="swatch color-white background-primary-50">Primary 50</div>
   <div class="swatch color-white background-primary-100">Primary 100</div>
   <div class="swatch color-white background-primary-200">Primary 200</div>
   <div class="swatch color-white background-primary-300">Primary 300</div>
@@ -86,6 +90,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-secondary">Secondary</div>
+  <div class="swatch color-white background-secondary-50">Secondary 50</div>
   <div class="swatch color-white background-secondary-100">Secondary 100</div>
   <div class="swatch color-white background-secondary-200">Secondary 200</div>
   <div class="swatch color-white background-secondary-300">Secondary 300</div>
@@ -101,6 +106,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-tertiary">Tertiary</div>
+  <div class="swatch color-white background-tertiary-50">Tertiary 50</div>
   <div class="swatch color-white background-tertiary-100">Tertiary 100</div>
   <div class="swatch color-white background-tertiary-200">Tertiary 200</div>
   <div class="swatch color-white background-tertiary-300">Tertiary 300</div>
@@ -118,6 +124,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-error">Error</div>
+  <div class="swatch color-white background-error-50">Error 50</div>
   <div class="swatch color-white background-error-100">Error 100</div>
   <div class="swatch color-white background-error-200">Error 200</div>
   <div class="swatch color-white background-error-300">Error 300</div>
@@ -133,6 +140,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-warning">Warning</div>
+  <div class="swatch color-white background-warning-50">Warning 50</div>
   <div class="swatch color-white background-warning-100">Warning 100</div>
   <div class="swatch color-white background-warning-200">Warning 200</div>
   <div class="swatch color-white background-warning-300">Warning 300</div>
@@ -148,6 +156,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-success">Success</div>
+  <div class="swatch color-white background-success-50">Success 50</div>
   <div class="swatch color-white background-success-100">Success 100</div>
   <div class="swatch color-white background-success-200">Success 200</div>
   <div class="swatch color-white background-success-300">Success 300</div>
@@ -163,6 +172,7 @@ permalink: /docs/demo/
 
 <div class="palette">
   <div class="swatch color-white background-info">Info</div>
+  <div class="swatch color-white background-info-50">Info 50</div>
   <div class="swatch color-white background-info-100">Info 100</div>
   <div class="swatch color-white background-info-200">Info 200</div>
   <div class="swatch color-white background-info-300">Info 300</div>

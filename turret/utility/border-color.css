@@ -10,6 +10,10 @@
   border-color: var(--light);
 }
 
+  .border-color-light-50 {
+    border-color: var(--light-50);
+  }
+
   .border-color-light-100 {
     border-color: var(--light-100);
   }
@@ -49,6 +53,10 @@
 .border-color-grey {
   border-color: var(--grey);
 }
+
+  .border-color-grey-50 {
+    border-color: var(--grey-50);
+  }
 
   .border-color-grey-100 {
     border-color: var(--grey-100);
@@ -90,6 +98,10 @@
   border-color: var(--dark);
 }
 
+  .border-color-dark-50 {
+    border-color: var(--dark-50);
+  }
+
   .border-color-dark-100 {
     border-color: var(--dark-100);
   }
@@ -129,6 +141,10 @@
 .border-color-primary {
   border-color: var(--primary);
 }
+
+  .border-color-primary-50 {
+    border-color: var(--primary-50);
+  }
 
   .border-color-primary-100 {
     border-color: var(--primary-100);
@@ -170,6 +186,10 @@
   border-color: var(--secondary);
 }
 
+  .border-color-secondary-50 {
+    border-color: var(--secondary-50);
+  }
+
   .border-color-secondary-100 {
     border-color: var(--secondary-100);
   }
@@ -209,6 +229,10 @@
 .border-color-tertiary {
   border-color: var(--tertiary);
 }
+
+  .border-color-tertiary-50 {
+    border-color: var(--tertiary-50);
+  }
 
   .border-color-tertiary-100 {
     border-color: var(--tertiary-100);
@@ -250,6 +274,10 @@
   border-color: var(--error);
 }
 
+  .border-color-error-50 {
+    border-color: var(--error-50);
+  }
+
   .border-color-error-100 {
     border-color: var(--error-100);
   }
@@ -289,6 +317,10 @@
 .border-color-warning {
   border-color: var(--warning);
 }
+
+  .border-color-warning-50 {
+    border-color: var(--warning-50);
+  }
 
   .border-color-warning-100 {
     border-color: var(--warning-100);
@@ -330,6 +362,10 @@
   border-color: var(--success);
 }
 
+  .border-color-success-50 {
+    border-color: var(--success-50);
+  }
+
   .border-color-success-100 {
     border-color: var(--success-100);
   }
@@ -369,6 +405,10 @@
 .border-color-info {
   border-color: var(--info);
 }
+
+  .border-color-info-50 {
+    border-color: var(--info-50);
+  }
 
   .border-color-info-100 {
     border-color: var(--info-100);

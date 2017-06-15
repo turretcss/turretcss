@@ -437,6 +437,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-light-300" cx="8" cy="8" r="8"/></svg>
@@ -450,6 +451,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-light" ... />
+<circle class="fill-light-50" ... />
 <circle class="fill-light-100" ... />
 <circle class="fill-light-200" ... />
 <circle class="fill-light-300" ... />
@@ -465,6 +467,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-grey-300" cx="8" cy="8" r="8"/></svg>
@@ -478,6 +481,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-grey" ... />
+<circle class="fill-grey-50" ... />
 <circle class="fill-grey-100" ... />
 <circle class="fill-grey-200" ... />
 <circle class="fill-grey-300" ... />
@@ -493,6 +497,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-dark-300" cx="8" cy="8" r="8"/></svg>
@@ -506,6 +511,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-dark" ... />
+<circle class="fill-dark-50" ... />
 <circle class="fill-dark-100" ... />
 <circle class="fill-dark-200" ... />
 <circle class="fill-dark-300" ... />
@@ -523,6 +529,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-primary-300" cx="8" cy="8" r="8"/></svg>
@@ -536,6 +543,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-primary" ... />
+<circle class="fill-primary-50" ... />
 <circle class="fill-primary-100" ... />
 <circle class="fill-primary-200" ... />
 <circle class="fill-primary-300" ... />
@@ -551,6 +559,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-secondary-300" cx="8" cy="8" r="8"/></svg>
@@ -564,6 +573,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-secondary" ... />
+<circle class="fill-secondary-50" ... />
 <circle class="fill-secondary-100" ... />
 <circle class="fill-secondary-200" ... />
 <circle class="fill-secondary-300" ... />
@@ -579,6 +589,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-tertiary-300" cx="8" cy="8" r="8"/></svg>
@@ -592,6 +603,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-tertiary" ... />
+<circle class="fill-tertiary-50" ... />
 <circle class="fill-tertiary-100" ... />
 <circle class="fill-tertiary-200" ... />
 <circle class="fill-tertiary-300" ... />
@@ -609,6 +621,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-error-300" cx="8" cy="8" r="8"/></svg>
@@ -622,6 +635,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-error" ... />
+<circle class="fill-error-50" ... />
 <circle class="fill-error-100" ... />
 <circle class="fill-error-200" ... />
 <circle class="fill-error-300" ... />
@@ -637,6 +651,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-warning-300" cx="8" cy="8" r="8"/></svg>
@@ -650,6 +665,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-warning" ... />
+<circle class="fill-warning-50" ... />
 <circle class="fill-warning-100" ... />
 <circle class="fill-warning-200" ... />
 <circle class="fill-warning-300" ... />
@@ -665,6 +681,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-success-300" cx="8" cy="8" r="8"/></svg>
@@ -678,6 +695,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-success" ... />
+<circle class="fill-success-50" ... />
 <circle class="fill-success-100" ... />
 <circle class="fill-success-200" ... />
 <circle class="fill-success-300" ... />
@@ -693,6 +711,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info" cx="8" cy="8" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-50" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-100" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-200" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-info-300" cx="8" cy="8" r="8"/></svg>
@@ -706,6 +725,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="fill-info" ... />
+<circle class="fill-info-50" ... />
 <circle class="fill-info-100" ... />
 <circle class="fill-info-200" ... />
 <circle class="fill-info-300" ... />
@@ -1883,6 +1903,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-light-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -1896,6 +1917,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-light" ... />
+<circle class="stroke-light-50" ... />
 <circle class="stroke-light-100" ... />
 <circle class="stroke-light-200" ... />
 <circle class="stroke-light-300" ... />
@@ -1911,6 +1933,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-grey-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -1924,6 +1947,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-grey" ... />
+<circle class="stroke-grey-50" ... />
 <circle class="stroke-grey-100" ... />
 <circle class="stroke-grey-200" ... />
 <circle class="stroke-grey-300" ... />
@@ -1939,6 +1963,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-dark-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -1952,6 +1977,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-dark" ... />
+<circle class="stroke-dark-50" ... />
 <circle class="stroke-dark-100" ... />
 <circle class="stroke-dark-200" ... />
 <circle class="stroke-dark-300" ... />
@@ -1969,6 +1995,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-primary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -1982,6 +2009,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-primary" ... />
+<circle class="stroke-primary-50" ... />
 <circle class="stroke-primary-100" ... />
 <circle class="stroke-primary-200" ... />
 <circle class="stroke-primary-300" ... />
@@ -1997,6 +2025,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-secondary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2010,6 +2039,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-secondary" ... />
+<circle class="stroke-secondary-50" ... />
 <circle class="stroke-secondary-100" ... />
 <circle class="stroke-secondary-200" ... />
 <circle class="stroke-secondary-300" ... />
@@ -2025,6 +2055,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-tertiary-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2038,6 +2069,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-tertiary" ... />
+<circle class="stroke-tertiary-50" ... />
 <circle class="stroke-tertiary-100" ... />
 <circle class="stroke-tertiary-200" ... />
 <circle class="stroke-tertiary-300" ... />
@@ -2055,6 +2087,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-error-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2068,6 +2101,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-error" ... />
+<circle class="stroke-error-50" ... />
 <circle class="stroke-error-100" ... />
 <circle class="stroke-error-200" ... />
 <circle class="stroke-error-300" ... />
@@ -2083,6 +2117,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-warning-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2096,6 +2131,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-warning" ... />
+<circle class="stroke-warning-50" ... />
 <circle class="stroke-warning-100" ... />
 <circle class="stroke-warning-200" ... />
 <circle class="stroke-warning-300" ... />
@@ -2111,6 +2147,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-success-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2124,6 +2161,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-success" ... />
+<circle class="stroke-success-50" ... />
 <circle class="stroke-success-100" ... />
 <circle class="stroke-success-200" ... />
 <circle class="stroke-success-300" ... />
@@ -2139,6 +2177,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-50" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-100" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-200" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-info-300" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2152,6 +2191,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <circle class="stroke-info" ... />
+<circle class="stroke-info-50" ... />
 <circle class="stroke-info-100" ... />
 <circle class="stroke-info-200" ... />
 <circle class="stroke-info-300" ... />
@@ -2216,6 +2256,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Light
 
 <p class="color-light">Light</p>
+<p class="color-light-50">Light 50</p>
 <p class="color-light-100">Light 100</p>
 <p class="color-light-200">Light 200</p>
 <p class="color-light-300">Light 300</p>
@@ -2228,6 +2269,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-light">...</p>
+<p class="color-light-50">...</p>
 <p class="color-light-100">...</p>
 <p class="color-light-200">...</p>
 <p class="color-light-300">...</p>
@@ -2242,6 +2284,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Grey
 
 <p class="color-grey">Grey</p>
+<p class="color-grey-50">Grey 50</p>
 <p class="color-grey-100">Grey 100</p>
 <p class="color-grey-200">Grey 200</p>
 <p class="color-grey-300">Grey 300</p>
@@ -2254,6 +2297,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-grey">...</p>
+<p class="color-grey-50">...</p>
 <p class="color-grey-100">...</p>
 <p class="color-grey-200">...</p>
 <p class="color-grey-300">...</p>
@@ -2268,6 +2312,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Dark
 
 <p class="color-dark">Dark</p>
+<p class="color-dark-50">Dark 50</p>
 <p class="color-dark-100">Dark 100</p>
 <p class="color-dark-200">Dark 200</p>
 <p class="color-dark-300">Dark 300</p>
@@ -2280,6 +2325,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-dark">...</p>
+<p class="color-dark-50">...</p>
 <p class="color-dark-100">...</p>
 <p class="color-dark-200">...</p>
 <p class="color-dark-300">...</p>
@@ -2296,6 +2342,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Primary
 
 <p class="color-primary">Primary</p>
+<p class="color-primary-50">Primary 50</p>
 <p class="color-primary-100">Primary 100</p>
 <p class="color-primary-200">Primary 200</p>
 <p class="color-primary-300">Primary 300</p>
@@ -2308,6 +2355,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-primary">...</p>
+<p class="color-primary-50">...</p>
 <p class="color-primary-100">...</p>
 <p class="color-primary-200">...</p>
 <p class="color-primary-300">...</p>
@@ -2322,6 +2370,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Secondary
 
 <p class="color-secondary">Secondary</p>
+<p class="color-secondary-50">Secondary 50</p>
 <p class="color-secondary-100">Secondary 100</p>
 <p class="color-secondary-200">Secondary 200</p>
 <p class="color-secondary-300">Secondary 300</p>
@@ -2334,6 +2383,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-secondary">...</p>
+<p class="color-secondary-50">...</p>
 <p class="color-secondary-100">...</p>
 <p class="color-secondary-200">...</p>
 <p class="color-secondary-300">...</p>
@@ -2348,6 +2398,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Tertiary
 
 <p class="color-tertiary">Tertiary</p>
+<p class="color-tertiary-50">Tertiary 50</p>
 <p class="color-tertiary-100">Tertiary 100</p>
 <p class="color-tertiary-200">Tertiary 200</p>
 <p class="color-tertiary-300">Tertiary 300</p>
@@ -2360,6 +2411,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-tertiary">...</p>
+<p class="color-tertiary-50">...</p>
 <p class="color-tertiary-100">...</p>
 <p class="color-tertiary-200">...</p>
 <p class="color-tertiary-300">...</p>
@@ -2376,6 +2428,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Info
 
 <p class="color-info">Info</p>
+<p class="color-info-50">Info 50</p>
 <p class="color-info-100">Info 100</p>
 <p class="color-info-200">Info 200</p>
 <p class="color-info-300">Info 300</p>
@@ -2388,6 +2441,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-info">...</p>
+<p class="color-info-50">...</p>
 <p class="color-info-100">...</p>
 <p class="color-info-200">...</p>
 <p class="color-info-300">...</p>
@@ -2402,6 +2456,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Error
 
 <p class="color-error">Error</p>
+<p class="color-error-50">Error 50</p>
 <p class="color-error-100">Error 100</p>
 <p class="color-error-200">Error 200</p>
 <p class="color-error-300">Error 300</p>
@@ -2414,6 +2469,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-error">...</p>
+<p class="color-error-50">...</p>
 <p class="color-error-100">...</p>
 <p class="color-error-200">...</p>
 <p class="color-error-300">...</p>
@@ -2428,6 +2484,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Warning
 
 <p class="color-warning">Warning</p>
+<p class="color-warning-50">Warning 50</p>
 <p class="color-warning-100">Warning 100</p>
 <p class="color-warning-200">Warning 200</p>
 <p class="color-warning-300">Warning 300</p>
@@ -2440,6 +2497,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-warning">...</p>
+<p class="color-warning-50">...</p>
 <p class="color-warning-100">...</p>
 <p class="color-warning-200">...</p>
 <p class="color-warning-300">...</p>
@@ -2454,6 +2512,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Success
 
 <p class="color-success">Success</p>
+<p class="color-success-50">Success 50</p>
 <p class="color-success-100">Success 100</p>
 <p class="color-success-200">Success 200</p>
 <p class="color-success-300">Success 300</p>
@@ -2466,6 +2525,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <p class="color-success">...</p>
+<p class="color-success-50">...</p>
 <p class="color-success-100">...</p>
 <p class="color-success-200">...</p>
 <p class="color-success-300">...</p>
@@ -2495,6 +2555,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-dark background-light">Light</div>
+  <div class="swatch color-dark background-light-50">Light 50</div>
   <div class="swatch color-dark background-light-100">Light 100</div>
   <div class="swatch color-dark background-light-200">Light 200</div>
   <div class="swatch color-dark background-light-300">Light 300</div>
@@ -2508,6 +2569,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-light">...</div>
+<div class="background-light-50">...</div>
 <div class="background-light-100">...</div>
 <div class="background-light-200">...</div>
 <div class="background-light-300">...</div>
@@ -2523,6 +2585,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-grey">Grey</div>
+  <div class="swatch color-white background-grey-50">Grey 50</div>
   <div class="swatch color-white background-grey-100">Grey 100</div>
   <div class="swatch color-white background-grey-200">Grey 200</div>
   <div class="swatch color-white background-grey-300">Grey 300</div>
@@ -2536,6 +2599,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-grey">...</div>
+<div class="background-grey-50">...</div>
 <div class="background-grey-100">...</div>
 <div class="background-grey-200">...</div>
 <div class="background-grey-300">...</div>
@@ -2551,6 +2615,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-dark">Dark</div>
+  <div class="swatch color-white background-dark-50">Dark 50</div>
   <div class="swatch color-white background-dark-100">Dark 100</div>
   <div class="swatch color-white background-dark-200">Dark 200</div>
   <div class="swatch color-white background-dark-300">Dark 300</div>
@@ -2564,6 +2629,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-dark">...</div>
+<div class="background-dark-50">...</div>
 <div class="background-dark-100">...</div>
 <div class="background-dark-200">...</div>
 <div class="background-dark-300">...</div>
@@ -2581,6 +2647,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-primary">Primary</div>
+  <div class="swatch color-white background-primary-50">Primary 50</div>
   <div class="swatch color-white background-primary-100">Primary 100</div>
   <div class="swatch color-white background-primary-200">Primary 200</div>
   <div class="swatch color-white background-primary-300">Primary 300</div>
@@ -2594,6 +2661,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-primary">...</div>
+<div class="background-primary-50">...</div>
 <div class="background-primary-100">...</div>
 <div class="background-primary-200">...</div>
 <div class="background-primary-300">...</div>
@@ -2609,6 +2677,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-secondary">Secondary</div>
+  <div class="swatch color-white background-secondary-50">Secondary 50</div>
   <div class="swatch color-white background-secondary-100">Secondary 100</div>
   <div class="swatch color-white background-secondary-200">Secondary 200</div>
   <div class="swatch color-white background-secondary-300">Secondary 300</div>
@@ -2622,6 +2691,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-secondary">...</div>
+<div class="background-secondary-50">...</div>
 <div class="background-secondary-100">...</div>
 <div class="background-secondary-200">...</div>
 <div class="background-secondary-300">...</div>
@@ -2637,6 +2707,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-tertiary">Tertiary</div>
+  <div class="swatch color-white background-tertiary-50">Tertiary 50</div>
   <div class="swatch color-white background-tertiary-100">Tertiary 100</div>
   <div class="swatch color-white background-tertiary-200">Tertiary 200</div>
   <div class="swatch color-white background-tertiary-300">Tertiary 300</div>
@@ -2650,6 +2721,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-tertiary">...</div>
+<div class="background-tertiary-50">...</div>
 <div class="background-tertiary-100">...</div>
 <div class="background-tertiary-200">...</div>
 <div class="background-tertiary-300">...</div>
@@ -2667,6 +2739,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-error">Error</div>
+  <div class="swatch color-white background-error-50">Error 50</div>
   <div class="swatch color-white background-error-100">Error 100</div>
   <div class="swatch color-white background-error-200">Error 200</div>
   <div class="swatch color-white background-error-300">Error 300</div>
@@ -2680,6 +2753,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-error">...</div>
+<div class="background-error-50">...</div>
 <div class="background-error-100">...</div>
 <div class="background-error-200">...</div>
 <div class="background-error-300">...</div>
@@ -2695,6 +2769,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-warning">Warning</div>
+  <div class="swatch color-white background-warning-50">Warning 50</div>
   <div class="swatch color-white background-warning-100">Warning 100</div>
   <div class="swatch color-white background-warning-200">Warning 200</div>
   <div class="swatch color-white background-warning-300">Warning 300</div>
@@ -2708,6 +2783,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-warning">...</div>
+<div class="background-warning-50">...</div>
 <div class="background-warning-100">...</div>
 <div class="background-warning-200">...</div>
 <div class="background-warning-300">...</div>
@@ -2723,6 +2799,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-success">Success</div>
+  <div class="swatch color-white background-success-50">Success 50</div>
   <div class="swatch color-white background-success-100">Success 100</div>
   <div class="swatch color-white background-success-200">Success 200</div>
   <div class="swatch color-white background-success-300">Success 300</div>
@@ -2736,6 +2813,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-success">...</div>
+<div class="background-success-50">...</div>
 <div class="background-success-100">...</div>
 <div class="background-success-200">...</div>
 <div class="background-success-300">...</div>
@@ -2751,6 +2829,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 <div class="palette">
   <div class="swatch color-white background-info">Info</div>
+  <div class="swatch color-white background-info-50">Info 50</div>
   <div class="swatch color-white background-info-100">Info 100</div>
   <div class="swatch color-white background-info-200">Info 200</div>
   <div class="swatch color-white background-info-300">Info 300</div>
@@ -2764,6 +2843,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="background-info">...</div>
+<div class="background-info-50">...</div>
 <div class="background-info-100">...</div>
 <div class="background-info-200">...</div>
 <div class="background-info-300">...</div>
@@ -2824,6 +2904,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Light
 
 <div class="swatch border border-color-light">Light</div>
+<div class="swatch border border-color-light-50">Light 50</div>
 <div class="swatch border border-color-light-100">Light 100</div>
 <div class="swatch border border-color-light-200">Light 200</div>
 <div class="swatch border border-color-light-300">Light 300</div>
@@ -2836,6 +2917,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-light">...</div>
+<div class="border border-color-light-50">...</div>
 <div class="border border-color-light-100">...</div>
 <div class="border border-color-light-200">...</div>
 <div class="border border-color-light-300">...</div>
@@ -2850,6 +2932,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Grey
 
 <div class="swatch border border-color-grey">Grey</div>
+<div class="swatch border border-color-grey-50">Grey 50</div>
 <div class="swatch border border-color-grey-100">Grey 100</div>
 <div class="swatch border border-color-grey-200">Grey 200</div>
 <div class="swatch border border-color-grey-300">Grey 300</div>
@@ -2862,6 +2945,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-grey">...</div>
+<div class="border border-color-grey-50">...</div>
 <div class="border border-color-grey-100">...</div>
 <div class="border border-color-grey-200">...</div>
 <div class="border border-color-grey-300">...</div>
@@ -2876,6 +2960,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Dark
 
 <div class="swatch border border-color-dark">Dark</div>
+<div class="swatch border border-color-dark-50">Dark 50</div>
 <div class="swatch border border-color-dark-100">Dark 100</div>
 <div class="swatch border border-color-dark-200">Dark 200</div>
 <div class="swatch border border-color-dark-300">Dark 300</div>
@@ -2888,6 +2973,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-dark">...</div>
+<div class="border border-color-dark-50">...</div>
 <div class="border border-color-dark-100">...</div>
 <div class="border border-color-dark-200">...</div>
 <div class="border border-color-dark-300">...</div>
@@ -2904,6 +2990,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Primary
 
 <div class="swatch border border-color-primary">Primary</div>
+<div class="swatch border border-color-primary-50">Primary 50</div>
 <div class="swatch border border-color-primary-100">Primary 100</div>
 <div class="swatch border border-color-primary-200">Primary 200</div>
 <div class="swatch border border-color-primary-300">Primary 300</div>
@@ -2916,6 +3003,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-primary">...</div>
+<div class="border border-color-primary-50">...</div>
 <div class="border border-color-primary-100">...</div>
 <div class="border border-color-primary-200">...</div>
 <div class="border border-color-primary-300">...</div>
@@ -2930,6 +3018,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Secondary
 
 <div class="swatch border border-color-secondary">Secondary</div>
+<div class="swatch border border-color-secondary-50">Secondary 50</div>
 <div class="swatch border border-color-secondary-100">Secondary 100</div>
 <div class="swatch border border-color-secondary-200">Secondary 200</div>
 <div class="swatch border border-color-secondary-300">Secondary 300</div>
@@ -2942,6 +3031,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-secondary">...</div>
+<div class="border border-color-secondary-50">...</div>
 <div class="border border-color-secondary-100">...</div>
 <div class="border border-color-secondary-200">...</div>
 <div class="border border-color-secondary-300">...</div>
@@ -2956,6 +3046,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Tertiary
 
 <div class="swatch border border-color-tertiary">Tertiary</div>
+<div class="swatch border border-color-tertiary-50">Tertiary 50</div>
 <div class="swatch border border-color-tertiary-100">Tertiary 100</div>
 <div class="swatch border border-color-tertiary-200">Tertiary 200</div>
 <div class="swatch border border-color-tertiary-300">Tertiary 300</div>
@@ -2968,6 +3059,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-tertiary">...</div>
+<div class="border border-color-tertiary-50">...</div>
 <div class="border border-color-tertiary-100">...</div>
 <div class="border border-color-tertiary-200">...</div>
 <div class="border border-color-tertiary-300">...</div>
@@ -2984,6 +3076,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Info
 
 <div class="swatch border border-color-info">Info</div>
+<div class="swatch border border-color-info-50">Info 50</div>
 <div class="swatch border border-color-info-100">Info 100</div>
 <div class="swatch border border-color-info-200">Info 200</div>
 <div class="swatch border border-color-info-300">Info 300</div>
@@ -2996,6 +3089,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-info">...</div>
+<div class="border border-color-info-50">...</div>
 <div class="border border-color-info-100">...</div>
 <div class="border border-color-info-200">...</div>
 <div class="border border-color-info-300">...</div>
@@ -3010,6 +3104,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Error
 
 <div class="swatch border border-color-error">Error</div>
+<div class="swatch border border-color-error-50">Error 50</div>
 <div class="swatch border border-color-error-100">Error 100</div>
 <div class="swatch border border-color-error-200">Error 200</div>
 <div class="swatch border border-color-error-300">Error 300</div>
@@ -3022,6 +3117,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-error">...</div>
+<div class="border border-color-error-50">...</div>
 <div class="border border-color-error-100">...</div>
 <div class="border border-color-error-200">...</div>
 <div class="border border-color-error-300">...</div>
@@ -3036,6 +3132,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Warning
 
 <div class="swatch border border-color-warning">Warning</div>
+<div class="swatch border border-color-warning-50">Warning 50</div>
 <div class="swatch border border-color-warning-100">Warning 100</div>
 <div class="swatch border border-color-warning-200">Warning 200</div>
 <div class="swatch border border-color-warning-300">Warning 300</div>
@@ -3048,6 +3145,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-warning">...</div>
+<div class="border border-color-warning-50">...</div>
 <div class="border border-color-warning-100">...</div>
 <div class="border border-color-warning-200">...</div>
 <div class="border border-color-warning-300">...</div>
@@ -3062,6 +3160,7 @@ Utility classes can be used to position elements easily, each position utility c
 #### Success
 
 <div class="swatch border border-color-success">Success</div>
+<div class="swatch border border-color-success-50">Success 50</div>
 <div class="swatch border border-color-success-100">Success 100</div>
 <div class="swatch border border-color-success-200">Success 200</div>
 <div class="swatch border border-color-success-300">Success 300</div>
@@ -3074,6 +3173,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ```html
 <div class="border border-color-success">...</div>
+<div class="border border-color-success-50">...</div>
 <div class="border border-color-success-100">...</div>
 <div class="border border-color-success-200">...</div>
 <div class="border border-color-success-300">...</div>

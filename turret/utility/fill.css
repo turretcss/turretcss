@@ -10,6 +10,10 @@
   fill: var(--light);
 }
 
+  .fill-light-50 {
+    fill: var(--light-50);
+  }
+
   .fill-light-100 {
     fill: var(--light-100);
   }
@@ -49,6 +53,10 @@
 .fill-grey {
   fill: var(--grey);
 }
+
+  .fill-grey-50 {
+    fill: var(--grey-50);
+  }
 
   .fill-grey-100 {
     fill: var(--grey-100);
@@ -90,6 +98,10 @@
   fill: var(--dark);
 }
 
+  .fill-dark-50 {
+    fill: var(--dark-50);
+  }
+
   .fill-dark-100 {
     fill: var(--dark-100);
   }
@@ -129,6 +141,10 @@
 .fill-primary {
   fill: var(--primary);
 }
+
+  .fill-primary-50 {
+    fill: var(--primary-50);
+  }
 
   .fill-primary-100 {
     fill: var(--primary-100);
@@ -170,6 +186,10 @@
   fill: var(--secondary);
 }
 
+  .fill-secondary-50 {
+    fill: var(--secondary-50);
+  }
+
   .fill-secondary-100 {
     fill: var(--secondary-100);
   }
@@ -209,6 +229,10 @@
 .fill-tertiary {
   fill: var(--tertiary);
 }
+
+  .fill-tertiary-50 {
+    fill: var(--tertiary-50);
+  }
 
   .fill-tertiary-100 {
     fill: var(--tertiary-100);
@@ -250,6 +274,10 @@
   fill: var(--error);
 }
 
+  .fill-error-50 {
+    fill: var(--error-50);
+  }
+
   .fill-error-100 {
     fill: var(--error-100);
   }
@@ -289,6 +317,10 @@
 .fill-warning {
   fill: var(--warning);
 }
+
+  .fill-warning-50 {
+    fill: var(--warning-50);
+  }
 
   .fill-warning-100 {
     fill: var(--warning-100);
@@ -330,6 +362,10 @@
   fill: var(--success);
 }
 
+  .fill-success-50 {
+    fill: var(--success-50);
+  }
+
   .fill-success-100 {
     fill: var(--success-100);
   }
@@ -369,6 +405,10 @@
 .fill-info {
   fill: var(--info);
 }
+
+  .fill-info-50 {
+    fill: var(--info-50);
+  }
 
   .fill-info-100 {
     fill: var(--info-100);

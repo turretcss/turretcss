@@ -34,6 +34,10 @@
   background-color: var(--light);
 }
 
+  .background-light-50 {
+    background-color: var(--light-50);
+  }
+
   .background-light-100 {
     background-color: var(--light-100);
   }
@@ -73,6 +77,10 @@
 .background-grey {
   background-color: var(--grey);
 }
+
+  .background-grey-50 {
+    background-color: var(--grey-50);
+  }
 
   .background-grey-100 {
     background-color: var(--grey-100);
@@ -114,6 +122,10 @@
   background-color: var(--dark);
 }
 
+  .background-dark-50 {
+    background-color: var(--dark-50);
+  }
+
   .background-dark-100 {
     background-color: var(--dark-100);
   }
@@ -153,6 +165,10 @@
 .background-primary {
   background-color: var(--primary);
 }
+
+  .background-primary-50 {
+    background-color: var(--primary-50);
+  }
 
   .background-primary-100 {
     background-color: var(--primary-100);
@@ -194,6 +210,10 @@
   background-color: var(--secondary);
 }
 
+  .background-secondary-50 {
+    background-color: var(--secondary-50);
+  }
+
   .background-secondary-100 {
     background-color: var(--secondary-100);
   }
@@ -233,6 +253,10 @@
 .background-tertiary {
   background-color: var(--tertiary);
 }
+
+  .background-tertiary-50 {
+    background-color: var(--tertiary-50);
+  }
 
   .background-tertiary-100 {
     background-color: var(--tertiary-100);
@@ -274,6 +298,10 @@
   background-color: var(--error);
 }
 
+  .background-error-50 {
+    background-color: var(--error-50);
+  }
+
   .background-error-100 {
     background-color: var(--error-100);
   }
@@ -313,6 +341,10 @@
 .background-warning {
   background-color: var(--warning);
 }
+
+  .background-warning-50 {
+    background-color: var(--warning-50);
+  }
 
   .background-warning-100 {
     background-color: var(--warning-100);
@@ -354,6 +386,10 @@
   background-color: var(--success);
 }
 
+  .background-success-50 {
+    background-color: var(--success-50);
+  }
+
   .background-success-100 {
     background-color: var(--success-100);
   }
@@ -393,6 +429,10 @@
 .background-info {
   background-color: var(--info);
 }
+
+  .background-info-50 {
+    background-color: var(--info-50);
+  }
 
   .background-info-100 {
     background-color: var(--info-100);

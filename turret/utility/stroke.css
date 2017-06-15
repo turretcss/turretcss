@@ -10,6 +10,10 @@
   stroke: var(--light);
 }
 
+  .stroke-light-50 {
+    stroke: var(--light-50);
+  }
+
   .stroke-light-100 {
     stroke: var(--light-100);
   }
@@ -49,6 +53,10 @@
 .stroke-grey {
   stroke: var(--grey);
 }
+
+  .stroke-grey-50 {
+    stroke: var(--grey-50);
+  }
 
   .stroke-grey-100 {
     stroke: var(--grey-100);
@@ -90,6 +98,10 @@
   stroke: var(--dark);
 }
 
+  .stroke-dark-50 {
+    stroke: var(--dark-50);
+  }
+
   .stroke-dark-100 {
     stroke: var(--dark-100);
   }
@@ -129,6 +141,10 @@
 .stroke-primary {
   stroke: var(--primary);
 }
+
+  .stroke-primary-50 {
+    stroke: var(--primary-50);
+  }
 
   .stroke-primary-100 {
     stroke: var(--primary-100);
@@ -170,6 +186,10 @@
   stroke: var(--secondary);
 }
 
+  .stroke-secondary-50 {
+    stroke: var(--secondary-50);
+  }
+
   .stroke-secondary-100 {
     stroke: var(--secondary-100);
   }
@@ -209,6 +229,10 @@
 .stroke-tertiary {
   stroke: var(--tertiary);
 }
+
+  .stroke-tertiary-50 {
+    stroke: var(--tertiary-50);
+  }
 
   .stroke-tertiary-100 {
     stroke: var(--tertiary-100);
@@ -250,6 +274,10 @@
   stroke: var(--error);
 }
 
+  .stroke-error-50 {
+    stroke: var(--error-50);
+  }
+
   .stroke-error-100 {
     stroke: var(--error-100);
   }
@@ -289,6 +317,10 @@
 .stroke-warning {
   stroke: var(--warning);
 }
+
+  .stroke-warning-50 {
+    stroke: var(--warning-50);
+  }
 
   .stroke-warning-100 {
     stroke: var(--warning-100);
@@ -330,6 +362,10 @@
   stroke: var(--success);
 }
 
+  .stroke-success-50 {
+    stroke: var(--success-50);
+  }
+
   .stroke-success-100 {
     stroke: var(--success-100);
   }
@@ -369,6 +405,10 @@
 .stroke-info {
   stroke: var(--info);
 }
+
+  .stroke-info-50 {
+    stroke: var(--info-50);
+  }
 
   .stroke-info-100 {
     stroke: var(--info-100);
