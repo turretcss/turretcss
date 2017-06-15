@@ -374,9 +374,9 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
   </table>
 </div>
 
-## Positioning
+## Position
 
-Utility classes can be used to position elements easily, each position utility class is `position: absolute;` and allows for either absolute positioning or using `@gutter` spacing by adding the `gutter` class to any position class
+Utility classes can be used to position elements easily, each position utility class is `position: absolute;` with top/right/bottom/left properties
 
 <div class="table-responsive">
   <table>
@@ -402,18 +402,6 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>
         <td><code>position-bottom-right</code></td>
         <td>Positions element to the bottom right of it's container</td>
-      </tr>
-      <tr>
-        <td><code>position-left-center</code></td>
-        <td>Positions element left and centered vertically of it's container</td>
-      </tr>
-      <tr>
-        <td><code>position-right-center</code></td>
-        <td>Positions element right and centered vertically of it's container</td>
-      </tr>
-      <tr>
-        <td><code>position-center</code></td>
-        <td>Positions element centered vertically and horizontally of it's container</td>
       </tr>
     </tbody>
   </table>
