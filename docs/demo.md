@@ -899,7 +899,7 @@ permalink: /docs/demo/
 <div>
   <button class="button button-pill button-xl">Extra Large</button>
   <button class="button button-pill button-l">Large</button>
-  <button class="button button-pill button-m">Medium</button>
+  <button class="button button-pill">Medium</button>
   <button class="button button-pill button-s">Small</button>
   <button class="button button-pill button-xs">Extra Small</button>
 </div>
@@ -1047,7 +1047,7 @@ permalink: /docs/demo/
       <circle cx="9" cy="9" r="9"/>
     </svg>
   </button>
-  <button class="button button-square button-m">
+  <button class="button button-square">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
       <circle cx="8" cy="8" r="8"/>
     </svg>

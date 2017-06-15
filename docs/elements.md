@@ -98,7 +98,7 @@ The `.button-pill` class applies `border-radius` half the size of the `--button-
 <div>
   <button class="button button-pill button-xl">Extra Large</button>
   <button class="button button-pill button-l">Large</button>
-  <button class="button button-pill button-m">Medium</button>
+  <button class="button button-pill">Medium</button>
   <button class="button button-pill button-s">Small</button>
   <button class="button button-pill button-xs">Extra Small</button>
 </div>
@@ -258,7 +258,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
       <circle cx="9" cy="9" r="9"/>
     </svg>
   </button>
-  <button class="button button-square button-m">
+  <button class="button button-square">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
       <circle cx="8" cy="8" r="8"/>
     </svg>
@@ -286,7 +286,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 <div>
   <button class="button button-xl">Extra Large</button>
   <button class="button button-l">Large</button>
-  <button class="button button-m">Medium</button>
+  <button class="button">Medium</button>
   <button class="button button-s">Small</button>
   <button class="button button-xs">Extra Small</button>
 </div>
@@ -317,7 +317,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 ```html
 <button class="button button-xl">...</button>
 <button class="button button-l">...</button>
-<button class="button button-m">...</button>
+<button class="button">...</button>
 <button class="button button-s">...</button>
 <button class="button button-xs">...</button>
 ```
@@ -335,7 +335,7 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 ```html
 <a class="button button-xl">...</a>
 <a class="button button-l">...</a>
-<a class="button button-m">...</a>
+<a class="button">...</a>
 <a class="button button-s">...</a>
 <a class="button button-xs">...</a>
 ```
