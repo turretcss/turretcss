@@ -13,6 +13,7 @@
   & > .media-inner {
     display: block;
     @apply --cover;
+    border-radius: inherit;
   }
 }
 
