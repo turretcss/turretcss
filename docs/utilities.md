@@ -1123,27 +1123,27 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
       <tr>
         <td><code>gutter-vertical</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to top and bottom of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to top and bottom of element</td>
       </tr>
       <tr>
         <td><code>gutter-top</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to top of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to top of element</td>
       </tr>
       <tr>
         <td><code>gutter-bottom</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to bottom of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to bottom of element</td>
       </tr>
       <tr>
         <td><code>gutter-horizontal</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to left and right of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to left and right of element</td>
       </tr>
       <tr>
         <td><code>gutter-left</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to left of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to left of element</td>
       </tr>
       <tr>
         <td><code>gutter-right</code></td>
-        <td>Applies padding <code>var(--gutter-l)</code> to right of element</td>
+        <td>Applies padding <code>var(--gutter)</code> to right of element</td>
       </tr>
     </tbody>
   </table>
