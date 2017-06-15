@@ -380,7 +380,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --pre-tab-size: 4;
 --pre-hyphens: none;
 --pre-line-height: var(--line-height-m);
---pre-background: var(--light-100);
+--pre-background: var(--light-50);
 --pre-border-width: var(--border-width);
 --pre-border-style: var(--border-style);
 --pre-border-color: var(--border-color);
