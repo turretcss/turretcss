@@ -135,7 +135,7 @@ Responsive breakpoints are configurable via setting [@custom-media queries](/doc
       <tr>
         <td>xs</td>
         <td>Phone</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>767px</td>
       </tr>
       <tr>
@@ -160,7 +160,7 @@ Responsive breakpoints are configurable via setting [@custom-media queries](/doc
         <td>xl</td>
         <td>Large Screen</td>
         <td>1680px</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
     </tbody>
   </table>
@@ -311,14 +311,14 @@ Learn more about using Jekyll by reading its [documentation](https://jekyllrb.co
         <td>Supported</td>
         <td>Supported</td>
         <td rowspan="3" style="vertical-align: middle;">N/A</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>N/A</td>
       </tr>
       <tr>
         <th>iOS</th>
         <td>Supported</td>
         <td>Supported</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Supported</td>
       </tr>
       <tr>
@@ -334,7 +334,7 @@ Learn more about using Jekyll by reading its [documentation](https://jekyllrb.co
         <td>Supported</td>
         <td>Supported (IE10+)</td>
         <td>Supported</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
       </tr>
     </tbody>
   </table>
@@ -371,38 +371,38 @@ Some CSS properties and HTML5 attributes and elements are not fully supported by
     <tbody>
       <tr>
         <td><code>border-radius</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Supported</td>
         <td>Supported</td>
       </tr>
       <tr>
         <td><code>box-shadow</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Supported</td>
         <td>Supported</td>
       </tr>
       <tr>
         <td><code>transform</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>2D transforms supported, with <code>-ms</code> prefix</td>
         <td>Supported</td>
       </tr>
       <tr>
         <td><code>transition</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Supported</td>
       </tr>
       <tr>
         <td><code>placeholder</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Supported</td>
       </tr>
       <tr>
         <td><code>flexbox</code></td>
-        <td class="color-grey background-light-100">Not supported</td>
-        <td class="color-grey background-light-100">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
+        <td class="color-grey background-light-50">Not supported</td>
         <td>Partially supported, with <code>-ms</code> prefix</td>
       </tr>
     </tbody>

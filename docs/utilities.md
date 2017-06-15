@@ -145,22 +145,22 @@ Define content to be visible at different breakpoints. Note: `!important` is use
       <tr>
         <td><code>.visible-xs</code></td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-s</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-s-up</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
@@ -170,22 +170,22 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td><code>.visible-s-down</code></td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-m</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-m-up</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
@@ -195,22 +195,22 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-l</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-l-up</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
       </tr>
@@ -220,14 +220,14 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.visible-xl</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
       </tr>
     </tbody>
@@ -253,7 +253,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
     <tbody>
       <tr>
         <td><code>.hidden-xs</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
@@ -262,7 +262,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
       <tr>
         <td><code>.hidden-s</code></td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
@@ -270,15 +270,15 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
       <tr>
         <td><code>.hidden-s-up</code></td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.hidden-s-down</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
@@ -287,7 +287,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td><code>.hidden-m</code></td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
       </tr>
@@ -295,15 +295,15 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td><code>.hidden-m-up</code></td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.hidden-m-down</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
         <td>Visible</td>
       </tr>
@@ -312,7 +312,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
       </tr>
       <tr>
@@ -320,15 +320,15 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
       <tr>
         <td><code>.hidden-l-down</code></td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
         <td>Visible</td>
       </tr>
       <tr>
@@ -337,7 +337,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td>Visible</td>
         <td>Visible</td>
         <td>Visible</td>
-        <td class="color-grey background-light-100">Hidden</td>
+        <td class="color-grey background-light-50">Hidden</td>
       </tr>
     </tbody>
   </table>
@@ -921,22 +921,22 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>
         <td><code>.right-xs</code></td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-s</code></td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-s-up</code></td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
         <td>Right</td>
         <td>Right</td>
@@ -946,22 +946,22 @@ Utility classes can be used to position elements easily, each position utility c
         <td><code>.right-s-down</code></td>
         <td>Right</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-m</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-m-up</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
         <td>Right</td>
         <td>Right</td>
@@ -971,22 +971,22 @@ Utility classes can be used to position elements easily, each position utility c
         <td>Right</td>
         <td>Right</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-l</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-l-up</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -996,35 +996,35 @@ Utility classes can be used to position elements easily, each position utility c
         <td>Right</td>
         <td>Right</td>
         <td>Right</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.right-xl</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Right</td>
       </tr>
       <tr>
         <td><code>.left-xs</code></td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-s</code></td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-s-up</code></td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
         <td>Left</td>
         <td>Left</td>
@@ -1034,22 +1034,22 @@ Utility classes can be used to position elements easily, each position utility c
         <td><code>.left-s-down</code></td>
         <td>Left</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-m</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-m-up</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
         <td>Left</td>
         <td>Left</td>
@@ -1059,22 +1059,22 @@ Utility classes can be used to position elements easily, each position utility c
         <td>Left</td>
         <td>Left</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-l</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-l-up</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
         <td>Left</td>
       </tr>
@@ -1084,14 +1084,14 @@ Utility classes can be used to position elements easily, each position utility c
         <td>Left</td>
         <td>Left</td>
         <td>Left</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
       </tr>
       <tr>
         <td><code>.left-xl</code></td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
-        <td class="color-grey background-light-100">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
+        <td class="color-grey background-light-50">None</td>
         <td>Left</td>
       </tr>
     </tbody>
