@@ -720,7 +720,7 @@ To display navigaiton inline add the `nav-inline` class to the `<nav>` element.
 --table-head-color: inherit;
 --table-head-text-align: left;
 --table-head-text-transform: none;
---table-head-background: var(--light-100);
+--table-head-background: var(--light-50);
 --table-head-border-width: var(--table-border-width);
 --table-head-border-style: var(--table-border-style);
 --table-head-border-color: var(--table-border-color);
