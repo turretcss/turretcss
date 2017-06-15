@@ -128,16 +128,28 @@ Height sizes for buttons, inputs, and selects.
 --height-xs: 2rem;
 ```
 
+### Slope
+
+Slope linear interpolation functions for setting fluid scaling `-space-` variables
+
+```scss
+--slope-xl: calc(100vw * ((64 - 96) / (320 - 1440)));
+--slope-l: calc(100vw * ((32 - 64) / (320 - 1440)));
+--slope-m: calc(100vw * ((32 - 48) / (320 - 1440)));
+--slope-s: calc(100vw * ((24 - 32) / (320 - 1440)));
+--slope-xs: calc(100vw * ((16 - 20) / (320 - 1440)));
+```
+
 ### Space
 
 Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```scss
---space-xl: calc(5rem + 1.5vw);
---space-l: calc(4rem + 1.25vw);
---space-m: calc(3rem + 1vw);
---space-s: calc(2rem + 0.75vw);
---space-xs: calc(1rem + 0.5vw);
+--space-xl: calc(3rem + var(--slope-xl));
+--space-l: calc(2.5rem + var(--slope-l));
+--space-m: calc(2rem + var(--slope-m));
+--space-s: calc(1.5rem + var(--slope-s));
+--space-xs: calc(1rem + var(--slope-xs));
 ```
 
 ### Margin
