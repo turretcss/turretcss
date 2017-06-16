@@ -2940,7 +2940,7 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Border Radius
 
-<div class="swatch background-light border-radius">Border Radius</div>
+<div class="swatch background-dark color-white border-radius">Border Radius</div>
 
 ```html
 <div class="border-radius">...</div>
