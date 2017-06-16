@@ -2560,6 +2560,42 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Background
 
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>background-repeat</code></td>
+        <td>Applies <code>background-repeat: repeat;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-no-repeat</code></td>
+        <td>Applies <code>background-repeat: no-repeat;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-fixed</code></td>
+        <td>Applies <code>background-attachment: fixed;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-cover</code></td>
+        <td>Applies <code>background-size: cover;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-center</code></td>
+        <td>Applies <code>background-position: center;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-transparent</code></td>
+        <td>Applies <code>background: transparent;</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <div class="palette">
   <div class="swatch color-black background-white">White</div>
   <div class="swatch color-white background-black">Black</div>
