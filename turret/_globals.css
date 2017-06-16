@@ -2,6 +2,23 @@
 
 
   /**
+   * Media Queries
+   */
+
+  @custom-media --xs (max-width: 767px);
+  @custom-media --s (min-width: 768px) and (max-width: 1023px);
+  @custom-media --s-up (min-width: 768px);
+  @custom-media --s-down (max-width: 1023px);
+  @custom-media --m (min-width: 1024px) and (max-width: 1279px);
+  @custom-media --m-up (min-width: 1024px);
+  @custom-media --m-down (max-width: 1279px);
+  @custom-media --l (min-width: 1280px) and (max-width: 1679px);
+  @custom-media --l-up (min-width: 1280px);
+  @custom-media --l-down (max-width: 1679px);
+  @custom-media --xl (min-width: 1680px);
+
+
+  /**
    * Root
    */
 
