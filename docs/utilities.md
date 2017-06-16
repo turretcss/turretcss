@@ -727,6 +727,31 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Flex
 
+### Flex Utilties
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>flex-justify</code></td>
+        <td>Applies <code>display: flex; justify-content: space-between;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-justify-center</code></td>
+        <td>Applies <code>display: flex; align-items: center; justify-content: space-between;</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Flex Properties
+
 <div class="table-responsive">
   <table>
     <thead>
@@ -763,6 +788,14 @@ Utility classes can be used to position elements easily, each position utility c
       <tr>
         <td><code>flex-1</code></td>
         <td>Applies <code>flex: 1 1 0;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>flex-auto</code></td>
+        <td>Applies <code>flex: auto;</code> to element. Equal to <code>flex: 1 1 auto;</code> as per the spec.</td>
+      </tr>
+      <tr>
+        <td><code>flex-none</code></td>
+        <td>Applies <code>flex: none;</code> to element. Equal to <code>flex: 0 0 auto;</code> as per the spec.</td>
       </tr>
       <tr>
         <td><code>flex-1-1-auto</code></td>
