@@ -1,3 +1,11 @@
+.fill-current-color {
+  fill: currentColor;
+}
+
+.fill-inherit {
+  fill: inherit;
+}
+
 .fill-white {
   fill: var(--white);
 }

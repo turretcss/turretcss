@@ -22,6 +22,14 @@
   background: transparent;
 }
 
+.background-current-color {
+  background-color: currentColor;
+}
+
+.background-inherit {
+  background-color: inherit;
+}
+
 .background-white {
   background-color: var(--white);
 }

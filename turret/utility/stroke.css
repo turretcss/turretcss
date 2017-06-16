@@ -1,3 +1,11 @@
+.stroke-current-color {
+  stroke: currentColor;
+}
+
+.stroke-inherit {
+  stroke: inherit;
+}
+
 .stroke-white {
   stroke: var(--white);
 }

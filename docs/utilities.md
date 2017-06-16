@@ -409,6 +409,28 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Fill
 
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <td><code>fill-current-color</code></td>
+        <td>Applies <code>fill: currentColor;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>fill-inherit</code></td>
+        <td>Applies <code>fill: inherit;</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Colors
+
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-white" cx="8" cy="8" r="8"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="fill-black" cx="8" cy="8" r="8"/></svg>
@@ -1908,6 +1930,28 @@ Utility classes can be used to position elements easily, each position utility c
 
 ## Stroke
 
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <td><code>stroke-current-color</code></td>
+        <td>Applies <code>stroke: currentColor;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>stroke-inherit</code></td>
+        <td>Applies <code>stroke: inherit;</code> to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Colors
+
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-white" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle class="stroke-black" stroke-width="4" fill="none" cx="8" cy="8" r="6"/></svg>
@@ -2593,9 +2637,20 @@ Utility classes can be used to position elements easily, each position utility c
         <td><code>background-transparent</code></td>
         <td>Applies <code>background: transparent;</code> to element</td>
       </tr>
+      <tr>
+        <td><code>background-current-color</code></td>
+        <td>Applies <code>background-color: currentColor;</code> to element</td>
+      </tr>
+      <tr>
+        <td><code>background-inherit</code></td>
+        <td>Applies <code>background-color: inherit;</code> to element</td>
+      </tr>
     </tbody>
   </table>
 </div>
+
+### Colors
+
 <div class="palette">
   <div class="swatch color-black background-white">White</div>
   <div class="swatch color-white background-black">Black</div>
