@@ -1,0 +1,11 @@
+.transition-fast {
+  @apply --transition-fast;
+}
+
+.transition-medium {
+  @apply --transition-medium;
+}
+
+.transition-slow {
+  @apply --transition-slow;
+}
