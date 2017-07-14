@@ -407,6 +407,36 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
+
+## Transition
+
+Utility classes for setting transition all with speed and easing
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>transition-fast</code></td>
+        <td>Sets transition on all properties with speed var(--speed-fast) and easing ease-in-out to element</td>
+      </tr>
+      <tr>
+        <td><code>transition-medium</code></td>
+        <td>Sets transition on all properties with speed var(--speed-medium) and easing ease-in-out to element</td>
+      </tr>
+      <tr>
+        <td><code>transition-slow</code></td>
+        <td>Sets transition on all properties with speed var(--speed-slow) and easing ease-in-out to element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Fill
 
 <div class="table-responsive">
