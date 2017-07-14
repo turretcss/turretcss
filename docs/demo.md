@@ -1153,6 +1153,22 @@ permalink: /docs/demo/
   <button class="button info button-border" disabled>Info</button>
 </div>
 
+### Button Group
+
+<div class="button-group">
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+</div>
+
+#### Button Group Block
+
+<div class="button-group button-group-block">
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+</div>
+
 ### Figure
 
 <div>
