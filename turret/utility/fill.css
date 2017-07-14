@@ -1,455 +1,569 @@
-.fill-current-color {
+.fill-current-color,
+svg.fill-current-color {
   fill: currentColor;
 }
 
-.fill-inherit {
+.fill-inherit,
+svg.fill-inherit {
   fill: inherit;
 }
 
-.fill-white {
+.fill-white,
+svg.fill-white {
   fill: var(--white);
 }
 
-.fill-black {
+.fill-black,
+svg.fill-black {
   fill: var(--black);
 }
 
-.fill-light {
+.fill-light,
+svg.fill-light {
   fill: var(--light);
 }
 
-  .fill-light-50 {
+  .fill-light-50,
+  svg.fill-light-50 {
     fill: var(--light-50);
   }
 
-  .fill-light-100 {
+  .fill-light-100,
+  svg.fill-light-100 {
     fill: var(--light-100);
   }
 
-  .fill-light-200 {
+  .fill-light-200,
+  svg.fill-light-200 {
     fill: var(--light-200);
   }
 
-  .fill-light-300 {
+  .fill-light-300,
+  svg.fill-light-300 {
     fill: var(--light-300);
   }
 
-  .fill-light-400 {
+  .fill-light-400,
+  svg.fill-light-400 {
     fill: var(--light-400);
   }
 
-  .fill-light-500 {
+  .fill-light-500,
+  svg.fill-light-500 {
     fill: var(--light-500);
   }
 
-  .fill-light-600 {
+  .fill-light-600,
+  svg.fill-light-600 {
     fill: var(--light-600);
   }
 
-  .fill-light-700 {
+  .fill-light-700,
+  svg.fill-light-700 {
     fill: var(--light-700);
   }
 
-  .fill-light-800 {
+  .fill-light-800,
+  svg.fill-light-800 {
     fill: var(--light-800);
   }
 
-  .fill-light-900 {
+  .fill-light-900,
+  svg.fill-light-900 {
     fill: var(--light-900);
   }
 
-.fill-grey {
+.fill-grey,
+svg.fill-grey {
   fill: var(--grey);
 }
 
-  .fill-grey-50 {
+  .fill-grey-50,
+  svg.fill-grey-50 {
     fill: var(--grey-50);
   }
 
-  .fill-grey-100 {
+  .fill-grey-100,
+  svg.fill-grey-100 {
     fill: var(--grey-100);
   }
 
-  .fill-grey-200 {
+  .fill-grey-200,
+  svg.fill-grey-200 {
     fill: var(--grey-200);
   }
 
-  .fill-grey-300 {
+  .fill-grey-300,
+  svg.fill-grey-300 {
     fill: var(--grey-300);
   }
 
-  .fill-grey-400 {
+  .fill-grey-400,
+  svg.fill-grey-400 {
     fill: var(--grey-400);
   }
 
-  .fill-grey-500 {
+  .fill-grey-500,
+  svg.fill-grey-500 {
     fill: var(--grey-500);
   }
 
-  .fill-grey-600 {
+  .fill-grey-600,
+  svg.fill-grey-600 {
     fill: var(--grey-600);
   }
 
-  .fill-grey-700 {
+  .fill-grey-700,
+  svg.fill-grey-700 {
     fill: var(--grey-700);
   }
 
-  .fill-grey-800 {
+  .fill-grey-800,
+  svg.fill-grey-800 {
     fill: var(--grey-800);
   }
 
-  .fill-grey-900 {
+  .fill-grey-900,
+  svg.fill-grey-900 {
     fill: var(--grey-900);
   }
 
-.fill-dark {
+.fill-dark,
+svg.fill-dark {
   fill: var(--dark);
 }
 
-  .fill-dark-50 {
+  .fill-dark-50,
+  svg.fill-dark-50 {
     fill: var(--dark-50);
   }
 
-  .fill-dark-100 {
+  .fill-dark-100,
+  svg.fill-dark-100 {
     fill: var(--dark-100);
   }
 
-  .fill-dark-200 {
+  .fill-dark-200,
+  svg.fill-dark-200 {
     fill: var(--dark-200);
   }
 
-  .fill-dark-300 {
+  .fill-dark-300,
+  svg.fill-dark-300 {
     fill: var(--dark-300);
   }
 
-  .fill-dark-400 {
+  .fill-dark-400,
+  svg.fill-dark-400 {
     fill: var(--dark-400);
   }
 
-  .fill-dark-500 {
+  .fill-dark-500,
+  svg.fill-dark-500 {
     fill: var(--dark-500);
   }
 
-  .fill-dark-600 {
+  .fill-dark-600,
+  svg.fill-dark-600 {
     fill: var(--dark-600);
   }
 
-  .fill-dark-700 {
+  .fill-dark-700,
+  svg.fill-dark-700 {
     fill: var(--dark-700);
   }
 
-  .fill-dark-800 {
+  .fill-dark-800,
+  svg.fill-dark-800 {
     fill: var(--dark-800);
   }
 
-  .fill-dark-900 {
+  .fill-dark-900,
+  svg.fill-dark-900 {
     fill: var(--dark-900);
   }
 
-.fill-primary {
+.fill-primary,
+svg.fill-primary {
   fill: var(--primary);
 }
 
-  .fill-primary-50 {
+  .fill-primary-50,
+  svg.fill-primary-50 {
     fill: var(--primary-50);
   }
 
-  .fill-primary-100 {
+  .fill-primary-100,
+  svg.fill-primary-100 {
     fill: var(--primary-100);
   }
 
-  .fill-primary-200 {
+  .fill-primary-200,
+  svg.fill-primary-200 {
     fill: var(--primary-200);
   }
 
-  .fill-primary-300 {
+  .fill-primary-300,
+  svg.fill-primary-300 {
     fill: var(--primary-300);
   }
 
-  .fill-primary-400 {
+  .fill-primary-400,
+  svg.fill-primary-400 {
     fill: var(--primary-400);
   }
 
-  .fill-primary-500 {
+  .fill-primary-500,
+  svg.fill-primary-500 {
     fill: var(--primary-500);
   }
 
-  .fill-primary-600 {
+  .fill-primary-600,
+  svg.fill-primary-600 {
     fill: var(--primary-600);
   }
 
-  .fill-primary-700 {
+  .fill-primary-700,
+  svg.fill-primary-700 {
     fill: var(--primary-700);
   }
 
-  .fill-primary-800 {
+  .fill-primary-800,
+  svg.fill-primary-800 {
     fill: var(--primary-800);
   }
 
-  .fill-primary-900 {
+  .fill-primary-900,
+  svg.fill-primary-900 {
     fill: var(--primary-900);
   }
 
-.fill-secondary {
+.fill-secondary,
+svg.fill-secondary {
   fill: var(--secondary);
 }
 
-  .fill-secondary-50 {
+  .fill-secondary-50,
+  svg.fill-secondary-50 {
     fill: var(--secondary-50);
   }
 
-  .fill-secondary-100 {
+  .fill-secondary-100,
+  svg.fill-secondary-100 {
     fill: var(--secondary-100);
   }
 
-  .fill-secondary-200 {
+  .fill-secondary-200,
+  svg.fill-secondary-200 {
     fill: var(--secondary-200);
   }
 
-  .fill-secondary-300 {
+  .fill-secondary-300,
+  svg.fill-secondary-300 {
     fill: var(--secondary-300);
   }
 
-  .fill-secondary-400 {
+  .fill-secondary-400,
+  svg.fill-secondary-400 {
     fill: var(--secondary-400);
   }
 
-  .fill-secondary-500 {
+  .fill-secondary-500,
+  svg.fill-secondary-500 {
     fill: var(--secondary-500);
   }
 
-  .fill-secondary-600 {
+  .fill-secondary-600,
+  svg.fill-secondary-600 {
     fill: var(--secondary-600);
   }
 
-  .fill-secondary-700 {
+  .fill-secondary-700,
+  svg.fill-secondary-700 {
     fill: var(--secondary-700);
   }
 
-  .fill-secondary-800 {
+  .fill-secondary-800,
+  svg.fill-secondary-800 {
     fill: var(--secondary-800);
   }
 
-  .fill-secondary-900 {
+  .fill-secondary-900,
+  svg.fill-secondary-900 {
     fill: var(--secondary-900);
   }
 
-.fill-tertiary {
+.fill-tertiary,
+svg.fill-tertiary {
   fill: var(--tertiary);
 }
 
-  .fill-tertiary-50 {
+  .fill-tertiary-50,
+  svg.fill-tertiary-50 {
     fill: var(--tertiary-50);
   }
 
-  .fill-tertiary-100 {
+  .fill-tertiary-100,
+  svg.fill-tertiary-100 {
     fill: var(--tertiary-100);
   }
 
-  .fill-tertiary-200 {
+  .fill-tertiary-200,
+  svg.fill-tertiary-200 {
     fill: var(--tertiary-200);
   }
 
-  .fill-tertiary-300 {
+  .fill-tertiary-300,
+  svg.fill-tertiary-300 {
     fill: var(--tertiary-300);
   }
 
-  .fill-tertiary-400 {
+  .fill-tertiary-400,
+  svg.fill-tertiary-400 {
     fill: var(--tertiary-400);
   }
 
-  .fill-tertiary-500 {
+  .fill-tertiary-500,
+  svg.fill-tertiary-500 {
     fill: var(--tertiary-500);
   }
 
-  .fill-tertiary-600 {
+  .fill-tertiary-600,
+  svg.fill-tertiary-600 {
     fill: var(--tertiary-600);
   }
 
-  .fill-tertiary-700 {
+  .fill-tertiary-700,
+  svg.fill-tertiary-700 {
     fill: var(--tertiary-700);
   }
 
-  .fill-tertiary-800 {
+  .fill-tertiary-800,
+  svg.fill-tertiary-800 {
     fill: var(--tertiary-800);
   }
 
-  .fill-tertiary-900 {
+  .fill-tertiary-900,
+  svg.fill-tertiary-900 {
     fill: var(--tertiary-900);
   }
 
-.fill-error {
+.fill-error,
+svg.fill-error {
   fill: var(--error);
 }
 
-  .fill-error-50 {
+  .fill-error-50,
+  svg.fill-error-50 {
     fill: var(--error-50);
   }
 
-  .fill-error-100 {
+  .fill-error-100,
+  svg.fill-error-100 {
     fill: var(--error-100);
   }
 
-  .fill-error-200 {
+  .fill-error-200,
+  svg.fill-error-200 {
     fill: var(--error-200);
   }
 
-  .fill-error-300 {
+  .fill-error-300,
+  svg.fill-error-300 {
     fill: var(--error-300);
   }
 
-  .fill-error-400 {
+  .fill-error-400,
+  svg.fill-error-400 {
     fill: var(--error-400);
   }
 
-  .fill-error-500 {
+  .fill-error-500,
+  svg.fill-error-500 {
     fill: var(--error-500);
   }
 
-  .fill-error-600 {
+  .fill-error-600,
+  svg.fill-error-600 {
     fill: var(--error-600);
   }
 
-  .fill-error-700 {
+  .fill-error-700,
+  svg.fill-error-700 {
     fill: var(--error-700);
   }
 
-  .fill-error-800 {
+  .fill-error-800,
+  svg.fill-error-800 {
     fill: var(--error-800);
   }
 
-  .fill-error-900 {
+  .fill-error-900,
+  svg.fill-error-900 {
     fill: var(--error-900);
   }
 
-.fill-warning {
+.fill-warning,
+svg.fill-warning {
   fill: var(--warning);
 }
 
-  .fill-warning-50 {
+  .fill-warning-50,
+  svg.fill-warning-50 {
     fill: var(--warning-50);
   }
 
-  .fill-warning-100 {
+  .fill-warning-100,
+  svg.fill-warning-100 {
     fill: var(--warning-100);
   }
 
-  .fill-warning-200 {
+  .fill-warning-200,
+  svg.fill-warning-200 {
     fill: var(--warning-200);
   }
 
-  .fill-warning-300 {
+  .fill-warning-300,
+  svg.fill-warning-300 {
     fill: var(--warning-300);
   }
 
-  .fill-warning-400 {
+  .fill-warning-400,
+  svg.fill-warning-400 {
     fill: var(--warning-400);
   }
 
-  .fill-warning-500 {
+  .fill-warning-500,
+  svg.fill-warning-500 {
     fill: var(--warning-500);
   }
 
-  .fill-warning-600 {
+  .fill-warning-600,
+  svg.fill-warning-600 {
     fill: var(--warning-600);
   }
 
-  .fill-warning-700 {
+  .fill-warning-700,
+  svg.fill-warning-700 {
     fill: var(--warning-700);
   }
 
-  .fill-warning-800 {
+  .fill-warning-800,
+  svg.fill-warning-800 {
     fill: var(--warning-800);
   }
 
-  .fill-warning-900 {
+  .fill-warning-900,
+  svg.fill-warning-900 {
     fill: var(--warning-900);
   }
 
-.fill-success {
+.fill-success,
+svg.fill-success {
   fill: var(--success);
 }
 
-  .fill-success-50 {
+  .fill-success-50,
+  svg.fill-success-50 {
     fill: var(--success-50);
   }
 
-  .fill-success-100 {
+  .fill-success-100,
+  svg.fill-success-100 {
     fill: var(--success-100);
   }
 
-  .fill-success-200 {
+  .fill-success-200,
+  svg.fill-success-200 {
     fill: var(--success-200);
   }
 
-  .fill-success-300 {
+  .fill-success-300,
+  svg.fill-success-300 {
     fill: var(--success-300);
   }
 
-  .fill-success-400 {
+  .fill-success-400,
+  svg.fill-success-400 {
     fill: var(--success-400);
   }
 
-  .fill-success-500 {
+  .fill-success-500,
+  svg.fill-success-500 {
     fill: var(--success-500);
   }
 
-  .fill-success-600 {
+  .fill-success-600,
+  svg.fill-success-600 {
     fill: var(--success-600);
   }
 
-  .fill-success-700 {
+  .fill-success-700,
+  svg.fill-success-700 {
     fill: var(--success-700);
   }
 
-  .fill-success-800 {
+  .fill-success-800,
+  svg.fill-success-800 {
     fill: var(--success-800);
   }
 
-  .fill-success-900 {
+  .fill-success-900,
+  svg.fill-success-900 {
     fill: var(--success-900);
   }
 
-.fill-info {
+.fill-info,
+svg.fill-info {
   fill: var(--info);
 }
 
-  .fill-info-50 {
+  .fill-info-50,
+  svg.fill-info-50 {
     fill: var(--info-50);
   }
 
-  .fill-info-100 {
+  .fill-info-100,
+  svg.fill-info-100 {
     fill: var(--info-100);
   }
 
-  .fill-info-200 {
+  .fill-info-200,
+  svg.fill-info-200 {
     fill: var(--info-200);
   }
 
-  .fill-info-300 {
+  .fill-info-300,
+  svg.fill-info-300 {
     fill: var(--info-300);
   }
 
-  .fill-info-400 {
+  .fill-info-400,
+  svg.fill-info-400 {
     fill: var(--info-400);
   }
 
-  .fill-info-500 {
+  .fill-info-500,
+  svg.fill-info-500 {
     fill: var(--info-500);
   }
 
-  .fill-info-600 {
+  .fill-info-600,
+  svg.fill-info-600 {
     fill: var(--info-600);
   }
 
-  .fill-info-700 {
+  .fill-info-700,
+  svg.fill-info-700 {
     fill: var(--info-700);
   }
 
-  .fill-info-800 {
+  .fill-info-800,
+  svg.fill-info-800 {
     fill: var(--info-800);
   }
 
-  .fill-info-900 {
+  .fill-info-900,
+  svg.fill-info-900 {
     fill: var(--info-900);
   }
