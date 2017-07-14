@@ -740,6 +740,18 @@
   --button-info-color: var(--white);
 
 
+  /** 
+   * Button Icon
+   */
+
+  --button-icon-margin: var(--button-padding-horizontal);
+  --button-icon-padding: calc((var(--button-height) - var(--icon-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xl-padding: calc((var(--button-xl-height) - var(--icon-xl-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-l-padding: calc((var(--button-l-height) - var(--icon-l-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-s-padding: calc((var(--button-s-height) - var(--icon-s-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xs-padding: calc((var(--button-xs-height) - var(--icon-xs-size) - (var(--button-border-width) * 2)) / 2);
+
+
   /**
    * Figure
    */

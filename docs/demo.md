@@ -910,7 +910,7 @@ permalink: /docs/demo/
   <button class="button button-square"></button>
 </div>
 
-### Button Icon (SVG)
+### Button with SVG
 
 <div>
   <button class="button button-square button-white">
@@ -1151,6 +1151,91 @@ permalink: /docs/demo/
   <button class="button warning button-border" disabled>Warning</button>
   <button class="button success button-border" disabled>Success</button>
   <button class="button info button-border" disabled>Info</button>
+</div>
+
+### Button Icon
+
+<div>
+  <button class="button button-square button-icon">
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <a class="button button-square button-icon" href="#">
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+</div>
+
+#### Button Icon with Text Sizes
+
+<div>
+  <button class="button button-xl button-icon">
+    <span>Button</span>
+    <svg class="icon-xl" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-l button-icon">
+    <span>Button</span>
+    <svg class="icon-l" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-icon">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-s button-icon">
+    <span>Button</span>
+    <svg class="icon-s" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-xs button-icon">
+    <span>Button</span>
+    <svg class="icon-xs" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+#### Button Icon with Text Sizes Anchors
+
+<div>
+  <a class="button button-xl button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-xl" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-l button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-l" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-icon" href="#">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-s button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-s" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-xs button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-xs" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
 </div>
 
 ### Button Group

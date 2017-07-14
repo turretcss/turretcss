@@ -119,7 +119,7 @@ The `.button-square` class applies the same padding all round calculated from th
 <button class="button button-square">...</button>
 ```
 
-### Button Icon (SVG)
+### Button with SVG
 
 A `<svg>` contained within a `button` or `.button` element will inherit the button `font-size` as the `width` and `height`, as well as the button `color` as `fill`.
 
@@ -463,6 +463,264 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
 <button class="button warning button-border">...</button>
 <button class="button success button-border">...</button>
 <button class="button info button-border">...</button>
+```
+
+## Button Icon
+
+```scss
+--button-icon-margin: var(--button-padding-horizontal);
+--button-icon-padding: calc((var(--button-height) - var(--icon-size) - (var(--button-border-width) * 2)) / 2);
+```
+
+<div>
+  <button class="button button-square button-icon">
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button class="button button-square button-icon">
+  <svg>...</svg>
+</button>
+```
+
+### Button Icon Sizes
+
+```scss
+--button-icon-xl-padding: calc((var(--button-xl-height) - var(--icon-xl-size) - (var(--button-border-width) * 2)) / 2);
+--button-icon-l-padding: calc((var(--button-l-height) - var(--icon-l-size) - (var(--button-border-width) * 2)) / 2);
+--button-icon-s-padding: calc((var(--button-s-height) - var(--icon-s-size) - (var(--button-border-width) * 2)) / 2);
+--button-icon-xs-padding: calc((var(--button-xs-height) - var(--icon-xs-size) - (var(--button-border-width) * 2)) / 2);
+```
+
+<div>
+  <button class="button button-xl button-square button-icon">
+    <svg class="icon-xl" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-l button-square button-icon">
+    <svg class="icon-l" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-square button-icon">
+    <svg class="icon" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-s button-square button-icon">
+    <svg class="icon-s" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-xs button-square button-icon">
+    <svg class="icon-xs" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button class="button button-xl button-square button-icon">
+  <svg class="icon-xl">...</svg>
+</button>
+<button class="button button-l button-square button-icon">
+  <svg class="icon-l">...</svg>
+</button>
+<button class="button button-square button-icon">
+  <svg class="icon">...</svg>
+</button>
+<button class="button button-s button-square button-icon">
+  <svg class="icon-s">...</svg>
+</button>
+<button class="button button-xs button-square button-icon">
+  <svg class="icon-xs">...</svg>
+</button>
+```
+
+### Button Icon with Text
+
+<div>
+  <button class="button button-icon">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <a class="button button-icon" href="#">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+</div>
+
+```html
+<button class="button button-icon">
+  <span>Button</span>
+  <svg>...</svg>
+</button>
+<a class="button button-icon" href="#">
+  <span>Button</span>
+  <svg>...</svg>
+</a>
+```
+
+### Button Icon with Text Sizes
+
+<div>
+  <button class="button button-xl button-icon">
+    <span>Button</span>
+    <svg class="icon-xl" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-l button-icon">
+    <span>Button</span>
+    <svg class="icon-l" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-icon">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-s button-icon">
+    <span>Button</span>
+    <svg class="icon-s" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+  <button class="button button-xs button-icon">
+    <span>Button</span>
+    <svg class="icon-xs" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button class="button button-xl button-icon">
+  <span>Button</span>
+  <svg class="icon-xl">...</svg>
+</button>
+<button class="button button-l button-icon">
+  <span>Button</span>
+  <svg class="icon-l">...</svg>
+</button>
+<button class="button button-icon">
+  <span>Button</span>
+  <svg>...</svg>
+</button>
+<button class="button button-s button-icon">
+  <span>Button</span>
+  <svg class="icon-s">...</svg>
+</button>
+<button class="button button-xs button-icon">
+  <span>Button</span>
+  <svg class="icon-xs">...</svg>
+</button>
+```
+
+#### Button Icon with Text Sizes Anchors
+
+<div>
+  <a class="button button-xl button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-xl" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-l button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-l" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-icon" href="#">
+    <span>Button</span>
+    <svg viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-s button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-s" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+  <a class="button button-xs button-icon" href="#">
+    <span>Button</span>
+    <svg class="icon-xs" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </a>
+</div>
+
+```html
+<a class="button button-xl button-icon" href="#">
+  <span>Button</span>
+  <svg class="icon-xl">...</svg>
+</a>
+<a class="button button-l button-icon" href="#">
+  <span>Button</span>
+  <svg class="icon-l">...</svg>
+</a>
+<a class="button button-icon" href="#">
+  <span>Button</span>
+  <svg>...</svg>
+</a>
+<a class="button button-s button-icon" href="#">
+  <span>Button</span>
+  <svg class="icon-s">...</svg>
+</a>
+<a class="button button-xs button-icon" href="#">
+  <span>Button</span>
+  <svg class="icon-xs">...</svg>
+</a>
+```
+
+#### Button Icon Customisation
+
+A XL button with medium icon that has a `--primary` fill
+
+<div>
+  <button class="button button-xl button-icon">
+    <span>Button</span>
+    <svg class="icon-m fill-primary" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button class="button button-xl button-icon">
+  <span>Button</span>
+  <svg class="icon-m fill-primary">...</svg>
+</button>
+```
+
+A `--primary` button with icon that has a `--primary-200` fill
+
+<div>
+  <button class="button button-primary button-icon">
+    <span>Button</span>
+    <svg class="fill-primary-200" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+  </button>
+</div>
+
+```html
+<button class="button button-primary button-icon">
+  <span>Button</span>
+  <svg class="fill-primary-200">...</svg>
+</button>
 ```
 
 ## Button Group
