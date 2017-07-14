@@ -158,6 +158,7 @@
 @import './utility/padding';
 @import './utility/text';
 @import './utility/stroke';
+@import './utility/icon';
 @import './utility/transition';
 @import './utility/utility';
 @import './utility/visibility';

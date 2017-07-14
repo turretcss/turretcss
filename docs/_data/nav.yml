@@ -29,6 +29,7 @@
     - title: Container
     - title: Gutter
     - title: Media Queries
+    - title: Icon
     - title: Print
 
 - title: Typography
@@ -112,6 +113,7 @@
     - title: Line Height
     - title: Letter Spacing
     - title: Stroke
+    - title: Icon Sizes
     - title: Text
     - title: Color
     - title: Background
