@@ -32,6 +32,8 @@
       background-color: var(--control-focus-indicator-background);
       border-color: var(--control-focus-indicator-border-color);
       box-shadow: var(--control-focus-indicator-box-shadow);
+      outline: var(--focus-outline);
+      outline-offset: var(--focus-outline-offset);
     }
     
     &:checked {

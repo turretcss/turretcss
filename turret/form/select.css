@@ -55,6 +55,8 @@ select {
       background: var(--select-focus-background);
       border-color: var(--select-focus-border-color);
       box-shadow: var(--select-focus-box-shadow);
+      outline: var(--focus-outline);
+      outline-offset: var(--focus-outline-offset);
     }
 
     &:disabled {
