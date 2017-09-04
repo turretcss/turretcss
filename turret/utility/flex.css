@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .flex-justify {
   display: flex;
   justify-content: space-between;
