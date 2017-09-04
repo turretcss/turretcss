@@ -671,13 +671,13 @@
   --button-box-shadow: var(--box-shadow);
 
   --button-hover-color: var(--button-color);
-  --button-hover-background: var(--light-100);
-  --button-hover-border-color: var(--light-600);
+  --button-hover-background: color(var(--button-background) shade(2.5%));
+  --button-hover-border-color: color(var(--button-border-color) shade(2.5%));
   --button-hover-box-shadow: var(--hover-box-shadow);
 
   --button-active-color: var(--button-color);
-  --button-active-background: var(--light-200);
-  --button-active-border-color: var(--light-700);
+  --button-active-background: color(var(--button-background) shade(5%));
+  --button-active-border-color: color(var(--button-border-color) shade(5%));
   --button-active-box-shadow: var(--active-box-shadow);
 
   --button-disabled-opacity: 0.65;
