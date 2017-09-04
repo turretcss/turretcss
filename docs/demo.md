@@ -254,7 +254,7 @@ permalink: /docs/demo/
   </li>
 </ol>
 
-### Defintion List
+### Definition List
 
 <dl>
   <dt>Fringilla Ipsum Tellus</dt>
