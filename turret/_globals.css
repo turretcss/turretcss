@@ -34,7 +34,7 @@
    * Focus Outline
    */
 
-  --focus-outline: var(--border-width) dotted var(--dark);
+  --focus-outline: var(--border-width) solid var(--info);
   --focus-outline-offset: var(--border-width);
 
 
