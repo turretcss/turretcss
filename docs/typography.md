@@ -191,7 +191,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 <hr>
 
 ```scss
---horizontal-rule-margin: var(--margin-s) auto;
+--horizontal-rule-margin: var(--space-s) auto;
 --horizontal-rule-height: var(--border-width);
 --horizontal-rule-background: var(--light);
 ```
