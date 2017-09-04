@@ -19,6 +19,13 @@ svg.icon-s {
   height: var(--icon-s-size);
 }
 
+.icon-m,
+svg.icon-m {
+  display: inline-block;
+  width: var(--icon-m-size);
+  height: var(--icon-m-size);
+}
+
 .icon-l,
 svg.icon-l {
   display: inline-block;

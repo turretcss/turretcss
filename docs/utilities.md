@@ -2307,7 +2307,7 @@ Utility classes for setting transition all with speed and easing
   <svg class="icon-l" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
     <circle cx="8" cy="8" r="8"/>
   </svg>
-  <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg class="icon-m" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
     <circle cx="8" cy="8" r="8"/>
   </svg>
   <svg class="icon-s" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -2321,7 +2321,7 @@ Utility classes for setting transition all with speed and easing
 ```html
 <svg class="icon-xl"></svg>
 <svg class="icon-l"></svg>
-<svg class="icon"></svg>
+<svg class="icon-m"></svg>
 <svg class="icon-s"></svg>
 <svg class="icon-xs"></svg>
 ```
