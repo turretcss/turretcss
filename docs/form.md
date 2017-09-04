@@ -1276,7 +1276,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```scss
 --range-xl-height: 1rem;
 --range-l-height: 0.875rem;
---range-s-height: 0.675rem;
+--range-s-height: 0.625rem;
 --range-xs-height: 0.5rem;
 ```
 
