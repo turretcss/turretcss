@@ -24,43 +24,43 @@ For text and background color utility classes check out the [color](#colors) sec
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>clearfix</code></td>
         <td>Clears floats using <code>.clearfix;</code> mixin</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>cover</code></td>
-        <td>Makes element cover it's container using <code>.cover;</code> mixin</td>
+        <td>Makes element cover its container using <code>.cover;</code> mixin</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>circle</code></td>
         <td>Makes element a circle by applying <code>border-radius: 50%;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>center</code></td>
         <td>Makes element center using <code>.center;</code> mixin</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>full-height</code></td>
         <td>Sets height to 100%</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>fixed</code></td>
         <td>Sets <code>position: fixed;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>relative</code></td>
         <td>Sets <code>position: relative;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>absolute</code></td>
         <td>Sets <code>position: absolute;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>pointer</code></td>
         <td>Sets <code>cursor: pointer;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-border</code></td>
         <td>Removes borders <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
@@ -81,43 +81,43 @@ Define content to be `visible` or `hidden`.
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>hide</code></td>
         <td>Hides element <code>display: none;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>show</code></td>
         <td>Shows element <code>display: block;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>visible</code></td>
         <td>Sets <code>visibility: visible;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>hidden</code></td>
         <td>Sets <code>visibility: hidden;</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>hidden-print</code></td>
         <td>Hides element for when <code>@media print</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>visible-print</code></td>
         <td>Shows element for when <code>@media print</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>hidden-screen</code></td>
         <td>Hides element for when <code>@media screen</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>visible-screen</code></td>
         <td>Shows element for when <code>@media screen</code></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>hide-visually</code></td>
         <td>Hide element but keep in DOM for Screen Readers <code>@apply --hide-visually;</code> mixin</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>text-hide</code></td>
         <td>Hides text <code>@apply --text-hide;</code> mixin</td>
       </tr>
@@ -354,19 +354,19 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>display-block</code></td>
         <td>Sets <code>display: block;</code> on element</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>display-inline-block</code></td>
         <td>Sets <code>display: inline-block;</code> on element</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>display-table</code></td>
         <td>Sets <code>display: table;</code> on element</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>display-table-cell</code></td>
         <td>Sets <code>display: table-cell;</code> on element</td>
       </tr>
@@ -871,11 +871,11 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>left</code></td>
         <td>Floats element left</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>right</code></td>
         <td>Floats element right</td>
       </tr>
@@ -1189,31 +1189,31 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>no-margin</code></td>
         <td>Removes margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-vertical</code></td>
         <td>Removes margin top and bottom <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-horizontal</code></td>
         <td>Removes margin left and right <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-top</code></td>
         <td>Removes top margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-right</code></td>
         <td>Removes right margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-bottom</code></td>
         <td>Removes bottom margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-margin-left</code></td>
         <td>Removes left margin <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
@@ -1232,31 +1232,31 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>margin-auto</code></td>
         <td>Adds margin auto</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-vertical-auto</code></td>
         <td>Adds margin auto top and bottom</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-horizontal-auto</code></td>
         <td>Adds margin auto left and right</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-top-auto</code></td>
         <td>Adds top margin auto</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-right-auto</code></td>
         <td>Adds right margin auto</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-bottom-auto</code></td>
         <td>Adds bottom margin auto</td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>margin-left-auto</code></td>
         <td>Adds left margin auto</td>
       </tr>
@@ -1522,31 +1522,31 @@ Utility classes can be used to position elements easily, each position utility c
       </tr>
     </thead>
     <tbody>
-      <tr>  
+      <tr>
         <td><code>no-padding</code></td>
         <td>Removes padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-vertical</code></td>
         <td>Removes padding top and bottom <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-horizontal</code></td>
         <td>Removes padding left and right <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-top</code></td>
         <td>Removes top padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-right</code></td>
         <td>Removes right padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-bottom</code></td>
         <td>Removes bottom padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>
-      <tr>  
+      <tr>
         <td><code>no-padding-left</code></td>
         <td>Removes left padding <small>(Note: <code>!important</code> is used to override specificity issues)</small></td>
       </tr>

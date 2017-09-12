@@ -151,7 +151,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --link-color: currentColor;
 --link-text-decoration: underline;
 --link-hover-color: currentColor;
---link-hover-decoration: underline;
+--link-hover-text-decoration: underline;
 ```
 
 <p><a href="index.html">Link</a></p>
