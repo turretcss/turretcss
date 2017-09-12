@@ -30,7 +30,7 @@ For text and background color utility classes check out the [color](#colors) sec
       </tr>
       <tr>  
         <td><code>cover</code></td>
-        <td>Makes element cover it's container using <code>.cover;</code> mixin</td>
+        <td>Makes element cover its container using <code>.cover;</code> mixin</td>
       </tr>
       <tr>  
         <td><code>circle</code></td>
@@ -389,19 +389,19 @@ Utility classes can be used to position elements easily, each position utility c
     <tbody>
       <tr>
         <td><code>position-top-left</code></td>
-        <td>Positions element to the top left of it's container</td>
+        <td>Positions element to the top left of its container</td>
       </tr>
       <tr>
         <td><code>position-top-right</code></td>
-        <td>Positions element to the top right of it's container</td>
+        <td>Positions element to the top right of its container</td>
       </tr>
       <tr>
         <td><code>position-bottom-left</code></td>
-        <td>Positions element to the bottom left of it's container</td>
+        <td>Positions element to the bottom left of its container</td>
       </tr>
       <tr>
         <td><code>position-bottom-right</code></td>
-        <td>Positions element to the bottom right of it's container</td>
+        <td>Positions element to the bottom right of its container</td>
       </tr>
     </tbody>
   </table>
