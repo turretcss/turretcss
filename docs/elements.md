@@ -836,6 +836,8 @@ By default the media element has the following common media type ratios:
 `media-3-2`
 `media-16-9`
 `media-2-1`
+`media-4-5`
+`media-5-4`
 
 ### Custom Media Ratios
 
