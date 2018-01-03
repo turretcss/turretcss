@@ -24,6 +24,11 @@ textarea {
     color: var(--input-placeholder-color);
     opacity: var(--input-placeholder-opacity);
   }
+  
+  /* Override IE opacity styles as they apply to the full input and not just placeholder text */
+  &:-ms-input-placeholder {
+    opacity: 1;
+  }
 
   &:not(:disabled):hover {
     color: var(--input-hover-color);
