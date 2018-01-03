@@ -68,6 +68,33 @@ For text and background color utility classes check out the [color](#colors) sec
   </table>
 </div>
 
+## Z-Index
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td><code>z-index-low</code></td>
+        <td>Sets <code>z-index: var(--z-index-low);</code> on element</td>
+      </tr>
+      <tr>  
+        <td><code>z-index-medium</code></td>
+        <td>Sets <code>z-index: var(--z-index-medium);</code> on element</td>
+      </tr>
+      <tr>  
+        <td><code>z-index-high</code></td>
+        <td>Sets <code>z-index: var(--z-index-high);</code> on element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Visibility
 
 Define content to be `visible` or `hidden`.

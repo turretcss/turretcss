@@ -96,6 +96,7 @@
 - title: Utilities
   pages:
     - title: Utility Classes
+    - title: Z-Index
     - title: Visibility
     - title: Display
     - title: Overflow
