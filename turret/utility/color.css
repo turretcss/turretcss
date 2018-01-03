@@ -6,6 +6,10 @@
   color: inherit;
 }
 
+.color {
+  color: var(--color);
+}
+
 .color-white {
   color: var(--white);
 }

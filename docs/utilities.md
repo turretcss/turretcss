@@ -2366,6 +2366,12 @@ Utility classes for setting transition all with speed and easing
 <p class="current-color">Current Color</p>
 ```
 
+<p class="color">Color</p>
+
+```html
+<p class="color">Color</p>
+```
+
 <p class="color-white background-black">White</p>
 <p class="color-black">Black</p>
 
@@ -2706,6 +2712,16 @@ Utility classes for setting transition all with speed and easing
     </tbody>
   </table>
 </div>
+
+### Global
+
+<div class="palette">
+  <div class="swatch background">Background</div>
+</div>
+
+```html
+<div class="background">...</div>
+```
 
 ### Colors
 
