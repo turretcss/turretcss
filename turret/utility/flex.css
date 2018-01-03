@@ -17,10 +17,6 @@
   justify-content: space-between;
 }
 
-.flex-inline {
-  display: flex-inline;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
