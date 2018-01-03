@@ -374,6 +374,49 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
   </table>
 </div>
 
+## Overflow
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>overflow-inherit</code></td>
+        <td>Sets <code>overflow: inherit;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-initial</code></td>
+        <td>Sets <code>overflow: initial;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-unset</code></td>
+        <td>Sets <code>overflow: unset;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-hidden</code></td>
+        <td>Sets <code>overflow: hidden;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-visible</code></td>
+        <td>Sets <code>overflow: visible;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-scroll</code></td>
+        <td>Sets <code>overflow: scroll;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>overflow-auto</code></td>
+        <td>Sets <code>overflow: auto;</code> on element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Position
 
 Utility classes can be used to position elements easily, each position utility class is `position: absolute;` with top/right/bottom/left properties
@@ -1911,6 +1954,20 @@ Utility classes for setting transition all with speed and easing
 ```
 
 ## Font Size
+
+### Values
+
+<p class="font-size-inherit">Font Size Inherit</p>
+<p class="font-size-initial">Font Size Initial</p>
+<p class="font-size-unset">Font Size Unset</p>
+
+```html
+<p class="font-size-inherit">...</p>
+<p class="font-size-initial">...</p>
+<p class="font-size-unset">...</p>
+```
+
+### Sizes
 
 <p class="font-size-xl">Font Size Extra Large</p>
 <p class="font-size-l">Font Size Large</p>

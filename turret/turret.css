@@ -156,6 +156,7 @@
 @import './utility/gutter';
 @import './utility/margin';
 @import './utility/max-width';
+@import './utility/overflow';
 @import './utility/padding';
 @import './utility/text';
 @import './utility/stroke';

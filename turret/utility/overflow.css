@@ -1,0 +1,27 @@
+.overflow-inherit {
+  overflow: inherit;
+}
+
+.overflow-initial {
+  overflow: initial;
+}
+
+.overflow-unset {
+  overflow: unset;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-auto {
+  overflow: auto;
+}

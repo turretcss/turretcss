@@ -1,3 +1,15 @@
+.font-size-inherit {
+  font-size: inherit;
+}
+
+.font-size-initial {
+  font-size: initial;
+}
+
+.font-size-unset {
+  font-size: unset;
+}
+
 .font-size-xl {
   font-size: var(--font-size-xl);
 }
