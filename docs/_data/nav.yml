@@ -100,6 +100,7 @@
     - title: Display
     - title: Overflow
     - title: Position
+    - title: Pointer Events
     - title: Transition
     - title: Fill
     - title: Flex

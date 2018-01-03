@@ -450,6 +450,40 @@ Utility classes can be used to position elements easily, each position utility c
   </table>
 </div>
 
+## Pointer Events
+
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>pointer-events-inherit</code></td>
+        <td>Sets <code>pointer-events: inherit;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>pointer-events-initial</code></td>
+        <td>Sets <code>pointer-events: initial;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>pointer-events-unset</code></td>
+        <td>Sets <code>pointer-events: unset;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>pointer-events-none</code></td>
+        <td>Sets <code>pointer-events: none;</code> on element</td>
+      </tr>
+      <tr>
+        <td><code>pointer-events-auto</code></td>
+        <td>Sets <code>pointer-events: auto;</code> on element</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Transition
 
