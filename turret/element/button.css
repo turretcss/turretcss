@@ -50,7 +50,6 @@ button,
     width: var(--button-font-size);
     height: var(--button-font-size);
     fill: currentColor;
-    @apply --transition;
   }
 
   &.error {
