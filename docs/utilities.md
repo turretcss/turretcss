@@ -30,7 +30,7 @@ For text and background color utility classes check out the [color](#colors) sec
       </tr>
       <tr>  
         <td><code>cover</code></td>
-        <td>Makes element cover it's container using <code>.cover;</code> mixin</td>
+        <td>Makes element cover its container using <code>.cover;</code> mixin</td>
       </tr>
       <tr>  
         <td><code>circle</code></td>
