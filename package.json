@@ -45,6 +45,7 @@
     "postcss-import": "^9.1.0"
   },
   "peerDependencies": {
+    "caniuse-db": "^1.0.30000652",
     "caniuse-lite": "^1.0.30000697",
     "postcss-cssnext": "^2.11.0",
     "postcss-import": "^9.1.0"

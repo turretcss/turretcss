@@ -1,3 +1,11 @@
+.palette {
+  
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  }
+}
+
 .palette + .palette {
   margin-top: var(--gutter);
 }
