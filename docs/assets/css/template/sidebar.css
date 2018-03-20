@@ -8,18 +8,11 @@
 
   @media (--m-up) {
     left: 0;
-    border-right: 1px solid var(--light-300);
   }
 
   @media (--s-down) {
     right: 0;
-    border-left: 1px solid var(--light-300);
     transform: translateX(var(--sidebar-width));
     transition: transform 200ms ease-in-out;
-  }
-
-  & .small-caps {
-    margin: 0;
-    padding: 1.5em 1em 0.5em;
   }
 }

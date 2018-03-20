@@ -1,5 +1,4 @@
 .main {
-
   @media (--m-up) {
     padding-left: var(--sidebar-width);
   }

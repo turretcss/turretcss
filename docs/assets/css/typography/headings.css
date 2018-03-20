@@ -2,7 +2,6 @@ h1[id],
 h2[id],
 h3[id],
 h4[id] {
-
   & + h1,
   & + .h1 {
     margin-top: 0;

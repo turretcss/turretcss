@@ -1,11 +1,9 @@
 .boxes {
-
   & .box:not(:last-child) {
     margin-bottom: var(--space-s);
   }
 
   @media (--s-up) {
-    
     @supports (display: grid) {
       display: grid;
       grid-gap: var(--space-s);

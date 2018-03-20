@@ -4,13 +4,11 @@
 
 @import '../../../turret/turret.css';
 
-
 /**
  * Variables
  */
 
 @import './_variables';
-
 
 /**
  * Syntax
@@ -18,13 +16,11 @@
 
 @import './syntax';
 
-
 /**
  * Typography
  */
 
 @import './typography/headings';
-
 
 /**
  * Template
@@ -38,7 +34,6 @@
 @import './template/search';
 @import './template/footer';
 
-
 /**
  * Component
  */
@@ -46,7 +41,6 @@
 @import './component/boxes';
 @import './component/palette';
 @import './component/swatch';
-
 
 /**
  * General
@@ -65,7 +59,6 @@
 }
 
 .home-button {
-
   @media (--s-up) {
     width: 100%;
     max-width: 10rem;
@@ -122,11 +115,8 @@
 }
 
 body {
-
   @media (--s-down) {
-
     &.open {
-
       & .main {
         transform: translateX(calc(var(--sidebar-width) * -1));
       }

@@ -1,11 +1,11 @@
 :root {
   --syntax-base: inherit; /* body text / default code / primary content */
   --syntax-comment: #666666; /* comments / secondary content */
-  --syntax-orange: #FF4500; /* constants */
-  --syntax-red: #AF0046; /* regex, special keywords */
-  --syntax-blue: #3455DB; /* reserved keywords */
-  --syntax-purple: #8B008B; /* strings, numbers */
-  --syntax-green: #00AA00; /* operators, other keywords */
+  --syntax-orange: #ff4500; /* constants */
+  --syntax-red: #af0046; /* regex, special keywords */
+  --syntax-blue: #3455db; /* reserved keywords */
+  --syntax-purple: #8b008b; /* strings, numbers */
+  --syntax-green: #00aa00; /* operators, other keywords */
 }
 
 .highlight {
