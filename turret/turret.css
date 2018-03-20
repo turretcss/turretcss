@@ -159,6 +159,7 @@
 @import './utility/overflow';
 @import './utility/padding';
 @import './utility/pointer-events';
+@import './utility/position';
 @import './utility/text';
 @import './utility/stroke';
 @import './utility/icon';
