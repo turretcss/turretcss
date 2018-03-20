@@ -79,7 +79,7 @@ Default `border-width`, `border-style`, `border-color`, and `border-radius` defi
 --border-width: 1px;
 --border-style: solid;
 --border-color: var(--light);
---border-radius: 2px;
+--border-radius: 0.125em;
 ```
 
 ### Box Shadow
