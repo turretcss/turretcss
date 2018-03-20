@@ -235,7 +235,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --cite-font-size: var(--font-size-s);
 --cite-font-style: normal;
 --cite-color: inherit;
---cite-text-align: left;
+--cite-text-align: inherit;
 ```
 
 ```html

@@ -193,7 +193,7 @@
   --cite-font-size: var(--font-size-s);
   --cite-font-style: normal;
   --cite-color: inherit;
-  --cite-text-align: left;
+  --cite-text-align: inherit;
 
 
   /**
