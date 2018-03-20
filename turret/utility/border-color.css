@@ -1,3 +1,11 @@
+.border-color-current-color {
+  border-color: currentColor;
+}
+
+.border-color-inherit {
+  border-color: inherit;
+}
+
 .border-color-white {
   border-color: var(--white);
 }

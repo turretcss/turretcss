@@ -3195,10 +3195,14 @@ Utility classes for setting transition all with speed and easing
 
 ## Border Color
 
+<div class="swatch border border-color-current-color">Current Color</div>
+<div class="swatch border border-color-inherit">Inherit</div>
 <div class="swatch border border-color-white">White</div>
 <div class="swatch border border-color-black">Black</div>
 
 ```html
+<div class="border border-color-current-color">...</div>
+<div class="border border-color-inherit">...</div>
 <div class="border border-color-white">...</div>
 <div class="border border-color-black">...</div>
 ```
