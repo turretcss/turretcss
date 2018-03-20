@@ -193,7 +193,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 ```scss
 --horizontal-rule-margin: var(--space-s) auto;
 --horizontal-rule-height: var(--border-width);
---horizontal-rule-background: var(--light);
+--horizontal-rule-background: var(--border-color);
 ```
 
 ```html
@@ -332,10 +332,10 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --definition-list-font-size: var(--paragraph-font-size);
 
 --definition-term-margin: 0.5em 0;
---definition-term-font-family: var(--strong-font-family);
---definition-term-font-weight: var(--strong-font-weight);
+--definition-term-font-family: var(--headings-font-family);
+--definition-term-font-weight: var(--headings-font-weight);
 --definition-term-font-size: inherit;
---definition-term-color: var(--paragraph-color);
+--definition-term-color: var(--headings-color);
 
 --definition-description-margin: 0 0 1em 0;
 --definition-description-font-family: var(--paragraph-font-family);
