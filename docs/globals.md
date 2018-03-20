@@ -48,7 +48,7 @@ Default '--gutter' property definition for horizontal container padding.
 Default '.container' width property definition element with responsive breakpoints.
 
 ```scss
---container-xl: 90rem;
+--container-xl: 80rem;
 --container-l: 80rem;
 --container-m: 70rem;
 --container-s: 100%;
