@@ -1,33 +1,29 @@
 :root {
-
-
   /** 
    * Transition
    */
 
   --transition: {
     transition: all var(--speed) ease-in-out;
-  };
+  }
 
   --transition-fast: {
     transition: all var(--speed-fast) ease-in-out;
-  };
+  }
 
   --transition-medium: {
     transition: all var(--speed-medium) ease-in-out;
-  };
+  }
 
   --transition-slow: {
     transition: all var(--speed-slow) ease-in-out;
-  };
-
+  }
 
   /** 
    * Clearfix
    */
-  
-  --clearfix: {
 
+  --clearfix: {
     &::before,
     &::after {
       content: '';
@@ -41,7 +37,6 @@
     *zoom: 1;
   }
 
-
   /** 
    * Center
    */
@@ -52,7 +47,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
 
   /** 
    * Cover
@@ -68,19 +62,17 @@
     height: 100%;
   }
 
-
   /** 
    * Text Hide
    */
 
   --text-hide: {
-    font: ~"0/0" a;
+    font: ~'0/0' a;
     color: transparent;
     text-shadow: none;
     background-color: transparent;
     border: 0;
   }
-
 
   /** 
    * Hide Visually
@@ -98,7 +90,6 @@
     clip: rect(0 0 0 0);
   }
 
-
   /**
    * Truncate
    */
@@ -109,7 +100,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
-
 
   /**
    * Font Smoothing
@@ -124,7 +114,6 @@
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
-
 
   /**
    * Overflow Scroll
@@ -145,7 +134,6 @@
     -webkit-overflow-scrolling: touch;
   }
 
-
   /**
    * Display Title
    */
@@ -161,7 +149,6 @@
     letter-spacing: var(--display-title-letter-spacing);
   }
 
-
   /**
    * Big
    */
@@ -173,7 +160,6 @@
     font-size: calc(var(--big-base-size) + (var(--big-max-size) - var(--big-min-size)) * ((100vw - var(--big-base-width)) / (var(--big-max-width) - var(--big-min-width))));
     line-height: var(--big-line-height);
   }
-
 
   /**
    * Small Caps
@@ -188,7 +174,6 @@
     text-transform: var(--small-caps-text-transform);
     letter-spacing: var(--small-caps-letter-spacing);
   }
-
 
   /**
    * Lead

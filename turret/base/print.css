@@ -4,7 +4,6 @@
 }
 
 @media print {
-
   *,
   *::before,
   *::after {
@@ -23,7 +22,7 @@
     content: attr(href);
   }
 
-  a[href^="#"]:after {
+  a[href^='#']:after {
     content: '';
   }
 

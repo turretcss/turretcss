@@ -1,6 +1,4 @@
 :root {
-
-
   /**
    * Media Queries
    */
@@ -17,7 +15,6 @@
   @custom-media --l-down (max-width: 1679px);
   @custom-media --xl (min-width: 1680px);
 
-
   /**
    * Root
    */
@@ -29,7 +26,6 @@
   --root-size-s: var(--root-size);
   --root-size-xs: var(--root-size);
 
-
   /**
    * Focus Outline
    */
@@ -37,13 +33,11 @@
   --focus-outline: var(--border-width) solid var(--info);
   --focus-outline-offset: var(--border-width);
 
-
   /**
    * Gutter
    */
 
   --gutter: var(--space-xs);
-
 
   /**
    * Container
@@ -55,20 +49,17 @@
   --container-s: 100%;
   --container-xs: 100%;
 
-
   /**
    * Color
    */
 
   --color: var(--dark);
 
-
   /**
    * Background
    */
 
   --background: var(--white);
-
 
   /**
    * Border
@@ -79,7 +70,6 @@
   --border-color: var(--light);
   --border-radius: 0.125em;
 
-
   /**
    * Box Shadow
    */
@@ -89,7 +79,6 @@
   --focus-box-shadow: none;
   --active-box-shadow: none;
 
-
   /**
    * Z-Index
    */
@@ -97,7 +86,6 @@
   --z-index-high: 999;
   --z-index-medium: 99;
   --z-index-low: 9;
-
 
   /**
    * Speed
@@ -107,7 +95,6 @@
   --speed-fast: 200ms;
   --speed-medium: 300ms;
   --speed-slow: 500ms;
-
 
   /**
    * Height
@@ -119,7 +106,6 @@
   --height-s: 2.5rem;
   --height-xs: 2rem;
 
-
   /**
    * Space
    */
@@ -129,7 +115,6 @@
   --space-m: 2rem;
   --space-s: 1.5rem;
   --space-xs: 1rem;
-
 
   /**
    * Margin
@@ -141,7 +126,6 @@
   --margin-s: var(--space-s);
   --margin-xs: var(--space-xs);
 
-
   /**
    * Padding
    */
@@ -151,7 +135,6 @@
   --padding-m: var(--space-m);
   --padding-s: var(--space-s);
   --padding-xs: var(--space-xs);
-
 
   /**
    * Max Width
@@ -168,11 +151,10 @@
    */
 
   --font-family: var(--font-family-system);
-  --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-family-serif: Georgia, "Times New Roman", Times, serif;
-  --font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
-
+  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-serif: Georgia, 'Times New Roman', Times, serif;
+  --font-family-monospace: Monaco, Menlo, Consolas, 'Courier New', monospace;
 
   /**
    * Font Weights
@@ -187,7 +169,6 @@
   --font-weight-bold: 700;
   --font-weight-black: 800;
 
-
   /**
    * Font Sizes
    */
@@ -197,7 +178,6 @@
   --font-size-m: 1rem;
   --font-size-s: 0.875rem;
   --font-size-xs: 0.75rem;
-
 
   /**
    * Line height
@@ -210,7 +190,6 @@
   --line-height-s: 1.35;
   --line-height-xs: 1.2;
 
-
   /**
    * Letter Spacing
    */
@@ -221,5 +200,4 @@
   --letter-spacing-m: 0.05em;
   --letter-spacing-s: 0.025em;
   --letter-spacing-xs: 0.01em;
-
 }

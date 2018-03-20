@@ -22,8 +22,7 @@
   font-size: var(--input-xs-font-size);
 }
 
-input[type="color"] {
-
+input[type='color'] {
   &.input-xl {
     width: var(--input-xl-height);
   }

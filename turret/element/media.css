@@ -4,7 +4,7 @@
   overflow: hidden;
   background: var(--media-background);
   border-radius: var(--media-border-radius);
-  
+
   & > svg,
   & > img,
   & > video,

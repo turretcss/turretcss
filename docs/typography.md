@@ -256,7 +256,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --list-item-margin: 0.5em 0 0.5em 1.5em;
 --list-item-padding: 0 0 0 0.5em;
 
---child-list-margin:  0.5em 0 0.5em 0;
+--child-list-margin: 0.5em 0 0.5em 0;
 --child-list-padding: 0;
 --child-list-item-margin: var(--list-item-margin);
 --child-list-item-padding: var(--list-item-padding);

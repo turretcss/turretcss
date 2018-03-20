@@ -1,5 +1,4 @@
 :root {
-  
   --progress-bar: {
     background: var(--progress-background);
     border-width: var(--progress-border-width);
@@ -55,7 +54,6 @@ progress[value] {
 }
 
 @-moz-document url-prefix() {
-  
   progress[value] {
     @apply --progress-bar;
 

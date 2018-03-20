@@ -12,7 +12,6 @@ select.select-l {
   font-size: var(--select-l-font-size);
 }
 
-
 .select-s select,
 select.select-s {
   padding: var(--select-s-padding);

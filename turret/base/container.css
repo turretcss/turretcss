@@ -15,7 +15,7 @@
   @media (--m) {
     max-width: var(--container-m);
   }
-  
+
   @media (--s) {
     max-width: var(--container-s);
   }

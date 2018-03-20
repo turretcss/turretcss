@@ -9,7 +9,7 @@
   & span {
     vertical-align: middle;
   }
-  
+
   & svg {
     display: inline-block;
     width: var(--icon-size);

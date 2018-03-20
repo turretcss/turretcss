@@ -1,27 +1,24 @@
 :root {
-
-
   /**
    * Color
    */
-  
+
   /* White */
-  --white: #FFFFFF;
+  --white: #ffffff;
   --white-hover: color(var(--white) shade(5%));
   --white-active: color(var(--white) shade(10%));
-  
+
   /* Black */
   --black: #000000;
   --black-hover: color(var(--black) tint(20%));
   --black-active: color(var(--black) tint(10%));
 
-
   /**
    * Shades
    */
-  
+
   /* Light */
-  --light: #D3D3D9;
+  --light: #d3d3d9;
   --light-hover: var(--light-400);
   --light-active: var(--light-600);
   --light-50: color(var(--light-100) tint(30%));
@@ -34,7 +31,7 @@
   --light-700: color(var(--light-600) shade(10%));
   --light-800: color(var(--light-700) shade(15%));
   --light-900: color(var(--light-800) shade(20%));
-  
+
   /* Grey */
   --grey: #616166;
   --grey-hover: var(--grey-400);
@@ -49,7 +46,7 @@
   --grey-700: color(var(--grey-600) shade(10%));
   --grey-800: color(var(--grey-700) shade(15%));
   --grey-900: color(var(--grey-800) shade(20%));
-  
+
   /* Dark */
   --dark: #323236;
   --dark-hover: var(--dark-400);
@@ -64,14 +61,13 @@
   --dark-700: color(var(--dark-600) shade(10%));
   --dark-800: color(var(--dark-700) shade(15%));
   --dark-900: color(var(--dark-800) shade(20%));
-  
 
   /**
    * Palette
    */
-  
+
   /* Primary */
-  --primary: #3455DB;
+  --primary: #3455db;
   --primary-hover: var(--primary-400);
   --primary-active: var(--primary-600);
   --primary-50: color(var(--primary-100) tint(60%) saturation(+50%));
@@ -101,7 +97,7 @@
   --secondary-900: color(var(--secondary-800) shade(30%) saturation(+30%));
 
   /* Tertiary */
-  --tertiary: #8B008B;
+  --tertiary: #8b008b;
   --tertiary-hover: var(--tertiary-400);
   --tertiary-active: var(--tertiary-600);
   --tertiary-50: color(var(--tertiary-100) tint(60%) saturation(+50%));
@@ -115,13 +111,12 @@
   --tertiary-800: color(var(--tertiary-700) shade(25%) saturation(+25%));
   --tertiary-900: color(var(--tertiary-800) shade(30%) saturation(+30%));
 
-
   /**
    * Indicators
    */
-  
+
   /* Info */
-  --info: #1E90FF;
+  --info: #1e90ff;
   --info-hover: var(--info-400);
   --info-active: var(--info-600);
   --info-50: color(var(--info-100) tint(60%) saturation(+50%));
@@ -136,7 +131,7 @@
   --info-900: color(var(--info-800) shade(30%) saturation(+30%));
 
   /* Error */
-  --error: #D91E18;
+  --error: #d91e18;
   --error-hover: var(--error-400);
   --error-active: var(--error-600);
   --error-50: color(var(--error-100) tint(60%) saturation(+50%));
@@ -151,7 +146,7 @@
   --error-900: color(var(--error-800) shade(30%) saturation(+30%));
 
   /* Warning */
-  --warning: #FF4500;
+  --warning: #ff4500;
   --warning-hover: var(--warning-400);
   --warning-active: var(--warning-600);
   --warning-50: color(var(--warning-100) tint(60%) saturation(+50%));
@@ -166,7 +161,7 @@
   --warning-900: color(var(--warning-800) shade(30%) saturation(+30%));
 
   /* Success */
-  --success: #00AA00;
+  --success: #00aa00;
   --success-hover: var(--success-400);
   --success-active: var(--success-600);
   --success-50: color(var(--success-100) tint(60%) saturation(+50%));
@@ -179,6 +174,4 @@
   --success-700: color(var(--success-600) shade(20%) saturation(+20%));
   --success-800: color(var(--success-700) shade(25%) saturation(+25%));
   --success-900: color(var(--success-800) shade(30%) saturation(+30%));
-
-
 }

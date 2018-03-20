@@ -19,12 +19,12 @@ textarea {
   border-radius: var(--input-border-radius);
   box-shadow: var(--input-box-shadow);
   @apply --transition;
-  
+
   &::placeholder {
     color: var(--input-placeholder-color);
     opacity: var(--input-placeholder-opacity);
   }
-  
+
   /* Override IE opacity styles as they apply to the full input and not just placeholder text */
   &:-ms-input-placeholder {
     opacity: 1;
@@ -72,12 +72,12 @@ textarea {
   }
 }
 
-input[type="search"] {
-  appearance: none; 
+input[type='search'] {
+  appearance: none;
   box-sizing: border-box;
 }
 
-input[type="file"] {
+input[type='file'] {
   padding: 0 !important;
   height: auto !important;
   font-size: 0.7em !important;
@@ -87,8 +87,8 @@ input[type="file"] {
   box-shadow: none !important;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   display: inline-block;
   margin-right: 10px;
   width: auto;
@@ -105,15 +105,15 @@ input[type="radio"] {
   }
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   appearance: checkbox;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   appearance: radio;
 }
 
-input[type="color"] {
+input[type='color'] {
   display: inline-block;
   margin: 0;
   padding: 0;

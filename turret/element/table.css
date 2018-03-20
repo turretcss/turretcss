@@ -76,7 +76,6 @@ td {
       }
 
       & tr:first-child {
-
         > th,
         > td {
           border-top: none;
@@ -84,7 +83,6 @@ td {
       }
 
       & tr:last-child {
-
         > th,
         > td {
           border-bottom: none;
