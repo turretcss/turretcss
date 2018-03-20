@@ -250,10 +250,10 @@
    */
 
   --definition-term-margin: 0.5em 0;
-  --definition-term-font-family: var(--strong-font-family);
-  --definition-term-font-weight: var(--strong-font-weight);
+  --definition-term-font-family: var(--headings-font-family);
+  --definition-term-font-weight: var(--headings-font-weight);
   --definition-term-font-size: inherit;
-  --definition-term-color: var(--paragraph-color);
+  --definition-term-color: var(--headings-color);
 
 
   /** 
