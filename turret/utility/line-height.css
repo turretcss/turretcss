@@ -1,3 +1,7 @@
+.line-height-1 {
+  line-height: 1;
+}
+
 .line-height-xl {
   line-height: var(--line-height-xl);
 }

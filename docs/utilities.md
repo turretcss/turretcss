@@ -2051,6 +2051,7 @@ Utility classes for setting transition all with speed and easing
 <p class="line-height-m">Line Height Medium</p>
 <p class="line-height-s">Line Height Small</p>
 <p class="line-height-xs">Line Height Extra Small</p>
+<p class="line-height-1">Line Height 1</p>
 
 ```html
 <p class="line-height-xl">...</p>
@@ -2058,6 +2059,7 @@ Utility classes for setting transition all with speed and easing
 <p class="line-height-m">...</p>
 <p class="line-height-s">...</p>
 <p class="line-height-xs">...</p>
+<p class="line-height-1">...</p>
 ```
 
 ## Letter Spacing
