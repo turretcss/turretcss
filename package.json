@@ -1,6 +1,6 @@
 {
   "name": "turretcss",
-  "version": "4.0.4",
+  "version": "4.1.0",
   "description": "Developed for design. turretcss is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.",
   "homepage": "http://turretcss.com/",
   "author": "Bigfish.tv",
@@ -35,16 +35,21 @@
     "start": "npm run watch",
     "watch": "npm run docs -- -w",
     "build": "postcss turret/turret.css -o dist/turretcss.min.css",
-    "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css"
+    "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css",
+    "format": "prettier --single-quote --print-width 180 --write '*.css'"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "postcss-cli": "^3.0.0-beta",
-    "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^8.1.2"
+    "postcss": "^6.0.20",
+    "postcss-cli": "^3.2.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^9.1.0",
+    "prettier": "^1.11.1"
   },
   "peerDependencies": {
-    "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^8.1.2"
+    "caniuse-db": "^1.0.30000652",
+    "caniuse-lite": "^1.0.30000697",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^9.1.0"
   }
 }

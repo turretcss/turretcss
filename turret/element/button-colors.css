@@ -2,7 +2,7 @@
   color: var(--button-white-color);
   background: var(--white);
   border-color: var(--white);
-  
+
   &.button-border {
     color: var(--white);
     background: transparent;
@@ -26,7 +26,7 @@
   color: var(--button-light-color);
   background: var(--light);
   border-color: var(--light);
-  
+
   &.button-border {
     color: var(--light);
     background: transparent;
@@ -50,7 +50,7 @@
   color: var(--button-grey-color);
   background: var(--grey);
   border-color: var(--grey);
-  
+
   &.button-border {
     color: var(--grey);
     background: transparent;
@@ -74,7 +74,7 @@
   color: var(--button-dark-color);
   background: var(--dark);
   border-color: var(--dark);
-  
+
   &.button-border {
     color: var(--dark);
     background: transparent;
@@ -98,7 +98,7 @@
   color: var(--button-black-color);
   background: var(--black);
   border-color: var(--black);
-  
+
   &.button-border {
     color: var(--black);
     background: transparent;
@@ -122,7 +122,7 @@
   color: var(--button-primary-color);
   background: var(--primary);
   border-color: var(--primary);
-  
+
   &.button-border {
     color: var(--primary);
     background: transparent;
@@ -146,7 +146,7 @@
   color: var(--button-secondary-color);
   background: var(--secondary);
   border-color: var(--secondary);
-  
+
   &.button-border {
     color: var(--secondary);
     background: transparent;
@@ -170,7 +170,7 @@
   color: var(--button-tertiary-color);
   background: var(--tertiary);
   border-color: var(--tertiary);
-  
+
   &.button-border {
     color: var(--tertiary);
     background: transparent;

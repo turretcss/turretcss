@@ -45,12 +45,11 @@ button,
     width: 1em;
     height: 1em;
   }
-  
+
   & svg {
     width: var(--button-font-size);
     height: var(--button-font-size);
     fill: currentColor;
-    @apply --transition;
   }
 
   &.error {
@@ -156,7 +155,7 @@ button:disabled {
 }
 
 /* iOS "clickable elements" fix for role="button" */
-[role="button"] {
+[role='button'] {
   cursor: pointer;
 }
 

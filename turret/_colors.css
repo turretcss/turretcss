@@ -1,0 +1,177 @@
+:root {
+  /**
+   * Color
+   */
+
+  /* White */
+  --white: hsl(220, 10%, 100%);
+  --white-hover: color(var(--white) shade(5%));
+  --white-active: color(var(--white) shade(10%));
+
+  /* Black */
+  --black: hsl(220, 10%, 0%);
+  --black-hover: color(var(--black) tint(20%));
+  --black-active: color(var(--black) tint(10%));
+
+  /**
+   * Shades
+   */
+
+  /* Light */
+  --light: hsl(220, 10%, 80%);
+  --light-hover: var(--light-400);
+  --light-active: var(--light-600);
+  --light-50: color(var(--light-100) tint(50%));
+  --light-100: color(var(--light-200) tint(40%));
+  --light-200: color(var(--light-300) tint(30%));
+  --light-300: color(var(--light-400) tint(20%));
+  --light-400: color(var(--light) tint(10%));
+  --light-500: var(--light);
+  --light-600: color(var(--light) shade(5%));
+  --light-700: color(var(--light-600) shade(10%));
+  --light-800: color(var(--light-700) shade(15%));
+  --light-900: color(var(--light-800) shade(20%));
+
+  /* Grey */
+  --grey: hsl(220, 10%, 40%);
+  --grey-hover: var(--grey-400);
+  --grey-active: var(--grey-600);
+  --grey-50: color(var(--grey-100) tint(30%));
+  --grey-100: color(var(--grey-200) tint(25%));
+  --grey-200: color(var(--grey-300) tint(20%));
+  --grey-300: color(var(--grey-400) tint(15%));
+  --grey-400: color(var(--grey) tint(10%));
+  --grey-500: var(--grey);
+  --grey-600: color(var(--grey) shade(5%));
+  --grey-700: color(var(--grey-600) shade(10%));
+  --grey-800: color(var(--grey-700) shade(15%));
+  --grey-900: color(var(--grey-800) shade(20%));
+
+  /* Dark */
+  --dark: hsl(220, 10%, 20%);
+  --dark-hover: var(--dark-400);
+  --dark-active: var(--dark-600);
+  --dark-50: color(var(--dark-100) tint(30%));
+  --dark-100: color(var(--dark-200) tint(25%));
+  --dark-200: color(var(--dark-300) tint(20%));
+  --dark-300: color(var(--dark-400) tint(15%));
+  --dark-400: color(var(--dark) tint(10%));
+  --dark-500: var(--dark);
+  --dark-600: color(var(--dark) shade(5%));
+  --dark-700: color(var(--dark-600) shade(10%));
+  --dark-800: color(var(--dark-700) shade(15%));
+  --dark-900: color(var(--dark-800) shade(20%));
+
+  /**
+   * Palette
+   */
+
+  /* Primary */
+  --primary: hsl(220, 80%, 50%);
+  --primary-hover: var(--primary-400);
+  --primary-active: var(--primary-600);
+  --primary-50: color(var(--primary-100) tint(60%) saturation(+50%));
+  --primary-100: color(var(--primary-200) tint(40%) saturation(+40%));
+  --primary-200: color(var(--primary-300) tint(30%) saturation(+30%));
+  --primary-300: color(var(--primary-400) tint(20%) saturation(+20%));
+  --primary-400: color(var(--primary) tint(10%) saturation(+10%));
+  --primary-500: var(--primary);
+  --primary-600: color(var(--primary) shade(15%) saturation(+15%));
+  --primary-700: color(var(--primary-600) shade(20%) saturation(+20%));
+  --primary-800: color(var(--primary-700) shade(25%) saturation(+25%));
+  --primary-900: color(var(--primary-800) shade(30%) saturation(+30%));
+
+  /* Secondary */
+  --secondary: hsl(270, 80%, 50%);
+  --secondary-hover: var(--secondary-400);
+  --secondary-active: var(--secondary-600);
+  --secondary-50: color(var(--secondary-100) tint(60%) saturation(+50%));
+  --secondary-100: color(var(--secondary-200) tint(50%) saturation(+40%));
+  --secondary-200: color(var(--secondary-300) tint(30%) saturation(+30%));
+  --secondary-300: color(var(--secondary-400) tint(20%) saturation(+20%));
+  --secondary-400: color(var(--secondary) tint(10%) saturation(+10%));
+  --secondary-500: var(--secondary);
+  --secondary-600: color(var(--secondary) shade(15%) saturation(+15%));
+  --secondary-700: color(var(--secondary-600) shade(20%) saturation(+20%));
+  --secondary-800: color(var(--secondary-700) shade(25%) saturation(+25%));
+  --secondary-900: color(var(--secondary-800) shade(30%) saturation(+30%));
+
+  /* Tertiary */
+  --tertiary: hsl(315, 80%, 50%);
+  --tertiary-hover: var(--tertiary-400);
+  --tertiary-active: var(--tertiary-600);
+  --tertiary-50: color(var(--tertiary-100) tint(60%) saturation(+50%));
+  --tertiary-100: color(var(--tertiary-200) tint(50%) saturation(+40%));
+  --tertiary-200: color(var(--tertiary-300) tint(30%) saturation(+30%));
+  --tertiary-300: color(var(--tertiary-400) tint(20%) saturation(+20%));
+  --tertiary-400: color(var(--tertiary) tint(10%) saturation(+10%));
+  --tertiary-500: var(--tertiary);
+  --tertiary-600: color(var(--tertiary) shade(15%) saturation(+15%));
+  --tertiary-700: color(var(--tertiary-600) shade(20%) saturation(+20%));
+  --tertiary-800: color(var(--tertiary-700) shade(25%) saturation(+25%));
+  --tertiary-900: color(var(--tertiary-800) shade(30%) saturation(+30%));
+
+  /**
+   * Indicators
+   */
+
+  /* Info */
+  --info: hsl(200, 100%, 40%);
+  --info-hover: var(--info-400);
+  --info-active: var(--info-600);
+  --info-50: color(var(--info-100) tint(60%) saturation(+50%));
+  --info-100: color(var(--info-200) tint(50%) saturation(+40%));
+  --info-200: color(var(--info-300) tint(30%) saturation(+30%));
+  --info-300: color(var(--info-400) tint(20%) saturation(+20%));
+  --info-400: color(var(--info) tint(10%) saturation(+10%));
+  --info-500: var(--info);
+  --info-600: color(var(--info) shade(15%) saturation(+15%));
+  --info-700: color(var(--info-600) shade(20%) saturation(+20%));
+  --info-800: color(var(--info-700) shade(25%) saturation(+25%));
+  --info-900: color(var(--info-800) shade(30%) saturation(+30%));
+
+  /* Error */
+  --error: hsl(0, 100%, 40%);
+  --error-hover: var(--error-400);
+  --error-active: var(--error-600);
+  --error-50: color(var(--error-100) tint(60%) saturation(+50%));
+  --error-100: color(var(--error-200) tint(50%) saturation(+40%));
+  --error-200: color(var(--error-300) tint(30%) saturation(+30%));
+  --error-300: color(var(--error-400) tint(20%) saturation(+20%));
+  --error-400: color(var(--error) tint(10%) saturation(+10%));
+  --error-500: var(--error);
+  --error-600: color(var(--error) shade(15%) saturation(+15%));
+  --error-700: color(var(--error-600) shade(20%) saturation(+20%));
+  --error-800: color(var(--error-700) shade(25%) saturation(+25%));
+  --error-900: color(var(--error-800) shade(30%) saturation(+30%));
+
+  /* Warning */
+  --warning: hsl(20, 100%, 50%);
+  --warning-hover: var(--warning-400);
+  --warning-active: var(--warning-600);
+  --warning-50: color(var(--warning-100) tint(60%) saturation(+50%));
+  --warning-100: color(var(--warning-200) tint(50%) saturation(+40%));
+  --warning-200: color(var(--warning-300) tint(30%) saturation(+30%));
+  --warning-300: color(var(--warning-400) tint(20%) saturation(+20%));
+  --warning-400: color(var(--warning) tint(10%) saturation(+10%));
+  --warning-500: var(--warning);
+  --warning-600: color(var(--warning) shade(15%) saturation(+15%));
+  --warning-700: color(var(--warning-600) shade(20%) saturation(+20%));
+  --warning-800: color(var(--warning-700) shade(25%) saturation(+25%));
+  --warning-900: color(var(--warning-800) shade(30%) saturation(+30%));
+
+  /* Success */
+  --success: hsl(120, 100%, 35%);
+  --success-hover: var(--success-400);
+  --success-active: var(--success-600);
+  --success-50: color(var(--success-100) tint(60%) saturation(+50%));
+  --success-100: color(var(--success-200) tint(50%) saturation(+40%));
+  --success-200: color(var(--success-300) tint(30%) saturation(+30%));
+  --success-300: color(var(--success-400) tint(20%) saturation(+20%));
+  --success-400: color(var(--success) tint(10%) saturation(+10%));
+  --success-500: var(--success);
+  --success-600: color(var(--success) shade(15%) saturation(+15%));
+  --success-700: color(var(--success-600) shade(20%) saturation(+20%));
+  --success-800: color(var(--success-700) shade(25%) saturation(+25%));
+  --success-900: color(var(--success-800) shade(30%) saturation(+30%));
+}

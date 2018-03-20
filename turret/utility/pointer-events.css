@@ -1,0 +1,19 @@
+.pointer-events-inherit {
+  pointer-events: inherit;
+}
+
+.pointer-events-initial {
+  pointer-events: initial;
+}
+
+.pointer-events-unset {
+  pointer-events: unset;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}

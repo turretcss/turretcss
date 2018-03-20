@@ -1,5 +1,5 @@
 /*!
- * turretcss v4.0.4
+ * turretcss v4.1.0
  * http://turretcss.com
  *
  * Licensed under the MIT license.
@@ -9,13 +9,17 @@
  * http://www.bigfish.tv
  */
 
-
 /**
  * Normalize
  */
 
 @import './lib/normalize';
 
+/**
+ * Colors
+ */
+
+@import './_colors';
 
 /**
  * Globals
@@ -23,21 +27,17 @@
 
 @import './_globals';
 
-
-
 /**
  * Variables
  */
 
 @import './_variables';
 
-
 /**
  * Mixins
  */
 
 @import './_mixins';
-
 
 /**
  * Base
@@ -49,20 +49,17 @@
 @import './base/container';
 @import './base/print';
 
-
 /**
  * Accessibility
  */
 
 @import './accessibility/screen-reader';
 
-
 /**
  * Animation
  */
 
 @import './animation/spin';
-
 
 /**
  * Typography
@@ -87,7 +84,6 @@
 @import './typography/kbd';
 @import './typography/mark';
 
-
 /**
  * Form
  */
@@ -110,7 +106,6 @@
 @import './form/progress';
 @import './form/progress-sizes';
 
-
 /**
  * Element
  */
@@ -118,13 +113,13 @@
 @import './element/button';
 @import './element/button-sizes';
 @import './element/button-colors';
+@import './element/button-icon';
 @import './element/button-group';
 @import './element/figure';
 @import './element/media';
 @import './element/nav';
 @import './element/spinner';
 @import './element/table';
-
 
 /**
  * Utility
@@ -147,8 +142,14 @@
 @import './utility/gutter';
 @import './utility/margin';
 @import './utility/max-width';
+@import './utility/overflow';
 @import './utility/padding';
+@import './utility/pointer-events';
+@import './utility/position';
 @import './utility/text';
 @import './utility/stroke';
+@import './utility/icon';
+@import './utility/transition';
 @import './utility/utility';
 @import './utility/visibility';
+@import './utility/z-index';

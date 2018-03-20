@@ -1,23 +1,4 @@
 :root {
-
-
-  /**
-   * Media Queries
-   */
-
-  @custom-media --xs (max-width: 767px);
-  @custom-media --s (min-width: 768px) and (max-width: 1023px);
-  @custom-media --s-up (min-width: 768px);
-  @custom-media --s-down (max-width: 1023px);
-  @custom-media --m (min-width: 1024px) and (max-width: 1279px);
-  @custom-media --m-up (min-width: 1024px);
-  @custom-media --m-down (max-width: 1279px);
-  @custom-media --l (min-width: 1280px) and (max-width: 1679px);
-  @custom-media --l-up (min-width: 1280px);
-  @custom-media --l-down (max-width: 1679px);
-  @custom-media --xl (min-width: 1680px);
-
-
   /**
    * Body
    */
@@ -29,6 +10,16 @@
   --body-letter-spacing: var(--letter-spacing);
   --body-background: var(--background);
 
+  /**
+   * Icon
+   */
+
+  --icon-size: var(--icon-m-size);
+  --icon-xl-size: 2rem;
+  --icon-l-size: 1.75rem;
+  --icon-m-size: 1.5rem;
+  --icon-s-size: 1.25rem;
+  --icon-xs-size: 1rem;
 
   /**
    * Print
@@ -36,7 +27,6 @@
 
   --print-page-size: A4;
   --print-page-margin: 1.5cm 2cm;
-
 
   /**
    * Headings
@@ -50,7 +40,6 @@
   --headings-text-transform: none;
   --headings-letter-spacing: var(--letter-spacing);
 
-
   /**
    * Headings Small
    */
@@ -60,23 +49,21 @@
   --headings-small-size: 0.6em;
   --headings-small-color: inherit;
 
-
   /**
    * Heading Font Sizes
    */
 
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 2.0rem;
-  --h3-font-size: 1.5rem;
-  --h4-font-size: 1.25rem;
-  --h5-font-size: 1.125rem;
-  --h6-font-size: 1rem;
-
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --h4-font-size: 1.125rem;
+  --h5-font-size: 1rem;
+  --h6-font-size: 0.875rem;
 
   /**
    * Display Title
    */
-  
+
   --display-title-margin: 0;
   --display-title-font-family: var(--headings-font-family);
   --display-title-font-weight: var(--headings-font-weight);
@@ -85,12 +72,11 @@
   --display-title-line-height: var(--line-height-xs);
   --display-title-text-transform: uppercase;
   --display-title-letter-spacing: var(--letter-spacing-m);
-  
 
   /**
    * Big
    */
-  
+
   --big-margin: 0.5em 0;
   --big-font-family: var(--headings-font-family);
   --big-font-weight: var(--headings-font-weight);
@@ -102,11 +88,10 @@
   --big-min-width: 320;
   --big-max-width: 960;
 
-
   /**
    * Small Caps
    */
-  
+
   --small-caps-margin: 1em 0;
   --small-caps-font-family: var(--headings-font-family);
   --small-caps-font-weight: var(--headings-font-weight);
@@ -114,7 +99,6 @@
   --small-caps-line-height: var(--line-height-xs);
   --small-caps-text-transform: uppercase;
   --small-caps-letter-spacing: var(--letter-spacing);
-
 
   /**
    * Lead
@@ -127,7 +111,6 @@
   --lead-color: inherit;
   --lead-line-height: var(--line-height-m);
 
-
   /**
    * Paragraph
    */
@@ -139,7 +122,6 @@
   --paragraph-color: inherit;
   --paragraph-line-height: var(--line-height-m);
 
-
   /**
    * Link
    */
@@ -149,7 +131,6 @@
   --link-hover-color: currentColor;
   --link-hover-text-decoration: underline;
 
-
   /**
    * Strong
    */
@@ -158,22 +139,19 @@
   --strong-font-weight: var(--font-weight-bold);
   --strong-color: inherit;
 
-
   /**
    * Emphasis
    */
 
   --emphasis-font-style: italic;
 
-
   /**
    * Horizontal Rule
    */
 
-  --horizontal-rule-margin: var(--margin-s) auto;
+  --horizontal-rule-margin: var(--space-s) auto;
   --horizontal-rule-height: var(--border-width);
-  --horizontal-rule-background: var(--light);
-
+  --horizontal-rule-background: var(--border-color);
 
   /**
    * Blockquote
@@ -188,7 +166,6 @@
   --blockquote-line-height: var(--lead-line-height);
   --blockquote-color: var(--lead-color);
 
-
   /**
    * Cite
    */
@@ -199,8 +176,7 @@
   --cite-font-size: var(--font-size-s);
   --cite-font-style: normal;
   --cite-color: inherit;
-  --cite-text-align: left;
-
+  --cite-text-align: inherit;
 
   /**
    * List
@@ -214,7 +190,6 @@
   --list-color: var(--paragraph-color);
   --list-line-height: var(--paragraph-line-height);
 
-
   /**
    * List Item
    */
@@ -222,16 +197,14 @@
   --list-item-margin: 0.5em 0 0.5em 1.5em;
   --list-item-padding: 0 0 0 0.5em;
 
-
   /**
    * Child List
    */
 
-  --child-list-margin:  0.5em 0 0.5em 0;
+  --child-list-margin: 0.5em 0 0.5em 0;
   --child-list-padding: 0;
   --child-list-item-margin: var(--list-item-margin);
   --child-list-item-padding: var(--list-item-padding);
-
 
   /**
    * Unordered List
@@ -239,7 +212,6 @@
 
   --unordered-list-icon: disc;
   --unordered-child-list-icon: disc;
-
 
   /** 
    * Definition List
@@ -249,17 +221,15 @@
   --definition-list-padding: 0;
   --definition-list-font-size: var(--paragraph-font-size);
 
-
   /** 
    * Definition Term
    */
 
   --definition-term-margin: 0.5em 0;
-  --definition-term-font-family: var(--strong-font-family);
-  --definition-term-font-weight: var(--strong-font-weight);
+  --definition-term-font-family: var(--headings-font-family);
+  --definition-term-font-weight: var(--headings-font-weight);
   --definition-term-font-size: inherit;
-  --definition-term-color: var(--paragraph-color);
-
+  --definition-term-color: var(--headings-color);
 
   /** 
    * Definition Description
@@ -271,7 +241,6 @@
   --definition-description-font-size: inherit;
   --definition-description-color: var(--paragraph-color);
 
-
   /**
    * Code
    */
@@ -280,7 +249,6 @@
   --code-font-weight: normal;
   --code-font-size: 80%;
   --code-color: var(--secondary);
-
 
   /** 
    * Pre
@@ -295,14 +263,13 @@
   --pre-tab-size: 4;
   --pre-hyphens: none;
   --pre-line-height: var(--line-height-m);
-  --pre-background: var(--light-100);
+  --pre-background: var(--light-50);
   --pre-border-width: var(--border-width);
   --pre-border-style: var(--border-style);
   --pre-border-color: var(--border-color);
   --pre-border-radius: var(--border-radius);
 
   --pre-code-color: var(--code-color);
-
 
   /**
    * Kbd
@@ -320,7 +287,6 @@
   --kbd-border-color: var(--pre-border-color);
   --kbd-border-radius: var(--pre-border-radius);
 
-
   /**
    * Mark
    */
@@ -333,7 +299,6 @@
   --mark-color: inherit;
   --mark-background: yellow;
 
-
   /**
    * Form Message
    */
@@ -345,14 +310,12 @@
   --form-message-color: var(--paragraph-color);
   --form-message-line-height: var(--paragraph-line-height);
 
-
   /** 
    * Field
    */
 
   --field-margin: var(--margin-xs) 0;
   --field-float-label-padding: 0.25em;
-
 
   /** 
    * Fieldset
@@ -365,7 +328,6 @@
   --fieldset-border-color: var(--border-color);
   --fieldset-border-radius: var(--border-radius);
 
-
   /** 
    * Legend
    */
@@ -375,7 +337,6 @@
   --legend-font-weight: inherit;
   --legend-font-size: var(--font-size-m);
   --legend-color: inherit;
-
 
   /** 
    * Label
@@ -387,7 +348,6 @@
   --label-font-size: var(--font-size-s);
   --label-color: inherit;
   --label-line-height: var(--line-height-m);
-
 
   /** 
    * Input
@@ -407,24 +367,23 @@
   --input-border-color: var(--border-color);
   --input-border-radius: var(--border-radius);
   --input-box-shadow: var(--box-shadow);
-  
+
   --input-placeholder-color: var(--input-color);
   --input-placeholder-opacity: 0.5;
 
   --input-hover-color: var(--input-color);
-  --input-hover-background: color(var(--input-background) shade(2%));
-  --input-hover-border-color: color(var(--light) shade(10%));
+  --input-hover-background: color(var(--input-background) shade(2.5%));
+  --input-hover-border-color: color(var(--input-border-color) shade(2.5%));
   --input-hover-box-shadow: var(--hover-box-shadow);
 
   --input-focus-color: var(--input-color);
-  --input-focus-background: color(var(--input-background) shade(2%));
-  --input-focus-border-color: var(--primary);
+  --input-focus-background: color(var(--input-background) shade(5%));
+  --input-focus-border-color: color(var(--input-border-color) shade(5%));
   --input-focus-box-shadow: var(--focus-box-shadow);
 
   --input-disabled-color: var(--input-color);
   --input-disabled-background: color(var(--input-background) shade(5%));
   --input-disabled-border-color: var(--input-border-color);
-
 
   /** 
    * Input Sizes
@@ -446,14 +405,12 @@
   --input-xs-height: var(--height-xs);
   --input-xs-font-size: var(--font-size-xs);
 
-
   /**
    * Textarea
    */
 
   --textarea-padding: 1em;
   --textarea-line-height: inherit;
-
 
   /**
    * Select
@@ -491,7 +448,6 @@
   --select-disabled-background: var(--input-disabled-background);
   --select-disabled-border-color: var(--input-disabled-border-color);
 
-
   /** 
    * Select Sizes
    */
@@ -512,7 +468,6 @@
   --select-xs-height: var(--input-xs-height);
   --select-xs-font-size: var(--input-xs-font-size);
 
-
   /**
    * Control
    */
@@ -528,7 +483,7 @@
   --control-hover-indicator-background: var(--input-hover-background);
   --control-hover-indicator-border-color: var(--input-hover-border-color);
   --control-hover-indicator-box-shadow: var(--input-hover-box-shadow);
-  
+
   --control-focus-indicator-background: var(--input-focus-background);
   --control-focus-indicator-border-color: var(--input-focus-border-color);
   --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
@@ -558,11 +513,10 @@
   --switch-indicator-background: var(--control-indicator-background);
   --switch-indicator-border-radius: var(--control-indicator-size);
 
-
   /** 
    * Control Sizes
    */
-  
+
   --control-xl-font-size: var(--font-size-xl);
   --control-xl-indicator-size: 2rem;
 
@@ -575,11 +529,10 @@
   --control-xs-font-size: var(--font-size-xs);
   --control-xs-indicator-size: 1rem;
 
-
   /** 
    * Range
    */
-  
+
   --range-margin: var(--input-margin);
   --range-padding: 0;
   --range-height: 0.75rem;
@@ -600,7 +553,7 @@
   --range-thumb-focus-background: var(--input-focus-background);
   --range-thumb-focus-border-color: var(--input-focus-border-color);
   --range-thumb-focus-box-shadow: var(--input-focus-box-shadow);
-  
+
   --range-track-background: var(--input-border-color);
   --range-track-border-width: 0;
   --range-track-border-style: none;
@@ -615,22 +568,20 @@
   --range-track-focus-background: var(--input-focus-border-color);
   --range-track-focus-border-color: none;
   --range-track-focus-box-shadow: var(--input-focus-box-shadow);
-  
 
   /** 
    * Range Sizes
    */
-  
+
   --range-xl-height: 1rem;
   --range-l-height: 0.875rem;
-  --range-s-height: 0.675rem;
+  --range-s-height: 0.625rem;
   --range-xs-height: 0.5rem;
-
 
   /** 
    * Progress
    */
-  
+
   --progress-margin: var(--input-margin);
   --progress-height: 1rem;
   --progress-background: var(--input-border-color);
@@ -641,17 +592,15 @@
   --progress-box-shadow: var(--box-shadow);
 
   --progress-bar-background: var(--primary);
-  
 
   /** 
    * Progress Sizes
    */
-  
+
   --progress-xl-height: 1.25rem;
   --progress-l-height: 1.125rem;
   --progress-s-height: 0.875rem;
   --progress-xs-height: 0.75rem;
-
 
   /**
    * Button
@@ -676,19 +625,18 @@
   --button-box-shadow: var(--box-shadow);
 
   --button-hover-color: var(--button-color);
-  --button-hover-background: var(--light-100);
-  --button-hover-border-color: var(--light-600);
+  --button-hover-background: color(var(--button-background) shade(2.5%));
+  --button-hover-border-color: color(var(--button-border-color) shade(2.5%));
   --button-hover-box-shadow: var(--hover-box-shadow);
 
   --button-active-color: var(--button-color);
-  --button-active-background: var(--light-200);
-  --button-active-border-color: var(--light-700);
+  --button-active-background: color(var(--button-background) shade(5%));
+  --button-active-border-color: color(var(--button-border-color) shade(5%));
   --button-active-box-shadow: var(--active-box-shadow);
 
   --button-disabled-opacity: 0.65;
 
   --button-block-text-align: center;
-
 
   /** 
    * Button Sizes
@@ -714,7 +662,6 @@
   --button-xs-height: var(--height-xs);
   --button-xs-font-size: var(--font-size-xs);
 
-
   /** 
    * Button Shades
    */
@@ -725,7 +672,6 @@
   --button-dark-color: var(--white);
   --button-black-color: var(--white);
 
-
   /** 
    * Button Palette
    */
@@ -733,7 +679,6 @@
   --button-primary-color: var(--white);
   --button-secondary-color: var(--white);
   --button-tertiary-color: var(--white);
-
 
   /** 
    * Button Indicators
@@ -744,6 +689,16 @@
   --button-success-color: var(--white);
   --button-info-color: var(--white);
 
+  /** 
+   * Button Icon
+   */
+
+  --button-icon-margin: var(--button-padding-horizontal);
+  --button-icon-padding: calc((var(--button-height) - var(--icon-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xl-padding: calc((var(--button-xl-height) - var(--icon-xl-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-l-padding: calc((var(--button-l-height) - var(--icon-l-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-s-padding: calc((var(--button-s-height) - var(--icon-s-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xs-padding: calc((var(--button-xs-height) - var(--icon-xs-size) - (var(--button-border-width) * 2)) / 2);
 
   /**
    * Figure
@@ -760,14 +715,12 @@
   --figure-caption-color: inherit;
   --figure-caption-text-align: left;
 
-
   /**
    * Media
    */
 
   --media-background: color(var(--black) alpha(10%));
   --media-border-radius: var(--border-radius);
-
 
   /**
    * Nav
@@ -778,7 +731,6 @@
   --nav-item-padding: 0;
   --nav-inline-item-margin: 0 1rem;
 
-
   /**
    * Spinner
    */
@@ -787,7 +739,6 @@
   --spinner-speed: var(--speed-slow);
   --spinner-background-color: color(var(--black) alpha(10%));
   --spinner-foreground-color: var(--white);
-
 
   /**
    * Table
@@ -814,7 +765,7 @@
   --table-head-color: inherit;
   --table-head-text-align: left;
   --table-head-text-transform: none;
-  --table-head-background: var(--light-100);
+  --table-head-background: var(--light-50);
   --table-head-border-width: var(--table-border-width);
   --table-head-border-style: var(--table-border-style);
   --table-head-border-color: var(--table-border-color);
@@ -829,6 +780,4 @@
   --table-cell-border-width: var(--table-border-width);
   --table-cell-border-style: var(--table-border-style);
   --table-cell-border-color: var(--table-border-color);
-
-
 }

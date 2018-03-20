@@ -29,6 +29,7 @@
     - title: Container
     - title: Gutter
     - title: Media Queries
+    - title: Icon
     - title: Print
 
 - title: Typography
@@ -84,6 +85,7 @@
     - title: Button Sizes
     - title: Button Anchors
     - title: Button Colors
+    - title: Button Icon
     - title: Button Group
     - title: Figure
     - title: Media
@@ -94,9 +96,13 @@
 - title: Utilities
   pages:
     - title: Utility Classes
+    - title: Z-Index
     - title: Visibility
     - title: Display
-    - title: Positioning
+    - title: Overflow
+    - title: Position
+    - title: Pointer Events
+    - title: Transition
     - title: Fill
     - title: Flex
     - title: Float
@@ -111,6 +117,7 @@
     - title: Line Height
     - title: Letter Spacing
     - title: Stroke
+    - title: Icon Sizes
     - title: Text
     - title: Color
     - title: Background

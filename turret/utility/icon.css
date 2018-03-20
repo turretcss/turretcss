@@ -1,0 +1,41 @@
+.icon,
+svg.icon {
+  display: inline-block;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.icon-xs,
+svg.icon-xs {
+  display: inline-block;
+  width: var(--icon-xs-size);
+  height: var(--icon-xs-size);
+}
+
+.icon-s,
+svg.icon-s {
+  display: inline-block;
+  width: var(--icon-s-size);
+  height: var(--icon-s-size);
+}
+
+.icon-m,
+svg.icon-m {
+  display: inline-block;
+  width: var(--icon-m-size);
+  height: var(--icon-m-size);
+}
+
+.icon-l,
+svg.icon-l {
+  display: inline-block;
+  width: var(--icon-l-size);
+  height: var(--icon-l-size);
+}
+
+.icon-xl,
+svg.icon-xl {
+  display: inline-block;
+  width: var(--icon-xl-size);
+  height: var(--icon-xl-size);
+}

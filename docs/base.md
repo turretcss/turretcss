@@ -119,6 +119,27 @@ The gutter is padding applied to the left and right of the container to ensure c
 @custom-media --xl (min-width: 1680px);
 ```
 
+## Icon
+
+```scss
+--icon-size: var(--icon-m-size);
+--icon-xl-size: 2rem;
+--icon-l-size: 1.75rem;
+--icon-m-size: 1.5rem;
+--icon-s-size: 1.25rem;
+--icon-xs-size: 1rem;
+```
+
+<div>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+</div>
+
+```html
+<svg class="icon">...</svg>
+```
+
 ## Print
 
 By default turretcss's print styles are formatted for `A4` page size with a margin of `1.5cm 2cm`. Print styles include making text `@black`, and removing backgrounds from elements by default. Links are displayed next to anchors using `:after` pseudo content.

@@ -6,7 +6,6 @@
   & textarea,
   & .form-message,
   & .select {
-
     &:first-child {
       margin-top: 0;
     }
@@ -22,7 +21,6 @@
 
   & input,
   & textarea {
-
     & + label {
       position: absolute;
       top: 0;
@@ -36,7 +34,6 @@
     }
 
     &:not(:disabled):focus {
-
       &::placeholder {
         opacity: 0;
       }

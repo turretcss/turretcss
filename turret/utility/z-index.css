@@ -1,0 +1,11 @@
+.z-index-low {
+  z-index: var(--z-index-low);
+}
+
+.z-index-medium {
+  z-index: var(--z-index-medium);
+}
+
+.z-index-high {
+  z-index: var(--z-index-high);
+}

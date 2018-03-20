@@ -4,7 +4,7 @@
   overflow: hidden;
   background: var(--media-background);
   border-radius: var(--media-border-radius);
-  
+
   & > svg,
   & > img,
   & > video,
@@ -13,6 +13,7 @@
   & > .media-inner {
     display: block;
     @apply --cover;
+    border-radius: inherit;
   }
 }
 
@@ -40,12 +41,20 @@
   padding-top: calc((4 / 3) * 100%);
 }
 
+.media-4-5 {
+  padding-top: calc((5 / 4) * 100%);
+}
+
 .media-4-3 {
   padding-top: calc((3 / 4) * 100%);
 }
 
 .media-3-2 {
   padding-top: calc((2 / 3) * 100%);
+}
+
+.media-5-4 {
+  padding-top: calc((4 / 5) * 100%);
 }
 
 .media-16-9 {

@@ -1,5 +1,4 @@
 .navigation {
-
   & ul {
     margin: 0;
     padding: 0;
@@ -28,7 +27,6 @@
     }
 
     &.active {
-
       & ul {
         display: block;
       }

@@ -11,11 +11,11 @@ ol {
   & li {
     margin: var(--list-item-margin);
     padding: var(--list-item-padding);
-    
+
     & ul {
       margin: var(--child-list-margin);
       padding: var(--child-list-padding);
-      
+
       & li {
         margin: var(--child-list-item-margin);
         padding: var(--child-list-item-padding);
@@ -26,9 +26,8 @@ ol {
 
 ul {
   list-style: var(--unordered-list-icon);
-  
+
   & li {
-    
     & ul {
       list-style: var(--unordered-child-list-icon);
     }
@@ -36,22 +35,19 @@ ul {
 }
 
 ol {
-  
   & li {
-    
   }
 }
 
 .list-unstyled {
   list-style: none;
-  
+
   & li {
     margin-left: 0;
   }
 }
 
 .list-inline {
-  
   & li {
     display: inline-block;
   }

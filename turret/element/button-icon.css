@@ -1,0 +1,63 @@
+.button-icon {
+  padding-top: var(--button-icon-padding);
+  padding-bottom: var(--button-icon-padding);
+
+  &.button-square {
+    padding: var(--button-icon-padding);
+  }
+
+  & span {
+    vertical-align: middle;
+  }
+
+  & svg {
+    display: inline-block;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    vertical-align: middle;
+
+    &:not(:first-child) {
+      margin-left: var(--button-icon-margin);
+    }
+
+    &:not(:last-child) {
+      margin-right: var(--button-icon-margin);
+    }
+  }
+}
+
+.button-xs.button-icon {
+  padding-top: var(--button-icon-xs-padding);
+  padding-bottom: var(--button-icon-xs-padding);
+
+  &.button-square {
+    padding: var(--button-icon-xs-padding);
+  }
+}
+
+.button-s.button-icon {
+  padding-top: var(--button-icon-s-padding);
+  padding-bottom: var(--button-icon-s-padding);
+
+  &.button-square {
+    padding: var(--button-icon-s-padding);
+  }
+}
+
+.button-l.button-icon {
+  padding-top: var(--button-icon-l-padding);
+  padding-bottom: var(--button-icon-l-padding);
+
+  &.button-square {
+    padding: var(--button-icon-l-padding);
+  }
+}
+
+.button-xl.button-icon {
+  padding-top: var(--button-icon-xl-padding);
+  padding-bottom: var(--button-icon-xl-padding);
+
+  &.button-square {
+    padding: var(--button-icon-xl-padding);
+  }
+}

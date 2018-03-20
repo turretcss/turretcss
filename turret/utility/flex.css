@@ -2,8 +2,19 @@
   display: flex;
 }
 
-.flex-inline {
-  display: flex-inline;
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-justify-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex-wrap {
@@ -24,6 +35,14 @@
 
 .flex-1 {
   flex: 1 1 0;
+}
+
+.flex-auto {
+  flex: auto; /* Equal to flex: 1 1 auto; as per the spec */
+}
+
+.flex-none {
+  flex: none; /* Equal to flex: 0 0 auto; as per the spec */
 }
 
 .flex-1-1-auto {

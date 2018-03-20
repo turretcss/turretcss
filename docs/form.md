@@ -313,13 +313,13 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-placeholder-opacity: 0.5;
 
 --input-hover-color: var(--input-color);
---input-hover-background: color(var(--input-background) shade(2%));
---input-hover-border-color: color(var(--light) shade(10%));
+--input-hover-background: color(var(--input-background) shade(2.5%));
+--input-hover-border-color: color(var(--input-border-color) shade(2.5%));
 --input-hover-box-shadow: var(--hover-box-shadow);
 
 --input-focus-color: var(--input-color);
---input-focus-background: color(var(--input-background) shade(2%));
---input-focus-border-color: var(--primary);
+--input-focus-background: color(var(--input-background) shade(5%));
+--input-focus-border-color: color(var(--input-border-color) shade(5%));
 --input-focus-box-shadow: var(--focus-box-shadow);
 
 --input-disabled-color: var(--input-color);
@@ -1276,7 +1276,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 ```scss
 --range-xl-height: 1rem;
 --range-l-height: 0.875rem;
---range-s-height: 0.675rem;
+--range-s-height: 0.625rem;
 --range-xs-height: 0.5rem;
 ```
 

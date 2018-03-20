@@ -1,10 +1,8 @@
 :root {
-
   /**
    * General
    */
 
   --header-height: var(--height-m);
   --sidebar-width: 270px;
-
 }

@@ -1,5 +1,4 @@
 :root {
-  
   --range-thumb: {
     height: var(--range-thumb-height);
     width: var(--range-thumb-width);
@@ -49,7 +48,7 @@
   }
 }
 
-input[type="range"] {
+input[type='range'] {
   margin: var(--range-margin);
   padding: var(--range-padding);
   width: 100%;
@@ -67,7 +66,7 @@ input[type="range"] {
     background: transparent;
     border: none;
   }
-  
+
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
     margin-top: calc(0.5em - (var(--range-thumb-height) / 2));
@@ -135,7 +134,7 @@ input[type="range"] {
       @apply --range-track-hover;
     }
   }
-  
+
   &:not(:disabled):focus {
     color: var(--range-track-focus-background);
     background: transparent;

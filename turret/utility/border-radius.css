@@ -1,3 +1,29 @@
 .border-radius {
   border-radius: var(--border-radius);
 }
+
+.border-radius-top {
+  border-radius-top-left: var(--border-radius);
+  border-radius-top-right: var(--border-radius);
+}
+
+.border-radius-top-left {
+  border-radius-top-left: var(--border-radius);
+}
+
+.border-radius-top-right {
+  border-radius-top-right: var(--border-radius);
+}
+
+.border-radius-bottom {
+  border-radius-bottom-left: var(--border-radius);
+  border-radius-bottom-right: var(--border-radius);
+}
+
+.border-radius-bottom-left {
+  border-radius-bottom-left: var(--border-radius);
+}
+
+.border-radius-bottom-right {
+  border-radius-bottom-right: var(--border-radius);
+}

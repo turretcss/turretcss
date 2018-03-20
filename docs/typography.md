@@ -34,12 +34,12 @@ permalink: /docs/typography/
 --headings-small-size: 0.6em;
 --headings-small-color: inherit;
 
---h1-font-size: 2.25rem;
---h2-font-size: 2.0rem;
---h3-font-size: 1.5rem;
---h4-font-size: 1.25rem;
---h5-font-size: 1.125rem;
---h6-font-size: 1rem;
+--h1-font-size: 2rem;
+--h2-font-size: 1.5rem;
+--h3-font-size: 1.25rem;
+--h4-font-size: 1.125rem;
+--h5-font-size: 1rem;
+--h6-font-size: 0.875rem;
 ```
 
 ```html
@@ -151,7 +151,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --link-color: currentColor;
 --link-text-decoration: underline;
 --link-hover-color: currentColor;
---link-hover-decoration: underline;
+--link-hover-text-decoration: underline;
 ```
 
 <p><a href="index.html">Link</a></p>
@@ -191,9 +191,9 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 <hr>
 
 ```scss
---horizontal-rule-margin: var(--margin-s) auto;
+--horizontal-rule-margin: var(--space-s) auto;
 --horizontal-rule-height: var(--border-width);
---horizontal-rule-background: var(--light);
+--horizontal-rule-background: var(--border-color);
 ```
 
 ```html
@@ -235,7 +235,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --cite-font-size: var(--font-size-s);
 --cite-font-style: normal;
 --cite-color: inherit;
---cite-text-align: left;
+--cite-text-align: inherit;
 ```
 
 ```html
@@ -256,7 +256,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --list-item-margin: 0.5em 0 0.5em 1.5em;
 --list-item-padding: 0 0 0 0.5em;
 
---child-list-margin:  0.5em 0 0.5em 0;
+--child-list-margin: 0.5em 0 0.5em 0;
 --child-list-padding: 0;
 --child-list-item-margin: var(--list-item-margin);
 --child-list-item-padding: var(--list-item-padding);
@@ -332,10 +332,10 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --definition-list-font-size: var(--paragraph-font-size);
 
 --definition-term-margin: 0.5em 0;
---definition-term-font-family: var(--strong-font-family);
---definition-term-font-weight: var(--strong-font-weight);
+--definition-term-font-family: var(--headings-font-family);
+--definition-term-font-weight: var(--headings-font-weight);
 --definition-term-font-size: inherit;
---definition-term-color: var(--paragraph-color);
+--definition-term-color: var(--headings-color);
 
 --definition-description-margin: 0 0 1em 0;
 --definition-description-font-family: var(--paragraph-font-family);
@@ -380,7 +380,7 @@ The `.big` class is used for responsive text that scales between min/max sizes b
 --pre-tab-size: 4;
 --pre-hyphens: none;
 --pre-line-height: var(--line-height-m);
---pre-background: var(--light-100);
+--pre-background: var(--light-50);
 --pre-border-width: var(--border-width);
 --pre-border-style: var(--border-style);
 --pre-border-color: var(--border-color);

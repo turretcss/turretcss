@@ -31,13 +31,13 @@ select {
     border-radius: var(--select-border-radius);
     box-shadow: var(--select-box-shadow);
     @apply --transition;
-    
+
     /* Undo the Firefox inner focus ring */
     &::-moz-focusring {
       color: transparent;
       text-shadow: 0 0 0 #000;
     }
-    
+
     /* Hide the arrow in IE10 and up */
     &::-ms-expand {
       display: none;
@@ -55,6 +55,8 @@ select {
       background: var(--select-focus-background);
       border-color: var(--select-focus-border-color);
       box-shadow: var(--select-focus-box-shadow);
+      outline: var(--focus-outline);
+      outline-offset: var(--focus-outline-offset);
     }
 
     &:disabled {
@@ -66,7 +68,6 @@ select {
   }
 
   &.error {
-    
     & select {
       color: var(--error) !important;
       border-color: var(--error) !important;
@@ -78,7 +79,6 @@ select {
   }
 
   &.warning {
-    
     & select {
       color: var(--warning) !important;
       border-color: var(--warning) !important;
@@ -90,7 +90,6 @@ select {
   }
 
   &.success {
-    
     & select {
       color: var(--success) !important;
       border-color: var(--success) !important;
@@ -102,7 +101,6 @@ select {
   }
 
   &.info {
-    
     & select {
       color: var(--info) !important;
       border-color: var(--info) !important;
@@ -131,7 +129,6 @@ select {
 
 /* Firefox hack to hide the arrow */
 @moz-document url-prefix() {
-  
   /* Firefox hack to hide the arrow (FF => 30) */
   .select::before {
     z-index: 2;
@@ -147,7 +144,7 @@ select {
     border-style: var(--select-border-style);
     background: var(--select-background);
   }
-  
+
   .select.large::before {
     width: 1.5em;
   }

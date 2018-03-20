@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   @apply --font-smoothing-antialiased;
 }
 
@@ -41,18 +41,24 @@ p,
 dl,
 dd,
 dt,
+ul,
 ul li,
+ol,
 ol li,
+figcaption,
 blockquote,
 cite,
+.display-title,
+.big,
+.small-caps,
 .field,
 fieldset,
 label,
 input,
 textarea,
 .select,
-.control {
-
+.control,
+progress {
   &:first-child {
     margin-top: 0;
   }
