@@ -167,7 +167,7 @@
 
   --horizontal-rule-margin: var(--space-s) auto;
   --horizontal-rule-height: var(--border-width);
-  --horizontal-rule-background: var(--light);
+  --horizontal-rule-background: var(--border-color);
 
 
   /**
