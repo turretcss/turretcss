@@ -34,12 +34,12 @@ permalink: /docs/typography/
 --headings-small-size: 0.6em;
 --headings-small-color: inherit;
 
---h1-font-size: 2.25rem;
---h2-font-size: 2.0rem;
---h3-font-size: 1.5rem;
---h4-font-size: 1.25rem;
---h5-font-size: 1.125rem;
---h6-font-size: 1rem;
+--h1-font-size: 2rem;
+--h2-font-size: 1.5rem;
+--h3-font-size: 1.25rem;
+--h4-font-size: 1.125rem;
+--h5-font-size: 1rem;
+--h6-font-size: 0.875rem;
 ```
 
 ```html
