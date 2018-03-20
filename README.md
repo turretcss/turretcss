@@ -86,8 +86,6 @@ For transparency into our release cycle and in striving to maintain backward com
 
 See [the Releases section of our GitHub project](https://github.com/turretcss/turret/releases) for changelogs for each release version of turretcss.
 
-Release announcement posts on [the official turretcss blog](http://turretcss.com/blog) contain summaries of the most noteworthy changes made in each release.
-
 ## Creators
 
 **Scott de Jonge**
