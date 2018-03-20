@@ -169,11 +169,11 @@ Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
 Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.
 
 ```scss
---max-width-xl: 80rem;
---max-width-l: 70rem;
---max-width-m: 60rem;
---max-width-s: 50rem;
---max-width-xs: 40rem;
+--max-width-xl: 70rem;
+--max-width-l: 60rem;
+--max-width-m: 50rem;
+--max-width-s: 40rem;
+--max-width-xs: 30rem;
 ```
 
 ## Typography
