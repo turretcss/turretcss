@@ -84,8 +84,8 @@
       &::before {
         display: block;
         position: absolute;
-        top: -var(--control-indicator-border-width);
-        left: -var(--control-indicator-border-width);
+        top: calc(var(--control-indicator-border-width) * -1);
+        left: calc(var(--control-indicator-border-width) * -1);
         content: '';
         width: 1em;
         height: 1em;
