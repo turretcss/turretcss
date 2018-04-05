@@ -116,7 +116,7 @@ select {
     position: absolute;
     top: 50%;
     right: 15px;
-    margin-top: -calc(var(--select-arrow-size) / 2);
+    margin-top: calc(var(--select-arrow-size) / -2);
     width: 0;
     height: 0;
     content: '';
