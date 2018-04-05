@@ -58,7 +58,8 @@ input,
 textarea,
 .select,
 .control,
-progress {
+progress,
+table {
   &:first-child {
     margin-top: 0;
   }
