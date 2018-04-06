@@ -18,7 +18,7 @@ h6,
   text-transform: var(--headings-text-transform);
   letter-spacing: var(--headings-letter-spacing);
 
-  small {
+  & small {
     font-family: var(--headings-small-font-family);
     font-weight: var(--headings-small-font-weight);
     font-size: var(--headings-small-size);

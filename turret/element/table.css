@@ -76,15 +76,15 @@ td {
       }
 
       & tr:first-child {
-        > th,
-        > td {
+        & > th,
+        & > td {
           border-top: none;
         }
       }
 
       & tr:last-child {
-        > th,
-        > td {
+        & > th,
+        & > td {
           border-bottom: none;
         }
       }
