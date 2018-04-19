@@ -552,6 +552,7 @@ Utility classes for setting transition all with speed and easing
       </tr>
     </thead>
     <tbody>
+      <tr>
         <td><code>fill-current-color</code></td>
         <td>Applies <code>fill: currentColor;</code> to element</td>
       </tr>
