@@ -1799,23 +1799,23 @@ Utility classes for setting transition all with speed and easing
     </thead>
     <tbody>
       <tr>
-        <td><code>padding-vertical-xl</code></td>
+        <td><code>padding-horizontal-xl</code></td>
         <td>Applies <code>padding-left: var(--padding-xl);</code> and <code>padding-right: var(--padding-xl);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-l</code></td>
+        <td><code>padding-horizontal-l</code></td>
         <td>Applies <code>padding-left: var(--padding-l);</code> and <code>padding-right: var(--padding-l);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-m</code></td>
+        <td><code>padding-horizontal-m</code></td>
         <td>Applies <code>padding-left: var(--padding-m);</code> and <code>padding-right: var(--padding-m);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-s</code></td>
+        <td><code>padding-horizontal-s</code></td>
         <td>Applies <code>padding-left: var(--padding-s);</code> and <code>padding-right: var(--padding-s);</code> to element</td>
       </tr>
       <tr>
-        <td><code>padding-vertical-xs</code></td>
+        <td><code>padding-horizontal-xs</code></td>
         <td>Applies <code>padding-left: var(--padding-xs);</code> and <code>padding-right: var(--padding-xs);</code> to element</td>
       </tr>
     </tbody>
