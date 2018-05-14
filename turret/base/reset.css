@@ -59,6 +59,7 @@ textarea,
 .select,
 .control,
 progress,
+caption,
 table {
   &:first-child {
     margin-top: 0;
