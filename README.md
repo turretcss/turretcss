@@ -1,10 +1,10 @@
-# [turretcss](http://turretcss.com/)
+# [turretcss](https://turretcss.com/)
 
 [![npm version](https://img.shields.io/npm/v/turretcss.svg)](https://www.npmjs.com/package/turretcss)
 
 turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites with default HTML elements, created by [Scott de Jonge](https://twitter.com/scottdejonge).
 
-To get started, check out <http://turretcss.com>!
+To get started, check out <https://turretcss.com>!
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.org): `npm install turretcss`.
 - Install with [yarn](https://github.com/yarnpkg/yarn): `yarn add turretcss`
 
-Read the [Getting started page](http://turretcss.com/docs/getting-started/) for information on structure, usage, support and more.
+Read the [Getting started page](https://turretcss.com/docs/getting-started/) for information on structure, usage, support and more.
 
 ## Bugs and feature requests
 
@@ -32,7 +32,7 @@ Have a bug or a feature request? Please first search for existing and closed iss
 
 ## Documentation
 
-View full documentation at: <http://turretcss.com/>
+View full documentation at: <https://turretcss.com/>
 
 turretcss's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
 

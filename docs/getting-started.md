@@ -251,7 +251,7 @@ To theme turretcss you can override default style variables either within your o
 
 ### Documentation
 
-View full documentation at: <http://turretcss.com/>
+View full documentation at: <https://turretcss.com/>
 
 turretcss's documentation, included in this repo in the `docs` directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://turretcss.com>. The docs may also be run locally.
 
@@ -543,7 +543,7 @@ Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/
 
 ### License Notes
 
-turretcss is released under the MIT license and is copyright 2018 <a href="http://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
+turretcss is released under the MIT license and is copyright 2018 <a href="https://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
 
 **It requires you to:**
 
@@ -561,8 +561,8 @@ turretcss is released under the MIT license and is copyright 2018 <a href="http:
 *  Hold the authors and license owners liable for damages as turretcss is provided without warranty
 *  Hold the creators or copyright holders of turretcss liable
 *  Redistribute any piece of turretcss without proper attribution
-*  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="http://bigfish.tv">bigfish.tv</a> endorses your distribution
-*  Use any marks owned by <a href="http://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="http://bigfish.tv">bigfish.tv</a> software in question
+*  Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="https://bigfish.tv">bigfish.tv</a> endorses your distribution
+*  Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="https://bigfish.tv">bigfish.tv</a> software in question
 
 **It does not require you to:**
 
