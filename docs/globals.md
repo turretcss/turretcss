@@ -242,11 +242,11 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 
 ```scss
 --line-height: var(--line-height-s);
---line-height-xl: 1.8;
---line-height-l: 1.65;
+--line-height-xl: 1.75;
+--line-height-l: 1.625;
 --line-height-m: 1.5;
---line-height-s: 1.35;
---line-height-xs: 1.2;
+--line-height-s: 1.375;
+--line-height-xs: 1.25;
 ```
 
 ### Letter Spacing
