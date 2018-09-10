@@ -35,10 +35,6 @@ Outline property and outline offset defintion for focusable elements.
 --focus-outline-offset: var(--border-width);
 ```
 
-### Gutter
-
-Default '--gutter' property definition for horizontal container padding.
-
 ```scss
 --gutter: var(--space-xs);
 ```

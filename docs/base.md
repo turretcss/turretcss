@@ -95,14 +95,6 @@ By default the container has `@gutter` padding applied to the left and right of 
 <div class="container">...</div>
 ```
 
-## Gutter
-
-The gutter is padding applied to the left and right of the container to ensure content does not touch the sides of the viewport.
-
-```scss
---gutter: var(--space-xs);
-```
-
 ## Media Queries
 
 ```scss

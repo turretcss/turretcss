@@ -27,7 +27,6 @@
     - title: Reset
     - title: Body
     - title: Container
-    - title: Gutter
     - title: Media Queries
     - title: Icon
     - title: Print
@@ -107,7 +106,6 @@
     - title: Flex
     - title: Float
     - title: Max Width
-    - title: Gutter
     - title: Margin
     - title: Padding
     - title: Headings

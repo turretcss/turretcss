@@ -34,15 +34,10 @@
   --focus-outline-offset: 0.125rem;
 
   /**
-   * Gutter
-   */
-
-  --gutter: var(--space-xs);
-
-  /**
    * Container
    */
 
+  --container-gutter: 1rem;
   --container-xl: 80rem;
   --container-l: 80rem;
   --container-m: 70rem;

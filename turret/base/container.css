@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
-  padding-left: var(--gutter);
-  padding-right: var(--gutter);
+  padding-left: var(--container-gutter);
+  padding-right: var(--container-gutter);
   width: 100%;
 
   @media (--xl) {

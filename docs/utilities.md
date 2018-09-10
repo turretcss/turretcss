@@ -1292,53 +1292,6 @@ Utility classes for setting transition all with speed and easing
 <p class="max-width-xs">...</p>
 ```
 
-## Gutter
-
-<div class="table-responsive">
-  <table>
-    <thead>
-      <tr>
-        <th>Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>no-gutter</code></td>
-        <td>Removes padding from element</td>
-      </tr>
-      <tr>
-        <td><code>gutter</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-vertical</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to top and bottom of element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-top</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to top of element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-bottom</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to bottom of element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-horizontal</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to left and right of element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-left</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to left of element</td>
-      </tr>
-      <tr>
-        <td><code>gutter-right</code></td>
-        <td>Applies padding <code>var(--gutter)</code> to right of element</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 ## Margin
 
 ### Margin Sizes
@@ -1354,23 +1307,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-xl</code></td>
-        <td>Applies <code>var(--margin-xl)</code> to element</td>
+        <td>Applies <code>var(--space-xl)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-l</code></td>
-        <td>Applies <code>var(--margin-l)</code> to element</td>
+        <td>Applies <code>var(--space-l)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-m</code></td>
-        <td>Applies <code>var(--margin-m)</code> to element</td>
+        <td>Applies <code>var(--space-m)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-s</code></td>
-        <td>Applies <code>var(--margin-s)</code> to element</td>
+        <td>Applies <code>var(--space-s)</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-xs</code></td>
-        <td>Applies <code>var(--margin-xs)</code> to element</td>
+        <td>Applies <code>var(--space-xs)</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1475,23 +1428,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-vertical-xl</code></td>
-        <td>Applies <code>margin-top: var(--margin-xl);</code> and <code>margin-bottom: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-xl);</code> and <code>margin-bottom: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-l</code></td>
-        <td>Applies <code>margin-top: var(--margin-l);</code> and <code>margin-bottom: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-l);</code> and <code>margin-bottom: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-m</code></td>
-        <td>Applies <code>margin-top: var(--margin-m);</code> and <code>margin-bottom: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-m);</code> and <code>margin-bottom: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-s</code></td>
-        <td>Applies <code>margin-top: var(--margin-s);</code> and <code>margin-bottom: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-s);</code> and <code>margin-bottom: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-vertical-xs</code></td>
-        <td>Applies <code>margin-top: var(--margin-xs);</code> and <code>margin-bottom: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-xs);</code> and <code>margin-bottom: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1510,23 +1463,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-horizontal-xl</code></td>
-        <td>Applies <code>margin-left: var(--margin-xl);</code> and <code>margin-right: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-xl);</code> and <code>margin-right: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-horizontal-l</code></td>
-        <td>Applies <code>margin-left: var(--margin-l);</code> and <code>margin-right: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-l);</code> and <code>margin-right: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-horizontal-m</code></td>
-        <td>Applies <code>margin-left: var(--margin-m);</code> and <code>margin-right: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-m);</code> and <code>margin-right: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-horizontal-s</code></td>
-        <td>Applies <code>margin-left: var(--margin-s);</code> and <code>margin-right: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-s);</code> and <code>margin-right: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-horizontal-xs</code></td>
-        <td>Applies <code>margin-left: var(--margin-xs);</code> and <code>margin-right: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-xs);</code> and <code>margin-right: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1545,23 +1498,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-top-xl</code></td>
-        <td>Applies <code>margin-top: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-l</code></td>
-        <td>Applies <code>margin-top: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-m</code></td>
-        <td>Applies <code>margin-top: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-s</code></td>
-        <td>Applies <code>margin-top: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-top-xs</code></td>
-        <td>Applies <code>margin-top: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-top: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1580,23 +1533,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-bottom-xl</code></td>
-        <td>Applies <code>margin-bottom: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-l</code></td>
-        <td>Applies <code>margin-bottom: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-m</code></td>
-        <td>Applies <code>margin-bottom: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-s</code></td>
-        <td>Applies <code>margin-bottom: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-bottom-xs</code></td>
-        <td>Applies <code>margin-bottom: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-bottom: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1615,23 +1568,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-left-xl</code></td>
-        <td>Applies <code>margin-left: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-l</code></td>
-        <td>Applies <code>margin-left: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-m</code></td>
-        <td>Applies <code>margin-left: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-s</code></td>
-        <td>Applies <code>margin-left: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-left-xs</code></td>
-        <td>Applies <code>margin-left: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-left: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1650,23 +1603,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>margin-right-xl</code></td>
-        <td>Applies <code>margin-right: var(--margin-xl);</code> to element</td>
+        <td>Applies <code>margin-right: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-l</code></td>
-        <td>Applies <code>margin-right: var(--margin-l);</code> to element</td>
+        <td>Applies <code>margin-right: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-m</code></td>
-        <td>Applies <code>margin-right: var(--margin-m);</code> to element</td>
+        <td>Applies <code>margin-right: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-s</code></td>
-        <td>Applies <code>margin-right: var(--margin-s);</code> to element</td>
+        <td>Applies <code>margin-right: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>margin-right-xs</code></td>
-        <td>Applies <code>margin-right: var(--margin-xs);</code> to element</td>
+        <td>Applies <code>margin-right: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1687,23 +1640,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-xl</code></td>
-        <td>Applies <code>var(--padding-xl)</code> to element</td>
+        <td>Applies <code>var(--space-xl)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-l</code></td>
-        <td>Applies <code>var(--padding-l)</code> to element</td>
+        <td>Applies <code>var(--space-l)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-m</code></td>
-        <td>Applies <code>var(--padding-m)</code> to element</td>
+        <td>Applies <code>var(--space-m)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-s</code></td>
-        <td>Applies <code>var(--padding-s)</code> to element</td>
+        <td>Applies <code>var(--space-s)</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-xs</code></td>
-        <td>Applies <code>var(--padding-xs)</code> to element</td>
+        <td>Applies <code>var(--space-xs)</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1765,23 +1718,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-vertical-xl</code></td>
-        <td>Applies <code>padding-top: var(--padding-xl);</code> and <code>padding-bottom: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-xl);</code> and <code>padding-bottom: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-vertical-l</code></td>
-        <td>Applies <code>padding-top: var(--padding-l);</code> and <code>padding-bottom: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-l);</code> and <code>padding-bottom: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-vertical-m</code></td>
-        <td>Applies <code>padding-top: var(--padding-m);</code> and <code>padding-bottom: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-m);</code> and <code>padding-bottom: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-vertical-s</code></td>
-        <td>Applies <code>padding-top: var(--padding-s);</code> and <code>padding-bottom: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-s);</code> and <code>padding-bottom: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-vertical-xs</code></td>
-        <td>Applies <code>padding-top: var(--padding-xs);</code> and <code>padding-bottom: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-xs);</code> and <code>padding-bottom: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1800,23 +1753,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-horizontal-xl</code></td>
-        <td>Applies <code>padding-left: var(--padding-xl);</code> and <code>padding-right: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-xl);</code> and <code>padding-right: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-horizontal-l</code></td>
-        <td>Applies <code>padding-left: var(--padding-l);</code> and <code>padding-right: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-l);</code> and <code>padding-right: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-horizontal-m</code></td>
-        <td>Applies <code>padding-left: var(--padding-m);</code> and <code>padding-right: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-m);</code> and <code>padding-right: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-horizontal-s</code></td>
-        <td>Applies <code>padding-left: var(--padding-s);</code> and <code>padding-right: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-s);</code> and <code>padding-right: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-horizontal-xs</code></td>
-        <td>Applies <code>padding-left: var(--padding-xs);</code> and <code>padding-right: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-xs);</code> and <code>padding-right: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1835,23 +1788,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-top-xl</code></td>
-        <td>Applies <code>padding-top: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-l</code></td>
-        <td>Applies <code>padding-top: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-m</code></td>
-        <td>Applies <code>padding-top: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-s</code></td>
-        <td>Applies <code>padding-top: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-top-xs</code></td>
-        <td>Applies <code>padding-top: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-top: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1871,23 +1824,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-bottom-xl</code></td>
-        <td>Applies <code>padding-bottom: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-l</code></td>
-        <td>Applies <code>padding-bottom: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-m</code></td>
-        <td>Applies <code>padding-bottom: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-s</code></td>
-        <td>Applies <code>padding-bottom: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-bottom-xs</code></td>
-        <td>Applies <code>padding-bottom: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-bottom: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1906,23 +1859,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-left-xl</code></td>
-        <td>Applies <code>padding-left: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-l</code></td>
-        <td>Applies <code>padding-left: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-m</code></td>
-        <td>Applies <code>padding-left: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-s</code></td>
-        <td>Applies <code>padding-left: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-left-xs</code></td>
-        <td>Applies <code>padding-left: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-left: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
@@ -1941,23 +1894,23 @@ Utility classes for setting transition all with speed and easing
     <tbody>
       <tr>
         <td><code>padding-right-xl</code></td>
-        <td>Applies <code>padding-right: var(--padding-xl);</code> to element</td>
+        <td>Applies <code>padding-right: var(--space-xl);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-l</code></td>
-        <td>Applies <code>padding-right: var(--padding-l);</code> to element</td>
+        <td>Applies <code>padding-right: var(--space-l);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-m</code></td>
-        <td>Applies <code>padding-right: var(--padding-m);</code> to element</td>
+        <td>Applies <code>padding-right: var(--space-m);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-s</code></td>
-        <td>Applies <code>padding-right: var(--padding-s);</code> to element</td>
+        <td>Applies <code>padding-right: var(--space-s);</code> to element</td>
       </tr>
       <tr>
         <td><code>padding-right-xs</code></td>
-        <td>Applies <code>padding-right: var(--padding-xs);</code> to element</td>
+        <td>Applies <code>padding-right: var(--space-xs);</code> to element</td>
       </tr>
     </tbody>
   </table>
