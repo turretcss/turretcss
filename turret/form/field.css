@@ -30,7 +30,7 @@
       padding: var(--field-float-label-padding);
       transform: translateY(50%);
       pointer-events: none;
-      @apply --transition;
+      transition: all var(--speed) ease-in-out;
     }
 
     &:not(:disabled):focus {

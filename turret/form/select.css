@@ -30,7 +30,7 @@ select {
     border-color: var(--select-border-color);
     border-radius: var(--select-border-radius);
     box-shadow: var(--select-box-shadow);
-    @apply --transition;
+    transition: all var(--speed) ease-in-out;
 
     /* Undo the Firefox inner focus ring */
     &::-moz-focusring {

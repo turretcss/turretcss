@@ -4,7 +4,8 @@
   bottom: 0;
   width: var(--sidebar-width);
   height: 100%;
-  @apply --overflow-scroll;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 
   @media (--m-up) {
     left: 0;

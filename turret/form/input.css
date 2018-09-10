@@ -18,7 +18,7 @@ textarea {
   background: var(--input-background);
   border-radius: var(--input-border-radius);
   box-shadow: var(--input-box-shadow);
-  @apply --transition;
+  transition: all var(--speed) ease-in-out;
 
   &::placeholder {
     color: var(--input-placeholder-color);

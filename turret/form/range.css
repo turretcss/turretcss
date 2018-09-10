@@ -9,7 +9,7 @@
     border-color: var(--range-thumb-border-color);
     border-radius: var(--range-thumb-border-radius);
     box-shadow: var(--range-thumb-box-shadow);
-    @apply --transition;
+    transition: all var(--speed) ease-in-out;
   }
 
   --range-thumb-hover: {
@@ -34,7 +34,7 @@
     border-color: var(--range-track-border-color);
     border-radius: var(--range-track-border-radius);
     box-shadow: var(--range-track-box-shadow);
-    @apply --transition;
+    transition: all var(--speed) ease-in-out;
   }
 
   --range-track-hover: {
@@ -59,7 +59,7 @@ input[type='range'] {
   border-radius: var(--input-border-radius);
   box-shadow: none !important;
   -webkit-appearance: none;
-  @apply --transition;
+  transition: all var(--speed) ease-in-out;
 
   &:disabled {
     cursor: no-drop;

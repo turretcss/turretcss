@@ -4,7 +4,14 @@
  */
 
 .screen-reader {
-  @apply --hide-visually;
+  position: absolute;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 /**

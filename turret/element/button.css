@@ -21,7 +21,7 @@ button,
   border-color: var(--button-border-color);
   border-radius: var(--button-border-radius);
   box-shadow: var(--button-box-shadow);
-  @apply --transition;
+  transition: all var(--speed) ease-in-out;
 
   &:not(:disabled):hover,
   &:not(:disabled):focus {
