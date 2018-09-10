@@ -74,7 +74,7 @@
    * Border Radius
    */
 
-  --border-radius: 0.125em;
+  --border-radius: 0.25em;
 
   /**
    * Box Shadow
@@ -106,10 +106,10 @@
    * Height
    */
 
-  --height-xl: 4rem;
-  --height-l: 3.5rem;
-  --height-m: 3rem;
-  --height-s: 2.5rem;
+  --height-xl: 3rem;
+  --height-l: 2.75rem;
+  --height-m: 2.5rem;
+  --height-s: 2.25rem;
   --height-xs: 2rem;
 
   /**

@@ -73,13 +73,21 @@ Default 'background' property definition.
 
 ### Border
 
-Default `border-width`, `border-style`, `border-color`, and `border-radius` definitions for buttons, inputs, tables, etc.
+Default `border-width`, `border-style`, and `border-color` definitions for buttons, inputs, tables, etc.
 
 ```scss
 --border-width: 1px;
 --border-style: solid;
 --border-color: var(--light);
---border-radius: 0.125em;
+--border: var(--border-width) var(--border-style) var(--border-color);
+```
+
+### Border Radius
+
+Default `border-radius` definitions for buttons, inputs, tables, etc.
+
+```scss
+--border-radius: 0.25em;
 ```
 
 ### Box Shadow
@@ -121,10 +129,10 @@ Default speeds for transitions.
 Height sizes for buttons, inputs, and selects.
 
 ```scss
---height-xl: 4rem;
---height-l: 3.5rem;
---height-m: 3rem;
---height-s: 2.5rem;
+--height-xl: 3rem;
+--height-l: 2.75rem;
+--height-m: 2.5rem;
+--height-s: 2.25rem;
 --height-xs: 2rem;
 ```
 
