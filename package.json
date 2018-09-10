@@ -32,24 +32,22 @@
     "web"
   ],
   "scripts": {
-    "start": "npm run watch",
-    "watch": "npm run docs -- -w",
+    "start": "npm run watch:build && npm run watch:docs",
+    "watch:build": "npm run build -- --verbose --watch",
+    "watch:docs": "npm run docs -- --verbose --watch",
     "build": "postcss turret/turret.css -o dist/turretcss.min.css",
     "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css",
     "format": "prettier --single-quote --print-width 180 --write '*.css'"
   },
   "devDependencies": {
-    "cssnano": "^3.10.0",
-    "postcss": "^6.0.20",
-    "postcss-cli": "^3.2.0",
-    "postcss-cssnext": "^2.11.0",
-    "postcss-import": "^9.1.0",
-    "prettier": "^1.11.1"
+    "cssnano": "^4.1.0",
+    "postcss": "^6.0.0",
+    "postcss-cli": "^6.0.0",
+    "postcss-import": "^12.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "prettier": "^1.14.0"
   },
-  "peerDependencies": {
-    "caniuse-db": "^1.0.30000652",
-    "caniuse-lite": "^1.0.30000697",
-    "postcss-cssnext": "^2.11.0",
-    "postcss-import": "^9.1.0"
-  }
+  "browserslist": [
+    "last 2 version"
+  ]
 }
