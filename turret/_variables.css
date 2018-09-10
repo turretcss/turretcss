@@ -372,17 +372,17 @@
   --input-placeholder-opacity: 0.5;
 
   --input-hover-color: var(--input-color);
-  --input-hover-background: color(var(--input-background) shade(2.5%));
-  --input-hover-border-color: color(var(--input-border-color) shade(2.5%));
+  --input-hover-background: color-mod(var(--input-background) shade(2.5%));
+  --input-hover-border-color: color-mod(var(--input-border-color) shade(2.5%));
   --input-hover-box-shadow: var(--hover-box-shadow);
 
   --input-focus-color: var(--input-color);
-  --input-focus-background: color(var(--input-background) shade(5%));
-  --input-focus-border-color: color(var(--input-border-color) shade(5%));
+  --input-focus-background: color-mod(var(--input-background) shade(5%));
+  --input-focus-border-color: color-mod(var(--input-border-color) shade(5%));
   --input-focus-box-shadow: var(--focus-box-shadow);
 
   --input-disabled-color: var(--input-color);
-  --input-disabled-background: color(var(--input-background) shade(5%));
+  --input-disabled-background: color-mod(var(--input-background) shade(5%));
   --input-disabled-border-color: var(--input-border-color);
 
   /** 
@@ -625,13 +625,13 @@
   --button-box-shadow: var(--box-shadow);
 
   --button-hover-color: var(--button-color);
-  --button-hover-background: color(var(--button-background) shade(2.5%));
-  --button-hover-border-color: color(var(--button-border-color) shade(2.5%));
+  --button-hover-background: color-mod(var(--button-background) shade(2.5%));
+  --button-hover-border-color: color-mod(var(--button-border-color) shade(2.5%));
   --button-hover-box-shadow: var(--hover-box-shadow);
 
   --button-active-color: var(--button-color);
-  --button-active-background: color(var(--button-background) shade(5%));
-  --button-active-border-color: color(var(--button-border-color) shade(5%));
+  --button-active-background: color-mod(var(--button-background) shade(5%));
+  --button-active-border-color: color-mod(var(--button-border-color) shade(5%));
   --button-active-box-shadow: var(--active-box-shadow);
 
   --button-disabled-opacity: 0.65;
@@ -719,7 +719,7 @@
    * Media
    */
 
-  --media-background: color(var(--black) alpha(10%));
+  --media-background: color-mod(var(--black) alpha(10%));
   --media-border-radius: var(--border-radius);
 
   /**
@@ -737,7 +737,7 @@
 
   --spinner-size: 2rem;
   --spinner-speed: var(--speed-slow);
-  --spinner-background-color: color(var(--black) alpha(10%));
+  --spinner-background-color: color-mod(var(--black) alpha(10%));
   --spinner-foreground-color: var(--white);
 
   /**

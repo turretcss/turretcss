@@ -21,7 +21,7 @@
     list-style: none;
     background: white;
     border-radius: var(--border-radius);
-    box-shadow: 0 0.125em 0.25em 0.25em color(var(--dark) a(5%));
+    box-shadow: 0 0.125em 0.25em 0.25em color-mod(var(--dark) a(5%));
 
     & li {
       display: block;

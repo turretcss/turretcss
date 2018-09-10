@@ -313,17 +313,17 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --input-placeholder-opacity: 0.5;
 
 --input-hover-color: var(--input-color);
---input-hover-background: color(var(--input-background) shade(2.5%));
---input-hover-border-color: color(var(--input-border-color) shade(2.5%));
+--input-hover-background: color-mod(var(--input-background) shade(2.5%));
+--input-hover-border-color: color-mod(var(--input-border-color) shade(2.5%));
 --input-hover-box-shadow: var(--hover-box-shadow);
 
 --input-focus-color: var(--input-color);
---input-focus-background: color(var(--input-background) shade(5%));
---input-focus-border-color: color(var(--input-border-color) shade(5%));
+--input-focus-background: color-mod(var(--input-background) shade(5%));
+--input-focus-border-color: color-mod(var(--input-border-color) shade(5%));
 --input-focus-box-shadow: var(--focus-box-shadow);
 
 --input-disabled-color: var(--input-color);
---input-disabled-background: color(var(--input-background) shade(5%));
+--input-disabled-background: color-mod(var(--input-background) shade(5%));
 --input-disabled-border-color: var(--input-border-color);
 
 --textarea-padding: 1em;

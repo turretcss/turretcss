@@ -39,13 +39,13 @@ Button styles are applied directly to the `<button>` element, button style and s
 --button-box-shadow: var(--box-shadow);
 
 --button-hover-color: var(--button-color);
---button-hover-background: color(var(--button-background) shade(2.5%));
---button-hover-border-color: color(var(--button-border-color) shade(2.5%));
+--button-hover-background: color-mod(var(--button-background) shade(2.5%));
+--button-hover-border-color: color-mod(var(--button-border-color) shade(2.5%));
 --button-hover-box-shadow: var(--hover-box-shadow);
 
 --button-active-color: var(--button-color);
---button-active-background: color(var(--button-background) shade(5%));
---button-active-border-color: color(var(--button-border-color) shade(5%));
+--button-active-background: color-mod(var(--button-background) shade(5%));
+--button-active-border-color: color-mod(var(--button-border-color) shade(5%));
 --button-active-box-shadow: var(--active-box-shadow);
 ```
 
@@ -814,7 +814,7 @@ The media frame wraps `<img>`, `<svg>`, `<video>`, and `<iframe>` by default, to
 
 
 ```scss
---media-background: color(var(--black) alpha(10%));
+--media-background: color-mod(var(--black) alpha(10%));
 --media-border-radius: var(--border-radius);
 ```
 
@@ -858,7 +858,7 @@ The `.spinner` class can be added to any element to add a `::before` pseudo elem
 ```scss
 --spinner-size: 2rem;
 --spinner-speed: var(--speed-slow);
---spinner-background-color: color(var(--black) alpha(10%));
+--spinner-background-color: color-mod(var(--black) alpha(10%));
 --spinner-foreground-color: var(--white);
 ```
 

@@ -272,13 +272,13 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 <div class="swatch color-white background-black">Black</div>
 
 ```scss
---white: #FFFFFF;
---white-hover: color(var(--white) shade(5%));
---white-active: color(var(--white) shade(10%));
+--white: hsl(220, 10%, 100%);
+--white-hover: color-mod(var(--white) shade(5%));
+--white-active: color-mod(var(--white) shade(10%));
 
---black: #000000;
---black-hover: color(var(--black) tint(20%));
---black-active: color(var(--black) tint(10%));
+--black: hsl(220, 10%, 0%);
+--black-hover: color-mod(var(--black) tint(20%));
+--black-active: color-mod(var(--black) tint(10%));
 ```
 
 ### Shades
@@ -300,18 +300,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---light: #D3D3D9;
+--light: hsl(220, 10%, 80%);
 --light-hover: var(--light-400);
 --light-active: var(--light-600);
---light-100: color(var(--light) tint(80%));
---light-200: color(var(--light) tint(60%));
---light-300: color(var(--light) tint(40%));
---light-400: color(var(--light) tint(20%));
+--light-50: color-mod(var(--light-100) tint(50%));
+--light-100: color-mod(var(--light-200) tint(40%));
+--light-200: color-mod(var(--light-300) tint(30%));
+--light-300: color-mod(var(--light-400) tint(20%));
+--light-400: color-mod(var(--light) tint(10%));
 --light-500: var(--light);
---light-600: color(var(--light) shade(5%));
---light-700: color(var(--light) shade(10%));
---light-800: color(var(--light) shade(15%));
---light-900: color(var(--light) shade(20%));
+--light-600: color-mod(var(--light) shade(5%));
+--light-700: color-mod(var(--light-600) shade(10%));
+--light-800: color-mod(var(--light-700) shade(15%));
+--light-900: color-mod(var(--light-800) shade(20%));
 ```
 
 #### Grey
@@ -331,18 +332,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---grey: #616166;
+--grey: hsl(220, 10%, 40%);
 --grey-hover: var(--grey-400);
 --grey-active: var(--grey-600);
---grey-100: color(var(--grey) tint(30%));
---grey-200: color(var(--grey) tint(22.5%));
---grey-300: color(var(--grey) tint(15%));
---grey-400: color(var(--grey) tint(7.5%));
+--grey-50: color-mod(var(--grey-100) tint(30%));
+--grey-100: color-mod(var(--grey-200) tint(25%));
+--grey-200: color-mod(var(--grey-300) tint(20%));
+--grey-300: color-mod(var(--grey-400) tint(15%));
+--grey-400: color-mod(var(--grey) tint(10%));
 --grey-500: var(--grey);
---grey-600: color(var(--grey) shade(7.5%));
---grey-700: color(var(--grey) shade(15%));
---grey-800: color(var(--grey) shade(22.5%));
---grey-900: color(var(--grey) shade(30%));
+--grey-600: color-mod(var(--grey) shade(5%));
+--grey-700: color-mod(var(--grey-600) shade(10%));
+--grey-800: color-mod(var(--grey-700) shade(15%));
+--grey-900: color-mod(var(--grey-800) shade(20%));
 ```
 
 #### Dark
@@ -362,18 +364,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---dark: #323236;
+--dark: hsl(220, 10%, 20%);
 --dark-hover: var(--dark-400);
 --dark-active: var(--dark-600);
---dark-100: color(var(--dark) tint(20%));
---dark-200: color(var(--dark) tint(15%));
---dark-300: color(var(--dark) tint(10%));
---dark-400: color(var(--dark) tint(5%));
+--dark-50: color-mod(var(--dark-100) tint(30%));
+--dark-100: color-mod(var(--dark-200) tint(25%));
+--dark-200: color-mod(var(--dark-300) tint(20%));
+--dark-300: color-mod(var(--dark-400) tint(15%));
+--dark-400: color-mod(var(--dark) tint(10%));
 --dark-500: var(--dark);
---dark-600: color(var(--dark) shade(7.5%));
---dark-700: color(var(--dark) shade(15%));
---dark-800: color(var(--dark) shade(22.5%));
---dark-900: color(var(--dark) shade(30%));
+--dark-600: color-mod(var(--dark) shade(5%));
+--dark-700: color-mod(var(--dark-600) shade(10%));
+--dark-800: color-mod(var(--dark-700) shade(15%));
+--dark-900: color-mod(var(--dark-800) shade(20%));
 ```
 
 ### Palettes
@@ -395,18 +398,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---primary: #3455DB;
+--primary: hsl(220, 80%, 50%);
 --primary-hover: var(--primary-400);
 --primary-active: var(--primary-600);
---primary-100: color(var(--primary) tint(40%));
---primary-200: color(var(--primary) tint(30%));
---primary-300: color(var(--primary) tint(20%));
---primary-400: color(var(--primary) tint(10%));
+--primary-50: color-mod(var(--primary-100) tint(60%));
+--primary-100: color-mod(var(--primary-200) tint(40%));
+--primary-200: color-mod(var(--primary-300) tint(30%));
+--primary-300: color-mod(var(--primary-400) tint(20%));
+--primary-400: color-mod(var(--primary) tint(10%));
 --primary-500: var(--primary);
---primary-600: color(var(--primary) shade(10%));
---primary-700: color(var(--primary) shade(20%));
---primary-800: color(var(--primary) shade(30%));
---primary-900: color(var(--primary) shade(40%));
+--primary-600: color-mod(var(--primary) shade(15%));
+--primary-700: color-mod(var(--primary-600) shade(20%));
+--primary-800: color-mod(var(--primary-700) shade(25%));
+--primary-900: color-mod(var(--primary-800) shade(30%));
 ```
 
 #### Secondary
@@ -426,18 +430,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---secondary: rebeccapurple;
+--secondary: hsl(270, 80%, 50%);
 --secondary-hover: var(--secondary-400);
 --secondary-active: var(--secondary-600);
---secondary-100: color(var(--secondary) tint(40%));
---secondary-200: color(var(--secondary) tint(30%));
---secondary-300: color(var(--secondary) tint(20%));
---secondary-400: color(var(--secondary) tint(10%));
+--secondary-50: color-mod(var(--secondary-100) tint(60%));
+--secondary-100: color-mod(var(--secondary-200) tint(50%));
+--secondary-200: color-mod(var(--secondary-300) tint(30%));
+--secondary-300: color-mod(var(--secondary-400) tint(20%));
+--secondary-400: color-mod(var(--secondary) tint(10%));
 --secondary-500: var(--secondary);
---secondary-600: color(var(--secondary) shade(10%));
---secondary-700: color(var(--secondary) shade(20%));
---secondary-800: color(var(--secondary) shade(30%));
---secondary-900: color(var(--secondary) shade(40%));
+--secondary-600: color-mod(var(--secondary) shade(15%));
+--secondary-700: color-mod(var(--secondary-600) shade(20%));
+--secondary-800: color-mod(var(--secondary-700) shade(25%));
+--secondary-900: color-mod(var(--secondary-800) shade(30%));
 ```
 
 #### Tertiary
@@ -457,18 +462,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---tertiary: #8B008B;
+--tertiary: hsl(320, 80%, 50%);
 --tertiary-hover: var(--tertiary-400);
 --tertiary-active: var(--tertiary-600);
---tertiary-100: color(var(--tertiary) tint(40%));
---tertiary-200: color(var(--tertiary) tint(30%));
---tertiary-300: color(var(--tertiary) tint(20%));
---tertiary-400: color(var(--tertiary) tint(10%));
+--tertiary-50: color-mod(var(--tertiary-100) tint(60%));
+--tertiary-100: color-mod(var(--tertiary-200) tint(50%));
+--tertiary-200: color-mod(var(--tertiary-300) tint(30%));
+--tertiary-300: color-mod(var(--tertiary-400) tint(20%));
+--tertiary-400: color-mod(var(--tertiary) tint(10%));
 --tertiary-500: var(--tertiary);
---tertiary-600: color(var(--tertiary) shade(10%));
---tertiary-700: color(var(--tertiary) shade(20%));
---tertiary-800: color(var(--tertiary) shade(30%));
---tertiary-900: color(var(--tertiary) shade(40%));
+--tertiary-600: color-mod(var(--tertiary) shade(15%));
+--tertiary-700: color-mod(var(--tertiary-600) shade(20%));
+--tertiary-800: color-mod(var(--tertiary-700) shade(25%));
+--tertiary-900: color-mod(var(--tertiary-800) shade(30%));
 ```
 
 ### Indicators
@@ -490,18 +496,20 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---error: #D91E18;
+--error: hsl(0, 100%, 40%);
 --error-hover: var(--error-400);
 --error-active: var(--error-600);
---error-100: color(var(--error) tint(40%));
---error-200: color(var(--error) tint(30%));
---error-300: color(var(--error) tint(20%));
---error-400: color(var(--error) tint(10%));
+--error-50: color-mod(var(--error-100) tint(60%));
+--error-100: color-mod(var(--error-200) tint(50%));
+--error-200: color-mod(var(--error-300) tint(30%));
+--error-300: color-mod(var(--error-400) tint(20%));
+--error-400: color-mod(var(--error) tint(10%));
 --error-500: var(--error);
---error-600: color(var(--error) shade(10%));
---error-700: color(var(--error) shade(20%));
---error-800: color(var(--error) shade(30%));
---error-900: color(var(--error) shade(40%));
+--error-600: color-mod(var(--error) shade(15%));
+--error-700: color-mod(var(--error-600) shade(20%));
+--error-800: color-mod(var(--error-700) shade(25%));
+--error-900: color-mod(var(--error-800) shade(30%));
+
 ```
 
 #### Warning
@@ -521,18 +529,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---warning: #FF4500;
+--warning: hsl(20, 100%, 50%);
 --warning-hover: var(--warning-400);
 --warning-active: var(--warning-600);
---warning-100: color(var(--warning) tint(40%));
---warning-200: color(var(--warning) tint(30%));
---warning-300: color(var(--warning) tint(20%));
---warning-400: color(var(--warning) tint(10%));
+--warning-50: color-mod(var(--warning-100) tint(60%));
+--warning-100: color-mod(var(--warning-200) tint(50%));
+--warning-200: color-mod(var(--warning-300) tint(30%));
+--warning-300: color-mod(var(--warning-400) tint(20%));
+--warning-400: color-mod(var(--warning) tint(10%));
 --warning-500: var(--warning);
---warning-600: color(var(--warning) shade(10%));
---warning-700: color(var(--warning) shade(20%));
---warning-800: color(var(--warning) shade(30%));
---warning-900: color(var(--warning) shade(40%));
+--warning-600: color-mod(var(--warning) shade(15%));
+--warning-700: color-mod(var(--warning-600) shade(20%));
+--warning-800: color-mod(var(--warning-700) shade(25%));
+--warning-900: color-mod(var(--warning-800) shade(30%));
 ```
 
 #### Success
@@ -552,18 +561,19 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---success: #00AA00;
+--success: hsl(120, 100%, 35%);
 --success-hover: var(--success-400);
 --success-active: var(--success-600);
---success-100: color(var(--success) tint(40%));
---success-200: color(var(--success) tint(30%));
---success-300: color(var(--success) tint(20%));
---success-400: color(var(--success) tint(10%));
+--success-50: color-mod(var(--success-100) tint(60%));
+--success-100: color-mod(var(--success-200) tint(50%));
+--success-200: color-mod(var(--success-300) tint(30%));
+--success-300: color-mod(var(--success-400) tint(20%));
+--success-400: color-mod(var(--success) tint(10%));
 --success-500: var(--success);
---success-600: color(var(--success) shade(10%));
---success-700: color(var(--success) shade(20%));
---success-800: color(var(--success) shade(30%));
---success-900: color(var(--success) shade(40%));
+--success-600: color-mod(var(--success) shade(15%));
+--success-700: color-mod(var(--success-600) shade(20%));
+--success-800: color-mod(var(--success-700) shade(25%));
+--success-900: color-mod(var(--success-800) shade(30%));
 ```
 
 #### Info
@@ -583,16 +593,17 @@ Some top level definitions for the base font-size styles on the `<html>` tag, wi
 </div>
 
 ```scss
---info: #1E90FF;
+--info: hsl(200, 100%, 40%);
 --info-hover: var(--info-400);
 --info-active: var(--info-600);
---info-100: color(var(--info) tint(40%));
---info-200: color(var(--info) tint(30%));
---info-300: color(var(--info) tint(20%));
---info-400: color(var(--info) tint(10%));
+--info-50: color-mod(var(--info-100) tint(60%));
+--info-100: color-mod(var(--info-200) tint(50%));
+--info-200: color-mod(var(--info-300) tint(30%));
+--info-300: color-mod(var(--info-400) tint(20%));
+--info-400: color-mod(var(--info) tint(10%));
 --info-500: var(--info);
---info-600: color(var(--info) shade(10%));
---info-700: color(var(--info) shade(20%));
---info-800: color(var(--info) shade(30%));
---info-900: color(var(--info) shade(40%));
+--info-600: color-mod(var(--info) shade(15%));
+--info-700: color-mod(var(--info-600) shade(20%));
+--info-800: color-mod(var(--info-700) shade(25%));
+--info-900: color-mod(var(--info-800) shade(30%));
 ```
