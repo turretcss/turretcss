@@ -19,19 +19,19 @@
    * Root
    */
 
-  --root-size: 16px;
   --root-size-xl: var(--root-size);
   --root-size-l: var(--root-size);
   --root-size-m: var(--root-size);
   --root-size-s: var(--root-size);
   --root-size-xs: var(--root-size);
+  --root-size: 16px;
 
   /**
    * Focus Outline
    */
 
-  --focus-outline: var(--border-width) solid var(--info);
-  --focus-outline-offset: var(--border-width);
+  --focus-outline: 0.125rem solid var(--info);
+  --focus-outline-offset: 0.125rem;
 
   /**
    * Gutter
@@ -68,6 +68,12 @@
   --border-width: 1px;
   --border-style: solid;
   --border-color: var(--light);
+  --border: var(--border-width) var(--border-style) var(--border-color);
+
+  /**
+   * Border Radius
+   */
+
   --border-radius: 0.125em;
 
   /**
@@ -91,10 +97,10 @@
    * Speed
    */
 
-  --speed: var(--speed-fast);
   --speed-fast: 200ms;
   --speed-medium: 300ms;
   --speed-slow: 500ms;
+  --speed: var(--speed-fast);
 
   /**
    * Height
@@ -150,17 +156,16 @@
    * Font
    */
 
-  --font-family: var(--font-family-system);
   --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-serif: Georgia, 'Times New Roman', Times, serif;
   --font-family-monospace: Monaco, Menlo, Consolas, 'Courier New', monospace;
+  --font-family: var(--font-family-system);
 
   /**
    * Font Weights
    */
 
-  --font-weight: normal;
   --font-weight-thin: 200;
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -168,6 +173,7 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-black: 800;
+  --font-weight: normal;
 
   /**
    * Font Sizes
@@ -183,21 +189,21 @@
    * Line height
    */
 
-  --line-height: var(--line-height-s);
   --line-height-xl: 1.75;
   --line-height-l: 1.625;
   --line-height-m: 1.5;
   --line-height-s: 1.375;
   --line-height-xs: 1.25;
+  --line-height: var(--line-height-s);
 
   /**
    * Letter Spacing
    */
 
-  --letter-spacing: 0;
   --letter-spacing-xl: 0.15em;
   --letter-spacing-l: 0.1em;
   --letter-spacing-m: 0.05em;
   --letter-spacing-s: 0.025em;
   --letter-spacing-xs: 0.01em;
+  --letter-spacing: 0;
 }
