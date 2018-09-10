@@ -69,7 +69,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 </div>
 
 ```scss
---field-margin: var(--margin-xs) 0;
+--field-margin: var(--space-xs) 0;
 ```
 
 ```html
@@ -134,7 +134,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 
 ```scss
 --fieldset-margin: var(--field-margin);
---fieldset-padding: var(--padding-xs);
+--fieldset-padding: var(--space-xs);
 --fieldset-border-width: var(--border-width);
 --fieldset-border-style: var(--border-style);
 --fieldset-border-color: var(--border-color);

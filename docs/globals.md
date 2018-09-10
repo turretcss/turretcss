@@ -144,30 +144,6 @@ Space sizes (xl, l, m, s, xs) for use globally, including utility classes.
 --space-xs: 1rem;
 ```
 
-### Margin
-
-Margin sizes (xl, l, m, s, xs) for use globally, including utility classes.
-
-```scss
---margin-xl: var(--space-xl);
---margin-l: var(--space-l);
---margin-m: var(--space-m);
---margin-s: var(--space-s);
---margin-xs: var(--space-xs);
-```
-
-### Padding
-
-Padding sizes (xl, l, m, s, xs) for use globally, including utility classes.
-
-```scss
---padding-xl: var(--space-xl);
---padding-l: var(--space-l);
---padding-m: var(--space-m);
---padding-s: var(--space-s);
---padding-xs: var(--space-xs);
-```
-
 ### Max Width
 
 Max Width sizes (xl, l, m, s, xs) for use globally, including utility classes.

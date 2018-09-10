@@ -314,7 +314,7 @@
    * Field
    */
 
-  --field-margin: var(--margin-xs) 0;
+  --field-margin: var(--space-xs) 0;
   --field-float-label-padding: 0.25em;
 
   /** 
@@ -322,7 +322,7 @@
    */
 
   --fieldset-margin: var(--field-margin);
-  --fieldset-padding: var(--padding-xs);
+  --fieldset-padding: var(--space-xs);
   --fieldset-border-width: var(--border-width);
   --fieldset-border-style: var(--border-style);
   --fieldset-border-color: var(--border-color);
@@ -607,7 +607,7 @@
    */
 
   --button-padding-vertical: calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2);
-  --button-padding-horizontal: 1.5em;
+  --button-padding-horizontal: 1em;
   --button-height: var(--height-m);
   --button-font-family: inherit;
   --button-font-weight: var(--font-weight-semibold);
