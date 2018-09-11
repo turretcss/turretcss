@@ -6,28 +6,38 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
 <header class="padding-top-xs text-center color-white background-primary">
   <div class="container">
     {% include logo.svg %}
-    <h1 class="display-title" style="margin: 0.25em 0;">turretcss</h1>
+    <h1 class="all-caps all-caps-xxl">turretcss</h1>
     <p class="no-margin"><strong>v{{ site.current_version }}</strong></p>
   </div>
 </header>
 
-<main class="padding-vertical-xl color-white background-primary">
+<main class="padding-vertical-xxl color-white background-primary">
   <div class="container">
-    <h2 class="hero-text">
-      <span>Simple.</span>
-      <span>Smart.</span>
-      <span>Modern.</span>
+    <h2 class="display-title display-title-xxl line-height-xxs">
+      Simple.<br>
+      Smart.<br>
+      Modern.
     </h2>
-    <p class="lead max-width-xs">Developed for design, turretcss is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
-    <p class="margin-top-xs">
-      <a class="button button-white button-border home-button" href="{{ site.baseurl }}/docs/getting-started/">Get Started</a>
-      <a class="button button-white button-border home-button" href="{{ site.baseurl }}/docs/demo/">View Demo</a>
-      <a class="button button-white button-border home-button" href="{{ site.repo }}">GitHub</a>
-    </p>
-    <h2 class="display-title margin-top-xl">Principles</h2>
-    <p class="lead max-width-xs">Designed for speed turretcss is designed to make responsive, accessible, and scalable CSS development simple, and predictable.</p>
+    <p class="lead max-width-m">Developed for design, turretcss is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
+
+    <nav class="group margin-top-xs">
+      <ul>
+        <li>
+          <a class="button button-white button-border" href="{{ site.baseurl }}/docs/getting-started/">Get Started</a>
+        </li>
+        <li>
+          <a class="button button-white button-border" href="{{ site.baseurl }}/docs/demo/">View Demo</a>
+        </li>
+        <li>
+          <a class="button button-white button-border" href="{{ site.repo }}">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2 class="display-title margin-top-xxl">Principles</h2>
+    <p class="lead max-width-m">Designed for speed turretcss is designed to make responsive, accessible, and scalable CSS development simple, and predictable.</p>
     <div class="boxes margin-top-m">
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/simple.svg %}
         <h3>
           <span class="all-caps">Simple.</span>
@@ -35,7 +45,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Write clean, simple, and modern HTML & CSS with intuitive size and style utilities with <a href="http://postcss.org/">PostCSS</a> and <a href="http://cssnext.io/">cssnext</a>.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/animated/responsive.svg %}
         <h3>
           <span class="all-caps">Responsive.</span>
@@ -43,7 +53,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Mobile-first block element styles and full viewport breakpoint coverage makes complex responsive web interface development simple.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/predictable.svg %}
         <h3>
           <span class="all-caps">Predictable.</span>
@@ -51,7 +61,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Low specificity and intuitive style inheritance lets you utilise the cascade to style components with consistent options.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/animated/usable.svg %}
         <h3>
           <span class="all-caps">Usable.</span>
@@ -59,7 +69,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Usability is at the core with large tap targets for buttons and link, clear indicator palettes for error handling, and a focus on semantic HTML development.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/customisable.svg %}
         <h3>
           <span class="all-caps">Customisable.</span>
@@ -67,7 +77,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Easily customise styles with a few simple theme variables, or fully customise the look of elements with full control over visual variables.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/extendable.svg %}
         <h3>
           <span class="all-caps">Extendable.</span>
@@ -75,7 +85,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Build custom layouts and interfaces with a solid foundation of typography choices, color options, input types, and full suite of default HTML elements.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/fast.svg %}
         <h3>
           <span class="all-caps">Fast.</span>
@@ -83,7 +93,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Rapidly develop responsive, performant, and visually custom web interface with minimal property configuration.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/accessible.svg %}
         <h3>
           <span class="all-caps">Accessible.</span>
@@ -91,7 +101,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
         </h3>
         <p>Use the full range of semantic HTML elements with accessible color combinations, and screen reader utility classes to create accessible web interfaces.</p>
       </div>
-      <div class="box">
+      <div class="padding-m border-radius border border-color-current-color">
         {% include icon/animated/scalable.svg %}
         <h3>
           <span class="all-caps">Scalable.</span>

@@ -58,25 +58,6 @@
   }
 }
 
-.home-button {
-  @media (--s-up) {
-    width: 100%;
-    max-width: 10rem;
-
-    & + .home-button {
-      margin-left: 1em;
-    }
-  }
-
-  @media (--xs) {
-    display: block;
-
-    &:not(:last-child) {
-      margin-bottom: 1em;
-    }
-  }
-}
-
 #markdown-toc {
   list-style: none;
 
