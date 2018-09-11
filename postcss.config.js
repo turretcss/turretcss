@@ -13,8 +13,8 @@ module.exports = {
         'nesting-rules': true
       }
     }),
-    // require('cssnano')({
-    //   autoprefixer: false
-    // })
+    require('cssnano')({
+      autoprefixer: false
+    })
   ]
 }
