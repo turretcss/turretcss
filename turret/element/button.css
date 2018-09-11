@@ -149,8 +149,9 @@ button,
   }
 }
 
-button:disabled {
-  cursor: no-drop;
+button:disabled,
+.button[disabled] {
+  pointer-events: none;
   opacity: var(--button-disabled-opacity);
 }
 
