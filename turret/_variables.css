@@ -74,19 +74,8 @@
   --display-title-letter-spacing: var(--letter-spacing-m);
 
   /**
-   * Big
    */
 
-  --big-margin: 0.5em 0;
-  --big-font-family: var(--headings-font-family);
-  --big-font-weight: var(--headings-font-weight);
-  --big-line-height: var(--line-height-xs);
-  --big-base-size: 36px;
-  --big-min-size: 36;
-  --big-max-size: 56;
-  --big-base-width: 320px;
-  --big-min-width: 320;
-  --big-max-width: 960;
 
   /**
    * Small Caps

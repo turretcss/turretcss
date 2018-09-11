@@ -70,28 +70,6 @@ permalink: /docs/typography/
 <h1 class="display-title">...</h1>
 ```
 
-## Big
-
-The `.big` class is used for responsive text that scales between min/max sizes based on a varience between min/max widths and the viewport width.
-
-<p class="big">Big</p>
-
-```scss
---big-margin: 0.5em 0;
---big-font-family: var(--headings-font-family);
---big-font-weight: var(--headings-font-weight);
---big-line-height: var(--line-height-xs);
---big-base-size: 36px;
---big-min-size: 36;
---big-max-size: 56;
---big-base-width: 320px;
---big-min-width: 320;
---big-max-width: 960;
-```
-
-```html
-<p class="big">...</p>
-```
 
 ## Small Caps
 
