@@ -15,15 +15,10 @@ permalink: /docs/globals/
 
 ### Root
 
-Sets @root-size on the `:root` element with responsive breakpoints.
+Sets @root-size on the `:root` element.
 
 ```scss
 --root-size: 16px;
---root-size-xl: var(--root-size);
---root-size-l: var(--root-size);
---root-size-m: var(--root-size);
---root-size-s: var(--root-size);
---root-size-xs: var(--root-size);
 ```
 
 ### Focus Outline
