@@ -8,3 +8,27 @@
   text-transform: var(--display-title-text-transform);
   letter-spacing: var(--display-title-letter-spacing);
 }
+
+.display-title-xxl {
+  font-size: var(--display-title-xxl-font-size);
+}
+
+.display-title-xl {
+  font-size: var(--display-title-xl-font-size);
+}
+
+.display-title-l {
+  font-size: var(--display-title-l-font-size);
+}
+
+.display-title-s {
+  font-size: var(--display-title-s-font-size);
+}
+
+.display-title-xs {
+  font-size: var(--display-title-xs-font-size);
+}
+
+.display-title-xxs {
+  font-size: var(--display-title-xxs-font-size);
+}

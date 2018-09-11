@@ -59,15 +59,44 @@ permalink: /docs/typography/
 --display-title-margin: 0;
 --display-title-font-family: var(--headings-font-family);
 --display-title-font-weight: var(--headings-font-weight);
---display-title-font-size: 2.25rem;
+--display-title-font-size: 3rem;
 --display-title-color: inherit;
 --display-title-line-height: var(--line-height-xs);
---display-title-text-transform: uppercase;
---display-title-letter-spacing: var(--letter-spacing-m);
+--display-title-letter-spacing: 0;
+--display-title-text-transform: none;
 ```
 
 ```html
 <h1 class="display-title">...</h1>
+```
+
+### Display Title Sizes
+
+<h2 class="display-title display-title-xxl">Display Title XXL</h2>
+<h2 class="display-title display-title-xl">Display Title XL</h2>
+<h2 class="display-title display-title-l">Display Title L</h2>
+<h2 class="display-title">Display Title M</h2>
+<h2 class="display-title display-title-s">Display Title S</h2>
+<h2 class="display-title display-title-xs">Display Title XS</h2>
+<h2 class="display-title display-title-xxs">Display Title XXS</h2>
+
+```scss
+--display-title-xxl-font-size: 4.5rem;
+--display-title-xl-font-size: 4rem;
+--display-title-l-font-size: 3.5rem;
+--display-title-s-font-size: 2.5rem;
+--display-title-xs-font-size: 2rem;
+--display-title-xxs-font-size: 1.5rem;
+```
+
+```html
+<h2 class="all-caps all-caps-xxl">...</h2>
+<h2 class="all-caps all-caps-xl">...</h2>
+<h2 class="all-caps all-caps-l">...</h2>
+<h2 class="all-caps">...</h2>
+<h2 class="all-caps all-caps-s">...</h2>
+<h2 class="all-caps all-caps-xs">...</h2>
+<h2 class="all-caps all-caps-xxs">...</h2>
 ```
 
 ## All Caps
@@ -87,6 +116,7 @@ permalink: /docs/typography/
 ```html
 <h2 class="all-caps">...</h2>
 ```
+
 ### All Caps Sizes
 
 <h2 class="all-caps all-caps-xxl">All Caps XXL</h2>
