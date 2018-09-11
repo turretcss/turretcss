@@ -140,6 +140,7 @@
 @import './utility/pointer-events';
 @import './utility/position';
 @import './utility/text';
+@import './utility/space';
 @import './utility/stroke';
 @import './utility/icon';
 @import './utility/transition';

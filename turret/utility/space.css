@@ -1,0 +1,34 @@
+.space-xxl {
+  width: var(--space-xxl);
+  height: var(--space-xxl);
+}
+
+.space-xl {
+  width: var(--space-xl);
+  height: var(--space-xl);
+}
+
+.space-l {
+  width: var(--space-l);
+  height: var(--space-l);
+}
+
+.space-m {
+  width: var(--space-m);
+  height: var(--space-m);
+}
+
+.space-s {
+  width: var(--space-s);
+  height: var(--space-s);
+}
+
+.space-xs {
+  width: var(--space-xs);
+  height: var(--space-xs);
+}
+
+.space-xxs {
+  width: var(--space-xxs);
+  height: var(--space-xxs);
+}
