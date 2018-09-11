@@ -1,8 +1,7 @@
 .button-group {
   display: flex;
 
-  & button,
-  & .button {
+  & > * {
     position: relative;
     flex: 0 0 auto;
 
@@ -12,8 +11,17 @@
       z-index: 2;
     }
 
-    & + button,
-    & + .button {
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+      margin-left: calc(var(--button-border-width) * -1);
+    }
+
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-child {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
       margin-left: calc(var(--button-border-width) * -1);
