@@ -342,7 +342,7 @@
    * Label
    */
 
-  --label-margin: 1rem 0;
+  --label-margin: 0.5em 0;
   --label-font-family: inherit;
   --label-font-weight: inherit;
   --label-font-size: var(--font-size-s);
