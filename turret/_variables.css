@@ -389,19 +389,15 @@
    * Input Sizes
    */
 
-  --input-xl-padding: var(--input-padding);
   --input-xl-height: var(--height-xl);
   --input-xl-font-size: var(--font-size-xl);
 
-  --input-l-padding: var(--input-padding);
   --input-l-height: var(--height-l);
   --input-l-font-size: var(--font-size-l);
 
-  --input-s-padding: var(--input-padding);
   --input-s-height: var(--height-s);
   --input-s-font-size: var(--font-size-s);
 
-  --input-xs-padding: var(--input-padding);
   --input-xs-height: var(--height-xs);
   --input-xs-font-size: var(--font-size-xs);
 
@@ -452,19 +448,15 @@
    * Select Sizes
    */
 
-  --select-xl-padding: var(--input-xl-padding);
   --select-xl-height: var(--input-xl-height);
   --select-xl-font-size: var(--input-xl-font-size);
 
-  --select-l-padding: var(--input-l-padding);
   --select-l-height: var(--input-l-height);
   --select-l-font-size: var(--input-l-font-size);
 
-  --select-s-padding: var(--input-s-padding);
   --select-s-height: var(--input-s-height);
   --select-s-font-size: var(--input-s-font-size);
 
-  --select-xs-padding: var(--input-xs-padding);
   --select-xs-height: var(--input-xs-height);
   --select-xs-font-size: var(--input-xs-font-size);
 
