@@ -314,7 +314,7 @@
    * Field
    */
 
-  --field-margin: var(--space-xs) 0;
+  --field-margin: var(--space-s) 0;
   --field-float-label-padding: 0.25em;
 
   /** 
@@ -543,7 +543,7 @@
    * Range
    */
 
-  --range-margin: var(--input-margin);
+  --range-margin: var(--field-margin);
   --range-padding: 0;
   --range-height: 0.625rem;
 
