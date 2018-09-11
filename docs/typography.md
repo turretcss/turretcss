@@ -467,10 +467,3 @@ permalink: /docs/typography/
 ```html
 <mark>...</mark>
 ```
-
-```html
-<mark class="error">...</mark>
-<mark class="warning">...</mark>
-<mark class="success">...</mark>
-<mark class="info">...</mark>
-```

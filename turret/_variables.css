@@ -500,7 +500,7 @@
   --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
 
   --control-checked-indicator-background: var(--primary);
-  --control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--input-focus-border-color);
+  --control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--control-checked-indicator-background);
   --control-checked-label-color: var(--control-label-color);
 
   --control-indicator-size: 1.375rem;

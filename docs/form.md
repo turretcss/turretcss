@@ -567,7 +567,7 @@ The field is a `<div>` that wraps an label and input in a form to normalise marg
 --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
 
 --control-checked-indicator-background: var(--primary);
---control-checked-indicator-border: var(--border-width) var(--border-style) var(--input-focus-border-color);
+--control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--control-checked-indicator-background);
 --control-checked-label-color: var(--control-label-color);
 
 --control-indicator-size: 1.5rem;
