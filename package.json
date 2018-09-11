@@ -32,11 +32,12 @@
     "web"
   ],
   "scripts": {
-    "start": "npm run watch:build && npm run watch:docs",
-    "watch:build": "npm run build -- --verbose --watch",
-    "watch:docs": "npm run docs -- --verbose --watch",
-    "build": "postcss turret/turret.css -o dist/turretcss.min.css",
-    "docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css",
+    "start": "npm run watch",
+    "watch": "npm run watch:turret & npm run watch:docs",
+    "watch:turret": "npm run compile:turret -- --verbose --watch",
+    "watch:docs": "npm run compile:docs -- --verbose --watch",
+    "compile:turret": "postcss turret/turret.css -o dist/turretcss.min.css",
+    "compile:docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css",
     "format": "prettier --single-quote --print-width 180 --write '*.css'"
   },
   "devDependencies": {
