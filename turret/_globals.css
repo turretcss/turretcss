@@ -48,6 +48,18 @@
   --container-xxs: 100%;
 
   /**
+   * Group
+   */
+
+  --group-xxl-space: 0.875rem;
+  --group-xl-space: 0.75rem;
+  --group-l-space: 0.625rem;
+  --group-m-space: 0.5rem;
+  --group-s-space: 0.375rem;
+  --group-xs-space: 0.25rem;
+  --group-xxs-space: 0.125rem;
+
+  /**
    * Color
    */
 

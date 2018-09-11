@@ -41,6 +41,7 @@
 @import './base/root';
 @import './base/body';
 @import './base/container';
+@import './base/group';
 @import './base/print';
 
 /**
