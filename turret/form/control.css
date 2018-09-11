@@ -163,3 +163,15 @@
   color: var(--control-label-color);
   transition: all var(--speed) ease-in-out;
 }
+
+.control-reversed {
+  & > .control-label {
+    order: 1;
+    margin: 0;
+  }
+
+  & > .control-indicator {
+    order: 2;
+    margin: var(--control-label-margin);
+  }
+}
