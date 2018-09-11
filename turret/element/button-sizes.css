@@ -1,3 +1,23 @@
+.button-xxl {
+  padding: var(--button-xxl-padding-vertical) var(--button-xxl-padding-horizontal);
+  min-width: var(--button-xxl-height);
+  height: var(--button-xxl-height);
+  font-size: var(--button-xxl-font-size);
+
+  & svg {
+    width: var(--button-xxl-font-size);
+    height: var(--button-xxl-font-size);
+  }
+
+  &.button-square {
+    padding: var(--button-xxl-padding-vertical);
+  }
+
+  &.button-pill {
+    border-radius: calc(var(--button-xxl-height) / 2);
+  }
+}
+
 .button-xl {
   padding: var(--button-xl-padding-vertical) var(--button-xl-padding-horizontal);
   min-width: var(--button-xl-height);
@@ -75,5 +95,25 @@
 
   &.button-pill {
     border-radius: calc(var(--button-xs-height) / 2);
+  }
+}
+
+.button-xxs {
+  padding: var(--button-xxs-padding-vertical) var(--button-xxs-padding-horizontal);
+  min-width: var(--button-xxs-height);
+  height: var(--button-xxs-height);
+  font-size: var(--button-xxs-font-size);
+
+  & svg {
+    width: var(--button-xxs-font-size);
+    height: var(--button-xxs-font-size);
+  }
+
+  &.button-square {
+    padding: var(--button-xxs-padding-vertical);
+  }
+
+  &.button-pill {
+    border-radius: calc(var(--button-xxs-height) / 2);
   }
 }

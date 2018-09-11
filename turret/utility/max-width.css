@@ -1,3 +1,7 @@
+.max-width-xxl {
+  max-width: var(--max-width-xxl);
+}
+
 .max-width-xl {
   max-width: var(--max-width-xl);
 }
@@ -16,4 +20,8 @@
 
 .max-width-xs {
   max-width: var(--max-width-xs);
+}
+
+.max-width-xxs {
+  max-width: var(--max-width-xxs);
 }

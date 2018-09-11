@@ -1,3 +1,7 @@
+.letter-spacing-xxl {
+  letter-spacing: var(--letter-spacing-xxl);
+}
+
 .letter-spacing-xl {
   letter-spacing: var(--letter-spacing-xl);
 }
@@ -16,4 +20,8 @@
 
 .letter-spacing-xs {
   letter-spacing: var(--letter-spacing-xs);
+}
+
+.letter-spacing-xxs {
+  letter-spacing: var(--letter-spacing-xxs);
 }

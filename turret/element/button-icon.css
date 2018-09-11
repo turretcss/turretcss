@@ -26,6 +26,15 @@
   }
 }
 
+.button-xxs.button-icon {
+  padding-top: var(--button-icon-xxs-padding);
+  padding-bottom: var(--button-icon-xxs-padding);
+
+  &.button-square {
+    padding: var(--button-icon-xxs-padding);
+  }
+}
+
 .button-xs.button-icon {
   padding-top: var(--button-icon-xs-padding);
   padding-bottom: var(--button-icon-xs-padding);
@@ -59,5 +68,14 @@
 
   &.button-square {
     padding: var(--button-icon-xl-padding);
+  }
+}
+
+.button-xxl.button-icon {
+  padding-top: var(--button-icon-xxl-padding);
+  padding-bottom: var(--button-icon-xxl-padding);
+
+  &.button-square {
+    padding: var(--button-icon-xxl-padding);
   }
 }

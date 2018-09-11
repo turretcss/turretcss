@@ -2,6 +2,10 @@
   line-height: 1;
 }
 
+.line-height-xxl {
+  line-height: var(--line-height-xxl);
+}
+
 .line-height-xl {
   line-height: var(--line-height-xl);
 }
@@ -20,4 +24,8 @@
 
 .line-height-xs {
   line-height: var(--line-height-xs);
+}
+
+.line-height-xxs {
+  line-height: var(--line-height-xxs);
 }

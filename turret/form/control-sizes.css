@@ -1,3 +1,11 @@
+.control-xxl {
+  font-size: var(--control-xxl-font-size);
+
+  & .control-indicator {
+    font-size: var(--control-xxl-indicator-size);
+  }
+}
+
 .control-xl {
   font-size: var(--control-xl-font-size);
 
@@ -27,5 +35,13 @@
 
   & .control-indicator {
     font-size: var(--control-xs-indicator-size);
+  }
+}
+
+.control-xxs {
+  font-size: var(--control-xxs-font-size);
+
+  & .control-indicator {
+    font-size: var(--control-xxs-indicator-size);
   }
 }

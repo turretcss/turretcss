@@ -1,3 +1,7 @@
+.progress-xxl {
+  height: var(--progress-xxl-height);
+}
+
 .progress-xl {
   height: var(--progress-xl-height);
 }
@@ -12,4 +16,8 @@
 
 .progress-xs {
   height: var(--progress-xs-height);
+}
+
+.progress-xxs {
+  height: var(--progress-xxs-height);
 }

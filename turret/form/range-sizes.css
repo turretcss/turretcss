@@ -1,3 +1,7 @@
+input[type='range'].range-xxl {
+  font-size: var(--range-xxl-height);
+}
+
 input[type='range'].range-xl {
   font-size: var(--range-xl-height);
 }
@@ -12,4 +16,8 @@ input[type='range'].range-s {
 
 input[type='range'].range-xs {
   font-size: var(--range-xs-height);
+}
+
+input[type='range'].range-xxs {
+  font-size: var(--range-xxs-height);
 }

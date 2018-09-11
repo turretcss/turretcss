@@ -1,3 +1,8 @@
+.input-xxl {
+  height: var(--input-xxl-height);
+  font-size: var(--input-xxl-font-size);
+}
+
 .input-xl {
   height: var(--input-xl-height);
   font-size: var(--input-xl-font-size);
@@ -18,7 +23,16 @@
   font-size: var(--input-xs-font-size);
 }
 
+.input-xxs {
+  height: var(--input-xxs-height);
+  font-size: var(--input-xxs-font-size);
+}
+
 input[type='color'] {
+  &.input-xxl {
+    width: var(--input-xxl-height);
+  }
+
   &.input-xl {
     width: var(--input-xl-height);
   }
@@ -33,5 +47,9 @@ input[type='color'] {
 
   &.input-xs {
     width: var(--input-xs-height);
+  }
+
+  &.input-xxs {
+    width: var(--input-xxs-height);
   }
 }

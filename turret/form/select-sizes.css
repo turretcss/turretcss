@@ -1,3 +1,9 @@
+.select-xxl select,
+select.select-xxl {
+  height: var(--select-xxl-height);
+  font-size: var(--select-xxl-font-size);
+}
+
 .select-xl select,
 select.select-xl {
   height: var(--select-xl-height);
@@ -20,4 +26,10 @@ select.select-s {
 select.select-xs {
   height: var(--select-xs-height);
   font-size: var(--select-xs-font-size);
+}
+
+.select-xxs select,
+select.select-xxs {
+  height: var(--select-xxs-height);
+  font-size: var(--select-xxs-font-size);
 }

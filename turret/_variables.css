@@ -389,6 +389,9 @@
    * Input Sizes
    */
 
+  --input-xxl-height: var(--height-xxl);
+  --input-xxl-font-size: var(--font-size-xxl);
+
   --input-xl-height: var(--height-xl);
   --input-xl-font-size: var(--font-size-xl);
 
@@ -400,6 +403,9 @@
 
   --input-xs-height: var(--height-xs);
   --input-xs-font-size: var(--font-size-xs);
+
+  --input-xxs-height: var(--height-xxs);
+  --input-xxs-font-size: var(--font-size-xxs);
 
   /**
    * Textarea
@@ -448,6 +454,9 @@
    * Select Sizes
    */
 
+  --select-xxl-height: var(--input-xxl-height);
+  --select-xxl-font-size: var(--input-xxl-font-size);
+
   --select-xl-height: var(--input-xl-height);
   --select-xl-font-size: var(--input-xl-font-size);
 
@@ -460,6 +469,9 @@
   --select-xs-height: var(--input-xs-height);
   --select-xs-font-size: var(--input-xs-font-size);
 
+  --select-xxs-height: var(--input-xxs-height);
+  --select-xxs-font-size: var(--input-xxs-font-size);
+
   /**
    * Control
    */
@@ -470,7 +482,7 @@
   --control-font-weight: var(--input-font-weight);
   --control-font-size: var(--input-font-size);
   --control-color: var(--input-color);
-  --control-line-height: var(--input-line-height);
+  --control-line-height: var(--line-height-xs);
 
   --control-hover-indicator-background: var(--input-hover-background);
   --control-hover-indicator-border-color: var(--input-hover-border-color);
@@ -481,17 +493,17 @@
   --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
 
   --control-checked-indicator-background: var(--primary);
-  --control-checked-indicator-border: var(--border-width) var(--border-style) var(--input-focus-border-color);
+  --control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--input-focus-border-color);
   --control-checked-label-color: var(--control-label-color);
 
-  --control-indicator-size: 1.5rem;
+  --control-indicator-size: 1.375rem;
   --control-indicator-background: var(--input-background);
   --control-indicator-border-width: var(--input-border-width);
   --control-indicator-border-style: var(--input-border-style);
   --control-indicator-border-color: var(--input-border-color);
   --control-indicator-box-shadow: var(--input-box-shadow);
 
-  --control-label-margin: 0 0 0 1rem;
+  --control-label-margin: 0 0 0 0.75em;
   --control-label-color: inherit;
 
   --control-inline-margin-right: 2rem;
@@ -509,17 +521,23 @@
    * Control Sizes
    */
 
+  --control-xxl-font-size: var(--font-size-xxl);
+  --control-xxl-indicator-size: 1.75rem;
+
   --control-xl-font-size: var(--font-size-xl);
-  --control-xl-indicator-size: 2rem;
+  --control-xl-indicator-size: 1.625rem;
 
   --control-l-font-size: var(--font-size-l);
-  --control-l-indicator-size: 1.75rem;
+  --control-l-indicator-size: 1.5rem;
 
   --control-s-font-size: var(--font-size-s);
   --control-s-indicator-size: 1.25rem;
 
   --control-xs-font-size: var(--font-size-xs);
-  --control-xs-indicator-size: 1rem;
+  --control-xs-indicator-size: 1.125rem;
+
+  --control-xxs-font-size: var(--font-size-xxs);
+  --control-xxs-indicator-size: 1rem;
 
   /** 
    * Range
@@ -527,7 +545,7 @@
 
   --range-margin: var(--input-margin);
   --range-padding: 0;
-  --range-height: 0.75rem;
+  --range-height: 0.625rem;
 
   --range-thumb-width: 2em;
   --range-thumb-height: var(--range-thumb-width);
@@ -565,22 +583,24 @@
    * Range Sizes
    */
 
-  --range-xl-height: 1rem;
-  --range-l-height: 0.875rem;
-  --range-s-height: 0.625rem;
-  --range-xs-height: 0.5rem;
+  --range-xxl-height: 1rem;
+  --range-xl-height: 0.875rem;
+  --range-l-height: 0.75rem;
+  --range-s-height: 0.5rem;
+  --range-xs-height: 0.375rem;
+  --range-xxs-height: 0.25rem;
 
   /** 
    * Progress
    */
 
   --progress-margin: var(--input-margin);
-  --progress-height: 1rem;
+  --progress-height: 0.625rem;
   --progress-background: var(--input-border-color);
   --progress-border-width: 0;
   --progress-border-style: none;
   --progress-border-color: none;
-  --progress-border-radius: var(--input-border-radius);
+  --progress-border-radius: 1rem;
   --progress-box-shadow: var(--box-shadow);
 
   --progress-bar-background: var(--primary);
@@ -589,10 +609,12 @@
    * Progress Sizes
    */
 
-  --progress-xl-height: 1.25rem;
-  --progress-l-height: 1.125rem;
-  --progress-s-height: 0.875rem;
-  --progress-xs-height: 0.75rem;
+  --progress-xxl-height: 1rem;
+  --progress-xl-height: 0.875rem;
+  --progress-l-height: 0.75rem;
+  --progress-s-height: 0.5rem;
+  --progress-xs-height: 0.375rem;
+  --progress-xxs-height: 0.25rem;
 
   /**
    * Button
@@ -634,6 +656,11 @@
    * Button Sizes
    */
 
+  --button-xxl-padding-vertical: calc((var(--button-xxl-height) - var(--button-xxl-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xxl-padding-horizontal: var(--button-padding-horizontal);
+  --button-xxl-height: var(--height-xxl);
+  --button-xxl-font-size: var(--font-size-xxl);
+
   --button-xl-padding-vertical: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2);
   --button-xl-padding-horizontal: var(--button-padding-horizontal);
   --button-xl-height: var(--height-xl);
@@ -653,6 +680,11 @@
   --button-xs-padding-horizontal: var(--button-padding-horizontal);
   --button-xs-height: var(--height-xs);
   --button-xs-font-size: var(--font-size-xs);
+
+  --button-xxs-padding-vertical: calc((var(--button-xxs-height) - var(--button-xxs-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xxs-padding-horizontal: var(--button-padding-horizontal);
+  --button-xxs-height: var(--height-xxs);
+  --button-xxs-font-size: var(--font-size-xxs);
 
   /** 
    * Button Shades

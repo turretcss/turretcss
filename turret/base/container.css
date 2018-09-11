@@ -4,6 +4,10 @@
   padding-right: var(--container-gutter);
   width: 100%;
 
+  @media (--xxl) {
+    max-width: var(--container-xxl);
+  }
+
   @media (--xl) {
     max-width: var(--container-xl);
   }
@@ -22,5 +26,9 @@
 
   @media (--xs) {
     max-width: var(--container-xs);
+  }
+
+  @media (--xxs) {
+    max-width: var(--container-xxs);
   }
 }

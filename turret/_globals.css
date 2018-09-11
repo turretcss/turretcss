@@ -3,17 +3,23 @@
    * Media Queries
    */
 
-  @custom-media --xs (max-width: 767px);
-  @custom-media --s (min-width: 768px) and (max-width: 1023px);
-  @custom-media --s-up (min-width: 768px);
-  @custom-media --s-down (max-width: 1023px);
-  @custom-media --m (min-width: 1024px) and (max-width: 1279px);
-  @custom-media --m-up (min-width: 1024px);
-  @custom-media --m-down (max-width: 1279px);
-  @custom-media --l (min-width: 1280px) and (max-width: 1679px);
-  @custom-media --l-up (min-width: 1280px);
-  @custom-media --l-down (max-width: 1679px);
-  @custom-media --xl (min-width: 1680px);
+  @custom-media --xxl (min-width: 120rem);
+  @custom-media --xl-down (max-width: 120rem);
+  @custom-media --xl (min-width: 100rem) and (max-width: 120rem);
+  @custom-media --xl-up (min-width: 100rem);
+  @custom-media --l-down (max-width: 100rem);
+  @custom-media --l (min-width: 80rem) and (max-width: 100rem);
+  @custom-media --l-up (min-width: 80rem);
+  @custom-media --m-down (max-width: 80rem);
+  @custom-media --m (min-width: 60rem) and (max-width: 1279px);
+  @custom-media --m-up (min-width: 60rem);
+  @custom-media --s-down (max-width: 60rem);
+  @custom-media --s (min-width: 40rem) and (max-width: 60rem);
+  @custom-media --s-up (min-width: 40rem);
+  @custom-media --xs-down (max-width: 40rem);
+  @custom-media --xs (min-width: 20rem) and (max-width: 40rem);
+  @custom-media --xs-up (min-width: 20rem);
+  @custom-media --xxs (max-width: 20rem);
 
   /**
    * Root
@@ -33,11 +39,13 @@
    */
 
   --container-gutter: 1rem;
+  --container-xxl: 80rem;
   --container-xl: 80rem;
   --container-l: 80rem;
   --container-m: 70rem;
   --container-s: 100%;
   --container-xs: 100%;
+  --container-xxs: 100%;
 
   /**
    * Color
@@ -96,31 +104,37 @@
    * Height
    */
 
+  --height-xxl: 3.25rem;
   --height-xl: 3rem;
   --height-l: 2.75rem;
   --height-m: 2.5rem;
   --height-s: 2.25rem;
   --height-xs: 2rem;
+  --height-xxs: 1.75rem;
 
   /**
    * Space
    */
 
-  --space-xl: 4rem;
-  --space-l: 3rem;
-  --space-m: 2rem;
-  --space-s: 1.5rem;
-  --space-xs: 1rem;
+  --space-xxl: 4rem;
+  --space-xl: 3rem;
+  --space-l: 2rem;
+  --space-m: 1.5rem;
+  --space-s: 1rem;
+  --space-xs: 0.75rem;
+  --space-xxs: 0.5rem;
 
   /**
    * Max Width
    */
 
-  --max-width-xl: 70rem;
-  --max-width-l: 60rem;
-  --max-width-m: 50rem;
-  --max-width-s: 40rem;
-  --max-width-xs: 30rem;
+  --max-width-xxl: 70rem;
+  --max-width-xl: 60rem;
+  --max-width-l: 50rem;
+  --max-width-m: 40rem;
+  --max-width-s: 30rem;
+  --max-width-xs: 20rem;
+  --max-width-xxs: 10rem;
 
   /**
    * Font
@@ -149,31 +163,37 @@
    * Font Sizes
    */
 
+  --font-size-xxl: 1.5rem;
   --font-size-xl: 1.25rem;
   --font-size-l: 1.125rem;
   --font-size-m: 1rem;
   --font-size-s: 0.875rem;
   --font-size-xs: 0.75rem;
+  --font-size-xxs: 0.625rem;
 
   /**
    * Line height
    */
 
+  --line-height-xxl: 2;
   --line-height-xl: 1.75;
   --line-height-l: 1.625;
   --line-height-m: 1.5;
   --line-height-s: 1.375;
   --line-height-xs: 1.25;
+  --line-height-xxs: 1;
   --line-height: var(--line-height-s);
 
   /**
    * Letter Spacing
    */
 
-  --letter-spacing-xl: 0.15em;
-  --letter-spacing-l: 0.1em;
+  --letter-spacing-xxl: 0.1em;
+  --letter-spacing-xl: 0.0825em;
+  --letter-spacing-l: 0.075em;
   --letter-spacing-m: 0.05em;
-  --letter-spacing-s: 0.025em;
-  --letter-spacing-xs: 0.01em;
+  --letter-spacing-s: 0.0375em;
+  --letter-spacing-xs: 0.025em;
+  --letter-spacing-xxs: 0.0125em;
   --letter-spacing: 0;
 }

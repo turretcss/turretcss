@@ -61,8 +61,26 @@
   border: 0;
 }
 
+.hidden-xxs {
+  @media (--xxs) {
+    display: none !important;
+  }
+}
+
 .hidden-xs {
   @media (--xs) {
+    display: none !important;
+  }
+}
+
+.hidden-xs-up {
+  @media (--xs-up) {
+    display: none !important;
+  }
+}
+
+.hidden-xs-down {
+  @media (--xs-down) {
     display: none !important;
   }
 }
@@ -127,10 +145,34 @@
   }
 }
 
+.visible-xxs {
+  display: none !important;
+
+  @media (--xxs) {
+    display: block !important;
+  }
+}
+
 .visible-xs {
   display: none !important;
 
   @media (--xs) {
+    display: block !important;
+  }
+}
+
+.visible-xs-up {
+  display: none !important;
+
+  @media (--xs-up) {
+    display: block !important;
+  }
+}
+
+.visible-xs-down {
+  display: none !important;
+
+  @media (--xs-down) {
     display: block !important;
   }
 }
