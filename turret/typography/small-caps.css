@@ -1,9 +1,0 @@
-.small-caps {
-  margin: var(--small-caps-margin);
-  font-family: var(--small-caps-font-family);
-  font-weight: var(--small-caps-font-weight);
-  font-size: var(--small-caps-font-size);
-  line-height: var(--small-caps-line-height);
-  text-transform: var(--small-caps-text-transform);
-  letter-spacing: var(--small-caps-letter-spacing);
-}

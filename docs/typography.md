@@ -70,23 +70,50 @@ permalink: /docs/typography/
 <h1 class="display-title">...</h1>
 ```
 
+## All Caps
 
-## Small Caps
-
-<h2 class="small-caps">Small Caps</h2>
+<h2 class="all-caps">All Caps</h2>
 
 ```scss
---small-caps-margin: 1em 0;
---small-caps-font-family: var(--headings-font-family);
---small-caps-font-weight: var(--headings-font-weight);
---small-caps-font-size: var(--font-size-s);
---small-caps-line-height: var(--line-height-xs);
---small-caps-text-transform: uppercase;
---small-caps-letter-spacing: var(--letter-spacing);
+--all-caps-margin: 0.5em 0;
+--all-caps-font-family: var(--headings-font-family);
+--all-caps-font-weight: var(--headings-font-weight);
+--all-caps-font-size: 0.875rem;
+--all-caps-line-height: var(--line-height-xs);
+--all-caps-text-transform: uppercase;
+--all-caps-letter-spacing: var(--letter-spacing);
 ```
 
 ```html
-<h2 class="small-caps">...</h2>
+<h2 class="all-caps">...</h2>
+```
+### All Caps Sizes
+
+<h2 class="all-caps all-caps-xxl">All Caps XXL</h2>
+<h2 class="all-caps all-caps-xl">All Caps XL</h2>
+<h2 class="all-caps all-caps-l">All Caps L</h2>
+<h2 class="all-caps">All Caps M</h2>
+<h2 class="all-caps all-caps-s">All Caps S</h2>
+<h2 class="all-caps all-caps-xs">All Caps XS</h2>
+<h2 class="all-caps all-caps-xxs">All Caps XXS</h2>
+
+```scss
+--all-caps-xxl-font-size: 1.25rem;
+--all-caps-xl-font-size: 1.125rem;
+--all-caps-l-font-size: 1rem;
+--all-caps-s-font-size: 0.75rem;
+--all-caps-xs-font-size: 0.625rem;
+--all-caps-xxs-font-size: 0.5rem;
+```
+
+```html
+<h2 class="all-caps all-caps-xxl">...</h2>
+<h2 class="all-caps all-caps-xl">...</h2>
+<h2 class="all-caps all-caps-l">...</h2>
+<h2 class="all-caps">...</h2>
+<h2 class="all-caps all-caps-s">...</h2>
+<h2 class="all-caps all-caps-xs">...</h2>
+<h2 class="all-caps all-caps-xxs">...</h2>
 ```
 
 ## Lead

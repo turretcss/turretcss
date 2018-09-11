@@ -201,9 +201,9 @@ permalink: /docs/demo/
 
 <p class="big">Big</p>
 
-### Small Caps
+### All Caps
 
-<h2 class="small-caps">Small Caps</h2>
+<h2 class="all-caps">All Caps</h2>
 
 ### Lead
 

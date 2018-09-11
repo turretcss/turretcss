@@ -74,20 +74,27 @@
   --display-title-letter-spacing: var(--letter-spacing-m);
 
   /**
+   * All Caps
    */
 
+  --all-caps-margin: 0.5em 0;
+  --all-caps-font-family: var(--headings-font-family);
+  --all-caps-font-weight: var(--headings-font-weight);
+  --all-caps-font-size: 0.875rem;
+  --all-caps-line-height: var(--line-height-xs);
+  --all-caps-text-transform: uppercase;
+  --all-caps-letter-spacing: var(--letter-spacing);
 
-  /**
-   * Small Caps
+  /** 
+   * All Caps Sizes
    */
 
-  --small-caps-margin: 1em 0;
-  --small-caps-font-family: var(--headings-font-family);
-  --small-caps-font-weight: var(--headings-font-weight);
-  --small-caps-font-size: var(--font-size-s);
-  --small-caps-line-height: var(--line-height-xs);
-  --small-caps-text-transform: uppercase;
-  --small-caps-letter-spacing: var(--letter-spacing);
+  --all-caps-xxl-font-size: 1.25rem;
+  --all-caps-xl-font-size: 1.125rem;
+  --all-caps-l-font-size: 1rem;
+  --all-caps-s-font-size: 0.75rem;
+  --all-caps-xs-font-size: 0.625rem;
+  --all-caps-xxs-font-size: 0.5rem;
 
   /**
    * Lead

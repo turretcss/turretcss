@@ -1,0 +1,33 @@
+.all-caps {
+  margin: var(--all-caps-margin);
+  font-family: var(--all-caps-font-family);
+  font-weight: var(--all-caps-font-weight);
+  font-size: var(--all-caps-font-size);
+  line-height: var(--all-caps-line-height);
+  text-transform: var(--all-caps-text-transform);
+  letter-spacing: var(--all-caps-letter-spacing);
+}
+
+.all-caps-xxl {
+  font-size: var(--all-caps-xxl-font-size);
+}
+
+.all-caps-xl {
+  font-size: var(--all-caps-xl-font-size);
+}
+
+.all-caps-l {
+  font-size: var(--all-caps-l-font-size);
+}
+
+.all-caps-s {
+  font-size: var(--all-caps-s-font-size);
+}
+
+.all-caps-xs {
+  font-size: var(--all-caps-xs-font-size);
+}
+
+.all-caps-xxs {
+  font-size: var(--all-caps-xxs-font-size);
+}

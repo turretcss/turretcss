@@ -61,7 +61,7 @@
 
 @import './typography/headings';
 @import './typography/display-title';
-@import './typography/small-caps';
+@import './typography/all-caps';
 @import './typography/lead';
 @import './typography/paragraph';
 @import './typography/link';
