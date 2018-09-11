@@ -61,7 +61,8 @@ textarea,
 .control,
 progress,
 caption,
-table {
+table,
+.table-responsive {
   &:first-child {
     margin-top: 0;
   }
