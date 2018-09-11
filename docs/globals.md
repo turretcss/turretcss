@@ -31,12 +31,8 @@ Sets @root-size on the `:root` element with responsive breakpoints.
 Outline property and outline offset defintion for focusable elements.
 
 ```scss
---focus-outline: var(--border-width) solid var(--info);
---focus-outline-offset: var(--border-width);
-```
-
-```scss
---gutter: var(--space-xs);
+--focus-outline: 0.125rem solid var(--info);
+--focus-outline-offset: 0.125rem;
 ```
 
 ### Container
