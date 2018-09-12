@@ -54,7 +54,6 @@
 
 - title: Form
   pages:
-    - title: Example
     - title: Field
     - title: Label
     - title: Fieldset
@@ -64,7 +63,6 @@
     - title: Input Indicators
     - title: Input Sizes
     - title: Input Group
-    - title: Input Group Sizes
     - title: Control
     - title: Control Indicators
     - title: Control Sizes
