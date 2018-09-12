@@ -41,16 +41,7 @@
   --headings-letter-spacing: var(--letter-spacing);
 
   /**
-   * Headings Small
-   */
-
-  --headings-small-font-family: inherit;
-  --headings-small-font-weight: inherit;
-  --headings-small-size: 0.6em;
-  --headings-small-color: inherit;
-
-  /**
-   * Heading Font Sizes
+   * Heading Sizes
    */
 
   --h1-font-size: 2rem;
@@ -59,6 +50,15 @@
   --h4-font-size: 1.125rem;
   --h5-font-size: 1rem;
   --h6-font-size: 0.875rem;
+
+  /**
+   * Headings Small
+   */
+
+  --headings-small-font-family: inherit;
+  --headings-small-font-weight: inherit;
+  --headings-small-size: 0.6em;
+  --headings-small-color: inherit;
 
   /**
    * Display Title
@@ -165,7 +165,7 @@
    */
 
   --blockquote-margin: 2em 0;
-  --blockquote-padding: 0 1em;
+  --blockquote-padding: 0;
   --blockquote-font-family: inherit;
   --blockquote-font-weight: var(--lead-font-weight);
   --blockquote-font-size: var(--lead-font-size);

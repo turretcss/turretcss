@@ -35,8 +35,7 @@
   pages:
     - title: Headings
     - title: Display Title
-    - title: Big
-    - title: Small Caps
+    - title: All Caps
     - title: Lead
     - title: Paragraph
     - title: Link
