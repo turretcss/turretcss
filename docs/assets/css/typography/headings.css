@@ -11,7 +11,7 @@ h4[id] {
 h2[id] {
   padding-bottom: 0.35em;
   font-weight: var(--font-weight-light);
-  border-bottom: var(--border-width) var(--border-style) var(--light-300);
+  border-bottom: var(--border);
 }
 
 h3[id] {
