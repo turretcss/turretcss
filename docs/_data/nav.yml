@@ -88,13 +88,11 @@
 
 - title: Utility
   pages:
-    - title: Utility Classes
     - title: Z-Index
     - title: Visibility
     - title: Display
     - title: Overflow
     - title: Position
-    - title: Pointer Events
     - title: Transition
     - title: Fill
     - title: Flex
@@ -112,6 +110,7 @@
     - title: Text
     - title: Color
     - title: Background
+    - title: Background Color
     - title: Border
-    - title: Border Radius
     - title: Border Color
+    - title: Border Radius

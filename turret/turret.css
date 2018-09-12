@@ -112,6 +112,7 @@
  */
 
 @import './utility/background';
+@import './utility/background-color';
 @import './utility/border';
 @import './utility/color';
 @import './utility/border-radius';

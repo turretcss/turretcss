@@ -10,6 +10,14 @@
   font-size: unset;
 }
 
+.font-size {
+  font-size: var(--font-size);
+}
+
+.font-size-xxl {
+  font-size: var(--font-size-xxl);
+}
+
 .font-size-xl {
   font-size: var(--font-size-xl);
 }
@@ -28,4 +36,8 @@
 
 .font-size-xs {
   font-size: var(--font-size-xs);
+}
+
+.font-size-xxs {
+  font-size: var(--font-size-xxs);
 }
