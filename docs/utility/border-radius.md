@@ -7,7 +7,7 @@ permalink: /docs/utility/border-radius/
 
 ## Border Radius
 
-<div class="swatch background-dark color-white border-radius">Border Radius</div>
+<div class="swatch border border-radius">Border Radius</div>
 
 ```html
 <div class="border-radius">...</div>
@@ -15,7 +15,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Top
 
-<div class="swatch background-dark color-white border-radius-top">Border Radius Top</div>
+<div class="swatch border border-radius-top">Border Radius Top</div>
 
 ```html
 <div class="border-radius-top">...</div>
@@ -23,7 +23,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Right
 
-<div class="swatch background-dark color-white border-radius-right">Border Radius Right</div>
+<div class="swatch border border-radius-right">Border Radius Right</div>
 
 ```html
 <div class="border-radius-right">...</div>
@@ -31,7 +31,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Bottom
 
-<div class="swatch background-dark color-white border-radius-bottom">Border Radius Bottom</div>
+<div class="swatch border border-radius-bottom">Border Radius Bottom</div>
 
 ```html
 <div class="border-radius-bottom">...</div>
@@ -39,7 +39,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Left
 
-<div class="swatch background-dark color-white border-radius-left">Border Radius Left</div>
+<div class="swatch border border-radius-left">Border Radius Left</div>
 
 ```html
 <div class="border-radius-left">...</div>
@@ -47,7 +47,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Top Left
 
-<div class="swatch background-dark color-white border-radius-top-left">Border Radius Top Left</div>
+<div class="swatch border border-radius-top-left">Border Radius Top Left</div>
 
 ```html
 <div class="border-radius-top-left">...</div>
@@ -55,7 +55,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Top Right
 
-<div class="swatch background-dark color-white border-radius-top-right">Border Radius Top Right</div>
+<div class="swatch border border-radius-top-right">Border Radius Top Right</div>
 
 ```html
 <div class="border-radius-top-right">...</div>
@@ -63,7 +63,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Bottom Left
 
-<div class="swatch background-dark color-white border-radius-bottom-left">Border Radius Bottom Left</div>
+<div class="swatch border border-radius-bottom-left">Border Radius Bottom Left</div>
 
 ```html
 <div class="border-radius-bottom-left">...</div>
@@ -71,7 +71,7 @@ permalink: /docs/utility/border-radius/
 
 ### Border Radius Bottom Right
 
-<div class="swatch background-dark color-white border-radius-bottom-right">Border Radius Bottom Right</div>
+<div class="swatch border border-radius-bottom-right">Border Radius Bottom Right</div>
 
 ```html
 <div class="border-radius-bottom-right">...</div>
