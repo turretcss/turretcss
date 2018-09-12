@@ -22,10 +22,12 @@ permalink: /docs/base/icon/
 ### CSS
 
 ```scss
---icon-size: var(--icon-m-size);
+--icon-xxl-size: 2.25rem;
 --icon-xl-size: 2rem;
 --icon-l-size: 1.75rem;
 --icon-m-size: 1.5rem;
 --icon-s-size: 1.25rem;
 --icon-xs-size: 1rem;
+--icon-xxs-size: 0.75rem;
+--icon-size: var(--icon-m-size);
 ```
