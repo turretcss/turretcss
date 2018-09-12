@@ -6,11 +6,6 @@ description: Demo of all HTML elements with turretcss styles applied.
 permalink: /docs/demo/
 ---
 
-## Contents
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Colors
 
 <div class="swatch color-black background-white">White</div>
