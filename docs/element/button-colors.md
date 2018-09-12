@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Button Colors
-description: 
+description: ""
 permalink: /docs/element/button-colors/
 ---
 

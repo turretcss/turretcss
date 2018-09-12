@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: All Caps
-description: 
+description: ""
 permalink: /docs/typography/all-caps/
 ---
 

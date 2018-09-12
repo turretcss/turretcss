@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Group
-description: 
+description: ""
 permalink: /docs/base/group/
 ---
 

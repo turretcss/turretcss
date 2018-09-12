@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Print
-description: 
+description: ""
 permalink: /docs/base/print/
 ---
 

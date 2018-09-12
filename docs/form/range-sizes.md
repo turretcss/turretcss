@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Range Sizes
-description: 
+description: ""
 permalink: /docs/form/range-sizes/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Range Indicators
-description: 
+description: ""
 permalink: /docs/form/range-indicators/
 ---
 

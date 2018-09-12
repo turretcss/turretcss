@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Legend
-description: 
+description: ""
 permalink: /docs/form/legend/
 ---
 

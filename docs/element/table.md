@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Table
-description: 
+description: ""
 permalink: /docs/element/table/
 ---
 

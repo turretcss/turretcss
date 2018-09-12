@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Letter Spacing
-description: 
+description: ""
 permalink: /docs/base/letter-spacing/
 ---
 

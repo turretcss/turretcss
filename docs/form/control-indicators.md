@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Control Indicators
-description: 
+description: ""
 permalink: /docs/form/control-indicators/
 ---
 

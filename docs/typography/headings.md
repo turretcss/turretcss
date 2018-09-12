@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Headings
-description: 
+description: ""
 permalink: /docs/typography/headings/
 ---
 

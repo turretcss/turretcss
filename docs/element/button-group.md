@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Button Group
-description: 
+description: ""
 permalink: /docs/element/button-group/
 ---
 

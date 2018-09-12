@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Container
-description: 
+description: ""
 permalink: /docs/base/container/
 ---
 

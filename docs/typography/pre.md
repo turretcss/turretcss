@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Pre
-description: 
+description: ""
 permalink: /docs/typography/pre/
 ---
 

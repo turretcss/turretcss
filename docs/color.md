@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Color
-page_title: 
-description: 
+page_title: ""
+description: ""
 permalink: /docs/color/
 ---
 
@@ -136,7 +136,7 @@ permalink: /docs/color/
 ## Palettes
 
 ### Primary
-  
+
 <div class="swatch color-white background-primary">Primary</div>
 <div class="palette">
   <div class="swatch color-white background-primary-50">Primary<br>50</div>
@@ -263,7 +263,6 @@ permalink: /docs/color/
 --error-700: color-mod(var(--error-600) shade(20%));
 --error-800: color-mod(var(--error-700) shade(25%));
 --error-900: color-mod(var(--error-800) shade(30%));
-
 ```
 
 ### Warning

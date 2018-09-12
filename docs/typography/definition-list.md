@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Definition List
-description: 
+description: ""
 permalink: /docs/typography/definition-list/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Kbd
-description: 
+description: ""
 permalink: /docs/typography/kbd/
 ---
 

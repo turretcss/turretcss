@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Icon
-description: 
+description: ""
 permalink: /docs/base/icon/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Lead
-description: 
+description: ""
 permalink: /docs/typography/lead/
 ---
 

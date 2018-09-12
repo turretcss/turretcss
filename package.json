@@ -38,7 +38,9 @@
     "watch:docs": "npm run compile:docs -- --verbose --watch",
     "compile:turret": "postcss turret/turret.css -o dist/turretcss.min.css",
     "compile:docs": "postcss docs/assets/css/main.css -o docs/dist/docs.css",
-    "format": "prettier --single-quote --print-width 180 --write '*.css'"
+    "format": "npm run format:css & npm run format:md",
+    "format:css": "prettier --single-quote --print-width 180 --write '*.css'",
+    "format:md": "prettier --print-width 180 --write '*.md'"
   },
   "devDependencies": {
     "cssnano": "^4.1.0",

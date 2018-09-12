@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Input Sizes
-description: 
+description: ""
 permalink: /docs/form/input-sizes/
 ---
 

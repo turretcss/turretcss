@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Progress Indicators
-description: 
+description: ""
 permalink: /docs/form/progress-indicators/
 ---
 

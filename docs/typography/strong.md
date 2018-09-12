@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Strong
-description: 
+description: ""
 permalink: /docs/typography/strong/
 ---
 

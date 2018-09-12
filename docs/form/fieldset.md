@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Fieldset
-description: 
+description: ""
 permalink: /docs/form/fieldset/
 ---
 

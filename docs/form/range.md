@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Range
-description: 
+description: ""
 permalink: /docs/form/range/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Reset
-description: 
+description: ""
 permalink: /docs/base/reset/
 ---
 

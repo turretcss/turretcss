@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Button Sizes
-description: 
+description: ""
 permalink: /docs/element/button-sizes/
 ---
 

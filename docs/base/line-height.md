@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Line Height
-description: 
+description: ""
 permalink: /docs/base/line-height/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Control Sizes
-description: 
+description: ""
 permalink: /docs/form/control-sizes/
 ---
 

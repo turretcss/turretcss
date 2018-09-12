@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: EXAMPLE
-description: 
+description: ""
 permalink: /docs/element/figure/
 ---
 

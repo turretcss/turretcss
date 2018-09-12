@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Input Group
-description: 
+description: ""
 permalink: /docs/form/input-group/
 ---
 
