@@ -100,12 +100,14 @@
    * Button Icon
    */
 
-  --button-icon-margin: var(--button-padding-horizontal);
+  --button-icon-margin: calc(var(--button-padding-horizontal) / 2);
   --button-icon-padding: calc((var(--button-height) - var(--icon-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xxl-padding: calc((var(--button-xxl-height) - var(--icon-xxl-size) - (var(--button-border-width) * 2)) / 2);
   --button-icon-xl-padding: calc((var(--button-xl-height) - var(--icon-xl-size) - (var(--button-border-width) * 2)) / 2);
   --button-icon-l-padding: calc((var(--button-l-height) - var(--icon-l-size) - (var(--button-border-width) * 2)) / 2);
   --button-icon-s-padding: calc((var(--button-s-height) - var(--icon-s-size) - (var(--button-border-width) * 2)) / 2);
   --button-icon-xs-padding: calc((var(--button-xs-height) - var(--icon-xs-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xxs-padding: calc((var(--button-xxs-height) - var(--icon-xxs-size) - (var(--button-border-width) * 2)) / 2);
 
   /**
    * Figure

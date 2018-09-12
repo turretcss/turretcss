@@ -5,25 +5,18 @@ svg.icon {
   height: var(--icon-size);
 }
 
-.icon-xs,
-svg.icon-xs {
+.icon-xxl,
+svg.icon-xxl {
   display: inline-block;
-  width: var(--icon-xs-size);
-  height: var(--icon-xs-size);
+  width: var(--icon-xxl-size);
+  height: var(--icon-xxl-size);
 }
 
-.icon-s,
-svg.icon-s {
+.icon-xl,
+svg.icon-xl {
   display: inline-block;
-  width: var(--icon-s-size);
-  height: var(--icon-s-size);
-}
-
-.icon-m,
-svg.icon-m {
-  display: inline-block;
-  width: var(--icon-m-size);
-  height: var(--icon-m-size);
+  width: var(--icon-xl-size);
+  height: var(--icon-xl-size);
 }
 
 .icon-l,
@@ -33,9 +26,30 @@ svg.icon-l {
   height: var(--icon-l-size);
 }
 
-.icon-xl,
-svg.icon-xl {
+.icon-m,
+svg.icon-m {
   display: inline-block;
-  width: var(--icon-xl-size);
-  height: var(--icon-xl-size);
+  width: var(--icon-m-size);
+  height: var(--icon-m-size);
+}
+
+.icon-s,
+svg.icon-s {
+  display: inline-block;
+  width: var(--icon-s-size);
+  height: var(--icon-s-size);
+}
+
+.icon-xs,
+svg.icon-xs {
+  display: inline-block;
+  width: var(--icon-xs-size);
+  height: var(--icon-xs-size);
+}
+
+.icon-xxs,
+svg.icon-xxs {
+  display: inline-block;
+  width: var(--icon-xxs-size);
+  height: var(--icon-xxs-size);
 }
