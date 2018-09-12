@@ -1,0 +1,279 @@
+:root {
+  /**
+   * Headings
+   */
+
+  --headings-margin: 2em 0 1em 0;
+  --headings-font-family: inherit;
+  --headings-font-weight: var(--font-weight-bold);
+  --headings-color: inherit;
+  --headings-line-height: var(--line-height-s);
+  --headings-text-transform: none;
+  --headings-letter-spacing: var(--letter-spacing);
+
+  /**
+   * Heading Sizes
+   */
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --h4-font-size: 1.125rem;
+  --h5-font-size: 1rem;
+  --h6-font-size: 0.875rem;
+
+  /**
+   * Headings Small
+   */
+
+  --headings-small-font-family: inherit;
+  --headings-small-font-weight: inherit;
+  --headings-small-size: 0.6em;
+  --headings-small-color: inherit;
+
+  /**
+   * Display Title
+   */
+
+  --display-title-margin: 0;
+  --display-title-font-family: var(--headings-font-family);
+  --display-title-font-weight: var(--headings-font-weight);
+  --display-title-font-size: 3rem;
+  --display-title-color: inherit;
+  --display-title-line-height: var(--line-height-xs);
+  --display-title-letter-spacing: 0;
+  --display-title-text-transform: none;
+
+  /** 
+   * All Caps Sizes
+   */
+
+  --display-title-xxl-font-size: 4.5rem;
+  --display-title-xl-font-size: 4rem;
+  --display-title-l-font-size: 3.5rem;
+  --display-title-s-font-size: 2.5rem;
+  --display-title-xs-font-size: 2rem;
+  --display-title-xxs-font-size: 1.5rem;
+
+  /**
+   * All Caps
+   */
+
+  --all-caps-margin: 0.5em 0;
+  --all-caps-font-family: var(--headings-font-family);
+  --all-caps-font-weight: var(--headings-font-weight);
+  --all-caps-font-size: 0.875rem;
+  --all-caps-line-height: var(--line-height-xs);
+  --all-caps-text-transform: uppercase;
+  --all-caps-letter-spacing: var(--letter-spacing);
+
+  /** 
+   * All Caps Sizes
+   */
+
+  --all-caps-xxl-font-size: 1.25rem;
+  --all-caps-xl-font-size: 1.125rem;
+  --all-caps-l-font-size: 1rem;
+  --all-caps-s-font-size: 0.75rem;
+  --all-caps-xs-font-size: 0.625rem;
+  --all-caps-xxs-font-size: 0.5rem;
+
+  /**
+   * Lead
+   */
+
+  --lead-margin: 0.5em 0 1em 0;
+  --lead-font-family: inherit;
+  --lead-font-weight: inherit;
+  --lead-font-size: var(--font-size-xl);
+  --lead-color: inherit;
+  --lead-line-height: var(--line-height-m);
+
+  /**
+   * Paragraph
+   */
+
+  --paragraph-margin: 1em 0;
+  --paragraph-font-family: inherit;
+  --paragraph-font-weight: inherit;
+  --paragraph-font-size: var(--font-size-m);
+  --paragraph-color: inherit;
+  --paragraph-line-height: var(--line-height-m);
+
+  /**
+   * Link
+   */
+
+  --link-color: currentColor;
+  --link-text-decoration: underline;
+  --link-hover-color: currentColor;
+  --link-hover-text-decoration: underline;
+
+  /**
+   * Strong
+   */
+
+  --strong-font-family: inherit;
+  --strong-font-weight: var(--font-weight-bold);
+  --strong-color: inherit;
+
+  /**
+   * Emphasis
+   */
+
+  --emphasis-font-style: italic;
+
+  /**
+   * Horizontal Rule
+   */
+
+  --horizontal-rule-margin: var(--space-s) auto;
+  --horizontal-rule-height: var(--border-width);
+  --horizontal-rule-background: var(--border-color);
+
+  /**
+   * Blockquote
+   */
+
+  --blockquote-margin: 2em 0;
+  --blockquote-padding: 0;
+  --blockquote-font-family: inherit;
+  --blockquote-font-weight: var(--lead-font-weight);
+  --blockquote-font-size: var(--lead-font-size);
+  --blockquote-font-style: normal;
+  --blockquote-line-height: var(--lead-line-height);
+  --blockquote-color: var(--lead-color);
+
+  /**
+   * Cite
+   */
+
+  --cite-margin: 1em 0;
+  --cite-font-family: inherit;
+  --cite-font-weight: inherit;
+  --cite-font-size: var(--font-size-s);
+  --cite-font-style: normal;
+  --cite-color: inherit;
+  --cite-text-align: inherit;
+
+  /**
+   * List
+   */
+
+  --list-margin: 1em 0;
+  --list-padding: 0;
+  --list-font-family: var(--paragraph-font-family);
+  --list-font-weight: var(--paragraph-font-weight);
+  --list-font-size: var(--paragraph-font-size);
+  --list-color: var(--paragraph-color);
+  --list-line-height: var(--paragraph-line-height);
+
+  /**
+   * List Item
+   */
+
+  --list-item-margin: 0.5em 0 0.5em 1.5em;
+  --list-item-padding: 0 0 0 0.5em;
+
+  /**
+   * Child List
+   */
+
+  --child-list-margin: 0.5em 0 0.5em 0;
+  --child-list-padding: 0;
+  --child-list-item-margin: var(--list-item-margin);
+  --child-list-item-padding: var(--list-item-padding);
+
+  /**
+   * Unordered List
+   */
+
+  --unordered-list-icon: disc;
+  --unordered-child-list-icon: disc;
+
+  /** 
+   * Definition List
+   */
+
+  --definition-list-margin: var(--paragraph-margin);
+  --definition-list-padding: 0;
+  --definition-list-font-size: var(--paragraph-font-size);
+
+  /** 
+   * Definition Term
+   */
+
+  --definition-term-margin: 0.5em 0;
+  --definition-term-font-family: var(--headings-font-family);
+  --definition-term-font-weight: var(--headings-font-weight);
+  --definition-term-font-size: inherit;
+  --definition-term-color: var(--headings-color);
+
+  /** 
+   * Definition Description
+   */
+
+  --definition-description-margin: 0 0 1em 0;
+  --definition-description-font-family: var(--paragraph-font-family);
+  --definition-description-font-weight: var(--paragraph-font-weight);
+  --definition-description-font-size: inherit;
+  --definition-description-color: var(--paragraph-color);
+
+  /**
+   * Code
+   */
+
+  --code-font-family: var(--font-family-monospace);
+  --code-font-weight: normal;
+  --code-font-size: 80%;
+  --code-color: var(--secondary);
+
+  /** 
+   * Pre
+   */
+
+  --pre-margin: 1em 0;
+  --pre-padding: 1em;
+  --pre-font-family: var(--code-font-family);
+  --pre-font-weight: normal;
+  --pre-font-size: var(--code-font-size);
+  --pre-color: inherit;
+  --pre-tab-size: 4;
+  --pre-hyphens: none;
+  --pre-line-height: var(--line-height-m);
+  --pre-background: var(--light-50);
+  --pre-border-width: var(--border-width);
+  --pre-border-style: var(--border-style);
+  --pre-border-color: var(--border-color);
+  --pre-border-radius: var(--border-radius);
+
+  --pre-code-color: var(--code-color);
+
+  /**
+   * Kbd
+   */
+
+  --kbd-margin: 0 0.2em;
+  --kbd-padding: 0.2em 0.4em;
+  --kbd-font-family: var(--code-font-family);
+  --kbd-font-weight: var(--code-font-weight);
+  --kbd-font-size: var(--code-font-size);
+  --kbd-color: var(--code-color);
+  --kbd-background: var(--pre-background);
+  --kbd-border-width: var(--pre-border-width);
+  --kbd-border-style: var(--pre-border-style);
+  --kbd-border-color: var(--pre-border-color);
+  --kbd-border-radius: var(--pre-border-radius);
+
+  /**
+   * Mark
+   */
+
+  --mark-margin: 0;
+  --mark-padding: 0.2em 0.4em;
+  --mark-font-family: inherit;
+  --mark-font-weight: inherit;
+  --mark-font-size: inherit;
+  --mark-color: inherit;
+  --mark-background: yellow;
+}

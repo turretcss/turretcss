@@ -16,22 +16,14 @@
 @import './lib/normalize';
 
 /**
- * Color
+ * Definitions
  */
 
 @import './_color';
-
-/**
- * Base
- */
-
 @import './_base';
-
-/**
- * Variables
- */
-
-@import './_variables';
+@import './_typography';
+@import './_form';
+@import './_element';
 
 /**
  * Base

@@ -1,0 +1,190 @@
+:root {
+  /**
+   * Button
+   */
+
+  --button-padding-vertical: calc((var(--button-height) - var(--button-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-padding-horizontal: 1em;
+  --button-height: var(--height-m);
+  --button-font-family: inherit;
+  --button-font-weight: var(--font-weight-semibold);
+  --button-font-size: var(--font-size-m);
+  --button-color: var(--dark);
+  --button-line-height: 1;
+  --button-letter-spacing: var(--letter-spacing);
+  --button-text-align: center;
+  --button-text-transform: none;
+  --button-background: var(--background);
+  --button-border-width: var(--border-width);
+  --button-border-style: var(--border-style);
+  --button-border-color: var(--border-color);
+  --button-border-radius: var(--border-radius);
+  --button-box-shadow: var(--box-shadow);
+
+  --button-hover-color: var(--button-color);
+  --button-hover-background: color-mod(var(--button-background) shade(2.5%));
+  --button-hover-border-color: color-mod(var(--button-border-color) shade(2.5%));
+  --button-hover-box-shadow: var(--hover-box-shadow);
+
+  --button-active-color: var(--button-color);
+  --button-active-background: color-mod(var(--button-background) shade(5%));
+  --button-active-border-color: color-mod(var(--button-border-color) shade(5%));
+  --button-active-box-shadow: var(--active-box-shadow);
+
+  --button-disabled-opacity: 0.65;
+
+  --button-block-text-align: center;
+
+  /** 
+   * Button Sizes
+   */
+
+  --button-xxl-padding-vertical: calc((var(--button-xxl-height) - var(--button-xxl-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xxl-padding-horizontal: var(--button-padding-horizontal);
+  --button-xxl-height: var(--height-xxl);
+  --button-xxl-font-size: var(--font-size-xxl);
+
+  --button-xl-padding-vertical: calc((var(--button-xl-height) - var(--button-xl-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xl-padding-horizontal: var(--button-padding-horizontal);
+  --button-xl-height: var(--height-xl);
+  --button-xl-font-size: var(--font-size-xl);
+
+  --button-l-padding-vertical: calc((var(--button-l-height) - var(--button-l-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-l-padding-horizontal: var(--button-padding-horizontal);
+  --button-l-height: var(--height-l);
+  --button-l-font-size: var(--font-size-l);
+
+  --button-s-padding-vertical: calc((var(--button-s-height) - var(--button-s-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-s-padding-horizontal: var(--button-padding-horizontal);
+  --button-s-height: var(--height-s);
+  --button-s-font-size: var(--font-size-s);
+
+  --button-xs-padding-vertical: calc((var(--button-xs-height) - var(--button-xs-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xs-padding-horizontal: var(--button-padding-horizontal);
+  --button-xs-height: var(--height-xs);
+  --button-xs-font-size: var(--font-size-xs);
+
+  --button-xxs-padding-vertical: calc((var(--button-xxs-height) - var(--button-xxs-font-size) - (var(--button-border-width) * 2)) / 2);
+  --button-xxs-padding-horizontal: var(--button-padding-horizontal);
+  --button-xxs-height: var(--height-xxs);
+  --button-xxs-font-size: var(--font-size-xxs);
+
+  /** 
+   * Button Shades
+   */
+
+  --button-white-color: var(--black);
+  --button-light-color: var(--dark);
+  --button-grey-color: var(--white);
+  --button-dark-color: var(--white);
+  --button-black-color: var(--white);
+
+  /** 
+   * Button Palette
+   */
+
+  --button-primary-color: var(--white);
+  --button-secondary-color: var(--white);
+  --button-tertiary-color: var(--white);
+
+  /** 
+   * Button Indicators
+   */
+
+  --button-error-color: var(--white);
+  --button-warning-color: var(--white);
+  --button-success-color: var(--white);
+  --button-info-color: var(--white);
+
+  /** 
+   * Button Icon
+   */
+
+  --button-icon-margin: var(--button-padding-horizontal);
+  --button-icon-padding: calc((var(--button-height) - var(--icon-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xl-padding: calc((var(--button-xl-height) - var(--icon-xl-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-l-padding: calc((var(--button-l-height) - var(--icon-l-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-s-padding: calc((var(--button-s-height) - var(--icon-s-size) - (var(--button-border-width) * 2)) / 2);
+  --button-icon-xs-padding: calc((var(--button-xs-height) - var(--icon-xs-size) - (var(--button-border-width) * 2)) / 2);
+
+  /**
+   * Figure
+   */
+
+  --figure-display: block;
+  --figure-margin: 0;
+  --figure-padding: 0;
+
+  --figure-caption-margin: 1em 0;
+  --figure-caption-font-family: inherit;
+  --figure-caption-font-weight: inherit;
+  --figure-caption-font-size: var(--font-size-s);
+  --figure-caption-color: inherit;
+  --figure-caption-text-align: left;
+
+  /**
+   * Media
+   */
+
+  --media-background: color-mod(var(--black) alpha(10%));
+  --media-border-radius: var(--border-radius);
+
+  /**
+   * Nav
+   */
+
+  --nav-list-margin: 0;
+  --nav-item-margin: 1rem 0;
+  --nav-item-padding: 0;
+  --nav-inline-item-margin: 0 1rem;
+
+  /**
+   * Spinner
+   */
+
+  --spinner-size: 2rem;
+  --spinner-speed: var(--speed-slow);
+  --spinner-background-color: color-mod(var(--black) alpha(10%));
+  --spinner-foreground-color: var(--white);
+
+  /**
+   * Table
+   */
+
+  --table-margin: var(--paragraph-margin);
+  --table-background: var(--background);
+  --table-border-width: var(--border-width);
+  --table-border-style: var(--border-style);
+  --table-border-color: var(--border-color);
+  --table-border-radius: var(--border-radius);
+
+  --table-caption-margin: 1em 0;
+  --table-caption-font-family: inherit;
+  --table-caption-font-weight: inherit;
+  --table-caption-font-size: inherit;
+  --table-caption-color: inherit;
+  --table-caption-text-align: left;
+
+  --table-head-padding: 0.5em;
+  --table-head-font-family: inherit;
+  --table-head-font-weight: inherit;
+  --table-head-font-size: inherit;
+  --table-head-color: inherit;
+  --table-head-text-align: left;
+  --table-head-text-transform: none;
+  --table-head-background: var(--light-50);
+  --table-head-border-width: var(--table-border-width);
+  --table-head-border-style: var(--table-border-style);
+  --table-head-border-color: var(--table-border-color);
+
+  --table-cell-padding: 0.5em;
+  --table-cell-font-family: inherit;
+  --table-cell-font-weight: inherit;
+  --table-cell-font-size: inherit;
+  --table-cell-color: inherit;
+  --table-cell-line-height: var(--line-height);
+  --table-cell-vertical-align: middle;
+  --table-cell-border-width: var(--table-border-width);
+  --table-cell-border-style: var(--table-border-style);
+  --table-cell-border-color: var(--table-border-color);
+}

@@ -1,0 +1,318 @@
+:root {
+  /**
+   * Form Message
+   */
+
+  --form-message-margin: var(--label-margin);
+  --form-message-font-family: var(--paragraph-font-family);
+  --form-message-font-weight: var(--paragraph-font-weight);
+  --form-message-font-size: var(--font-size-s);
+  --form-message-color: var(--paragraph-color);
+  --form-message-line-height: var(--paragraph-line-height);
+
+  /** 
+   * Field
+   */
+
+  --field-margin: var(--space-s) 0;
+  --field-float-label-padding: 0.25em;
+
+  /** 
+   * Fieldset
+   */
+
+  --fieldset-margin: var(--field-margin);
+  --fieldset-padding: var(--space-xs);
+  --fieldset-border-width: var(--border-width);
+  --fieldset-border-style: var(--border-style);
+  --fieldset-border-color: var(--border-color);
+  --fieldset-border-radius: var(--border-radius);
+
+  /** 
+   * Legend
+   */
+
+  --legend-padding: 0.5em;
+  --legend-font-family: inherit;
+  --legend-font-weight: inherit;
+  --legend-font-size: var(--font-size-m);
+  --legend-color: inherit;
+
+  /** 
+   * Label
+   */
+
+  --label-margin: 0.5em 0;
+  --label-font-family: inherit;
+  --label-font-weight: inherit;
+  --label-font-size: var(--font-size-s);
+  --label-color: inherit;
+  --label-line-height: var(--line-height-m);
+
+  /** 
+   * Input
+   */
+
+  --input-margin: var(--label-margin);
+  --input-padding: 0 1em;
+  --input-height: var(--height-m);
+  --input-color: inherit;
+  --input-font-family: inherit;
+  --input-font-weight: inherit;
+  --input-font-size: var(--font-size-m);
+  --input-line-height: var(--line-height-m);
+  --input-background: var(--background);
+  --input-border-width: var(--border-width);
+  --input-border-style: var(--border-style);
+  --input-border-color: var(--border-color);
+  --input-border-radius: var(--border-radius);
+  --input-box-shadow: var(--box-shadow);
+
+  --input-placeholder-color: var(--input-color);
+  --input-placeholder-opacity: 0.5;
+
+  --input-hover-color: var(--input-color);
+  --input-hover-background: color-mod(var(--input-background) shade(2.5%));
+  --input-hover-border-color: color-mod(var(--input-border-color) shade(2.5%));
+  --input-hover-box-shadow: var(--hover-box-shadow);
+
+  --input-focus-color: var(--input-color);
+  --input-focus-background: color-mod(var(--input-background) shade(5%));
+  --input-focus-border-color: color-mod(var(--input-border-color) shade(5%));
+  --input-focus-box-shadow: var(--focus-box-shadow);
+
+  --input-disabled-color: var(--input-color);
+  --input-disabled-background: color-mod(var(--input-background) shade(5%));
+  --input-disabled-border-color: var(--input-border-color);
+
+  /** 
+   * Input Sizes
+   */
+
+  --input-xxl-height: var(--height-xxl);
+  --input-xxl-font-size: var(--font-size-xxl);
+
+  --input-xl-height: var(--height-xl);
+  --input-xl-font-size: var(--font-size-xl);
+
+  --input-l-height: var(--height-l);
+  --input-l-font-size: var(--font-size-l);
+
+  --input-s-height: var(--height-s);
+  --input-s-font-size: var(--font-size-s);
+
+  --input-xs-height: var(--height-xs);
+  --input-xs-font-size: var(--font-size-xs);
+
+  --input-xxs-height: var(--height-xxs);
+  --input-xxs-font-size: var(--font-size-xxs);
+
+  /**
+   * Textarea
+   */
+
+  --textarea-padding: 1em;
+  --textarea-line-height: inherit;
+
+  /**
+   * Select
+   */
+
+  --select-margin: var(--input-margin);
+  --select-padding: var(--input-padding);
+  --select-height: var(--input-height);
+  --select-font-family: var(--input-font-family);
+  --select-font-weight: var(--input-font-weight);
+  --select-font-size: var(--input-font-size);
+  --select-color: var(--input-color);
+  --select-line-height: auto;
+  --select-background: var(--input-background);
+  --select-border-width: var(--input-border-width);
+  --select-border-style: var(--input-border-style);
+  --select-border-color: var(--input-border-color);
+  --select-border-radius: var(--border-radius);
+  --select-box-shadow: var(--input-box-shadow);
+
+  --select-arrow-size: 4px;
+  --select-arrow-background: var(--dark);
+
+  --select-hover-color: var(--input-hover-color);
+  --select-hover-background: var(--input-hover-background);
+  --select-hover-border-color: var(--input-hover-border-color);
+  --select-hover-box-shadow: var(--input-hover-box-shadow);
+
+  --select-focus-color: var(--input-focus-color);
+  --select-focus-background: var(--input-focus-background);
+  --select-focus-border-color: var(--input-focus-border-color);
+  --select-focus-box-shadow: var(--input-focus-box-shadow);
+
+  --select-disabled-color: var(--input-disabled-color);
+  --select-disabled-background: var(--input-disabled-background);
+  --select-disabled-border-color: var(--input-disabled-border-color);
+
+  /** 
+   * Select Sizes
+   */
+
+  --select-xxl-height: var(--input-xxl-height);
+  --select-xxl-font-size: var(--input-xxl-font-size);
+
+  --select-xl-height: var(--input-xl-height);
+  --select-xl-font-size: var(--input-xl-font-size);
+
+  --select-l-height: var(--input-l-height);
+  --select-l-font-size: var(--input-l-font-size);
+
+  --select-s-height: var(--input-s-height);
+  --select-s-font-size: var(--input-s-font-size);
+
+  --select-xs-height: var(--input-xs-height);
+  --select-xs-font-size: var(--input-xs-font-size);
+
+  --select-xxs-height: var(--input-xxs-height);
+  --select-xxs-font-size: var(--input-xxs-font-size);
+
+  /**
+   * Control
+   */
+
+  --control-margin: var(--input-margin);
+  --control-padding: 0;
+  --control-font-family: var(--input-font-family);
+  --control-font-weight: var(--input-font-weight);
+  --control-font-size: var(--input-font-size);
+  --control-color: var(--input-color);
+  --control-line-height: var(--line-height-xs);
+
+  --control-hover-indicator-background: var(--input-hover-background);
+  --control-hover-indicator-border-color: var(--input-hover-border-color);
+  --control-hover-indicator-box-shadow: var(--input-hover-box-shadow);
+
+  --control-focus-indicator-background: var(--input-focus-background);
+  --control-focus-indicator-border-color: var(--input-focus-border-color);
+  --control-focus-indicator-box-shadow: var(--input-focus-box-shadow);
+
+  --control-checked-indicator-background: var(--primary);
+  --control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--control-checked-indicator-background);
+  --control-checked-label-color: var(--control-label-color);
+
+  --control-indicator-size: 1.375rem;
+  --control-indicator-background: var(--input-background);
+  --control-indicator-border-width: var(--input-border-width);
+  --control-indicator-border-style: var(--input-border-style);
+  --control-indicator-border-color: var(--input-border-color);
+  --control-indicator-box-shadow: var(--input-box-shadow);
+
+  --control-label-margin: 0 0 0 0.75em;
+  --control-label-color: inherit;
+
+  --control-inline-margin-right: 2rem;
+
+  --checkbox-indicator-border-radius: var(--input-border-radius);
+
+  --radio-indicator-size: 0.5em;
+  --radio-indicator-background: var(--input-background);
+  --radio-indicator-border-radius: var(--control-indicator-size);
+
+  --switch-indicator-background: var(--control-indicator-background);
+  --switch-indicator-border-radius: var(--control-indicator-size);
+
+  /** 
+   * Control Sizes
+   */
+
+  --control-xxl-font-size: var(--font-size-xxl);
+  --control-xxl-indicator-size: 1.75rem;
+
+  --control-xl-font-size: var(--font-size-xl);
+  --control-xl-indicator-size: 1.625rem;
+
+  --control-l-font-size: var(--font-size-l);
+  --control-l-indicator-size: 1.5rem;
+
+  --control-s-font-size: var(--font-size-s);
+  --control-s-indicator-size: 1.25rem;
+
+  --control-xs-font-size: var(--font-size-xs);
+  --control-xs-indicator-size: 1.125rem;
+
+  --control-xxs-font-size: var(--font-size-xxs);
+  --control-xxs-indicator-size: 1rem;
+
+  /** 
+   * Range
+   */
+
+  --range-margin: var(--field-margin);
+  --range-padding: 0;
+  --range-height: 0.625rem;
+
+  --range-thumb-width: 2em;
+  --range-thumb-height: var(--range-thumb-width);
+  --range-thumb-background: var(--input-background);
+  --range-thumb-border-width: var(--input-border-width);
+  --range-thumb-border-style: var(--input-border-style);
+  --range-thumb-border-color: var(--input-border-color);
+  --range-thumb-border-radius: 50%;
+  --range-thumb-box-shadow: var(--input-box-shadow);
+
+  --range-thumb-hover-background: var(--input-hover-background);
+  --range-thumb-hover-border-color: var(--input-hover-border-color);
+  --range-thumb-hover-box-shadow: var(--input-hover-box-shadow);
+
+  --range-thumb-focus-background: var(--input-focus-background);
+  --range-thumb-focus-border-color: var(--input-focus-border-color);
+  --range-thumb-focus-box-shadow: var(--input-focus-box-shadow);
+
+  --range-track-background: var(--input-border-color);
+  --range-track-border-width: 0;
+  --range-track-border-style: none;
+  --range-track-border-color: none;
+  --range-track-border-radius: var(--input-border-radius);
+  --range-track-box-shadow: var(--input-box-shadow);
+
+  --range-track-hover-background: var(--input-hover-border-color);
+  --range-track-hover-border-color: none;
+  --range-track-hover-box-shadow: var(--input-hover-box-shadow);
+
+  --range-track-focus-background: var(--input-focus-border-color);
+  --range-track-focus-border-color: none;
+  --range-track-focus-box-shadow: var(--input-focus-box-shadow);
+
+  /** 
+   * Range Sizes
+   */
+
+  --range-xxl-height: 1rem;
+  --range-xl-height: 0.875rem;
+  --range-l-height: 0.75rem;
+  --range-s-height: 0.5rem;
+  --range-xs-height: 0.375rem;
+  --range-xxs-height: 0.25rem;
+
+  /** 
+   * Progress
+   */
+
+  --progress-margin: var(--input-margin);
+  --progress-height: 0.625rem;
+  --progress-background: var(--input-border-color);
+  --progress-border-width: 0;
+  --progress-border-style: none;
+  --progress-border-color: none;
+  --progress-border-radius: 1rem;
+  --progress-box-shadow: var(--box-shadow);
+
+  --progress-bar-background: var(--primary);
+
+  /** 
+   * Progress Sizes
+   */
+
+  --progress-xxl-height: 1rem;
+  --progress-xl-height: 0.875rem;
+  --progress-l-height: 0.75rem;
+  --progress-s-height: 0.5rem;
+  --progress-xs-height: 0.375rem;
+  --progress-xxs-height: 0.25rem;
+}
