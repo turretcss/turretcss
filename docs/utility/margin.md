@@ -2,7 +2,6 @@
 layout: docs
 title: Margin
 description: ""
-permalink: /docs/utility/margin/
 ---
 
 | Class        | Description                                    |

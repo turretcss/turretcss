@@ -2,7 +2,6 @@
 layout: docs
 title: Color
 description: ""
-permalink: /docs/utility/color/
 ---
 
 ## Color

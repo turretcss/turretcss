@@ -2,7 +2,6 @@
 layout: docs
 title: Control Indicators
 description: ""
-permalink: /docs/form/control-indicators/
 ---
 
 ## Checkbox

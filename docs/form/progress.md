@@ -2,7 +2,6 @@
 layout: docs
 title: Progress
 description: ""
-permalink: /docs/form/progress/
 ---
 
 ## Example

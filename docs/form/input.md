@@ -2,7 +2,6 @@
 layout: docs
 title: Input
 description: ""
-permalink: /docs/form/input/
 ---
 
 ## Example

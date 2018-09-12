@@ -2,7 +2,6 @@
 layout: docs
 title: Button Colors
 description: ""
-permalink: /docs/element/button-colors/
 ---
 
 ## Shades

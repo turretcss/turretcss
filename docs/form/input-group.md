@@ -2,7 +2,6 @@
 layout: docs
 title: Input Group
 description: ""
-permalink: /docs/form/input-group/
 ---
 
 ## Example

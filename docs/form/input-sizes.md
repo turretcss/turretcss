@@ -2,7 +2,6 @@
 layout: docs
 title: Input Sizes
 description: ""
-permalink: /docs/form/input-sizes/
 ---
 
 ## Example

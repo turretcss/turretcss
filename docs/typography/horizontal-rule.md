@@ -2,7 +2,6 @@
 layout: docs
 title: Horizontal Rule
 description: ""
-permalink: /docs/typography/horizontal-rule/
 ---
 
 ## Example

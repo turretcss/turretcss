@@ -2,7 +2,6 @@
 layout: docs
 title: Overflow
 description: ""
-permalink: /docs/utility/overflow/
 ---
 
 | Class              | Description                          |

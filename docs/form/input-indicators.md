@@ -2,7 +2,6 @@
 layout: docs
 title: Input Indicators
 description: ""
-permalink: /docs/form/input-indicators/
 ---
 
 ## Example

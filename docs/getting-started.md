@@ -3,7 +3,6 @@ layout: docs
 title: Getting Started
 page_title: Getting Started - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: A introduction to how to get started, download and use turretcss.
-permalink: /docs/getting-started/
 ---
 
 ## Introduction
@@ -32,10 +31,10 @@ turretcss makes use of HTML5 elements and CSS properties that require the use of
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Page Title -->
     <title>turretcss</title>
-    
+
     <!-- turretcss CSS -->
     <link rel="stylesheet" type="text/css" href="{{ site.cdn }}" crossorigin="anonymous">
   </head>
@@ -47,7 +46,7 @@ turretcss makes use of HTML5 elements and CSS properties that require the use of
 
 ### Boilerplate
 
-The turretcss-boilerplate is a basic boilerplate using [turretcss][turretcss], [PostCSS][PostCSS], [PostCSS CLI][PostCSS CLI], [cssnext][cssnext], and [CSSNano][CSSNano].
+The turretcss-boilerplate is a basic boilerplate using [turretcss][turretcss], [PostCSS][postcss], [PostCSS CLI][postcss cli], [cssnext][cssnext], and [CSSNano][cssnano].
 
 <p>
   <a class="button" href="https://github.com/turretcss/turretcss-boilerplate/archive/master.zip">Download from GitHub</a>
@@ -98,7 +97,7 @@ Where styles are applied on HTML elements with classes, the structuring of class
 <element class="[element] [element-modifier] [element-style]">...</element>
 ```
 
- For example the .button class can extended to button button-block button-primary
+For example the .button class can extended to button button-block button-primary
 
 ```html
 <button class="button button-border button-primary">...</button>
@@ -169,37 +168,37 @@ The height of these elements is set by [global height variables](/docs/globals/#
 
 Element sizes examples:
 
-* [Input Sizes](/docs/form/#input-sizes)
-* [Input Group Sizes](/docs/form/#input-group-sizes)
-* [Control Sizes](/docs/form/#control-sizes)
-* [Select Sizes](/docs/form/#select-sizes)
-* [Range Sizes](/docs/form/#range-sizes)
-* [Progress Sizes](/docs/form/#progress-sizes)
-* [Button Sizes](/docs/elements/#button-sizes)
+- [Input Sizes](/docs/form/#input-sizes)
+- [Input Group Sizes](/docs/form/#input-group-sizes)
+- [Control Sizes](/docs/form/#control-sizes)
+- [Select Sizes](/docs/form/#select-sizes)
+- [Range Sizes](/docs/form/#range-sizes)
+- [Progress Sizes](/docs/form/#progress-sizes)
+- [Button Sizes](/docs/elements/#button-sizes)
 
 ### States
 
-Any element that has states - hover, focus, active, selected etc. - has default options that can be set these include: `color`, `background`, `border-color`, and `shadow`. These states inherit  styles (`box-shadow`) that are configured [globally](/docs/globals/#box-shadow) as well as specific state styles that can be configures per element, and style.
+Any element that has states - hover, focus, active, selected etc. - has default options that can be set these include: `color`, `background`, `border-color`, and `shadow`. These states inherit styles (`box-shadow`) that are configured [globally](/docs/globals/#box-shadow) as well as specific state styles that can be configures per element, and style.
 
 ### Indicators
 
 Each interactive element - such as `<input>`, `<select>`, `<button>`, etc. - have indicator styles that are applied with global classes:
 
-| Class | Description |
-| --- | --- |
-| `.error`   | Applies [error color styles](/docs/globals/#error) to element |
-| `.warning` | Applies [warning color styles](/docs/globals/#warning) to element  |
-| `.success` | Applies [success color styles](/docs/globals/#success) to element  |
-| `.info`    | Applies [info color styles](/docs/globals/#info) to element  |
+| Class      | Description                                                       |
+| ---------- | ----------------------------------------------------------------- |
+| `.error`   | Applies [error color styles](/docs/globals/#error) to element     |
+| `.warning` | Applies [warning color styles](/docs/globals/#warning) to element |
+| `.success` | Applies [success color styles](/docs/globals/#success) to element |
+| `.info`    | Applies [info color styles](/docs/globals/#info) to element       |
 
 Element indicators examples:
 
-* [Input Indicators](/docs/form/#input-indicators)
-* [Control Indicators](/docs/form/#control-indicators)
-* [Select Indicators](/docs/form/#select-indicators)
-* [Range Indicators](/docs/form/#range-indicators)
-* [Progress Indicators](/docs/form/#progress-indicators)
-* [Button Indicators](/docs/elements/#button-indicators)
+- [Input Indicators](/docs/form/#input-indicators)
+- [Control Indicators](/docs/form/#control-indicators)
+- [Select Indicators](/docs/form/#select-indicators)
+- [Range Indicators](/docs/form/#range-indicators)
+- [Progress Indicators](/docs/form/#progress-indicators)
+- [Button Indicators](/docs/elements/#button-indicators)
 
 ### Structure
 
@@ -219,9 +218,9 @@ The `turret` directory contains the source code CSS. The `dist` directory includ
 
 ## Build Tools
 
-### [PostCSS][PostCSS]
+### [PostCSS][postcss]
 
-turretcss makes use of [PostCSS][PostCSS] and [cssnext][cssnext] to compile modern CSS into browser compatible CSS. Each element of turretcss is inlcuded in individual CSS files that include variables set at the root scope. To use turretcss with [PostCSS][PostCSS] in your project you will need to import `turretcss/turret/turret.css` to include styles for all elements.
+turretcss makes use of [PostCSS][postcss] and [cssnext][cssnext] to compile modern CSS into browser compatible CSS. Each element of turretcss is inlcuded in individual CSS files that include variables set at the root scope. To use turretcss with [PostCSS][postcss] in your project you will need to import `turretcss/turret/turret.css` to include styles for all elements.
 
 ### [cssnext][cssnext]
 
@@ -236,11 +235,11 @@ turretcss uses [Autoprefixer][autoprefixer] as part of [cssnext][cssnext] to aut
 To theme turretcss you can override default style variables either within your own project styles or included as `variables.css` to `@import` in your styles.
 
 ```css
-@import 'turretcss/turret/turret.css';
+@import "turretcss/turret/turret.css";
 
 /* Override Primary Color */
 :root {
-    --primary: red;
+  --primary: red;
 }
 ```
 
@@ -257,7 +256,8 @@ To use and run the documentation locally, you'll need a copy of turretcss's sour
 1. [Download and install Node](https://nodejs.org/download/), which we use to manage our dependencies.
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
 3. [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`, and finally run `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
-  - **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+
+- **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
 
 When completed, you'll be able to run the various scripts provided from the command line.
 
@@ -265,24 +265,22 @@ When completed, you'll be able to run the various scripts provided from the comm
 
 turretcss includes the following commands and tasks:
 
-| Task | Description |
-| --- | --- |
-| `npm start` | Run `npm run watch` |
-| `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS  |
-| `npm run build` | Compile and minify the turretcss CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
-| `npm run docs` | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
-
+| Task            | Description                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `npm start`     | Run `npm run watch`                                                                                                     |
+| `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS                                                            |
+| `npm run build` | Compile and minify the turretcss CSS into `/dist`. Uses [PostCSS][postcss], [cssnext][cssnext], and [CSSNano][cssnano]. |
+| `npm run docs`  | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][postcss], [cssnext][cssnext], and [CSSNano][cssnano].      |
 
 #### Running documentation locally
 
 1. Install [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`.
 2. Install Jekyll (the site builder) and other Ruby dependencies with `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
-3. Run  `npm start` or `yarn start` to rebuild CSS.
+3. Run `npm start` or `yarn start` to rebuild CSS.
 4. From the root `/turret` directory, run `bundle exec jekyll serve` in the command line.
 5. Open <http://0.0.0.0:2001> in your browser.
 
 Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
-
 
 ## Support
 
@@ -542,27 +540,27 @@ turretcss is released under the MIT license and is copyright 2018 <a href="https
 
 **It requires you to:**
 
-* Include the license and copyright notice in your works
+- Include the license and copyright notice in your works
 
 **It permits you to:**
 
-* Freely download and use turretcss, in whole or in part, for personal, private, company internal, or commercial purposes
-* Use turretcss in packages or distributions that you create
-* Modify the source code
-* Grant a sublicense to modify and distribute turretcss to third parties not included in the license
+- Freely download and use turretcss, in whole or in part, for personal, private, company internal, or commercial purposes
+- Use turretcss in packages or distributions that you create
+- Modify the source code
+- Grant a sublicense to modify and distribute turretcss to third parties not included in the license
 
 **It forbids you to:**
 
-*  Hold the authors and license owners liable for damages as turretcss is provided without warranty
-*  Hold the creators or copyright holders of turretcss liable
-*  Redistribute any piece of turretcss without proper attribution
-*  Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="https://bigfish.tv">bigfish.tv</a> endorses your distribution
-*  Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="https://bigfish.tv">bigfish.tv</a> software in question
+- Hold the authors and license owners liable for damages as turretcss is provided without warranty
+- Hold the creators or copyright holders of turretcss liable
+- Redistribute any piece of turretcss without proper attribution
+- Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that <a href="https://bigfish.tv">bigfish.tv</a> endorses your distribution
+- Use any marks owned by <a href="https://bigfish.tv">bigfish.tv</a> in any way that might state or imply that you created the <a href="https://bigfish.tv">bigfish.tv</a> software in question
 
 **It does not require you to:**
 
-* Include the source of turretcss itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
-* Submit changes that you make to turretcss back to the turretcss project (though such feedback is encouraged)
+- Include the source of turretcss itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
+- Submit changes that you make to turretcss back to the turretcss project (though such feedback is encouraged)
 
 The full turretcss license is located in the project repository for more information.
 
@@ -570,8 +568,8 @@ The full turretcss license is located in the project repository for more informa
 [gembundler]: https://bundler.io/
 [turretcss]: https://turretcss.com/
 [turretcss-boilerplate]: https://github.com/turretcss/turretcss-boilerplate
-[PostCSS]: http://postcss.org/
-[PostCSS CLI]: https://github.com/postcss/postcss-cli
+[postcss]: http://postcss.org/
+[postcss cli]: https://github.com/postcss/postcss-cli
 [cssnext]: http://cssnext.io/
-[CSSNano]: http://cssnano.co/
+[cssnano]: http://cssnano.co/
 [autoprefixer]: https://github.com/postcss/autoprefixer

@@ -2,7 +2,6 @@
 layout: docs
 title: Lead
 description: ""
-permalink: /docs/typography/lead/
 ---
 
 ## Example

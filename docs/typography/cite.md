@@ -2,7 +2,6 @@
 layout: docs
 title: Cite
 description: ""
-permalink: /docs/typography/cite/
 ---
 
 ## Example

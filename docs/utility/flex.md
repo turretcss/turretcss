@@ -2,7 +2,6 @@
 layout: docs
 title: Flex
 description: ""
-permalink: /docs/utility/flex/
 ---
 
 ## Flex Utilties

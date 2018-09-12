@@ -2,7 +2,6 @@
 layout: docs
 title: All Caps
 description: ""
-permalink: /docs/typography/all-caps/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Transition
 description: Utility classes for setting transition all with speed and easing
-permalink: /docs/utility/transition/
 ---
 
 | Class               | Description                                                                                            |

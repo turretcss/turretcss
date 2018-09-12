@@ -2,7 +2,6 @@
 layout: docs
 title: EXAMPLE
 description: ""
-permalink: /docs/utility/border-radius/
 ---
 
 ## Border Radius

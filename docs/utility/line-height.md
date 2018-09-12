@@ -2,7 +2,6 @@
 layout: docs
 title: Line Height
 description: ""
-permalink: /docs/utility/line-height/
 ---
 
 ## Example

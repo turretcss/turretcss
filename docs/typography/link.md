@@ -2,7 +2,6 @@
 layout: docs
 title: Link
 description: ""
-permalink: /docs/typography/link/
 ---
 
 ## Example

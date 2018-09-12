@@ -2,14 +2,13 @@
 layout: docs
 title: Body
 description: ""
-permalink: /docs/base/body/
 ---
 
 ## About
 
 Some top level definitions for general styles on the `<body>` tag.
 
-### HTML 
+### HTML
 
 ```html
 <body>...</body>

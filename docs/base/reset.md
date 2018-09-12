@@ -2,7 +2,6 @@
 layout: docs
 title: Reset
 description: ""
-permalink: /docs/base/reset/
 ---
 
 ## About
@@ -47,7 +46,6 @@ turretcss resets vertical margins for nested HTML typography and form elements. 
 
 ```scss
 selectors {
-
   &:first-child {
     margin-top: 0;
   }

@@ -2,7 +2,6 @@
 layout: docs
 title: Strong
 description: ""
-permalink: /docs/typography/strong/
 ---
 
 ## Example

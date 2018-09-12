@@ -2,7 +2,6 @@
 layout: docs
 title: Font Weight
 description: ""
-permalink: /docs/base/font-weight/
 ---
 
 ## Example

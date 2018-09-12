@@ -2,7 +2,6 @@
 layout: docs
 title: Z-Index
 description: ""
-permalink: /docs/utility/z-index/
 ---
 
 | Class            | Description                                       |

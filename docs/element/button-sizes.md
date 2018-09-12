@@ -2,7 +2,6 @@
 layout: docs
 title: Button Sizes
 description: ""
-permalink: /docs/element/button-sizes/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Button Group
 description: ""
-permalink: /docs/element/button-group/
 ---
 
 ## Example
@@ -62,4 +61,3 @@ permalink: /docs/element/button-group/
   </button>
 </div>
 ```
-

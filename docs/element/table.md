@@ -2,7 +2,6 @@
 layout: docs
 title: Table
 description: ""
-permalink: /docs/element/table/
 ---
 
 ## Example

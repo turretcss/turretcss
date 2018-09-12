@@ -2,11 +2,9 @@
 layout: docs
 title: Button Colors
 description: ""
-permalink: /docs/element/button-icon/
 ---
 
 ## Example
-
 
 <div>
   <button class="button button-square button-icon">
@@ -72,7 +70,6 @@ permalink: /docs/element/button-icon/
 </div>
 
 ### HTML
-
 
 ```html
 <button class="button button-xxl button-square button-icon">

@@ -2,7 +2,6 @@
 layout: docs
 title: Text
 description: ""
-permalink: /docs/utility/text/
 ---
 
 ## Example

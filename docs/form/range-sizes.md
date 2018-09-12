@@ -2,7 +2,6 @@
 layout: docs
 title: Range Sizes
 description: ""
-permalink: /docs/form/range-sizes/
 ---
 
 ## Example

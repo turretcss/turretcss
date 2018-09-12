@@ -2,7 +2,6 @@
 layout: docs
 title: Font Family
 description: ""
-permalink: /docs/base/font-family/
 ---
 
 ## Example

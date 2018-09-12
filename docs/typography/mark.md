@@ -2,7 +2,6 @@
 layout: docs
 title: Mark
 description: ""
-permalink: /docs/typography/mark/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Letter Spacing
 description: ""
-permalink: /docs/utility/letter-spacing/
 ---
 
 ## Example

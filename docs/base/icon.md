@@ -2,7 +2,6 @@
 layout: docs
 title: Icon
 description: ""
-permalink: /docs/base/icon/
 ---
 
 ## Example

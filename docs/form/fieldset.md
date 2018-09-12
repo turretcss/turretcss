@@ -2,7 +2,6 @@
 layout: docs
 title: Fieldset
 description: ""
-permalink: /docs/form/fieldset/
 ---
 
 ## Example

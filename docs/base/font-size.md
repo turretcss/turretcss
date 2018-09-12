@@ -2,7 +2,6 @@
 layout: docs
 title: Font Size
 description: ""
-permalink: /docs/base/font-size/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Print
 description: ""
-permalink: /docs/base/print/
 ---
 
 ## About

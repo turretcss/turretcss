@@ -2,7 +2,6 @@
 layout: docs
 title: Position
 description: ""
-permalink: /docs/utility/position/
 ---
 
 Utility classes can be used to position elements easily, each position utility class is `position: absolute;` with top/right/bottom/left properties

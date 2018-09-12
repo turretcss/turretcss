@@ -2,7 +2,6 @@
 layout: docs
 title: Media Queries
 description: ""
-permalink: /docs/base/media-queries/
 ---
 
 ## About

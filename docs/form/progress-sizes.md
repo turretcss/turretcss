@@ -2,7 +2,6 @@
 layout: docs
 title: Progress Sizes
 description: ""
-permalink: /docs/form/progress-sizes/
 ---
 
 ## Example

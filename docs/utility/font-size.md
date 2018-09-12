@@ -2,7 +2,6 @@
 layout: docs
 title: Font Size
 description: ""
-permalink: /docs/utility/font-size/
 ---
 
 ## Values

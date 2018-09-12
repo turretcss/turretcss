@@ -3,7 +3,6 @@ layout: docs
 title: Color
 page_title: ""
 description: ""
-permalink: /docs/color/
 ---
 
 ## All

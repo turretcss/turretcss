@@ -2,7 +2,6 @@
 layout: docs
 title: Display
 description: ""
-permalink: /docs/utility/display/
 ---
 
 | Class                  | Description                              |

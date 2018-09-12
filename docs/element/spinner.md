@@ -2,7 +2,6 @@
 layout: docs
 title: Spinner
 description: ""
-permalink: /docs/element/spinner/
 ---
 
 ## About

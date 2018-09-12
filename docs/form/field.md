@@ -2,7 +2,6 @@
 layout: docs
 title: Field
 description: The field is a container that wraps an label and input in a form to normalise margins.
-permalink: /docs/form/field/
 ---
 
 ## Example

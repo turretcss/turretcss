@@ -2,7 +2,6 @@
 layout: docs
 title: Group
 description: ""
-permalink: /docs/base/group/
 ---
 
 ## About

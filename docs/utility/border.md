@@ -2,7 +2,6 @@
 layout: docs
 title: Border
 description: ""
-permalink: /docs/utility/border/
 ---
 
 ## Border

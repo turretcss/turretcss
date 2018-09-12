@@ -2,7 +2,6 @@
 layout: docs
 title: Nav
 description: For menu and navigation components use the nav element wrapped around an unordered list.
-permalink: /docs/element/nav/
 ---
 
 ## Example

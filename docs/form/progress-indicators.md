@@ -2,7 +2,6 @@
 layout: docs
 title: Progress Indicators
 description: ""
-permalink: /docs/form/progress-indicators/
 ---
 
 ## Example

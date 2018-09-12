@@ -2,7 +2,6 @@
 layout: docs
 title: List
 description: ""
-permalink: /docs/typography/list/
 ---
 
 ## Example

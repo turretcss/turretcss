@@ -2,7 +2,6 @@
 layout: docs
 title: Background
 description: ""
-permalink: /docs/utility/background/
 ---
 
 ## Background

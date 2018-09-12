@@ -2,7 +2,6 @@
 layout: docs
 title: Container
 description: ""
-permalink: /docs/base/container/
 ---
 
 ## About

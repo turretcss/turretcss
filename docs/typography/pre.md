@@ -2,7 +2,6 @@
 layout: docs
 title: Pre
 description: ""
-permalink: /docs/typography/pre/
 ---
 
 ## Example

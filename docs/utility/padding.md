@@ -2,7 +2,6 @@
 layout: docs
 title: Padding
 description: ""
-permalink: /docs/utility/padding/
 ---
 
 | Class         | Description                                     |

@@ -2,7 +2,6 @@
 layout: docs
 title: Max Width
 description: ""
-permalink: /docs/utility/max-width/
 ---
 
 ## Example

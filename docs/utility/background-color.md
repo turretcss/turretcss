@@ -2,7 +2,6 @@
 layout: docs
 title: Background Color
 description: ""
-permalink: /docs/utility/background-color/
 ---
 
 ## Background Color

@@ -2,7 +2,6 @@
 layout: docs
 title: Visibility
 description: Define content to be visible or hidden.
-permalink: /docs/utility/visibility/
 ---
 
 | Class            | Description                                     |

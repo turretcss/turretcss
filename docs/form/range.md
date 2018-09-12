@@ -2,7 +2,6 @@
 layout: docs
 title: Range
 description: ""
-permalink: /docs/form/range/
 ---
 
 ## Example

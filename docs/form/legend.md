@@ -2,7 +2,6 @@
 layout: docs
 title: Legend
 description: ""
-permalink: /docs/form/legend/
 ---
 
 ## Example

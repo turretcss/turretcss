@@ -2,7 +2,6 @@
 layout: docs
 title: Select
 description: ""
-permalink: /docs/form/select/
 ---
 
 ## Example

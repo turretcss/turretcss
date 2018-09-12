@@ -2,7 +2,6 @@
 layout: docs
 title: Definition List
 description: ""
-permalink: /docs/typography/definition-list/
 ---
 
 ## Example

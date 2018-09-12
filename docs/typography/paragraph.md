@@ -2,7 +2,6 @@
 layout: docs
 title: Paragraph
 description: ""
-permalink: /docs/typography/paragraph/
 ---
 
 ## Example

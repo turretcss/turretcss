@@ -2,7 +2,6 @@
 layout: docs
 title: Code
 description: ""
-permalink: /docs/typography/code/
 ---
 
 ## Example

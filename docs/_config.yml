@@ -19,7 +19,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Server
-baseurl: ""
+baseurl: /docs/
 source: ""
 destination: _site
 host: 0.0.0.0

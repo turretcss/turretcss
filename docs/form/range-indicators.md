@@ -2,7 +2,6 @@
 layout: docs
 title: Range Indicators
 description: ""
-permalink: /docs/form/range-indicators/
 ---
 
 ## Example

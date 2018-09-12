@@ -3,7 +3,6 @@ layout: docs
 title: Utility
 page_title: Utility - turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
 description: Utility classes for typographic styles, display, positioning, floats and visibility of elements for rapid frontend development.
-permalink: /docs/utility/
 ---
 
 ## Utility Classes

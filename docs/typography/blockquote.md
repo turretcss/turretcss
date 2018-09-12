@@ -2,7 +2,6 @@
 layout: docs
 title: Blockquote
 description: ""
-permalink: /docs/typography/blockquote/
 ---
 
 ## Example

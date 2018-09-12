@@ -2,7 +2,6 @@
 layout: docs
 title: Stroke
 description: ""
-permalink: /docs/utility/stroke/
 ---
 
 | Class                  | Description                                |

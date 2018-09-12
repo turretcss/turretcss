@@ -2,7 +2,6 @@
 layout: docs
 title: Headings
 description: ""
-permalink: /docs/utility/headings/
 ---
 
 ## Example

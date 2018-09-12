@@ -2,7 +2,6 @@
 layout: docs
 title: Icon Sizes
 description: ""
-permalink: /docs/utility/icon-sizes/
 ---
 
 ## Example

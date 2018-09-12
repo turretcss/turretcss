@@ -2,7 +2,6 @@
 layout: docs
 title: Emphasis
 description: ""
-permalink: /docs/typography/emphasis/
 ---
 
 ## Example

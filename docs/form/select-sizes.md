@@ -2,7 +2,6 @@
 layout: docs
 title: Select Sizes
 description: ""
-permalink: /docs/form/select-sizes/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Label
 description: ""
-permalink: /docs/form/label/
 ---
 
 ## Example

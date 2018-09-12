@@ -1,8 +1,7 @@
 ---
 layout: docs
-title: EXAMPLE
+title: Figure
 description: ""
-permalink: /docs/element/figure/
 ---
 
 ## Example

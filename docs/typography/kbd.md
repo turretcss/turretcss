@@ -2,7 +2,6 @@
 layout: docs
 title: Kbd
 description: ""
-permalink: /docs/typography/kbd/
 ---
 
 ## Example

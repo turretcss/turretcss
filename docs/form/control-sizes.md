@@ -2,7 +2,6 @@
 layout: docs
 title: Control Sizes
 description: ""
-permalink: /docs/form/control-sizes/
 ---
 
 ## Example

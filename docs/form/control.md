@@ -2,7 +2,6 @@
 layout: docs
 title: Control
 description: ""
-permalink: /docs/form/control/
 ---
 
 ## Example
@@ -24,7 +23,6 @@ permalink: /docs/form/control/
     <span class="control-label">Switch</span>
   </label>
 </form>
-
 
 ### HTML
 

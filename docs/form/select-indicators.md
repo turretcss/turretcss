@@ -2,7 +2,6 @@
 layout: docs
 title: Select Indicators
 description: ""
-permalink: /docs/form/select-indicators/
 ---
 
 ## Example

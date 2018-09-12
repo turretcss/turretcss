@@ -2,7 +2,6 @@
 layout: docs
 title: Border Color
 description: ""
-permalink: /docs/utility/border-color/
 ---
 
 ## Border Color

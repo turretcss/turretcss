@@ -2,7 +2,6 @@
 layout: docs
 title: Display Title
 description: ""
-permalink: /docs/typography/display-title/
 ---
 
 ## Example

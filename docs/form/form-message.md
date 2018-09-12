@@ -2,7 +2,6 @@
 layout: docs
 title: Form Message
 description: ""
-permalink: /docs/form/form-message/
 ---
 
 ## Example

@@ -2,7 +2,6 @@
 layout: docs
 title: Media
 description: The media frame is for content loaded after the document is ready. It stops layouts from jumping when media is being loaded.
-permalink: /docs/element/media/
 ---
 
 ## About

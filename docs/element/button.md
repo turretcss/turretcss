@@ -2,7 +2,6 @@
 layout: docs
 title: Button
 description: Button styles are applied directly to the button element, button style and size modifiers do not require the button class added to the button element. Button styles can be set on an achor tag by using the .button class.
-permalink: /docs/element/button/
 ---
 
 ## Example
@@ -65,7 +64,6 @@ permalink: /docs/element/button/
 <button class="spinner" title="Loading"></button>
 ```
 
-
 ## Button Block
 
 <div>
@@ -83,7 +81,6 @@ permalink: /docs/element/button/
 ```scss
 --button-block-text-align: center;
 ```
-
 
 ## Button Pill
 
@@ -292,4 +289,3 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
   <svg>...</svg>
 </button>
 ```
-
