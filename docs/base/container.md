@@ -7,7 +7,7 @@ permalink: /docs/base/container/
 
 ## About
 
-Content wrapper with `max-width` set at differing sizes at various media query breakpoints.
+Default `.container` width property definition element with responsive breakpoints.
 
 By default the container has `--container-gutter` padding applied to the left and right of the container `<div>`.
 

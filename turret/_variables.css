@@ -1,34 +1,5 @@
 :root {
   /**
-   * Body
-   */
-
-  --body-font-family: var(--font-family);
-  --body-font-weight: var(--font-weight);
-  --body-color: var(--color);
-  --body-line-height: var(--line-height);
-  --body-letter-spacing: var(--letter-spacing);
-  --body-background: var(--background);
-
-  /**
-   * Icon
-   */
-
-  --icon-size: var(--icon-m-size);
-  --icon-xl-size: 2rem;
-  --icon-l-size: 1.75rem;
-  --icon-m-size: 1.5rem;
-  --icon-s-size: 1.25rem;
-  --icon-xs-size: 1rem;
-
-  /**
-   * Print
-   */
-
-  --print-page-size: A4;
-  --print-page-margin: 1.5cm 2cm;
-
-  /**
    * Headings
    */
 

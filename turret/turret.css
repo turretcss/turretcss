@@ -16,16 +16,16 @@
 @import './lib/normalize';
 
 /**
- * Colors
+ * Color
  */
 
-@import './_colors';
+@import './_color';
 
 /**
- * Globals
+ * Base
  */
 
-@import './_globals';
+@import './_base';
 
 /**
  * Variables
