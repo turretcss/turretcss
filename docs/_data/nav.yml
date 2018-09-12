@@ -1,116 +1,215 @@
 - title: Getting Started
-  pages:
+  url: /getting-started
+  children:
     - title: Quick start
+      url: /getting-started/quick-start
     - title: Structure
+      url: /getting-started/structure
     - title: Usage
+      url: /getting-started/usage
     - title: Support
+      url: /getting-started/support
     - title: Accessibility
+      url: /getting-started/accessibility
     - title: Contributors
+      url: /getting-started/contributors
     - title: Licence
+      url: /getting-started/licence
 
 - title: Demo
+  url: /demo
 
 - title: Color
-
-# - title: Global
+  url: /color
 
 - title: Base
-  pages:
+  url: /base
+  children:
     - title: Reset
+      url: /base/reset
     - title: Body
+      url: /base/body
     - title: Media Queries
+      url: /base/media-queries
     - title: Print
+      url: /base/print
     - title: Container
+      url: /base/container
     - title: Group
+      url: /base/group
     - title: Icon
+      url: /base/icon
     - title: Font Family
+      url: /base/font-family
     - title: Font Weight
+      url: /base/font-weight
     - title: Font Size
+      url: /base/font-size
     - title: Line Height
+      url: /base/line-height
     - title: Letter Spacing
+      url: /base/letter-spacing
 
 - title: Typography
-  pages:
+  url: /typography
+  children:
     - title: Headings
+      url: /typography/headings
     - title: Display Title
+      url: /typography/display-title
     - title: All Caps
+      url: /typography/all-caps
     - title: Lead
+      url: /typography/lead
     - title: Paragraph
+      url: /typography/paragraph
     - title: Link
+      url: /typography/link
     - title: Strong
+      url: /typography/strong
     - title: Emphasis
+      url: /typography/emphasis
     - title: Horizontal Rule
+      url: /typography/horizontal-rule
     - title: Blockquote
+      url: /typography/blockquote
     - title: Cite
+      url: /typography/cite
     - title: List
+      url: /typography/list
     - title: Definition List
+      url: /typography/definition-list
     - title: Code
+      url: /typography/code
     - title: Pre
+      url: /typography/pre
     - title: Kbd
+      url: /typography/kbd
     - title: Mark
+      url: /typography/mark
 
 - title: Form
-  pages:
+  url: /form
+  children:
     - title: Field
+      url: /form/field
     - title: Label
+      url: /form/label
     - title: Fieldset
+      url: /form/fieldset
     - title: Legend
+      url: /form/legend
     - title: Form Message
+      url: /form/form-message
     - title: Input
+      url: /form/input
     - title: Input Indicators
+      url: /form/input-indicators
     - title: Input Sizes
+      url: /form/input-sizes
     - title: Input Group
+      url: /form/input-group
     - title: Control
+      url: /form/control
     - title: Control Indicators
+      url: /form/control-indicators
     - title: Control Sizes
+      url: /form/control-sizes
     - title: Select
+      url: /form/select
     - title: Select Indicators
+      url: /form/select-indicators
     - title: Select Sizes
+      url: /form/select-sizes
     - title: Range
+      url: /form/range
     - title: Range Indicators
+      url: /form/range-indicators
     - title: Range Sizes
+      url: /form/range-sizes
     - title: Progress
+      url: /form/progress
     - title: Progress Indicators
+      url: /form/progress-indicators
     - title: Progress Sizes
+      url: /form/progress-sizes
 
 - title: Element
-  pages:
+  url: /element
+  children:
     - title: Button
+      url: /element/button
     - title: Button Sizes
+      url: /element/button-sizes
     - title: Button Colors
+      url: /element/button-colors
     - title: Button Icon
+      url: /element/button-icon
     - title: Button Group
+      url: /element/button-group
     - title: Figure
+      url: /element/figure
     - title: Media
+      url: /element/media
     - title: Spinner
+      url: /element/spinner
     - title: Nav
+      url: /element/nav
     - title: Table
+      url: /element/table
 
 - title: Utility
-  pages:
+  url: /utility
+  children:
     - title: Z-Index
+      url: /utility/z-index
     - title: Visibility
+      url: /utility/visibility
     - title: Display
+      url: /utility/display
     - title: Overflow
+      url: /utility/overflow
     - title: Position
+      url: /utility/position
     - title: Transition
+      url: /utility/transition
     - title: Fill
+      url: /utility/fill
     - title: Flex
+      url: /utility/flex
     - title: Max Width
+      url: /utility/max-width
     - title: Margin
+      url: /utility/margin
     - title: Padding
+      url: /utility/padding
     - title: Headings
+      url: /utility/headings
     - title: Font Family
+      url: /utility/font-family
     - title: Font Weight
+      url: /utility/font-weight
     - title: Font Size
+      url: /utility/font-size
     - title: Line Height
+      url: /utility/line-height
     - title: Letter Spacing
+      url: /utility/letter-spacing
     - title: Stroke
+      url: /utility/stroke
     - title: Icon Sizes
+      url: /utility/icon-sizes
     - title: Text
+      url: /utility/text
     - title: Color
+      url: /utility/color
     - title: Background
+      url: /utility/background
     - title: Background Color
+      url: /utility/background-color
     - title: Border
+      url: /utility/border
     - title: Border Color
+      url: /utility/border-color
     - title: Border Radius
+      url: /utility/border-radius
