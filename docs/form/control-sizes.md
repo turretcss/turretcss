@@ -90,7 +90,7 @@ permalink: /docs/form/control-sizes/
 ### Switch
 
 <form>
-  <label class="control control-Xxl switch">
+  <label class="control control-xxl switch">
     <input type="checkbox" name="checkbox">
     <span class="control-indicator"></span>
     <span class="control-label">Switch XXL</span>
