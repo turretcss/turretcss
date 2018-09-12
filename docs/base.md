@@ -10,8 +10,6 @@ permalink: /docs/base/
 
 Sets @root-size on the `:root` element. 
 
-### CSS
-
 ```scss
 --root-size: 16px;
 ```
@@ -19,8 +17,6 @@ Sets @root-size on the `:root` element.
 ## Focus
 
 Outline property and outline offset defintion for focusable elements.
-
-### CSS
 
 ```scss
 --focus-outline: 0.125rem solid var(--info);
@@ -31,8 +27,6 @@ Outline property and outline offset defintion for focusable elements.
 
 Default `color` property definition.
 
-### CSS
-
 ```scss
 --color: var(--dark);
 ```
@@ -41,8 +35,6 @@ Default `color` property definition.
 
 Default `background` property definition.
 
-### CSS
-
 ```scss
 --background: var(--white);
 ```
@@ -50,8 +42,6 @@ Default `background` property definition.
 ## Border
 
 Default `border-width`, `border-style`, and `border-color` definitions for buttons, inputs, tables, etc.
-
-### CSS
 
 ```scss
 --border-width: 1px;
@@ -64,8 +54,6 @@ Default `border-width`, `border-style`, and `border-color` definitions for butto
 
 Default `border-radius` definitions for buttons, inputs, tables, etc.
 
-### CSS
-
 ```scss
 --border-radius: 0.25em;
 ```
@@ -73,8 +61,6 @@ Default `border-radius` definitions for buttons, inputs, tables, etc.
 ## Box Shadow
 
 Default `box-shadow` property definitions including states.
-
-### CSS
 
 ```scss
 --box-shadow: none;
@@ -87,8 +73,6 @@ Default `box-shadow` property definitions including states.
 
 Z-index utility definitions for general use.
 
-### CSS
-
 ```scss
 --z-index-high: 999;
 --z-index-medium: 99;
@@ -98,8 +82,6 @@ Z-index utility definitions for general use.
 ## Speed
 
 Default speeds for transitions.
-
-### CSS
 
 ```scss
 --speed-fast: 200ms;
@@ -111,8 +93,6 @@ Default speeds for transitions.
 ## Height
 
 Height sizes for buttons, inputs, and selects.
-
-### CSS
 
 ```scss
 --height-xxl: 3.25rem;
@@ -128,8 +108,6 @@ Height sizes for buttons, inputs, and selects.
 
 Space sizes for use globally, including `.margin-*`, `.padding-*`, and `.space-*` utility classes.
 
-### CSS
-
 ```scss
 --space-xxl: 4rem;
 --space-xl: 3rem;
@@ -143,8 +121,6 @@ Space sizes for use globally, including `.margin-*`, `.padding-*`, and `.space-*
 ## Max Width
 
 Max Width sizes for use globally, including utility classes.
-
-### CSS
 
 ```scss
 --max-width-xxl: 70rem;
