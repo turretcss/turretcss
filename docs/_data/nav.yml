@@ -15,7 +15,7 @@
     - title: Contributors
     - title: Licence
 
-- title: Globals
+- title: Global
   pages:
     - title: Base
     - title: Sizes
@@ -75,7 +75,7 @@
     - title: Progress Indicators
     - title: Progress Sizes
 
-- title: Elements
+- title: Element
   pages:
     - title: Button
     - title: Button Sizes
@@ -89,7 +89,7 @@
     - title: Nav
     - title: Table
 
-- title: Utilities
+- title: Utility
   pages:
     - title: Utility Classes
     - title: Z-Index
