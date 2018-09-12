@@ -9,6 +9,9 @@
 {% endfor %}
 <nav class="navigation">
   <ul>
+    <li class="{{ active }}">
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
     {% for entry in site.data.nav %}
       {% assign active = null %}
       {% if entry.url == active_page %}
