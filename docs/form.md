@@ -30,6 +30,8 @@ permalink: /docs/form/
   </div>
 </form>
 
+### HTML
+
 ```html
 <form>
   <div class="field">
