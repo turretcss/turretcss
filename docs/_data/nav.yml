@@ -179,6 +179,8 @@
       url: /utility/flex
     - title: Max Width
       url: /utility/max-width
+    - title: Min Height
+      url: /utility/min-height
     - title: Margin
       url: /utility/margin
     - title: Padding
