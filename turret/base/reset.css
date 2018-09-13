@@ -53,6 +53,7 @@ cite,
 .all-caps,
 .field,
 fieldset,
+legend,
 label,
 input,
 textarea,
@@ -61,6 +62,7 @@ textarea,
 progress,
 caption,
 table,
+caption,
 .table-responsive {
   &:first-child {
     margin-top: 0;
