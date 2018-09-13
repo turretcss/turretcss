@@ -6,7 +6,7 @@ description: ""
 
 ## Border Radius
 
-<div class="swatch border border-radius">Border Radius</div>
+<div class="padding-xs border border-radius">Border Radius</div>
 
 ```html
 <div class="border-radius">...</div>
@@ -14,7 +14,7 @@ description: ""
 
 ### Border Radius Top
 
-<div class="swatch border border-radius-top">Border Radius Top</div>
+<div class="padding-xs border border-radius-top">Border Radius Top</div>
 
 ```html
 <div class="border-radius-top">...</div>
@@ -22,7 +22,7 @@ description: ""
 
 ### Border Radius Right
 
-<div class="swatch border border-radius-right">Border Radius Right</div>
+<div class="padding-xs border border-radius-right">Border Radius Right</div>
 
 ```html
 <div class="border-radius-right">...</div>
@@ -30,7 +30,7 @@ description: ""
 
 ### Border Radius Bottom
 
-<div class="swatch border border-radius-bottom">Border Radius Bottom</div>
+<div class="padding-xs border border-radius-bottom">Border Radius Bottom</div>
 
 ```html
 <div class="border-radius-bottom">...</div>
@@ -38,7 +38,7 @@ description: ""
 
 ### Border Radius Left
 
-<div class="swatch border border-radius-left">Border Radius Left</div>
+<div class="padding-xs border border-radius-left">Border Radius Left</div>
 
 ```html
 <div class="border-radius-left">...</div>
@@ -46,7 +46,7 @@ description: ""
 
 ### Border Radius Top Left
 
-<div class="swatch border border-radius-top-left">Border Radius Top Left</div>
+<div class="padding-xs border border-radius-top-left">Border Radius Top Left</div>
 
 ```html
 <div class="border-radius-top-left">...</div>
@@ -54,7 +54,7 @@ description: ""
 
 ### Border Radius Top Right
 
-<div class="swatch border border-radius-top-right">Border Radius Top Right</div>
+<div class="padding-xs border border-radius-top-right">Border Radius Top Right</div>
 
 ```html
 <div class="border-radius-top-right">...</div>
@@ -62,7 +62,7 @@ description: ""
 
 ### Border Radius Bottom Left
 
-<div class="swatch border border-radius-bottom-left">Border Radius Bottom Left</div>
+<div class="padding-xs border border-radius-bottom-left">Border Radius Bottom Left</div>
 
 ```html
 <div class="border-radius-bottom-left">...</div>
@@ -70,7 +70,7 @@ description: ""
 
 ### Border Radius Bottom Right
 
-<div class="swatch border border-radius-bottom-right">Border Radius Bottom Right</div>
+<div class="padding-xs border border-radius-bottom-right">Border Radius Bottom Right</div>
 
 ```html
 <div class="border-radius-bottom-right">...</div>

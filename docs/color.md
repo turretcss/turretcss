@@ -7,22 +7,22 @@ description: ""
 
 ## All
 
-<div class="swatch color-black background-white">White</div>
-<div class="swatch color-black background-light">Light</div>
-<div class="swatch color-white background-grey">Grey</div>
-<div class="swatch color-white background-dark">Dark</div>
-<div class="swatch color-white background-primary">Primary</div>
-<div class="swatch color-white background-secondary">Secondary</div>
-<div class="swatch color-white background-tertiary">Tertiary</div>
-<div class="swatch color-white background-error">Error</div>
-<div class="swatch color-white background-warning">Warning</div>
-<div class="swatch color-white background-success">Success</div>
-<div class="swatch color-white background-info">Info</div>
+<div class="padding-xs color-black background-white">White</div>
+<div class="padding-xs color-black background-light">Light</div>
+<div class="padding-xs color-white background-grey">Grey</div>
+<div class="padding-xs color-white background-dark">Dark</div>
+<div class="padding-xs color-white background-primary">Primary</div>
+<div class="padding-xs color-white background-secondary">Secondary</div>
+<div class="padding-xs color-white background-tertiary">Tertiary</div>
+<div class="padding-xs color-white background-error">Error</div>
+<div class="padding-xs color-white background-warning">Warning</div>
+<div class="padding-xs color-white background-success">Success</div>
+<div class="padding-xs color-white background-info">Info</div>
 
 ## Base
 
-<div class="swatch color-black background-white">White</div>
-<div class="swatch color-white background-black">Black</div>
+<div class="padding-xs color-black background-white">White</div>
+<div class="padding-xs color-white background-black">Black</div>
 
 ```scss
 --white: hsl(220, 10%, 100%);
@@ -38,18 +38,18 @@ description: ""
 
 ### Light
 
-<div class="swatch color-dark background-light">Light</div>
+<div class="padding-xs color-dark background-light">Light</div>
 <div class="palette">
-  <div class="swatch color-dark background-light-50">Light<br>50</div>
-  <div class="swatch color-dark background-light-100">Light<br>100</div>
-  <div class="swatch color-dark background-light-200">Light<br>200</div>
-  <div class="swatch color-dark background-light-300">Light<br>300</div>
-  <div class="swatch color-dark background-light-400">Light<br>400</div>
-  <div class="swatch color-dark background-light-500">Light<br>500</div>
-  <div class="swatch color-dark background-light-600">Light<br>600</div>
-  <div class="swatch color-dark background-light-700">Light<br>700</div>
-  <div class="swatch color-dark background-light-800">Light<br>800</div>
-  <div class="swatch color-dark background-light-900">Light<br>900</div>
+  <div class="padding-xs color-dark background-light-50">Light<br>50</div>
+  <div class="padding-xs color-dark background-light-100">Light<br>100</div>
+  <div class="padding-xs color-dark background-light-200">Light<br>200</div>
+  <div class="padding-xs color-dark background-light-300">Light<br>300</div>
+  <div class="padding-xs color-dark background-light-400">Light<br>400</div>
+  <div class="padding-xs color-dark background-light-500">Light<br>500</div>
+  <div class="padding-xs color-dark background-light-600">Light<br>600</div>
+  <div class="padding-xs color-dark background-light-700">Light<br>700</div>
+  <div class="padding-xs color-dark background-light-800">Light<br>800</div>
+  <div class="padding-xs color-dark background-light-900">Light<br>900</div>
 </div>
 
 ```scss
@@ -70,18 +70,18 @@ description: ""
 
 ### Grey
 
-<div class="swatch color-white background-grey">Grey</div>
+<div class="padding-xs color-white background-grey">Grey</div>
 <div class="palette">
-  <div class="swatch color-white background-grey-50">Grey<br>50</div>
-  <div class="swatch color-white background-grey-100">Grey<br>100</div>
-  <div class="swatch color-white background-grey-200">Grey<br>200</div>
-  <div class="swatch color-white background-grey-300">Grey<br>300</div>
-  <div class="swatch color-white background-grey-400">Grey<br>400</div>
-  <div class="swatch color-white background-grey-500">Grey<br>500</div>
-  <div class="swatch color-white background-grey-600">Grey<br>600</div>
-  <div class="swatch color-white background-grey-700">Grey<br>700</div>
-  <div class="swatch color-white background-grey-800">Grey<br>800</div>
-  <div class="swatch color-white background-grey-900">Grey<br>900</div>
+  <div class="padding-xs color-white background-grey-50">Grey<br>50</div>
+  <div class="padding-xs color-white background-grey-100">Grey<br>100</div>
+  <div class="padding-xs color-white background-grey-200">Grey<br>200</div>
+  <div class="padding-xs color-white background-grey-300">Grey<br>300</div>
+  <div class="padding-xs color-white background-grey-400">Grey<br>400</div>
+  <div class="padding-xs color-white background-grey-500">Grey<br>500</div>
+  <div class="padding-xs color-white background-grey-600">Grey<br>600</div>
+  <div class="padding-xs color-white background-grey-700">Grey<br>700</div>
+  <div class="padding-xs color-white background-grey-800">Grey<br>800</div>
+  <div class="padding-xs color-white background-grey-900">Grey<br>900</div>
 </div>
 
 ```scss
@@ -102,18 +102,18 @@ description: ""
 
 ### Dark
 
-<div class="swatch color-white background-dark">Dark</div>
+<div class="padding-xs color-white background-dark">Dark</div>
 <div class="palette">
-  <div class="swatch color-white background-dark-50">Dark<br>50</div>
-  <div class="swatch color-white background-dark-100">Dark<br>100</div>
-  <div class="swatch color-white background-dark-200">Dark<br>200</div>
-  <div class="swatch color-white background-dark-300">Dark<br>300</div>
-  <div class="swatch color-white background-dark-400">Dark<br>400</div>
-  <div class="swatch color-white background-dark-500">Dark<br>500</div>
-  <div class="swatch color-white background-dark-600">Dark<br>600</div>
-  <div class="swatch color-white background-dark-700">Dark<br>700</div>
-  <div class="swatch color-white background-dark-800">Dark<br>800</div>
-  <div class="swatch color-white background-dark-900">Dark<br>900</div>
+  <div class="padding-xs color-white background-dark-50">Dark<br>50</div>
+  <div class="padding-xs color-white background-dark-100">Dark<br>100</div>
+  <div class="padding-xs color-white background-dark-200">Dark<br>200</div>
+  <div class="padding-xs color-white background-dark-300">Dark<br>300</div>
+  <div class="padding-xs color-white background-dark-400">Dark<br>400</div>
+  <div class="padding-xs color-white background-dark-500">Dark<br>500</div>
+  <div class="padding-xs color-white background-dark-600">Dark<br>600</div>
+  <div class="padding-xs color-white background-dark-700">Dark<br>700</div>
+  <div class="padding-xs color-white background-dark-800">Dark<br>800</div>
+  <div class="padding-xs color-white background-dark-900">Dark<br>900</div>
 </div>
 
 ```scss
@@ -136,18 +136,18 @@ description: ""
 
 ### Primary
 
-<div class="swatch color-white background-primary">Primary</div>
+<div class="padding-xs color-white background-primary">Primary</div>
 <div class="palette">
-  <div class="swatch color-white background-primary-50">Primary<br>50</div>
-  <div class="swatch color-white background-primary-100">Primary<br>100</div>
-  <div class="swatch color-white background-primary-200">Primary<br>200</div>
-  <div class="swatch color-white background-primary-300">Primary<br>300</div>
-  <div class="swatch color-white background-primary-400">Primary<br>400</div>
-  <div class="swatch color-white background-primary-500">Primary<br>500</div>
-  <div class="swatch color-white background-primary-600">Primary<br>600</div>
-  <div class="swatch color-white background-primary-700">Primary<br>700</div>
-  <div class="swatch color-white background-primary-800">Primary<br>800</div>
-  <div class="swatch color-white background-primary-900">Primary<br>900</div>
+  <div class="padding-xs color-white background-primary-50">Primary<br>50</div>
+  <div class="padding-xs color-white background-primary-100">Primary<br>100</div>
+  <div class="padding-xs color-white background-primary-200">Primary<br>200</div>
+  <div class="padding-xs color-white background-primary-300">Primary<br>300</div>
+  <div class="padding-xs color-white background-primary-400">Primary<br>400</div>
+  <div class="padding-xs color-white background-primary-500">Primary<br>500</div>
+  <div class="padding-xs color-white background-primary-600">Primary<br>600</div>
+  <div class="padding-xs color-white background-primary-700">Primary<br>700</div>
+  <div class="padding-xs color-white background-primary-800">Primary<br>800</div>
+  <div class="padding-xs color-white background-primary-900">Primary<br>900</div>
 </div>
 
 ```scss
@@ -168,18 +168,18 @@ description: ""
 
 ### Secondary
 
-<div class="swatch color-white background-secondary">Secondary</div>
+<div class="padding-xs color-white background-secondary">Secondary</div>
 <div class="palette">
-  <div class="swatch color-white background-secondary-50">Secondary<br>50</div>
-  <div class="swatch color-white background-secondary-100">Secondary<br>100</div>
-  <div class="swatch color-white background-secondary-200">Secondary<br>200</div>
-  <div class="swatch color-white background-secondary-300">Secondary<br>300</div>
-  <div class="swatch color-white background-secondary-400">Secondary<br>400</div>
-  <div class="swatch color-white background-secondary-500">Secondary<br>500</div>
-  <div class="swatch color-white background-secondary-600">Secondary<br>600</div>
-  <div class="swatch color-white background-secondary-700">Secondary<br>700</div>
-  <div class="swatch color-white background-secondary-800">Secondary<br>800</div>
-  <div class="swatch color-white background-secondary-900">Secondary<br>900</div>
+  <div class="padding-xs color-white background-secondary-50">Secondary<br>50</div>
+  <div class="padding-xs color-white background-secondary-100">Secondary<br>100</div>
+  <div class="padding-xs color-white background-secondary-200">Secondary<br>200</div>
+  <div class="padding-xs color-white background-secondary-300">Secondary<br>300</div>
+  <div class="padding-xs color-white background-secondary-400">Secondary<br>400</div>
+  <div class="padding-xs color-white background-secondary-500">Secondary<br>500</div>
+  <div class="padding-xs color-white background-secondary-600">Secondary<br>600</div>
+  <div class="padding-xs color-white background-secondary-700">Secondary<br>700</div>
+  <div class="padding-xs color-white background-secondary-800">Secondary<br>800</div>
+  <div class="padding-xs color-white background-secondary-900">Secondary<br>900</div>
 </div>
 
 ```scss
@@ -200,18 +200,18 @@ description: ""
 
 ### Tertiary
 
-<div class="swatch color-white background-tertiary">Tertiary</div>
+<div class="padding-xs color-white background-tertiary">Tertiary</div>
 <div class="palette">
-  <div class="swatch color-white background-tertiary-50">Tertiary<br>50</div>
-  <div class="swatch color-white background-tertiary-100">Tertiary<br>100</div>
-  <div class="swatch color-white background-tertiary-200">Tertiary<br>200</div>
-  <div class="swatch color-white background-tertiary-300">Tertiary<br>300</div>
-  <div class="swatch color-white background-tertiary-400">Tertiary<br>400</div>
-  <div class="swatch color-white background-tertiary-500">Tertiary<br>500</div>
-  <div class="swatch color-white background-tertiary-600">Tertiary<br>600</div>
-  <div class="swatch color-white background-tertiary-700">Tertiary<br>700</div>
-  <div class="swatch color-white background-tertiary-800">Tertiary<br>800</div>
-  <div class="swatch color-white background-tertiary-900">Tertiary<br>900</div>
+  <div class="padding-xs color-white background-tertiary-50">Tertiary<br>50</div>
+  <div class="padding-xs color-white background-tertiary-100">Tertiary<br>100</div>
+  <div class="padding-xs color-white background-tertiary-200">Tertiary<br>200</div>
+  <div class="padding-xs color-white background-tertiary-300">Tertiary<br>300</div>
+  <div class="padding-xs color-white background-tertiary-400">Tertiary<br>400</div>
+  <div class="padding-xs color-white background-tertiary-500">Tertiary<br>500</div>
+  <div class="padding-xs color-white background-tertiary-600">Tertiary<br>600</div>
+  <div class="padding-xs color-white background-tertiary-700">Tertiary<br>700</div>
+  <div class="padding-xs color-white background-tertiary-800">Tertiary<br>800</div>
+  <div class="padding-xs color-white background-tertiary-900">Tertiary<br>900</div>
 </div>
 
 ```scss
@@ -234,18 +234,18 @@ description: ""
 
 ### Error
 
-<div class="swatch color-white background-error">Error</div>
+<div class="padding-xs color-white background-error">Error</div>
 <div class="palette">
-  <div class="swatch color-white background-error-50">Error<br>50</div>
-  <div class="swatch color-white background-error-100">Error<br>100</div>
-  <div class="swatch color-white background-error-200">Error<br>200</div>
-  <div class="swatch color-white background-error-300">Error<br>300</div>
-  <div class="swatch color-white background-error-400">Error<br>400</div>
-  <div class="swatch color-white background-error-500">Error<br>500</div>
-  <div class="swatch color-white background-error-600">Error<br>600</div>
-  <div class="swatch color-white background-error-700">Error<br>700</div>
-  <div class="swatch color-white background-error-800">Error<br>800</div>
-  <div class="swatch color-white background-error-900">Error<br>900</div>
+  <div class="padding-xs color-white background-error-50">Error<br>50</div>
+  <div class="padding-xs color-white background-error-100">Error<br>100</div>
+  <div class="padding-xs color-white background-error-200">Error<br>200</div>
+  <div class="padding-xs color-white background-error-300">Error<br>300</div>
+  <div class="padding-xs color-white background-error-400">Error<br>400</div>
+  <div class="padding-xs color-white background-error-500">Error<br>500</div>
+  <div class="padding-xs color-white background-error-600">Error<br>600</div>
+  <div class="padding-xs color-white background-error-700">Error<br>700</div>
+  <div class="padding-xs color-white background-error-800">Error<br>800</div>
+  <div class="padding-xs color-white background-error-900">Error<br>900</div>
 </div>
 
 ```scss
@@ -266,18 +266,18 @@ description: ""
 
 ### Warning
 
-<div class="swatch color-white background-warning">Warning</div>
+<div class="padding-xs color-white background-warning">Warning</div>
 <div class="palette">
-  <div class="swatch color-white background-warning-50">Warning<br>50</div>
-  <div class="swatch color-white background-warning-100">Warning<br>100</div>
-  <div class="swatch color-white background-warning-200">Warning<br>200</div>
-  <div class="swatch color-white background-warning-300">Warning<br>300</div>
-  <div class="swatch color-white background-warning-400">Warning<br>400</div>
-  <div class="swatch color-white background-warning-500">Warning<br>500</div>
-  <div class="swatch color-white background-warning-600">Warning<br>600</div>
-  <div class="swatch color-white background-warning-700">Warning<br>700</div>
-  <div class="swatch color-white background-warning-800">Warning<br>800</div>
-  <div class="swatch color-white background-warning-900">Warning<br>900</div>
+  <div class="padding-xs color-white background-warning-50">Warning<br>50</div>
+  <div class="padding-xs color-white background-warning-100">Warning<br>100</div>
+  <div class="padding-xs color-white background-warning-200">Warning<br>200</div>
+  <div class="padding-xs color-white background-warning-300">Warning<br>300</div>
+  <div class="padding-xs color-white background-warning-400">Warning<br>400</div>
+  <div class="padding-xs color-white background-warning-500">Warning<br>500</div>
+  <div class="padding-xs color-white background-warning-600">Warning<br>600</div>
+  <div class="padding-xs color-white background-warning-700">Warning<br>700</div>
+  <div class="padding-xs color-white background-warning-800">Warning<br>800</div>
+  <div class="padding-xs color-white background-warning-900">Warning<br>900</div>
 </div>
 
 ```scss
@@ -298,18 +298,18 @@ description: ""
 
 ### Success
 
-<div class="swatch color-white background-success">Success</div>
+<div class="padding-xs color-white background-success">Success</div>
 <div class="palette">
-  <div class="swatch color-white background-success-50">Success<br>50</div>
-  <div class="swatch color-white background-success-100">Success<br>100</div>
-  <div class="swatch color-white background-success-200">Success<br>200</div>
-  <div class="swatch color-white background-success-300">Success<br>300</div>
-  <div class="swatch color-white background-success-400">Success<br>400</div>
-  <div class="swatch color-white background-success-500">Success<br>500</div>
-  <div class="swatch color-white background-success-600">Success<br>600</div>
-  <div class="swatch color-white background-success-700">Success<br>700</div>
-  <div class="swatch color-white background-success-800">Success<br>800</div>
-  <div class="swatch color-white background-success-900">Success<br>900</div>
+  <div class="padding-xs color-white background-success-50">Success<br>50</div>
+  <div class="padding-xs color-white background-success-100">Success<br>100</div>
+  <div class="padding-xs color-white background-success-200">Success<br>200</div>
+  <div class="padding-xs color-white background-success-300">Success<br>300</div>
+  <div class="padding-xs color-white background-success-400">Success<br>400</div>
+  <div class="padding-xs color-white background-success-500">Success<br>500</div>
+  <div class="padding-xs color-white background-success-600">Success<br>600</div>
+  <div class="padding-xs color-white background-success-700">Success<br>700</div>
+  <div class="padding-xs color-white background-success-800">Success<br>800</div>
+  <div class="padding-xs color-white background-success-900">Success<br>900</div>
 </div>
 
 ```scss
@@ -330,18 +330,18 @@ description: ""
 
 ### Info
 
-<div class="swatch color-white background-info">Info</div>
+<div class="padding-xs color-white background-info">Info</div>
 <div class="palette">
-  <div class="swatch color-white background-info-50">Info<br>50</div>
-  <div class="swatch color-white background-info-100">Info<br>100</div>
-  <div class="swatch color-white background-info-200">Info<br>200</div>
-  <div class="swatch color-white background-info-300">Info<br>300</div>
-  <div class="swatch color-white background-info-400">Info<br>400</div>
-  <div class="swatch color-white background-info-500">Info<br>500</div>
-  <div class="swatch color-white background-info-600">Info<br>600</div>
-  <div class="swatch color-white background-info-700">Info<br>700</div>
-  <div class="swatch color-white background-info-800">Info<br>800</div>
-  <div class="swatch color-white background-info-900">Info<br>900</div>
+  <div class="padding-xs color-white background-info-50">Info<br>50</div>
+  <div class="padding-xs color-white background-info-100">Info<br>100</div>
+  <div class="padding-xs color-white background-info-200">Info<br>200</div>
+  <div class="padding-xs color-white background-info-300">Info<br>300</div>
+  <div class="padding-xs color-white background-info-400">Info<br>400</div>
+  <div class="padding-xs color-white background-info-500">Info<br>500</div>
+  <div class="padding-xs color-white background-info-600">Info<br>600</div>
+  <div class="padding-xs color-white background-info-700">Info<br>700</div>
+  <div class="padding-xs color-white background-info-800">Info<br>800</div>
+  <div class="padding-xs color-white background-info-900">Info<br>900</div>
 </div>
 
 ```scss
