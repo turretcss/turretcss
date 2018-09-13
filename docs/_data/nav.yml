@@ -179,6 +179,12 @@
       url: /utility/fill
     - title: Flex
       url: /utility/flex
+    - title: Font Family
+      url: /utility/font-family
+    - title: Font Weight
+      url: /utility/font-weight
+    - title: Font Size
+      url: /utility/font-size
     - title: Max Width
       url: /utility/max-width
     - title: Min Height
@@ -189,20 +195,16 @@
       url: /utility/padding
     - title: Headings
       url: /utility/headings
-    - title: Font Family
-      url: /utility/font-family
-    - title: Font Weight
-      url: /utility/font-weight
-    - title: Font Size
-      url: /utility/font-size
+    - title: Icon Sizes
+      url: /utility/icon-sizes
     - title: Line Height
       url: /utility/line-height
     - title: Letter Spacing
       url: /utility/letter-spacing
     - title: Stroke
       url: /utility/stroke
-    - title: Icon Sizes
-      url: /utility/icon-sizes
+    - title: Space
+      url: /utility/space
     - title: Text
       url: /utility/text
     - title: Color
