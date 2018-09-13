@@ -28,6 +28,26 @@
   margin-left: 0 !important;
 }
 
+.margin-vertical-1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.margin-vertical-3-4 {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.margin-vertical-1-2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.margin-vertical-1-4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
 .margin-auto {
   margin: auto;
 }

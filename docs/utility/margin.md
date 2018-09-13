@@ -52,6 +52,17 @@ description: ""
 
 ## Margin Vertical
 
+### Relative
+
+| Class                 | Description                                                           |
+| --------------------- | --------------------------------------------------------------------- |
+| `margin-vertical-1`   | Applies `margin-top: 1em;` and `margin-bottom: 1em;` to element       |
+| `margin-vertical-3-4` | Applies `margin-top: 0.75em;` and `margin-bottom: 0.75em;` to element |
+| `margin-vertical-1-2` | Applies `margin-top: 0.5em;` and `margin-bottom: 0.5em;` to element   |
+| `margin-vertical-1-4` | Applies `margin-top: 0.25em;` and `margin-bottom: 0.25em;` to element |
+
+### Sizes
+
 | Class                 | Description                                                                               |
 | --------------------- | ----------------------------------------------------------------------------------------- |
 | `margin-vertical-xxl` | Applies `margin-top: var(--space-xxl);` and `margin-bottom: var(--space-xxl);` to element |
