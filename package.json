@@ -23,7 +23,7 @@
   "keywords": [
     "css",
     "postcss",
-    "cssnext",
+    "postcss-preset-env",
     "a11y",
     "html",
     "responsive",

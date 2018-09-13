@@ -3,8 +3,6 @@
   children:
     - title: Quick start
       url: /getting-started/quick-start
-    - title: Structure
-      url: /getting-started/structure
     - title: Usage
       url: /getting-started/usage
     - title: Support

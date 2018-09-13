@@ -43,7 +43,8 @@ To use and run the documentation locally, you'll need a copy of turretcss's sour
 1. [Download and install Node](https://nodejs.org/download/), which we use to manage our dependencies.
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
 3. [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`, and finally run `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
-  - **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+
+- **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
 
 When completed, you'll be able to run the various scripts provided from the command line.
 
@@ -51,23 +52,28 @@ When completed, you'll be able to run the various scripts provided from the comm
 
 turretcss includes the following commands and tasks:
 
-| Task | Description |
-| --- | --- |
-| `npm start` | Run `npm run watch` |
-| `npm run watch` | Watches changes to the `/docs` directory and builds docs CSS  |
-| `npm run build` | Compile and minify the turretcss CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
-| `npm run docs` | Compile and minify the Docs CSS into `/dist`. Uses [PostCSS][PostCSS], [cssnext][cssnext], and [CSSNano][CSSNano].  |
+| Task             | Description                                                                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `start`          | Run `npm run watch`                                                                                                                             |
+| `watch`          | Run `npm run watch:turret & npm run watch:docs`                                                                                                 |
+| `watch:turret`   | Watches changes to the `/turret` directory and builds turret CSS `npm run compile:turret -- --verbose --watch`                                  |
+| `watch:docs`     | Watches changes to the `/docs` directory and builds docs CSS `npm run compile:docs -- --verbose --watch`                                        |
+| `compile:turret` | Builds turret CSS using [PostCSS][postcss], [postcss-preset-env][postcss-preset-env], and [CSSNano][cssnano] with config in `postcss.config.js` |
+| `compile:docs`   | Builds docs CSS using [PostCSS][postcss], [postcss-preset-env][postcss-preset-env], and [CSSNano][cssnano] with config in `postcss.config.js`   |
+| `format`         | Run `npm run format:css & npm run format:md`                                                                                                    |
+| `format:css`     | Prettier CSS files `prettier --single-quote --print-width 180 --write '*.css'`                                                                  |
+| `format:md`      | Prettier Markdown files `prettier --print-width 180 --write '*.md'`                                                                             |
 
 ### Autoprefixer
 
-turretcss uses [Autoprefixer][autoprefixer] as part of cssnext to automatically add vendor prefixes to some CSS properties at build time.
+turretcss uses [Autoprefixer][autoprefixer] as part of postcss-preset-env to automatically add vendor prefixes to some CSS properties at build time.
 
 ### Running documentation locally
 
 1. Install [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`.
 2. Install Jekyll (the site builder) and other Ruby dependencies with `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
-3. Run  `npm start` or `yarn start` to rebuild CSS.
-4. From the root `/turret` directory, run `bundle exec jekyll serve` in the command line.
+3. Run `npm start` or `yarn start` to rebuild CSS.
+4. From the `/docs` directory, run `bundle exec jekyll serve` in the command line.
 5. Open <http://0.0.0.0:2001> in your browser.
 
 Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
@@ -99,7 +105,10 @@ Code and documentation copyright 2018 [Bigfish.tv](https://bigfish.tv), Code rel
 
 [install-ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [gembundler]: https://bundler.io/
-[PostCSS]: http://postcss.org/
-[cssnext]: http://cssnext.io/
-[CSSNano]: http://cssnano.co/
+[turretcss]: https://turretcss.com/
+[turretcss-boilerplate]: https://github.com/turretcss/turretcss-boilerplate
+[postcss]: https://postcss.org/
+[postcss cli]: https://github.com/postcss/postcss-cli
+[postcss-preset-env]: https://preset-env.cssdb.org/
+[cssnano]: https://cssnano.co/
 [autoprefixer]: https://github.com/postcss/autoprefixer
