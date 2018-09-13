@@ -38,7 +38,6 @@ button,
     border-color: var(--button-active-border-color);
     box-shadow: var(--button-active-box-shadow);
   }
-
   &.spinner::before {
     margin-top: -0.5em;
     margin-left: -0.5em;
@@ -74,6 +73,19 @@ button,
       background: var(--error-active);
       border-color: var(--error-active);
     }
+
+    &.button-text {
+      color: var(--error);
+
+      &:hover,
+      &:focus {
+        color: var(--error-hover);
+      }
+
+      &:active {
+        color: var(--error-active);
+      }
+    }
   }
 
   &.warning {
@@ -97,6 +109,19 @@ button,
       color: var(--button-warning-color);
       background: var(--warning-active);
       border-color: var(--warning-active);
+    }
+
+    &.button-text {
+      color: var(--warning);
+
+      &:hover,
+      &:focus {
+        color: var(--warning-hover);
+      }
+
+      &:active {
+        color: var(--warning-active);
+      }
     }
   }
 
@@ -122,6 +147,19 @@ button,
       background: var(--success-active);
       border-color: var(--success-active);
     }
+
+    &.button-text {
+      color: var(--success);
+
+      &:hover,
+      &:focus {
+        color: var(--success-hover);
+      }
+
+      &:active {
+        color: var(--success-active);
+      }
+    }
   }
 
   &.info {
@@ -145,6 +183,32 @@ button,
       color: var(--button-info-color);
       background: var(--info-active);
       border-color: var(--info-active);
+    }
+
+    &.button-text {
+      color: var(--info);
+
+      &:hover,
+      &:focus {
+        color: var(--info-hover);
+      }
+
+      &:active {
+        color: var(--info-active);
+      }
+    }
+  }
+
+  &.button-text {
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparent;
+      border-color: transparent;
     }
   }
 }

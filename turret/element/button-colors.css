@@ -20,6 +20,19 @@
     background: var(--white-active);
     border-color: var(--white-active);
   }
+
+  &.button-text {
+    color: var(--white);
+
+    &:hover,
+    &:focus {
+      color: var(--white-hover);
+    }
+
+    &:active {
+      color: var(--white-active);
+    }
+  }
 }
 
 .button-light {
@@ -43,6 +56,19 @@
     color: var(--button-light-color);
     background: var(--light-active);
     border-color: var(--light-active);
+  }
+
+  &.button-text {
+    color: var(--light);
+
+    &:hover,
+    &:focus {
+      color: var(--light-hover);
+    }
+
+    &:active {
+      color: var(--light-active);
+    }
   }
 }
 
@@ -68,6 +94,19 @@
     background: var(--grey-active);
     border-color: var(--grey-active);
   }
+
+  &.button-text {
+    color: var(--grey);
+
+    &:hover,
+    &:focus {
+      color: var(--grey-hover);
+    }
+
+    &:active {
+      color: var(--grey-active);
+    }
+  }
 }
 
 .button-dark {
@@ -91,6 +130,19 @@
     color: var(--button-dark-color);
     background: var(--dark-active);
     border-color: var(--dark-active);
+  }
+
+  &.button-text {
+    color: var(--dark);
+
+    &:hover,
+    &:focus {
+      color: var(--dark-hover);
+    }
+
+    &:active {
+      color: var(--dark-active);
+    }
   }
 }
 
@@ -116,6 +168,19 @@
     background: var(--black-active);
     border-color: var(--black-active);
   }
+
+  &.button-text {
+    color: var(--black);
+
+    &:hover,
+    &:focus {
+      color: var(--black-hover);
+    }
+
+    &:active {
+      color: var(--black-active);
+    }
+  }
 }
 
 .button-primary {
@@ -139,6 +204,19 @@
     color: var(--button-primary-color);
     background: var(--primary-active);
     border-color: var(--primary-active);
+  }
+
+  &.button-text {
+    color: var(--primary);
+
+    &:hover,
+    &:focus {
+      color: var(--primary-hover);
+    }
+
+    &:active {
+      color: var(--primary-active);
+    }
   }
 }
 
@@ -164,6 +242,19 @@
     background: var(--secondary-active);
     border-color: var(--secondary-active);
   }
+
+  &.button-text {
+    color: var(--secondary);
+
+    &:hover,
+    &:focus {
+      color: var(--secondary-hover);
+    }
+
+    &:active {
+      color: var(--secondary-active);
+    }
+  }
 }
 
 .button-tertiary {
@@ -187,5 +278,18 @@
     color: var(--button-tertiary-color);
     background: var(--tertiary-active);
     border-color: var(--tertiary-active);
+  }
+
+  &.button-text {
+    color: var(--tertiary);
+
+    &:hover,
+    &:focus {
+      color: var(--tertiary-hover);
+    }
+
+    &:active {
+      color: var(--tertiary-active);
+    }
   }
 }
