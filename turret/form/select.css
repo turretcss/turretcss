@@ -60,7 +60,7 @@ select {
     }
 
     &:disabled {
-      cursor: no-drop;
+      pointer-events: none;
       color: var(--select-disabled-color);
       background: var(--select-disabled-background);
       border-color: var(--select-disabled-border-color);

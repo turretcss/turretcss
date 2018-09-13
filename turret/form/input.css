@@ -45,7 +45,7 @@ textarea {
   }
 
   &:disabled {
-    cursor: no-drop;
+    pointer-events: none;
     color: var(--input-disabled-color);
     background: var(--input-disabled-background);
     border-color: var(--input-disabled-border-color);
