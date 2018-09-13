@@ -10,20 +10,21 @@ The `.spinner` class can be added to any element to add a `::before` pseudo elem
 
 ## Example
 
-<div class="max-width-xs">
+<div class="max-width-xxs">
   <div class="media media-1 spinner"></div>
 </div>
 
 ### HTML
 
 ```html
-<div class="... spinner">...</div>
+<div class="spinner">...</div>
 ```
 
 ### CSS
 
 ```scss
---spinner-size: 2rem;
+--spinner-width: 0.125rem;
+--spinner-size: 1.75rem;
 --spinner-speed: var(--speed-slow);
 --spinner-background-color: color-mod(var(--black) alpha(10%));
 --spinner-foreground-color: var(--white);

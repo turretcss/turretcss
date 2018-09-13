@@ -1,0 +1,41 @@
+.spinner-xxl::before {
+  margin-top: calc(var(--spinner-xxl-size) / -2);
+  margin-left: calc(var(--spinner-xxl-size) / -2);
+  width: var(--spinner-xxl-size);
+  height: var(--spinner-xxl-size);
+}
+
+.spinner-xl::before {
+  margin-top: calc(var(--spinner-xl-size) / -2);
+  margin-left: calc(var(--spinner-xl-size) / -2);
+  width: var(--spinner-xl-size);
+  height: var(--spinner-xl-size);
+}
+
+.spinner-l::before {
+  margin-top: calc(var(--spinner-l-size) / -2);
+  margin-left: calc(var(--spinner-l-size) / -2);
+  width: var(--spinner-l-size);
+  height: var(--spinner-l-size);
+}
+
+.spinner-s::before {
+  margin-top: calc(var(--spinner-s-size) / -2);
+  margin-left: calc(var(--spinner-s-size) / -2);
+  width: var(--spinner-s-size);
+  height: var(--spinner-s-size);
+}
+
+.spinner-xs::before {
+  margin-top: calc(var(--spinner-xs-size) / -2);
+  margin-left: calc(var(--spinner-xs-size) / -2);
+  width: var(--spinner-xs-size);
+  height: var(--spinner-xs-size);
+}
+
+.spinner-xxs::before {
+  margin-top: calc(var(--spinner-xxs-size) / -2);
+  margin-left: calc(var(--spinner-xxs-size) / -2);
+  width: var(--spinner-xxs-size);
+  height: var(--spinner-xxs-size);
+}

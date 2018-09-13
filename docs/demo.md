@@ -1516,6 +1516,34 @@ description: Demo of all HTML elements with turretcss styles applied.
   </figure>
 </div>
 
+### Spinner
+
+<div class="group">
+  <ul>
+    <li>
+      <div class="space-xxl background-light spinner spinner-xxl"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-xl"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-l"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-m"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-s"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-xs"></div>
+    </li>
+    <li>
+      <div class="space-xxl background-light spinner spinner-xxs"></div>
+    </li>
+  </ul>
+</div>
+
 ### Nav
 
 <div>

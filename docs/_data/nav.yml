@@ -151,6 +151,8 @@
       url: /element/media
     - title: Spinner
       url: /element/spinner
+    - title: Spinner Sizes
+      url: /element/spinner-sizes
     - title: Nav
       url: /element/nav
     - title: Table

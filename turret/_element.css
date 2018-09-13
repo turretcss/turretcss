@@ -144,10 +144,22 @@
    * Spinner
    */
 
-  --spinner-size: 2rem;
+  --spinner-width: 0.125rem;
+  --spinner-size: 1.75rem;
   --spinner-speed: var(--speed-slow);
   --spinner-background-color: color-mod(var(--black) alpha(10%));
   --spinner-foreground-color: var(--white);
+
+  /** 
+   * Spinner Sizes
+   */
+
+  --spinner-xxl-size: 2.5rem;
+  --spinner-xl-size: 2.25rem;
+  --spinner-l-size: 2rem;
+  --spinner-s-size: 1.5rem;
+  --spinner-xs-size: 1.25rem;
+  --spinner-xxs-size: 1rem;
 
   /**
    * Table

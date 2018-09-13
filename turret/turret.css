@@ -105,6 +105,7 @@
 @import './element/media';
 @import './element/nav';
 @import './element/spinner';
+@import './element/spinner-sizes';
 @import './element/table';
 
 /**
