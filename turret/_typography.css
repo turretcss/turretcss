@@ -226,7 +226,7 @@
   --code-font-family: var(--font-family-monospace);
   --code-font-weight: normal;
   --code-font-size: 80%;
-  --code-color: var(--secondary);
+  --code-color: var(--primary);
 
   /** 
    * Pre
@@ -247,7 +247,7 @@
   --pre-border-color: var(--border-color);
   --pre-border-radius: var(--border-radius);
 
-  --pre-code-color: var(--code-color);
+  --pre-code-color: inherit;
 
   /**
    * Kbd

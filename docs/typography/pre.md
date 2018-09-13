@@ -32,5 +32,5 @@ description: ""
 --pre-border-color: var(--border-color);
 --pre-border-radius: var(--border-radius);
 
---pre-code-color: var(--code-color);
+--pre-code-color: inherit;
 ```

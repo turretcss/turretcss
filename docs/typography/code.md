@@ -20,5 +20,5 @@ description: ""
 --code-font-family: var(--font-family-monospace);
 --code-font-weight: normal;
 --code-font-size: 80%;
---code-color: var(--secondary);
+--code-color: var(--primary);
 ```
