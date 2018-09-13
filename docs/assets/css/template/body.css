@@ -1,0 +1,13 @@
+body {
+  @media (--s-down) {
+    &.open {
+      & .main {
+        transform: translateX(calc(var(--sidebar-width) * -1));
+      }
+
+      & .sidebar {
+        transform: translateX(0);
+      }
+    }
+  }
+}

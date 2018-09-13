@@ -26,6 +26,7 @@
  * Template
  */
 
+@import './template/body';
 @import './template/main';
 @import './template/header';
 @import './template/hamburger';
@@ -40,71 +41,3 @@
 
 @import './component/boxes';
 @import './component/palette';
-@import './component/swatch';
-
-/**
- * General
- */
-
-.hero-text {
-  margin: 0.25em 0;
-  font-weight: var(--font-weight-black);
-  font-size: calc(1rem + 7.5vw);
-  line-height: 1;
-  text-transform: uppercase;
-
-  & span {
-    display: block;
-  }
-}
-
-#markdown-toc {
-  list-style: none;
-
-  & li {
-    padding: 0;
-    margin: 0.5em 0;
-  }
-
-  & > li {
-    font-weight: var(--font-weight-semibold);
-  }
-
-  & ul {
-    list-style: none;
-
-    & li {
-      margin: 0.25em 0;
-      margin-left: 0.75em;
-      font-weight: var(--font-weight);
-
-      & ul li {
-        font-size: var(--font-size-s);
-      }
-    }
-  }
-
-  & a {
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: var(--primary);
-      text-decoration: underline;
-    }
-  }
-}
-
-body {
-  @media (--s-down) {
-    &.open {
-      & .main {
-        transform: translateX(calc(var(--sidebar-width) * -1));
-      }
-
-      & .sidebar {
-        transform: translateX(0);
-      }
-    }
-  }
-}
