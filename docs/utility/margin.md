@@ -38,6 +38,18 @@ description: ""
 | `margin-bottom-auto`     | Applies `margin-bottom: auto;` to element                         |
 | `margin-left-auto`       | Applies `margin-left: auto;` to element                           |
 
+## Margin Negative
+
+| Class                 | Description                                               |
+| --------------------- | --------------------------------------------------------- |
+| `margin-negative-xxl` | Applies `margin: calc(var(--space-xxl) * -1);` to element |
+| `margin-negative-xl`  | Applies `margin: calc(var(--space-xl) * -1);` to element  |
+| `margin-negative-l`   | Applies `margin: calc(var(--space-l) * -1);` to element   |
+| `margin-negative-m`   | Applies `margin: calc(var(--space-m) * -1);` to element   |
+| `margin-negative-s`   | Applies `margin: calc(var(--space-s) * -1);` to element   |
+| `margin-negative-xs`  | Applies `margin: calc(var(--space-xs) * -1);` to element  |
+| `margin-negative-xxs` | Applies `margin: calc(var(--space-xxs) * -1);` to element |
+
 ## Margin Vertical
 
 | Class                 | Description                                                                               |

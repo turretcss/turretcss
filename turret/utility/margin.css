@@ -62,6 +62,10 @@
   margin: var(--space-xxl);
 }
 
+.margin-negative-xxl {
+  margin: calc(var(--space-xxl) * -1);
+}
+
 .margin-horizontal-xxl {
   margin-left: var(--space-xxl);
   margin-right: var(--space-xxl);
@@ -90,6 +94,10 @@
 
 .margin-xl {
   margin: var(--space-xl);
+}
+
+.margin-negative-xl {
+  margin: calc(var(--space-xl) * -1);
 }
 
 .margin-horizontal-xl {
@@ -122,6 +130,10 @@
   margin: var(--space-l);
 }
 
+.margin-negative-l {
+  margin: calc(var(--space-l) * -1);
+}
+
 .margin-horizontal-l {
   margin-left: var(--space-l);
   margin-right: var(--space-l);
@@ -150,6 +162,10 @@
 
 .margin-m {
   margin: var(--space-m);
+}
+
+.margin-negative-m {
+  margin: calc(var(--space-m) * -1);
 }
 
 .margin-horizontal-m {
@@ -182,6 +198,10 @@
   margin: var(--space-s);
 }
 
+.margin-negative-s {
+  margin: calc(var(--space-s) * -1);
+}
+
 .margin-horizontal-s {
   margin-left: var(--space-s);
   margin-right: var(--space-s);
@@ -212,6 +232,10 @@
   margin: var(--space-xs);
 }
 
+.margin-negative-xs {
+  margin: calc(var(--space-xs) * -1);
+}
+
 .margin-horizontal-xs {
   margin-left: var(--space-xs);
   margin-right: var(--space-xs);
@@ -240,6 +264,10 @@
 
 .margin-xxs {
   margin: var(--space-xxs);
+}
+
+.margin-negative-xxs {
+  margin: calc(var(--space-xxs) * -1);
 }
 
 .margin-horizontal-xxs {
