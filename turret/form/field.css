@@ -33,7 +33,7 @@
       transition: all var(--speed) ease-in-out;
     }
 
-    &:not(:disabled):focus {
+    &:focus {
       &::placeholder {
         opacity: 0;
       }
