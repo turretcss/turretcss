@@ -307,7 +307,7 @@ description: Demo of all HTML elements with turretcss styles applied.
 
 ### Kbd
 
-<p>Save file: <kbd>cmd</kbd> + <kbd>S</kbd></p>
+<p>Save file: <kbd>cmd</kbd> + <kbd>s</kbd></p>
 
 ### Mark
 
