@@ -2,11 +2,21 @@
 # Leave it empty to compile
 ---
 
-[
-  {% for page in site.pages %}
-    {
-      "title" : "{{ page.title | escape }}",
-      "url"   : "{{ site.baseurl }}/{{ page.url }}"
-    } {% unless forloop.last %},{% endunless %}
+{% assign items = "" %}
+{% assign items = "" | split: ',' %}
+
+{% for entry in site.data.nav %}
+  {% assign items = items | push: entry %}
+  {% for child in entry.children %}
+    {% assign items = items | push: child %}
   {% endfor %}
+{% endfor %}
+
+[
+{% for item in items %}
+  {
+    "title": "{{ item.title | escape }}",
+    "url": "{{ site.baseurl }}{{ item.url }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
 ]
