@@ -7,17 +7,6 @@ description: Developed for design. turretcss is a styles and browser behaviour n
 # Permalinks
 permalink: pretty
 
-# Syntax Highlighter
-highlighter: rouge
-
-# Build settings
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
-
 # Server
 baseurl: ""
 source: ""
