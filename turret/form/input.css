@@ -30,14 +30,14 @@ textarea {
     opacity: 1;
   }
 
-  &:not(:disabled):hover {
+  &:hover {
     color: var(--input-hover-color);
     background: var(--input-hover-background);
     border-color: var(--input-hover-border-color);
     box-shadow: var(--input-hover-box-shadow);
   }
 
-  &:not(:disabled):focus {
+  &:focus {
     color: var(--input-focus-color);
     background: var(--input-focus-background);
     border-color: var(--input-focus-border-color);
