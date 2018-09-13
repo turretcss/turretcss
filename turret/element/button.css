@@ -23,8 +23,8 @@ button,
   box-shadow: var(--button-box-shadow);
   transition: all var(--speed) ease-in-out;
 
-  &:not(:disabled):hover,
-  &:not(:disabled):focus {
+  &:hover,
+  &:focus {
     text-decoration: none;
     color: var(--button-hover-color);
     background: var(--button-hover-background);
@@ -32,7 +32,7 @@ button,
     box-shadow: var(--button-hover-box-shadow);
   }
 
-  &:not(:disabled):active {
+  &:active {
     color: var(--button-active-color);
     background: var(--button-active-background);
     border-color: var(--button-active-border-color);
@@ -62,14 +62,14 @@ button,
       background: transparent;
     }
 
-    &:not(:disabled):hover,
-    &:not(:disabled):focus {
+    &:hover,
+    &:focus {
       color: var(--button-error-color);
       background: var(--error-hover);
       border-color: var(--error-hover);
     }
 
-    &:not(:disabled):active {
+    &:active {
       color: var(--button-error-color);
       background: var(--error-active);
       border-color: var(--error-active);
@@ -86,14 +86,14 @@ button,
       background: transparent;
     }
 
-    &:not(:disabled):hover,
-    &:not(:disabled):focus {
+    &:hover,
+    &:focus {
       color: var(--button-warning-color);
       background: var(--warning-hover);
       border-color: var(--warning-hover);
     }
 
-    &:not(:disabled):active {
+    &:active {
       color: var(--button-warning-color);
       background: var(--warning-active);
       border-color: var(--warning-active);
@@ -110,14 +110,14 @@ button,
       background: transparent;
     }
 
-    &:not(:disabled):hover,
-    &:not(:disabled):focus {
+    &:hover,
+    &:focus {
       color: var(--button-success-color);
       background: var(--success-hover);
       border-color: var(--success-hover);
     }
 
-    &:not(:disabled):active {
+    &:active {
       color: var(--button-success-color);
       background: var(--success-active);
       border-color: var(--success-active);
@@ -134,14 +134,14 @@ button,
       background: transparent;
     }
 
-    &:not(:disabled):hover,
-    &:not(:disabled):focus {
+    &:hover,
+    &:focus {
       color: var(--button-info-color);
       background: var(--info-hover);
       border-color: var(--info-hover);
     }
 
-    &:not(:disabled):active {
+    &:active {
       color: var(--button-info-color);
       background: var(--info-active);
       border-color: var(--info-active);
