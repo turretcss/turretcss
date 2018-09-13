@@ -57,7 +57,7 @@ description: ""
 ## Defintition Description
 
 <dl>
-  <dt>Defintition Description</dt>
+  <dd>Defintition Description</dd>
 </dl>
 
 ### HTML
