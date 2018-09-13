@@ -1,0 +1,14 @@
+.order-1,
+.order-first {
+  order: 1;
+}
+
+.order-2,
+.order-middle {
+  order: 2;
+}
+
+.order-3,
+.order-last {
+  order: 3;
+}

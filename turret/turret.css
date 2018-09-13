@@ -130,6 +130,7 @@
 @import './utility/line-height';
 @import './utility/margin';
 @import './utility/max-width';
+@import './utility/order';
 @import './utility/overflow';
 @import './utility/padding';
 @import './utility/pointer-events';

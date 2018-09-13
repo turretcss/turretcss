@@ -167,6 +167,8 @@
       url: /utility/visibility
     - title: Display
       url: /utility/display
+    - title: Order
+      url: /utility/order
     - title: Overflow
       url: /utility/overflow
     - title: Position
