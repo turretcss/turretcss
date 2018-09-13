@@ -186,6 +186,16 @@ description: Demo of all HTML elements with turretcss styles applied.
   <div class="swatch color-white background-info-900">Info<br>900</div>
 </div>
 
+## Box Shadows
+
+<div class="padding-s margin-xs box-shadow-xxl">Box Shadow XXL</div>
+<div class="padding-s margin-xs box-shadow-xl">Box Shadow XL</div>
+<div class="padding-s margin-xs box-shadow-l">Box Shadow L</div>
+<div class="padding-s margin-xs box-shadow-m">Box Shadow M</div>
+<div class="padding-s margin-xs box-shadow-s">Box Shadow S</div>
+<div class="padding-s margin-xs box-shadow-xs">Box Shadow XS</div>
+<div class="padding-s margin-xs box-shadow-xxs">Box Shadow XXS</div>
+
 ## Typography
 
 ### Headings

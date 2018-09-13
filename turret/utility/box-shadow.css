@@ -1,0 +1,27 @@
+.box-shadow-xxl {
+  box-shadow: var(--box-shadow-xxl);
+}
+
+.box-shadow-xl {
+  box-shadow: var(--box-shadow-xl);
+}
+
+.box-shadow-l {
+  box-shadow: var(--box-shadow-l);
+}
+
+.box-shadow-m {
+  box-shadow: var(--box-shadow-m);
+}
+
+.box-shadow-s {
+  box-shadow: var(--box-shadow-s);
+}
+
+.box-shadow-xs {
+  box-shadow: var(--box-shadow-xs);
+}
+
+.box-shadow-xxs {
+  box-shadow: var(--box-shadow-xxs);
+}

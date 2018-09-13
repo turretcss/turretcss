@@ -63,9 +63,22 @@ Default `box-shadow` property definitions including states.
 
 ```scss
 --box-shadow: none;
+--box-shadow-color: color-mod(var(--dark) alpha(10%));
 --hover-box-shadow: none;
 --focus-box-shadow: none;
 --active-box-shadow: none;
+```
+
+### Box Shadow Sizes
+
+```scss
+--box-shadow-xxl: 0 1px 10px 1px var(--box-shadow-color);
+--box-shadow-xl: 0 1px 8px 1px var(--box-shadow-color);
+--box-shadow-l: 0 1px 6px 1px var(--box-shadow-color);
+--box-shadow-m: 0 1px 4px 1px var(--box-shadow-color);
+--box-shadow-s: 0 1px 2px 1px var(--box-shadow-color);
+--box-shadow-xs: 0 1px 1px 1px var(--box-shadow-color);
+--box-shadow-xxs: 0 0px 1px var(--box-shadow-color);
 ```
 
 ## Z-Index
