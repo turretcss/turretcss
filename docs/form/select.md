@@ -17,8 +17,8 @@ description: ""
     </label>
   </div>
   <div class="field">
-    <label class="select" for="select">
-      <select id="select" disabled>
+    <label class="select" for="select-disabled">
+      <select id="select-disabled" disabled>
         <option>Select Field</option>
         <option value="1">Option 01</option>
         <option value="2">Option 02</option>
