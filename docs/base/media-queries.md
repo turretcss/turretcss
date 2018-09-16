@@ -11,7 +11,7 @@ Responsive breakpoints are configurable via setting `@custom-media queries`, by 
 ### CSS
 
 ```scss
-@ustom-media --xxl (min-width: 120rem);
+@custom-media --xxl (min-width: 120rem);
 @custom-media --xl-down (max-width: 120rem);
 @custom-media --xl (min-width: 100rem) and (max-width: 120rem);
 @custom-media --xl-up (min-width: 100rem);
