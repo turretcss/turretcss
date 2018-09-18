@@ -112,11 +112,11 @@
  * Utility
  */
 
-@import './utility/background-color';
 @import './utility/background';
-@import './utility/border-color';
+@import './utility/background-color';
 @import './utility/border-radius';
 @import './utility/border';
+@import './utility/border-color';
 @import './utility/box-shadow';
 @import './utility/color';
 @import './utility/display';
