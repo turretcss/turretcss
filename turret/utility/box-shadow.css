@@ -25,3 +25,7 @@
 .box-shadow-xxs {
   box-shadow: var(--box-shadow-xxs);
 }
+
+.box-shadow {
+  box-shadow: var(--box-shadow);
+}

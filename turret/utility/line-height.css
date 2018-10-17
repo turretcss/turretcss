@@ -29,3 +29,7 @@
 .line-height-xxs {
   line-height: var(--line-height-xxs);
 }
+
+.line-height {
+  line-height: var(--line-height);
+}

@@ -13,6 +13,7 @@ description: ""
 <p class="letter-spacing-s">Letter Spacing S</p>
 <p class="letter-spacing-xs">Letter Spacing XS</p>
 <p class="letter-spacing-xxs">Letter Spacing XXS</p>
+<p class="letter-spacing">Letter Spacing</p>
 
 ### CSS
 

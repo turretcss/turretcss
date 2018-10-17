@@ -25,3 +25,7 @@
 .letter-spacing-xxs {
   letter-spacing: var(--letter-spacing-xxs);
 }
+
+.letter-spacing {
+  letter-spacing: var(--letter-spacing);
+}

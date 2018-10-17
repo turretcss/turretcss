@@ -14,6 +14,7 @@ description: ""
 <p class="line-height-xs">Line Height XS</p>
 <p class="line-height-xxs">Line Height XXS</p>
 <p class="line-height-1">Line Height 1</p>
+<p class="line-height">Line Height</p>
 
 ```html
 <p class="line-height-xxl">...</p>
@@ -24,4 +25,5 @@ description: ""
 <p class="line-height-xs">...</p>
 <p class="line-height-xxs">...</p>
 <p class="line-height-1">...</p>
+<p class="line-height">...</p>
 ```

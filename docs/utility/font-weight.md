@@ -13,6 +13,7 @@ description: ""
 <p class="font-weight-semibold">Font Weight Semibold</p>
 <p class="font-weight-bold">Font Weight Bold</p>
 <p class="font-weight-black">Font Weight Black</p>
+<p class="font-weight">Font Weight</p>
 
 ```html
 <p class="font-weight-thin">...</p>
@@ -22,4 +23,5 @@ description: ""
 <p class="font-weight-semibold">...</p>
 <p class="font-weight-bold">...</p>
 <p class="font-weight-black">...</p>
+<p class="font-weight">...</p>
 ```

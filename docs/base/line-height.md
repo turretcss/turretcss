@@ -13,6 +13,7 @@ description: ""
 <p class="line-height-s">Line Height S</p>
 <p class="line-height-xs">Line Height XS</p>
 <p class="line-height-xxs">Line Height XXS</p>
+<p class="line-height">Line Height</p>
 
 ### CSS
 

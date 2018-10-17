@@ -25,3 +25,7 @@
 .font-weight-black {
   font-weight: var(--font-weight-black);
 }
+
+.font-weight {
+  font-weight: var(--font-weight);
+}

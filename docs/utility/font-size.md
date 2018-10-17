@@ -25,6 +25,7 @@ description: ""
 <p class="font-size-s">Font Size S</p>
 <p class="font-size-xs">Font Size XS</p>
 <p class="font-size-xxs">Font Size XXS</p>
+<p class="font-size">Font Size</p>
 
 ```html
 <p class="font-size-xxl">...</p>
@@ -34,4 +35,5 @@ description: ""
 <p class="font-size-s">...</p>
 <p class="font-size-xs">...</p>
 <p class="font-size-xxs">...</p>
+<p class="font-size">...</p>
 ```

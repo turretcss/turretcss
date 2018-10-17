@@ -13,6 +13,7 @@ description: ""
 <p class="letter-spacing-s">Letter Spacing S</p>
 <p class="letter-spacing-xs">Letter Spacing XS</p>
 <p class="letter-spacing-xxs">Letter Spacing XXS</p>
+<p class="letter-spacing">Letter Spacing</p>
 
 ```html
 <p class="letter-spacing-xxl">...</p>
@@ -22,4 +23,5 @@ description: ""
 <p class="letter-spacing-s">...</p>
 <p class="letter-spacing-xs">...</p>
 <p class="letter-spacing-xxs">...</p>
+<p class="letter-spacing">...</p>
 ```
