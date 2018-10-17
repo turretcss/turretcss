@@ -197,7 +197,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xl</code></td>
+        <td><code>.visible-xxl</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -390,7 +390,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xl</code></td>
+        <td><code>.hidden-xxl</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
