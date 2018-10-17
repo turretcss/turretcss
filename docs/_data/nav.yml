@@ -205,8 +205,12 @@
       url: /utility/stroke
     - title: Space
       url: /utility/space
-    - title: Text
-      url: /utility/text
+    - title: Text Align
+      url: /utility/text-align
+    - title: Text Transform
+      url: /utility/text-transform
+    - title: Truncate
+      url: /utility/truncate
     - title: Color
       url: /utility/color
     - title: Background

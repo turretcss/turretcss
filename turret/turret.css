@@ -137,7 +137,9 @@
 @import './utility/position';
 @import './utility/space';
 @import './utility/stroke';
-@import './utility/text';
+@import './utility/text-align';
+@import './utility/text-transform';
+@import './utility/truncate';
 @import './utility/transition';
 @import './utility/utility';
 @import './utility/visibility';
