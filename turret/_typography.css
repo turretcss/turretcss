@@ -85,9 +85,20 @@
   --lead-margin: 0.5em 0 1em 0;
   --lead-font-family: inherit;
   --lead-font-weight: inherit;
-  --lead-font-size: var(--font-size-xl);
+  --lead-font-size: 1.5rem;
   --lead-color: inherit;
   --lead-line-height: var(--line-height-m);
+
+  /** 
+   * Lead Sizes
+   */
+
+  --lead-xxl-font-size: 3rem;
+  --lead-xl-font-size: 2.5rem;
+  --lead-l-font-size: 2rem;
+  --lead-s-font-size: 1.5rem;
+  --lead-xs-font-size: 1.25rem;
+  --lead-xxs-font-size: 1rem;
 
   /**
    * Paragraph
