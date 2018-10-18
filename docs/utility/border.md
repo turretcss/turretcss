@@ -12,6 +12,10 @@ description: ""
 <div class="border">...</div>
 ```
 
+| Class       | Description                                                                 |
+| ----------- | --------------------------------------------------------------------------- |
+| `no-border` | Removes border. **Note:** !important is used to override specificity issues |
+
 ## Border Directions
 
 <div class="padding-xs margin-bottom-xs border-vertical">Vertical</div>
