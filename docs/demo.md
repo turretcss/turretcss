@@ -229,7 +229,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 
 ### Lead
 
-<p class="lead">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p class="lead lead-xxl">Lead XXL</p>
+<p class="lead lead-xl">Lead XL</p>
+<p class="lead lead-l">Lead L</p>
+<p class="lead">Lead M</p>
+<p class="lead lead-s">Lead S</p>
+<p class="lead lead-xs">Lead XS</p>
+<p class="lead lead-xxs">Lead XXS</p>
 
 ### Paragraph
 

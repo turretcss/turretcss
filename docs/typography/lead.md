@@ -17,7 +17,7 @@ description: ""
 ### CSS
 
 ```scss
---lead-margin: 0.5em 0 1em 0;
+--lead-margin: 0.25em 0;
 --lead-font-family: inherit;
 --lead-font-weight: inherit;
 --lead-font-size: var(--font-size-xl);
