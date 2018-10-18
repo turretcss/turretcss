@@ -3,23 +3,23 @@
    * Media Queries
    */
 
-  @custom-media --xxl (min-width: 120rem);
-  @custom-media --xl-down (max-width: 120rem);
-  @custom-media --xl (min-width: 100rem) and (max-width: 120rem);
-  @custom-media --xl-up (min-width: 100rem);
-  @custom-media --l-down (max-width: 100rem);
-  @custom-media --l (min-width: 80rem) and (max-width: 100rem);
-  @custom-media --l-up (min-width: 80rem);
-  @custom-media --m-down (max-width: 80rem);
-  @custom-media --m (min-width: 60rem) and (max-width: 1279px);
-  @custom-media --m-up (min-width: 60rem);
-  @custom-media --s-down (max-width: 60rem);
-  @custom-media --s (min-width: 40rem) and (max-width: 60rem);
-  @custom-media --s-up (min-width: 40rem);
-  @custom-media --xs-down (max-width: 40rem);
-  @custom-media --xs (min-width: 20rem) and (max-width: 40rem);
-  @custom-media --xs-up (min-width: 20rem);
-  @custom-media --xxs (max-width: 20rem);
+  @custom-media --xxl (min-width: 1920px);
+  @custom-media --xl-down (max-width: 1919px);
+  @custom-media --xl (min-width: 1680px) and (max-width: 1919px);
+  @custom-media --xl-up (min-width: 1680px);
+  @custom-media --l-down (max-width: 1679px);
+  @custom-media --l (min-width: 1280px) and (max-width: 1679px);
+  @custom-media --l-up (min-width: 1280px);
+  @custom-media --m-down (max-width: 1279px);
+  @custom-media --m (min-width: 960px) and (max-width: 1279px);
+  @custom-media --m-up (min-width: 960px);
+  @custom-media --s-down (max-width: 959px);
+  @custom-media --s (min-width: 640px) and (max-width: 959px);
+  @custom-media --s-up (min-width: 640px);
+  @custom-media --xs-down (max-width: 639px);
+  @custom-media --xs (min-width: 320px) and (max-width: 639px);
+  @custom-media --xs-up (min-width: 320px);
+  @custom-media --xxs (max-width: 320px);
 
   /**
    * Root
