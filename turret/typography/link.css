@@ -1,11 +1,13 @@
 a {
   color: var(--link-color);
   text-decoration: var(--link-text-decoration);
+  text-decoration-skip: var(--link-text-decoration-skip);
   transition: color var(--speed-fast) ease-in-out, background var(--speed-fast) ease-in-out, border var(--speed-fast) ease-in-out;
 
   &:hover,
   &:focus {
     color: var(--link-hover-color);
     text-decoration: var(--link-hover-text-decoration);
+    text-decoration-skip: var(--link-hover-text-decoration-skip);
   }
 }
