@@ -37,22 +37,6 @@
   height: 100%;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
 .pointer {
   cursor: pointer;
-}
-
-.no-border {
-  border: none !important;
 }

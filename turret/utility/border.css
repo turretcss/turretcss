@@ -1,3 +1,7 @@
+.no-border {
+  border: none !important;
+}
+
 .border {
   border-width: var(--border-width);
   border-style: var(--border-style);
