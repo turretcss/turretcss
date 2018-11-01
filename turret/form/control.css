@@ -160,7 +160,13 @@
   flex: 1 1 auto;
   display: block;
   margin: var(--control-label-margin);
+  font-family: var(--control-label-font-family);
+  font-weight: var(--control-label-font-weight);
+  font-size: var(--control-label-font-size);
   color: var(--control-label-color);
+  line-height: var(--control-label-line-height);
+  text-transform: var(--control-label-text-transform);
+  letter-spacing: var(--control-label-letter-spacing);
   transition: all var(--speed) ease-in-out;
 }
 

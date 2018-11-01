@@ -76,8 +76,14 @@ description: ""
 --control-indicator-border-color: var(--input-border-color);
 --control-indicator-box-shadow: var(--input-box-shadow);
 
---control-label-margin: 0 0 0 1rem;
+--control-label-margin: 0 0 0 0.75em;
+--control-label-font-family: inherit;
+--control-label-font-weight: inherit;
+--control-label-font-size: var(--font-size-s);
 --control-label-color: inherit;
+--control-label-line-height: var(--line-height-m);
+--control-label-text-transform: none;
+--control-label-letter-spacing: var(--letter-spacing);
 
 --control-inline-margin-right: 2rem;
 ```
