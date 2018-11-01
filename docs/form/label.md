@@ -19,10 +19,12 @@ description: ""
 ### CSS
 
 ```scss
---label-margin: 1rem 0;
+--label-margin: 0.5em 0;
 --label-font-family: inherit;
 --label-font-weight: inherit;
 --label-font-size: var(--font-size-s);
 --label-color: inherit;
 --label-line-height: var(--line-height-m);
+--label-text-transform: none;
+--label-letter-spacing: var(--letter-spacing);
 ```

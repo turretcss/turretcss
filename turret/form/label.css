@@ -6,4 +6,6 @@ label {
   font-size: var(--label-font-size);
   color: var(--label-color);
   line-height: var(--label-line-height);
+  text-transform: var(--label-text-transform);
+  letter-spacing: var(--label-letter-spacing);
 }
