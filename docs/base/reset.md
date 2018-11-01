@@ -42,7 +42,7 @@ body {
 
 ### Margin Resets
 
-turretcss resets vertical margins for nested HTML typography and form elements. This aims to make container element (`<div>`, `<section>`, etc.) margins more predictable, this affects the first and last children of nested heading elements (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`), typography elements (`p`, `dl`, `dd`, `dt`, `ul li`, `ol li`, `blockquote`, `cite`), and form elements (`.field`, `fieldset`, `label`, `input`, `textarea`, `.select`, and `.control`).
+turretcss resets vertical margins for nested HTML typography and form elements. This aims to make container element (`<div>`, `<section>`, etc.) margins more predictable, this affects the first and last children of nested heading elements (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`), typography elements (`hr`, `p`, `dl`, `dd`, `dt`, `ul li`, `ol li`, `blockquote`, `cite`), and form elements (`.field`, `fieldset`, `label`, `input`, `textarea`, `.select`, and `.control`).
 
 ```scss
 selectors {
