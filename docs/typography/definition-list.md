@@ -52,6 +52,7 @@ description: ""
 --definition-term-font-weight: var(--headings-font-weight);
 --definition-term-font-size: inherit;
 --definition-term-color: var(--headings-color);
+--definition-term-line-height: var(--headings-line-height);
 ```
 
 ## Defintition Description
@@ -74,4 +75,5 @@ description: ""
 --definition-description-font-weight: var(--paragraph-font-weight);
 --definition-description-font-size: inherit;
 --definition-description-color: var(--paragraph-color);
+--definition-description-line-height: var(--paragraph-line-height);
 ```

@@ -10,6 +10,7 @@ dt {
   font-weight: var(--definition-term-font-weight);
   font-size: var(--definition-term-font-size);
   color: var(--definition-term-color);
+  line-height: var(--definition-term-line-height);
 }
 
 dd {
@@ -18,4 +19,5 @@ dd {
   font-weight: var(--definition-description-font-weight);
   font-size: var(--definition-description-font-size);
   color: var(--definition-description-color);
+  line-height: var(--definition-description-line-height);
 }
