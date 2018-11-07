@@ -12,8 +12,8 @@ ol {
     margin: var(--list-item-margin);
     padding: var(--list-item-padding);
 
-    & ul,
-    & ol {
+    & > ul,
+    & > ol {
       margin: var(--child-list-margin);
       padding: var(--child-list-padding);
 
