@@ -1,4 +1,5 @@
 .icon,
+.icon > svg,
 svg.icon {
   display: inline-block;
   width: var(--icon-size);
@@ -6,6 +7,7 @@ svg.icon {
 }
 
 .icon-xxl,
+.icon-xxl > svg,
 svg.icon-xxl {
   display: inline-block;
   width: var(--icon-xxl-size);
@@ -13,6 +15,7 @@ svg.icon-xxl {
 }
 
 .icon-xl,
+.icon-xl > svg,
 svg.icon-xl {
   display: inline-block;
   width: var(--icon-xl-size);
@@ -20,6 +23,7 @@ svg.icon-xl {
 }
 
 .icon-l,
+.icon-l > svg,
 svg.icon-l {
   display: inline-block;
   width: var(--icon-l-size);
@@ -27,6 +31,7 @@ svg.icon-l {
 }
 
 .icon-m,
+.icon-m > svg,
 svg.icon-m {
   display: inline-block;
   width: var(--icon-m-size);
@@ -34,6 +39,7 @@ svg.icon-m {
 }
 
 .icon-s,
+.icon-s > svg,
 svg.icon-s {
   display: inline-block;
   width: var(--icon-s-size);
@@ -41,6 +47,7 @@ svg.icon-s {
 }
 
 .icon-xs,
+.icon-xs > svg,
 svg.icon-xs {
   display: inline-block;
   width: var(--icon-xs-size);
@@ -48,6 +55,7 @@ svg.icon-xs {
 }
 
 .icon-xxs,
+.icon-xxs > svg,
 svg.icon-xxs {
   display: inline-block;
   width: var(--icon-xxs-size);
