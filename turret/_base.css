@@ -42,13 +42,13 @@
    * Icon
    */
 
-  --icon-xxl-size: 2.25rem;
-  --icon-xl-size: 2rem;
-  --icon-l-size: 1.75rem;
-  --icon-m-size: 1.5rem;
-  --icon-s-size: 1.25rem;
-  --icon-xs-size: 1rem;
-  --icon-xxs-size: 0.75rem;
+  --icon-xxl-size: 6rem;
+  --icon-xl-size: 5rem;
+  --icon-l-size: 4rem;
+  --icon-m-size: 3rem;
+  --icon-s-size: 2rem;
+  --icon-xs-size: 1.5rem;
+  --icon-xxs-size: 1rem;
   --icon-size: var(--icon-m-size);
 
   /**
