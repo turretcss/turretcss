@@ -21,7 +21,7 @@ description: ""
 | `flex-nowrap`                   | Applies `flex-wrap: nowrap;` to element                                       |
 | `flex-row`                      | Applies `flex-direction: row;` to element                                     |
 | `flex-column`                   | Applies `flex-direction: column;` to element                                  |
-| `flex-1`                        | Applies `flex: 1 1 0;` to element                                             |
+| `flex-1`                        | Applies `flex: 1 1 0px;` to element (Note: `0px` used for IE support)         |
 | `flex-auto`                     | Applies `flex: auto;` to element. Equal to `flex: 1 1 auto;` as per the spec. |
 | `flex-none`                     | Applies `flex: none;` to element. Equal to `flex: 0 0 auto;` as per the spec. |
 | `flex-1-1-auto`                 | Applies `flex: 1 1 auto;` to element                                          |
