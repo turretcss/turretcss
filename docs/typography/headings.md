@@ -27,7 +27,7 @@ description: ""
 ### CSS
 
 ```scss
---headings-margin: 2em 0 1em 0;
+--headings-margin: 1em 0 0.5em 0;
 --headings-font-family: inherit;
 --headings-font-weight: var(--font-weight-bold);
 --headings-color: inherit;

@@ -20,7 +20,7 @@ description: ""
 --lead-margin: 0.25em 0;
 --lead-font-family: inherit;
 --lead-font-weight: inherit;
---lead-font-size: 1.5rem;
+--lead-font-size: 1.375rem;
 --lead-color: inherit;
 --lead-line-height: var(--line-height-m);
 ```
@@ -50,9 +50,9 @@ description: ""
 ### CSS
 
 ```scss
---lead-xxl-font-size: 2rem;
---lead-xl-font-size: 1.875rem;
---lead-l-font-size: 1.75rem;
+--lead-xxl-font-size: 1.75rem;
+--lead-xl-font-size: 1.625rem;
+--lead-l-font-size: 1.5rem;
 --lead-s-font-size: 1.25rem;
 --lead-xs-font-size: 1.125rem;
 --lead-xxs-font-size: 1rem;

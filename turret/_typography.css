@@ -3,7 +3,7 @@
    * Headings
    */
 
-  --headings-margin: 2em 0 1em 0;
+  --headings-margin: 1em 0 0.5em 0;
   --headings-font-family: inherit;
   --headings-font-weight: var(--font-weight-bold);
   --headings-color: inherit;
@@ -38,7 +38,7 @@
   --display-title-margin: 0;
   --display-title-font-family: var(--headings-font-family);
   --display-title-font-weight: var(--headings-font-weight);
-  --display-title-font-size: 1.5rem;
+  --display-title-font-size: 1.375rem;
   --display-title-color: inherit;
   --display-title-line-height: var(--line-height-xxs);
   --display-title-letter-spacing: 0;
@@ -48,9 +48,9 @@
    * Display Title Sizes
    */
 
-  --display-title-xxl-font-size: 2rem;
-  --display-title-xl-font-size: 1.875rem;
-  --display-title-l-font-size: 1.75rem;
+  --display-title-xxl-font-size: 1.75rem;
+  --display-title-xl-font-size: 1.625rem;
+  --display-title-l-font-size: 1.5rem;
   --display-title-s-font-size: 1.25rem;
   --display-title-xs-font-size: 1.125rem;
   --display-title-xxs-font-size: 1rem;
@@ -86,7 +86,7 @@
   --lead-margin: 0.25em 0;
   --lead-font-family: inherit;
   --lead-font-weight: inherit;
-  --lead-font-size: 1.5rem;
+  --lead-font-size: 1.375rem;
   --lead-color: inherit;
   --lead-line-height: var(--line-height-m);
 
@@ -94,9 +94,9 @@
    * Lead Sizes
    */
 
-  --lead-xxl-font-size: 2rem;
-  --lead-xl-font-size: 1.875rem;
-  --lead-l-font-size: 1.75rem;
+  --lead-xxl-font-size: 1.75rem;
+  --lead-xl-font-size: 1.625rem;
+  --lead-l-font-size: 1.5rem;
   --lead-s-font-size: 1.25rem;
   --lead-xs-font-size: 1.125rem;
   --lead-xxs-font-size: 1rem;

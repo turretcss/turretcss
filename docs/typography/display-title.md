@@ -20,7 +20,7 @@ description: ""
 --display-title-margin: 0;
 --display-title-font-family: var(--headings-font-family);
 --display-title-font-weight: var(--headings-font-weight);
---display-title-font-size: 1.5rem;
+--display-title-font-size: 1.375rem;
 --display-title-color: inherit;
 --display-title-line-height: var(--line-height-xxs);
 --display-title-letter-spacing: 0;
@@ -52,9 +52,9 @@ description: ""
 ### CSS
 
 ```scss
---display-title-xxl-font-size: 2rem;
---display-title-xl-font-size: 1.875rem;
---display-title-l-font-size: 1.75rem;
+--display-title-xxl-font-size: 1.75rem;
+--display-title-xl-font-size: 1.625rem;
+--display-title-l-font-size: 1.5rem;
 --display-title-s-font-size: 1.25rem;
 --display-title-xs-font-size: 1.125rem;
 --display-title-xxs-font-size: 1rem;
