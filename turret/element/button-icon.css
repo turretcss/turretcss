@@ -12,8 +12,8 @@
 
   & svg {
     display: inline-block;
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: var(--button-icon-size);
+    height: var(--button-icon-size);
     vertical-align: middle;
 
     &:not(:first-child) {
@@ -26,12 +26,27 @@
   }
 }
 
+a.button-icon {
+  display: inline-flex;
+  align-items: center;
+
+  & span,
+  & svg {
+    flex: none;
+  }
+}
+
 .button-xxs.button-icon {
   padding-top: var(--button-icon-xxs-padding);
   padding-bottom: var(--button-icon-xxs-padding);
 
   &.button-square {
     padding: var(--button-icon-xxs-padding);
+  }
+
+  & svg {
+    width: var(--button-icon-xxs-size);
+    height: var(--button-icon-xxs-size);
   }
 }
 
@@ -42,6 +57,11 @@
   &.button-square {
     padding: var(--button-icon-xs-padding);
   }
+
+  & svg {
+    width: var(--button-icon-xs-size);
+    height: var(--button-icon-xs-size);
+  }
 }
 
 .button-s.button-icon {
@@ -50,6 +70,11 @@
 
   &.button-square {
     padding: var(--button-icon-s-padding);
+  }
+
+  & svg {
+    width: var(--button-icon-s-size);
+    height: var(--button-icon-s-size);
   }
 }
 
@@ -60,6 +85,11 @@
   &.button-square {
     padding: var(--button-icon-l-padding);
   }
+
+  & svg {
+    width: var(--button-icon-l-size);
+    height: var(--button-icon-l-size);
+  }
 }
 
 .button-xl.button-icon {
@@ -69,6 +99,11 @@
   &.button-square {
     padding: var(--button-icon-xl-padding);
   }
+
+  & svg {
+    width: var(--button-icon-xl-size);
+    height: var(--button-icon-xl-size);
+  }
 }
 
 .button-xxl.button-icon {
@@ -77,5 +112,10 @@
 
   &.button-square {
     padding: var(--button-icon-xxl-padding);
+  }
+
+  & svg {
+    width: var(--button-icon-xxl-size);
+    height: var(--button-icon-xxl-size);
   }
 }
