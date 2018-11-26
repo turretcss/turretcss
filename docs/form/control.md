@@ -55,7 +55,9 @@ description: ""
 --control-font-weight: var(--input-font-weight);
 --control-font-size: var(--input-font-size);
 --control-color: var(--input-color);
---control-line-height: var(--input-line-height);
+--control-line-height: var(--line-height-xs);
+--control-text-transform: none;
+--control-letter-spacing: var(--letter-spacing);
 
 --control-hover-indicator-background: var(--input-hover-background);
 --control-hover-indicator-border-color: var(--input-hover-border-color);
@@ -69,7 +71,7 @@ description: ""
 --control-checked-indicator-border: var(--control-indicator-border-width) var(--control-indicator-border-style) var(--control-checked-indicator-background);
 --control-checked-label-color: var(--control-label-color);
 
---control-indicator-size: 1.5rem;
+--control-indicator-size: 1.375rem;
 --control-indicator-background: var(--input-background);
 --control-indicator-border-width: var(--input-border-width);
 --control-indicator-border-style: var(--input-border-style);
@@ -77,13 +79,7 @@ description: ""
 --control-indicator-box-shadow: var(--input-box-shadow);
 
 --control-label-margin: 0 0 0 0.75em;
---control-label-font-family: inherit;
---control-label-font-weight: inherit;
---control-label-font-size: var(--font-size-s);
 --control-label-color: inherit;
---control-label-line-height: var(--line-height-m);
---control-label-text-transform: none;
---control-label-letter-spacing: var(--letter-spacing);
 
 --control-inline-margin-right: 2rem;
 ```
