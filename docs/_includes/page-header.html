@@ -1,16 +1,16 @@
-<section class="background-primary padding-vertical-xl">
+<section class="padding-vertical-xl background-primary color-white">
   <div class="container">
 
     {% if page.title %}
-      <h1 class="display-title color-white">{{ page.title }}</h1>
+      <h1 class="display-title display-title-xxl">{{ page.title }}</h1>
     {% endif %}
 
     {% if page.description %}
-      <p class="lead color-white max-width-m">{{ page.description }}</p>
+      <p class="lead max-width-m">{{ page.description }}</p>
     {% endif %}
 
     {% if page.date %}
-      <p class="color-white max-width-m">
+      <p class="max-width-m">
         <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
       </p>
     {% endif %}

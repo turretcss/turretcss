@@ -196,6 +196,32 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="padding-s margin-xs box-shadow-xs">Box Shadow XS</div>
 <div class="padding-s margin-xs box-shadow-xxs">Box Shadow XXS</div>
 
+## Icons
+
+<div>
+  <svg class="icon-xxl" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-xl" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-l" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-m" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-s" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-xs" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+  <svg class="icon-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8"/>
+  </svg>
+</div>
+
 ## Typography
 
 ### Headings
