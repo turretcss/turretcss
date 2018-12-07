@@ -12,7 +12,14 @@
     {% endif %}
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/icons/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="{{ site.baseurl }}/assets/icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicon/safari-pinned-tab.svg" color="#195fe6">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#195fe6">
+  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="{{ site.baseurl }}/dist/docs.css">
 </head>
