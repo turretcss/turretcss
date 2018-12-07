@@ -17,7 +17,7 @@ description: ""
     <input class="input-l" type="text" placeholder="Input L">
   </div>
   <div class="field">
-    <input type="text" placeholder="Input Medium">
+    <input type="text" placeholder="Input M">
   </div>
   <div class="field">
     <input class="input-s" type="text" placeholder="Input S">
