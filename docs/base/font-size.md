@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Font Size
-description: ""
+description: null
 ---
 
 ## Example

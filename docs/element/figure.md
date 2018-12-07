@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Figure
-description: ""
+description: null
 ---
 
 ## Example

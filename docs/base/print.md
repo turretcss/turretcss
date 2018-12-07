@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Print
-description: ""
+description: null
 ---
 
 ## About

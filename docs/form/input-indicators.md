@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Input Indicators
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Min Height
-description: ""
+description: null
 ---
 
 | Class              | Description                          |

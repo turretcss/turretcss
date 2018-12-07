@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Support
-description: ""
+description: null
 ---
 
 ## Browsers

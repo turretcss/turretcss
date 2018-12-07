@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Horizontal Rule
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Text Decoration
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Letter Spacing
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Select Indicators
-description: ""
+description: null
 ---
 
 ## Example

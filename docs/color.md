@@ -2,7 +2,7 @@
 layout: docs
 title: Color
 page_title: ""
-description: ""
+description: null
 ---
 
 ## All

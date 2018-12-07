@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Max Width
-description: ""
+description: null
 ---
 
 ## Example

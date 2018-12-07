@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Border Color
-description: ""
+description: null
 ---
 
 ## Border Color

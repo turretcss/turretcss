@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Body
-description: ""
+description: null
 ---
 
 ## About

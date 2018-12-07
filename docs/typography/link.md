@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Link
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Space
-description: ""
+description: null
 ---
 
 ## Example

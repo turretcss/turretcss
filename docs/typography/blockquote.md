@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Blockquote
-description: ""
+description: null
 ---
 
 ## Example

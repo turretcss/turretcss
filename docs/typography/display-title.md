@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Display Title
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Truncate
-description: ""
+description: null
 ---
 
 ## Example

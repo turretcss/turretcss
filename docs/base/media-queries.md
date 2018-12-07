@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Media Queries
-description: ""
+description: null
 ---
 
 ## About

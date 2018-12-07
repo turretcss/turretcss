@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Progress
-description: ""
+description: null
 ---
 
 ## Example

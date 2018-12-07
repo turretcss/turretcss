@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Icon Sizes
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Label
-description: ""
+description: null
 ---
 
 ## Example

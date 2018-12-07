@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Spinner
-description: ""
+description: null
 ---
 
 ## About

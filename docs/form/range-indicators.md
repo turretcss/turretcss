@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Range Indicators
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Progress Sizes
-description: ""
+description: null
 ---
 
 ## Example

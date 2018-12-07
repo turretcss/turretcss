@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Accessibility
-description: ""
+description: null
 ---
 
 ## Screen Reader

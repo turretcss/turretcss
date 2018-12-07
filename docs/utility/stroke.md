@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Stroke
-description: ""
+description: null
 ---
 
 | Class                  | Description                                |

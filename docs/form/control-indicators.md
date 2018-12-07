@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Control Indicators
-description: ""
+description: null
 ---
 
 ## Checkbox

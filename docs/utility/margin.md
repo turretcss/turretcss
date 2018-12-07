@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Margin
-description: ""
+description: null
 ---
 
 | Class        | Description                                    |

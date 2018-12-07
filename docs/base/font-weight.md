@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Font Weight
-description: ""
+description: null
 ---
 
 ## Example

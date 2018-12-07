@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Emphasis
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Control
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Color
-description: ""
+description: null
 ---
 
 ## Color

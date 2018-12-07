@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Padding
-description: ""
+description: null
 ---
 
 | Class         | Description                                     |

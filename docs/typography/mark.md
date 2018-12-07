@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Mark
-description: ""
+description: null
 ---
 
 ## Example

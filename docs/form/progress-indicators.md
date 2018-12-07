@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Progress Indicators
-description: ""
+description: null
 ---
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Spinner Sizes
-description: ""
+description: null
 ---
 
 ## About

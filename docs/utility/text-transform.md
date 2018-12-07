@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Text Transform
-description: ""
+description: null
 ---
 
 ## Example

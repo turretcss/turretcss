@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Select
-description: ""
+description: null
 ---
 
 ## Example

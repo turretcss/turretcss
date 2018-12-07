@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Border Radius
-description: ""
+description: null
 ---
 
 ## Border Radius

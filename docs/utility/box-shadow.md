@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Box Shadow
-description: ""
+description: null
 ---
 
 ## Box Shadow

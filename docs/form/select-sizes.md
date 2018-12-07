@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Select Sizes
-description: ""
+description: null
 ---
 
 ## Example

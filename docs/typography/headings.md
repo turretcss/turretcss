@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Headings
-description: ""
+description: null
 ---
 
 ## Example

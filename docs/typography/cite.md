@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Cite
-description: ""
+description: null
 ---
 
 ## Example
