@@ -26,7 +26,7 @@ description: ""
 
 ```scss
 --button-icon-size: 1.5rem;
---button-icon-margin: calc(var(--button-padding-horizontal) / 2);
+--button-icon-margin: calc(var(--button-padding-horizontal) / 1.5);
 --button-icon-padding: calc((var(--button-height) - var(--button-icon-size) - (var(--button-border-width) * 2)) / 2);
 ```
 
