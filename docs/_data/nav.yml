@@ -205,6 +205,8 @@
       url: /utility/space
     - title: Text Align
       url: /utility/text-align
+    - title: Text Decoration
+      url: /utility/text-decoration
     - title: Text Transform
       url: /utility/text-transform
     - title: Truncate

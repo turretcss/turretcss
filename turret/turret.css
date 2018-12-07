@@ -139,6 +139,7 @@
 @import './utility/space';
 @import './utility/stroke';
 @import './utility/text-align';
+@import './utility/text-decoration';
 @import './utility/text-transform';
 @import './utility/truncate';
 @import './utility/transition';
