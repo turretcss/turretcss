@@ -1,8 +1,6 @@
 - title: Getting Started
   url: /getting-started
   children:
-    - title: Quick start
-      url: /getting-started/quick-start
     - title: Usage
       url: /getting-started/usage
     - title: Support
