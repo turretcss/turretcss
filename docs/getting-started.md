@@ -42,17 +42,32 @@ turretcss makes use of HTML5 elements and CSS properties that require the use of
 
 The turretcss-boilerplate is a basic boilerplate using [turretcss][turretcss], [PostCSS][postcss], [PostCSS CLI][postcss cli], [postcss-preset-env][postcss-preset-env], and [CSSNano][cssnano].
 
-<p>
-  <a class="button" href="https://github.com/turretcss/turretcss-boilerplate/archive/master.zip">Download from GitHub</a>
-  <a class="button" href="https://github.com/turretcss/turretcss-boilerplate/">View GitHub Repo</a>
-</p>
+<div class="group group-xs">
+  <ul>
+    <li>
+      <a class="button button-icon" href="https://github.com/turretcss/turretcss-boilerplate/">
+        <span>GitHub</span>
+        {% include svg/github.svg %}
+      </a>
+    </li>
+    <li>
+      <a class="button button-icon" href="https://github.com/turretcss/turretcss-boilerplate/archive/master.zip">
+        <span>Download</span>
+        {% include svg/down.svg %}
+      </a>
+    </li>
+  </ul>
+</div>
 
 ## Download
 
 Download the turretcss repo to include ready-to-use CSS code to easily drop into your project. Includes compiled and minified versions of the turretcss CSS.
 
 <p>
-  <a class="button button-primary" href="https://github.com/turretcss/turretcss/archive/master.zip">Download from GitHub</a>
+  <a class="button button-primary button-icon" href="https://github.com/turretcss/turretcss/archive/master.zip">
+    <span>Download</span>
+    {% include svg/down.svg %}
+  </a>
 </p>
 
 ### GitHub
