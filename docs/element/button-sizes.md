@@ -6,14 +6,30 @@ description: null
 
 ## Example
 
-<div>
-  <button class="button button-xxl">Button XXL</button>
-  <button class="button button-xl">Button XL</button>
-  <button class="button button-l">Button L</button>
-  <button class="button">Button M</button>
-  <button class="button button-s">Button S</button>
-  <button class="button button-xs">Button XS</button>
-  <button class="button button-xxs">Button XXS</button>
+<div class="group group-xs">
+  <ul>
+    <li>
+      <button class="button button-xxl">Button XXL</button>
+    </li>
+    <li>
+      <button class="button button-xl">Button XL</button>
+    </li>
+    <li>
+      <button class="button button-l">Button L</button>
+    </li>
+    <li>
+      <button class="button">Button M</button>
+    </li>
+    <li>
+      <button class="button button-s">Button S</button>
+    </li>
+    <li>
+      <button class="button button-xs">Button XS</button>
+    </li>
+    <li>
+      <button class="button button-xxs">Button XXS</button>
+    </li>
+  </ul>
 </div>
 
 ### HTML
@@ -64,14 +80,30 @@ description: null
 
 ## Anchors
 
-<div>
-  <a href="#" class="button button-xxl">Button XXL</a>
-  <a href="#" class="button button-xl">Button XL</a>
-  <a href="#" class="button button-l">Button L</a>
-  <a href="#" class="button">Button M</a>
-  <a href="#" class="button button-s">Button S</a>
-  <a href="#" class="button button-xs">Button XS</a>
-  <a href="#" class="button button-xxs">Button XXS</a>
+<div class="group group-xs">
+  <ul>
+    <li>
+      <a class="button button-xxl">Button XXL</a>
+    </li>
+    <li>
+      <a class="button button-xl">Button XL</a>
+    </li>
+    <li>
+      <a class="button button-l">Button L</a>
+    </li>
+    <li>
+      <a class="button">Button M</a>
+    </li>
+    <li>
+      <a class="button button-s">Button S</a>
+    </li>
+    <li>
+      <a class="button button-xs">Button XS</a>
+    </li>
+    <li>
+      <a class="button button-xxs">Button XXS</a>
+    </li>
+  </ul>
 </div>
 
 ### HTML
