@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: EXAMPLE
+title: Border Radius
 description: ""
 ---
 
