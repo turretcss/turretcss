@@ -9,6 +9,7 @@ h4[id] {
 }
 
 h2[id] {
+  margin-bottom: 1em;
   padding-bottom: 0.35em;
   font-weight: var(--font-weight-light);
   border-bottom: var(--border);
