@@ -1766,13 +1766,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-light"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1782,13 +1782,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-xxl">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxl background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxl background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxl background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1798,13 +1798,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-xl">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xl background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xl background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xl background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1814,13 +1814,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-l">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-l background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-l background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-l background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1830,13 +1830,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-m">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-m background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1846,13 +1846,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-s">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-s background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-s background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-s background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1862,13 +1862,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-xs">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xs background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xs background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xs background-primary"></div>
     </li>
   </ul>
 </div>
@@ -1878,13 +1878,13 @@ description: Demo of all HTML elements with turretcss styles applied.
 <div class="group group-xxs">
   <ul>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxs background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxs background-primary"></div>
     </li>
     <li>
-      <button class="button button-primary">Button</button>
+      <div class="space space-xxs background-primary"></div>
     </li>
   </ul>
 </div>
