@@ -52,10 +52,10 @@ description: ""
 ### CSS
 
 ```scss
---display-title-xxl-font-size: 1.75rem;
---display-title-xl-font-size: 1.625rem;
---display-title-l-font-size: 1.5rem;
---display-title-s-font-size: 1.25rem;
---display-title-xs-font-size: 1.125rem;
---display-title-xxs-font-size: 1rem;
+--display-title-xxl-font-size: calc(var(--display-title-xl-font-size) + 0.125rem);
+--display-title-xl-font-size: calc(var(--display-title-l-font-size) + 0.125rem);
+--display-title-l-font-size: calc(var(--display-title-font-size) + 0.125rem);
+--display-title-s-font-size: calc(var(--display-title-font-size) - 0.125rem);
+--display-title-xs-font-size: calc(var(--display-title-s-font-size) - 0.125rem);
+--display-title-xxs-font-size: calc(var(--display-title-xs-font-size) - 0.125rem);
 ```

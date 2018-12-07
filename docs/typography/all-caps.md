@@ -52,10 +52,10 @@ description: ""
 ### CSS
 
 ```scss
---all-caps-xxl-font-size: 1.25rem;
---all-caps-xl-font-size: 1.125rem;
---all-caps-l-font-size: 1rem;
---all-caps-s-font-size: 0.75rem;
---all-caps-xs-font-size: 0.625rem;
---all-caps-xxs-font-size: 0.5rem;
+--all-caps-xxl-font-size: calc(var(--all-caps-xl-font-size) + 0.0625rem);
+--all-caps-xl-font-size: calc(var(--all-caps-l-font-size) + 0.0625rem);
+--all-caps-l-font-size: calc(var(--all-caps-font-size) + 0.0625rem);
+--all-caps-s-font-size: calc(var(--all-caps-font-size) - 0.0625rem);
+--all-caps-xs-font-size: calc(var(--all-caps-s-font-size) - 0.0625rem);
+--all-caps-xxs-font-size: calc(var(--all-caps-xs-font-size) - 0.0625rem);
 ```

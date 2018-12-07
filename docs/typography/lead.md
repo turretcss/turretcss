@@ -17,12 +17,12 @@ description: ""
 ### CSS
 
 ```scss
---lead-margin: 0.25em 0;
+--lead-margin: 0.5em 0;
 --lead-font-family: inherit;
 --lead-font-weight: inherit;
 --lead-font-size: 1.375rem;
 --lead-color: inherit;
---lead-line-height: var(--line-height-m);
+--lead-line-height: var(--line-height-xs);
 ```
 
 ## Sizes
@@ -50,10 +50,10 @@ description: ""
 ### CSS
 
 ```scss
---lead-xxl-font-size: 1.75rem;
---lead-xl-font-size: 1.625rem;
---lead-l-font-size: 1.5rem;
---lead-s-font-size: 1.25rem;
---lead-xs-font-size: 1.125rem;
---lead-xxs-font-size: 1rem;
+--lead-xxl-font-size: calc(var(--lead-xl-font-size) + 0.125rem);
+--lead-xl-font-size: calc(var(--lead-l-font-size) + 0.125rem);
+--lead-l-font-size: calc(var(--lead-font-size) + 0.125rem);
+--lead-s-font-size: calc(var(--lead-font-size) - 0.125rem);
+--lead-xs-font-size: calc(var(--lead-s-font-size) - 0.125rem);
+--lead-xxs-font-size: calc(var(--lead-xs-font-size) - 0.125rem);
 ```
