@@ -9,10 +9,12 @@
 
   @media (--m-up) {
     left: 0;
+    border-right: var(--border);
   }
 
   @media (--s-down) {
     right: 0;
+    border-left: var(--border);
     transform: translateX(var(--sidebar-width));
     transition: transform 200ms ease-in-out;
   }

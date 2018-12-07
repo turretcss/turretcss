@@ -14,11 +14,3 @@
     display: none;
   }
 }
-
-.header-title {
-  flex: 0 0 auto;
-  margin: 0;
-  color: white;
-  font-size: var(--font-size-l);
-  text-align: center;
-}

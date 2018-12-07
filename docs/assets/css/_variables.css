@@ -3,6 +3,6 @@
    * General
    */
 
-  --header-height: var(--height-m);
-  --sidebar-width: 270px;
+  --header-height: var(--height-l);
+  --sidebar-width: 15rem;
 }

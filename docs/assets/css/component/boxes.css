@@ -1,5 +1,8 @@
 .boxes {
   display: grid;
-  grid-gap: var(--space-m);
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: var(--space-s);
+
+  @media (--s-up) {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
 }

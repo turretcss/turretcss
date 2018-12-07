@@ -29,11 +29,9 @@
 @import './template/body';
 @import './template/main';
 @import './template/header';
-@import './template/hamburger';
 @import './template/sidebar';
 @import './template/navigation';
 @import './template/search';
-@import './template/footer';
 
 /**
  * Component
