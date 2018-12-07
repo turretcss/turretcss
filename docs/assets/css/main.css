@@ -21,6 +21,7 @@
  */
 
 @import './typography/headings';
+@import './typography/divider';
 
 /**
  * Template

@@ -1,0 +1,5 @@
+.divider {
+  margin: var(--space-s) 0 var(--space-m);
+  height: 0.25rem;
+  max-width: 2rem;
+}
