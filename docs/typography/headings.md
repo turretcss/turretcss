@@ -29,7 +29,7 @@ description: null
 ```scss
 --headings-margin: 1em 0 0.5em 0;
 --headings-font-family: inherit;
---headings-font-weight: var(--font-weight-bold);
+--headings-font-weight: var(--font-weight-semibold);
 --headings-color: inherit;
 --headings-line-height: var(--line-height-s);
 --headings-text-transform: none;
