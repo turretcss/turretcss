@@ -350,8 +350,8 @@ description: Demo of all HTML elements with turretcss styles applied.
 ### Field
 
 <div class="field">
-  <label for="input-text">Label</label>
-  <input type="text" id="input-text" placeholder="Text">
+  <label for="input-field">Label</label>
+  <input type="text" id="input-field" placeholder="Text">
 </div>
 
 #### Field Float Label
@@ -812,8 +812,8 @@ description: Demo of all HTML elements with turretcss styles applied.
     </label>
   </div>
   <div class="field">
-    <label class="select" for="select">
-      <select id="select" disabled>
+    <label class="select" for="select-disabled">
+      <select id="select-disabled" disabled>
         <option>Select Field</option>
         <option value="1">Option 01</option>
         <option value="2">Option 02</option>
