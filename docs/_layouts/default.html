@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="background-dark">
+  <body class="{% if page.color %}color-{{ page.color }}{% endif %} {% if page.background %}background-{{ page.background }}{% endif %}">
     {{ content }}
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/docs.js"></script>
     <script>

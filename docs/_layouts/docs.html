@@ -21,7 +21,7 @@ layout: default
   {% include page-header.html %}
   
   {% if content %}
-    <section class="padding-vertical-xxl background-white">
+    <section class="padding-vertical-xxl">
       <div class="container">
         {{ content }}
       </div>
@@ -29,12 +29,12 @@ layout: default
   {% endif %}
   
   {% if items.size > 0 %}
-    <section class="padding-vertical-xxl background-primary color-white">
+    <section class="padding-bottom-xxl">
       <div class="container">
         <h2>Related</h2>
         <div class="boxes margin-top-l">
           {% for item in items %}
-          <div class="flex-justify-center padding-vertical-xxs padding-horizontal-xs border-radius background-white color-dark">
+          <div class="flex-justify-center padding-vertical-xxs padding-horizontal-xs border-radius background-primary color-white">
             <h3 class="flex-auto no-margin font-size-m font-weight-semibold">
               <a class="text-decoration-none" href="{{ item.url }}">{{ item.title }}</a>
             </h3>

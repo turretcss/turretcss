@@ -1,9 +1,12 @@
 ---
 layout: page
 page_title: turretcss - A Responsive Front-end Framework for Accessible and Semantic Websites
+color: white
+background: primary
+border_color: primary-600
 ---
 
-<header class="padding-vertical-xxl color-white background-primary">
+<header class="padding-vertical-xxl">
   <div class="container">
     {% include logo.svg %}
     <h1 class="no-margin display-title display-title-xxl">turretcss</h1>
@@ -31,7 +34,7 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
   </div>
 </header>
 
-<main class="padding-vertical-xxl color-white background-primary border-top border-color-primary-600">
+<main class="padding-vertical-xxl border-top border-color-primary-600">
   <div class="container">
 
     <h2 class="display-title display-title-xxl margin-top-xxl">Principles</h2>
@@ -48,56 +51,83 @@ page_title: turretcss - A Responsive Front-end Framework for Accessible and Sema
     <div class="boxes margin-top-l">
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/simple.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Simple.</h3>
-        <p class="lead color-dark">No Javascript. Just clean, simple, and modern CSS.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Simple.</span>
+          <br>
+          No Javascript. Just clean, simple, and modern CSS.
+        </h3>
         <p class="color-grey">Write clean, simple, and modern HTML & CSS with intuitive size and style utilities with <a href="http://postcss.org/">PostCSS</a> and <a href="https://preset-env.cssdb.org/">postcss-preset-env</a>.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/responsive.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Responsive.</h3>
-        <p class="lead color-dark">Mobile-first, touch designed responsive architecture.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Responsive.</span>
+          <br>
+          Mobile-first, touch designed responsive architecture.
+        </h3>
         <p class="color-grey">Mobile-first block element styles and full viewport breakpoint coverage makes complex responsive web interface development simple.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/predictable.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Predictable.</h3>
-        <p class="lead color-dark">Low specificity. Shallow cascade. Predictable styles.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Predictable.</span>
+          <br>
+          Low specificity. Shallow cascade. Predictable styles.
+        </h3>
         <p class="color-grey">Low specificity and intuitive style inheritance lets you utilise the cascade to style components with consistent options.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/usable.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Usable.</h3>
-        <p class="lead color-dark">Designed for every human hand on any type of screen.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Usable.</span>
+          <br>
+          Designed for every human hand on any type of screen.
+        </h3>
         <p class="color-grey">Usability is at the core with large tap targets for buttons and link, clear indicator palettes for error handling, and a focus on semantic HTML development.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/customisable.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Customisable.</h3>
-        <p class="lead color-dark">Easily editable for branded styles for any project.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Customisable.</span>
+          <br>
+          Easily editable for branded styles for any project.
+        </h3>
         <p class="color-grey">Easily customise styles with a few simple theme variables, or fully customise the look of elements with full control over visual variables.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/extendable.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Extendable.</h3>
-        <p class="lead color-dark">No grid. No layout opinions. No worries.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Extendable.</span>
+          <br>
+          No grid. No layout opinions. No worries.
+        </h3>
         <p class="color-grey">Build custom layouts and interfaces with a solid foundation of typography choices, color options, input types, and full suite of default HTML elements.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/fast.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Fast.</h3>
-        <p class="lead color-dark">Develop CSS quicky. Ship lightweight performant styles.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Fast.</span>
+          <br>
+          Develop CSS quicky. Ship lightweight performant styles.
+        </h3>
         <p class="color-grey">Rapidly develop responsive, performant, and visually custom web interface with minimal property configuration.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/accessible.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Accessible.</h3>
-        <p class="lead color-dark">Semantic HTML elements, simple CSS styles.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Accessible.</span>
+          <br>
+          Semantic HTML elements, simple CSS styles.
+        </h3>
         <p class="color-grey">Use the full range of semantic HTML elements with accessible color combinations, and screen reader utility classes to create accessible web interfaces.</p>
       </div>
       <div class="padding-m border-radius background-white color-primary">
         {% include icon/scalable.svg %}
-        <h3 class="all-caps color-dark margin-top-m">Scalable.</h3>
-        <p class="lead color-dark">Smart viewport scaling variables.</p>
+        <h3 class="color-dark margin-top-m">
+          <span class="all-caps">Scalable.</span>
+          <br>
+          Smart viewport scaling variables.
+        </h3>
         <p class="color-grey">Scale elements larger or smaller with flexible viewport-based calculated variable values. Scale on the fly with consistent size scales for HTML elements and viewports.</p>
       </div>
     </div>
