@@ -1,16 +1,47 @@
 .group {
   & > ul {
-    margin: calc(var(--group-m-space) * -1);
-    padding: 0;
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
     & > li {
-      margin: var(--group-m-space);
+      flex: none;
+      margin: 0;
       padding: 0;
     }
+  }
+}
+
+.group-center {
+  & > ul {
+    justify-content: center;
+  }
+}
+
+.group-space-between {
+  & > ul {
+    justify-content: space-between;
+  }
+}
+
+.group-space-around {
+  & > ul {
+    justify-content: space-around;
+  }
+}
+
+.group-space-evenly {
+  & > ul {
+    justify-content: space-evenly;
+  }
+}
+
+.group-stretch {
+  & > ul > li {
+    flex: 1 1 0px;
   }
 }
 

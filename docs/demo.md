@@ -1761,134 +1761,6 @@ description: Demo of all HTML elements with turretcss styles applied.
   <button class="button">Button</button>
 </div>
 
-### Group
-
-<div class="group">
-  <ul>
-    <li>
-      <div class="space space-m background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-m background-light"></div>
-    </li>
-    <li>
-      <div class="space space-m background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group XXL
-
-<div class="group group-xxl">
-  <ul>
-    <li>
-      <div class="space space-xxl background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xxl background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xxl background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group XL
-
-<div class="group group-xl">
-  <ul>
-    <li>
-      <div class="space space-xl background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xl background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xl background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group L
-
-<div class="group group-l">
-  <ul>
-    <li>
-      <div class="space space-l background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-l background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-l background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group M
-
-<div class="group group-m">
-  <ul>
-    <li>
-      <div class="space space-m background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-m background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-m background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group S
-
-<div class="group group-s">
-  <ul>
-    <li>
-      <div class="space space-s background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-s background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-s background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group XS
-
-<div class="group group-xs">
-  <ul>
-    <li>
-      <div class="space space-xs background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xs background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xs background-primary"></div>
-    </li>
-  </ul>
-</div>
-
-#### Group XXS
-
-<div class="group group-xxs">
-  <ul>
-    <li>
-      <div class="space space-xxs background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xxs background-primary"></div>
-    </li>
-    <li>
-      <div class="space space-xxs background-primary"></div>
-    </li>
-  </ul>
-</div>
-
 ### Figure
 
 <div>
@@ -1900,7 +1772,7 @@ description: Demo of all HTML elements with turretcss styles applied.
 
 ### Spinner
 
-<div class="group">
+<div class="group group-xs">
   <ul>
     <li>
       <div class="space-xxl background-light spinner spinner-xxl"></div>
