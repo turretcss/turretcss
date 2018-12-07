@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2">
-    <path d="M0,32 L64,32"/>
-    <path d="M0,50 L64,50"/>
-    <path d="M0,14 L64,14"/>
+    <path d="M0,32H26"/>
+    <path d="M0,50H10"/>
+    <path d="M0,14H42"/>
+    <path d="M38,32H64"/>
+    <path d="M22,50H64"/>
+    <line x1="54" y1="14" x2="64" y2="14"/>
     <circle cx="16" cy="50" r="6"/>
     <circle cx="32" cy="32" r="6"/>
     <circle cx="48" cy="14" r="6"/>
