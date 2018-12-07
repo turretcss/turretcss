@@ -6,7 +6,7 @@ description: ""
 
 ## Example
 
-<div class="group">
+<div class="group group-xs">
   <ul>
     <li>
       <div class="background-light font-size-xxl space-xxl"></div>

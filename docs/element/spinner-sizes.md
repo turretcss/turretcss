@@ -10,7 +10,7 @@ The `.spinner` class can be added to any element to add a `::before` pseudo elem
 
 ## Example
 
-<div class="group">
+<div class="group group-xs">
   <ul>
     <li>
       <div class="space-xxl background-light spinner spinner-xxl"></div>
