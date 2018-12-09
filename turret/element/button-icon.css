@@ -30,6 +30,11 @@ a.button-icon {
   display: inline-flex;
   align-items: center;
 
+  &.button-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
   & span,
   & svg {
     flex: none;
