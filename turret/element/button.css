@@ -38,6 +38,7 @@ button,
     border-color: var(--button-active-border-color);
     box-shadow: var(--button-active-box-shadow);
   }
+
   &.spinner::before {
     margin-top: -0.5em;
     margin-left: -0.5em;
