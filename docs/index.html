@@ -22,13 +22,13 @@ border_color: primary-600
           </a>
         </li>
         <li>
-          <a class="button button-white button-border button-icon" href="{{ site.repo }}">
+          <a class="button button-white button-border button-icon" href="{{ site.repo }}" target="_blank" rel="noopener noreferrer">
             {% include svg/github.svg %}
             <span>GitHub</span>
           </a>
         </li>
         <li>
-          <a class="button button-white button-border button-icon" href="{{ site.twitter }}">
+          <a class="button button-white button-border button-icon" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">
             {% include svg/twitter.svg %}
             <span>Twitter</span>
           </a>
@@ -38,96 +38,153 @@ border_color: primary-600
   </div>
 </header>
 
-<main class="padding-vertical-xxl border-top border-color-primary-600">
-  <div class="container">
+<main>
 
-    <h2 class="display-title display-title-xxl margin-top-xxl">Principles</h2>
-    <p class="lead margin-vertical-1-2 max-width-s">Simple. Smart. Modern.</p>
-    <p class="lead lead-s margin-vertical-1-2 max-width-s">Designed for speed turretcss is designed to make responsive, accessible, and scalable CSS development simple, and predictable.</p>
-    <nav class="group group-s margin-top-m">
-      <ul>
-        <li>
-          <a class="button button-white button-border button-icon" href="{{ site.baseurl }}/demo/">
-            <span>View Demo</span>
-            {% include svg/right.svg %}
-          </a>
-        </li>
-      </ul>
-    </nav>
-  
-    <div class="boxes margin-top-l">
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/simple.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Simple.</span>
-          <br>
-          No Javascript. Just clean, simple, and modern CSS.
-        </h3>
-        <p class="color-grey">Write clean, simple, and modern HTML & CSS with intuitive size and style utilities with <a href="http://postcss.org/">PostCSS</a> and <a href="https://preset-env.cssdb.org/">postcss-preset-env</a>.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/responsive.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Responsive.</span>
-          <br>
-          Mobile-first, touch designed responsive architecture.
-        </h3>
-        <p class="color-grey">Mobile-first block element styles and full viewport breakpoint coverage makes complex responsive web interface development simple.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/predictable.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Predictable.</span>
-          <br>
-          Low specificity. Shallow cascade. Predictable styles.
-        </h3>
-        <p class="color-grey">Low specificity and intuitive style inheritance lets you utilise the cascade to style components with consistent options.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/usable.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Usable.</span>
-          <br>
-          Designed for every human hand on any type of screen.
-        </h3>
-        <p class="color-grey">Usability is at the core with large tap targets for buttons and link, clear indicator palettes for error handling, and a focus on semantic HTML development.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/customisable.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Customisable.</span>
-          <br>
-          Easily editable for branded styles for any project.
-        </h3>
-        <p class="color-grey">Easily customise styles with a few simple theme variables, or fully customise the look of elements with full control over visual variables.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/extendable.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Extendable.</span>
-          <br>
-          No grid. No layout opinions. No worries.
-        </h3>
-        <p class="color-grey">Build custom layouts and interfaces with a solid foundation of typography choices, color options, input types, and full suite of default HTML elements.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/accessible.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Accessible.</span>
-          <br>
-          Semantic HTML elements, simple CSS styles.
-        </h3>
-        <p class="color-grey">Use the full range of semantic HTML elements with accessible color combinations, and screen reader utility classes to create accessible web interfaces.</p>
-      </div>
-      <div class="padding-m border-radius background-white color-primary">
-        {% include icon/scalable.svg %}
-        <h3 class="color-dark margin-top-m">
-          <span class="all-caps">Scalable.</span>
-          <br>
-          Smart viewport scaling variables.
-        </h3>
-        <p class="color-grey">Scale elements larger or smaller with flexible viewport-based calculated variable values. Scale on the fly with consistent size scales for HTML elements and viewports.</p>
+  <section class="padding-vertical-xxl border-top border-color-primary-600">
+    <div class="container">
+      <h2 class="display-title display-title-xxl margin-top-xxl">New features</h2>
+    <p class="lead lead-s margin-vertical-m max-width-s">Newly added features include: increasing the size scale, adding sizes for display title and lead, generic group styles, and box shadow utility classes.</p>
+      <p>
+        <a class="button button-white button-border button-icon" href="{{ site.repo }}/releases" target="_blank" rel="noopener noreferrer">
+          <span>Release Notes</span>
+          {% include svg/right.svg %}
+        </a>
+      </p>
+      <div class="boxes margin-top-l">
+        <div class="padding-m border-radius background-white color-dark">
+          <h3 class="margin-top-m">More sizes</h3>
+          <p class="color-grey">Introducing xxs, and xxl sizes for responsive breakpoints, form, button, and typographic elements.</p>
+          <p>
+            <a href="{{ site.baseurl }}/element/button-sizes/" class="button button-primary button-icon button-text">
+              <span>Button Sizes</span>
+              {% include svg/right.svg %}
+            </a>
+          </p>
+        </div>
+        <div class="padding-m border-radius background-white color-dark">
+          <h3 class="margin-top-m">Simple grouping</h3>
+          <p class="color-grey">A generic group behaviour to align and space between like items within lists.</p>
+          <p>
+            <a href="{{ site.baseurl }}/base/group/" class="button button-primary button-icon button-text">
+              <span>Groups</span>
+              {% include svg/right.svg %}
+            </a>
+          </p>
+        </div>
+        <div class="padding-m border-radius background-white color-dark">
+          <h3 class="margin-top-m">Box Shadows</h3>
+          <p class="color-grey">Globally set box shadows with size variants to set on any element easily with utility classes.</p>
+          <p>
+            <a href="{{ site.baseurl }}/utility/box-shadow/" class="button button-primary button-icon button-text">
+              <span>Box Shadows</span>
+              {% include svg/right.svg %}
+            </a>
+          </p>
+        </div>
+        <div class="padding-m border-radius background-white color-dark">
+          <h3 class="margin-top-m">Updated dependencies</h3>
+          <p class="color-grey">PostCSS with postcss-preset-env to write tomorrow's CSS spec today with the polyfills you need.</p>
+          <p>
+            <a href="https://preset-env.cssdb.org" class="button button-primary button-icon button-text" target="_blank" rel="noopener noreferrer">
+              <span>Learn More</span>
+              {% include svg/right.svg %}
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="padding-vertical-xxl border-top border-color-primary-600">
+    <div class="container">
+      <h2 class="display-title display-title-xxl margin-top-xxl">Principles</h2>
+      <p class="lead margin-vertical-1-2 max-width-s">Simple. Smart. Modern.</p>
+      <p class="lead lead-s margin-vertical-1-2 max-width-s">Designed for speed turretcss is designed to make responsive, accessible, and scalable CSS development simple, and predictable.</p>
+      <nav class="group group-s margin-top-m">
+        <ul>
+          <li>
+            <a class="button button-white button-border button-icon" href="{{ site.baseurl }}/demo/">
+              <span>View Demo</span>
+              {% include svg/right.svg %}
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="boxes margin-top-l">
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/simple.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Simple.</span>
+            <br>
+            No Javascript. Just clean, simple, and modern CSS.
+          </h3>
+          <p class="color-grey">Write clean, simple, and modern HTML & CSS with intuitive size and style utilities with <a href="http://postcss.org/">PostCSS</a> and <a href="https://preset-env.cssdb.org/">postcss-preset-env</a>.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/responsive.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Responsive.</span>
+            <br>
+            Mobile-first, touch designed responsive architecture.
+          </h3>
+          <p class="color-grey">Mobile-first block element styles and full viewport breakpoint coverage makes complex responsive web interface development simple.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/predictable.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Predictable.</span>
+            <br>
+            Low specificity. Shallow cascade. Predictable styles.
+          </h3>
+          <p class="color-grey">Low specificity and intuitive style inheritance lets you utilise the cascade to style components with consistent options.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/usable.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Usable.</span>
+            <br>
+            Designed for every human hand on any type of screen.
+          </h3>
+          <p class="color-grey">Usability is at the core with large tap targets for buttons and link, clear indicator palettes for error handling, and a focus on semantic HTML development.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/customisable.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Customisable.</span>
+            <br>
+            Easily editable for branded styles for any project.
+          </h3>
+          <p class="color-grey">Easily customise styles with a few simple theme variables, or fully customise the look of elements with full control over visual variables.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/extendable.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Extendable.</span>
+            <br>
+            No grid. No layout opinions. No worries.
+          </h3>
+          <p class="color-grey">Build custom layouts and interfaces with a solid foundation of typography choices, color options, input types, and full suite of default HTML elements.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/accessible.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Accessible.</span>
+            <br>
+            Semantic HTML elements, simple CSS styles.
+          </h3>
+          <p class="color-grey">Use the full range of semantic HTML elements with accessible color combinations, and screen reader utility classes to create accessible web interfaces.</p>
+        </div>
+        <div class="padding-m border-radius background-white color-primary">
+          {% include icon/scalable.svg %}
+          <h3 class="color-dark margin-top-m">
+            <span class="all-caps">Scalable.</span>
+            <br>
+            Smart viewport scaling variables.
+          </h3>
+          <p class="color-grey">Scale elements larger or smaller with flexible viewport-based calculated variable values. Scale on the fly with consistent size scales for HTML elements and viewports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
