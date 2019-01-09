@@ -1,13 +1,5 @@
-.overflow-inherit {
-  overflow: inherit;
-}
-
-.overflow-initial {
-  overflow: initial;
-}
-
-.overflow-unset {
-  overflow: unset;
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
@@ -20,8 +12,39 @@
 
 .overflow-scroll {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
-.overflow-auto {
-  overflow: auto;
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
