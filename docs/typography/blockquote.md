@@ -31,4 +31,6 @@ description: null
 --blockquote-font-style: normal;
 --blockquote-color: var(--lead-color);
 --blockquote-line-height: var(--lead-line-height);
+--blockquote-text-transform: none;
+--blockquote-letter-spacing: var(--letter-spacing);
 ```
