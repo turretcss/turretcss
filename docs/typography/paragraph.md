@@ -21,6 +21,7 @@ description: null
 --paragraph-font-family: inherit;
 --paragraph-font-weight: inherit;
 --paragraph-font-size: var(--font-size-m);
+--paragraph-font-style: normal;
 --paragraph-color: inherit;
 --paragraph-line-height: var(--line-height-m);
 --paragraph-text-transform: none;
