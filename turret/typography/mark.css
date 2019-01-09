@@ -4,6 +4,7 @@ mark {
   font-family: var(--mark-font-family);
   font-weight: var(--mark-font-weight);
   font-size: var(--mark-font-size);
+  font-style: var(--mark-font-style);
   color: var(--mark-color);
   background: var(--mark-background);
 }
