@@ -21,6 +21,7 @@ description: null
 --all-caps-font-family: var(--headings-font-family);
 --all-caps-font-weight: var(--headings-font-weight);
 --all-caps-font-size: 0.875rem;
+--all-caps-font-style: normal;
 --all-caps-color: inherit;
 --all-caps-line-height: var(--line-height-xs);
 --all-caps-text-transform: uppercase;

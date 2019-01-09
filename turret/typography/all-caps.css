@@ -3,6 +3,7 @@
   font-family: var(--all-caps-font-family);
   font-weight: var(--all-caps-font-weight);
   font-size: var(--all-caps-font-size);
+  font-style: var(--all-caps-font-style);
   color: var(--all-caps-color);
   line-height: var(--all-caps-line-height);
   text-transform: var(--all-caps-text-transform);
