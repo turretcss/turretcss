@@ -68,6 +68,8 @@ description: null
 --list-font-size: var(--paragraph-font-size);
 --list-color: var(--paragraph-color);
 --list-line-height: var(--paragraph-line-height);
+--list-text-transform: var(--paragraph-text-transform);
+--list-letter-spacing: var(--paragraph-letter-spacing);
 
 --list-item-margin: 0.5em 0 0.5em 1.5em;
 --list-item-padding: 0 0 0 0.5em;

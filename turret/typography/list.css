@@ -7,6 +7,8 @@ ol {
   font-size: var(--list-font-size);
   color: var(--list-color);
   line-height: var(--list-line-height);
+  text-transform: var(--list-text-transform);
+  letter-spacing: var(--list-letter-spacing);
 
   & li {
     margin: var(--list-item-margin);
