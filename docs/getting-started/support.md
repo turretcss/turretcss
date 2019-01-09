@@ -122,4 +122,4 @@ Some CSS properties and HTML5 attributes and elements are not fully supported by
   </table>
 </div>
 
-Visit [Can I Use](http://caniuse.com/) for details on browser support of CSS and HTML features.
+Visit [Can I Use](https://caniuse.com/) for details on browser support of CSS and HTML features.

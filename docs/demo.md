@@ -413,7 +413,7 @@ description: Demo of all HTML elements with turretcss styles applied.
   </div>
   <div class="field">
     <label for="input-url">URL Input</label>
-    <input type="url" id="input-url" placeholder="http://">
+    <input type="url" id="input-url" placeholder="https://">
   </div>
   <div class="field">
     <label for="input-password">Password Input</label>

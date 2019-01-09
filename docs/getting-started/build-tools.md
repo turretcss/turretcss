@@ -43,7 +43,7 @@ To use and run the documentation locally, you'll need a copy of turretcss's sour
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
 3. [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`, and finally run `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
 
-- **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+- **Windows users:** Read [this unofficial guide](https://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
 
 When completed, you'll be able to run the various scripts provided from the command line.
 
@@ -72,8 +72,8 @@ Learn more about using Jekyll by reading its [documentation](https://jekyllrb.co
 [gembundler]: https://bundler.io/
 [turretcss]: https://turretcss.com/
 [turretcss-boilerplate]: https://github.com/turretcss/turretcss-boilerplate
-[postcss]: http://postcss.org/
+[postcss]: https://postcss.org/
 [postcss cli]: https://github.com/postcss/postcss-cli
-[cssnext]: http://cssnext.io/
-[cssnano]: http://cssnano.co/
+[cssnext]: https://cssnext.io/
+[cssnano]: https://cssnano.co/
 [autoprefixer]: https://github.com/postcss/autoprefixer

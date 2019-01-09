@@ -8,13 +8,13 @@ description: null
 
 Applies to code inside the `turret` directory.
 
-Code licensed under [MIT](http://opensource.org/licenses/mit-license.html) License
+Code licensed under [MIT](https://opensource.org/licenses/mit-license.html) License
 
 ## Documentation License
 
 Applies to files inside the `docs` excluding files located in the `lib` directory.
 
-Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+Documentation licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## License Notes
 

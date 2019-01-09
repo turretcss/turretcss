@@ -6,7 +6,7 @@ description: null
 
 ## Screen Reader
 
-Use the `screen-reader` class to display content only for screen readers, based from the A11y Project post: [How-to: Hide Content](http://a11yproject.com/posts/how-to-hide-content/)
+Use the `screen-reader` class to display content only for screen readers, based from the A11y Project post: [How-to: Hide Content](https://a11yproject.com/posts/how-to-hide-content/)
 
 ```html
 <div class="screen-reader">...</div>

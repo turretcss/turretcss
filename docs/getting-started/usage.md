@@ -190,7 +190,7 @@ To use and run the documentation locally, you'll need a copy of turretcss's sour
 2. Navigate to the root `/turret` directory and run `npm install` to install our local dependencies listed in [package.json](https://github.com/turretcss/turret/blob/master/package.json).
 3. [Install Ruby][install-ruby], install [Bundler][gembundler] with `gem install bundler`, and finally run `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
 
-- **Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+- **Windows users:** Read [this unofficial guide](https://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
 
 When completed, you'll be able to run the various scripts provided from the command line.
 
@@ -216,7 +216,7 @@ turretcss includes the following commands and tasks:
 2. Install Jekyll (the site builder) and other Ruby dependencies with `bundle install`. This will install all Ruby dependencies, such as Jekyll and plugins.
 3. Run `npm start` or `yarn start` to rebuild CSS.
 4. From the `/docs` directory, run `bundle exec jekyll serve` in the command line.
-5. Open <http://0.0.0.0:2001> in your browser.
+5. Open <https://0.0.0.0:2001> in your browser.
 
 Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
 

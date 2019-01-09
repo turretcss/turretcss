@@ -29,7 +29,7 @@ description: null
   </div>
   <div class="field">
     <label for="input-url">URL Input</label>
-    <input type="url" id="input-url" placeholder="http://">
+    <input type="url" id="input-url" placeholder="https://">
   </div>
   <div class="field">
     <label for="input-password">Password Input</label>
@@ -103,7 +103,7 @@ description: null
 <input type="tel" id="input-tel" placeholder="Telephone">
 
 <label for="input-url">URL Input</label>
-<input type="url" id="input-url" placeholder="http://">
+<input type="url" id="input-url" placeholder="https://">
 
 <label for="input-password">Password Input</label>
 <input type="password" id="input-password" value="password">
