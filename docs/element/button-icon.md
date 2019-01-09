@@ -36,49 +36,49 @@ description: null
   <ul>
     <li>  
       <button class="button button-xxl button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <svg width="20" height="20" viewBox="0 0 20 20">
           <circle cx="10" cy="10" r="10"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-xl button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <svg width="20" height="20" viewBox="0 0 20 20">
           <circle cx="10" cy="10" r="10"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-l button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+        <svg width="18" height="18" viewBox="0 0 18 18">
           <circle cx="9" cy="9" r="9"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-m button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-s button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+        <svg width="14" height="14" viewBox="0 0 14 14">
           <circle cx="7" cy="7" r="7"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-xs button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+        <svg width="12" height="12" viewBox="0 0 12 12">
           <circle cx="6" cy="6" r="6"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-xxs button-square button-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+        <svg width="12" height="12" viewBox="0 0 12 12">
           <circle cx="6" cy="6" r="6"></circle>
         </svg>
       </button>

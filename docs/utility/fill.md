@@ -12,10 +12,10 @@ description: null
 ## Colors
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-white" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-black" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -30,37 +30,37 @@ description: null
 ### Light
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-light-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -82,37 +82,37 @@ description: null
 ### Grey
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-grey-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -134,37 +134,37 @@ description: null
 ### Dark
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-dark-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -188,37 +188,37 @@ description: null
 ### Primary
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-primary-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -240,37 +240,37 @@ description: null
 ### Secondary
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-secondary-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -292,37 +292,37 @@ description: null
 ### Tertiary
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-tertiary-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -346,37 +346,37 @@ description: null
 ### Error
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-error-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -398,37 +398,37 @@ description: null
 ### Warning
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-warning-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -450,37 +450,37 @@ description: null
 ### Success
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-success-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>
@@ -502,37 +502,37 @@ description: null
 ### Info
 
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-50" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-100" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-200" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-300" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-400" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-500" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-600" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-700" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-800" cx="8" cy="8" r="6"/>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <svg width="16" height="16" viewBox="0 0 16 16">
     <circle class="fill-info-900" cx="8" cy="8" r="6"/>
   </svg>
 </div>

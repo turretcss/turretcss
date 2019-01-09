@@ -140,84 +140,84 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
   <ul>
     <li>
       <button class="button button-square button-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-light">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-grey">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-dark">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-black">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-secondary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-tertiary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square error">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square warning">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square success">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square info">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
@@ -229,84 +229,84 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
   <ul>
     <li>
       <button class="button button-square button-white button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-light button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-grey button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-dark button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-black button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-primary button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-secondary button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square button-tertiary button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square error button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square warning button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square success button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
     </li>
     <li>
       <button class="button button-square info button-border">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"/>
         </svg>
       </button>
@@ -318,49 +318,49 @@ A `<svg>` contained within a `button` or `.button` element will inherit the butt
   <ul>
     <li>  
       <button class="button button-square button-xxl">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <svg width="20" height="20" viewBox="0 0 20 20">
           <circle cx="10" cy="10" r="10"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-xl">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <svg width="20" height="20" viewBox="0 0 20 20">
           <circle cx="10" cy="10" r="10"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-l">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+        <svg width="18" height="18" viewBox="0 0 18 18">
           <circle cx="9" cy="9" r="9"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-m">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <svg width="16" height="16" viewBox="0 0 16 16">
           <circle cx="8" cy="8" r="8"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-s">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+        <svg width="14" height="14" viewBox="0 0 14 14">
           <circle cx="7" cy="7" r="7"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-xs">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+        <svg width="12" height="12" viewBox="0 0 12 12">
           <circle cx="6" cy="6" r="6"></circle>
         </svg>
       </button>
     </li>
     <li>  
       <button class="button button-square button-xxs">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+        <svg width="12" height="12" viewBox="0 0 12 12">
           <circle cx="6" cy="6" r="6"></circle>
         </svg>
       </button>

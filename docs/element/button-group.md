@@ -45,7 +45,7 @@ description: null
 <div class="button-group">
   <button class="button">Button</button>
   <button class="button button-square">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <svg width="16" height="16" viewBox="0 0 16 16">
       <polygon points="2,4 13,4 8,12"/>
     </svg>
   </button>
