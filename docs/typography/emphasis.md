@@ -17,5 +17,8 @@ description: null
 ### CSS
 
 ```scss
+--emphasis-font-family: inherit;
+--emphasis-font-weight: inherit;
 --emphasis-font-style: italic;
+--emphasis-color: inherit;
 ```
