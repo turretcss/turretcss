@@ -58,7 +58,7 @@
     & input[type='checkbox']:checked {
       & ~ .control-indicator {
         background-color: var(--control-checked-indicator-background);
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16"><polyline points="4 8.43 6.67 11 12 5" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"/></svg>');
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="https://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16"><polyline points="4 8.43 6.67 11 12 5" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"/></svg>');
       }
     }
   }
