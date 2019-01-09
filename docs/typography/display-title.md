@@ -23,8 +23,8 @@ description: null
 --display-title-font-size: 1.375rem;
 --display-title-color: inherit;
 --display-title-line-height: var(--line-height-xxs);
---display-title-letter-spacing: 0;
 --display-title-text-transform: none;
+--display-title-letter-spacing: 0;
 ```
 
 ## Sizes
