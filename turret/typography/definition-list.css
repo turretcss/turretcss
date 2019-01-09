@@ -22,4 +22,6 @@ dd {
   font-size: var(--definition-description-font-size);
   color: var(--definition-description-color);
   line-height: var(--definition-description-line-height);
+  text-transform: var(--definition-description-text-transform);
+  letter-spacing: var(--definition-description-letter-spacing);
 }

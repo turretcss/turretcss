@@ -78,4 +78,6 @@ description: null
 --definition-description-font-size: inherit;
 --definition-description-color: var(--paragraph-color);
 --definition-description-line-height: var(--paragraph-line-height);
+--definition-description-text-transform: var(--paragraph-text-transform);
+--definition-description-letter-spacing: var(--paragraph-letter-spacing);
 ```
