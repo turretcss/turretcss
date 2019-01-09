@@ -7,4 +7,7 @@ cite {
   font-style: var(--cite-font-style);
   color: var(--cite-color);
   text-align: var(--cite-text-align);
+  line-height: var(--cite-line-height);
+  text-transform: var(--cite-text-transform);
+  letter-spacing: var(--cite-letter-spacing);
 }

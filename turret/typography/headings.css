@@ -13,6 +13,7 @@ h6,
   margin: var(--headings-margin);
   font-family: var(--headings-font-family);
   font-weight: var(--headings-font-weight);
+  font-style: var(--headings-font-style);
   color: var(--headings-color);
   line-height: var(--headings-line-height);
   text-transform: var(--headings-text-transform);
@@ -21,6 +22,7 @@ h6,
   & small {
     font-family: var(--headings-small-font-family);
     font-weight: var(--headings-small-font-weight);
+    font-style: var(--headings-small-font-style);
     font-size: var(--headings-small-size);
     color: var(--headings-small-color);
   }

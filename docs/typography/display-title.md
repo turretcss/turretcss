@@ -21,10 +21,11 @@ description: null
 --display-title-font-family: var(--headings-font-family);
 --display-title-font-weight: var(--headings-font-weight);
 --display-title-font-size: 1.375rem;
+--display-title-font-style: normal;
 --display-title-color: inherit;
 --display-title-line-height: var(--line-height-xxs);
---display-title-letter-spacing: 0;
 --display-title-text-transform: none;
+--display-title-letter-spacing: 0;
 ```
 
 ## Sizes

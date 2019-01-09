@@ -51,8 +51,11 @@ description: null
 --definition-term-font-family: var(--headings-font-family);
 --definition-term-font-weight: var(--headings-font-weight);
 --definition-term-font-size: inherit;
+--definition-term-font-style: var(--headings-font-style);
 --definition-term-color: var(--headings-color);
 --definition-term-line-height: var(--headings-line-height);
+--definition-term-text-transform: var(--headings-text-transform);
+--definition-term-letter-spacing: var(--headings-letter-spacing);
 ```
 
 ## Defintition Description
@@ -74,6 +77,9 @@ description: null
 --definition-description-font-family: var(--paragraph-font-family);
 --definition-description-font-weight: var(--paragraph-font-weight);
 --definition-description-font-size: inherit;
+--definition-description-font-style: var(--paragraph-font-style);
 --definition-description-color: var(--paragraph-color);
 --definition-description-line-height: var(--paragraph-line-height);
+--definition-description-text-transform: var(--paragraph-text-transform);
+--definition-description-letter-spacing: var(--paragraph-letter-spacing);
 ```

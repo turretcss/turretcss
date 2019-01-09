@@ -1,3 +1,6 @@
 em {
+  font-family: var(--emphasis-font-family);
+  font-weight: var(--emphasis-font-weight);
   font-style: var(--emphasis-font-style);
+  color: var(--emphasis-color);
 }

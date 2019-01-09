@@ -6,6 +6,7 @@
   --headings-margin: 1em 0 0.5em 0;
   --headings-font-family: inherit;
   --headings-font-weight: var(--font-weight-semibold);
+  --headings-font-style: normal;
   --headings-color: inherit;
   --headings-line-height: var(--line-height-s);
   --headings-text-transform: none;
@@ -28,6 +29,7 @@
 
   --headings-small-font-family: inherit;
   --headings-small-font-weight: inherit;
+  --headings-small-font-style: inherit;
   --headings-small-size: 0.6em;
   --headings-small-color: inherit;
 
@@ -39,10 +41,11 @@
   --display-title-font-family: var(--headings-font-family);
   --display-title-font-weight: var(--headings-font-weight);
   --display-title-font-size: 1.375rem;
+  --display-title-font-style: normal;
   --display-title-color: inherit;
   --display-title-line-height: var(--line-height-xxs);
-  --display-title-letter-spacing: 0;
   --display-title-text-transform: none;
+  --display-title-letter-spacing: 0;
 
   /** 
    * Display Title Sizes
@@ -63,6 +66,7 @@
   --all-caps-font-family: var(--headings-font-family);
   --all-caps-font-weight: var(--headings-font-weight);
   --all-caps-font-size: 0.875rem;
+  --all-caps-font-style: normal;
   --all-caps-color: inherit;
   --all-caps-line-height: var(--line-height-xs);
   --all-caps-text-transform: uppercase;
@@ -87,8 +91,11 @@
   --lead-font-family: inherit;
   --lead-font-weight: inherit;
   --lead-font-size: 1.375rem;
+  --lead-font-style: normal;
   --lead-color: inherit;
   --lead-line-height: var(--line-height-xs);
+  --lead-text-transform: none;
+  --lead-letter-spacing: var(--letter-spacing);
 
   /** 
    * Lead Sizes
@@ -109,8 +116,11 @@
   --paragraph-font-family: inherit;
   --paragraph-font-weight: inherit;
   --paragraph-font-size: var(--font-size-m);
+  --paragraph-font-style: normal;
   --paragraph-color: inherit;
   --paragraph-line-height: var(--line-height-m);
+  --paragraph-text-transform: none;
+  --paragraph-letter-spacing: var(--letter-spacing);
 
   /**
    * Link
@@ -129,13 +139,17 @@
 
   --strong-font-family: inherit;
   --strong-font-weight: var(--font-weight-semibold);
+  --strong-font-style: inherit;
   --strong-color: inherit;
 
   /**
    * Emphasis
    */
 
+  --emphasis-font-family: inherit;
+  --emphasis-font-weight: inherit;
   --emphasis-font-style: italic;
+  --emphasis-color: inherit;
 
   /**
    * Horizontal Rule
@@ -155,8 +169,10 @@
   --blockquote-font-weight: var(--lead-font-weight);
   --blockquote-font-size: var(--lead-font-size);
   --blockquote-font-style: normal;
-  --blockquote-line-height: var(--lead-line-height);
   --blockquote-color: var(--lead-color);
+  --blockquote-line-height: var(--lead-line-height);
+  --blockquote-text-transform: none;
+  --blockquote-letter-spacing: var(--letter-spacing);
 
   /**
    * Cite
@@ -169,6 +185,9 @@
   --cite-font-style: normal;
   --cite-color: inherit;
   --cite-text-align: inherit;
+  --cite-line-height: var(--line-height);
+  --cite-text-transform: none;
+  --cite-letter-spacing: var(--letter-spacing);
 
   /**
    * List
@@ -179,8 +198,11 @@
   --list-font-family: var(--paragraph-font-family);
   --list-font-weight: var(--paragraph-font-weight);
   --list-font-size: var(--paragraph-font-size);
+  --list-font-style: var(--paragraph-font-style);
   --list-color: var(--paragraph-color);
   --list-line-height: var(--paragraph-line-height);
+  --list-text-transform: var(--paragraph-text-transform);
+  --list-letter-spacing: var(--paragraph-letter-spacing);
 
   /**
    * List Item
@@ -221,8 +243,11 @@
   --definition-term-font-family: var(--headings-font-family);
   --definition-term-font-weight: var(--headings-font-weight);
   --definition-term-font-size: inherit;
+  --definition-term-font-style: var(--headings-font-style);
   --definition-term-color: var(--headings-color);
   --definition-term-line-height: var(--headings-line-height);
+  --definition-term-text-transform: var(--headings-text-transform);
+  --definition-term-letter-spacing: var(--headings-letter-spacing);
 
   /** 
    * Definition Description
@@ -232,8 +257,11 @@
   --definition-description-font-family: var(--paragraph-font-family);
   --definition-description-font-weight: var(--paragraph-font-weight);
   --definition-description-font-size: inherit;
+  --definition-description-font-style: var(--paragraph-font-style);
   --definition-description-color: var(--paragraph-color);
   --definition-description-line-height: var(--paragraph-line-height);
+  --definition-description-text-transform: var(--paragraph-text-transform);
+  --definition-description-letter-spacing: var(--paragraph-letter-spacing);
 
   /**
    * Code
@@ -242,6 +270,7 @@
   --code-font-family: var(--font-family-monospace);
   --code-font-weight: normal;
   --code-font-size: 80%;
+  --code-font-style: normal;
   --code-color: var(--primary);
 
   /** 
@@ -253,6 +282,7 @@
   --pre-font-family: var(--code-font-family);
   --pre-font-weight: normal;
   --pre-font-size: var(--code-font-size);
+  --pre-font-style: normal;
   --pre-color: inherit;
   --pre-tab-size: 4;
   --pre-hyphens: none;
@@ -274,6 +304,7 @@
   --kbd-font-family: var(--code-font-family);
   --kbd-font-weight: var(--code-font-weight);
   --kbd-font-size: var(--code-font-size);
+  --kbd-font-style: var(--code-font-style);
   --kbd-color: var(--code-color);
   --kbd-background: var(--pre-background);
   --kbd-border-width: var(--pre-border-width);
@@ -290,6 +321,7 @@
   --mark-font-family: inherit;
   --mark-font-weight: inherit;
   --mark-font-size: inherit;
+  --mark-font-style: normal;
   --mark-color: inherit;
   --mark-background: yellow;
 }

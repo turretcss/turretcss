@@ -4,18 +4,18 @@ title: Visibility
 description: Define content to be visible or hidden.
 ---
 
-| Class            | Description                                     |
-| ---------------- | ----------------------------------------------- |
-| `hide`           | Hides element `display: none;`                  |
-| `show`           | Shows element `display: block;`                 |
-| `visible`        | Sets `visibility: visible;`                     |
-| `hidden`         | Sets `visibility: hidden;`                      |
-| `hidden-print`   | Hides element for when `@media print`           |
-| `visible-print`  | Shows element for when `@media print`           |
-| `hidden-screen`  | Hides element for when `@media screen`          |
-| `visible-screen` | Shows element for when `@media screen`          |
-| `hide-visually`  | Hide element but keep in DOM for Screen Readers |
-| `text-hide`      | Hides text visually                             |
+| Class           | Description                                     |
+| --------------- | ----------------------------------------------- |
+| `hide`          | Hides element `display: none;`                  |
+| `show`          | Shows element `display: block;`                 |
+| `visible`       | Sets `visibility: visible;`                     |
+| `hidden`        | Sets `visibility: hidden;`                      |
+| `hide-print`    | Hides element for when `@media print`           |
+| `show-print`    | Shows element for when `@media print`           |
+| `hide-screen`   | Hides element for when `@media screen`          |
+| `show-screen`   | Shows element for when `@media screen`          |
+| `hide-visually` | Hide element but keep in DOM for Screen Readers |
+| `text-hide`     | Hides text visually                             |
 
 ### Visibile Breakpoint Classes
 
@@ -37,7 +37,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
     </thead>
     <tbody>
       <tr>
-        <td><code>.visible-xxs</code></td>
+        <td><code>.show-xxs</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -47,7 +47,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xs</code></td>
+        <td><code>.show-xs</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -57,7 +57,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xs-up</code></td>
+        <td><code>.show-xs-up</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -67,7 +67,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.visible-xs-down</code></td>
+        <td><code>.show-xs-down</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -77,7 +77,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-s</code></td>
+        <td><code>.show-s</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -87,7 +87,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-s-up</code></td>
+        <td><code>.show-s-up</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -97,7 +97,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.visible-s-down</code></td>
+        <td><code>.show-s-down</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -107,7 +107,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-m</code></td>
+        <td><code>.show-m</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -117,7 +117,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-m-up</code></td>
+        <td><code>.show-m-up</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -127,7 +127,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.visible-m-down</code></td>
+        <td><code>.show-m-down</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -137,7 +137,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-l</code></td>
+        <td><code>.show-l</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -147,7 +147,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-l-up</code></td>
+        <td><code>.show-l-up</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -157,7 +157,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.visible-l-down</code></td>
+        <td><code>.show-l-down</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -167,7 +167,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xl</code></td>
+        <td><code>.show-xl</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -177,7 +177,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xl-up</code></td>
+        <td><code>.show-xl-up</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -187,7 +187,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.visible-xl-down</code></td>
+        <td><code>.show-xl-down</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -197,7 +197,7 @@ Define content to be visible at different breakpoints. Note: `!important` is use
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.visible-xxl</code></td>
+        <td><code>.show-xxl</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -230,7 +230,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
     </thead>
     <tbody>
       <tr>
-        <td><code>.hidden-xxs</code></td>
+        <td><code>.hide-xxs</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -240,7 +240,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xs</code></td>
+        <td><code>.hide-xs</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -250,7 +250,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xs-up</code></td>
+        <td><code>.hide-xs-up</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -260,7 +260,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xs-down</code></td>
+        <td><code>.hide-xs-down</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -270,7 +270,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-s</code></td>
+        <td><code>.hide-s</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -280,7 +280,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-s-up</code></td>
+        <td><code>.hide-s-up</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -290,7 +290,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.hidden-s-down</code></td>
+        <td><code>.hide-s-down</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -300,7 +300,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-m</code></td>
+        <td><code>.hide-m</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -310,7 +310,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-m-up</code></td>
+        <td><code>.hide-m-up</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -320,7 +320,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.hidden-m-down</code></td>
+        <td><code>.hide-m-down</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -330,7 +330,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-l</code></td>
+        <td><code>.hide-l</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -340,7 +340,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-l-up</code></td>
+        <td><code>.hide-l-up</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -350,7 +350,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.hidden-l-down</code></td>
+        <td><code>.hide-l-down</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -360,7 +360,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xl</code></td>
+        <td><code>.hide-xl</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -370,7 +370,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xl-up</code></td>
+        <td><code>.hide-xl-up</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
@@ -380,7 +380,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-error background-error-50">&times;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xl-down</code></td>
+        <td><code>.hide-xl-down</code></td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
         <td class="color-error background-error-50">&times;</td>
@@ -390,7 +390,7 @@ Define content to be hidden at different breakpoints. Note: `!important` is used
         <td class="color-success background-success-50">&check;</td>
       </tr>
       <tr>
-        <td><code>.hidden-xxl</code></td>
+        <td><code>.hide-xxl</code></td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>
         <td class="color-success background-success-50">&check;</td>

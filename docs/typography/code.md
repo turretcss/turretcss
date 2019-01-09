@@ -6,7 +6,7 @@ description: null
 
 ## Example
 
-<p><code>&lt;p&gt;code&lt;/p&gt;</code></p>
+`<p>code</p>`
 
 ### HTML
 
@@ -20,5 +20,6 @@ description: null
 --code-font-family: var(--font-family-monospace);
 --code-font-weight: normal;
 --code-font-size: 80%;
+--code-font-style: normal;
 --code-color: var(--primary);
 ```

@@ -29,6 +29,8 @@ description: null
 --blockquote-font-weight: var(--lead-font-weight);
 --blockquote-font-size: var(--lead-font-size);
 --blockquote-font-style: normal;
---blockquote-line-height: var(--lead-line-height);
 --blockquote-color: var(--lead-color);
+--blockquote-line-height: var(--lead-line-height);
+--blockquote-text-transform: none;
+--blockquote-letter-spacing: var(--letter-spacing);
 ```

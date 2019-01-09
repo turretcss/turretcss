@@ -3,6 +3,9 @@ p {
   font-family: var(--paragraph-font-family);
   font-weight: var(--paragraph-font-weight);
   font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
   color: var(--paragraph-color);
   line-height: var(--paragraph-line-height);
+  text-transform: var(--paragraph-text-transform);
+  letter-spacing: var(--paragraph-letter-spacing);
 }

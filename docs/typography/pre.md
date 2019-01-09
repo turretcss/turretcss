@@ -22,6 +22,7 @@ description: null
 --pre-font-family: var(--code-font-family);
 --pre-font-weight: normal;
 --pre-font-size: var(--code-font-size);
+--pre-font-style: normal;
 --pre-color: inherit;
 --pre-tab-size: 4;
 --pre-hyphens: none;

@@ -22,6 +22,7 @@ description: null
 --mark-font-family: inherit;
 --mark-font-weight: inherit;
 --mark-font-size: inherit;
+--mark-font-style: normal;
 --mark-color: inherit;
 --mark-background: yellow;
 ```

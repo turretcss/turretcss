@@ -1,3 +1,11 @@
+.display-none {
+  display: none;
+}
+
+.display-contents {
+  display: contents;
+}
+
 .display-block {
   display: block;
 }
@@ -6,11 +14,22 @@
   display: inline-block;
 }
 
+.display-flex {
+  display: flex;
+}
+
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.display-grid {
+  display: grid;
+}
+
 .display-table {
   display: table;
 }
 
 .display-table-cell {
   display: table-cell;
-  vertical-align: middle;
 }

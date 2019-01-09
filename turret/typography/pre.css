@@ -5,6 +5,7 @@ pre {
   font-family: var(--pre-font-family);
   font-weight: var(--pre-font-weight);
   font-size: var(--pre-font-size);
+  font-style: var(--pre-font-style);
   color: var(--pre-color);
   direction: ltr;
   text-align: left;
