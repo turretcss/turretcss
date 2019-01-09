@@ -4,6 +4,7 @@ kbd {
   font-family: var(--kbd-font-family);
   font-weight: var(--kbd-font-weight);
   font-size: var(--kbd-font-size);
+  font-style: var(--kbd-font-style);
   color: var(--kbd-color);
   background: var(--kbd-background);
   border-width: var(--kbd-border-width);

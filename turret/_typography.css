@@ -304,6 +304,7 @@
   --kbd-font-family: var(--code-font-family);
   --kbd-font-weight: var(--code-font-weight);
   --kbd-font-size: var(--code-font-size);
+  --kbd-font-style: var(--code-font-style);
   --kbd-color: var(--code-color);
   --kbd-background: var(--pre-background);
   --kbd-border-width: var(--pre-border-width);
