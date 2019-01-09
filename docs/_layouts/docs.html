@@ -54,7 +54,19 @@ layout: default
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/jekyll-search.min.js"></script>
 <script>
 
-  quicklink();
+  window.addEventListener('load', () => {
+    quicklink({
+      timeout: 4000,
+      ignores: [
+        /tel:/g,
+        /mailto:/g,
+        /#(.+)/,
+        uri => uri.includes('tel:'),
+        uri => uri.includes('mailto:'),
+        uri => uri.includes('#')
+      ]
+    });
+  });
 
   anchors.options.placement = 'left'
   anchors.add('h1[id], h2[id], h3[id], h4[id], h5[id]')
