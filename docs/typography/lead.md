@@ -21,6 +21,7 @@ description: null
 --lead-font-family: inherit;
 --lead-font-weight: inherit;
 --lead-font-size: 1.375rem;
+--lead-font-style: normal;
 --lead-color: inherit;
 --lead-line-height: var(--line-height-xs);
 --lead-text-transform: none;

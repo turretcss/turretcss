@@ -3,6 +3,7 @@
   font-family: var(--lead-font-family);
   font-weight: var(--lead-font-weight);
   font-size: var(--lead-font-size);
+  font-style: var(--lead-font-style);
   color: var(--lead-color);
   line-height: var(--lead-line-height);
   text-transform: var(--lead-text-transform);
