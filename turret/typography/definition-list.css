@@ -21,6 +21,7 @@ dd {
   font-family: var(--definition-description-font-family);
   font-weight: var(--definition-description-font-weight);
   font-size: var(--definition-description-font-size);
+  font-style: var(--definition-description-font-style);
   color: var(--definition-description-color);
   line-height: var(--definition-description-line-height);
   text-transform: var(--definition-description-text-transform);

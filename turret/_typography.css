@@ -256,6 +256,7 @@
   --definition-description-font-family: var(--paragraph-font-family);
   --definition-description-font-weight: var(--paragraph-font-weight);
   --definition-description-font-size: inherit;
+  --definition-description-font-style: var(--paragraph-font-style);
   --definition-description-color: var(--paragraph-color);
   --definition-description-line-height: var(--paragraph-line-height);
   --definition-description-text-transform: var(--paragraph-text-transform);
