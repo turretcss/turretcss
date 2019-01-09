@@ -18,7 +18,7 @@ Documentation licensed under [CC BY 3.0](https://creativecommons.org/licenses/by
 
 ## License Notes
 
-turretcss is released under the MIT license and is copyright 2018 <a href="https://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
+turretcss is released under the MIT license and is copyright 2019 <a href="https://bigfish.tv">bigfish.tv</a>. Boiled down to smaller chunks, it can be described with the following conditions.
 
 **It requires you to:**
 
