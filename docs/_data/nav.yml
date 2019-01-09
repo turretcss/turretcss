@@ -171,6 +171,8 @@
       url: /utility/overflow
     - title: Position
       url: /utility/position
+    - title: Pointer Events
+      url: /utility/pointer-events
     - title: Transition
       url: /utility/transition
     - title: Fill
