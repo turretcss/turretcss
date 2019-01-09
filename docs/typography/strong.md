@@ -19,5 +19,6 @@ description: null
 ```scss
 --strong-font-family: inherit;
 --strong-font-weight: var(--font-weight-semibold);
+--strong-font-style: inherit;
 --strong-color: inherit;
 ```

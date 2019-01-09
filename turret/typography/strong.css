@@ -1,5 +1,6 @@
 strong {
   font-family: var(--strong-font-family);
   font-weight: var(--strong-font-weight);
+  font-style: var(--strong-font-style);
   color: var(--strong-color);
 }
