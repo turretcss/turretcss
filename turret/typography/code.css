@@ -2,5 +2,6 @@ code {
   font-family: var(--code-font-family);
   font-weight: var(--code-font-weight);
   font-size: var(--code-font-size);
+  font-style: var(--code-font-style);
   color: var(--code-color);
 }
