@@ -242,6 +242,7 @@
   --definition-term-font-family: var(--headings-font-family);
   --definition-term-font-weight: var(--headings-font-weight);
   --definition-term-font-size: inherit;
+  --definition-term-font-style: var(--headings-font-style);
   --definition-term-color: var(--headings-color);
   --definition-term-line-height: var(--headings-line-height);
   --definition-term-text-transform: var(--headings-text-transform);

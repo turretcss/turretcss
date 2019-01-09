@@ -9,6 +9,7 @@ dt {
   font-family: var(--definition-term-font-family);
   font-weight: var(--definition-term-font-weight);
   font-size: var(--definition-term-font-size);
+  font-style: var(--definition-term-font-style);
   color: var(--definition-term-color);
   line-height: var(--definition-term-line-height);
   text-transform: var(--definition-term-text-transform);
