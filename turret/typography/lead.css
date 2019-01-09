@@ -5,6 +5,8 @@
   font-size: var(--lead-font-size);
   color: var(--lead-color);
   line-height: var(--lead-line-height);
+  text-transform: var(--lead-text-transform);
+  letter-spacing: var(--lead-letter-spacing);
 }
 
 .lead-xxl {

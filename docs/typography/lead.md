@@ -23,6 +23,8 @@ description: null
 --lead-font-size: 1.375rem;
 --lead-color: inherit;
 --lead-line-height: var(--line-height-xs);
+--lead-text-transform: none;
+--lead-letter-spacing: var(--letter-spacing);
 ```
 
 ## Sizes
