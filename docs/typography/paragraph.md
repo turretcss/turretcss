@@ -23,4 +23,6 @@ description: null
 --paragraph-font-size: var(--font-size-m);
 --paragraph-color: inherit;
 --paragraph-line-height: var(--line-height-m);
+--paragraph-text-transform: none;
+--paragraph-letter-spacing: var(--letter-spacing);
 ```

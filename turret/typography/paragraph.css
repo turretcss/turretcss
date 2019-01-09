@@ -5,4 +5,6 @@ p {
   font-size: var(--paragraph-font-size);
   color: var(--paragraph-color);
   line-height: var(--paragraph-line-height);
+  text-transform: var(--paragraph-text-transform);
+  letter-spacing: var(--paragraph-letter-spacing);
 }
