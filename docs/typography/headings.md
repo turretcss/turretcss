@@ -30,6 +30,7 @@ description: null
 --headings-margin: 1em 0 0.5em 0;
 --headings-font-family: inherit;
 --headings-font-weight: var(--font-weight-semibold);
+--headings-font-style: normal;
 --headings-color: inherit;
 --headings-line-height: var(--line-height-s);
 --headings-text-transform: none;
@@ -68,6 +69,7 @@ description: null
 ```scss
 --headings-small-font-family: inherit;
 --headings-small-font-weight: inherit;
+--headings-small-font-style: inherit;
 --headings-small-size: 0.6em;
 --headings-small-color: inherit;
 ```
