@@ -53,6 +53,8 @@ description: null
 --definition-term-font-size: inherit;
 --definition-term-color: var(--headings-color);
 --definition-term-line-height: var(--headings-line-height);
+--definition-term-text-transform: var(--headings-text-transform);
+--definition-term-letter-spacing: var(--headings-letter-spacing);
 ```
 
 ## Defintition Description

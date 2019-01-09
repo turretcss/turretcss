@@ -11,6 +11,8 @@ dt {
   font-size: var(--definition-term-font-size);
   color: var(--definition-term-color);
   line-height: var(--definition-term-line-height);
+  text-transform: var(--definition-term-text-transform);
+  letter-spacing: var(--definition-term-letter-spacing);
 }
 
 dd {
