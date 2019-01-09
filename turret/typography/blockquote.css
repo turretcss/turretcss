@@ -5,8 +5,8 @@ blockquote {
   font-weight: var(--blockquote-font-weight);
   font-size: var(--blockquote-font-size);
   font-style: var(--blockquote-font-style);
-  line-height: var(--blockquote-line-height);
   color: var(--blockquote-color);
+  line-height: var(--blockquote-line-height);
 
   & p {
     font-family: inherit;
