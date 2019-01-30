@@ -1,3 +1,7 @@
+.border-radius-none {
+  border-radius: none;
+}
+
 .border-radius {
   border-radius: var(--border-radius);
 }

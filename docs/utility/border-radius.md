@@ -12,6 +12,14 @@ description: null
 <div class="border-radius">...</div>
 ```
 
+### Border Radius None
+
+<div class="padding-xs border border-radius-none">Border Radius None</div>
+
+```html
+<div class="border-radius-none">...</div>
+```
+
 ### Border Radius Top
 
 <div class="padding-xs border border-radius-top">Border Radius Top</div>
