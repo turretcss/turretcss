@@ -51,166 +51,175 @@ button,
     height: var(--button-font-size);
     fill: currentColor;
   }
+}
 
-  &.error {
+button.error,
+.button.error,
+.button-error {
+  color: var(--button-error-color);
+  background: var(--error);
+  border-color: var(--error);
+
+  &.button-border {
+    color: var(--error);
+    background: transparent;
+  }
+
+  &:hover,
+  &:focus {
     color: var(--button-error-color);
-    background: var(--error);
-    border-color: var(--error);
-
-    &.button-border {
-      color: var(--error);
-      background: transparent;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--button-error-color);
-      background: var(--error-hover);
-      border-color: var(--error-hover);
-    }
-
-    &:active {
-      color: var(--button-error-color);
-      background: var(--error-active);
-      border-color: var(--error-active);
-    }
-
-    &.button-text {
-      color: var(--error);
-
-      &:hover,
-      &:focus {
-        color: var(--error-hover);
-      }
-
-      &:active {
-        color: var(--error-active);
-      }
-    }
+    background: var(--error-hover);
+    border-color: var(--error-hover);
   }
 
-  &.warning {
-    color: var(--button-warning-color);
-    background: var(--warning);
-    border-color: var(--warning);
-
-    &.button-border {
-      color: var(--warning);
-      background: transparent;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--button-warning-color);
-      background: var(--warning-hover);
-      border-color: var(--warning-hover);
-    }
-
-    &:active {
-      color: var(--button-warning-color);
-      background: var(--warning-active);
-      border-color: var(--warning-active);
-    }
-
-    &.button-text {
-      color: var(--warning);
-
-      &:hover,
-      &:focus {
-        color: var(--warning-hover);
-      }
-
-      &:active {
-        color: var(--warning-active);
-      }
-    }
-  }
-
-  &.success {
-    color: var(--button-success-color);
-    background: var(--success);
-    border-color: var(--success);
-
-    &.button-border {
-      color: var(--success);
-      background: transparent;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--button-success-color);
-      background: var(--success-hover);
-      border-color: var(--success-hover);
-    }
-
-    &:active {
-      color: var(--button-success-color);
-      background: var(--success-active);
-      border-color: var(--success-active);
-    }
-
-    &.button-text {
-      color: var(--success);
-
-      &:hover,
-      &:focus {
-        color: var(--success-hover);
-      }
-
-      &:active {
-        color: var(--success-active);
-      }
-    }
-  }
-
-  &.info {
-    color: var(--button-info-color);
-    background: var(--info);
-    border-color: var(--info);
-
-    &.button-border {
-      color: var(--info);
-      background: transparent;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--button-info-color);
-      background: var(--info-hover);
-      border-color: var(--info-hover);
-    }
-
-    &:active {
-      color: var(--button-info-color);
-      background: var(--info-active);
-      border-color: var(--info-active);
-    }
-
-    &.button-text {
-      color: var(--info);
-
-      &:hover,
-      &:focus {
-        color: var(--info-hover);
-      }
-
-      &:active {
-        color: var(--info-active);
-      }
-    }
+  &:active {
+    color: var(--button-error-color);
+    background: var(--error-active);
+    border-color: var(--error-active);
   }
 
   &.button-text {
-    padding: 0;
-    background-color: transparent;
-    border-color: transparent;
+    color: var(--error);
 
     &:hover,
-    &:focus,
-    &:active {
-      background-color: transparent;
-      border-color: transparent;
+    &:focus {
+      color: var(--error-hover);
     }
+
+    &:active {
+      color: var(--error-active);
+    }
+  }
+}
+
+button.warning,
+.button.warning,
+.button-warning {
+  color: var(--button-warning-color);
+  background: var(--warning);
+  border-color: var(--warning);
+
+  &.button-border {
+    color: var(--warning);
+    background: transparent;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--button-warning-color);
+    background: var(--warning-hover);
+    border-color: var(--warning-hover);
+  }
+
+  &:active {
+    color: var(--button-warning-color);
+    background: var(--warning-active);
+    border-color: var(--warning-active);
+  }
+
+  &.button-text {
+    color: var(--warning);
+
+    &:hover,
+    &:focus {
+      color: var(--warning-hover);
+    }
+
+    &:active {
+      color: var(--warning-active);
+    }
+  }
+}
+
+button.success,
+.button.success,
+.button-success {
+  color: var(--button-success-color);
+  background: var(--success);
+  border-color: var(--success);
+
+  &.button-border {
+    color: var(--success);
+    background: transparent;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--button-success-color);
+    background: var(--success-hover);
+    border-color: var(--success-hover);
+  }
+
+  &:active {
+    color: var(--button-success-color);
+    background: var(--success-active);
+    border-color: var(--success-active);
+  }
+
+  &.button-text {
+    color: var(--success);
+
+    &:hover,
+    &:focus {
+      color: var(--success-hover);
+    }
+
+    &:active {
+      color: var(--success-active);
+    }
+  }
+}
+
+button.info,
+.button.info,
+.button-info {
+  color: var(--button-info-color);
+  background: var(--info);
+  border-color: var(--info);
+
+  &.button-border {
+    color: var(--info);
+    background: transparent;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--button-info-color);
+    background: var(--info-hover);
+    border-color: var(--info-hover);
+  }
+
+  &:active {
+    color: var(--button-info-color);
+    background: var(--info-active);
+    border-color: var(--info-active);
+  }
+
+  &.button-text {
+    color: var(--info);
+
+    &:hover,
+    &:focus {
+      color: var(--info-hover);
+    }
+
+    &:active {
+      color: var(--info-active);
+    }
+  }
+}
+
+button.button-text,
+.button.button-text {
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    border-color: transparent;
   }
 }
 
