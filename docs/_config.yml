@@ -21,4 +21,4 @@ exclude: []
 current_version: 5.1.3
 repo: https://github.com/turretcss/turretcss
 twitter: https://twitter.com/turretcss
-cdn: https://cdnjs.cloudflare.com/ajax/libs/bigfishtv-turret/4.0.0/turret.min.css
+cdn: https://unpkg.com/turretcss/dist/turretcss.min.css
