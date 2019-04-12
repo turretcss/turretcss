@@ -101,7 +101,7 @@ See [the Releases section of our GitHub project](https://github.com/turretcss/tu
 
 ## Copyright and license
 
-Code and documentation copyright 2019 [Bigfish.tv](https://bigfish.tv), Code released under the [MIT license](https://github.com/turretcss/turretcss/LICENSE). Docs released under [Creative Commons](https://github.com/turretcss/turretcss/LICENSE).
+Code and documentation copyright 2019 [Bigfish.tv](https://bigfish.tv), Code released under the [MIT license](https://github.com/turretcss/turretcss/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/turretcss/turretcss/blob/master/LICENSE).
 
 [install-ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [gembundler]: https://bundler.io/
