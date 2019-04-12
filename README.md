@@ -19,7 +19,7 @@ To get started, check out <https://turretcss.com>!
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/turretcss/turretcss/).
+- [Download the latest release](https://github.com/turretcss/turretcss/releases/latest).
 - Clone the repo: `git clone https://github.com/turretcss/turretcss.git`.
 - Install with [npm](https://www.npmjs.org): `npm install turretcss`.
 - Install with [yarn](https://github.com/yarnpkg/yarn): `yarn add turretcss`
