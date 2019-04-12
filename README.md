@@ -19,7 +19,7 @@ To get started, check out <https://turretcss.com>!
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/turretcss/turretcss/releases/latest).
+- [Download the latest release](https://github.com/turretcss/turretcss/archive/master.zip).
 - Clone the repo: `git clone https://github.com/turretcss/turretcss.git`.
 - Install with [npm](https://www.npmjs.org): `npm install turretcss`.
 - Install with [yarn](https://github.com/yarnpkg/yarn): `yarn add turretcss`
@@ -101,7 +101,7 @@ See [the Releases section of our GitHub project](https://github.com/turretcss/tu
 
 ## Copyright and license
 
-Code and documentation copyright 2019 [Bigfish.tv](https://bigfish.tv), Code released under the [MIT license](https://github.com/turretcss/turretcss/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/turretcss/turretcss/blob/master/LICENSE).
+Code and documentation copyright 2019 [Bigfish.tv](https://bigfish.tv), Code released under the [MIT license](https://github.com/turretcss/turretcss/blob/master/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
 
 [install-ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [gembundler]: https://bundler.io/
