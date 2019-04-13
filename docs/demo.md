@@ -269,7 +269,7 @@ description: Demo of all HTML elements with turretcss styles applied.
 
 ### Link
 
-<p><a href="">link</a></p>
+<p><a href="#">link</a></p>
 
 ### Strong
 
