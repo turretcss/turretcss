@@ -7,7 +7,7 @@ description: Utility classes for typographic styles, display, positioning, float
 
 ## Utility Classes
 
-For text and background color utility classes check out the [color](/docs/utility/colors) section. Text align utility classes are demonstrated in the [typography](/docs/utility/typography) section.
+For text and background color utility classes check out the [color](/utility/colors) section. Text align utility classes are demonstrated in the [typography](/utility/typography) section.
 
 | Class         | Description                                              |
 | ------------- | -------------------------------------------------------- |
