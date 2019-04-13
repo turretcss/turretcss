@@ -97,7 +97,7 @@ Responsive breakpoints are configurable via setting [@custom-media queries](/bas
 
 Each interactive element - such as `<input>`, `<select>`, `<button>`, etc. - have sizes that can be applied with optional classes, for example `.button-s`.
 
-The height of these elements is set by global height variables.
+The size of these elements is set by global height variables.
 
 Element sizes examples:
 

@@ -32,10 +32,10 @@ description: null
 --definition-list-font-size: var(--paragraph-font-size);
 ```
 
-## Defintition Term
+## Definition Term
 
 <dl>
-  <dt>Defintition Term</dt>
+  <dt>Definition Term</dt>
 </dl>
 
 ### HTML
@@ -58,10 +58,10 @@ description: null
 --definition-term-letter-spacing: var(--headings-letter-spacing);
 ```
 
-## Defintition Description
+## Definition Description
 
 <dl>
-  <dd>Defintition Description</dd>
+  <dd>Definition Description</dd>
 </dl>
 
 ### HTML

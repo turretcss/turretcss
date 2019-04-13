@@ -6,7 +6,7 @@ description: null
 
 ## Example
 
-A generic `.group` class to provie spacing between like items. Can be used for `<nav>` or `<div>` wrapping and `<ul><li></li></ul>` structure.
+A generic `.group` class to provide spacing between like items. Can be used for `<nav>` or `<div>` wrapping and `<ul><li></li></ul>` structure.
 
 <div class="group text-align-center">
   <ul>

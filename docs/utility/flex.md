@@ -4,7 +4,7 @@ title: Flex
 description: null
 ---
 
-## Flex Utilties
+## Flex Utilities
 
 | Class                 | Description                                                                              |
 | --------------------- | ---------------------------------------------------------------------------------------- |
