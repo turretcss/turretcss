@@ -49,7 +49,7 @@ description: null
   <div class="padding-xs color-dark background-light-600">Light<br>600</div>
   <div class="padding-xs color-dark background-light-700">Light<br>700</div>
   <div class="padding-xs color-dark background-light-800">Light<br>800</div>
-  <div class="padding-xs color-dark background-light-900">Light<br>900</div>
+  <div class="padding-xs color-white background-light-900">Light<br>900</div>
 </div>
 
 ```scss
@@ -72,10 +72,10 @@ description: null
 
 <div class="padding-xs color-white background-grey">Grey</div>
 <div class="palette">
-  <div class="padding-xs color-white background-grey-50">Grey<br>50</div>
-  <div class="padding-xs color-white background-grey-100">Grey<br>100</div>
-  <div class="padding-xs color-white background-grey-200">Grey<br>200</div>
-  <div class="padding-xs color-white background-grey-300">Grey<br>300</div>
+  <div class="padding-xs color-dark background-grey-50">Grey<br>50</div>
+  <div class="padding-xs color-dark background-grey-100">Grey<br>100</div>
+  <div class="padding-xs color-dark background-grey-200">Grey<br>200</div>
+  <div class="padding-xs color-dark background-grey-300">Grey<br>300</div>
   <div class="padding-xs color-white background-grey-400">Grey<br>400</div>
   <div class="padding-xs color-white background-grey-500">Grey<br>500</div>
   <div class="padding-xs color-white background-grey-600">Grey<br>600</div>
@@ -104,10 +104,10 @@ description: null
 
 <div class="padding-xs color-white background-dark">Dark</div>
 <div class="palette">
-  <div class="padding-xs color-white background-dark-50">Dark<br>50</div>
-  <div class="padding-xs color-white background-dark-100">Dark<br>100</div>
-  <div class="padding-xs color-white background-dark-200">Dark<br>200</div>
-  <div class="padding-xs color-white background-dark-300">Dark<br>300</div>
+  <div class="padding-xs color-dark background-dark-50">Dark<br>50</div>
+  <div class="padding-xs color-dark background-dark-100">Dark<br>100</div>
+  <div class="padding-xs color-dark background-dark-200">Dark<br>200</div>
+  <div class="padding-xs color-dark background-dark-300">Dark<br>300</div>
   <div class="padding-xs color-white background-dark-400">Dark<br>400</div>
   <div class="padding-xs color-white background-dark-500">Dark<br>500</div>
   <div class="padding-xs color-white background-dark-600">Dark<br>600</div>
@@ -138,10 +138,10 @@ description: null
 
 <div class="padding-xs color-white background-primary">Primary</div>
 <div class="palette">
-  <div class="padding-xs color-white background-primary-50">Primary<br>50</div>
-  <div class="padding-xs color-white background-primary-100">Primary<br>100</div>
-  <div class="padding-xs color-white background-primary-200">Primary<br>200</div>
-  <div class="padding-xs color-white background-primary-300">Primary<br>300</div>
+  <div class="padding-xs color-dark background-primary-50">Primary<br>50</div>
+  <div class="padding-xs color-dark background-primary-100">Primary<br>100</div>
+  <div class="padding-xs color-dark background-primary-200">Primary<br>200</div>
+  <div class="padding-xs color-dark background-primary-300">Primary<br>300</div>
   <div class="padding-xs color-white background-primary-400">Primary<br>400</div>
   <div class="padding-xs color-white background-primary-500">Primary<br>500</div>
   <div class="padding-xs color-white background-primary-600">Primary<br>600</div>
@@ -170,10 +170,10 @@ description: null
 
 <div class="padding-xs color-white background-secondary">Secondary</div>
 <div class="palette">
-  <div class="padding-xs color-white background-secondary-50">Secondary<br>50</div>
-  <div class="padding-xs color-white background-secondary-100">Secondary<br>100</div>
-  <div class="padding-xs color-white background-secondary-200">Secondary<br>200</div>
-  <div class="padding-xs color-white background-secondary-300">Secondary<br>300</div>
+  <div class="padding-xs color-dark background-secondary-50">Secondary<br>50</div>
+  <div class="padding-xs color-dark background-secondary-100">Secondary<br>100</div>
+  <div class="padding-xs color-dark background-secondary-200">Secondary<br>200</div>
+  <div class="padding-xs color-dark background-secondary-300">Secondary<br>300</div>
   <div class="padding-xs color-white background-secondary-400">Secondary<br>400</div>
   <div class="padding-xs color-white background-secondary-500">Secondary<br>500</div>
   <div class="padding-xs color-white background-secondary-600">Secondary<br>600</div>
@@ -202,10 +202,10 @@ description: null
 
 <div class="padding-xs color-white background-tertiary">Tertiary</div>
 <div class="palette">
-  <div class="padding-xs color-white background-tertiary-50">Tertiary<br>50</div>
-  <div class="padding-xs color-white background-tertiary-100">Tertiary<br>100</div>
-  <div class="padding-xs color-white background-tertiary-200">Tertiary<br>200</div>
-  <div class="padding-xs color-white background-tertiary-300">Tertiary<br>300</div>
+  <div class="padding-xs color-dark background-tertiary-50">Tertiary<br>50</div>
+  <div class="padding-xs color-dark background-tertiary-100">Tertiary<br>100</div>
+  <div class="padding-xs color-dark background-tertiary-200">Tertiary<br>200</div>
+  <div class="padding-xs color-dark background-tertiary-300">Tertiary<br>300</div>
   <div class="padding-xs color-white background-tertiary-400">Tertiary<br>400</div>
   <div class="padding-xs color-white background-tertiary-500">Tertiary<br>500</div>
   <div class="padding-xs color-white background-tertiary-600">Tertiary<br>600</div>
@@ -236,10 +236,10 @@ description: null
 
 <div class="padding-xs color-white background-error">Error</div>
 <div class="palette">
-  <div class="padding-xs color-white background-error-50">Error<br>50</div>
-  <div class="padding-xs color-white background-error-100">Error<br>100</div>
-  <div class="padding-xs color-white background-error-200">Error<br>200</div>
-  <div class="padding-xs color-white background-error-300">Error<br>300</div>
+  <div class="padding-xs color-dark background-error-50">Error<br>50</div>
+  <div class="padding-xs color-dark background-error-100">Error<br>100</div>
+  <div class="padding-xs color-dark background-error-200">Error<br>200</div>
+  <div class="padding-xs color-dark background-error-300">Error<br>300</div>
   <div class="padding-xs color-white background-error-400">Error<br>400</div>
   <div class="padding-xs color-white background-error-500">Error<br>500</div>
   <div class="padding-xs color-white background-error-600">Error<br>600</div>
@@ -268,10 +268,10 @@ description: null
 
 <div class="padding-xs color-white background-warning">Warning</div>
 <div class="palette">
-  <div class="padding-xs color-white background-warning-50">Warning<br>50</div>
-  <div class="padding-xs color-white background-warning-100">Warning<br>100</div>
-  <div class="padding-xs color-white background-warning-200">Warning<br>200</div>
-  <div class="padding-xs color-white background-warning-300">Warning<br>300</div>
+  <div class="padding-xs color-dark background-warning-50">Warning<br>50</div>
+  <div class="padding-xs color-dark background-warning-100">Warning<br>100</div>
+  <div class="padding-xs color-dark background-warning-200">Warning<br>200</div>
+  <div class="padding-xs color-dark background-warning-300">Warning<br>300</div>
   <div class="padding-xs color-white background-warning-400">Warning<br>400</div>
   <div class="padding-xs color-white background-warning-500">Warning<br>500</div>
   <div class="padding-xs color-white background-warning-600">Warning<br>600</div>
@@ -300,10 +300,10 @@ description: null
 
 <div class="padding-xs color-white background-success">Success</div>
 <div class="palette">
-  <div class="padding-xs color-white background-success-50">Success<br>50</div>
-  <div class="padding-xs color-white background-success-100">Success<br>100</div>
-  <div class="padding-xs color-white background-success-200">Success<br>200</div>
-  <div class="padding-xs color-white background-success-300">Success<br>300</div>
+  <div class="padding-xs color-dark background-success-50">Success<br>50</div>
+  <div class="padding-xs color-dark background-success-100">Success<br>100</div>
+  <div class="padding-xs color-dark background-success-200">Success<br>200</div>
+  <div class="padding-xs color-dark background-success-300">Success<br>300</div>
   <div class="padding-xs color-white background-success-400">Success<br>400</div>
   <div class="padding-xs color-white background-success-500">Success<br>500</div>
   <div class="padding-xs color-white background-success-600">Success<br>600</div>
@@ -332,10 +332,10 @@ description: null
 
 <div class="padding-xs color-white background-info">Info</div>
 <div class="palette">
-  <div class="padding-xs color-white background-info-50">Info<br>50</div>
-  <div class="padding-xs color-white background-info-100">Info<br>100</div>
-  <div class="padding-xs color-white background-info-200">Info<br>200</div>
-  <div class="padding-xs color-white background-info-300">Info<br>300</div>
+  <div class="padding-xs color-dark background-info-50">Info<br>50</div>
+  <div class="padding-xs color-dark background-info-100">Info<br>100</div>
+  <div class="padding-xs color-dark background-info-200">Info<br>200</div>
+  <div class="padding-xs color-dark background-info-300">Info<br>300</div>
   <div class="padding-xs color-white background-info-400">Info<br>400</div>
   <div class="padding-xs color-white background-info-500">Info<br>500</div>
   <div class="padding-xs color-white background-info-600">Info<br>600</div>

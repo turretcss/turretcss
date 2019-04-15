@@ -97,7 +97,7 @@ Responsive breakpoints are configurable via setting [@custom-media queries](/bas
 
 Each interactive element - such as `<input>`, `<select>`, `<button>`, etc. - have sizes that can be applied with optional classes, for example `.button-s`.
 
-The height of these elements is set by [global height variables](/globals/height).
+The size of these elements is set by global height variables.
 
 Element sizes examples:
 
@@ -111,7 +111,7 @@ Element sizes examples:
 
 ## States
 
-Any element that has states - hover, focus, active, selected etc. - has default options that can be set these include: `color`, `background`, `border-color`, and `shadow`. These states inherit styles (`box-shadow`) that are configured [globally](/globals/box-shadow) as well as specific state styles that can be configures per element, and style.
+Any element that has states - hover, focus, active, selected etc. - has default options that can be set these include: `color`, `background`, `border-color`, and `shadow`. These states inherit styles (`box-shadow`) that are configured globally as well as specific state styles that can be configured per element, and style.
 
 ## Indicators
 
