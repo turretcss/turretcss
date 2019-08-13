@@ -54,7 +54,7 @@ description: null
 --select-border-width: var(--input-border-width);
 --select-border-style: var(--input-border-style);
 --select-border-color: var(--input-border-color);
---select-border-radius: var(--border-radius);
+--select-border-radius: var(--input-border-radius);
 --select-box-shadow: var(--input-box-shadow);
 
 --select-arrow-size: 4px;
