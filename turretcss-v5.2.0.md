@@ -1,4 +1,4 @@
 - Removed duplicate `caption` selector in `reset.css`
-- Update `--select-border-radius` default variable definition in `_form.css` to `--input-border-radius`
+- Updated `--select-border-radius` default variable definition in `_form.css` to `--input-border-radius`
 - Moved `@custom-media` cusotm media queries from `_base.css` to `_media_queries.css` and remove from `:root {}` context as per issue (https://github.com/postcss/postcss-custom-media/issues/54)
-- Update deps. Including major versions for postcss to ^7.0.17 and postcss-preset-env to ^6.7.0
+- Updated dependancies. Including major versions for `postcss@^7.0.17` and `postcss-preset-env@^6.7.0`
