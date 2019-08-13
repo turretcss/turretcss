@@ -19,6 +19,7 @@
  * Definitions
  */
 
+@import './_media-queries';
 @import './_color';
 @import './_base';
 @import './_typography';
