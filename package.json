@@ -51,6 +51,6 @@
     "prettier": "^1.14.0"
   },
   "browserslist": [
-    "last 2 version"
+    "last 2 versions"
   ]
 }
