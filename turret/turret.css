@@ -128,6 +128,7 @@
 @import './utility/font-size';
 @import './utility/font-style';
 @import './utility/font-weight';
+@import './utility/height';
 @import './utility/icon';
 @import './utility/letter-spacing';
 @import './utility/line-height';
