@@ -4,7 +4,7 @@ title: Font Weight
 description: null
 ---
 
-## Example
+## Named Values
 
 <p class="font-weight-thin">Font Weight Thin</p>
 <p class="font-weight-extra-light">Font Weight Extra Light</p>
@@ -28,4 +28,28 @@ description: null
 <p class="font-weight-extra-bold">...</p>
 <p class="font-weight-black">...</p>
 <p class="font-weight">...</p>
+```
+
+## Numerical Values
+
+<p class="font-weight-100">Font Weight 100</p>
+<p class="font-weight-200">Font Weight 200</p>
+<p class="font-weight-300">Font Weight 300</p>
+<p class="font-weight-400">Font Weight 400</p>
+<p class="font-weight-500">Font Weight 500</p>
+<p class="font-weight-600">Font Weight 600</p>
+<p class="font-weight-700">Font Weight 700</p>
+<p class="font-weight-800">Font Weight 800</p>
+<p class="font-weight-900">Font Weight 900</p>
+
+```html
+<p class="font-weight-100">...</p>
+<p class="font-weight-200">...</p>
+<p class="font-weight-300">...</p>
+<p class="font-weight-400">...</p>
+<p class="font-weight-500">...</p>
+<p class="font-weight-600">...</p>
+<p class="font-weight-700">...</p>
+<p class="font-weight-800">...</p>
+<p class="font-weight-900">...</p>
 ```
