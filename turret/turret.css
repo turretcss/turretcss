@@ -126,6 +126,7 @@
 @import './utility/flex';
 @import './utility/font-family';
 @import './utility/font-size';
+@import './utility/font-style';
 @import './utility/font-weight';
 @import './utility/icon';
 @import './utility/letter-spacing';

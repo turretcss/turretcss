@@ -1,0 +1,23 @@
+.font-style-inherit {
+  font-style: inherit;
+}
+
+.font-style-initial {
+  font-style: initial;
+}
+
+.font-style-unset {
+  font-style: unset;
+}
+
+.font-style-normal {
+  font-style: normal;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+
+.font-style-oblique {
+  font-style: oblique;
+}
