@@ -207,6 +207,8 @@
       url: /utility/order
     - title: Overflow 
       url: /utility/overflow
+    - title: Overflow Wrap 
+      url: /utility/overflow-wrap
     - title: Padding 
       url: /utility/padding
     - title: Pointer Events 
