@@ -6,11 +6,18 @@ description: null
 
 Utility classes can be used to position elements easily, each position utility class is `position: absolute;` with top/right/bottom/left properties
 
-| Class                   | Description                                            |
-| ----------------------- | ------------------------------------------------------ |
-| `fixed`                 | Sets `position: fixed;`                                |
-| `relative`              | Sets `position: relative;`                             |
-| `absolute`              | Sets `position: absolute;`                             |
+| Class                   | Description                 |
+| ----------------------- | --------------------------- |
+| `absolute`              | Sets `position: absolute;`  |
+| `position-absolute`     | Sets `position: absolute;`  |
+| `fixed`                 | Sets `position: fixed;`     |
+| `position-fixed`        | Sets `position: fixed;`     |
+| `relative`              | Sets `position: relative;`  |
+| `position-relative`     | Sets `position: relative;`  |
+| `sitcky`                | Sets `position: sitcky;`    |
+| `position-sitcky`       | Sets `position: sitcky;`    |
+| `static`                | Sets `position: static;`    |
+| `position-static`       | Sets `position: static;`    |
 | `position-top`          | Sets `top: 0;`              |
 | `position-top-left`     | Sets `top: 0; left: 0;`     |
 | `position-top-right`    | Sets `top: 0; right: 0;`    |

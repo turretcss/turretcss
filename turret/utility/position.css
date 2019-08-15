@@ -1,13 +1,26 @@
-.fixed {
+.fixed,
+.position-fixed {
   position: fixed;
 }
 
-.relative {
+.relative,
+.position-relative {
   position: relative;
 }
 
-.absolute {
+.absolute,
+.position-absolute {
   position: absolute;
+}
+
+.sitcky,
+.position-sitcky {
+  position: sitcky;
+}
+
+.static,
+.position-static {
+  position: static;
 }
 
 .position-top {
