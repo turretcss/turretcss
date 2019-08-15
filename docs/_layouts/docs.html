@@ -29,19 +29,22 @@ layout: default
   {% endif %}
   
   {% if items.size > 0 %}
-    <section class="padding-bottom-xxl">
+    <section class="padding-vertical-xxl border-top">
       <div class="container">
-        <h2>Related</h2>
-        <ul class="boxes margin-top-l">
-          {% for item in items %}
-          <li>
-            <a class="button button-primary button-block button-icon" href="{{ item.url }}">
-              <span>{{ item.title }}</span>
-              {% include svg/right.svg %}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+        <h2 class="display-title display-title-l">Related</h2>
+        <hr class="divider background-primary">
+        <nav class="margin-top-l">
+          <ul class="boxes">
+            {% for item in items %}
+            <li>
+              <a class="button button-primary button-block button-icon" href="{{ item.url }}">
+                <span>{{ item.title }}</span>
+                {% include svg/right.svg %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
     </section>
   {% endif %}
