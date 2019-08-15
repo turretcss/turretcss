@@ -11,7 +11,11 @@ Utility classes can be used to position elements easily, each position utility c
 | `fixed`                 | Sets `position: fixed;`                                |
 | `relative`              | Sets `position: relative;`                             |
 | `absolute`              | Sets `position: absolute;`                             |
-| `position-top-left`     | Positions element to the top left of its container     |
-| `position-top-right`    | Positions element to the top right of its container    |
-| `position-bottom-left`  | Positions element to the bottom left of its container  |
-| `position-bottom-right` | Positions element to the bottom right of its container |
+| `position-top`          | Sets `top: 0;`              |
+| `position-top-left`     | Sets `top: 0; left: 0;`     |
+| `position-top-right`    | Sets `top: 0; right: 0;`    |
+| `position-right`        | Sets `right: 0;`            |
+| `position-bottom`       | Sets `bottom: 0;`           |
+| `position-bottom-left`  | Sets `bottom: 0; left: 0;`  |
+| `position-bottom-right` | Sets `bottom: 0; right: 0;` |
+| `position-left`         | Sets `left: 0;`             |

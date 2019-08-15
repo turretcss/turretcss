@@ -10,6 +10,10 @@
   position: absolute;
 }
 
+.position-top {
+  top: 0;
+}
+
 .position-top-left {
   top: 0;
   left: 0;
@@ -20,6 +24,14 @@
   right: 0;
 }
 
+.position-right {
+  right: 0;
+}
+
+.position-bottom {
+  bottom: 0;
+}
+
 .position-bottom-left {
   bottom: 0;
   left: 0;
@@ -28,4 +40,8 @@
 .position-bottom-right {
   bottom: 0;
   right: 0;
+}
+
+.position-left {
+  left: 0;
 }
