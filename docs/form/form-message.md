@@ -51,6 +51,9 @@ description: null
 --form-message-font-family: var(--paragraph-font-family);
 --form-message-font-weight: var(--paragraph-font-weight);
 --form-message-font-size: var(--font-size-s);
+--form-message-font-style: var(--paragraph-font-style);
 --form-message-color: var(--paragraph-color);
 --form-message-line-height: var(--paragraph-line-height);
+--form-message-text-transform: var(--paragraph-text-transform);
+--form-message-letter-spacing: var(--paragraph-letter-spacing);
 ```

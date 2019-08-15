@@ -3,8 +3,11 @@
   font-family: var(--form-message-font-family);
   font-weight: var(--form-message-font-weight);
   font-size: var(--form-message-font-size);
+  font-style: var(--form-message-font-style);
   color: var(--form-message-color);
   line-height: var(--form-message-line-height);
+  text-transform: var(--form-message-text-transform);
+  letter-spacing: var(--form-message-letter-spacing);
 
   &:empty {
     display: none;
