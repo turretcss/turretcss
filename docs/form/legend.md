@@ -23,7 +23,7 @@ description: null
 ### CSS
 
 ```scss
---legend-padding: 0.5em;
+--legend-padding: 0;
 --legend-font-family: inherit;
 --legend-font-weight: inherit;
 --legend-font-size: var(--font-size-m);
