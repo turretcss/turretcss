@@ -159,73 +159,73 @@
 - title: Utility
   url: /utility
   children:
-    - title: Z-Index
-      url: /utility/z-index
-    - title: Visibility
-      url: /utility/visibility
-    - title: Cursor
-      url: /utility/cursor
-    - title: Display
-      url: /utility/display
-    - title: Order
-      url: /utility/order
-    - title: Overflow
-      url: /utility/overflow
-    - title: Position
-      url: /utility/position
-    - title: Pointer Events
-      url: /utility/pointer-events
-    - title: Transition
-      url: /utility/transition
-    - title: Fill
-      url: /utility/fill
-    - title: Flex
-      url: /utility/flex
-    - title: Font Family
-      url: /utility/font-family
-    - title: Font Weight
-      url: /utility/font-weight
-    - title: Font Size
-      url: /utility/font-size
-    - title: Max Width
-      url: /utility/max-width
-    - title: Min Height
-      url: /utility/min-height
-    - title: Margin
-      url: /utility/margin
-    - title: Padding
-      url: /utility/padding
-    - title: Headings
-      url: /utility/headings
-    - title: Icon Sizes
-      url: /utility/icon-sizes
-    - title: Line Height
-      url: /utility/line-height
-    - title: Letter Spacing
-      url: /utility/letter-spacing
-    - title: Stroke
-      url: /utility/stroke
-    - title: Space
-      url: /utility/space
-    - title: Text Align
-      url: /utility/text-align
-    - title: Text Decoration
-      url: /utility/text-decoration
-    - title: Text Transform
-      url: /utility/text-transform
-    - title: Truncate
-      url: /utility/truncate
-    - title: Color
-      url: /utility/color
-    - title: Background
-      url: /utility/background
-    - title: Background Color
+    - title: Background Color 
       url: /utility/background-color
-    - title: Border
-      url: /utility/border
-    - title: Border Color
+    - title: Background 
+      url: /utility/background
+    - title: Border Color 
       url: /utility/border-color
-    - title: Border Radius
+    - title: Border Radius 
       url: /utility/border-radius
-    - title: Box Shadow
+    - title: Border 
+      url: /utility/border
+    - title: Box Shadow 
       url: /utility/box-shadow
+    - title: Color 
+      url: /utility/color
+    - title: Cursor 
+      url: /utility/cursor
+    - title: Display 
+      url: /utility/display
+    - title: Fill 
+      url: /utility/fill
+    - title: Flex 
+      url: /utility/flex
+    - title: Font Family 
+      url: /utility/font-family
+    - title: Font Size 
+      url: /utility/font-size
+    - title: Font Weight 
+      url: /utility/font-weight
+    - title: Headings 
+      url: /utility/headings
+    - title: Icon Sizes 
+      url: /utility/icon-sizes
+    - title: Letter Spacing 
+      url: /utility/letter-spacing
+    - title: Line Height 
+      url: /utility/line-height
+    - title: Margin 
+      url: /utility/margin
+    - title: Max Width 
+      url: /utility/max-width
+    - title: Min Height 
+      url: /utility/min-height
+    - title: Order 
+      url: /utility/order
+    - title: Overflow 
+      url: /utility/overflow
+    - title: Padding 
+      url: /utility/padding
+    - title: Pointer Events 
+      url: /utility/pointer-events
+    - title: Position 
+      url: /utility/position
+    - title: Space 
+      url: /utility/space
+    - title: Stroke 
+      url: /utility/stroke
+    - title: Text Align 
+      url: /utility/text-align
+    - title: Text Decoration 
+      url: /utility/text-decoration
+    - title: Text Transform 
+      url: /utility/text-transform
+    - title: Transition 
+      url: /utility/transition
+    - title: Truncate 
+      url: /utility/truncate
+    - title: Visibility 
+      url: /utility/visibility
+    - title: Z-Index 
+      url: /utility/z-index
