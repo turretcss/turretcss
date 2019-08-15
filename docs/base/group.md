@@ -58,6 +58,79 @@ A generic `.group` class to provide spacing between like items. Can be used for 
 </div>
 ```
 
+## Group Column
+
+<div class="group group-m group-column">
+  <ul>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">1</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">2</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">3</div>
+    </li>
+  </ul>
+</div>
+
+### HTML
+
+```html
+<div class="group group-m group-column">
+  <ul>
+    <li>...</li>
+  </ul>
+</div>
+```
+
+## Group Nowrap
+
+<div class="group group-m group-nowrap overflow-x-scroll">
+  <ul>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">1</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">2</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">3</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">4</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">5</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">6</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">7</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">8</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">9</div>
+    </li>
+    <li>
+      <div class="padding-xxs line-height-1 background-primary color-white">10</div>
+    </li>
+  </ul>
+</div>
+
+### HTML
+
+```html
+<div class="group group-m group-nowrap">
+  <ul>
+    <li>...</li>
+  </ul>
+</div>
+```
+
 ## Group Space Between
 
 <div class="group group-m group-space-between text-align-center">

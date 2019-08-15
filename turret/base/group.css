@@ -21,6 +21,18 @@
   }
 }
 
+.group-column {
+  & > ul {
+    flex-direction: column;
+  }
+}
+
+.group-nowrap {
+  & > ul {
+    flex-wrap: nowrap;
+  }
+}
+
 .group-space-between {
   & > ul {
     justify-content: space-between;
