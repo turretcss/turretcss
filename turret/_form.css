@@ -22,11 +22,11 @@
    */
 
   --fieldset-margin: var(--field-margin);
-  --fieldset-padding: var(--space-xs);
-  --fieldset-border-width: var(--border-width);
-  --fieldset-border-style: var(--border-style);
-  --fieldset-border-color: var(--border-color);
-  --fieldset-border-radius: var(--border-radius);
+  --fieldset-padding: 0;
+  --fieldset-border-width: 0;
+  --fieldset-border-style: none;
+  --fieldset-border-color: transparent;
+  --fieldset-border-radius: 0;
 
   /** 
    * Legend
