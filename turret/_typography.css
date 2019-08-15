@@ -37,10 +37,10 @@
    * Display Title
    */
 
-  --display-title-margin: 0;
-  --display-title-font-family: var(--headings-font-family);
-  --display-title-font-weight: var(--headings-font-weight);
-  --display-title-font-size: 1.375rem;
+  --display-title-margin: 0.125em 0;
+  --display-title-font-family: inherit;
+  --display-title-font-weight: var(--font-weight-bold);
+  --display-title-font-size: 1.5rem;
   --display-title-font-style: normal;
   --display-title-color: inherit;
   --display-title-line-height: var(--line-height-xxs);
@@ -51,12 +51,12 @@
    * Display Title Sizes
    */
 
-  --display-title-xxl-font-size: calc(var(--display-title-xl-font-size) + 0.125rem);
-  --display-title-xl-font-size: calc(var(--display-title-l-font-size) + 0.125rem);
-  --display-title-l-font-size: calc(var(--display-title-font-size) + 0.125rem);
-  --display-title-s-font-size: calc(var(--display-title-font-size) - 0.125rem);
-  --display-title-xs-font-size: calc(var(--display-title-s-font-size) - 0.125rem);
-  --display-title-xxs-font-size: calc(var(--display-title-xs-font-size) - 0.125rem);
+  --display-title-xxl-font-size: 2.5rem;
+  --display-title-xl-font-size: 2rem;
+  --display-title-l-font-size: 1.75rem;
+  --display-title-s-font-size: 1.25rem;
+  --display-title-xs-font-size: 1.125rem;
+  --display-title-xxs-font-size: 1rem;
 
   /**
    * All Caps
