@@ -39,11 +39,15 @@ button,
     box-shadow: var(--button-active-box-shadow);
   }
 
-  &.spinner::before {
-    margin-top: -0.5em;
-    margin-left: -0.5em;
-    width: 1em;
-    height: 1em;
+  &.spinner {
+    color: transparent !important;
+
+    &::before {
+      margin-top: -0.5em;
+      margin-left: -0.5em;
+      width: 1em;
+      height: 1em;
+    }
   }
 
   & svg {
