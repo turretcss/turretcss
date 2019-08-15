@@ -135,6 +135,7 @@
 @import './utility/max-width';
 @import './utility/min-height';
 @import './utility/order';
+@import './utility/opacity';
 @import './utility/overflow';
 @import './utility/overflow-wrap';
 @import './utility/padding';
