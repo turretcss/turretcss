@@ -120,6 +120,7 @@
 @import './utility/border-color';
 @import './utility/box-shadow';
 @import './utility/color';
+@import './utility/cursor';
 @import './utility/display';
 @import './utility/fill';
 @import './utility/flex';

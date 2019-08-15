@@ -163,6 +163,8 @@
       url: /utility/z-index
     - title: Visibility
       url: /utility/visibility
+    - title: Cursor
+      url: /utility/cursor
     - title: Display
       url: /utility/display
     - title: Order
