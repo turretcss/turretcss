@@ -1,235 +1,241 @@
 - title: Getting Started
-  url: /getting-started
+  url: /getting-started/
   children:
     - title: Usage
-      url: /getting-started/usage
+      url: /getting-started/usage/
     - title: Support
-      url: /getting-started/support
+      url: /getting-started/support/
     - title: Accessibility
-      url: /getting-started/accessibility
+      url: /getting-started/accessibility/
     - title: Contributors
-      url: /getting-started/contributors
+      url: /getting-started/contributors/
     - title: Licence
-      url: /getting-started/licence
+      url: /getting-started/licence/
 
 - title: Demo
-  url: /demo
+  url: /demo/
 
 - title: Color
-  url: /color
+  url: /color/
 
 - title: Base
-  url: /base
+  url: /base/
   children:
     - title: Reset
-      url: /base/reset
+      url: /base/reset/
     - title: Body
-      url: /base/body
+      url: /base/body/
     - title: Media Queries
-      url: /base/media-queries
+      url: /base/media-queries/
     - title: Print
-      url: /base/print
+      url: /base/print/
     - title: Container
-      url: /base/container
+      url: /base/container/
     - title: Group
-      url: /base/group
+      url: /base/group/
     - title: Icon
-      url: /base/icon
+      url: /base/icon/
     - title: Font Family
-      url: /base/font-family
+      url: /base/font-family/
     - title: Font Weight
-      url: /base/font-weight
+      url: /base/font-weight/
     - title: Font Size
-      url: /base/font-size
+      url: /base/font-size/
     - title: Line Height
-      url: /base/line-height
+      url: /base/line-height/
     - title: Letter Spacing
-      url: /base/letter-spacing
+      url: /base/letter-spacing/
 
 - title: Typography
-  url: /typography
+  url: /typography/
   children:
     - title: Headings
-      url: /typography/headings
+      url: /typography/headings/
     - title: Display Title
-      url: /typography/display-title
+      url: /typography/display-title/
     - title: All Caps
-      url: /typography/all-caps
+      url: /typography/all-caps/
     - title: Lead
-      url: /typography/lead
+      url: /typography/lead/
     - title: Paragraph
-      url: /typography/paragraph
+      url: /typography/paragraph/
     - title: Link
-      url: /typography/link
+      url: /typography/link/
     - title: Strong
-      url: /typography/strong
+      url: /typography/strong/
     - title: Emphasis
-      url: /typography/emphasis
+      url: /typography/emphasis/
     - title: Horizontal Rule
-      url: /typography/horizontal-rule
+      url: /typography/horizontal-rule/
     - title: Blockquote
-      url: /typography/blockquote
+      url: /typography/blockquote/
     - title: Cite
-      url: /typography/cite
+      url: /typography/cite/
     - title: List
-      url: /typography/list
+      url: /typography/list/
     - title: Definition List
-      url: /typography/definition-list
+      url: /typography/definition-list/
     - title: Code
-      url: /typography/code
+      url: /typography/code/
     - title: Pre
-      url: /typography/pre
+      url: /typography/pre/
     - title: Kbd
-      url: /typography/kbd
+      url: /typography/kbd/
     - title: Mark
-      url: /typography/mark
+      url: /typography/mark/
 
 - title: Form
-  url: /form
+  url: /form/
   children:
     - title: Field
-      url: /form/field
+      url: /form/field/
     - title: Label
-      url: /form/label
+      url: /form/label/
     - title: Fieldset
-      url: /form/fieldset
+      url: /form/fieldset/
     - title: Legend
-      url: /form/legend
+      url: /form/legend/
     - title: Form Message
-      url: /form/form-message
+      url: /form/form-message/
     - title: Input
-      url: /form/input
+      url: /form/input/
     - title: Input Indicators
-      url: /form/input-indicators
+      url: /form/input-indicators/
     - title: Input Sizes
-      url: /form/input-sizes
+      url: /form/input-sizes/
     - title: Input Group
-      url: /form/input-group
+      url: /form/input-group/
     - title: Control
-      url: /form/control
+      url: /form/control/
     - title: Control Indicators
-      url: /form/control-indicators
+      url: /form/control-indicators/
     - title: Control Sizes
-      url: /form/control-sizes
+      url: /form/control-sizes/
     - title: Select
-      url: /form/select
+      url: /form/select/
     - title: Select Indicators
-      url: /form/select-indicators
+      url: /form/select-indicators/
     - title: Select Sizes
-      url: /form/select-sizes
+      url: /form/select-sizes/
     - title: Range
-      url: /form/range
+      url: /form/range/
     - title: Range Indicators
-      url: /form/range-indicators
+      url: /form/range-indicators/
     - title: Range Sizes
-      url: /form/range-sizes
+      url: /form/range-sizes/
     - title: Progress
-      url: /form/progress
+      url: /form/progress/
     - title: Progress Indicators
-      url: /form/progress-indicators
+      url: /form/progress-indicators/
     - title: Progress Sizes
-      url: /form/progress-sizes
+      url: /form/progress-sizes/
 
 - title: Element
-  url: /element
+  url: /element/
   children:
     - title: Button
-      url: /element/button
+      url: /element/button/
     - title: Button Sizes
-      url: /element/button-sizes
+      url: /element/button-sizes/
     - title: Button Colors
-      url: /element/button-colors
+      url: /element/button-colors/
     - title: Button Icon
-      url: /element/button-icon
+      url: /element/button-icon/
     - title: Button Group
-      url: /element/button-group
+      url: /element/button-group/
     - title: Figure
-      url: /element/figure
+      url: /element/figure/
     - title: Media
-      url: /element/media
+      url: /element/media/
     - title: Spinner
-      url: /element/spinner
+      url: /element/spinner/
     - title: Spinner Sizes
-      url: /element/spinner-sizes
+      url: /element/spinner-sizes/
     - title: Nav
-      url: /element/nav
+      url: /element/nav/
     - title: Table
-      url: /element/table
+      url: /element/table/
 
 - title: Utility
-  url: /utility
+  url: /utility/
   children:
     - title: Background Color 
-      url: /utility/background-color
+      url: /utility/background-color/
     - title: Background 
-      url: /utility/background
+      url: /utility/background/
     - title: Border Color 
-      url: /utility/border-color
+      url: /utility/border-color/
     - title: Border Radius 
-      url: /utility/border-radius
+      url: /utility/border-radius/
     - title: Border 
-      url: /utility/border
+      url: /utility/border/
     - title: Box Shadow 
-      url: /utility/box-shadow
+      url: /utility/box-shadow/
     - title: Color 
-      url: /utility/color
+      url: /utility/color/
     - title: Cursor 
-      url: /utility/cursor
+      url: /utility/cursor/
     - title: Display 
-      url: /utility/display
+      url: /utility/display/
     - title: Fill 
-      url: /utility/fill
+      url: /utility/fill/
     - title: Flex 
-      url: /utility/flex
+      url: /utility/flex/
     - title: Font Family 
-      url: /utility/font-family
+      url: /utility/font-family/
     - title: Font Size 
-      url: /utility/font-size
+      url: /utility/font-size/
     - title: Font Style 
-      url: /utility/font-style
+      url: /utility/font-style/
     - title: Font Weight 
-      url: /utility/font-weight
+      url: /utility/font-weight/
     - title: Headings 
-      url: /utility/headings
+      url: /utility/headings/
+    - title: Height 
+      url: /utility/height/
     - title: Icon Sizes 
-      url: /utility/icon-sizes
+      url: /utility/icon-sizes/
     - title: Letter Spacing 
-      url: /utility/letter-spacing
+      url: /utility/letter-spacing/
     - title: Line Height 
-      url: /utility/line-height
+      url: /utility/line-height/
     - title: Margin 
-      url: /utility/margin
+      url: /utility/margin/
     - title: Max Width 
-      url: /utility/max-width
+      url: /utility/max-width/
     - title: Min Height 
-      url: /utility/min-height
+      url: /utility/min-height/
     - title: Order 
-      url: /utility/order
+      url: /utility/order/
+    - title: Opacity 
+      url: /utility/opacity/
     - title: Overflow 
-      url: /utility/overflow
+      url: /utility/overflow/
     - title: Overflow Wrap 
-      url: /utility/overflow-wrap
+      url: /utility/overflow-wrap/
     - title: Padding 
-      url: /utility/padding
+      url: /utility/padding/
     - title: Pointer Events 
-      url: /utility/pointer-events
+      url: /utility/pointer-events/
     - title: Position 
-      url: /utility/position
+      url: /utility/position/
     - title: Space 
-      url: /utility/space
+      url: /utility/space/
     - title: Stroke 
-      url: /utility/stroke
+      url: /utility/stroke/
     - title: Text Align 
-      url: /utility/text-align
+      url: /utility/text-align/
     - title: Text Decoration 
-      url: /utility/text-decoration
+      url: /utility/text-decoration/
     - title: Text Transform 
-      url: /utility/text-transform
+      url: /utility/text-transform/
     - title: Transition 
-      url: /utility/transition
+      url: /utility/transition/
     - title: Truncate 
-      url: /utility/truncate
+      url: /utility/truncate/
     - title: Visibility 
-      url: /utility/visibility
+      url: /utility/visibility/
+    - title: Width 
+      url: /utility/width/
     - title: Z-Index 
-      url: /utility/z-index
+      url: /utility/z-index/

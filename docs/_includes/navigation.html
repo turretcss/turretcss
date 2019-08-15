@@ -1,33 +1,24 @@
-{% for entry in site.data.nav %}
-  {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-  {% if fullurl == page.url %}
-    {% assign active_page = fullurl %}
-    {% break %}
-  {% elsif page.url contains fullurl %}
-    {% assign active_page = fullurl %}
-  {% endif %}
-{% endfor %}
 <nav class="navigation">
   <ul>
-    <li class="{{ active }}">
+    <li>
       <a href="{{ site.baseurl }}/">Home</a>
     </li>
     {% for entry in site.data.nav %}
-      {% assign active = null %}
-      {% if entry.url == active_page %}
-        {% assign active = 'active' %}
+      {% assign class = null %}
+      {% if page.url contains entry.url %}
+        {% assign class = 'active' %}
       {% endif %}
-        <li class="{{ active }}">
+        <li class="{{ class }}">
           <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
           {% if entry.children %}
             <ul>
               {% for child in entry.children %}
-                {% assign active = null %}
-                {% if child.url == active_page %}
-                  {% assign active = 'active' %}
+                {% assign class = null %}
+                {% if page.url == child.url %}
+                  {% assign class = 'active' %}
                 {% endif %}
-                <li class="{{ active }}">
-                  <a class="{% if child.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>
+                <li class="{{ class }}">
+                  <a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>
                 </li>
               {% endfor %}
             </ul>

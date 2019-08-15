@@ -12,6 +12,17 @@
     font-size: var(--font-size-m);
     line-height: var(--line-height-s);
 
+    &.active {
+      & ul {
+        display: block;
+      }
+
+      & > a {
+        padding-left: 0.75em;
+        border-left: 0.25em solid var(--primary);
+      }
+    }
+
     & ul {
       display: none;
 
@@ -23,17 +34,17 @@
         & a {
           padding: 0.5em 2em;
         }
-      }
-    }
 
-    &.active {
-      & ul {
-        display: block;
-      }
+        &.active {
+          & ul {
+            display: block;
+          }
 
-      & > a {
-        padding-left: 0.75em;
-        border-left: 0.25em solid var(--primary);
+          & > a {
+            padding-left: 1.75em;
+            font-weight: var(--font-weight-semibold);
+          }
+        }
       }
     }
   }
