@@ -4,7 +4,6 @@
 
 button,
 .button {
-
   &.spinner {
     color: transparent !important;
 

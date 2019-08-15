@@ -3,6 +3,7 @@
 - Added numerical value `.font-weight-*` utility classes for 100-900 values
 - Added `position-absolute`, `position-fixed`, `position-relative` classname variants for utility classes
 - Added `sticky`, `position-sitcky` and `static`, `position-static` utility classes
+- Added `cursor-*` utility classes for all values of the `cursor` property
 
 ## Updates
 
@@ -12,6 +13,8 @@
 - Updated `.font-weight-*` named variables and utility classes to match common name matching as identified in issue #32
 - Updated `.position-[direction]` utility classes to include variants for `position-top`, `position-right`, `position-bottom`, `position-left`
 - Updated `display-title` default variable definitions for better default styling
+- Updated opinionated styles from `<fieldset>` default variable definitions, instead opting basic display which can be customised if desired
+- Updated `--legend-padding` to `0` default variable definitions removing opinionated styles
 
 ## Removals
 
@@ -25,3 +28,6 @@
 ## Docs
 
 - Updated Border Color examples with `margin-vertical-xs`
+- Remove unnecessary duplicate or "Example" `<h2>` from utility class pages
+- Updated `field` examples to use `<p>` tags to improve semantics
+- Cleanup `<input />` tags for prettier HTML cleanup
