@@ -4,8 +4,6 @@ title: Background Color
 description: null
 ---
 
-## Background Color
-
 | Class                      | Description                                          |
 | -------------------------- | ---------------------------------------------------- |
 | `background-transparent`   | Applies `background: transparent;` to element        |

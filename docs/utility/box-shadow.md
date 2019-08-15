@@ -4,16 +4,14 @@ title: Box Shadow
 description: null
 ---
 
-## Box Shadow
-
-<div class="padding-s margin-xs box-shadow-xxl">Box Shadow XXL</div>
-<div class="padding-s margin-xs box-shadow-xl">Box Shadow XL</div>
-<div class="padding-s margin-xs box-shadow-l">Box Shadow L</div>
-<div class="padding-s margin-xs box-shadow-m">Box Shadow M</div>
-<div class="padding-s margin-xs box-shadow-s">Box Shadow S</div>
-<div class="padding-s margin-xs box-shadow-xs">Box Shadow XS</div>
-<div class="padding-s margin-xs box-shadow-xxs">Box Shadow XXS</div>
-<div class="padding-s margin-xs box-shadow">Box Shadow</div>
+<div class="padding-xs margin-vertical-m box-shadow-xxl">Box Shadow XXL</div>
+<div class="padding-xs margin-vertical-m box-shadow-xl">Box Shadow XL</div>
+<div class="padding-xs margin-vertical-m box-shadow-l">Box Shadow L</div>
+<div class="padding-xs margin-vertical-m box-shadow-m">Box Shadow M</div>
+<div class="padding-xs margin-vertical-m box-shadow-s">Box Shadow S</div>
+<div class="padding-xs margin-vertical-m box-shadow-xs">Box Shadow XS</div>
+<div class="padding-xs margin-vertical-m box-shadow-xxs">Box Shadow XXS</div>
+<div class="padding-xs margin-vertical-m box-shadow">Box Shadow</div>
 
 ```html
 <div class="box-shadow-xxl">...</div>

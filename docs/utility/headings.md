@@ -4,8 +4,6 @@ title: Headings
 description: null
 ---
 
-## Example
-
 <p class="h1">Heading 1 <small>Heading 1 small</small></p>
 <p class="h2">Heading 2 <small>Heading 2 small</small></p>
 <p class="h3">Heading 3 <small>Heading 3 small</small></p>

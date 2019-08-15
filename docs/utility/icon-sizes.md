@@ -4,8 +4,6 @@ title: Icon Sizes
 description: null
 ---
 
-## Example
-
 <div>
   <svg class="icon-xxl" width="16" height="16" viewBox="0 0 16 16">
     <circle cx="8" cy="8" r="8"/>

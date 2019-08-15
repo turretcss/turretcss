@@ -4,8 +4,6 @@ title: Letter Spacing
 description: null
 ---
 
-## Example
-
 <p class="letter-spacing-xxl">Letter Spacing XXL</p>
 <p class="letter-spacing-xl">Letter Spacing XL</p>
 <p class="letter-spacing-l">Letter Spacing L</p>

@@ -4,8 +4,6 @@ title: Color
 description: null
 ---
 
-## Color
-
 <p class="color-inherit">Color Inherit</p>
 <p class="current-color">Current Color</p>
 <p class="color">Base Color</p>

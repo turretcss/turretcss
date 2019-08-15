@@ -4,8 +4,6 @@ title: Font Family
 description: null
 ---
 
-## Example
-
 <p class="font-family-system">Font Family System</p>
 <p class="font-family-sans-serif">Font Family Sans Serif</p>
 <p class="font-family-serif">Font Family Serif</p>

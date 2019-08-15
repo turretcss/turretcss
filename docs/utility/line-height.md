@@ -4,8 +4,6 @@ title: Line Height
 description: null
 ---
 
-## Example
-
 <p class="line-height-xxl">Line Height XXL</p>
 <p class="line-height-xl">Line Height XL</p>
 <p class="line-height-l">Line Height L</p>

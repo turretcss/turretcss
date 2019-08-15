@@ -4,8 +4,6 @@ title: Background
 description: null
 ---
 
-## Background
-
 | Class                  | Description                                        |
 | ---------------------- | -------------------------------------------------- |
 | `background-repeat`    | Applies `background-repeat: repeat;` to element    |

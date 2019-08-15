@@ -4,8 +4,6 @@ title: Text Transform
 description: null
 ---
 
-## Example
-
 <p class="text-transform-none">None</p>
 <p class="text-transform-capitalize">capitalize</p>
 <p class="text-transform-uppercase">Uppercase</p>

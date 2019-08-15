@@ -4,8 +4,6 @@ title: Text Align
 description: null
 ---
 
-## Example
-
 <p class="text-align-left">Left</p>
 <p class="text-align-center">Center</p>
 <p class="text-align-right">Right</p>

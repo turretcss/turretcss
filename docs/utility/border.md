@@ -4,8 +4,6 @@ title: Border
 description: null
 ---
 
-## Border
-
 <div class="padding-xs border">Border</div>
 
 ```html

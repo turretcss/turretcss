@@ -4,8 +4,6 @@ title: Space
 description: null
 ---
 
-## Example
-
 <div class="group group-xs">
   <ul>
     <li>

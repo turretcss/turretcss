@@ -4,8 +4,6 @@ title: Text Decoration
 description: null
 ---
 
-## Example
-
 <p><a href="#" class="text-decoration-underline">Underline</a></p>
 <p><a href="#" class="text-decoration-none">None</a></p>
 

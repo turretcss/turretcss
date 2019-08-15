@@ -4,8 +4,6 @@ title: Border Radius
 description: null
 ---
 
-## Border Radius
-
 <div class="padding-xs border border-radius">Border Radius</div>
 
 ```html
