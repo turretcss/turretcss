@@ -152,7 +152,10 @@ description: null
 --input-font-family: inherit;
 --input-font-weight: inherit;
 --input-font-size: var(--font-size-m);
+--input-font-style: normal;
 --input-line-height: var(--line-height-m);
+--input-text-transform: none;
+--input-letter-spacing: var(--letter-spacing);
 --input-background: var(--background);
 --input-border-width: var(--border-width);
 --input-border-style: var(--border-style);

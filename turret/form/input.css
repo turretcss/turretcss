@@ -10,8 +10,11 @@ textarea {
   font-family: var(--input-font-family);
   font-weight: var(--input-font-weight);
   font-size: var(--input-font-size);
+  font-style: var(--input-font-style);
   color: var(--input-color);
   line-height: var(--input-line-height);
+  text-transform: var(--input-text-transform);
+  letter-spacing: var(--input-letter-spacing);
   border-width: var(--input-border-width);
   border-style: var(--input-border-style);
   border-color: var(--input-border-color);
