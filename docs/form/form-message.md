@@ -7,31 +7,31 @@ description: null
 ## Example
 
 <form>
-  <p class="field">
+  <div class="field">
     <label for="form-message-title">Title</label>
     <input type="text" id="form-message-title" placeholder="Title">
     <p class="form-message">Form message</p>
-  </p>
-  <p class="field">
+  </div>
+  <div class="field">
     <label for="form-message-first-name">First Name</label>
     <input type="text" id="form-message-first-name" placeholder="Enter First Name">
     <p class="form-message success">Form message success</p>
-  </p>
-  <p class="field">
+  </div>
+  <div class="field">
     <label for="form-message-last-name">Last Name</label>
     <input type="text" id="form-message-last-name" placeholder="Enter Last Name">
     <p class="form-message error">Form message error</p>
-  </p>
-  <p class="field">
+  </div>
+  <div class="field">
     <label for="form-message-email">Email</label>
     <input type="email" id="form-message-email" placeholder="Enter Email">
     <p class="form-message warning">Form message warning</p>
-  </p>
-  <p class="field">
+  </div>
+  <div class="field">
     <label for="form-message-password">Password</label>
     <input type="password" id="form-message-password" placeholder="Enter Password">
     <p class="form-message info">Form message info</p>
-  </p>
+  </div>
 </form>
 
 ### HTML
