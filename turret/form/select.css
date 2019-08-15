@@ -10,7 +10,10 @@ select {
   font-family: var(--select-font-family);
   font-weight: var(--select-font-weight);
   font-size: var(--select-font-size);
+  font-style: var(--select-font-style);
   line-height: var(--select-line-height);
+  text-transform: var(--select-text-transform);
+  letter-spacing: var(--select-letter-spacing);
 
   & select {
     appearance: none;
@@ -22,8 +25,11 @@ select {
     font-family: inherit;
     font-weight: inherit;
     font-size: inherit;
+    font-style: inherit;
     color: var(--select-color);
     line-height: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
     background: var(--select-background);
     border-width: var(--select-border-width);
     border-style: var(--select-border-style);

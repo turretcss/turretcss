@@ -52,8 +52,11 @@ description: null
 --select-font-family: var(--input-font-family);
 --select-font-weight: var(--input-font-weight);
 --select-font-size: var(--input-font-size);
+--select-font-style: var(--input-font-style);
 --select-color: var(--input-color);
 --select-line-height: auto;
+--select-text-transform: var(--input-text-transform);
+--select-letter-spacing: var(--input-letter-spacing);
 --select-background: var(--input-background);
 --select-border-width: var(--input-border-width);
 --select-border-style: var(--input-border-style);
