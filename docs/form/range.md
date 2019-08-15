@@ -7,18 +7,21 @@ description: null
 ## Example
 
 <form>
-  <div class="field">
+  <p class="field">
     <input type="range" min="0" max="100" />
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input type="range" min="0" max="100" disabled />
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
 <input type="range" min="0" max="100" />
+```
+
+```html
 <input type="range" min="0" max="100" disabled />
 ```
 

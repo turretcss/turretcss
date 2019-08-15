@@ -7,7 +7,7 @@ description: null
 ## Example
 
 <form>
-  <div class="field">
+  <p class="field">
     <label class="select error" for="select-error">
       <select id="select-error">
         <option>Select Error</option>
@@ -15,8 +15,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select warning" for="select-warning">
       <select id="select-warning">
         <option>Select Warning</option>
@@ -24,8 +24,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select success" for="select-success">
       <select id="select-success">
         <option>Select Success</option>
@@ -33,8 +33,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select info" for="select-info">
       <select id="select-info">
         <option>Select Info</option>
@@ -42,29 +42,39 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
 <label class="select error" for="select-error">
-  <select id="select-error">...</select>
+  <select id="select-error">
+    ...
+  </select>
 </label>
 
 <label class="select warning" for="select-warning">
-  <select id="select-warning">...</select>
+  <select id="select-warning">
+    ...
+  </select>
 </label>
 
 <label class="select success" for="select-success">
-  <select id="select-success">...</select>
+  <select id="select-success">
+    ...
+  </select>
 </label>
 
 <label class="select select-s" for="select-s">
-  <select id="select-s">...</select>
+  <select id="select-s">
+    ...
+  </select>
 </label>
 
 <label class="select info" for="select-info">
-  <select id="select-info">...</select>
+  <select id="select-info">
+    ...
+  </select>
 </label>
 ```

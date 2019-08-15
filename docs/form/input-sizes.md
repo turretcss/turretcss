@@ -7,39 +7,39 @@ description: null
 ## Example
 
 <form>
-  <div class="field">
+  <p class="field">
     <input class="input-xxl" type="text" placeholder="Input XXL">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xl" type="text" placeholder="Input XL">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-l" type="text" placeholder="Input L">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input type="text" placeholder="Input M">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-s" type="text" placeholder="Input S">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xs" type="text" placeholder="Input XS">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xxs" type="text" placeholder="Input XXS">
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
-<input class="input-xxl" type="text">
-<input class="input-xl" type="text">
-<input class="input-l" type="text">
-<input type="text">
-<input class="input-s" type="text">
-<input class="input-xs" type="text">
-<input class="input-xxs" type="text">
+<input class="input-xxl" type="text" />
+<input class="input-xl" type="text" />
+<input class="input-l" type="text" />
+<input type="text" />
+<input class="input-s" type="text" />
+<input class="input-xs" type="text" />
+<input class="input-xxs" type="text" />
 ```
 
 ### CSS

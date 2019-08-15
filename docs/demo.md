@@ -349,10 +349,10 @@ description: Demo of all HTML elements with turretcss styles applied.
 
 ### Field
 
-<div class="field">
+<p class="field">
   <label for="input-field">Label</label>
   <input type="text" id="input-field" placeholder="Text">
-</div>
+</p>
 
 #### Field Float Label
 
@@ -366,17 +366,17 @@ description: Demo of all HTML elements with turretcss styles applied.
 <form role="form">
   <fieldset>
     <legend>Login</legend>
-    <div class="field">
+    <p class="field">
       <label for="fieldset-email">Email</label>
       <input type="email" id="fieldset-email" placeholder="Enter Email">
-    </div>
-    <div class="field">
+    </p>
+    <p class="field">
       <label for="fieldset-password">Password</label>
       <input type="password" id="fieldset-password" placeholder="Enter Password">
-    </div>
-    <div class="field">
+    </p>
+    <p class="field">
       <button type="submit" class="button">Submit</button>
-    </div>
+    </p>
   </fieldset>
 </form>
 
@@ -391,125 +391,125 @@ description: Demo of all HTML elements with turretcss styles applied.
 ### Input
 
 <form>
-  <div class="field">
+  <p class="field">
     <label for="input-text">Text Input</label>
     <input type="text" id="input-text" placeholder="Text">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-disabled">Disabled</label>
     <input type="text" id="input-disabled" placeholder="Disabled" disabled="">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-email">Email Input</label>
     <input type="email" id="input-email" placeholder="Email">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-search">Search Input</label>
     <input type="search" id="input-search" placeholder="Search">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-tel">Telephone Input</label>
     <input type="tel" id="input-tel" placeholder="Telephone">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-url">URL Input</label>
     <input type="url" id="input-url" placeholder="https://">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-password">Password Input</label>
     <input type="password" id="input-password" value="password">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-file">File Input</label>
     <input type="file" id="input-file">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-textarea">Textarea</label>
     <textarea id="input-textarea" cols="30" rows="5" placeholder="Textarea text"></textarea>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-number">Number Input</label>
     <input type="number" id="input-number" min="0" max="10" placeholder="Enter a number form 0 to 10">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-date">Date Input</label>
     <input type="date" id="input-date">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-month">Month Input</label>
     <input type="month" id="input-month">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-week">Week Input</label>
     <input type="week" id="input-week">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-datetime">Datetime Input</label>
     <input type="datetime" id="input-datetime" placeholder="Enter a datetime string">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-datetime-local">Datetime-local Input</label>
     <input type="datetime-local" id="input-datetime-local">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="input-color">Color Input</label>
     <input type="color" id="input-color" value="#3455DB">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input id="input-checkbox" type="checkbox" name="checkbox" value="Checkbox Input">
     <label for="input-checkbox">Checkbox Input</label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input id="input-radio" type="radio" name="radio" value="Radio Input">
     <label for="input-radio">Radio Input</label>
-  </div>
+  </p>
 </form>
 
 ### Input Indicators
 
 <form>
-  <div class="field">
+  <p class="field">
     <label for="error">Input Error</label>
     <input class="error" type="text" id="error" value="Input Error">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="warning">Input Warning</label>
     <input class="warning" type="text" id="warning" value="Input Warning">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="success">Input Success</label>
     <input class="success" type="text" id="success" value="Input Success">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="info">Input Info</label>
     <input class="info" type="text" id="info" value="Input Info">
-  </div>
+  </p>
 </form>
 
 ### Input Sizes
 
 <form>
-  <div class="field">
+  <p class="field">
     <input class="input-xxl" type="text" placeholder="Input XXL">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xl" type="text" placeholder="Input XL">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-l" type="text" placeholder="Input L">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input type="text" placeholder="Input M">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-s" type="text" placeholder="Input S">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xs" type="text" placeholder="Input XS">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input class="input-xxs" type="text" placeholder="Input XS">
-  </div>
+  </p>
 </form>
 
 ### Input Group
@@ -802,7 +802,7 @@ description: Demo of all HTML elements with turretcss styles applied.
 ### Select
 
 <form>
-  <div class="field">
+  <p class="field">
     <label class="select" for="select">
       <select id="select">
         <option>Select Field</option>
@@ -810,8 +810,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select" for="select-disabled">
       <select id="select-disabled" disabled>
         <option>Select Field</option>
@@ -819,13 +819,13 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### Select Indicators
 
 <form>
-  <div class="field">
+  <p class="field">
     <label class="select error" for="select-error">
       <select id="select-error">
         <option>Select Error</option>
@@ -833,8 +833,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select warning" for="select-warning">
       <select id="select-warning">
         <option>Select Warning</option>
@@ -842,8 +842,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select success" for="select-success">
       <select id="select-success">
         <option>Select Success</option>
@@ -851,8 +851,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select info" for="select-info">
       <select id="select-info">
         <option>Select Info</option>
@@ -860,13 +860,13 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### Select Sizes
 
 <form>
-  <div class="field">  
+  <p class="field">  
     <label class="select select-xxl" for="select-xxl">
       <select id="select-xxl">
         <option>Select XXL</option>
@@ -874,8 +874,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xl" for="select-xl">
       <select id="select-xl">
         <option>Select XL</option>
@@ -883,8 +883,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-l" for="select-l">
       <select id="select-l">
         <option>Select L</option>
@@ -892,8 +892,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-m" for="select-m">
       <select id="select-m">
         <option>Select M</option>
@@ -901,8 +901,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-s" for="select-s">
       <select id="select-s">
         <option>Select S</option>
@@ -910,8 +910,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xs" for="select-xs">
       <select id="select-xs">
         <option>Select XS</option>
@@ -919,8 +919,8 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xxs" for="select-xxs">
       <select id="select-xxs">
         <option>Select XXS</option>
@@ -928,18 +928,18 @@ description: Demo of all HTML elements with turretcss styles applied.
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### Range
 
 <form>
-  <div class="field">
+  <p class="field">
     <input type="range" min="0" max="100" />
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <input type="range" min="0" max="100" disabled />
-  </div>
+  </p>
 </form>
 
 ### Range Indicators

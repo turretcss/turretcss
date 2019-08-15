@@ -15,7 +15,7 @@ description: null
 
 ```html
 <div class="input-group">
-  <input type="text">
+  <input type="text" />
   <button class="button" type="submit">...</button>
 </div>
 ```
@@ -71,37 +71,37 @@ description: null
 
 ```html
 <div class="input-group">
-  <input class="input-xxl" type="text">
+  <input class="input-xxl" type="text" />
   <button class="button button-xxl" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input class="input-xl" type="text">
+  <input class="input-xl" type="text" />
   <button class="button button-xl" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input class="input-l" type="text">
+  <input class="input-l" type="text" />
   <button class="button button-l" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input type="text">
+  <input type="text" />
   <button class="button" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input class="input-s" type="text">
+  <input class="input-s" type="text" />
   <button class="button button-s" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input class="input-xs" type="text">
+  <input class="input-xs" type="text" />
   <button class="button button-xs" type="submit">...</button>
 </div>
 
 <div class="input-group">
-  <input class="input-xxs" type="text">
+  <input class="input-xxs" type="text" />
   <button class="button button-xxs" type="submit">...</button>
 </div>
 ```

@@ -6,15 +6,15 @@ description: The field is a container that wraps an label and input in a form to
 
 ## Example
 
-<div class="field">
+<p class="field">
   <label for="field">Label</label>
   <input type="email" id="field" placeholder="Input">
-</div>
+</p>
 
 ### HTML
 
 ```html
-<div class="field">...</div>
+<p class="field">...</p>
 ```
 
 ### CSS
@@ -25,18 +25,18 @@ description: The field is a container that wraps an label and input in a form to
 
 ## Field Float Label
 
-<div class="field field-float-label">
+<p class="field field-float-label">
   <input type="email" id="field" placeholder="Name">
   <label for="field">Name</label>
-</div>
+</p>
 
 ### HTML
 
 ```html
-<div class="field field-float-label">
-  <input type="text" id="field">
+<p class="field field-float-label">
+  <input type="text" id="field" />
   <label for="field">...</label>
-</div>
+</p>
 ```
 
 ### CSS

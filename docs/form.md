@@ -8,49 +8,49 @@ description: A guide to turretcss's default styling of form elements including e
 ## Example
 
 <form>
-  <div class="field">
+  <p class="field">
     <label for="form-simple-email">Email</label>
     <input type="email" id="form-simple-email" placeholder="Enter Email">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label for="form-simple-password">Password</label>
     <input type="password" id="form-simple-password" placeholder="Enter Password">
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="control checkbox">
       <input type="checkbox" name="checkbox" checked="true">
       <span class="control-indicator"></span>
       <span class="control-label">I agree to checking this checkbox</span>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <button type="submit" class="button">Submit</button>
     <button type="reset" class="button">Reset</button>
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
 <form>
-  <div class="field">
+  <p class="field">
     <label for="form-simple-email">Email</label>
-    <input type="email" id="form-simple-email" placeholder="Enter Email">
-  </div>
-  <div class="field">
+    <input type="email" id="form-simple-email" placeholder="Enter Email" />
+  </p>
+  <p class="field">
     <label for="form-simple-password">Password</label>
-    <input type="password" id="form-simple-password" placeholder="Enter Password">
-  </div>
-  <div class="field">
+    <input type="password" id="form-simple-password" placeholder="Enter Password" />
+  </p>
+  <p class="field">
     <label class="control checkbox">
-      <input type="checkbox" name="checkbox" checked="true">
+      <input type="checkbox" name="checkbox" checked="true" />
       <span class="control-indicator"></span>
       <span class="control-label">I agree to checking this checkbox</span>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <button type="submit" class="button">Submit</button>
     <button type="reset" class="button">Reset</button>
-  </div>
+  </p>
 </form>
 ```

@@ -7,7 +7,7 @@ description: null
 ## Example
 
 <form>
-  <div class="field">  
+  <p class="field">  
     <label class="select select-xxl" for="select-xxl">
       <select id="select-xxl">
         <option>Select XXL</option>
@@ -15,8 +15,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xl" for="select-xl">
       <select id="select-xl">
         <option>Select XL</option>
@@ -24,8 +24,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-l" for="select-l">
       <select id="select-l">
         <option>Select L</option>
@@ -33,8 +33,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-m" for="select-m">
       <select id="select-m">
         <option>Select M</option>
@@ -42,8 +42,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-s" for="select-s">
       <select id="select-s">
         <option>Select S</option>
@@ -51,8 +51,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xs" for="select-xs">
       <select id="select-xs">
         <option>Select XS</option>
@@ -60,8 +60,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">  
+  </p>
+  <p class="field">  
     <label class="select select-xxs" for="select-xxs">
       <select id="select-xxs">
         <option>Select XXS</option>
@@ -69,38 +69,52 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
 <label class="select select-xxl" for="select-xxl">
-  <select id="select-xxl">...</select>
+  <select id="select-xxl">
+    ...
+  </select>
 </label>
 
 <label class="select select-xl" for="select-xl">
-  <select id="select-xl">...</select>
+  <select id="select-xl">
+    ...
+  </select>
 </label>
 
 <label class="select select-l" for="select-l">
-  <select id="select-l">...</select>
+  <select id="select-l">
+    ...
+  </select>
 </label>
 
 <label class="select" for="select-m">
-  <select id="select-m">...</select>
+  <select id="select-m">
+    ...
+  </select>
 </label>
 
 <label class="select select-s" for="select-s">
-  <select id="select-s">...</select>
+  <select id="select-s">
+    ...
+  </select>
 </label>
 
 <label class="select select-xs" for="select-xs">
-  <select id="select-xs">...</select>
+  <select id="select-xs">
+    ...
+  </select>
 </label>
 
 <label class="select select-xxs" for="select-xxs">
-  <select id="select-xxs">...</select>
+  <select id="select-xxs">
+    ...
+  </select>
 </label>
 ```
 

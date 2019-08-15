@@ -8,18 +8,18 @@ description: null
 
 <form>
   <fieldset>
-    <div class="field">
+    <p class="field">
       <label for="fieldset-email">Email</label>
       <input type="email" id="fieldset-email" placeholder="Enter Email">
-    </div>
-    <div class="field">
+    </p>
+    <p class="field">
       <label for="fieldset-password">Password</label>
       <input type="password" id="fieldset-password" placeholder="Enter Password">
-    </div>
-    <div class="field">
+    </p>
+    <p class="field">
       <button type="submit" class="button">Submit</button>
       <button type="reset" class="button">Reset</button>
-    </div>
+    </p>
   </fieldset>
 </form>
 

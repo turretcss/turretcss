@@ -7,7 +7,7 @@ description: null
 ## Example
 
 <form>
-  <div class="field">
+  <p class="field">
     <label class="select" for="select">
       <select id="select">
         <option>Select Field</option>
@@ -15,8 +15,8 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
-  <div class="field">
+  </p>
+  <p class="field">
     <label class="select" for="select-disabled">
       <select id="select-disabled" disabled>
         <option>Select Field</option>
@@ -24,18 +24,22 @@ description: null
         <option value="2">Option 02</option>
       </select>
     </label>
-  </div>
+  </p>
 </form>
 
 ### HTML
 
 ```html
 <label class="select" for="select">
-  <select id="select">...</select>
+  <select id="select">
+    ...
+  </select>
 </label>
 
 <label class="select" for="select">
-  <select id="select" disabled>...</select>
+  <select id="select" disabled>
+    ...
+  </select>
 </label>
 ```
 
