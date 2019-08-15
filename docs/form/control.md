@@ -28,19 +28,19 @@ description: null
 
 ```html
 <label class="control checkbox">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 
 <label class="control radio">
-  <input type="radio" name="radio">
+  <input type="radio" name="radio" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 
 <label class="control switch">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -54,10 +54,13 @@ description: null
 --control-font-family: var(--input-font-family);
 --control-font-weight: var(--input-font-weight);
 --control-font-size: var(--input-font-size);
+--control-font-style: var(--input-font-style);
 --control-color: var(--input-color);
 --control-line-height: var(--line-height-xs);
 --control-text-transform: none;
 --control-letter-spacing: var(--letter-spacing);
+--control-text-transform: var(--input-text-transform);
+--control-letter-spacing: var(--input-letter-spacing);
 
 --control-hover-indicator-background: var(--input-hover-background);
 --control-hover-indicator-border-color: var(--input-hover-border-color);
@@ -98,7 +101,7 @@ description: null
 
 ```html
 <label class="control checkbox">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -124,7 +127,7 @@ description: null
 
 ```html
 <label class="control radio">
-  <input type="radio" name="radio">
+  <input type="radio" name="radio" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -152,7 +155,7 @@ description: null
 
 ```html
 <label class="control switch">
-  <input type="checkbox" name="switch">
+  <input type="checkbox" name="switch" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -189,17 +192,17 @@ description: null
 
 ```html
 <label class="control control-inline checkbox">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline checkbox">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline checkbox">
-  <input type="checkbox" name="checkbox">
+  <input type="checkbox" name="checkbox" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -227,17 +230,17 @@ description: null
 
 ```html
 <label class="control control-inline radio">
-  <input type="radio" name="radio">
+  <input type="radio" name="radio" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline radio">
-  <input type="radio" name="radio">
+  <input type="radio" name="radio" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline radio">
-  <input type="radio" name="radio">
+  <input type="radio" name="radio" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
@@ -265,17 +268,17 @@ description: null
 
 ```html
 <label class="control control-inline switch">
-  <input type="checkbox" name="switch">
+  <input type="checkbox" name="switch" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline switch">
-  <input type="checkbox" name="switch">
+  <input type="checkbox" name="switch" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>
 <label class="control control-inline switch">
-  <input type="checkbox" name="switch">
+  <input type="checkbox" name="switch" />
   <span class="control-indicator"></span>
   <span class="control-label">...</span>
 </label>

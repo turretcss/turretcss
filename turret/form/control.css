@@ -6,8 +6,11 @@
   font-family: var(--control-font-family);
   font-weight: var(--control-font-weight);
   font-size: var(--control-font-size);
+  font-style: var(--control-font-style);
   color: var(--control-color);
   line-height: var(--control-line-height);
+  text-transform: var(--control-text-transform);
+  letter-spacing: var(--control-letter-spacing);
   text-transform: var(--control-text-transform);
   letter-spacing: var(--control-letter-spacing);
   cursor: pointer;

@@ -193,10 +193,13 @@
   --control-font-family: var(--input-font-family);
   --control-font-weight: var(--input-font-weight);
   --control-font-size: var(--input-font-size);
+  --control-font-style: var(--input-font-style);
   --control-color: var(--input-color);
   --control-line-height: var(--line-height-xs);
   --control-text-transform: none;
   --control-letter-spacing: var(--letter-spacing);
+  --control-text-transform: var(--input-text-transform);
+  --control-letter-spacing: var(--input-letter-spacing);
 
   --control-hover-indicator-background: var(--input-hover-background);
   --control-hover-indicator-border-color: var(--input-hover-border-color);
