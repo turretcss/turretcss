@@ -4,6 +4,7 @@ label {
   font-family: var(--label-font-family);
   font-weight: var(--label-font-weight);
   font-size: var(--label-font-size);
+  font-style: var(--label-font-style);
   color: var(--label-color);
   line-height: var(--label-line-height);
   text-transform: var(--label-text-transform);

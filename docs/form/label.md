@@ -23,6 +23,7 @@ description: null
 --label-font-family: inherit;
 --label-font-weight: inherit;
 --label-font-size: var(--font-size-s);
+--label-font-style: normal;
 --label-color: inherit;
 --label-line-height: var(--line-height-m);
 --label-text-transform: none;
