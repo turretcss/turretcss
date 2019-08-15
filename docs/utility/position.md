@@ -4,8 +4,6 @@ title: Position
 description: null
 ---
 
-Utility classes can be used to position elements easily, each position utility class is `position: absolute;` with top/right/bottom/left properties
-
 | Class                   | Description                 |
 | ----------------------- | --------------------------- |
 | `absolute`              | Sets `position: absolute;`  |
