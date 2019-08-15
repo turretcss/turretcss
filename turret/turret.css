@@ -151,4 +151,5 @@
 @import './utility/transition';
 @import './utility/utility';
 @import './utility/visibility';
+@import './utility/width';
 @import './utility/z-index';
