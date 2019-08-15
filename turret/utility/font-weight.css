@@ -2,6 +2,10 @@
   font-weight: var(--font-weight-thin);
 }
 
+.font-weight-extra-light {
+  font-weight: var(--font-weight-extra-light);
+}
+
 .font-weight-light {
   font-weight: var(--font-weight-light);
 }
@@ -20,6 +24,10 @@
 
 .font-weight-bold {
   font-weight: var(--font-weight-bold);
+}
+
+.font-weight-extra-bold {
+  font-weight: var(--font-weight-extra-bold);
 }
 
 .font-weight-black {

@@ -7,21 +7,25 @@ description: null
 ## Example
 
 <p class="font-weight-thin">Font Weight Thin</p>
+<p class="font-weight-extra-light">Font Weight Extra Light</p>
 <p class="font-weight-light">Font Weight Light</p>
 <p class="font-weight-regular">Font Weight Regular</p>
 <p class="font-weight-medium">Font Weight Medium</p>
 <p class="font-weight-semibold">Font Weight Semibold</p>
 <p class="font-weight-bold">Font Weight Bold</p>
+<p class="font-weight-extra-bold">Font Weight Extra Bold</p>
 <p class="font-weight-black">Font Weight Black</p>
 <p class="font-weight">Font Weight</p>
 
 ```html
 <p class="font-weight-thin">...</p>
+<p class="font-weight-extra-light">...</p>
 <p class="font-weight-light">...</p>
 <p class="font-weight-regular">...</p>
 <p class="font-weight-medium">...</p>
 <p class="font-weight-semibold">...</p>
 <p class="font-weight-bold">...</p>
+<p class="font-weight-extra-bold">...</p>
 <p class="font-weight-black">...</p>
 <p class="font-weight">...</p>
 ```
