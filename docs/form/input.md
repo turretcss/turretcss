@@ -87,9 +87,6 @@ description: null
 <label for="input-text">Text Input</label>
 <input type="text" id="input-text" placeholder="Text" />
 
-<label for="input-inverse">Inverse Input</label>
-<input class="input-inverse" type="text" id="input-inverse" placeholder="Inverse" />
-
 <label for="input-disabled">Disabled</label>
 <input type="text" id="input-disabled" placeholder="Disabled" disabled="" />
 
