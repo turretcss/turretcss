@@ -24,7 +24,7 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.org): `npm install turretcss`.
 - Install with [yarn](https://github.com/yarnpkg/yarn): `yarn add turretcss`
 
-Read the [Getting started page](https://turretcss.com/docs/getting-started/) for information on structure, usage, support and more.
+Read the [Getting started page](https://turretcss.com/getting-started/) for information on structure, usage, support and more.
 
 ## Bugs and feature requests
 
