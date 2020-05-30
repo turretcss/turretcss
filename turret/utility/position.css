@@ -13,9 +13,9 @@
   position: absolute;
 }
 
-.sitcky,
-.position-sitcky {
-  position: sitcky;
+.sticky,
+.position-sticky {
+  position: sticky;
 }
 
 .static,
