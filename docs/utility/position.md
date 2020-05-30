@@ -12,8 +12,8 @@ description: null
 | `position-fixed`        | Sets `position: fixed;`     |
 | `relative`              | Sets `position: relative;`  |
 | `position-relative`     | Sets `position: relative;`  |
-| `sitcky`                | Sets `position: sitcky;`    |
-| `position-sitcky`       | Sets `position: sitcky;`    |
+| `sticky`                | Sets `position: sticky;`    |
+| `position-sticky`       | Sets `position: sticky;`    |
 | `static`                | Sets `position: static;`    |
 | `position-static`       | Sets `position: static;`    |
 | `position-top`          | Sets `top: 0;`              |
