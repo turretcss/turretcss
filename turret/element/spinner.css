@@ -7,7 +7,7 @@
     top: 50%;
     left: 50%;
     margin-top: calc(var(--spinner-size) / -2);
-    margin-left: calc(var(--spinner-size) / -2);
+    margin-inline-start: calc(var(--spinner-size) / -2);
     width: var(--spinner-size);
     height: var(--spinner-size);
     content: '';

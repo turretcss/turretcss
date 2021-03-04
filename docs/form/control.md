@@ -84,7 +84,7 @@ description: null
 --control-label-margin: 0 0 0 0.75em;
 --control-label-color: inherit;
 
---control-inline-margin-right: 2rem;
+--control-inline-margin-start: 2rem;
 ```
 
 ## Checkbox

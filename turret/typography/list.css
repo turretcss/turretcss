@@ -52,8 +52,8 @@ ol {
   list-style: none;
 
   & li {
-    margin-left: 0;
-    padding-left: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
   }
 }
 

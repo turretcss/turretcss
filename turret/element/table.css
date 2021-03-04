@@ -67,11 +67,11 @@ td {
         white-space: nowrap;
 
         &:first-child {
-          border-left: none;
+          border-inline-start: none;
         }
 
         &:last-child {
-          border-right: none;
+          border-inline-end: none;
         }
       }
 

@@ -18,7 +18,7 @@
   }
 
   a[href]::after {
-    margin-left: 0.2em;
+    margin-inline-start: 0.2em;
     content: attr(href);
   }
 
@@ -27,7 +27,7 @@
   }
 
   abbr[title]::after {
-    margin-left: 0.2em;
+    margin-inline-start: 0.2em;
     content: attr(title);
   }
 

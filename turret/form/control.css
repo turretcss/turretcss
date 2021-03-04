@@ -17,7 +17,8 @@
 
   &.control-inline {
     display: inline-flex;
-    margin-right: var(--control-inline-margin-right);
+    /* var(--control-inline-margin-right) kept for backward compatibility */
+    margin-inline-start: var(--control-inline-margin-right, var(--control-inline-margin-start));
   }
 
   &:hover .control-indicator {

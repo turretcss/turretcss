@@ -17,11 +17,11 @@
     vertical-align: middle;
 
     &:not(:first-child) {
-      margin-left: var(--button-icon-margin);
+      margin-inline-start: var(--button-icon-margin);
     }
 
     &:not(:last-child) {
-      margin-right: var(--button-icon-margin);
+      margin-inline-end: var(--button-icon-margin);
     }
   }
 }

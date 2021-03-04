@@ -93,7 +93,7 @@ input[type='file'] {
 input[type='checkbox'],
 input[type='radio'] {
   display: inline-block;
-  margin-right: 10px;
+  margin-inline-end: 10px;
   width: auto;
   height: auto;
   box-shadow: none !important;
